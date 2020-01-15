@@ -5,15 +5,9 @@ class CfgPatches {
     class CUP_Weapons_M1014 {
         name = "TAC_M1014";
         units[] = { };
-        weapons[] = {
-            "CUP_sgun_M1014",
-			"CUP_sgun_M1014_solidstock",
-			"CUP_sgun_M1014_vfg",
-			"CUP_sgun_M1014_Entry",
-			"CUP_sgun_M1014_Entry_vfg"
-        };
+        weapons[] = { "CUP_sgun_M1014", "CUP_sgun_M1014_solidstock", "CUP_sgun_M1014_vfg", "CUP_sgun_M1014_Entry", "CUP_sgun_M1014_Entry_vfg" };
 		requiredVersion=0.1;
-        requiredaddons[] = {"A3_Data_F_Enoch_Loadorder", "CUP_Weapons_M1014", "CUP_Weapons_Ammunition"};
+        requiredaddons[] = {"TACR"};
     };
         author[] = {"TyroneMF"};
         version = "0.1";
@@ -41,33 +35,13 @@ class CfgWeapons {
 		scope=1;
 		model="CUP\Weapons\CUP_Weapons_M1014\CUP_benelli_m1014";
 		picture="\CUP\Weapons\CUP_Weapons_M1014\data\ui\gear_M1014_X_ca.paa";
-		magazines[]=
-		{
-			"CUP_8Rnd_B_Beneli_74Slug",
-			"CUP_8Rnd_B_Beneli_74Pellets",
-			"CUP_6Rnd_B_Beneli_74Pellets",
-			"CUP_6Rnd_B_Benelli_74Slug"
-		};
-		magazineWell[]=
-		{
-			"CBA_12g_8rnds",
-			"CBA_12g_6rnds"
-		};
-		hiddenSelections[]=
-		{
-			"CamoBody",
-			"CamoBarrel",
-			"CamoStock"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"CUP\Weapons\CUP_Weapons_M1014\data\benelli_m1014_body_co.paa",
-			"CUP\Weapons\CUP_Weapons_M1014\data\benelli_m1014_barrel_co.paa",
-			"CUP\Weapons\CUP_Weapons_M1014\data\benelli_m1014_stock_co.paa"
-		};
+		magazines[]= { "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Benelli_74Slug" };
+		magazineWell[]= { "CBA_12g_8rnds", "CBA_12g_6rnds" };
+		hiddenSelections[]= { "CamoBody", "CamoBarrel", "CamoStock" };
+		hiddenSelectionsTextures[]= { "CUP\Weapons\CUP_Weapons_M1014\data\benelli_m1014_body_co.paa", "CUP\Weapons\CUP_Weapons_M1014\data\benelli_m1014_barrel_co.paa", "CUP\Weapons\CUP_Weapons_M1014\data\benelli_m1014_stock_co.paa" };
 		inertia=0.5;
 		aimTransitionSpeed=0.89999998;
-		bullet1[]={ "a3\sounds_f\weapons\Shells\shotgun\metal_shotgun_01",0.50118721,1,15 };
+		bullet1[]= { "a3\sounds_f\weapons\Shells\shotgun\metal_shotgun_01",0.50118721,1,15 };
 		bullet2[]= { "A3\Sounds_F\weapons\shells\shotgun\metal_shotgun_02", 0.50118721,1,15 };
 		bullet3[]= { "A3\Sounds_F\weapons\shells\shotgun\metal_shotgun_03",0.50118721,1,15 };
 		bullet4[]= { "A3\Sounds_F\weapons\shells\shotgun\metal_shotgun_04", 0.50118721,1,15 };
@@ -97,17 +71,13 @@ class CfgWeapons {
 		ACE_barrelLength=469.89999;
 		discreteDistance[]={100};
 		maxZeroing=400;
-		class Single: Mode_SemiAuto
-		{
-			class BaseSoundModeType
-			{
+		class Single: Mode_SemiAuto {
+            class BaseSoundModeType {
 			};
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[]= { "TAC_sgun_M1014_Shot_SoundSet", "TAC_sgun_M1014_tail_SoundSet" };
-			};
-			class SilencedSound: BaseSoundModeType
-			{
+			class StandardSound: BaseSoundModeType {
+                soundSetShot[]= { "TAC_sgun_M1014_Shot_SoundSet", "TAC_sgun_M1014_tail_SoundSet" };
+            };
+			class SilencedSound: BaseSoundModeType {
 				soundSetShot[]= { "TAC_sgun_M1014_Shot_SoundSet", "TAC_sgun_M1014_tail_SoundSet" };
 			};
 			dispersion=0.003;
