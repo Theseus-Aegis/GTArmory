@@ -24,13 +24,11 @@ class CUP_PicatinnyTopShortMount;
 
 class CfgWeapons {
 	class Rifle;
-	class Rifle_Base_F: Rifle
-	{
+	class Rifle_Base_F: Rifle {
 		class WeaponSlotsInfo;
 		class GunParticles;
 	};
-	class CUP_sgun_M1014_base: Rifle_Base_F
-	{
+	class CUP_sgun_M1014_base: Rifle_Base_F {
 		dlc="CUP_Weapons";
 		scope=1;
 		model="CUP\Weapons\CUP_Weapons_M1014\CUP_benelli_m1014";
@@ -92,8 +90,7 @@ class CfgWeapons {
 			maxRange=50;
 			maxRangeProbab=0.15000001;
 		};
-		class Single_close: Single
-		{
+		class Single_close: Single {
 			showToPlayer=0;
 			aiRateOfFire=2;
 			aiRateOfFireDistance=200;
@@ -104,8 +101,7 @@ class CfgWeapons {
 			maxRange=250;
 			maxRangeProbab=0.15000001;
 		};
-		class Single_far: Single_close
-		{
+		class Single_far: Single_close {
 			aiRateOfFire=4;
 			aiRateOfFireDistance=300;
 			minRange=220;
@@ -115,19 +111,16 @@ class CfgWeapons {
 			maxRange=350;
 			maxRangeProbab=0.15000001;
 		};
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
+		class WeaponSlotsInfo: WeaponSlotsInfo {
 			mass=84.199997;
 			class MuzzleSlot { };
-			class PointerSlot: asdg_FrontSideRail
-			{
+			class PointerSlot: asdg_FrontSideRail {
 				iconPinpoint="center";
 				iconPosition[]={0.252,0.55900002};
 				iconScale=0.20999999;
 				iconPicture="\A3\Weapons_F\Data\UI\attachment_side.paa";
 			};
-			class CowsSlot: CUP_PicatinnyTopShortMount
-			{
+			class CowsSlot: CUP_PicatinnyTopShortMount {
 				iconPinpoint="center";
 				iconPosition[]={0.49599999,0.33199999};
 				iconScale=0.15000001;
