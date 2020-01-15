@@ -1,10 +1,8 @@
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
 
-class CfgPatches
-{
-	class CUP_Weapons_Saiga12k
-	{
+class CfgPatches {
+	class CUP_Weapons_Saiga12k {
 		name = "TAC_Saiga12k";
         units[]={};
 		weapons[]= { "CUP_sgun_Saiga12K", "CUP_sgun_Saiga12K_top_rail" };
@@ -23,16 +21,13 @@ class CUP_DovetailMount;
 class CUP_EastMuzzleSlot9mm;
 class CUP_PicatinnyTopShortMount;
 
-class CfgWeapons
-{
+class CfgWeapons {
 	class Rifle;
-	class Rifle_Base_F: Rifle
-	{
+	class Rifle_Base_F: Rifle {
 		class WeaponSlotsInfo;
 		class GunParticles;
 	};
-	class CUP_sgun_Saiga12K: Rifle_Base_F
-	{
+	class CUP_sgun_Saiga12K: Rifle_Base_F {
 		author="$STR_CUP_AUTHOR_STRING";
 		dlc="CUP_Weapons";
 		scope=2;
@@ -58,15 +53,12 @@ class CfgWeapons
 		fireSpreadAngle=0.94999999;
 		cursor="sgun";
 		class Single: Mode_SemiAuto {
-        class BaseSoundModeType {
-		};
+        class BaseSoundModeType { };
 			sounds[]= { "StandardSound", "SilencedSound" };
-			class StandardSound: BaseSoundModeType
-			{
+			class StandardSound: BaseSoundModeType {
 				soundSetShot[]= { "TAC_sgun_Saiga12_Shot_SoundSet", "TAC_sgun_Saiga12_tail_SoundSet" };
 			};
-			class SilencedSound: BaseSoundModeType
-			{
+			class SilencedSound: BaseSoundModeType {
 				soundSetShot[]= { "TAC_sgun_Saiga12_Shot_SoundSet", "TAC_sgun_Saiga12_tail_SoundSet" };
 			};
 			dispersion=0.003;
@@ -81,8 +73,7 @@ class CfgWeapons
 			maxRange=50;
 			maxRangeProbab=0.15000001;
 		};
-		class Single_close: Single
-		{
+		class Single_close: Single {
 			showToPlayer=0;
 			aiRateOfFire=2;
 			aiRateOfFireDistance=200;
@@ -93,8 +84,7 @@ class CfgWeapons
 			maxRange=250;
 			maxRangeProbab=0.15000001;
 		};
-		class Single_far: Single_close
-		{
+		class Single_far: Single_close {
 			aiRateOfFire=4;
 			aiRateOfFireDistance=300;
 			minRange=220;
@@ -104,23 +94,19 @@ class CfgWeapons
 			maxRange=350;
 			maxRangeProbab=0.15000001;
 		};
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
+		class WeaponSlotsInfo: WeaponSlotsInfo {
 			mass=77.099998;
-			class CUP_DovetailMount_Saiga12k: CUP_DovetailMount
-			{
+			class CUP_DovetailMount_Saiga12k: CUP_DovetailMount {
 				iconPinpoint="center";
 				iconPosition[]={0.588,0.227};
 				iconScale=0.1;
 				iconPicture="\A3\Weapons_F\Data\UI\attachment_top.paa";
 			};
-			class CowsSlot: CowsSlot
-			{
+			class CowsSlot: CowsSlot {
 				linkProxy="\A3\data_f\proxies\weapon_slots\MUZZLE";
 				compatibleItems[]={};
 			};
-			class PointerSlot: PointerSlot
-			{
+			class PointerSlot: PointerSlot {
 				linkProxy="\A3\data_f\proxies\weapon_slots\SIDE";
 				compatibleItems[]={};
 			};

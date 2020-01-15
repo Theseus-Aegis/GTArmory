@@ -72,8 +72,7 @@ class CfgWeapons {
 		discreteDistance[]={100};
 		maxZeroing=400;
 		class Single: Mode_SemiAuto {
-            class BaseSoundModeType {
-			};
+            class BaseSoundModeType { };
 			class StandardSound: BaseSoundModeType {
                 soundSetShot[]= { "TAC_sgun_M1014_Shot_SoundSet", "TAC_sgun_M1014_tail_SoundSet" };
             };
@@ -119,9 +118,7 @@ class CfgWeapons {
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass=84.199997;
-			class MuzzleSlot
-			{
-			};
+			class MuzzleSlot { };
 			class PointerSlot: asdg_FrontSideRail
 			{
 				iconPinpoint="center";

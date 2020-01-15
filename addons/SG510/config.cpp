@@ -2,10 +2,8 @@
 
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
-class CfgPatches
-{
-    class hlcweapons_stgw57
-    {
+class CfgPatches {
+    class hlcweapons_stgw57 {
         requiredaddons[] = {"TACR"};
         units[] = { "HLC_SG510_ammobox", "Weapon_rifle_stgw57ris", "Weapon_rifle_stgw57", "weapon_rifle_stgw57_commando", "weapon_rifle_sig5104", "weapon_rifle_amt" };
         weapons[] = { "hlc_rifle_STGW57", "hlc_rifle_stgw57_RIS", "hlc_rifle_stgw57_commando", "hlc_rifle_sig5104", "hlc_rifle_amt", "hlc_optic_Kern", "hlc_optic_Kern2d" };
@@ -29,13 +27,11 @@ class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount sup
 
 class CfgWeapons {
     class Rifle;
-    class Rifle_Base_F : Rifle
-    {
+    class Rifle_Base_F : Rifle {
         class WeaponSlotsInfo;
         class GunParticles;
     };
-    class hlc_STGW_base : Rifle_Base_F
-    {
+    class hlc_STGW_base : Rifle_Base_F {
         dlc = "Niarms_SG510";
         scope = protected;
         recoil = "recoil_ebr";
@@ -47,10 +43,6 @@ class CfgWeapons {
             "hlc_24Rnd_75x55_B_stgw", "hlc_24Rnd_75x55_ap_stgw", "hlc_24Rnd_75x55_T_stgw"
         };
         magazineWell[] = {"CBA_75x55_STGW57"};
-        class Library
-        {
-            libTextDesc = "SIG Stgw.510";
-        };
         reloadAction = "GestureReloadEBR";
         __AI_DISPERSION_COEF;
         cameraDir = "";
@@ -83,8 +75,7 @@ class CfgWeapons {
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
 
-            class BaseSoundModeType /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-            {
+            class BaseSoundModeType {
                 weaponSoundEffect = "DefaultRifle";
 
                 closure1[] = { "\hlc_wp_sigamt\snd\amt_first", 1, 1, 10 };
@@ -92,13 +83,11 @@ class CfgWeapons {
                 soundClosure[] = { closure1, 0.5, closure2, 0.5 };
             };
 
-            class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-            {
+            class StandardSound : BaseSoundModeType {
                 soundSetShot[] = { "TAC_sg510_Shot_SoundSet", "TAC_sg510_Tail_SoundSet" };
             };
 
-            class SilencedSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-            {
+            class SilencedSound : BaseSoundModeType {
                 soundSetShot[] = { "TAC_sg510_silencerShot_SoundSet", "TAC_sg510_silencerTail_SoundSet" };
             };
             dispersion = 0.000555596;
@@ -108,8 +97,7 @@ class CfgWeapons {
         class FullAuto : Mode_FullAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
 
-            class BaseSoundModeType /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-            {
+            class BaseSoundModeType {
                 weaponSoundEffect = "DefaultRifle";
 
                 closure1[] = { "\hlc_wp_sigamt\snd\amt_first", 1, 1, 10 };
@@ -117,13 +105,11 @@ class CfgWeapons {
                 soundClosure[] = { closure1, 0.5, closure2, 0.5 };
             };
 
-            class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-            {
+            class StandardSound : BaseSoundModeType {
                 soundSetShot[] = { "TAC_sg510_Shot_SoundSet", "TAC_sg510_Tail_SoundSet" };
             };
 
-            class SilencedSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-            {
+            class SilencedSound : BaseSoundModeType {
                 soundSetShot[] = { "TAC_sg510_silencerShot_SoundSet", "TAC_sg510_silencerTail_SoundSet" };
             };
             dispersion = 0.000555596;
