@@ -1,37 +1,20 @@
-class CfgMovesBasic {
-    class DefaultDie;
-    class ManActions {
-        suv_cargo_back_side="suv_cargo_back_side";
-    };
-};
-class CfgMovesMaleSdr: CfgMovesBasic {
-    class States {
-        class Crew;
-        class suv_cargo_back_side: Crew {
-            file="\cup\wheeledvehicles\cup_wheeledvehicles_suv\data\Anim\suv_cargo_back_side.rtm";
-            interpolateTo[]= { "Unconscious",1 };
-            speed=1e+010;
-        };
-    };
-};
-
-class DefaultEventhandlers;
 class CfgPatches {
     class TAC_SUV {
-        units[]= { "TAC_Mathews_B_SUV", "TAC_Mathews_I_SUV" };
+        units[]= { "TAC_Arcadian_B_SUV", "TAC_Arcadian_I_SUV" };
         weapons[]={ };
         requiredVersion=0.1;
-        requiredAddons[]= { "TACR" };
+        requiredAddons[]= { "GTA" };
     };
 };
 class CfgVehicles {
 
-#include "SUVBaseClass.hpp"
+#include "baseclass.hpp"
 
-    class TAC_Mathews_B_SUV: TAC_SUV_Base {
+    class TAC_Arcadian_B_SUV: TAC_SUV_Base {
         scope=2;
         scopeCurator=2;
         scopeArsenal=2;
+        displayName = "G&T Armory Arcadian";
         crew="tacs_Unit_B_Contractor";
         typicalCargo[]= { "Unit_B_Contractor" };
         side=1;
@@ -47,10 +30,11 @@ class CfgVehicles {
         class TransportBackpacks { };
     };
 
-    class TAC_Mathews_I_SUV: TAC_SUV_Base {
+    class TAC_Arcadian_I_SUV: TAC_SUV_Base {
         scope=2;
         scopeCurator=2;
         scopeArsenal=2;
+        displayName = "G&T Armory Arcadian";
         crew="tacs_Unit_I_Contractor";
         typicalCargo[]= { "Unit_I_Contractor" };
         side=2;
