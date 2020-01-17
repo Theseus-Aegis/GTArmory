@@ -35,11 +35,8 @@ class CUP_SUV_Unarmed_Base: CUP_SUV_Base {
     };
 };
 class TAC_SUV_Base: CUP_SUV_Unarmed_Base { 
-        occludeSoundsWhenIn=1;
-        obstructSoundsWhenIn=1;
-        fireResistance=8;
-        armor=130;
-        armorStructural=4;
+        armor=30;
+        armorStructural=1;
         crewCrashProtection=1;
         // Damage & Hitpoints
        class HitPoints: HitPoints {
@@ -82,7 +79,7 @@ class TAC_SUV_Base: CUP_SUV_Unarmed_Base {
                 radius=0.44999999;
             };
             class HitBody: HitBody {
-                armor=6;
+                armor=3;
                 material=-1;
                 name="body";
                 visual="camo";
@@ -102,25 +99,25 @@ class TAC_SUV_Base: CUP_SUV_Unarmed_Base {
                 radius=0.25;
             };
             class HitGlass1: HitGlass1 {
-                armor=5;
+                armor=1;
                 explosionShielding=3;
                 radius=0.5;
                 passThrough=0;
             };
             class HitGlass2: HitGlass2 {
-                armor=5;
+                armor=1;
                 explosionShielding=3;
                 radius=0.5;
                 passThrough=0;
             };
             class HitGlass3: HitGlass3 {
-                armor=5;
+                armor=1;
                 explosionShielding=3;
                 radius=0.5;
                 passThrough=0;
             };
             class HitGlass4: HitGlass4 {
-                armor=5;
+                armor=1;
                 explosionShielding=3;
                 radius=0.5;
                 passThrough=0;
@@ -185,7 +182,7 @@ class TAC_SUV_Base: CUP_SUV_Unarmed_Base {
             { "(3000/3500)","(300/425)" },
             { "(6000/3500)","(0/425)" }
         };
-        changeGearMinEffectivity[]={1,0.15000001,1,1,1,1,1,1};
+        changeGearMinEffectivity[]= {0.94999999,0.15000001,0.94999999,0.94999999,0.94999999,0.94999999,0.94999999}; // Default {1,0.15000001,1,1,1,1,1,1};
         switchTime=0.31;
         latency=1.5;
         class Wheels {
