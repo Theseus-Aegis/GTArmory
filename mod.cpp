@@ -1,0 +1,10 @@
+name = "G&T Armory";
+picture = "";
+description = "G&T Armory";
+logo = "";
+logoOver = "";
+tooltip = "";
+tooltipOwned = "";
+overview = "";
+author = "TyroneMF, Gilleedoo";
+overviewPicture = "";

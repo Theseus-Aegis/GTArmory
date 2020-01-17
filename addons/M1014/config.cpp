@@ -6,7 +6,7 @@ class CfgPatches {
         name = "GTA_M1014";
         units[] = { };
         weapons[] = { };
-        requiredVersion=0.1;
+        requiredVersion = 0.1;
         requiredaddons[] = {"GTA"};
     };
         author[] = {"TyroneMF"};
@@ -31,15 +31,15 @@ class CfgWeapons {
     };
 
     class CUP_sgun_M1014_base: Rifle_Base_F { 
-        magazines[]= { "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Benelli_74Slug" };
-        magazineWell[]= { "CBA_12g_8rnds", "CBA_12g_6rnds" };
+        magazines[] = { "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Benelli_74Slug" };
+        magazineWell[] = { "CBA_12g_8rnds", "CBA_12g_6rnds" };
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[]= { "TAC_sgun_M1014_LB_Shot_SoundSet", "TAC_sgun_M1014_LB_tail_SoundSet" };
+                soundSetShot[] = { "TAC_sgun_M1014_LB_Shot_SoundSet", "TAC_sgun_M1014_LB_tail_SoundSet" };
             };
             class SilencedSound: BaseSoundModeType {
-                soundSetShot[]= { "TAC_sgun_M1014_LB_Shot_SoundSet", "TAC_sgun_M1014_LB_tail_SoundSet" };
+                soundSetShot[] = { "TAC_sgun_M1014_LB_Shot_SoundSet", "TAC_sgun_M1014_LB_tail_SoundSet" };
             };
             reloadTime=0;
         };
@@ -52,10 +52,10 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
         class BaseSoundModeType { };
         class StandardSound: BaseSoundModeType {
-            soundSetShot[]= { "TAC_sgun_M1014_SB_Shot_SoundSet", "TAC_sgun_M1014_SB_tail_SoundSet" };
+            soundSetShot[] = { "TAC_sgun_M1014_SB_Shot_SoundSet", "TAC_sgun_M1014_SB_tail_SoundSet" };
             };
         class SilencedSound: BaseSoundModeType {
-            soundSetShot[]= { "TAC_sgun_M1014_SB_Shot_SoundSet", "TAC_sgun_M1014_SB_tail_SoundSet" };
+            soundSetShot[] = { "TAC_sgun_M1014_SB_Shot_SoundSet", "TAC_sgun_M1014_SB_tail_SoundSet" };
             };
             reloadTime=0;
         };
