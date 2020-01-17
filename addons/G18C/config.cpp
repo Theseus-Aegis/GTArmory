@@ -1,10 +1,10 @@
 class CfgPatches {
-	class GTA_Weapons_Glock18 {
-		units[]={ };
-		weapons[]= { "GTA_hgun_Glock18_Tan", "GTA_hgun_Glock18_Black" };
-		requiredVersion=0.1;
-		requiredAddons[]= { "GTA" };
-	};
+    class GTA_Weapons_Glock18 {
+        units[]={ };
+        weapons[]= { "GTA_hgun_Glock18_Tan", "GTA_hgun_Glock18_Black" };
+        requiredVersion=0.1;
+        requiredAddons[]= { "GTA" };
+    };
 };
 
 class asdg_MuzzleSlot_9MM;
@@ -12,9 +12,9 @@ class Mode_SemiAuto;
 class Mode_FullAuto;
 class asdg_SlotInfo;
 class asdg_PistolUnderRail: asdg_SlotInfo {
-	class compatibleItems {
-		CUP_acc_Glock17_Flashlight=1;
-	};
+    class compatibleItems {
+        CUP_acc_Glock17_Flashlight=1;
+    };
 };
 class CfgWeapons {
     
@@ -67,8 +67,8 @@ class CfgWeapons {
     {
         author="Tyrone";
         scope=2;
-		hiddenSelections[]= { "Camo" };
-		hiddenSelectionsTextures[]= { "\CUP\Weapons\CUP_Weapons_glock17\data\glock17_blk_co.paa" };
+        hiddenSelections[]= { "Camo" };
+        hiddenSelectionsTextures[]= { "\CUP\Weapons\CUP_Weapons_glock17\data\glock17_blk_co.paa" };
         displayName="Glock 18C Black";
     };
 };
