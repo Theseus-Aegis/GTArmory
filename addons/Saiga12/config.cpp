@@ -3,11 +3,11 @@
 
 class CfgPatches {
     class CUP_Weapons_Saiga12k {
-        name = "TAC_Saiga12k";
+        name = "GTA_Saiga12k";
         units[]={};
         weapons[]= { "CUP_sgun_Saiga12K", "CUP_sgun_Saiga12K_top_rail" };
         requiredVersion=0.1;
-        requiredAddons[]= { "TACR" };
+        requiredAddons[]= { "GTA" };
     };
 };
 

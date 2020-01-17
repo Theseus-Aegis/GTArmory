@@ -1,5 +1,5 @@
 class CfgPatches {
-    class TACR {
+    class GTA {
         name = Main;
         units[] = {};
         weapons[] = {};
@@ -16,6 +16,7 @@ class CfgPatches {
             "CUP_Weapons_WeaponsCore",
             "CUP_Weapons_East_Attachments",
             "CUP_WheeledVehicles_Core",
+            "CUP_WheeledVehicles_SUV",
             "CUP_Weapons_Ammunition",
             "CUP_Weapons_M1014",
             "CUP_Weapons_Saiga12K",

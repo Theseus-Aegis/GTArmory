@@ -1,9 +1,9 @@
 class CfgPatches {
-	class TAC_Weapons_Glock18 {
+	class GTA_Weapons_Glock18 {
 		units[]={ };
-		weapons[]= { "TAC_hgun_Glock18" };
+		weapons[]= { "GTA_hgun_Glock18" };
 		requiredVersion=0.1;
-		requiredAddons[]= { "TACR" };
+		requiredAddons[]= { "GTA" };
 	};
 };
 
@@ -23,7 +23,7 @@ class CfgWeapons {
 		class WeaponSlotsInfo;
 	};
 
-    class TAC_hgun_Glock18: Pistol_Base_F
+    class GTA_hgun_Glock18: Pistol_Base_F
     {
         author="Tyrone";
         dlc="CUP_Weapons";
@@ -140,7 +140,7 @@ class CfgWeapons {
             libTextDesc="$STR_CUP_lib_glock17";
         };
         descriptionShort="$STR_CUP_dss_glock17";
-        autoFire=1; // CHANGE ME BACK TO 0
+        autoFire=1;
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass=13.8;
             class CowsSlot {

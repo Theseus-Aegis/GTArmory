@@ -3,11 +3,11 @@
 
 class CfgPatches {
     class CUP_Weapons_M1014 {
-        name = "TAC_M1014";
+        name = "GTA_M1014";
         units[] = { };
         weapons[] = { "CUP_sgun_M1014", "CUP_sgun_M1014_solidstock", "CUP_sgun_M1014_vfg", "CUP_sgun_M1014_Entry", "CUP_sgun_M1014_Entry_vfg" };
         requiredVersion=0.1;
-        requiredaddons[] = {"TACR"};
+        requiredaddons[] = {"GTA"};
     };
         author[] = {"TyroneMF"};
         version = "0.1";
