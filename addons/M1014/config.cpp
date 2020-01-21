@@ -2,7 +2,7 @@
 #include "cfgsoundset.hpp"
 
 class CfgPatches {
-    class CUP_Weapons_M1014 {
+    class GTA_Weapons_M1014 {
         name = "GTA_M1014";
         units[] = { };
         weapons[] = { };
@@ -31,8 +31,8 @@ class CfgWeapons {
     };
 
     class CUP_sgun_M1014_base: Rifle_Base_F { 
-        magazines[] = { "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Benelli_74Slug" };
-        magazineWell[] = { "CBA_12g_8rnds", "CBA_12g_6rnds" };
+        magazines[] = { "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Benelli_74Slug", "GTA_8Rnd_P_Whammy", "GTA_6Rnd_P_Whammy", "GTA_8Rnd_P_AP20", "GTA_6Rnd_P_AP20" };
+        magazineWell[] = { "CBA_12g_8rnds", "CBA_12g_6rnds", "GTA_8rnd_12g", "GTA_6rnd_12g" };
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {

@@ -14,8 +14,8 @@ class CfgSoundShaders {
 	class sg510_midShot_SoundShader {
 		samples[] = { { "hlc_wp_sigamt\snd\soundshaders\amt_mid", 1 } };
 		volume = 0.6;
-		range = 2000;
-		rangeCurve[] = { { 0, 0.5 },{ 50, 1 },{ 300, 0 },{ 2000, 0 } };
+		range = 1000;
+		rangeCurve[] = { { 0, 0.5 },{ 50, 1 },{ 300, 0 },{ 1000, 0 } };
 	};
 	class sg510_distShot_SoundShader {
 		samples[] = { { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_02_MAR10\DMR02_distShot_01", 1 }, { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_02_MAR10\DMR02_distShot_02", 1 }, { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_02_MAR10\DMR02_distShot_03", 1 } };
@@ -47,7 +47,7 @@ class CfgSoundShaders {
 	class sg510_tailInterior_SoundShader {
 		samples[] = { { "hlc_wp_sigamt\snd\soundshaders\amt_fire_indoor", 1 } };
 		volume = "interior";
-		range = 350;
+		range = 100;
 		rangeCurve[] = { { 0, 1 },{ 50, 0.4 },{ 100, 0.2 },{ 350, 0 } };
 		limitation = 1;
 	};

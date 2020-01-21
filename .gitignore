@@ -50,6 +50,7 @@ Temporary Items
 release/*
 *.cache
 releases/*
+keys/*
 
 # HEMTT
 hemtt
