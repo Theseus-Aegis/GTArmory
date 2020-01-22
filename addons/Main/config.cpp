@@ -26,6 +26,6 @@ class CfgPatches {
             // Theseus
             "tacs_main"
         };
-        author = Tyrone;
+        author[] = {"TyroneMF"};
     };
 };

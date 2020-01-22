@@ -8,6 +8,8 @@ class CfgPatches {
         requiredVersion = 0.1;
         requiredAddons[] = { "GTA" };
     };
+        author[] = {"TyroneMF"};
+        version = "0.1";
 };
 
 class Mode_SemiAuto;
@@ -18,7 +20,7 @@ class asdg_OpticRail1913_short;
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
 };
-class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount suppressors
+class asdg_MuzzleSlot_556 : asdg_MuzzleSlot {
     class compatibleItems { };
 };
 

@@ -5,6 +5,8 @@ class CfgPatches {
         requiredVersion=0.1;
         requiredAddons[] = { "GTA" };
     };
+        author[] = {"TyroneMF"};
+        version = "0.1";
 };
 
 class asdg_MuzzleSlot_9MM;
@@ -18,10 +20,15 @@ class asdg_PistolUnderRail: asdg_SlotInfo {
 };
 class CfgWeapons {
     
-#include "baseclass.hpp"
+	class Pistol;
+	class Pistol_Base_F: Pistol {
+		class WeaponSlotsInfo;
+	};
+	class CUP_hgun_Glock17: Pistol_Base_F { };
+    class CUP_hgun_Glock17_tan: CUP_hgun_Glock17 { };
 
     class GTA_hgun_Glock18_Tan: CUP_hgun_Glock17_tan {
-        author = "Tyrone";
+        author = "TyroneMF";
         scope = 2;
         modes[] = { "Single", "FullAuto" };
 
@@ -65,7 +72,7 @@ class CfgWeapons {
 
     class GTA_hgun_Glock18_Black: GTA_hgun_Glock18_Tan
     {
-        author = "Tyrone";
+        author = "TyroneMF";
         scope = 2;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\CUP\Weapons\CUP_Weapons_glock17\data\glock17_blk_co.paa" };

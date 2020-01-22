@@ -31,7 +31,7 @@ class CfgWeapons {
     };
 
     class CUP_sgun_M1014_base: Rifle_Base_F { 
-        magazines[] = { "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Benelli_74Slug", "GTA_8Rnd_P_Whammy", "GTA_6Rnd_P_Whammy", "GTA_8Rnd_P_AP20", "GTA_6Rnd_P_AP20" };
+        magazines[] = { "CUP_8Rnd_B_Beneli_74Slug", "CUP_8Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Benelli_74Slug", "GTA_8Rnd_P_000", "GTA_6Rnd_P_000", "GTA_8Rnd_P_AP20", "GTA_6Rnd_P_AP20" };
         magazineWell[] = { "CBA_12g_8rnds", "CBA_12g_6rnds", "GTA_8rnd_12g", "GTA_6rnd_12g" };
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
@@ -49,6 +49,8 @@ class CfgWeapons {
     class CUP_sgun_M1014_solidstock: CUP_sgun_M1014 { };
     class CUP_sgun_M1014_vfg: CUP_sgun_M1014_base { };
 	class CUP_sgun_M1014_Entry: CUP_sgun_M1014_base { 
+        magazines[] = { "CUP_6Rnd_B_Beneli_74Pellets", "CUP_6Rnd_B_Benelli_74Slug", "GTA_6Rnd_P_000", "GTA_6Rnd_P_AP20" };
+        magazineWell[] = { "CBA_12g_6rnds", "GTA_6rnd_12g" };
         class Single: Mode_SemiAuto {
         class BaseSoundModeType { };
         class StandardSound: BaseSoundModeType {

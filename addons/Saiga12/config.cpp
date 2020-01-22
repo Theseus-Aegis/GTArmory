@@ -9,6 +9,8 @@ class CfgPatches {
         requiredVersion = 0.1;
         requiredAddons[] = { "GTA" };
     };
+        author[] = {"TyroneMF"};
+        version = "0.1";
 };
 
 class Mode_SemiAuto;
