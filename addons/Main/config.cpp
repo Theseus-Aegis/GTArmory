@@ -23,6 +23,8 @@ class CfgPatches {
             // NIArms
             "hlcweapons_core",
             "hlcweapons_stgw57",
+            "hlcweapons_sg550",
+            "hlcweapons_mp5",
             // Theseus
             "tacs_main"
         };

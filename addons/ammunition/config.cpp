@@ -45,7 +45,7 @@ class B_12Gauge_Pellets_Submunition_Deploy: BulletBase { };
     };
 
     class GTA_S_12G_AP20: BulletBase {
-        timetoLive = 2;
+        timetoLive = 0.1;
         hit = 35;
         indirectHit = 0;
         indirectHitRange = 0;
