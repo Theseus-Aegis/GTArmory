@@ -1,13 +1,15 @@
+#include "script_component.hpp"
+
 class CfgPatches {
-    class GTA_Weapons_MP5 {
+    class TACGT_Weapons_MP5 {
+        name = COMPONENT_NAME;
         units[] = { "" };
         weapons[] = { "" };
         magazines[] = { "" };
         requiredVersion = 0.1;
-        requiredaddons[] = { "GTA" };
+        requiredaddons[] = { "TACGT" };
     };
-        author[] = { "TyroneMF" };
-        version = "0.1";
+        VERSION_CONFIG;
 };
 
 class Mode_SemiAuto;
@@ -15,15 +17,15 @@ class Mode_Burst;
 class Mode_FullAuto;
 
 class CfgMagazineWells {
-    class GTA_9x19_MP5 {
-        GTA_NIA_mags[] = {
+    class TACGT_9x19_MP5 {
+        TACGT_NIA_mags[] = {
             "hlc_30Rnd_9x19_B_MP5",
             "hlc_30Rnd_9x19_GD_MP5",
             "hlc_30Rnd_9x19_SD_MP5"
         };
     };
-    class GTA_10x25_MP5 {
-        GTA_NIA_mags[] = {
+    class TACGT_10x25_MP5 {
+        TACGT_NIA_mags[] = {
             "hlc_30Rnd_10mm_B_MP5",
             "hlc_30Rnd_10mm_JHP_MP5"
         };
@@ -40,12 +42,12 @@ class CfgWeapons {
 
     class hlc_MP5_base : Rifle_Base_F {
         magazines[] = {"hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_GD_MP5", "hlc_30Rnd_9x19_SD_MP5"};
-        magazineWell[] = { "GTA_9x19_MP5" };
+        magazineWell[] = { "TACGT_9x19_MP5" };
     };
 
     class hlc_smg_mp510 :hlc_smg_MP5N {
         magazines[] = {"hlc_30Rnd_10mm_B_MP5","hlc_30Rnd_10mm_JHP_MP5"};
-        magazineWell[] = { "GTA_10x25_MP5" };
+        magazineWell[] = { "TACGT_10x25_MP5" };
     };
 
     class hlc_smg_MP5N : hlc_Mp5_base { };

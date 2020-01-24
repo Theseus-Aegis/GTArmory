@@ -1,5 +1,5 @@
 name = "GT Armory"
-prefix = "GT_Armory"
+prefix = "tacgt"
 author = "Tyrone, Gilleedoo"
-files = ["mod.cpp", "gta_logo_128.paa", "gta_logo_64.paa"]
-version = "0.1.0"
+files = ["mod.cpp", "tacgt_logo_128.paa", "tacgt_logo_64.paa"]
+version = "1.0.0"

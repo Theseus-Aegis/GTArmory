@@ -1,6 +1,8 @@
+#include "script_component.hpp"
+
 class CfgPatches {
-    class GTA {
-        name = Main;
+    class TACGT {
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
         requiredVersion = 0.1;
@@ -13,21 +15,24 @@ class CfgPatches {
             // CBA
             "cba_main",
             // CUP
-            "CUP_Weapons_WeaponsCore",
-            "CUP_Weapons_East_Attachments",
             "CUP_WheeledVehicles_Core",
             "CUP_Wheeled_SUV",
             "CUP_Weapons_Ammunition",
+            "CUP_Weapons_East_Attachments",
+            "CUP_Weapons_WeaponsCore",
             "CUP_Weapons_M1014",
+            "CUP_Weapons_MP7",
             "CUP_Weapons_Saiga12K",
+            "CUP_Weapons_Scar",
             // NIArms
             "hlcweapons_core",
-            "hlcweapons_stgw57",
-            "hlcweapons_sg550",
             "hlcweapons_mp5",
+            "hlcweapons_sg550",
+            "hlcweapons_stgw57",
             // Theseus
             "tacs_main"
         };
         author[] = {"TyroneMF"};
+        VERSION_CONFIG;
     };
 };

@@ -1,12 +1,14 @@
+#include "script_component.hpp"
+
 class CfgPatches {
-    class GTA_Weapons_Glock18 {
+    class TACGT_Weapons_Glock18 {
+        name = COMPONENT_NAME;
         units[] = { };
-        weapons[] = { "GTA_hgun_Glock18_Tan", "GTA_hgun_Glock18_Black" };
+        weapons[] = { "TACGT_hgun_Glock18_Tan", "TACGT_hgun_Glock18_Black" };
         requiredVersion=0.1;
-        requiredAddons[] = { "GTA" };
+        requiredAddons[] = { "TACGT" };
     };
-        author[] = {"TyroneMF"};
-        version = "0.1";
+        VERSION_CONFIG;
 };
 
 class asdg_MuzzleSlot_9MM;
@@ -27,7 +29,7 @@ class CfgWeapons {
 	class CUP_hgun_Glock17: Pistol_Base_F { };
     class CUP_hgun_Glock17_tan: CUP_hgun_Glock17 { };
 
-    class GTA_hgun_Glock18_Tan: CUP_hgun_Glock17_tan {
+    CLASS(hgun_Glock18_Tan): CUP_hgun_Glock17_tan {
         author = "TyroneMF";
         scope = 2;
         modes[] = { "Single", "FullAuto" };
@@ -70,7 +72,7 @@ class CfgWeapons {
         autoFire=1;
     };
 
-    class GTA_hgun_Glock18_Black: GTA_hgun_Glock18_Tan
+    CLASS(hgun_Glock18_Black): TACGT_hgun_Glock18_Tan
     {
         author = "TyroneMF";
         scope = 2;

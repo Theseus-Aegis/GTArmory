@@ -1,15 +1,16 @@
+#include "script_component.hpp"
+
 #include "cfgsoundset.hpp"
 
 class CfgPatches {
-    class GTA_Weapons_AK {
-        name = "GTA_AK";
+    class TACGT_Weapons_AK {
+        name = COMPONENT_NAME;
         units[] = { };
         weapons[] = { };
         requiredVersion = 0.1;
-        requiredaddons[] = { "GTA" };
+        requiredaddons[] = { "TACGT" };
     };
-        author[] = { "TyroneMF" };
-        version = "0.1";
+        VERSION_CONFIG;
 };
 
 class Mode_SemiAuto;
@@ -32,28 +33,19 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet" };
+            soundSetShot[] = {AKM_SOUND_SET};
             };
         };
-        class SilencedSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
-            };
     class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
+            soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet"  };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     };
@@ -62,28 +54,19 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             }; 
         };
     };
@@ -92,28 +75,19 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet" };
+            soundSetShot[] = {AKM_SOUND_SET};
             };
         };
-        class SilencedSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
-            };
     class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
+            soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet"  };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
+                soundSetShot[] = {AKM_SOUND_SET };
             };
         };
     };
@@ -122,29 +96,20 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
-            }; 
         };
     };
 
@@ -152,29 +117,20 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
-            }; 
         };
     };
 
@@ -182,29 +138,20 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
-            }; 
         };
     };
 
@@ -212,29 +159,20 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
-            }; 
         };
     };
 
@@ -242,29 +180,20 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
-            }; 
         };
     };
 
@@ -272,29 +201,20 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
-            }; 
         };
     };
 
@@ -302,29 +222,20 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
-            }; 
         };
     };
 
@@ -332,29 +243,20 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
-            }; 
         };
     };
 
@@ -362,29 +264,20 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
-            }; 
         };
     };
 
@@ -392,28 +285,19 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet" };
+            soundSetShot[] = {AKM_SOUND_SET};
             };
         };
-        class SilencedSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
-            };
     class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
+            soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet"  };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
+                soundSetShot[] = {AKM_SOUND_SET };
             };
         };
     };
@@ -422,28 +306,19 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet" };
+            soundSetShot[] = {AKM_SOUND_SET};
             };
         };
-        class SilencedSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
-            };
     class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
+            soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet"  };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
+                soundSetShot[] = {AKM_SOUND_SET };
             };
         };
     };
@@ -452,28 +327,19 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet" };
+            soundSetShot[] = {AKM_SOUND_SET};
             };
         };
-        class SilencedSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
-            };
     class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-            soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
+            soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AKM_Shot_SoundSet", "TAC_AKM_tail_SoundSet"  };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AKM_Silencer_SoundSet", "TAC_AKM_SilencerTail_SoundSet" };
+                soundSetShot[] = {AKM_SOUND_SET };
             };
         };
     };
@@ -482,28 +348,19 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class Burst: Mode_Burst {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             };
         };
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType { };
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Shot_SoundSet", "TAC_AK74U_tail_SoundSet" };
-            };
-            class SilencedSound: BaseSoundModeType {
-                soundSetShot[] = { "TAC_AK74U_Silencer_SoundSet", "TAC_AK74U_SilencerTail_SoundSet" };
+                soundSetShot[] = {AK74_SOUND_SET};
             }; 
         };
     };

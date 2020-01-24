@@ -1,14 +1,16 @@
+#include "script_component.hpp"
+
 class CfgPatches {
-    class GTA_Ammo {
-    units[] = { };
-    weapons[] = { };
-    requiredVersion = 0.1;
-    requiredAddons[] = { "GTA_Weapons_M1014" };
-    magazines[] = { "GTA_8Rnd_P_000", "GTA_6Rnd_P_000", "GTA_8Rnd_P_AP20", "GTA_6Rnd_P_AP20"  };
-    ammo[] = { "GTA_S_12G_AP20", "GTA_P_12G_000" };
+    class TACGT_Ammo {
+        name = COMPONENT_NAME;
+        units[] = { };
+        weapons[] = { };
+        requiredVersion = 0.1;
+        requiredAddons[] = { "TACGT_Weapons_M1014" };
+        magazines[] = { "TACGT_8Rnd_P_000", "TACGT_6Rnd_P_000", "TACGT_8Rnd_P_AP20", "TACGT_6Rnd_P_AP20"  };
+        ammo[] = { "TACGT_S_12G_AP20", "TACGT_P_12G_000" };
     };
-    author[] = {"TyroneMF"};
-    version = "0.1";
+        VERSION_CONFIG;
 };
 
 class CfgAmmo {
@@ -21,20 +23,20 @@ class CfgAmmo {
 class B_12Gauge_Pellets_Submunition: BulletBase { };
 class B_12Gauge_Pellets_Submunition_Deploy: BulletBase { };
 
-    class GTA_12g_Pellets_Submunition: B_12Gauge_Pellets_Submunition {
+    class TACGT_12g_Pellets_Submunition: B_12Gauge_Pellets_Submunition {
         caliber = 0.5;
         cost = 1;
         hit = 25;
         simulationStep = 0.0001;
         cartridge = "";
-        submunitionAmmo = "GTA_12g_Pellets_Submunition_Deploy";
+        submunitionAmmo = "TACGT_12g_Pellets_Submunition_Deploy";
         submunitionConeType[] = {"random", 12};
         submunitionConeAngle = 0.8;
         triggerSpeedCoef[] = {0.85, 1};
         triggerTime = 0.008;
     };
 
-    class GTA_12g_Pellets_Submunition_Deploy: B_12Gauge_Pellets_Submunition_Deploy {
+    class TACGT_12g_Pellets_Submunition_Deploy: B_12Gauge_Pellets_Submunition_Deploy {
         airFriction = -0.0030;
         caliber = 0.525;
         hit = 8;
@@ -44,7 +46,7 @@ class B_12Gauge_Pellets_Submunition_Deploy: BulletBase { };
         deflecting = 35;
     };
 
-    class GTA_S_12G_AP20: BulletBase {
+    class TACGT_S_12G_AP20: BulletBase {
         timetoLive = 0.1;
         hit = 35;
         indirectHit = 0;
@@ -62,11 +64,11 @@ class B_12Gauge_Pellets_Submunition_Deploy: BulletBase { };
     };
 
     class B_12Gauge_Pellets_Submunition;
-	class GTA_P_12G_000: B_12Gauge_Pellets_Submunition {
+	class TACGT_P_12G_000: B_12Gauge_Pellets_Submunition {
         caliber = 0.525;
         submunitionConeType[] = { "random", 12 };
         triggerTime = 0.008;
-        submunitionAmmo = "GTA_12g_Pellets_Submunition_Deploy";
+        submunitionAmmo = "TACGT_12g_Pellets_Submunition_Deploy";
         submunitionConeAngle = 0.81;
 	};
 };
@@ -74,26 +76,26 @@ class B_12Gauge_Pellets_Submunition_Deploy: BulletBase { };
 class CfgMagazines {
 
 class CA_Magazine;
-class GTA_8Rnd_P_000: CA_Magazine {
+class TACGT_8Rnd_P_000: CA_Magazine {
         author = "TyroneMF";
         scope = 2;
         displayName = "8Rnd #000 Buckshot Shells";
         displayNameShort = "#000 Buckshot Shells";
-        ammo = "GTA_P_12G_000";
+        ammo = "TACGT_P_12G_000";
         count = 8;
         initSpeed = 385;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_12gauge_ca.paa";
-        descriptionShort = "When you really gotta blow a hole in somethin";
+        descriptionShort = "#000 Buckshot Rounds";
         mass = 6;
         reloadaction = "CUP_GestureReloadM1014_8Rnd";
     };
 
-class GTA_8Rnd_P_AP20: CA_Magazine {
+class TACGT_8Rnd_P_AP20: CA_Magazine {
         author = "TyroneMF";
         scope = 2;
         displayName = "8Rnd AP-20 Slug";
         displayNameShort = "AP-20 Slug";
-        ammo = "GTA_S_12G_AP20";
+        ammo = "TACGT_S_12G_AP20";
         count = 8;
         initSpeed = 510;
         picture = "\a3\Weapons_F_Enoch\MagazineProxies\data\UI\icon_2rnd_12gauge_slugs_CA.paa";
@@ -102,26 +104,26 @@ class GTA_8Rnd_P_AP20: CA_Magazine {
         reloadaction = "CUP_GestureReloadM1014_8Rnd";
     };
 
-class GTA_6Rnd_P_000: GTA_8Rnd_P_000 {
+class TACGT_6Rnd_P_000: TACGT_8Rnd_P_000 {
         author = "TyroneMF";
         scope = 2;
         displayName = "6Rnd #000 Buckshot Shells";
         displayNameShort = "#000 Buckshot Shells";
-        ammo = "GTA_P_12G_000";
+        ammo = "TACGT_P_12G_000";
         count = 6;
         initSpeed = 385;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_12gauge_ca.paa";
-        descriptionShort = "When you really gotta blow a hole in somethin";
+        descriptionShort = "#000 Buckshot Rounds";
         mass = 6;
         reloadaction = "CUP_GestureReloadM1014_6Rnd";
     };
 
-class GTA_6Rnd_P_AP20: GTA_8Rnd_P_AP20 {
+class TACGT_6Rnd_P_AP20: TACGT_8Rnd_P_AP20 {
         author = "TyroneMF";
         scope = 2;
         displayName = "6Rnd AP-20 Slug";
         displayNameShort = "AP-20 Slug";
-        ammo = "GTA_S_12G_AP20";
+        ammo = "TACGT_S_12G_AP20";
         count = 6;
         initSpeed = 510;
         picture = "\a3\Weapons_F_Enoch\MagazineProxies\data\UI\icon_2rnd_12gauge_slugs_CA.paa";
@@ -132,11 +134,11 @@ class GTA_6Rnd_P_AP20: GTA_8Rnd_P_AP20 {
 };
 
 class CfgMagazineWells {
-    class GTA_8rnd_12g {
-        GTA_mags[] = { "GTA_8Rnd_P_000", "GTA_8Rnd_P_AP20" };
+    class TACGT_8rnd_12g {
+        TACGT_mags[] = { "TACGT_8Rnd_P_000", "TACGT_8Rnd_P_AP20" };
     };
 
-    class GTA_6rnd_12g {
-        GTA_mags[] = { "GTA_6Rnd_P_AP20", "GTA_6Rnd_P_AP20" };
+    class TACGT_6rnd_12g {
+        TACGT_mags[] = { "TACGT_6Rnd_P_AP20", "TACGT_6Rnd_P_AP20" };
     };
 };

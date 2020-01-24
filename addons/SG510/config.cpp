@@ -1,15 +1,17 @@
+#include "script_component.hpp"
+
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
 class CfgPatches {
-    class GTA_Weapons_SG510 {
+    class TACGT_Weapons_SG510 {
+        name = COMPONENT_NAME;
         units[] = { "" };
         weapons[] = { "" };
         magazines[] = { "" };
         requiredVersion = 0.1;
-        requiredAddons[] = { "GTA" };
+        requiredAddons[] = { "TACGT" };
     };
-        author[] = {"TyroneMF"};
-        version = "0.1";
+        VERSION_CONFIG;
 };
 
 class Mode_SemiAuto;
@@ -39,10 +41,10 @@ class CfgWeapons {
 
             class BaseSoundModeType { };
             class StandardSound : BaseSoundModeType {
-                soundSetShot[] = { "TAC_sg510_Shot_SoundSet", "TAC_sg510_Tail_SoundSet" };
+                soundSetShot[] = {SG510_SOUND_SET};
             };
             class SilencedSound : BaseSoundModeType {
-                soundSetShot[] = { "TAC_sg510_silencerShot_SoundSet", "TAC_sg510_silencerTail_SoundSet" };
+                soundSetShot[] = {SG510S_SOUND_SET};
             };
         };
 
@@ -55,10 +57,10 @@ class CfgWeapons {
                 soundClosure[] = { closure1, 0.5, closure2, 0.5 };
             };
             class StandardSound : BaseSoundModeType {
-                soundSetShot[] = { "TAC_sg510_Shot_SoundSet", "TAC_sg510_Tail_SoundSet" };
+                soundSetShot[] = {SG510_SOUND_SET};
             };
             class SilencedSound : BaseSoundModeType {
-                soundSetShot[] = { "TAC_sg510_silencerShot_SoundSet", "TAC_sg510_silencerTail_SoundSet" };
+                soundSetShot[] = {SG510S_SOUND_SET};
             };
         };
     };
