@@ -1,17 +1,16 @@
 #include "script_component.hpp"
 
-#include "cfgsoundshaders.hpp"
-#include "cfgsoundset.hpp"
+#include "\x\tacgt\addons\common\sg_soundshader.hpp"
 
 class CfgPatches {
     class TACGT_Weapons_Saiga12k {
         name = COMPONENT_NAME;
-        units[] = { };
-        weapons[] = { };
+        units[] = {};
+        weapons[] = {};
         requiredVersion = 0.1;
-        requiredAddons[] = { "TACGT" };
-    };
+        requiredAddons[] = {"TACGT", "TACGT_Common"};
         VERSION_CONFIG;
+    };
 };
 
 class Mode_SemiAuto;
@@ -32,8 +31,8 @@ class CfgWeapons {
     };
     class CUP_sgun_Saiga12K: Rifle_Base_F {
         class Single: Mode_SemiAuto {
-        class BaseSoundModeType { };
-            sounds[] = { "StandardSound", "SilencedSound" };
+        class BaseSoundModeType {};
+            sounds[] = {"StandardSound", "SilencedSound"};
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {SAIGA12_SOUND_SET};
             };

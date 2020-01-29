@@ -1,17 +1,17 @@
 #include "script_component.hpp"
 
-#include "cfgsoundshaders.hpp"
-#include "cfgsoundset.hpp"
+#include "\x\tacgt\addons\common\amt_soundshader.hpp"
+
 class CfgPatches {
     class TACGT_Weapons_SG510 {
         name = COMPONENT_NAME;
-        units[] = { "" };
-        weapons[] = { "" };
-        magazines[] = { "" };
+        units[] = {};
+        weapons[] = {};
+        magazines[] = {};
         requiredVersion = 0.1;
-        requiredAddons[] = { "TACGT" };
-    };
+        requiredAddons[] = {"TACGT", "TACGT_Common"};
         VERSION_CONFIG;
+    };
 };
 
 class Mode_SemiAuto;
@@ -23,7 +23,7 @@ class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
 };
 class asdg_MuzzleSlot_556 : asdg_MuzzleSlot {
-    class compatibleItems { };
+    class compatibleItems {};
 };
 
 class CfgWeapons {
@@ -37,9 +37,9 @@ class CfgWeapons {
     class hlc_STGW_base : Rifle_Base_F {
 
         class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
+            sounds[] = {"StandardSound", "SilencedSound"};
 
-            class BaseSoundModeType { };
+            class BaseSoundModeType {};
             class StandardSound : BaseSoundModeType {
                 soundSetShot[] = {SG510_SOUND_SET};
             };
@@ -52,9 +52,9 @@ class CfgWeapons {
             sounds[] = { "StandardSound", "SilencedSound" };
             class BaseSoundModeType {
                 weaponSoundEffect = "DefaultRifle";
-                closure1[] = { "\hlc_wp_sigamt\snd\amt_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_sigamt\snd\amt_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+                closure1[] = {"\hlc_wp_sigamt\snd\amt_first", 1, 1, 10};
+                closure2[] = {"\hlc_wp_sigamt\snd\amt_first", 1, 1, 10};
+                soundClosure[] = {closure1, 0.5, closure2, 0.5};
             };
             class StandardSound : BaseSoundModeType {
                 soundSetShot[] = {SG510_SOUND_SET};

@@ -5,4 +5,4 @@
 
 #include "\x\tacgt\addons\main\script_macros.hpp"
 
-#define SAIGA12_SOUND_SET "TACGT_sgun_Saiga12_Shot_SoundSet", "TACGT_sgun_Saiga12_tail_SoundSet"
+#define SAIGA12_SOUND_SET "TACGT_sgun_LB_Shot_SoundSet", "TACGT_sgun_LB_tail_SoundSet"

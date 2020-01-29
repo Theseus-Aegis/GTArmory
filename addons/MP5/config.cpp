@@ -3,13 +3,13 @@
 class CfgPatches {
     class TACGT_Weapons_MP5 {
         name = COMPONENT_NAME;
-        units[] = { "" };
-        weapons[] = { "" };
-        magazines[] = { "" };
+        units[] = {};
+        weapons[] = {};
+        magazines[] = {};
         requiredVersion = 0.1;
-        requiredaddons[] = { "TACGT" };
-    };
+        requiredaddons[] = {"TACGT"};
         VERSION_CONFIG;
+    };
 };
 
 class Mode_SemiAuto;
@@ -50,36 +50,36 @@ class CfgWeapons {
         magazineWell[] = { "TACGT_10x25_MP5" };
     };
 
-    class hlc_smg_MP5N : hlc_Mp5_base { };
+    class hlc_smg_MP5N : hlc_Mp5_base {};
 
     class hlc_smg_9mmar : hlc_smg_MP5N {
 
-        class BaseSoundModeType { };
+        class BaseSoundModeType {};
 
         class Single: Mode_SemiAuto {
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = { "mp5_Shot_SoundSet", "mp5_tail_SoundSet" };
+                soundSetShot[] = {"mp5_Shot_SoundSet", "mp5_tail_SoundSet"};
             };
             class SilencedSound : BaseSoundModeType {
-                soundSetShot[] = { "mp5_Shot_SoundSet", "mp5_tail_SoundSet" };
+                soundSetShot[] = {"mp5_Shot_SoundSet", "mp5_tail_SoundSet"};
             };
         };
 
         class Burst: Mode_Burst {
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "mp5_Shot_SoundSet", "mp5_tail_SoundSet" };
+                soundSetShot[] = {"mp5_Shot_SoundSet", "mp5_tail_SoundSet"};
             };
             class SilencedSound : BaseSoundModeType {
-                soundSetShot[] = { "mp5_Shot_SoundSet", "mp5_tail_SoundSet" };
+                soundSetShot[] = {"mp5_Shot_SoundSet", "mp5_tail_SoundSet"};
             };
         };
 
         class FullAuto: Mode_FullAuto {
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = { "mp5_Shot_SoundSet", "mp5_tail_SoundSet" };
+                soundSetShot[] = {"mp5_Shot_SoundSet", "mp5_tail_SoundSet"};
             };
             class SilencedSound : BaseSoundModeType {
-                soundSetShot[] = { "mp5_Shot_SoundSet", "mp5_tail_SoundSet" };
+                soundSetShot[] = {"mp5_Shot_SoundSet", "mp5_tail_SoundSet"};
             };
         };
     };

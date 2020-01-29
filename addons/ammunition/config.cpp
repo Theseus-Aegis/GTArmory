@@ -9,8 +9,8 @@ class CfgPatches {
         requiredAddons[] = { "TACGT_Weapons_M1014" };
         magazines[] = { "TACGT_8Rnd_P_000", "TACGT_6Rnd_P_000", "TACGT_8Rnd_P_AP20", "TACGT_6Rnd_P_AP20"  };
         ammo[] = { "TACGT_S_12G_AP20", "TACGT_P_12G_000" };
-    };
         VERSION_CONFIG;
+    };
 };
 
 class CfgAmmo {

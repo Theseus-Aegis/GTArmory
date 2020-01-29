@@ -3,13 +3,13 @@
 class CfgPatches {
     class TACGT_Weapons_MP7 {
         name = COMPONENT_NAME;
-        units[] = { "" };
-        weapons[] = { "" };
-        magazines[] = { "" };
+        units[] = {};
+        weapons[] = {};
+        magazines[] = {};
         requiredVersion = 0.1;
-        requiredaddons[] = { "TACGT" };
-    };
+        requiredaddons[] = {"TACGT"};
         VERSION_CONFIG;
+    };
 };
 
 class Mode_SemiAuto;
@@ -32,7 +32,7 @@ class CfgWeapons {
     class CUP_smg_MP7: Rifle_Short_Base_F {
 
         class Single: Mode_SemiAuto {
-                sounds[] = { "StandardSound", "SilencedSound" };
+                sounds[] = {"StandardSound", "SilencedSound"};
 
             class StandardSound: BaseSoundModeType {
                 SoundSetShot[] = {MP7_SOUND_SET};
@@ -44,7 +44,7 @@ class CfgWeapons {
         };
 
         class FullAuto: Mode_FullAuto {
-                sounds[] = { "StandardSound", "SilencedSound" };
+                sounds[] = {"StandardSound", "SilencedSound"};
 
             class StandardSound: BaseSoundModeType {
                 SoundSetShot[] = {MP7_SOUND_SET};
@@ -59,7 +59,7 @@ class CfgWeapons {
     class CUP_hgun_MP7: Pistol_Base_F {
 
         class Single: Mode_SemiAuto {
-                sounds[] = { "StandardSound", "SilencedSound" };
+                sounds[] = {"StandardSound", "SilencedSound"};
 
             class StandardSound: BaseSoundModeType {
                 SoundSetShot[] = {MP7_SOUND_SET};
@@ -71,7 +71,7 @@ class CfgWeapons {
         };
 
         class FullAuto: Mode_FullAuto {
-                sounds[] = { "StandardSound", "SilencedSound" };
+                sounds[] = {"StandardSound", "SilencedSound"};
 
             class StandardSound: BaseSoundModeType {
                 SoundSetShot[] = {MP7_SOUND_SET};

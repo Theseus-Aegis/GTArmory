@@ -15,11 +15,10 @@ class CfgPatches {
             // CBA
             "cba_main",
             // CUP
-            "CUP_WheeledVehicles_Core",
-            "CUP_Wheeled_SUV",
             "CUP_Weapons_Ammunition",
             "CUP_Weapons_East_Attachments",
             "CUP_Weapons_WeaponsCore",
+            "CUP_Weapons_L85",
             "CUP_Weapons_M1014",
             "CUP_Weapons_MP7",
             "CUP_Weapons_Saiga12K",
