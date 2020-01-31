@@ -22,11 +22,11 @@ class asdg_PistolUnderRail: asdg_SlotInfo {
 };
 class CfgWeapons {
     
-	class Pistol;
-	class Pistol_Base_F: Pistol {
-		class WeaponSlotsInfo;
-	};
-	class CUP_hgun_Glock17: Pistol_Base_F {
+    class Pistol;
+    class Pistol_Base_F: Pistol {
+        class WeaponSlotsInfo;
+    };
+    class CUP_hgun_Glock17: Pistol_Base_F {
         displayName = "Glock 17";
     };
     class CUP_hgun_Glock17_tan: CUP_hgun_Glock17 {
