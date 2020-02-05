@@ -1,8 +1,6 @@
 #define COMPONENT scar
-#define COMPONENT_BEAUTIFIED GT Armory SCAR
-
+#define COMPONENT_BEAUTIFIED SCAR
 #include "\x\tacgt\addons\main\script_mod.hpp"
-
 #include "\x\tacgt\addons\main\script_macros.hpp"
 
 #define MK18_SOUND_SET "Mk18_Shot_SoundSet", "Mk18_Tail_SoundSet"

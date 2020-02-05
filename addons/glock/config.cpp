@@ -9,9 +9,9 @@ class CfgPatches {
             "tacgt_hgun_Glock18_Black"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt"};
+        requiredAddons[] = {"tacgt_main"};
         author = "";
-        authors = {""};
+        authors[] = {""};
         VERSION_CONFIG;
     };
 };

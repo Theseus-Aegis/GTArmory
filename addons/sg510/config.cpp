@@ -7,9 +7,9 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt", "tacgt_common"};
+        requiredAddons[] = {"tacgt_main", "tacgt_common"};
         author = "";
-        authors = {""};
+        authors[] = {""};
         VERSION_CONFIG;
     };
 };
