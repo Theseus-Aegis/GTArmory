@@ -1,5 +1,21 @@
 name = "GT Armory"
+version = "1.0.0"
 prefix = "tacgt"
 author = "Tyrone, Gilleedoo"
-files = ["mod.cpp", "tacgt_logo_128.paa", "tacgt_logo_64.paa"]
-version = "1.0.0"
+files = [
+    "mod.cpp",
+    "README.md",
+    "tacgt_logo_128.paa",
+    "tacgt_logo_64.paa"
+]
+
+modname = "GT_Armory"
+key_name = "{{prefix}}_{{version}}"
+sig_name = "{{prefix}}_{{version}}"
+
+releasebuild = [
+    "@zip {{modname}}_{{version}}"
+]
+
+[header_exts]
+version = "{{git \"id 8\"}}"

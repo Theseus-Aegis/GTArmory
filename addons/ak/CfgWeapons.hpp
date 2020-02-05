@@ -1,24 +1,8 @@
-#include "script_component.hpp"
-
-#include "\x\tacgt\addons\common\ak_soundshader.hpp"
-
-class CfgPatches {
-    class TACGT_Weapons_AK {
-        name = COMPONENT_NAME;
-        units[] = {};
-        weapons[] = {};
-        requiredVersion = 0.1;
-        requiredaddons[] = {"TACGT", "TACGT_Common"};
-        VERSION_CONFIG;
-    };
-};
-
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
 
 class CfgWeapons {
-
     class Rifle;
     class Rifle_Base_F: Rifle {
         class WeaponSlotsInfo;
@@ -33,13 +17,13 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = {AKM_SOUND_SET};
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class Burst: Mode_Burst {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = {AKM_SOUND_SET};
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class FullAuto: Mode_FullAuto {
@@ -67,7 +51,7 @@ class CfgWeapons {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {AK74_SOUND_SET};
-            }; 
+            };
         };
     };
 
@@ -75,13 +59,13 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = {AKM_SOUND_SET};
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class Burst: Mode_Burst {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = {AKM_SOUND_SET};
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class FullAuto: Mode_FullAuto {
@@ -285,13 +269,13 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = {AKM_SOUND_SET};
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class Burst: Mode_Burst {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = {AKM_SOUND_SET};
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class FullAuto: Mode_FullAuto {
@@ -306,13 +290,13 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = {AKM_SOUND_SET};
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class Burst: Mode_Burst {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = {AKM_SOUND_SET};
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class FullAuto: Mode_FullAuto {
@@ -327,13 +311,13 @@ class CfgWeapons {
         class Single: Mode_SemiAuto {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = {AKM_SOUND_SET};
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class Burst: Mode_Burst {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
-            soundSetShot[] = {AKM_SOUND_SET};
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     class FullAuto: Mode_FullAuto {
@@ -361,7 +345,7 @@ class CfgWeapons {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {AK74_SOUND_SET};
-            }; 
+            };
         };
     };
 };

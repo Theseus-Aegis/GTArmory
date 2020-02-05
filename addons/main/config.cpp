@@ -1,11 +1,11 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class TACGT {
+    class ADDON {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = 0.1;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             // Arma 3
             "A3_Data_F_Enoch_Loadorder",
@@ -31,7 +31,8 @@ class CfgPatches {
             // Theseus
             "tacs_main"
         };
-        author[] = {"TyroneMF"};
+        author = "TyroneMF";
+        authors[] = {"TyroneMF"};
         VERSION_CONFIG;
     };
 };
