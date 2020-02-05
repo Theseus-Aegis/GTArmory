@@ -1,4 +1,4 @@
-#define COMPONENT gt armory scar
+#define COMPONENT scar
 #define COMPONENT_BEAUTIFIED GT Armory SCAR
 
 #include "\x\tacgt\addons\main\script_mod.hpp"

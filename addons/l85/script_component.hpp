@@ -1,4 +1,4 @@
-#define COMPONENT gt armory l85
+#define COMPONENT l85
 #define COMPONENT_BEAUTIFIED GT Armory L85
 
 #include "\x\tacgt\addons\main\script_mod.hpp"

@@ -1,12 +1,14 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class TACGT_Common {
+    class ADDON {
         name = COMPONENT_NAME;
-        units[] = { };
-        weapons[] = { };
-        requiredVersion = 0.1;
-        requiredaddons[] = { "TACGT" };
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredaddons[] = {"tacgt"};
+        author = "";
+        authors = {""};
         VERSION_CONFIG;
     };
 };

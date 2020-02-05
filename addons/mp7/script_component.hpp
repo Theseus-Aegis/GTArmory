@@ -1,4 +1,4 @@
-#define COMPONENT gt armory mp7
+#define COMPONENT mp7
 #define COMPONENT_BEAUTIFIED GT Armory MP7
 
 #include "\x\tacgt\addons\main\script_mod.hpp"
