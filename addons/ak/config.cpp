@@ -14,3 +14,4 @@ class CfgPatches {
 };
 
 #include "CfgWeapons.hpp"
+#include "CfgSoundSets.hpp"

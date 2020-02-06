@@ -10,7 +10,7 @@ class tacgt_8Rnd_P_000: CA_Magazine {
         count = 8;
         initSpeed = 385;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_12gauge_ca.paa";
-        descriptionShort = "#000 Buckshot Rounds";
+        descriptionShort = "#000 Buckshot";
         mass = 6;
         reloadaction = "CUP_GestureReloadM1014_8Rnd";
     };
@@ -38,12 +38,12 @@ class tacgt_6Rnd_P_000: tacgt_8Rnd_P_000 {
         count = 6;
         initSpeed = 385;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_12gauge_ca.paa";
-        descriptionShort = "#000 Buckshot Rounds";
+        descriptionShort = "#000 Buckshot";
         mass = 6;
         reloadaction = "CUP_GestureReloadM1014_6Rnd";
     };
 
-class tacgt_6Rnd_P_AP20: tacgt_8Rnd_P_AP20 {
+class tacgt_6Rnd_S_AP20: tacgt_8Rnd_S_AP20 {
         author = "TyroneMF";
         scope = 2;
         displayName = "6Rnd AP-20 Slug";
