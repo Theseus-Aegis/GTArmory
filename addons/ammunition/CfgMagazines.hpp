@@ -1,7 +1,7 @@
 class CfgMagazines {
 
 class CA_Magazine;
-class tacgt_8Rnd_P_000: CA_Magazine {
+CLASS(8Rnd_P_000): CA_Magazine {
         author = "TyroneMF";
         scope = 2;
         displayName = "8Rnd #000 Buckshot Shells";
@@ -15,7 +15,7 @@ class tacgt_8Rnd_P_000: CA_Magazine {
         reloadaction = "CUP_GestureReloadM1014_8Rnd";
     };
 
-class tacgt_8Rnd_S_AP20: CA_Magazine {
+CLASS(8Rnd_S_AP20): CA_Magazine {
         author = "TyroneMF";
         scope = 2;
         displayName = "8Rnd AP-20 Slug";
@@ -29,7 +29,7 @@ class tacgt_8Rnd_S_AP20: CA_Magazine {
         reloadaction = "CUP_GestureReloadM1014_8Rnd";
     };
 
-class tacgt_6Rnd_P_000: tacgt_8Rnd_P_000 {
+CLASS(6Rnd_P_000): tacgt_8Rnd_P_000 {
         author = "TyroneMF";
         scope = 2;
         displayName = "6Rnd #000 Buckshot Shells";
@@ -43,7 +43,7 @@ class tacgt_6Rnd_P_000: tacgt_8Rnd_P_000 {
         reloadaction = "CUP_GestureReloadM1014_6Rnd";
     };
 
-class tacgt_6Rnd_S_AP20: tacgt_8Rnd_S_AP20 {
+CLASS(6Rnd_S_AP20): tacgt_8Rnd_S_AP20 {
         author = "TyroneMF";
         scope = 2;
         displayName = "6Rnd AP-20 Slug";

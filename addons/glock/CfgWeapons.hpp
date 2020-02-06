@@ -65,7 +65,7 @@ class CfgWeapons {
         autoFire=1;
     };
 
-    CLASS(hgun_Glock18_Black): TACGT_hgun_Glock18_Tan
+    CLASS(hgun_Glock18_Black): tacgt_hgun_Glock18_Tan
     {
         author = "TyroneMF";
         scope = 2;
