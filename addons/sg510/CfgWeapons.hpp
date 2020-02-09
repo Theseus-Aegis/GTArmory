@@ -34,12 +34,7 @@ class CfgWeapons {
 
         class FullAuto : Mode_FullAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
-            class BaseSoundModeType {
-                weaponSoundEffect = "DefaultRifle";
-                closure1[] = {"\hlc_wp_sigamt\snd\amt_first", 1, 1, 10};
-                closure2[] = {"\hlc_wp_sigamt\snd\amt_first", 1, 1, 10};
-                soundClosure[] = {closure1, 0.5, closure2, 0.5};
-            };
+            class BaseSoundModeType {};
             class StandardSound : BaseSoundModeType {
                 soundSetShot[] = {SG510_SOUND_SET};
             };

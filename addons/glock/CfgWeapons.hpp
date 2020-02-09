@@ -65,9 +65,7 @@ class CfgWeapons {
         autoFire=1;
     };
 
-    CLASS(hgun_Glock18_Black): tacgt_hgun_Glock18_Tan
-    {
-        author = "TyroneMF";
+    CLASS(hgun_Glock18_Black): tacgt_hgun_Glock18_Tan {
         scope = 2;
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_glock17\data\glock17_blk_co.paa"};
