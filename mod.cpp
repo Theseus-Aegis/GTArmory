@@ -1,10 +1,10 @@
-name = "G&T Armory";
+name = "GT Armory";
 picture = "";
 description = "G&T Armory";
-logo = "";
-logoOver = "";
+logo = "tacgt_logo_64.paa";
+logoOver = "tacgt_logo_64.paa";
 tooltip = "";
 tooltipOwned = "";
 overview = "";
 author = "TyroneMF, Gilleedoo";
-overviewPicture = "";
+overviewPicture = "tacgt_logo_128.paa";
