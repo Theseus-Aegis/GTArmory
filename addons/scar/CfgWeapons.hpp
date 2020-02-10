@@ -204,7 +204,7 @@ class CfgWeapons {
         displayName = "SCAR-H Woodland (Surefire Front Grip)";
     };
 
-    class CUP_arifle_Mk17_STD_EGLM: CUP_arifle_Mk17_CQC {
+    class CUP_arifle_Mk17_STD_EGLM: CUP_arifle_Mk17_STD {
         displayName = "SCAR-H (EGLM)";
     };
 
@@ -212,7 +212,7 @@ class CfgWeapons {
         displayName = "SCAR-H Black (EGLM)";
     };
 
-    class CUP_arifle_Mk17_CQC_EGLM_woodland: CUP_arifle_Mk17_CQC_EGLM {
+    class CUP_arifle_Mk17_STD_EGLM_woodland: CUP_arifle_Mk17_STD_EGLM {
         displayName = "SCAR-H Woodland (EGLM)";
     };
 
@@ -276,7 +276,7 @@ class CfgWeapons {
         displayName = "SCAR-H Black CQC (EGLM)";
     };
 
-    class CUP_arifle_Mk17_STD_EGLM_woodland: CUP_arifle_Mk17_STD_EGLM {
+    class CUP_arifle_Mk17_CQC_EGLM_woodland: CUP_arifle_Mk17_CQC_EGLM {
         displayName = "SCAR-H Woodland CQC (EGLM)";
     };
 };
