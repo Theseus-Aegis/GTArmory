@@ -49,11 +49,11 @@ class B_12Gauge_Pellets_Submunition_Deploy: BulletBase { };
     };
 
     class B_12Gauge_Pellets_Submunition;
-	CLASS(P_12G_000): B_12Gauge_Pellets_Submunition {
+    CLASS(P_12G_000): B_12Gauge_Pellets_Submunition {
         caliber = 0.525;
         submunitionConeType[] = { "random", 12 };
         triggerTime = 0.008;
         submunitionAmmo = "tacgt_12g_Pellets_Submunition_Deploy";
         submunitionConeAngle = 0.81;
-	};
+    };
 };
