@@ -9,6 +9,7 @@ class CfgPatches {
         requiredAddons[] = {"tacgt_main", "CUP_Weapons_AK"};
         author = CSTRING(Author);
         authors[] = {"GilleeDoo", "TyroneMF"};
+        url = CSTRING(URL);
         VERSION_CONFIG;
     };
 };

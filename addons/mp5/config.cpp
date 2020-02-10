@@ -10,6 +10,7 @@ class CfgPatches {
         requiredAddons[] = {"tacgt_main", "hlcweapons_mp5",};
         author = CSTRING(Author);
         authors[] = {"GilleeDoo", "TyroneMF"};
+        url = CSTRING(URL);
         VERSION_CONFIG;
     };
 };

@@ -9,6 +9,7 @@ class CfgPatches {
         requiredAddons[] = {"A3_Data_F_Enoch_Loadorder", "A3_Data_F_Mod_Loadorder", "ace_main", "cba_main"};
         author = CSTRING(Author);
         authors[] = {"GilleeDoo", "Jonpas", "TyroneMF"};
+        url = CSTRING(URL);
         VERSION_CONFIG;
     };
 };
