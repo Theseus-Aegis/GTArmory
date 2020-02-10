@@ -6,7 +6,7 @@ class CfgMagazines {
         scope = 2;
         displayName = "8Rnd #000 Buckshot Shells";
         displayNameShort = "#000 Buckshot Shells";
-        ammo = "tacgt_P_12G_000";
+        ammo = QCLASS(P_12G_000);
         count = 8;
         initSpeed = 385;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_12gauge_ca.paa";
@@ -20,7 +20,7 @@ class CfgMagazines {
         scope = 2;
         displayName = "8Rnd AP-20 Slug";
         displayNameShort = "AP-20 Slug";
-        ammo = "tacgt_S_12G_AP20";
+        ammo = QCLASS(S_12G_AP20);
         count = 8;
         initSpeed = 510;
         picture = "\a3\Weapons_F_Enoch\MagazineProxies\data\UI\icon_2rnd_12gauge_slugs_CA.paa";
