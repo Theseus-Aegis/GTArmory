@@ -1,34 +1,23 @@
-class Mode_SemiAuto;
-class Mode_Burst;
-class Mode_FullAuto;
-
 class CfgWeapons {
-    class Rifle;
-    class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo;
-        class GunParticles;
-    };
-
+    class Rifle_Base_F;
     class CUP_arifle_SCAR_Base: Rifle_Base_F {
         modes[] = {"SCAR_L_Single", "SCAR_L_FullAuto"};
 
         class SCAR_L_Single: Mode_SemiAuto {
-            class BaseSoundModeType {};
+            class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {MK20_SOUND_SET};
             };
-
             class SilencedSound: BaseSoundModeType {
                 soundSetShot[] = {MK20S_SOUND_SET};
             };
         };
 
         class SCAR_L_FullAuto: Mode_FullAuto {
-            class BaseSoundModeType {};
+            class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {MK20_SOUND_SET};
             };
-
             class SilencedSound: BaseSoundModeType {
                 soundSetShot[] = {MK20S_SOUND_SET};
             };
@@ -37,10 +26,8 @@ class CfgWeapons {
     };
 
     class CUP_arifle_Mk17_Base: CUP_arifle_SCAR_Base {
-        modes[] = {"SCAR_H_Single", "SCAR_H_FullAuto"};
-
         class SCAR_H_Single: Mode_SemiAuto {
-            class BaseSoundModeType {};
+            class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {MK18_SOUND_SET};
             };
@@ -48,19 +35,20 @@ class CfgWeapons {
             class SilencedSound: BaseSoundModeType {
                 soundSetShot[] = {MK18S_SOUND_SET};
             };
+
             recoil = "recoil_single_ebr";
             recoilProne = "recoil_single_prone_ebr";
         };
 
         class SCAR_H_FullAuto: Mode_FullAuto {
-            class BaseSoundModeType {};
+            class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {MK18_SOUND_SET};
             };
-
             class SilencedSound: BaseSoundModeType {
                 soundSetShot[] = {MK18S_SOUND_SET};
             };
+
             recoil = "recoil_auto_ebr";
             recoilProne = "recoil_auto_prone_ebr";
         };
@@ -179,7 +167,7 @@ class CfgWeapons {
         displayName = "SCAR-L CQC Woodland (EGLM)";
     };
 
-// MK17 Renaming
+    // MK17 Renaming
     class CUP_arifle_Mk17_STD: CUP_arifle_Mk17_Base {
         displayName = "SCAR-H";
     };
@@ -216,7 +204,7 @@ class CfgWeapons {
         displayName = "SCAR-H Woodland (Surefire Front Grip)";
     };
 
-    class CUP_arifle_Mk17_STD_EGLM: CUP_arifle_Mk17_STD {
+    class CUP_arifle_Mk17_STD_EGLM: CUP_arifle_Mk17_CQC {
         displayName = "SCAR-H (EGLM)";
     };
 

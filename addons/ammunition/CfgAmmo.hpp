@@ -1,12 +1,7 @@
 class CfgAmmo {
-    class Default;
-    class BulletCore;
-    class BulletBase: BulletCore {
-        timetoLive = 6;
-    };
-
-class B_12Gauge_Pellets_Submunition: BulletBase { };
-class B_12Gauge_Pellets_Submunition_Deploy: BulletBase { };
+    class BulletBase;
+    class B_12Gauge_Pellets_Submunition: BulletBase {};
+    class B_12Gauge_Pellets_Submunition_Deploy: BulletBase {};
 
     CLASS(12g_Pellets_Submunition): B_12Gauge_Pellets_Submunition {
         caliber = 0.5;
@@ -14,13 +9,12 @@ class B_12Gauge_Pellets_Submunition_Deploy: BulletBase { };
         hit = 25;
         simulationStep = 0.0001;
         cartridge = "";
-        submunitionAmmo = "tacgt_12g_Pellets_Submunition_Deploy";
+        submunitionAmmo = QCLASS(12g_Pellets_Submunition_Deploy);
         submunitionConeType[] = {"random", 12};
         submunitionConeAngle = 0.8;
         triggerSpeedCoef[] = {0.85, 1};
         triggerTime = 0.008;
     };
-
     CLASS(12g_Pellets_Submunition_Deploy): B_12Gauge_Pellets_Submunition_Deploy {
         airFriction = -0.0030;
         caliber = 0.525;
@@ -44,16 +38,14 @@ class B_12Gauge_Pellets_Submunition_Deploy: BulletBase { };
         airFriction = -0.0080000004;
         caliber = 3;
         deflecting = 10;
-        model = "\A3\weapons_f\empty";
+        model = "\A3\weapons_f\empty.p3d";
         simulation = "shotSubmunitions";
     };
-
-    class B_12Gauge_Pellets_Submunition;
     CLASS(P_12G_000): B_12Gauge_Pellets_Submunition {
         caliber = 0.525;
         submunitionConeType[] = { "random", 12 };
         triggerTime = 0.008;
-        submunitionAmmo = "tacgt_12g_Pellets_Submunition_Deploy";
+        submunitionAmmo = QCLASS(12g_Pellets_Submunition_Deploy);
         submunitionConeAngle = 0.81;
     };
 };

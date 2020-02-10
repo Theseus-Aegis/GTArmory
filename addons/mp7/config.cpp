@@ -14,4 +14,7 @@ class CfgPatches {
     };
 };
 
+class Mode_SemiAuto;
+class Mode_FullAuto;
+
 #include "CfgWeapons.hpp"
