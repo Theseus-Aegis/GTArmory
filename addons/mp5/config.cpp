@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main"};
+        requiredAddons[] = {"tacgt_main", "hlcweapons_mp5",};
         author = "";
         authors[] = {""};
         VERSION_CONFIG;

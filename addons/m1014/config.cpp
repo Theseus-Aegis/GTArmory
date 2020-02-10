@@ -6,10 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacgt_main",
-            "tacgt_ammunition"
-        };
+        requiredAddons[] = {"tacgt_main", "tacgt_ammunition", "CUP_Weapons_M1014"};
         author = "";
         authors[] = {""};
         VERSION_CONFIG;
