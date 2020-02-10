@@ -9,12 +9,12 @@ files = [
     "tacgt_logo_64.paa"
 ]
 
-mod_name = "GT_Armory"
+modname = "gt_armory"
 key_name = "{{prefix}}_{{version}}"
 sig_name = "{{prefix}}_{{version}}"
 
 releasebuild = [
-    "@zip {{modname}}_{{version}}"
+    "@zip GTArmory_{{version}}"
 ]
 
 [header_exts]
