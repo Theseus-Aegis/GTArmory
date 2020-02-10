@@ -7,8 +7,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "CUP_Weapons_AK"};
-        author = "";
-        authors[] = {""};
+        author = CSTRING(Author);
+        authors[] = {"GilleeDoo", "TyroneMF"};
         VERSION_CONFIG;
     };
 };

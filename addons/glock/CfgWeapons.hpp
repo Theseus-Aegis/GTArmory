@@ -11,7 +11,7 @@ class CfgWeapons {
     };
 
     CLASS(hgun_Glock18_Tan): CUP_hgun_Glock17_tan {
-        author = "TyroneMF";
+        author = "CUP, TyroneMF";
         scope = 2;
         displayName = "Glock 18C (Tan)";
 
