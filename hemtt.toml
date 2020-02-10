@@ -9,7 +9,7 @@ files = [
     "tacgt_logo_64.paa"
 ]
 
-modname = "GT_Armory"
+mod_name = "GT_Armory"
 key_name = "{{prefix}}_{{version}}"
 sig_name = "{{prefix}}_{{version}}"
 
