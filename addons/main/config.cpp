@@ -31,8 +31,10 @@ class CfgPatches {
             // Theseus
             "tacs_main"
         };
-        author = "TyroneMF";
-        authors[] = {"TyroneMF"};
+        author = CSTRING(Author);
+        authors[] = {"GilleeDoo", "Jonpas", "TyroneMF"};
         VERSION_CONFIG;
     };
 };
+
+#include "CfgMods.hpp"

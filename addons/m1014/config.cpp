@@ -11,8 +11,8 @@ class CfgPatches {
             "tacgt_common",
             "tacgt_ammunition"
         };
-        author = "";
-        authors[] = {""};
+        author = CSTRING(Author);
+        authors[] = {"GilleeDoo", "TyroneMF"};
         VERSION_CONFIG;
     };
 };

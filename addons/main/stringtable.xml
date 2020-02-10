@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="Main">
+        <Key ID="STR_TACGT_Main_Author">
+            <English>GT Armory Team</English>
+        </Key>
+        <Key ID="STR_TACGT_Main_Name">
+            <English>GT Armory</English>
+        </Key>
+        <Key ID="STR_TACGT_Main_URL">
+            <English>https://github.com/Theseus-Aegis/GTArmory</English>
+        </Key>
+    </Package>
+</Project>
