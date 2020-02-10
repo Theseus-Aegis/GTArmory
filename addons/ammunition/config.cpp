@@ -17,8 +17,9 @@ class CfgPatches {
             "tacgt_S_12G_AP20",
             "tacgt_P_12G_000"
         };
-        author = "";
-        authors[] = {""};
+        author = CSTRING(Author);
+        authors[] = {"GilleeDoo", "TyroneMF"};
+        url = CSTRING(URL);
         VERSION_CONFIG;
     };
 };

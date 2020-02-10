@@ -1,19 +1,5 @@
-class Mode_SemiAuto;
-class Mode_Burst;
-class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
-class asdg_FrontSideRail;
-class CUP_PicatinnyTopShortMount;
-
 class CfgWeapons {
-    class Rifle;
-    class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo;
-        class GunParticles;
-    };
-
+    class Rifle_Base_F;
     class CUP_sgun_M1014_base: Rifle_Base_F {
         magazines[] = {
             "CUP_8Rnd_B_Beneli_74Slug",
@@ -31,18 +17,21 @@ class CfgWeapons {
             "tacgt_8rnd_12g",
             "tacgt_6rnd_12g"
         };
+
         class Single: Mode_SemiAuto {
-            class BaseSoundModeType {};
+            class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {M1014LB_SOUND_SET};
             };
-            reloadTime=0;
+
+            reloadTime = 0;
         };
     };
 
     class CUP_sgun_M1014: CUP_sgun_M1014_base {};
     class CUP_sgun_M1014_solidstock: CUP_sgun_M1014 {};
     class CUP_sgun_M1014_vfg: CUP_sgun_M1014_base {};
+
     class CUP_sgun_M1014_Entry: CUP_sgun_M1014_base {
         magazines[] = {
             "CUP_6Rnd_B_Beneli_74Pellets",
@@ -54,13 +43,16 @@ class CfgWeapons {
             "tacgt_12g_6rnds",
             "tacgt_6rnd_12g"
         };
+
         class Single: Mode_SemiAuto {
-            class BaseSoundModeType {};
+            class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {M1014SB_SOUND_SET};
             };
+
             reloadTime = 0;
         };
     };
+
     class CUP_sgun_M1014_Entry_vfg: CUP_sgun_M1014_Entry {};
 };

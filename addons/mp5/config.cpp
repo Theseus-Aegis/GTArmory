@@ -7,12 +7,17 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main"};
-        author = "";
-        authors[] = {""};
+        requiredAddons[] = {"tacgt_main", "hlcweapons_mp5",};
+        author = CSTRING(Author);
+        authors[] = {"GilleeDoo", "TyroneMF"};
+        url = CSTRING(URL);
         VERSION_CONFIG;
     };
 };
+
+class Mode_SemiAuto;
+class Mode_Burst;
+class Mode_FullAuto;
 
 #include "CfgMagazineWells.hpp"
 #include "CfgWeapons.hpp"
