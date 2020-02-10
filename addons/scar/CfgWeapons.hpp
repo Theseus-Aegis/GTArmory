@@ -3,16 +3,15 @@ class Mode_Burst;
 class Mode_FullAuto;
 
 class CfgWeapons {
-
     class Rifle;
     class Rifle_Base_F: Rifle {
-	class WeaponSlotsInfo;
-	class GunParticles;
-	};
+        class WeaponSlotsInfo;
+        class GunParticles;
+    };
 
     class CUP_arifle_SCAR_Base: Rifle_Base_F {
         modes[] = {"SCAR_L_Single", "SCAR_L_FullAuto"};
- 
+
         class SCAR_L_Single: Mode_SemiAuto {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
@@ -34,12 +33,12 @@ class CfgWeapons {
                 soundSetShot[] = {MK20S_SOUND_SET};
             };
         };
-       
+
     };
 
-	class CUP_arifle_Mk17_Base: CUP_arifle_SCAR_Base {
+    class CUP_arifle_Mk17_Base: CUP_arifle_SCAR_Base {
         modes[] = {"SCAR_H_Single", "SCAR_H_FullAuto"};
-            
+
         class SCAR_H_Single: Mode_SemiAuto {
             class BaseSoundModeType {};
             class StandardSound: BaseSoundModeType {
@@ -49,8 +48,8 @@ class CfgWeapons {
             class SilencedSound: BaseSoundModeType {
                 soundSetShot[] = {MK18S_SOUND_SET};
             };
-			recoil="recoil_single_ebr";
-			recoilProne="recoil_single_prone_ebr";
+            recoil = "recoil_single_ebr";
+            recoilProne = "recoil_single_prone_ebr";
         };
 
         class SCAR_H_FullAuto: Mode_FullAuto {
@@ -62,8 +61,8 @@ class CfgWeapons {
             class SilencedSound: BaseSoundModeType {
                 soundSetShot[] = {MK18S_SOUND_SET};
             };
-			recoil="recoil_auto_ebr";
-			recoilProne="recoil_auto_prone_ebr";
+            recoil = "recoil_auto_ebr";
+            recoilProne = "recoil_auto_prone_ebr";
         };
     };
 
@@ -131,7 +130,7 @@ class CfgWeapons {
         displayName = "SCAR-L Woodland MR";
     };
 
-	class CUP_arifle_Mk16_CQC: CUP_arifle_SCAR_L_Base {
+    class CUP_arifle_Mk16_CQC: CUP_arifle_SCAR_L_Base {
         displayName = "SCAR-L CQC";
     };
 
