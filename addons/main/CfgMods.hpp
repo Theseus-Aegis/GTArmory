@@ -2,7 +2,7 @@ class CfgMods {
     class Mod_Base;
     class PREFIX: Mod_Base {
         author = CSTRING(Author);
-        dir = "@GT_Armory";
+        dir = "@gt_armory";
         name = CSTRING(Name);
         picture = QPATHTOF(ui\tacgt_logo_64.paa);
         logo = QPATHTOF(ui\tacgt_logo_64.paa);
