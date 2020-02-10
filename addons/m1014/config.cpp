@@ -8,7 +8,6 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "tacgt_common",
             "tacgt_ammunition"
         };
         author = "";
