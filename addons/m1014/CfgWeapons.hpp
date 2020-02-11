@@ -28,10 +28,6 @@ class CfgWeapons {
         };
     };
 
-    class CUP_sgun_M1014: CUP_sgun_M1014_base {};
-    class CUP_sgun_M1014_solidstock: CUP_sgun_M1014 {};
-    class CUP_sgun_M1014_vfg: CUP_sgun_M1014_base {};
-
     class CUP_sgun_M1014_Entry: CUP_sgun_M1014_base {
         magazines[] = {
             "CUP_6Rnd_B_Beneli_74Pellets",
@@ -53,6 +49,4 @@ class CfgWeapons {
             reloadTime = 0;
         };
     };
-
-    class CUP_sgun_M1014_Entry_vfg: CUP_sgun_M1014_Entry {};
 };
