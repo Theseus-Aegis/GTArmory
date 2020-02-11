@@ -40,11 +40,11 @@ class CfgWeapons {
             "tacgt_6Rnd_S_AP20"
         };
         magazineWell[] = {
-            "tacgt_12g_6rnds",
+            "CBA_12g_6rnds",
             "tacgt_6rnd_12g"
         };
 
-        class Single: Mode_SemiAuto {
+        class Single: Single {
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {M1014SB_SOUND_SET};
