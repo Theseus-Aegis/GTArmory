@@ -28,10 +28,6 @@ class CfgWeapons {
         };
     };
 
-    class CUP_sgun_M1014: CUP_sgun_M1014_base {};
-    class CUP_sgun_M1014_solidstock: CUP_sgun_M1014 {};
-    class CUP_sgun_M1014_vfg: CUP_sgun_M1014_base {};
-
     class CUP_sgun_M1014_Entry: CUP_sgun_M1014_base {
         magazines[] = {
             "CUP_6Rnd_B_Beneli_74Pellets",
@@ -40,11 +36,11 @@ class CfgWeapons {
             "tacgt_6Rnd_S_AP20"
         };
         magazineWell[] = {
-            "tacgt_12g_6rnds",
+            "CBA_12g_6rnds",
             "tacgt_6rnd_12g"
         };
 
-        class Single: Mode_SemiAuto {
+        class Single: Single {
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {M1014SB_SOUND_SET};
@@ -53,6 +49,4 @@ class CfgWeapons {
             reloadTime = 0;
         };
     };
-
-    class CUP_sgun_M1014_Entry_vfg: CUP_sgun_M1014_Entry {};
 };
