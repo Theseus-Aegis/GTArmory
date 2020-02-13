@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="SCAR">
+        <Key ID="STR_SCAR_L">
+            <English>SCAR-L</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Black">
+            <English>SCAR-L Black</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland">
+            <English>SCAR-L Woodland</English>
+        </Key>
+        <Key ID="STR_SCAR_L_FG">
+            <English>SCAR-L (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_FG">
+            <English>SCAR-L Black (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_FG">
+            <English>SCAR-L Woodland (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_SFG">
+            <English>SCAR-L (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_SFG">
+            <English>SCAR-L Black (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_SFG">
+            <English>SCAR-L Woodland (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_EGLM">
+            <English>SCAR-L (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_EGLM">
+            <English>SCAR-L Black (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_EGLM">
+            <English>SCAR-L Woodland (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_MR">
+            <English>SCAR-L MR</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_MR">
+            <English>SCAR-L Black MR</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_MR">
+            <English>SCAR-L Woodland MR</English>
+        </Key>
+        <Key ID="STR_SCAR_L_CQC">
+            <English>SCAR-L CQC</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_CQC">
+            <English>SCAR-L CQC Black</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_CQC">
+            <English>SCAR-L CQC Woodland</English>
+        </Key>
+        <Key ID="STR_SCAR_L_CQC_FG">
+            <English>SCAR-L CQC (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_CQC_FG">
+            <English>SCAR-L CQC Black (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_CQC_FG">
+            <English>SCAR-L CQC Woodland (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_CQC_SFG">
+            <English>SCAR-L CQC (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_CQC_SFG">
+            <English>SCAR-L CQC Black (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_CQC_SFG">
+            <English>SCAR-L CQC Woodland (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_CQC_EGLM">
+            <English>SCAR-L CQC (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_CQC_EGLM">
+            <English>SCAR-L CQC Black (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_CQC_EGLM">
+            <English>SCAR-L CQC Woodland (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_H">
+            <English>SCAR-H</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Black">
+            <English>SCAR-H Black</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland">
+            <English>SCAR-H Woodland</English>
+        </Key>
+        <Key ID="STR_SCAR_H_FG">
+            <English>SCAR-H (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_FG">
+            <English>SCAR-H Black (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_FG">
+            <English>SCAR-H Woodland (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_SFG">
+            <English>SCAR-H (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_SFG">
+            <English>SCAR-H Black (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_SFG">
+            <English>SCAR-H Woodland (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_EGLM">
+            <English>SCAR-H (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_EGLM">
+            <English>SCAR-H Black (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_EGLM">
+            <English>SCAR-H Woodland (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_MR">
+            <English>SCAR-H MR</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_MR">
+            <English>SCAR-H Black MR</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_MR">
+            <English>SCAR-H Woodland MR</English>
+        </Key>
+        <Key ID="STR_SCAR_H_CQC">
+            <English>SCAR-H CQC</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_CQC">
+            <English>SCAR-H Black CQC</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_CQC">
+            <English>SCAR-H Woodland CQC</English>
+        </Key>
+        <Key ID="STR_SCAR_H_CQC_FG">
+            <English>SCAR-H CQC (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_CQC_FG">
+            <English>SCAR-H Black CQC (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_CQC_FG">
+            <English>SCAR-H Woodland CQC (Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_CQC_SFG">
+            <English>SCAR-H CQC (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_CQC_SFG">
+            <English>SCAR-H Black CQC (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_CQC_SFG">
+            <English>SCAR-H Wooddland CQC (Surefire Front Grip)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_CQC_EGLM">
+            <English>SCAR-H CQC (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_CQC_EGLM">
+            <English>SCAR-H Black CQC (EGLM)</English>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_CQC_EGLM">
+            <English>SCAR-H Woodland CQC (EGLM)</English>
+        </Key>
+    </Package>
+</Project>

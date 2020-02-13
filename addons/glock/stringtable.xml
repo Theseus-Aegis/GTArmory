@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="Glock">
+        <Key ID="STR_hgun_Glock17">
+            <English>Glock 17</English>
+        </Key>
+        <Key ID="STR_hgun_Glock17_Tan">
+            <English>Glock 17 (Tan)</English>
+        </Key>
+        <Key ID="STR_hgun_Glock17_Black">
+            <English>Glock 17 (Black)</English>
+        </Key>
+        <Key ID="STR_tacgt_hgun_Glock18_Tan">
+            <English>Glock 18C (Tan)</English>
+        </Key>
+        <Key ID="STR_tacgt_hgun_Glock18_Black">
+            <English>Glock 18C (Black)</English>
+        </Key>
+    </Package>
+</Project>
