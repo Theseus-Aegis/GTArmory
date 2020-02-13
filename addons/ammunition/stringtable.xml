@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACGT">
     <Package name="Ammunition">
-        <Key ID="STR_TACGT_ammo_Author">
-            <English>TyroneMF</English>
-            <French>TyroneMF</French>
-        </Key>
         <Key ID="STR_TACGT_8Rnd_P_000_Display">
             <English>8Rnd #000 Buckshot Shells</English>
             <French>8Rnd #000 Cartouches de chevrotine</French>

@@ -2,7 +2,7 @@ class CfgMagazines {
     class CA_Magazine;
 
     CLASS(8Rnd_P_000): CA_Magazine {
-        author = $STR_TACGT_Ammo_Author;
+        author = "TyroneMF";
         scope = 2;
         displayName = $STR_TACGT_8Rnd_P_000_Display;
         displayNameShort = $STR_TACGT_8Rnd_P_000_Display_Short;
@@ -16,7 +16,7 @@ class CfgMagazines {
     };
 
     CLASS(8Rnd_S_AP20): CA_Magazine {
-        author = $STR_TACGT_ammo_Author;
+        author = "TyroneMF";
         scope = 2;
         displayName = $STR_TACGT_8Rnd_S_AP20_Display;
         displayNameShort = $STR_TACGT_8Rnd_S_AP20_Display_Short;
