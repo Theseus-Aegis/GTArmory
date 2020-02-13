@@ -3,30 +3,39 @@
     <Package name="Ammunition">
         <Key ID="STR_tacgt_ammo_Author">
             <English>TyroneMF</English>
+            <French>TyroneMF</French>
         </Key>
         <Key ID="STR_tacgt_8Rnd_P_000_Display">
             <English>8Rnd #000 Buckshot Shells</English>
+            <French>8Rnd #000 Cartouches de chevrotine</French>
         </Key>
         <Key ID="STR_tacgt_8Rnd_P_000_Display_Short">
             <English>#000 Buckshot Shells</English>
+            <French>#000 Cartouches de chevrotine</French>
         </Key>
         <Key ID="STR_tacgt_8Rnd_P_000_Description">
             <English>#000 Buckshot</English>
+            <French>#000 Chevrotine</French>
         </Key>
         <Key ID="STR_tacgt_8Rnd_S_AP20_Display">
             <English>8Rnd AP-20 Slug</English>
+            <French>8Rnd Limace AP-20</French>
         </Key>
         <Key ID="STR_tacgt_8Rnd_S_AP20_Display_Short">
             <English>AP-20 Slug</English>
+            <French>Limace AP-20</French>
         </Key>
         <Key ID="STR_tacgt_8Rnd_S_AP20_Description">
             <English>AP-20 Slugs for precise armour penetration</English>
+            <French>Les balles AP-20 pour une pénétration précise du blindage</French>
         </Key>
         <Key ID="STR_tacgt_6Rnd_P_000_Display">
             <English>6Rnd #000 Buckshot Shells</English>
+            <French>6Rnd #000 Cartouches de chevrotine</French>
         </Key>
         <Key ID="STR_tacgt_6Rnd_S_AP20_Display">
             <English>6Rnd AP-20 Slug</English>
+            <French>6Rnd Limace AP-20</French>
         </Key>
     </Package>
 </Project>
