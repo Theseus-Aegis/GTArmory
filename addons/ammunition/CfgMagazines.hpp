@@ -8,13 +8,13 @@ class CfgMagazines {
     CLASS(8Rnd_P_000): CA_Magazine {
         author = "TyroneMF";
         scope = 2;
-        displayName = "8Rnd #00 Magnum Shells";
-        displayNameShort = "#00 Magnum";
+        displayName = $STR_TACGT_8Rnd_P_000_Display;
+        displayNameShort = $STR_TACGT_8Rnd_P_000_Display_Short;
         ammo = QCLASS(P_12G_000);
         count = 8;
         initSpeed = 385;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_12gauge_ca.paa";
-        descriptionShort = "#00 Magnum";
+        descriptionShort = $STR_TACGT_8Rnd_P_000_Description;
         mass = 6;
         reloadaction = "CUP_GestureReloadM1014_8Rnd";
     };
@@ -22,24 +22,26 @@ class CfgMagazines {
     CLASS(8Rnd_S_AP20): CA_Magazine {
         author = "TyroneMF";
         scope = 2;
-        displayName = "8Rnd AP-20 Slug";
-        displayNameShort = "AP-20 Slug";
+        displayName = $STR_TACGT_8Rnd_S_AP20_Display;
+        displayNameShort = $STR_TACGT_8Rnd_S_AP20_Display_Short;
         ammo = QCLASS(S_12G_AP20);
         count = 8;
         initSpeed = 510;
         picture = "\a3\Weapons_F_Enoch\MagazineProxies\data\UI\icon_2rnd_12gauge_slugs_CA.paa";
-        descriptionShort = "AP-20 Slugs for precise armour penetration";
+        descriptionShort = $STR_TACGT_8Rnd_S_AP20_Description;
         mass = 6;
         reloadaction = "CUP_GestureReloadM1014_8Rnd";
     };
 
     CLASS(6Rnd_P_000): tacgt_8Rnd_P_000 {
-        displayName = "6Rnd #00 Magnum Shells";
+        displayName = $STR_TACGT_6Rnd_P_000_Display;
+        displayNameShort = $STR_TACGT_8Rnd_P_000_Display_Short;
         count = 6;
     };
 
     CLASS(6Rnd_S_AP20): tacgt_8Rnd_S_AP20 {
-        displayName = "6Rnd AP-20 Slug";
+        displayName = $STR_TACGT_6Rnd_S_AP20_Display;
+        displayNameShort = $STR_TACGT_8Rnd_S_AP20_Display_Short;
         count = 6;
     };
 
@@ -48,7 +50,7 @@ class CfgMagazines {
         scope = 2;
         lastRoundsTracer = 4;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_pmag_ca.paa";
-        displayName = "5.56 30Rnd PMAG (M855)";
+        displayName = $STR_TACGT_30Rnd_556x45_M855_PMAG_Display;
         model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30rnd_pmag_qp.p3d";
         modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30rnd_pmag_qp.p3d";
         modelSpecialIsProxy = 1;
@@ -61,7 +63,7 @@ class CfgMagazines {
         scope = 2;
         lastRoundsTracer = 2;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_pmag_ca.paa";
-        displayName = "5.56 30Rnd PMAG (M995)";
+        displayName = $STR_TACGT_30Rnd_556x45_M995_PMAG_Display;
         model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30rnd_pmag_qp.p3d";
         modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30rnd_pmag_qp.p3d";
         modelSpecialIsProxy = 1;
@@ -74,7 +76,7 @@ class CfgMagazines {
         scope = 2;
         lastRoundsTracer = 2;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_pmag_ca.paa";
-        displayName = "5.56 30Rnd PMAG (MK262)";
+        displayName = $STR_TACGT_30Rnd_556x45_MK262_PMAG_Display;
         model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30rnd_pmag_qp.p3d";
         modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30rnd_pmag_qp.p3d";
         modelSpecialIsProxy = 1;
@@ -87,7 +89,7 @@ class CfgMagazines {
         scope = 2;
         lastRoundsTracer = 2;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_pmag_ca.paa";
-        displayName = "5.56 30Rnd PMAG (MK318)";
+        displayName = $STR_TACGT_30Rnd_556x45_MK318_PMAG_Display;
         model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30rnd_pmag_qp.p3d";
         modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30rnd_pmag_qp.p3d";
         modelSpecialIsProxy = 1;
@@ -100,7 +102,7 @@ class CfgMagazines {
         scope = 2;
         lastRoundsTracer = 4;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_emag_ca.paa";
-        displayName = "5.56 30Rnd EMAG (M855)";
+        displayName = $STR_TACGT_30Rnd_556x45_M855_EMAG_Display;
         model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30Rnd_EMAG.p3d";
         modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30Rnd_EMAG.p3d";
         modelSpecialIsProxy = 1;
@@ -113,7 +115,7 @@ class CfgMagazines {
         scope = 2;
         lastRoundsTracer = 2;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_emag_ca.paa";
-        displayName = "5.56 30Rnd EMAG (M995)";
+        displayName = $STR_TACGT_30Rnd_556x45_M995_EMAG_Display;
         model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30Rnd_EMAG.p3d";
         modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30Rnd_EMAG.p3d";
         modelSpecialIsProxy = 1;
@@ -126,7 +128,7 @@ class CfgMagazines {
         scope = 2;
         lastRoundsTracer = 2;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_emag_ca.paa";
-        displayName = "5.56 30Rnd EMAG (MK262)";
+        displayName = STR_TACGT_30Rnd_556X45_MK262_EMAG_Display;
         model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30Rnd_EMAG.p3d";
         modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30Rnd_EMAG.p3d";
         modelSpecialIsProxy = 1;
@@ -139,7 +141,7 @@ class CfgMagazines {
         scope = 2;
         lastRoundsTracer = 2;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_emag_ca.paa";
-        displayName = "5.56 30Rnd EMAG (MK318)";
+        displayName = $STR_TACGT_30Rnd_556X45_MK318_EMAG_Display;
         model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30Rnd_EMAG.p3d";
         modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30Rnd_EMAG.p3d";
         modelSpecialIsProxy = 1;
@@ -149,26 +151,26 @@ class CfgMagazines {
 
     // Renaming for matching name conventions.
     class 30Rnd_556x45_Stanag: CA_Magazine {
-        displayName = "5.56 30Rnd STANAG RT Yellow";
+        displayName = $STR_30Rnd_556x45_Stanag_Display;
     };
 
     class 30Rnd_556x45_Stanag_green: CA_Magazine {
-        displayName = "5.56 30Rnd STANAG RT Green";
+        displayName = $STR_30Rnd_556x45_Stanag_green_Display;
     };
 
     class 30Rnd_556x45_Stanag_red: CA_Magazine {
-        displayName = "5.56 30Rnd STANAG RT Red";
+        displayName = $STR_30Rnd_556x45_Stanag_red_Display;
     };
 
     class 30Rnd_556x45_Stanag_Tracer_Green: CA_Magazine {
-        displayName = "5.56 30Rnd STANAG Tracer Green";
+        displayName = $STR_30Rnd_556x45_Stanag_Tracer_Green_Display;
     };
 
     class 30Rnd_556x45_Stanag_Tracer_Red: CA_Magazine {
-        displayName = "5.56 30Rnd STANAG Tracer Red";
+        displayName = $STR_30Rnd_556x45_Stanag_Tracer_Red_Display;
     };
 
     class 30Rnd_556x45_Stanag_Tracer_Yellow: CA_Magazine {
-        displayName = "5.56 30Rnd STANAG Tracer Yellow";
+        displayName = $STR_30Rnd_556x45_Stanag_Tracer_Yellow_Display;
     };
 };

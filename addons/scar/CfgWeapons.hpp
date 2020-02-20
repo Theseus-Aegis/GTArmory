@@ -58,225 +58,221 @@ class CfgWeapons {
 
     // MK16 Renaming
     class CUP_arifle_Mk16_STD: CUP_arifle_SCAR_L_Base {
-        displayName = "SCAR-L";
+        displayName = $STR_SCAR_L_Display;
     };
 
     class CUP_arifle_Mk16_STD_black: CUP_arifle_Mk16_STD {
-        displayName = "SCAR-L Black";
+        displayName = $STR_SCAR_L_Black_Display;
     };
 
     class CUP_arifle_Mk16_STD_woodland: CUP_arifle_Mk16_STD {
-        displayName = "SCAR-L Woodland";
+        displayName = $STR_SCAR_L_Woodland_Display;
     };
 
     class CUP_arifle_Mk16_STD_FG: CUP_arifle_Mk16_STD {
-        displayName = "SCAR-L (Front Grip)";
+        displayName = $STR_SCAR_L_FG_Display;
     };
 
     class CUP_arifle_Mk16_STD_FG_black: CUP_arifle_Mk16_STD_FG {
-        displayName = "SCAR-L Black (Front Grip)";
+        displayName = $STR_SCAR_L_Black_FG_Display;
     };
 
     class CUP_arifle_Mk16_STD_FG_woodland: CUP_arifle_Mk16_STD_FG {
-        displayName = "SCAR-L Woodland (Front Grip)";
+        displayName = $STR_SCAR_L_Woodland_FG_Display;
     };
 
     class CUP_arifle_Mk16_STD_SFG: CUP_arifle_Mk16_STD {
-        displayName = "SCAR-L (Surefire Front Grip)";
+        displayName = $STR_SCAR_L_SFG_Display;
     };
 
     class CUP_arifle_Mk16_STD_SFG_black: CUP_arifle_Mk16_STD_SFG {
-        displayName = "SCAR-L Black (Surefire Front Grip)";
+        displayName = $STR_SCAR_L_Black_SFG_Display;
     };
 
     class CUP_arifle_Mk16_STD_SFG_woodland: CUP_arifle_Mk16_STD_SFG {
-        displayName = "SCAR-L Woodland (Surefire Front Grip)";
+        displayName = $STR_SCAR_L_Woodland_SFG_Display;
     };
 
     class CUP_arifle_Mk16_STD_EGLM: CUP_arifle_Mk16_STD {
-        displayName = "SCAR-L (EGLM)";
+        displayName = $STR_SCAR_L_EGLM_Display;
         magazineWell[] = {"CBA_556x45_STANAG", "STANAG_556x45", "STANAG_556x45_Large", "CBA_556x45_SCAR_EGLM"};
     };
 
     class CUP_arifle_Mk16_STD_EGLM_black: CUP_arifle_Mk16_STD_EGLM {
-        displayName = "SCAR-L Black (EGLM)";
+        displayName = $STR_SCAR_L_Black_EGLM_Display;
     };
 
     class CUP_arifle_Mk16_STD_EGLM_woodland: CUP_arifle_Mk16_STD_EGLM {
-        displayName = "SCAR-L Woodland (EGLM)";
+        displayName = $STR_SCAR_L_Woodland_EGLM_Display;
     };
 
     class CUP_arifle_Mk16_SV: CUP_arifle_SCAR_L_Base {
-        displayName = "SCAR-L MR";
+        displayName = $STR_SCAR_L_MR_Display;
     };
 
     class CUP_arifle_Mk16_SV_black: CUP_arifle_Mk16_SV {
-        displayName = "SCAR-L Black MR";
+        displayName = $STR_SCAR_L_Black_MR_Display;
     };
 
     class CUP_arifle_Mk16_SV_woodland: CUP_arifle_Mk16_SV {
-        displayName = "SCAR-L Woodland MR";
+        displayName = $STR_SCAR_L_Woodland_MR_Display;
     };
 
     class CUP_arifle_Mk16_CQC: CUP_arifle_SCAR_L_Base {
-        displayName = "SCAR-L CQC";
+        displayName = $STR_SCAR_L_CQC_Display;
     };
 
     class CUP_arifle_Mk16_CQC_black: CUP_arifle_Mk16_CQC {
-        displayName = "SCAR-L CQC Black";
+        displayName = $STR_SCAR_L_Black_CQC_Display;
     };
 
     class CUP_arifle_Mk16_CQC_woodland: CUP_arifle_Mk16_CQC {
-        displayName = "SCAR-L CQC Woodland";
+        displayName = $STR_SCAR_L_Woodland_CQC_Display;
     };
 
     class CUP_arifle_Mk16_CQC_FG: CUP_arifle_Mk16_CQC {
-        displayName = "SCAR-L CQC (Front Grip)";
+        displayName = $STR_SCAR_L_CQC_FG_Display;
     };
 
     class CUP_arifle_Mk16_CQC_FG_black: CUP_arifle_Mk16_CQC_FG {
-        displayName = "SCAR-L CQC Black (Front Grip)";
+        displayName = $STR_SCAR_L_Black_CQC_FG_Display;
     };
 
     class CUP_arifle_Mk16_CQC_FG_woodland: CUP_arifle_Mk16_CQC_FG {
-        displayName = "SCAR-L CQC Woodland (Front Grip)";
+        displayName = $STR_SCAR_L_Woodland_CQC_FG_Display;
     };
 
     class CUP_arifle_Mk16_CQC_SFG: CUP_arifle_Mk16_CQC {
-        displayName = "SCAR-L CQC (Surefire Front Grip)";
+        displayName = $STR_SCAR_L_CQC_SFG_Display;
     };
 
     class CUP_arifle_Mk16_CQC_SFG_black: CUP_arifle_Mk16_CQC_SFG {
-        displayName = "SCAR-L CQC Black (Surefire Front Grip)";
+        displayName = $STR_SCAR_L_Black_CQC_SFG_Display;
     };
 
     class CUP_arifle_Mk16_CQC_SFG_woodland: CUP_arifle_Mk16_CQC_SFG {
-        displayName = "SCAR-L CQC Woodland (Surefire Front Grip)";
+        displayName = $STR_SCAR_L_Woodland_CQC_SFG_Display;
     };
 
     class CUP_arifle_Mk16_CQC_EGLM: CUP_arifle_Mk16_CQC {
-        displayName = "SCAR-L CQC (EGLM)";
+        displayName = $STR_SCAR_L_CQC_EGLM_Display;
         magazineWell[] = {"CBA_556x45_STANAG", "STANAG_556x45", "STANAG_556x45_Large", "CBA_556x45_SCAR_EGLM"};
     };
 
     class CUP_arifle_Mk16_CQC_EGLM_black: CUP_arifle_Mk16_CQC_EGLM {
-        displayName = "SCAR-L CQC Black (EGLM)";
+        displayName = $STR_SCAR_L_Black_CQC_EGLM_Display;
     };
 
     class CUP_arifle_Mk16_CQC_EGLM_woodland: CUP_arifle_Mk16_CQC_EGLM {
-        displayName = "SCAR-L CQC Woodland (EGLM)";
+        displayName = $STR_SCAR_L_Woodland_CQC_EGLM_Display;
     };
 
     // MK17 Renaming
     class CUP_arifle_Mk17_STD: CUP_arifle_Mk17_Base {
-        displayName = "SCAR-H";
+        displayName = $STR_SCAR_H_Display;
     };
 
     class CUP_arifle_Mk17_STD_black: CUP_arifle_Mk17_STD {
-        displayName = "SCAR-H Black";
+        displayName = $STR_SCAR_H_Black_Display;
     };
 
     class CUP_arifle_Mk17_STD_woodland: CUP_arifle_Mk17_STD {
-        displayName = "SCAR-H Woodland";
+        displayName = $STR_SCAR_H_Woodland_Display;
     };
 
     class CUP_arifle_Mk17_STD_FG: CUP_arifle_Mk17_STD {
-        displayName = "SCAR-H (Front Grip)";
+        displayName = $STR_SCAR_H_FG_Display;
     };
 
     class CUP_arifle_Mk17_STD_FG_black: CUP_arifle_Mk17_STD_FG {
-        displayName = "SCAR-H Black (Front Grip)";
+        displayName = $STR_SCAR_H_Black_FG_Display;
     };
 
     class CUP_arifle_Mk17_STD_FG_woodland: CUP_arifle_Mk17_STD_FG {
-        displayName = "SCAR-H Woodland (Front Grip)";
+        displayName = $STR_SCAR_H_Woodland_FG_Display;
     };
 
     class CUP_arifle_Mk17_STD_SFG: CUP_arifle_Mk17_STD_FG {
-        displayName = "SCAR-H (Surefire Front Grip)";
+        displayName = $STR_SCAR_H_SFG_Display;
     };
 
     class CUP_arifle_Mk17_STD_SFG_black: CUP_arifle_Mk17_STD_SFG {
-        displayName = "SCAR-H Black (Surefire Front Grip)";
+        displayName = $STR_SCAR_H_Black_SFG_Display;
     };
 
     class CUP_arifle_Mk17_STD_SFG_woodland: CUP_arifle_Mk17_STD_SFG {
-        displayName = "SCAR-H Woodland (Surefire Front Grip)";
+        displayName = $STR_SCAR_H_Woodland_SFG_Display;
     };
 
     class CUP_arifle_Mk17_STD_EGLM: CUP_arifle_Mk17_STD {
-        displayName = "SCAR-H (EGLM)";
+        displayName = $STR_SCAR_H_EGLM_Display;
     };
 
     class CUP_arifle_Mk17_STD_EGLM_black: CUP_arifle_Mk17_STD_EGLM {
-        displayName = "SCAR-H Black (EGLM)";
+        displayName = $STR_SCAR_H_Black_EGLM_Display;
     };
 
     class CUP_arifle_Mk17_STD_EGLM_woodland: CUP_arifle_Mk17_STD_EGLM {
-        displayName = "SCAR-H Woodland (EGLM)";
+        displayName = $STR_SCAR_H_Woodland_EGLM_Display;
     };
 
     class CUP_arifle_Mk20: CUP_arifle_Mk17_Base {
-        displayName = "SCAR-H Woodland (EGLM)";
-    };
-
-    class CUP_arifle_Mk20: CUP_arifle_Mk17_Base {
-        displayName = "SCAR-H MR";
+        displayName = $STR_SCAR_H_MR_Display;
     };
 
     class CUP_arifle_Mk20_black: CUP_arifle_Mk20 {
-        displayName = "SCAR-H Black MR";
+        displayName = $STR_SCAR_H_Black_MR_Display;
     };
 
     class CUP_arifle_Mk20_woodland: CUP_arifle_Mk20 {
-        displayName = "SCAR-H Woodland MR";
+        displayName = $STR_SCAR_H_Woodland_MR_Display;
     };
 
     class CUP_arifle_Mk17_CQC: CUP_arifle_Mk17_Base {
-        displayName = "SCAR-H CQC";
+        displayName = $STR_SCAR_H_CQC_Display;
     };
 
     class CUP_arifle_Mk17_CQC_Black: CUP_arifle_Mk17_CQC {
-        displayName = "SCAR-H Black CQC";
+        displayName = $STR_SCAR_H_Black_CQC_Display;
     };
 
     class CUP_arifle_Mk17_CQC_woodland: CUP_arifle_Mk17_CQC {
-        displayName = "SCAR-H Woodland CQC ";
+        displayName = $STR_SCAR_H_Woodland_CQC_Display;
     };
 
     class CUP_arifle_Mk17_CQC_FG: CUP_arifle_Mk17_CQC {
-        displayName = "SCAR-H CQC (Front Grip)";
+        displayName = $STR_SCAR_H_CQC_FG_Display;
     };
 
     class CUP_arifle_Mk17_CQC_FG_black: CUP_arifle_Mk17_CQC_FG {
-        displayName = "SCAR-H Black CQC (Front Grip)";
+        displayName = $STR_SCAR_H_Black_CQC_FG_Display;
     };
 
     class CUP_arifle_Mk17_CQC_FG_woodland: CUP_arifle_Mk17_CQC_FG {
-        displayName = "SCAR-H Woodland CQC (Front Grip)";
+        displayName = $STR_SCAR_H_Woodland_CQC_FG_Display;
     };
 
     class CUP_arifle_Mk17_CQC_SFG: CUP_arifle_Mk17_CQC_FG {
-        displayName = "SCAR-H CQC (Surefire Front Grip)";
+        displayName = $STR_SCAR_H_CQC_SFG_Display;
     };
 
     class CUP_arifle_Mk17_CQC_SFG_black: CUP_arifle_Mk17_CQC_SFG {
-        displayName = "SCAR-H Black CQC (Surefire Front Grip)";
+        displayName = $STR_SCAR_H_Black_CQC_SFG_Display;
     };
 
     class CUP_arifle_Mk17_CQC_SFG_woodland: CUP_arifle_Mk17_CQC_SFG {
-        displayName = "SCAR-H Woodland CQC (Surefire Front Grip)";
+        displayName = $STR_SCAR_H_Woodland_CQC_SFG_Display;
     };
 
     class CUP_arifle_Mk17_CQC_EGLM: CUP_arifle_Mk17_CQC {
-        displayName = "SCAR-H CQC (EGLM)";
+        displayName = $STR_SCAR_H_CQC_EGLM_Display;
     };
 
     class CUP_arifle_Mk17_CQC_EGLM_black: CUP_arifle_Mk17_CQC_EGLM {
-        displayName = "SCAR-H Black CQC (EGLM)";
+        displayName = $STR_SCAR_H_Black_CQC_EGLM_Display;
     };
 
     class CUP_arifle_Mk17_CQC_EGLM_woodland: CUP_arifle_Mk17_CQC_EGLM {
-        displayName = "SCAR-H Woodland CQC (EGLM)";
+        displayName = $STR_SCAR_H_Woodland_CQC_EGLM_Display;
     };
 };
