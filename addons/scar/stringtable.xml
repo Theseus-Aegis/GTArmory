@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="SCAR">
+        <Key ID="STR_SCAR_L">
+            <English>SCAR-L</English>
+            <French>SCAR-L</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Black">
+            <English>SCAR-L Black</English>
+            <French>SCAR-L Noir</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland">
+            <English>SCAR-L Woodland</English>
+            <French>SCAR-L Des Bois</French>
+        </Key>
+        <Key ID="STR_SCAR_L_FG">
+            <English>SCAR-L (Front Grip)</English>
+            <French>SCAR-L (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_FG">
+            <English>SCAR-L Black (Front Grip)</English>
+            <French>SCAR-L Noir (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_FG">
+            <English>SCAR-L Woodland (Front Grip)</English>
+            <French>SCAR-L Des Bois (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_SFG">
+            <English>SCAR-L (Surefire Front Grip)</English>
+            <French>SCAR-L (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_SFG">
+            <English>SCAR-L Black (Surefire Front Grip)</English>
+            <French>SCAR-L Noir (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_SFG">
+            <English>SCAR-L Woodland (Surefire Front Grip)</English>
+            <French>SCAR-L Des Bois (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_EGLM">
+            <English>SCAR-L (EGLM)</English>
+            <French>SCAR-L (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_EGLM">
+            <English>SCAR-L Black (EGLM)</English>
+            <French>SCAR-L Noir (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_EGLM">
+            <English>SCAR-L Woodland (EGLM)</English>
+            <French>SCAR-L Des Bois (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_MR">
+            <English>SCAR-L MR</English>
+            <French>SCAR-L MR</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_MR">
+            <English>SCAR-L Black MR</English>
+            <French>SCAR-L Noir MR</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_MR">
+            <English>SCAR-L Woodland MR</English>
+            <French>SCAR-L Des Bois MR</French>
+        </Key>
+        <Key ID="STR_SCAR_L_CQC">
+            <English>SCAR-L CQC</English>
+            <French>SCAR-L CQC</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_CQC">
+            <English>SCAR-L CQC Black</English>
+            <French>SCAR-L CQC Noir</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_CQC">
+            <English>SCAR-L CQC Woodland</English>
+            <French>SCAR-L CQC Des Bois</French>
+        </Key>
+        <Key ID="STR_SCAR_L_CQC_FG">
+            <English>SCAR-L CQC (Front Grip)</English>
+            <French>SCAR-L CQC (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_CQC_FG">
+            <English>SCAR-L CQC Black (Front Grip)</English>
+            <French>SCAR-L CQC Noir (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_CQC_FG">
+            <English>SCAR-L CQC Woodland (Front Grip)</English>
+            <French>SCAR-L CQC Des Bois (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_CQC_SFG">
+            <English>SCAR-L CQC (Surefire Front Grip)</English>
+            <French>SCAR-L CQC (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_CQC_SFG">
+            <English>SCAR-L CQC Black (Surefire Front Grip)</English>
+            <French>SCAR-L CQC Noir (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_CQC_SFG">
+            <English>SCAR-L CQC Woodland (Surefire Front Grip)</English>
+            <French>SCAR-L CQC Des Bois (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_CQC_EGLM">
+            <English>SCAR-L CQC (EGLM)</English>
+            <French>SCAR-L CQC (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Black_CQC_EGLM">
+            <English>SCAR-L CQC Black (EGLM)</English>
+            <French>SCAR-L CQC Noir (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_L_Woodland_CQC_EGLM">
+            <English>SCAR-L CQC Woodland (EGLM)</English>
+            <French>SCAR-L CQC Des Bois (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_H">
+            <English>SCAR-H</English>
+            <French>SCAR-H</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Black">
+            <English>SCAR-H Black</English>
+            <French>SCAR-H Noir</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland">
+            <English>SCAR-H Woodland</English>
+            <French>SCAR-H Des Bois</French>
+        </Key>
+        <Key ID="STR_SCAR_H_FG">
+            <English>SCAR-H (Front Grip)</English>
+            <French>SCAR-H (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_FG">
+            <English>SCAR-H Black (Front Grip)</English>
+            <French>SCAR-H Noir (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_FG">
+            <English>SCAR-H Woodland (Front Grip)</English>
+            <French>SCAR-H Des Bois (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_SFG">
+            <English>SCAR-H (Surefire Front Grip)</English>
+            <French>SCAR-H (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_SFG">
+            <English>SCAR-H Black (Surefire Front Grip)</English>
+            <French>SCAR-H Noir (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_SFG">
+            <English>SCAR-H Woodland (Surefire Front Grip)</English>
+            <French>SCAR-H Des Bois (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_EGLM">
+            <English>SCAR-H (EGLM)</English>
+            <French>SCAR-H (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_EGLM">
+            <English>SCAR-H Black (EGLM)</English>
+            <French>SCAR-H Noir (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_EGLM">
+            <English>SCAR-H Woodland (EGLM)</English>
+            <French>SCAR-H Des Bois (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_MR">
+            <English>SCAR-H MR</English>
+            <French>SCAR-H MR</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_MR">
+            <English>SCAR-H Black MR</English>
+            <French>SCAR-H Noir MR</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_MR">
+            <English>SCAR-H Woodland MR</English>
+            <French>SCAR-H Des Bois</French>
+        </Key>
+        <Key ID="STR_SCAR_H_CQC">
+            <English>SCAR-H CQC</English>
+            <French>SCAR-H CQC</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_CQC">
+            <English>SCAR-H Black CQC</English>
+            <French>SCAR-H Noir CQC</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_CQC">
+            <English>SCAR-H Woodland CQC</English>
+            <French>SCAR-H Des Bois CQC</French>
+        </Key>
+        <Key ID="STR_SCAR_H_CQC_FG">
+            <English>SCAR-H CQC (Front Grip)</English>
+            <French>SCAR-H CQC (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_CQC_FG">
+            <English>SCAR-H Black CQC (Front Grip)</English>
+            <French>SCAR-H Noir CQC (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_CQC_FG">
+            <English>SCAR-H Woodland CQC (Front Grip)</English>
+            <French>SCAR-H Des Bois CQC (Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_CQC_SFG">
+            <English>SCAR-H CQC (Surefire Front Grip)</English>
+            <French>SCAR-H CQC (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_CQC_SFG">
+            <English>SCAR-H Black CQC (Surefire Front Grip)</English>
+            <French>SCAR-H Noir CQC (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_CQC_SFG">
+            <English>SCAR-H Wooddland CQC (Surefire Front Grip)</English>
+            <French>SCAR-H Des Bois CQC (Surefire Poignée Avant)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_CQC_EGLM">
+            <English>SCAR-H CQC (EGLM)</English>
+            <French>SCAR-H CQC (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Black_CQC_EGLM">
+            <English>SCAR-H Black CQC (EGLM)</English>
+            <French>SCAR-H Noir CQC (EGLM)</French>
+        </Key>
+        <Key ID="STR_SCAR_H_Woodland_CQC_EGLM">
+            <English>SCAR-H Woodland CQC (EGLM)</English>
+            <French>SCAR-H Des Bois CQC (EGLM)</French>
+        </Key>
+    </Package>
+</Project>

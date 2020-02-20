@@ -4,13 +4,13 @@ class CfgMagazines {
     CLASS(8Rnd_P_000): CA_Magazine {
         author = "TyroneMF";
         scope = 2;
-        displayName = "8Rnd #000 Buckshot Shells";
-        displayNameShort = "#000 Buckshot Shells";
+        displayName = $STR_TACGT_8Rnd_P_000_Display;
+        displayNameShort = $STR_TACGT_8Rnd_P_000_Display_Short;
         ammo = QCLASS(P_12G_000);
         count = 8;
         initSpeed = 385;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_12gauge_ca.paa";
-        descriptionShort = "#000 Buckshot";
+        descriptionShort = $STR_TACGT_8Rnd_P_000_Description;
         mass = 6;
         reloadaction = "CUP_GestureReloadM1014_8Rnd";
     };
@@ -18,24 +18,24 @@ class CfgMagazines {
     CLASS(8Rnd_S_AP20): CA_Magazine {
         author = "TyroneMF";
         scope = 2;
-        displayName = "8Rnd AP-20 Slug";
-        displayNameShort = "AP-20 Slug";
+        displayName = $STR_TACGT_8Rnd_S_AP20_Display;
+        displayNameShort = $STR_TACGT_8Rnd_S_AP20_Display_Short;
         ammo = QCLASS(S_12G_AP20);
         count = 8;
         initSpeed = 510;
         picture = "\a3\Weapons_F_Enoch\MagazineProxies\data\UI\icon_2rnd_12gauge_slugs_CA.paa";
-        descriptionShort = "AP-20 Slugs for precise armour penetration";
+        descriptionShort = $STR_TACGT_8Rnd_S_AP20_Description;
         mass = 6;
         reloadaction = "CUP_GestureReloadM1014_8Rnd";
     };
 
     CLASS(6Rnd_P_000): tacgt_8Rnd_P_000 {
-        displayName = "6Rnd #000 Buckshot Shells";
+        displayName = $STR_TACGT_6Rnd_P_000_Display;
         count = 6;
     };
 
     CLASS(6Rnd_S_AP20): tacgt_8Rnd_S_AP20 {
-        displayName = "6Rnd AP-20 Slug";
+        displayName = $STR_TACGT_6Rnd_S_AP20_Display;
         count = 6;
     };
 };
