@@ -26,8 +26,8 @@ class CfgAmmo {
     };
 
     CLASS(S_12G_AP20): BulletBase {
-        timetoLive = 0.1;
-        hit = 35;
+        timetoLive = 6;
+        hit = 40;
         indirectHit = 0;
         indirectHitRange = 0;
         cartridge = "FxCartridge_slug";
@@ -35,11 +35,11 @@ class CfgAmmo {
         typicalSpeed = 600;
         visibleFire = 18;
         audibleFire = 18;
-        airFriction = -0.0080000004;
+        airFriction = -0.008;
         caliber = 3;
         deflecting = 10;
         model = "\A3\weapons_f\empty.p3d";
-        simulation = "shotSubmunitions";
+        simulation = "shotBullet";
     };
     CLASS(P_12G_000): B_12Gauge_Pellets_Submunition {
         caliber = 0.525;
