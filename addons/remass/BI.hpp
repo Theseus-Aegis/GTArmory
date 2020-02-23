@@ -1,4 +1,4 @@
-    // 556 STANAG Magazines
+    // 556 STANAG Magazines (Includes ACE Magazines)
     class 30Rnd_556x45_Stanag: CA_Magazine {
         mass = 10;
     };
@@ -13,7 +13,11 @@
     class 30Rnd_556x45_Stanag_Tracer_Green: 30Rnd_556x45_Stanag {};
     class 30Rnd_556x45_Stanag_Tracer_Red: 30Rnd_556x45_Stanag {};
     class 30Rnd_556x45_Stanag_Tracer_Yellow: 30Rnd_556x45_Stanag {};
-
+    class ACE_30Rnd_556x45_Stanag_M995_AP_mag: 30Rnd_556x45_Stanag {};
+    class ACE_30Rnd_556x45_Stanag_Mk262_mag: 30Rnd_556x45_Stanag {};
+    class ACE_30Rnd_556x45_Stanag_Mk318_mag: 30Rnd_556x45_Stanag {};
+    class ACE_30Rnd_556x45_Stanag_Tracer_Dim: 30Rnd_556x45_Stanag_Tracer_Red {};
+    
     // 9mm Magazines
     class 30Rnd_9x21_Mag: CA_Magazine {
         mass = 9;
