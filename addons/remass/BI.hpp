@@ -52,22 +52,15 @@
     class 30Rnd_545x39_Mag_Tracer_Green_F: 30Rnd_545x39_Mag_Tracer_F {};
 
     // 762x39 AK Magazines
-    class 30Rnd_762x39_Mag_F: CA_Magazine {
-        mass = 11;
-    };
-    class 30Rnd_762x39_Mag_Green_F: 30Rnd_762x39_Mag_F {};
-    class 30Rnd_762x39_Mag_Tracer_F: 30Rnd_762x39_Mag_F {};
-    class 30Rnd_762x39_Mag_Tracer_Green_F: 30Rnd_762x39_Mag_F {};
+    class 30Rnd_762x39_Mag_F: CA_Magazine {};
     class 30Rnd_762x39_AK12_Mag_F: 30Rnd_762x39_Mag_F {};
-    class 30Rnd_762x39_AK12_Mag_Tracer_F: 30Rnd_762x39_AK12_Mag_F {};
-    class 30rnd_762x39_AK12_Arid_Mag_F: 30Rnd_762x39_AK12_Mag_F {};
-    class 30rnd_762x39_AK12_Arid_Mag_Tracer_F: 30Rnd_762x39_AK12_Mag_Tracer_F {};
-    class 30rnd_762x39_AK12_Lush_Mag_F: 30Rnd_762x39_AK12_Mag_F {};
-    class 30rnd_762x39_AK12_Lush_Mag_Tracer_F: 30Rnd_762x39_AK12_Mag_Tracer_F {};
-    // 75Rnd Variants
-    class 75Rnd_762x39_Mag_F: 30Rnd_762x39_Mag_F {};
+    class 75Rnd_762x39_Mag_F: 30Rnd_762x39_Mag_F {
+        mass = 25;
+    };
     class 75Rnd_762x39_Mag_Tracer_F: 75Rnd_762x39_Mag_F {};
-    class 75rnd_762x39_AK12_Mag_F: 30Rnd_762x39_AK12_Mag_F {};
+    class 75rnd_762x39_AK12_Mag_F: 30Rnd_762x39_AK12_Mag_F {
+        mass = 25;
+    };
     class 75rnd_762x39_AK12_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_F {};
     class 75rnd_762x39_AK12_Arid_Mag_F: 75rnd_762x39_AK12_Mag_F {};
     class 75rnd_762x39_AK12_Arid_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_Tracer_F {};
