@@ -8,19 +8,18 @@ class CfgPatches {
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ace_ballistics",
+            "tacgt_main",
+            "tacgt_ammunition",
             "CUP_Weapons_Ammunition",
             "hlcweapons_core",
             "hlcweapons_SG550",
             "hlcweapons_SAW",
             "hlcweapons_AUG",
             "hlcweapons_m14",
-            "hlcweapons_acr",
-            "tacgt_main",
-            "tacgt_ammunition"
-            };
+            "hlcweapons_acr"
+        };
         author = CSTRING(Author);
-        authors[] = {"GilleeDoo", "TyroneMF"};
+        authors[] = {"TyroneMF"};
         url = CSTRING(URL);
         VERSION_CONFIG;
     };
