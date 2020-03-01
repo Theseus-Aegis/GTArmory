@@ -58,221 +58,221 @@ class CfgWeapons {
 
     // MK16 Renaming
     class CUP_arifle_Mk16_STD: CUP_arifle_SCAR_L_Base {
-        displayName = $STR_SCAR_L_Display;
+        displayName = "$STR_SCAR_L_Display";
     };
 
     class CUP_arifle_Mk16_STD_black: CUP_arifle_Mk16_STD {
-        displayName = $STR_SCAR_L_Black_Display;
+        displayName = "$STR_SCAR_L_Black_Display";
     };
 
     class CUP_arifle_Mk16_STD_woodland: CUP_arifle_Mk16_STD {
-        displayName = $STR_SCAR_L_Woodland_Display;
+        displayName = "$STR_SCAR_L_Woodland_Display";
     };
 
     class CUP_arifle_Mk16_STD_FG: CUP_arifle_Mk16_STD {
-        displayName = $STR_SCAR_L_FG_Display;
+        displayName = "$STR_SCAR_L_FG_Display";
     };
 
     class CUP_arifle_Mk16_STD_FG_black: CUP_arifle_Mk16_STD_FG {
-        displayName = $STR_SCAR_L_Black_FG_Display;
+        displayName = "$STR_SCAR_L_Black_FG_Display";
     };
 
     class CUP_arifle_Mk16_STD_FG_woodland: CUP_arifle_Mk16_STD_FG {
-        displayName = $STR_SCAR_L_Woodland_FG_Display;
+        displayName = "$STR_SCAR_L_Woodland_FG_Display";
     };
 
     class CUP_arifle_Mk16_STD_SFG: CUP_arifle_Mk16_STD {
-        displayName = $STR_SCAR_L_SFG_Display;
+        displayName = "$STR_SCAR_L_SFG_Display";
     };
 
     class CUP_arifle_Mk16_STD_SFG_black: CUP_arifle_Mk16_STD_SFG {
-        displayName = $STR_SCAR_L_Black_SFG_Display;
+        displayName = "$STR_SCAR_L_Black_SFG_Display";
     };
 
     class CUP_arifle_Mk16_STD_SFG_woodland: CUP_arifle_Mk16_STD_SFG {
-        displayName = $STR_SCAR_L_Woodland_SFG_Display;
+        displayName = "$STR_SCAR_L_Woodland_SFG_Display";
     };
 
     class CUP_arifle_Mk16_STD_EGLM: CUP_arifle_Mk16_STD {
-        displayName = $STR_SCAR_L_EGLM_Display;
+        displayName = "$STR_SCAR_L_EGLM_Display";
         magazineWell[] = {"CBA_556x45_STANAG", "STANAG_556x45", "STANAG_556x45_Large", "CBA_556x45_SCAR_EGLM"};
     };
 
     class CUP_arifle_Mk16_STD_EGLM_black: CUP_arifle_Mk16_STD_EGLM {
-        displayName = $STR_SCAR_L_Black_EGLM_Display;
+        displayName = "$STR_SCAR_L_Black_EGLM_Display";
     };
 
     class CUP_arifle_Mk16_STD_EGLM_woodland: CUP_arifle_Mk16_STD_EGLM {
-        displayName = $STR_SCAR_L_Woodland_EGLM_Display;
+        displayName = "$STR_SCAR_L_Woodland_EGLM_Display";
     };
 
     class CUP_arifle_Mk16_SV: CUP_arifle_SCAR_L_Base {
-        displayName = $STR_SCAR_L_MR_Display;
+        displayName = "$STR_SCAR_L_MR_Display";
     };
 
     class CUP_arifle_Mk16_SV_black: CUP_arifle_Mk16_SV {
-        displayName = $STR_SCAR_L_Black_MR_Display;
+        displayName = "$STR_SCAR_L_Black_MR_Display";
     };
 
     class CUP_arifle_Mk16_SV_woodland: CUP_arifle_Mk16_SV {
-        displayName = $STR_SCAR_L_Woodland_MR_Display;
+        displayName = "$STR_SCAR_L_Woodland_MR_Display";
     };
 
     class CUP_arifle_Mk16_CQC: CUP_arifle_SCAR_L_Base {
-        displayName = $STR_SCAR_L_CQC_Display;
+        displayName = "$STR_SCAR_L_CQC_Display";
     };
 
     class CUP_arifle_Mk16_CQC_black: CUP_arifle_Mk16_CQC {
-        displayName = $STR_SCAR_L_Black_CQC_Display;
+        displayName = "$STR_SCAR_L_Black_CQC_Display";
     };
 
     class CUP_arifle_Mk16_CQC_woodland: CUP_arifle_Mk16_CQC {
-        displayName = $STR_SCAR_L_Woodland_CQC_Display;
+        displayName = "$STR_SCAR_L_Woodland_CQC_Display";
     };
 
     class CUP_arifle_Mk16_CQC_FG: CUP_arifle_Mk16_CQC {
-        displayName = $STR_SCAR_L_CQC_FG_Display;
+        displayName = "$STR_SCAR_L_CQC_FG_Display";
     };
 
     class CUP_arifle_Mk16_CQC_FG_black: CUP_arifle_Mk16_CQC_FG {
-        displayName = $STR_SCAR_L_Black_CQC_FG_Display;
+        displayName = "$STR_SCAR_L_Black_CQC_FG_Display";
     };
 
     class CUP_arifle_Mk16_CQC_FG_woodland: CUP_arifle_Mk16_CQC_FG {
-        displayName = $STR_SCAR_L_Woodland_CQC_FG_Display;
+        displayName = "$STR_SCAR_L_Woodland_CQC_FG_Display";
     };
 
     class CUP_arifle_Mk16_CQC_SFG: CUP_arifle_Mk16_CQC {
-        displayName = $STR_SCAR_L_CQC_SFG_Display;
+        displayName = "$STR_SCAR_L_CQC_SFG_Display";
     };
 
     class CUP_arifle_Mk16_CQC_SFG_black: CUP_arifle_Mk16_CQC_SFG {
-        displayName = $STR_SCAR_L_Black_CQC_SFG_Display;
+        displayName = "$STR_SCAR_L_Black_CQC_SFG_Display";
     };
 
     class CUP_arifle_Mk16_CQC_SFG_woodland: CUP_arifle_Mk16_CQC_SFG {
-        displayName = $STR_SCAR_L_Woodland_CQC_SFG_Display;
+        displayName = "$STR_SCAR_L_Woodland_CQC_SFG_Display";
     };
 
     class CUP_arifle_Mk16_CQC_EGLM: CUP_arifle_Mk16_CQC {
-        displayName = $STR_SCAR_L_CQC_EGLM_Display;
+        displayName = "$STR_SCAR_L_CQC_EGLM_Display";
         magazineWell[] = {"CBA_556x45_STANAG", "STANAG_556x45", "STANAG_556x45_Large", "CBA_556x45_SCAR_EGLM"};
     };
 
     class CUP_arifle_Mk16_CQC_EGLM_black: CUP_arifle_Mk16_CQC_EGLM {
-        displayName = $STR_SCAR_L_Black_CQC_EGLM_Display;
+        displayName = "$STR_SCAR_L_Black_CQC_EGLM_Display";
     };
 
     class CUP_arifle_Mk16_CQC_EGLM_woodland: CUP_arifle_Mk16_CQC_EGLM {
-        displayName = $STR_SCAR_L_Woodland_CQC_EGLM_Display;
+        displayName = "$STR_SCAR_L_Woodland_CQC_EGLM_Display";
     };
 
     // MK17 Renaming
     class CUP_arifle_Mk17_STD: CUP_arifle_Mk17_Base {
-        displayName = $STR_SCAR_H_Display;
+        displayName = "$STR_SCAR_H_Display";
     };
 
     class CUP_arifle_Mk17_STD_black: CUP_arifle_Mk17_STD {
-        displayName = $STR_SCAR_H_Black_Display;
+        displayName = "$STR_SCAR_H_Black_Display";
     };
 
     class CUP_arifle_Mk17_STD_woodland: CUP_arifle_Mk17_STD {
-        displayName = $STR_SCAR_H_Woodland_Display;
+        displayName = "$STR_SCAR_H_Woodland_Display";
     };
 
     class CUP_arifle_Mk17_STD_FG: CUP_arifle_Mk17_STD {
-        displayName = $STR_SCAR_H_FG_Display;
+        displayName = "$STR_SCAR_H_FG_Display";
     };
 
     class CUP_arifle_Mk17_STD_FG_black: CUP_arifle_Mk17_STD_FG {
-        displayName = $STR_SCAR_H_Black_FG_Display;
+        displayName = "$STR_SCAR_H_Black_FG_Display";
     };
 
     class CUP_arifle_Mk17_STD_FG_woodland: CUP_arifle_Mk17_STD_FG {
-        displayName = $STR_SCAR_H_Woodland_FG_Display;
+        displayName = "$STR_SCAR_H_Woodland_FG_Display";
     };
 
     class CUP_arifle_Mk17_STD_SFG: CUP_arifle_Mk17_STD_FG {
-        displayName = $STR_SCAR_H_SFG_Display;
+        displayName = "$STR_SCAR_H_SFG_Display";
     };
 
     class CUP_arifle_Mk17_STD_SFG_black: CUP_arifle_Mk17_STD_SFG {
-        displayName = $STR_SCAR_H_Black_SFG_Display;
+        displayName = "$STR_SCAR_H_Black_SFG_Display";
     };
 
     class CUP_arifle_Mk17_STD_SFG_woodland: CUP_arifle_Mk17_STD_SFG {
-        displayName = $STR_SCAR_H_Woodland_SFG_Display;
+        displayName = "$STR_SCAR_H_Woodland_SFG_Display";
     };
 
     class CUP_arifle_Mk17_STD_EGLM: CUP_arifle_Mk17_STD {
-        displayName = $STR_SCAR_H_EGLM_Display;
+        displayName = "$STR_SCAR_H_EGLM_Display";
     };
 
     class CUP_arifle_Mk17_STD_EGLM_black: CUP_arifle_Mk17_STD_EGLM {
-        displayName = $STR_SCAR_H_Black_EGLM_Display;
+        displayName = "$STR_SCAR_H_Black_EGLM_Display";
     };
 
     class CUP_arifle_Mk17_STD_EGLM_woodland: CUP_arifle_Mk17_STD_EGLM {
-        displayName = $STR_SCAR_H_Woodland_EGLM_Display;
+        displayName = "$STR_SCAR_H_Woodland_EGLM_Display";
     };
 
     class CUP_arifle_Mk20: CUP_arifle_Mk17_Base {
-        displayName = $STR_SCAR_H_MR_Display;
+        displayName = "$STR_SCAR_H_MR_Display";
     };
 
     class CUP_arifle_Mk20_black: CUP_arifle_Mk20 {
-        displayName = $STR_SCAR_H_Black_MR_Display;
+        displayName = "$STR_SCAR_H_Black_MR_Display";
     };
 
     class CUP_arifle_Mk20_woodland: CUP_arifle_Mk20 {
-        displayName = $STR_SCAR_H_Woodland_MR_Display;
+        displayName = "$STR_SCAR_H_Woodland_MR_Display";
     };
 
     class CUP_arifle_Mk17_CQC: CUP_arifle_Mk17_Base {
-        displayName = $STR_SCAR_H_CQC_Display;
+        displayName = "$STR_SCAR_H_CQC_Display";
     };
 
     class CUP_arifle_Mk17_CQC_Black: CUP_arifle_Mk17_CQC {
-        displayName = $STR_SCAR_H_Black_CQC_Display;
+        displayName = "$STR_SCAR_H_Black_CQC_Display";
     };
 
     class CUP_arifle_Mk17_CQC_woodland: CUP_arifle_Mk17_CQC {
-        displayName = $STR_SCAR_H_Woodland_CQC_Display;
+        displayName = "$STR_SCAR_H_Woodland_CQC_Display";
     };
 
     class CUP_arifle_Mk17_CQC_FG: CUP_arifle_Mk17_CQC {
-        displayName = $STR_SCAR_H_CQC_FG_Display;
+        displayName = "$STR_SCAR_H_CQC_FG_Display";
     };
 
     class CUP_arifle_Mk17_CQC_FG_black: CUP_arifle_Mk17_CQC_FG {
-        displayName = $STR_SCAR_H_Black_CQC_FG_Display;
+        displayName = "$STR_SCAR_H_Black_CQC_FG_Display";
     };
 
     class CUP_arifle_Mk17_CQC_FG_woodland: CUP_arifle_Mk17_CQC_FG {
-        displayName = $STR_SCAR_H_Woodland_CQC_FG_Display;
+        displayName = "$STR_SCAR_H_Woodland_CQC_FG_Display";
     };
 
     class CUP_arifle_Mk17_CQC_SFG: CUP_arifle_Mk17_CQC_FG {
-        displayName = $STR_SCAR_H_CQC_SFG_Display;
+        displayName = "$STR_SCAR_H_CQC_SFG_Display";
     };
 
     class CUP_arifle_Mk17_CQC_SFG_black: CUP_arifle_Mk17_CQC_SFG {
-        displayName = $STR_SCAR_H_Black_CQC_SFG_Display;
+        displayName = "$STR_SCAR_H_Black_CQC_SFG_Display";
     };
 
     class CUP_arifle_Mk17_CQC_SFG_woodland: CUP_arifle_Mk17_CQC_SFG {
-        displayName = $STR_SCAR_H_Woodland_CQC_SFG_Display;
+        displayName = "$STR_SCAR_H_Woodland_CQC_SFG_Display";
     };
 
     class CUP_arifle_Mk17_CQC_EGLM: CUP_arifle_Mk17_CQC {
-        displayName = $STR_SCAR_H_CQC_EGLM_Display;
+        displayName = "$STR_SCAR_H_CQC_EGLM_Display";
     };
 
     class CUP_arifle_Mk17_CQC_EGLM_black: CUP_arifle_Mk17_CQC_EGLM {
-        displayName = $STR_SCAR_H_Black_CQC_EGLM_Display;
+        displayName = "$STR_SCAR_H_Black_CQC_EGLM_Display";
     };
 
     class CUP_arifle_Mk17_CQC_EGLM_woodland: CUP_arifle_Mk17_CQC_EGLM {
-        displayName = $STR_SCAR_H_Woodland_CQC_EGLM_Display;
+        displayName = "$STR_SCAR_H_Woodland_CQC_EGLM_Display";
     };
 };
