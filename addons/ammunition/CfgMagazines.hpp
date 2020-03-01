@@ -33,7 +33,7 @@ class CfgMagazines {
         author = "TyroneMF";
         scope = 2;
         displayName = "$STR_Ammunition_TACGT_8Rnd_P_000_Display";
-        displayNameShort = "$STR_TACGT_8Rnd_P_000_Display_Short";
+        displayNameShort = "$STR_Ammunition_TACGT_8Rnd_P_000_Display_Short";
         ammo = QCLASS(P_12G_000);
         count = 8;
         initSpeed = 385;
@@ -160,7 +160,7 @@ class CfgMagazines {
         scope = 2;
         lastRoundsTracer = 2;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_emag_ca.paa";
-        displayName = "STR_Ammunition_TACGT_30Rnd_556X45_MK262_EMAG_Display";
+        displayName = "$STR_Ammunition_TACGT_30Rnd_556X45_MK262_EMAG_Display";
         mass = 10;
         model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30Rnd_EMAG.p3d";
         modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30Rnd_EMAG.p3d";
