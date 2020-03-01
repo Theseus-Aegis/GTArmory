@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACGT">
     <Package name="Ammunition">
-        <Key ID="STR_TACGT_8Rnd_P_000_Display">
+        <Key ID="STR_Ammunition_TACGT_8Rnd_P_000_Display">
             <English>8Rnd #00 Magnum Shells</English>
             <French>8Rnd #000 Cartouches de chevrotine</French>
         </Key>
-        <Key ID="STR_TACGT_8Rnd_P_000_Display_Short">
+        <Key ID="STR_Ammunition_TACGT_8Rnd_P_000_Display_Short">
             <English>#00 Magnum Shells</English>
             <French>#000 Cartouches de chevrotine</French>
         </Key>
-        <Key ID="STR_TACGT_8Rnd_P_000_Description">
+        <Key ID="STR_Ammunition_TACGT_8Rnd_P_000_Description">
             <English>#000 Buckshot</English>
             <French>#000 Chevrotine</French>
         </Key>
-        <Key ID="STR_TACGT_8Rnd_S_AP20_Display">
+        <Key ID="STR_Ammunition_TACGT_8Rnd_S_AP20_Display">
             <English>8Rnd AP-20 Slug</English>
             <French>8Rnd Limace AP-20</French>
         </Key>
-        <Key ID="STR_TACGT_8Rnd_S_AP20_Display_Short">
+        <Key ID="STR_Ammunition_TACGT_8Rnd_S_AP20_Display_Short">
             <English>AP-20 Slug</English>
             <French>Limace AP-20</French>
         </Key>
-        <Key ID="STR_TACGT_8Rnd_S_AP20_Description">
+        <Key ID="STR_Ammunition_TACGT_8Rnd_S_AP20_Description">
             <English>AP-20 Slugs for precise armour penetration</English>
             <French>Les balles AP-20 pour une pénétration précise du blindage</French>
         </Key>
-        <Key ID="STR_TACGT_6Rnd_P_000_Display">
+        <Key ID="STR_Ammunition_TACGT_6Rnd_P_000_Display">
             <English>6Rnd #00 Magnum Shells</English>
             <French>6Rnd #000 Cartouches de chevrotine</French>
         </Key>
-        <Key ID="STR_TACGT_6Rnd_S_AP20_Display">
+        <Key ID="STR_Ammunition_TACGT_6Rnd_S_AP20_Display">
             <English>6Rnd AP-20 Slug</English>
             <French>6Rnd Limace AP-20</French>
         </Key>
-        <Key ID="STR_TACGT_30Rnd_556x45_M855_PMAG_Display">
+        <Key ID="STR_Ammunition_TACGT_30Rnd_556x45_M855_PMAG_Display">
             <English>5.56mm 30Rnd PMAG (M855)</English>
         </Key>
-        <Key ID="STR_TACGT_30Rnd_556x45_M995_PMAG_Display">
+        <Key ID="STR_Ammunition_TACGT_30Rnd_556x45_M995_PMAG_Display">
             <English>5.56mm 30Rnd PMAG (M995)</English>
         </Key>
-        <Key ID="STR_TACGT_30Rnd_556x45_MK262_PMAG_Display">
+        <Key ID="STR_Ammunition_TACGT_30Rnd_556x45_MK262_PMAG_Display">
             <English>5.56mm 30Rnd PMAG (MK262)</English>
         </Key>
-        <Key ID="STR_TACGT_30Rnd_556x45_MK318_PMAG_Display">
+        <Key ID="STR_Ammunition_TACGT_30Rnd_556x45_MK318_PMAG_Display">
             <English>5.56mm 30Rnd PMAG (MK318)</English>
         </Key>
-        <Key ID="STR_TACGT_30Rnd_556x45_M855_EMAG_Display">
+        <Key ID="STR_Ammunition_TACGT_30Rnd_556x45_M855_EMAG_Display">
             <English>5.56mm 30Rnd EMAG (M855)</English>
         </Key>
-        <Key ID="STR_TACGT_30Rnd_556x45_M995_EMAG_Display">
+        <Key ID="STR_Ammunition_TACGT_30Rnd_556x45_M995_EMAG_Display">
             <English>5.56mm 30Rnd EMAG (M995)</English>
         </Key>
-        <Key ID="STR_TACGT_30Rnd_556X45_MK262_EMAG_Display">
+        <Key ID="STR_Ammunition_TACGT_30Rnd_556X45_MK262_EMAG_Display">
             <English>5.56mm 30Rnd EMAG (MK262)</English>
         </Key>
-        <Key ID="STR_TACGT_30Rnd_556X45_MK318_EMAG_Display">
+        <Key ID="STR_Ammunition_TACGT_30Rnd_556X45_MK318_EMAG_Display">
             <English>5.56mm 30Rnd EMAG (MK318)</English>
         </Key>
-        <Key ID="STR_30Rnd_556x45_Stanag_Display">
+        <Key ID="STR_Ammunition_30Rnd_556x45_Stanag_Display">
             <English>5.56mm 30Rnd STANAG RT Yellow</English>
         </Key>
-        <Key ID="STR_30Rnd_556x45_Stanag_green_Display">
+        <Key ID="STR_Ammunition_30Rnd_556x45_Stanag_green_Display">
             <English>5.56mm 30Rnd STANAG RT Green</English>
         </Key>
-        <Key ID="STR_30Rnd_556x45_Stanag_red_Display">
+        <Key ID="STR_Ammunition_30Rnd_556x45_Stanag_red_Display">
             <English>5.56mm 30Rnd STANAG RT Red</English>
-        <Key>
-        <Key ID="STR_30Rnd_556x45_Stanag_Tracer_Green_Display">
+        </Key>
+        <Key ID="STR_Ammunition_30Rnd_556x45_Stanag_Tracer_Green_Display">
             <English>5.56mm 30Rnd STANAG Tracer Green</English>
         </Key>
-        <Key ID="STR_30Rnd_556x45_Stanag_Tracer_Red_Display">
+        <Key ID="STR_Ammunition_30Rnd_556x45_Stanag_Tracer_Red_Display">
             <English>5.56mm 30Rnd STANAG Tracer Red</English>
         </Key>
-        <Key ID="STR_30Rnd_556x45_Stanag_Tracer_Yellow_Display">
+        <Key ID="STR_Ammunition_30Rnd_556x45_Stanag_Tracer_Yellow_Display">
             <English>5.56mm 30Rnd STANAG Tracer Yellow</English>
         </Key>
     </Package>
