@@ -1,33 +1,9 @@
 class CfgMagazines {
     class CA_Magazine;
+    class 30Rnd_556x45_Stanag_green;
     class ACE_30Rnd_556x45_Stanag_M995_AP_mag;
     class ACE_30Rnd_556x45_Stanag_Mk262_mag;
     class ACE_30Rnd_556x45_Stanag_Mk318_mag;
-
-    // Renaming for matching name conventions.
-    class 30Rnd_556x45_Stanag: CA_Magazine {
-        displayName = "$STR_Ammunition_30Rnd_556x45_Stanag_Display";
-    };
-
-    class 30Rnd_556x45_Stanag_green: 30Rnd_556x45_Stanag {
-        displayName = "$STR_Ammunition_30Rnd_556x45_Stanag_green_Display";
-    };
-
-    class 30Rnd_556x45_Stanag_red: 30Rnd_556x45_Stanag {
-        displayName = "$STR_Ammunition_30Rnd_556x45_Stanag_red_Display";
-    };
-
-    class 30Rnd_556x45_Stanag_Tracer_Green: 30Rnd_556x45_Stanag {
-        displayName = "$STR_Ammunition_30Rnd_556x45_Stanag_Tracer_Green_Display";
-    };
-
-    class 30Rnd_556x45_Stanag_Tracer_Red: 30Rnd_556x45_Stanag {
-        displayName = "$STR_Ammunition_30Rnd_556x45_Stanag_Tracer_Red_Display";
-    };
-
-    class 30Rnd_556x45_Stanag_Tracer_Yellow: 30Rnd_556x45_Stanag {
-        displayName = "$STR_Ammunition_30Rnd_556x45_Stanag_Tracer_Yellow_Display";
-    };
 
     CLASS(8Rnd_P_000): CA_Magazine {
         author = "TyroneMF";

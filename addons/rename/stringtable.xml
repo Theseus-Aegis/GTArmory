@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="Rename">
+        <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Display">
+            <English>5.56mm 30Rnd STANAG (M855)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Green_Display">
+            <English>5.56mm 30Rnd STANAG R-Tracer Green (M855)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Red_Display">
+            <English>5.56mm 30Rnd STANAG R-Tracer Red (M855)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Tracer_Green_Display">
+            <English>5.56mm 30Rnd STANAG Tracer Green (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Tracer_Red_Display">
+            <English>5.56mm 30Rnd STANAG Tracer Red (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Tracer_Yellow_Display">
+            <English>5.56mm 30Rnd STANAG Tracer Yellow (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Display">
+            <English>5.56mm 150Rnd Drum Mag (M855)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Sand_Display">
+            <English>5.56mm 150Rnd Sand Drum Mag (M855)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Sand_Tracer_Display">
+            <English>5.56mm 150Rnd Sand T-Red Drum Mag (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Green_Display">
+            <English>5.56mm 150Rnd Green Drum Mag (M855)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Green_Tracer_Display">
+            <English>5.56mm 150Rnd Green T-Red Drum Mag (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Tracer_Display">
+            <English>5.56mm 150Rnd T-Red Drum Mag (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_Hamr_2D_Display">
+            <English>Leupold Mark 4 HAMR (2D)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_Arco_2D_Display">
+            <English>ELCAN SpecterOS (2D)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_MRCO_2D_Display">
+            <English>IOR-Valdada Pitbull 2 (2D)</English>
+        </Key>
+    </Package>
+</Project>
