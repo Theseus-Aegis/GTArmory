@@ -5,19 +5,19 @@
             <English>5.56mm 30Rnd STANAG (M855)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Green_Display">
-            <English>5.56mm 30Rnd STANAG R-Tracer Green (M855)</English>
+            <English>5.56mm 30Rnd STANAG [RT] Green (M855)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Red_Display">
-            <English>5.56mm 30Rnd STANAG R-Tracer Red (M855)</English>
+            <English>5.56mm 30Rnd STANAG [RT] Red (M855)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Tracer_Green_Display">
-            <English>5.56mm 30Rnd STANAG Tracer Green (M856)</English>
+            <English>5.56mm 30Rnd STANAG [T] Green (M856)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Tracer_Red_Display">
-            <English>5.56mm 30Rnd STANAG Tracer Red (M856)</English>
+            <English>5.56mm 30Rnd STANAG [T] Red (M856)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Tracer_Yellow_Display">
-            <English>5.56mm 30Rnd STANAG Tracer Yellow (M856)</English>
+            <English>5.56mm 30Rnd STANAG [T] Yellow (M856)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Display">
             <English>5.56mm 150Rnd Drum Mag (M855)</English>
@@ -26,16 +26,34 @@
             <English>5.56mm 150Rnd Sand Drum Mag (M855)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Sand_Tracer_Display">
-            <English>5.56mm 150Rnd Sand T-Red Drum Mag (M856)</English>
+            <English>5.56mm 150Rnd Sand [T] Red Drum Mag (M856)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Green_Display">
             <English>5.56mm 150Rnd Green Drum Mag (M855)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Green_Tracer_Display">
-            <English>5.56mm 150Rnd Green T-Red Drum Mag (M856)</English>
+            <English>5.56mm 150Rnd Green [T] Red Drum Mag (M856)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Tracer_Display">
-            <English>5.56mm 150Rnd T-Red Drum Mag (M856)</English>
+            <English>5.56mm 150Rnd [T] Red Drum Mag (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_200Rnd_556x45_Box_Display">
+            <English>5.56mm 200Rnd [TE4] Yellow Box Mag (M855)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_200Rnd_556x45_Box_Red_Display">
+            <English>5.56mm 200Rnd [TE4] Red Box Mag (M855)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_200Rnd_556x45_Box_Tracer_Display">
+            <English>5.56mm 200Rnd [T] Yellow Box Mag (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_200Rnd_556x45_Box_Tracer_Red_Display">
+            <English>5.56mm 200Rnd [T] Red Box Mag (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_20Rnd_762x51_Mag">
+            <English>7.62mm 20Rnd Mag (M80)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_20Rnd_762x51_Tracer_Mag">
+            <English>7.62mm 20Rnd [T] Mag (M62)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_Hamr_2D_Display">
             <English>Leupold Mark 4 HAMR (2D)</English>
