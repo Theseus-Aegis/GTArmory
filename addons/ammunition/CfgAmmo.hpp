@@ -1,5 +1,7 @@
 class CfgAmmo {
     class BulletBase;
+    class B_556x45_Ball;
+    class B_762x39_Ball_F;
     class B_12Gauge_Pellets_Submunition: BulletBase {};
     class B_12Gauge_Pellets_Submunition_Deploy: BulletBase {};
 
@@ -47,5 +49,22 @@ class CfgAmmo {
         triggerTime = 0.008;
         submunitionAmmo = QCLASS(12g_Pellets_Submunition_Deploy);
         submunitionConeAngle = 0.81;
+    };
+    CLASS(556x45_EPR_M855A1): B_556x45_Ball {
+        airFriction=-0.0012588;
+        ACE_caliber=5.69;
+        ACE_bulletLength=23.012;
+        ACE_bulletMass=4.0176;
+        ACE_ammoTempMuzzleVelocityShifts[]={-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+        ACE_ballisticCoefficients[]={0.307};
+        ACE_velocityBoundaries[]={};
+        ACE_standardAtmosphere="ASM";
+        ACE_dragModel=1;
+        ACE_muzzleVelocities[]={791, 897, 961};
+        ACE_barrelLengths[]={264.0, 393.7, 508.0};
+    };
+
+    CLASS(556x45_EPR_M855A1_Red): tacgt_556x45_EPR_M855A1 {
+        model="\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
 };
