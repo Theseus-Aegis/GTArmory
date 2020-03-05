@@ -11,6 +11,8 @@
 ##### 5.56x45
 - M855: Standard ball round.
 - M856: Tracer round matching the same performance as M855.
+- M855A1: Enhanced performance round, mid-tier between M855/M995.
+- M856A1: Enhanced performance tracer round.
 - M995: Armour Piercing round.
 - MK262: Match-quality round that is more effective at longer ranges than standard M855.
 - MK318: Enhanced variant of the M855, Designed to better penetrate objects with increased consistency.
