@@ -86,7 +86,7 @@ class CfgMagazines {
     class 30rnd_762x39_AK12_Lush_Mag_Tracer_F: 30Rnd_762x39_AK12_Mag_Tracer_F {
         displayName = "$STR_TACGT_Rename_30Rnd_762x39_AK12_Lush_Mag_Tracer";
     };
-    class 75Rnd_762x39_Mag_F: 30Rnd_762x39_Mag_F { // Updating base class?
+    class 75Rnd_762x39_Mag_F: 30Rnd_762x39_Mag_F {
         displayName = "$STR_TACGT_Rename_75Rnd_762x39_AKM_Mag";
     };
     class 75Rnd_762x39_Mag_Tracer_F: 75Rnd_762x39_Mag_F {
@@ -104,7 +104,7 @@ class CfgMagazines {
     class 75rnd_762x39_AK12_Arid_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_Tracer_F {
         displayName = "$STR_TACGT_Rename_75Rnd_762x39_AK12_Arid_Mag_Tracer";
     };
-    class 75rnd_762x39_AK12_Lush_Mag_F: 30Rnd_762x39_AK12_Mag_F {
+    class 75rnd_762x39_AK12_Lush_Mag_F: 75rnd_762x39_AK12_Mag_F {
         displayName = "$STR_TACGT_Rename_75Rnd_762x39_AK12_Lush_Mag";
     };
     class 75rnd_762x39_AK12_Lush_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_Tracer_F {

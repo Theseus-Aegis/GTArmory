@@ -22,6 +22,12 @@
     };
 
     // 762x39 AK Magazines
+    class 30Rnd_762x39_Mag_F: CA_Magazine {
+        mass = 11;
+    };
+    class 30Rnd_762x39_AK12_Mag_F: 30Rnd_762x39_Mag_F {
+        mass = 11;
+    };
     class 75Rnd_762x39_Mag_F: 30Rnd_762x39_Mag_F {
         mass = 25;
     };
