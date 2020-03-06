@@ -70,7 +70,7 @@ class CfgAmmo {
         ACE_barrelLengths[] = {210.82, 238.76, 269.24, 299.72, 330.2, 360.68, 391.16, 419.1, 449.58, 480.06, 508.0, 609.6};
     };
 
-    CLASS(556x45_EPR_M855A1_Red): tacgt_556x45_EPR_M855A1 {
+    class CLASS(556x45_EPR_M855A1_Red): CLASS(556x45_EPR_M855A1) {
         model="\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
 };
