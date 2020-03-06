@@ -9,7 +9,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "hlcweapons_mp5",};
         author = CSTRING(Author);
-        authors[] = {"GilleeDoo", "TyroneMF"};
+        authors[] = {"TyroneMF"};
         url = CSTRING(URL);
         VERSION_CONFIG;
     };

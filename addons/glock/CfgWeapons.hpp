@@ -10,7 +10,7 @@ class CfgWeapons {
         displayName = "$STR_TACGT_Glock_Glock17_Black_Display";
     };
 
-    CLASS(hgun_Glock18_Tan): CUP_hgun_Glock17_tan {
+    class CLASS(hgun_Glock18_Tan): CUP_hgun_Glock17_tan {
         author = "CUP, TyroneMF";
         scope = 2;
         displayName = "$STR_TACGT_Glock_Glock18_Tan_Display";
@@ -55,7 +55,7 @@ class CfgWeapons {
         };
     };
 
-    CLASS(hgun_Glock18_Black): tacgt_hgun_Glock18_Tan {
+    class CLASS(hgun_Glock18_Black): CLASS(hgun_Glock18_Tan) {
         scope = 2;
         displayName = "$STR_TACGT_Glock_Glock18_Black_Display";
         hiddenSelections[] = {"Camo"};

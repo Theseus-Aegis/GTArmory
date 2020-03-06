@@ -9,7 +9,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "CUP_Weapons_MP7"};
         author = CSTRING(Author);
-        authors[] = {"GilleeDoo", "TyroneMF"};
+        authors[] = {"TyroneMF"};
         url = CSTRING(URL);
         VERSION_CONFIG;
     };
