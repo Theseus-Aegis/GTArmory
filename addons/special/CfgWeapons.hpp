@@ -45,10 +45,10 @@ class CfgWeapons {
         displayName = "$STR_TACGT_Special_RG_MarCiras_HH_Belt_KHK";
         hiddenSelections[] = {"camo", "camo1", "camo2", "camo3"};
         hiddenSelectionsTextures[] = {
-			"milgp_vests\textures\v_marciras_khk_co.paa",
-			"milgp_vests\textures\v_battle_belt_khk_co.paa",
-			"\x\tacgt\addons\special\data\v_gear_01_khk_RG_co.paa",
-			"milgp_vests\textures\v_gear_02_co.paa"
+            "milgp_vests\textures\v_marciras_khk_co.paa",
+            "milgp_vests\textures\v_battle_belt_khk_co.paa",
+            "\x\tacgt\addons\special\data\v_gear_01_khk_RG_co.paa",
+            "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
 
@@ -58,10 +58,10 @@ class CfgWeapons {
         displayName = "$STR_TACGT_Special_RG_MarCiras_HH_Belt_RGR";
         hiddenSelections[] = {"camo", "camo1", "camo2", "camo3"};
         hiddenSelectionsTextures[] = {
-			"milgp_vests\textures\v_marciras_rgr_co.paa",
-			"milgp_vests\textures\v_battle_belt_rgr_co.paa",
-			"\x\tacgt\addons\special\data\v_gear_01_rgr_RG_co.paa",
-			"milgp_vests\textures\v_gear_02_co.paa"
+            "milgp_vests\textures\v_marciras_rgr_co.paa",
+            "milgp_vests\textures\v_battle_belt_rgr_co.paa",
+            "\x\tacgt\addons\special\data\v_gear_01_rgr_RG_co.paa",
+            "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
 };
