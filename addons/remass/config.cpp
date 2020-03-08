@@ -7,7 +7,17 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "hlcweapons_mp5"};
+        requiredAddons[] = {
+            "tacgt_main",
+            "tacgt_ammunition",
+            "CUP_Weapons_Ammunition",
+            "hlcweapons_core",
+            "hlcweapons_SG550",
+            "hlcweapons_SAW",
+            "hlcweapons_AUG",
+            "hlcweapons_m14",
+            "hlcweapons_acr"
+        };
         author = CSTRING(Author);
         authors[] = {"TyroneMF"};
         url = CSTRING(URL);
@@ -15,9 +25,4 @@ class CfgPatches {
     };
 };
 
-class Mode_SemiAuto;
-class Mode_Burst;
-class Mode_FullAuto;
-
-#include "CfgMagazineWells.hpp"
-#include "CfgWeapons.hpp"
+#include "CfgMagazines.hpp"

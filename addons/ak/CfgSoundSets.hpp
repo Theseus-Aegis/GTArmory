@@ -1,5 +1,5 @@
 class CfgSoundSets {
-    CLASS(AKM_Shot_SoundSet) {
+    class CLASS(AKM_Shot_SoundSet) {
         volumeFactor = 1.6;
         obstructionFactor = 0.3;
         occlusionFactor = 0.5;
@@ -12,7 +12,7 @@ class CfgSoundSets {
         distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
     };
 
-    CLASS(AKM_tail_SoundSet) {
+    class CLASS(AKM_tail_SoundSet) {
         volumeFactor = 1;
         obstructionFactor = 0;
         occlusionFactor = 0.3;
@@ -26,7 +26,7 @@ class CfgSoundSets {
         distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
     };
 
-    CLASS(AKM_Silencer_SoundSet) {
+    class CLASS(AKM_Silencer_SoundSet) {
         volumeFactor = 1;
         obstructionFactor = 0.3;
         occlusionFactor = 0.5;
@@ -38,7 +38,7 @@ class CfgSoundSets {
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
     };
 
-    CLASS(AKM_SilencerTail_SoundSet) {
+    class CLASS(AKM_SilencerTail_SoundSet) {
         doppler = 0;
         frequencyRandomizer = 1;
         loop = 0;
@@ -52,7 +52,7 @@ class CfgSoundSets {
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
     };
 
-    CLASS(AK74U_Shot_SoundSet) {
+    class CLASS(AK74U_Shot_SoundSet) {
         doppler = 0;
         loop = 0;
         obstructionFactor = 0.3;
@@ -64,7 +64,7 @@ class CfgSoundSets {
         volumeCurve = "InverseSquare2Curve";
     };
 
-    CLASS(AK74U_tail_SoundSet) {
+    class CLASS(AK74U_tail_SoundSet) {
         doppler = 0;
         frequencyRandomizer = 1;
         loop = 0;
@@ -79,7 +79,7 @@ class CfgSoundSets {
         volumeCurve = "InverseSquare2Curve";
     };
 
-    CLASS(AK74U_Silencer_SoundSet) {
+    class CLASS(AK74U_Silencer_SoundSet) {
         doppler = 0;
         loop = 0;
         obstructionFactor = 0.3;
@@ -91,7 +91,7 @@ class CfgSoundSets {
         soundShaders[] = {"AK74_closure_SoundShader", "AK74_silencerShot_SoundShader"};
     };
 
-    CLASS(AK74U_SilencerTail_SoundSet) {
+    class CLASS(AK74U_SilencerTail_SoundSet) {
         doppler = 0;
         frequencyRandomizer = 1;
         volumeFactor = 0.7;
