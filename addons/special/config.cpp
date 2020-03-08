@@ -5,13 +5,13 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {
-            "tacgt_KG_Opscore_Fleck_Patch",
-            "tacgt_KG_Opscore_Patch",
-            "tacgt_MM_tshirt_G3_field_pants_rgr",
-            "tacgt_RG_marciras_medic_belt_khk"
+            QCLASS(KG_Opscore_Fleck_Patch),
+            QCLASS(KG_Opscore_Patch),
+            QCLASS(MM_tshirt_G3_field_pants_rgr),
+            QCLASS(RG_marciras_medic_belt_khk)
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"BWA3_headgear", "milgp_uniforms_cfg", "milgp_vests_cfg", "tacgt_main"};
+        requiredAddons[] = {"tacgt_main", "BWA3_headgear", "milgp_uniforms_cfg", "milgp_vests_cfg"};
         author = CSTRING(Author);
         authors[] = {"GilleeDoo", "TyroneMF"};
         url = CSTRING(URL);

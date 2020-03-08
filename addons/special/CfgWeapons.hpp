@@ -6,7 +6,7 @@ class CfgWeapons {
     class milgp_v_marciras_medic_belt_rgr;
 
     // Kelly
-    CLASS(KG_Opscore_Fleck_Patch): BWA3_OpsCore_Fleck_Patch {
+    class CLASS(KG_Opscore_Fleck_Patch): BWA3_OpsCore_Fleck_Patch {
         author = "GilleeDoo";
         scope = 2;
         displayName = "OpsCore Flecktarn KG Edition";
@@ -18,7 +18,7 @@ class CfgWeapons {
         };
     };
 
-    CLASS(KG_Opscore_Patch): BWA3_OpsCore {
+    class CLASS(KG_Opscore_Patch): BWA3_OpsCore {
         author = "GilleeDoo";
         scope = 2;
         displayName = "OpsCore Black KG Edition";
@@ -31,7 +31,7 @@ class CfgWeapons {
     };
 
     // Rory
-    CLASS(RG_marciras_hh_belt_khk): milgp_v_marciras_medic_belt_khk {
+    class CLASS(RG_marciras_hh_belt_khk): milgp_v_marciras_medic_belt_khk {
         author = "GilleeDoo";
         scope = 2;
         displayName = "MarCiras Head Honcho RG Edition + Belt (KHK)";
@@ -44,7 +44,7 @@ class CfgWeapons {
         };
     };
     
-    CLASS(RG_marciras_hh_belt_rgr): milgp_v_marciras_medic_belt_rgr {
+    class CLASS(RG_marciras_hh_belt_rgr): milgp_v_marciras_medic_belt_rgr {
         author = "GilleeDoo";
         scope = 2;
         displayName = "MarCiras Head Honcho RG Edition + Belt (RGR)";
