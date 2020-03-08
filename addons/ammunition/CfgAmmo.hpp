@@ -71,6 +71,6 @@ class CfgAmmo {
     };
 
     class CLASS(556x45_EPR_M855A1_Red): CLASS(556x45_EPR_M855A1) {
-        model="\A3\Weapons_f\Data\bullettracer\tracer_red";
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
 };
