@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="Special">
+        <Key ID="STR_TACGT_Special_KG_Opscore_Fleck_Patch_Display">
+            <English>OpsCore Flecktarn 'KG' Edition</English>
+        </Key>
+        <Key ID="STR_TACGT_Special_KG_Opscore_Patch_Display">
+            <English>OpsCore Black 'KG' Edition</English>
+        </Key>
+        <Key ID="STR_TACGT_Special_JJ_HeliPilot_Black_Display">
+            <English>Heli Pilot Helmet Black 'JJ' Edition</English>
+        </Key>
+        <Key ID="STR_TACGT_Special_RG_MarCiras_HH_Belt_KHK">
+            <English>MarCiras Head Honcho 'RG' Edition + Belt (KHK)</English>
+        </Key>
+        <Key ID="STR_TACGT_Special_RG_MarCiras_HH_Belt_RGR">
+            <English>MarCiras Head Honcho 'RG' Edition + Belt (RGR)</English>
+        </Key>
+    </Package>
+</Project>

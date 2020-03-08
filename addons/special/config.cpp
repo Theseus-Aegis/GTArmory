@@ -7,8 +7,9 @@ class CfgPatches {
         weapons[] = {
             QCLASS(KG_Opscore_Fleck_Patch),
             QCLASS(KG_Opscore_Patch),
-            QCLASS(MM_tshirt_G3_field_pants_rgr),
-            QCLASS(RG_marciras_medic_belt_khk)
+            QCLASS(JJ_HeliPilot_Black),
+            QCLASS(RG_marciras_hh_belt_rgr),
+            QCLASS(RG_marciras_hh_belt_khk)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "BWA3_headgear", "milgp_uniforms_cfg", "milgp_vests_cfg"};
