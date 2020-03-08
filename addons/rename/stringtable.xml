@@ -2,7 +2,7 @@
 <Project name="TACGT">
     <Package name="Rename">
         <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Display">
-            <English>5.56mm 30Rnd STANAG (M855)</English>
+            <English>5.56mm 30Rnd STANAG [RT] Yellow (M855)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Green_Display">
             <English>5.56mm 30Rnd STANAG [RT] Green (M855)</English>
@@ -20,16 +20,16 @@
             <English>5.56mm 30Rnd STANAG [T] Yellow (M856)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Display">
-            <English>5.56mm 150Rnd Drum Mag (M855)</English>
+            <English>5.56mm 150Rnd [RT] Red Drum Mag (M855)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Sand_Display">
-            <English>5.56mm 150Rnd Sand Drum Mag (M855)</English>
+            <English>5.56mm 150Rnd Sand [RT] Red Drum Mag (M855)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Sand_Tracer_Display">
             <English>5.56mm 150Rnd Sand [T] Red Drum Mag (M856)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Green_Display">
-            <English>5.56mm 150Rnd Green Drum Mag (M855)</English>
+            <English>5.56mm 150Rnd Green [RT] Red Drum Mag (M855)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Green_Tracer_Display">
             <English>5.56mm 150Rnd Green [T] Red Drum Mag (M856)</English>
@@ -49,11 +49,92 @@
         <Key ID="STR_TACGT_Rename_200Rnd_556x45_Box_Tracer_Red_Display">
             <English>5.56mm 200Rnd [T] Red Box Mag (M856)</English>
         </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_762x39_Mag">
+            <English>7.62mm 30Rnd [RT] Yellow Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_762x39_Mag_Green">
+            <English>7.62mm 30Rnd [RT] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_762x39_Mag_Yellow_Tracer">
+            <English>7.62mm 30Rnd [T] Yellow Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_762x39_Mag_Green_Tracer">
+            <English>7.62mm 30Rnd [T] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_762x39_AK12_Mag">
+            <English>7.62mm 30Rnd AK-12 [RT] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_762x39_AK12_Mag_Tracer">
+            <English>7.62mm 30Rnd AK-12 [T] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_762x39_AK12_Arid_Mag">
+            <English>7.62mm 30Rnd AK-12 Arid [RT] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_762x39_AK12_Arid_Mag_Tracer">
+            <English>7.62mm 30Rnd AK-12 Arid [T] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_762x39_AK12_Lush_Mag">
+            <English>7.62mm 30Rnd AK-12 Khaki [RT] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_762x39_AK12_Lush_Mag_Tracer">
+            <English>7.62mm 30Rnd AK-12 Khaki [T] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_75Rnd_762x39_AKM_Mag">
+            <English>7.62mm 75Rnd AKM [RT] Yellow Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_75Rnd_762x39_AKM_Mag_Tracer">
+            <English>7.62mm 75Rnd AKM [T] Yellow Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_75Rnd_762x39_AK12_Mag">
+            <English>7.62mm 75Rnd AK-12 [RT] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_75Rnd_762x39_AK12_Mag_Tracer">
+            <English>7.62mm 75Rnd AK-12 [T] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_75Rnd_762x39_AK12_Arid_Mag">
+            <English>7.62mm 75Rnd AK-12 Arid [RT] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_75Rnd_762x39_AK12_Arid_Mag_Tracer">
+            <English>7.62mm 75Rnd AK-12 Arid [T] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_75Rnd_762x39_AK12_Lush_Mag">
+            <English>7.62mm 75Rnd AK-12 Khaki [RT] Green Mag (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_75Rnd_762x39_AK12_Lush_Mag_Tracer">
+            <English>7.62mm 75Rnd AK-12 Khaki [T] Green Mag (PS)</English>
+        </Key>
         <Key ID="STR_TACGT_Rename_20Rnd_762x51_Mag">
             <English>7.62mm 20Rnd Mag (M80)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_20Rnd_762x51_Tracer_Mag">
-            <English>7.62mm 20Rnd [T] Mag (M62)</English>
+            <English>7.62mm 20Rnd [T] Red Mag (M62)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_50Rnd_570x28_Mag">
+            <English>5.7mm 50Rnd Mag (SS190)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_9x21_Mag">
+            <English>9mm 30Rnd Mag (Luger)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_9x21_Green_Mag">
+            <English>9mm 30Rnd [RT] Green Mag (Luger)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_9x21_Red_Mag">
+            <English>9mm 30Rnd [RT] Red Mag (Luger)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_9x21_Yellow_Mag">
+            <English>9mm 30Rnd [RT] Yellow Mag (Luger)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_17Rnd_9x21_Mag">
+            <English>9mm 17Rnd Mag (Luger)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_17Rnd_9x21_Green_Mag">
+            <English>9mm 17Rnd [RT] Green Mag (Luger)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_17Rnd_9x21_Red_Mag">
+            <English>9mm 17Rnd [RT] Red Mag (Luger)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_17Rnd_9x21_Yellow_Mag">
+            <English>9mm 17Rnd [RT] Yellow Mag (Luger)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_Hamr_2D_Display">
             <English>Leupold Mark 4 HAMR (2D)</English>

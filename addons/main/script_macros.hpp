@@ -8,5 +8,5 @@
 #define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCH.BUILD); versionAr[] = {MAJOR,MINOR,PATCH,BUILD}
 
 // Class
-#define CLASS(var1) class DOUBLES(PREFIX,var1)
+#define CLASS(var1) DOUBLES(PREFIX,var1)
 #define QCLASS(var1) QUOTE(DOUBLES(PREFIX,var1))

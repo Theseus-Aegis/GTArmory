@@ -5,13 +5,13 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {
-            "tacgt_hgun_Glock18_Tan",
-            "tacgt_hgun_Glock18_Black"
+            QCLASS(hgun_Glock18_Tan),
+            QCLASS(hgun_Glock18_Black)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "CUP_Weapons_Glock17"};
         author = CSTRING(Author);
-        authors[] = {"CUP", "GilleeDoo", "TyroneMF"};
+        authors[] = {"CUP", "TyroneMF"};
         url = CSTRING(URL);
         VERSION_CONFIG;
     };
