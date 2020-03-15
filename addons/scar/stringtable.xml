@@ -77,6 +77,30 @@
             <English>SCAR-L CQC (Front Grip)</English>
             <French>SCAR-L CQC (Poignée Avant)</French>
         </Key>
+        <Key ID="STR_TACGT_Scar_L_CQC_AFG_Display">
+            <English>SCAR-L CQC (AFG)</English>
+            <French>SCAR-L CQC (AFG)</French>
+        </Key>
+        <Key ID="STR_TACGT_Scar_L_Black_CQC_AFG_Display">
+            <English>SCAR-L CQC Black (AFG)</English>
+            <French>SCAR-L CQC Noir (AFG)</French>
+        </Key>
+        <Key ID="STR_TACGT_Scar_L_Woodland_CQC_AFG">
+            <English>SCAR-L CQC Woodland (AFG)</English>
+            <French>SCAR-L CQC Des Bois (AFG)</French>
+        </Key>
+        <Key ID="STR_TACGT_Scar_L_AFG_Display">
+            <English>SCAR-L (AFG)</English>
+            <French>SCAR-L (AFG)</French>
+        </Key>
+        <Key ID="STR_TACGT_Scar_L_Black_AFG_Display">
+            <English>SCAR-L Black (AFG)</English>
+            <French>SCAR-L Noir (AFG)</French>
+        </Key>
+        <Key ID="STR_TACGT_Scar_L_Woodland_AFG_Display">
+            <English>SCAR-L Woodland (AFG)</English>
+            <French>SCAR-L Des Bois(AFG)</French>
+        </Key>
         <Key ID="STR_TACGT_Scar_L_Black_CQC_FG_Display">
             <English>SCAR-L CQC Black (Front Grip)</English>
             <French>SCAR-L CQC Noir (Poignée Avant)</French>

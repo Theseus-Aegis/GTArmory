@@ -133,6 +133,30 @@ class CfgWeapons {
     class CUP_arifle_Mk16_CQC_FG: CUP_arifle_Mk16_CQC {
         displayName = "$STR_TACGT_Scar_L_CQC_FG_Display";
     };
+    
+    class CUP_arifle_Mk16_CQC_AFG: CUP_arifle_Mk16_CQC_FG {
+        displayName = "$STR_TACGT_Scar_L_CQC_AFG_Display";
+    };
+
+    class CUP_arifle_Mk16_CQC_AFG_black: CUP_arifle_Mk16_CQC_AFG {
+        displayName = "$STR_TACGT_Scar_L_Black_CQC_AFG_Display";
+    };
+
+    class CUP_arifle_Mk16_CQC_AFG_woodland: CUP_arifle_Mk16_CQC_AFG {
+        displayName = "$STR_TACGT_Scar_L_Woodland_CQC_AFG";
+    };
+
+    class CUP_arifle_Mk16_STD_AFG: CUP_arifle_Mk16_STD_FG {
+        displayName = "$STR_TACGT_Scar_L_AFG_Display";
+    };
+
+    class CUP_arifle_Mk16_STD_AFG_black: CUP_arifle_Mk16_STD_AFG {
+        displayName = "$STR_TACGT_Scar_L_Black_AFG_Display";
+    };
+
+    class CUP_arifle_Mk16_STD_AFG_woodland: CUP_arifle_Mk16_STD_AFG {
+        displayName = "$STR_TACGT_Scar_L_Woodland_AFG_Display";
+    };
 
     class CUP_arifle_Mk16_CQC_FG_black: CUP_arifle_Mk16_CQC_FG {
         displayName = "$STR_TACGT_Scar_L_Black_CQC_FG_Display";
