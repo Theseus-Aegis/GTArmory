@@ -14,7 +14,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {
             "\bwa3_headgear\data\bwa3_opscore_fleck_co.paa",
             "#(argb,8,8,3)color(0,0,0,0,CA)",
-            "\x\tacgt\addons\special\data\bwa3_opscore_patch_uvdl_KG_co.paa"
+            "\x\tacgt\addons\special\data\KG_Opscore_Patch_co.paa"
         };
     };
 
@@ -26,7 +26,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {
             "\bwa3_headgear\data\bwa3_opscore_schwarz_co.paa",
             "#(argb,8,8,3)color(0,0,0,0,CA)",
-            "\x\tacgt\addons\special\data\bwa3_opscore_patch_uvdl_KG_co.paa"
+            "\x\tacgt\addons\special\data\KG_Opscore_Patch_co.paa"
         };
     };
 
@@ -35,7 +35,7 @@ class CfgWeapons {
         author = "GilleeDoo";
         scope = 2;
         displayName = "$STR_TACGT_Special_JJ_HeliPilot_Black_Display";
-        hiddenSelectionsTextures[] = {"\x\tacgt\addons\special\data\helmet_heli_JJ_co.paa"};
+        hiddenSelectionsTextures[] = {"\x\tacgt\addons\special\data\JJ_HeliPilot_Black_co.paa"};
     };
 
     // Rory
@@ -47,7 +47,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {
             "milgp_vests\textures\v_marciras_khk_co.paa",
             "milgp_vests\textures\v_battle_belt_khk_co.paa",
-            "\x\tacgt\addons\special\data\v_gear_01_khk_RG_co.paa",
+            "\x\tacgt\addons\special\data\RG_marciras_hh_belt_khk_co.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -60,7 +60,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {
             "milgp_vests\textures\v_marciras_rgr_co.paa",
             "milgp_vests\textures\v_battle_belt_rgr_co.paa",
-            "\x\tacgt\addons\special\data\v_gear_01_rgr_RG_co.paa",
+            "\x\tacgt\addons\special\data\RG_marciras_hh_belt_rgr_co.paa",
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
