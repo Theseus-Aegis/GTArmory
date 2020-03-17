@@ -163,4 +163,29 @@ class CfgMagazines {
     class 16Rnd_9x21_yellow_Mag: 16Rnd_9x21_Mag {
         displayName = "$STR_TACGT_Rename_17Rnd_9x21_Yellow_Mag";
     };
+    
+    // 30Rnd .45ACP Magazines
+    class 30Rnd_45ACP_Mag_SMG_01: 30Rnd_9x21_Mag {
+        displayName = "$STR_TACGT_Rename_30Rnd_45ACP_Mag_SMG_01";
+    };
+    class 30Rnd_45ACP_Mag_SMG_01_Tracer_Green: 30Rnd_45ACP_Mag_SMG_01 {
+        displayName = "$STR_TACGT_Rename_30Rnd_45ACP_Mag_SMG_01_Tracer_Green";
+    };
+    class 30Rnd_45ACP_Mag_SMG_01_Tracer_Red: 30Rnd_45ACP_Mag_SMG_01 {
+        displayName = "$STR_TACGT_Rename_30Rnd_45ACP_Mag_SMG_01_Tracer_Red";
+    };
+    class 30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow: 30Rnd_45ACP_Mag_SMG_01 {
+        displayName = "$STR_TACGT_Rename_30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow";
+    };
+    
+    // Handgun .45ACP Magazines
+    class 11Rnd_45ACP_Mag: CA_Magazine {
+        displayName = "$STR_TACGT_Rename_11Rnd_45ACP_Mag";
+    };
+    class 6Rnd_45ACP_Cylinder: 11Rnd_45ACP_Mag {
+        displayName = "$STR_TACGT_Rename_6Rnd_45ACP_Cylinder";
+    };
+    class 9Rnd_45ACP_Mag: 30Rnd_45ACP_Mag_SMG_01 {
+        displayName = "$STR_TACGT_Rename_9Rnd_45ACP_Mag";
+    };
 };

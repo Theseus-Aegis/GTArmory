@@ -35,13 +35,18 @@ class CfgPatches {
             QCLASS(200Rnd_556x45_M855A1_Box),
             QCLASS(200Rnd_556x45_M855A1_Box_Red),
             QCLASS(200Rnd_556x45_M855A1_Box_Tracer),
-            QCLASS(200Rnd_556x45_M855A1_Box_Tracer_Red)
+            QCLASS(200Rnd_556x45_M855A1_Box_Tracer_Red),
+            QCLASS(30Rnd_762x39_BP_Mag),
+            QCLASS(30Rnd_762x39_AK12_BP_Mag),
+            QCLASS(30Rnd_762x39_AK12_Arid_BP_Mag),
+            QCLASS(30Rnd_762x39_AK12_Lush_BP_Mag)
         };
         ammo[] = {
             QCLASS(S_12G_AP20),
             QCLASS(P_12G_000),
             QCLASS(556x45_EPR_M855A1),
-            QCLASS(556x45_EPR_M855A1_Red)
+            QCLASS(556x45_EPR_M855A1_Red),
+            QCLASS(762x39_BP)
         };
         author = CSTRING(Author);
         authors[] = {"TyroneMF"};

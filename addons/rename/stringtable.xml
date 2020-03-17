@@ -136,6 +136,27 @@
         <Key ID="STR_TACGT_Rename_17Rnd_9x21_Yellow_Mag">
             <English>9mm 17Rnd [RT] Yellow Mag (Luger)</English>
         </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_45ACP_Mag_SMG_01">
+            <English>.45 25Rnd Mag (ACP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_45ACP_Mag_SMG_01_Tracer_Green">
+            <English>.45 25Rnd [T] Green Mag (ACP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_45ACP_Mag_SMG_01_Tracer_Red">
+            <English>.45 25Rnd [T] Red Mag (ACP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow">
+            <English>.45 25Rnd [T] Yellow Mag (ACP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_11Rnd_45ACP_Mag">
+            <English>.45 11Rnd Mag (ACP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_6Rnd_45ACP_Cylinder">
+            <English>.45 6Rnd Cylinder (ACP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_9Rnd_45ACP_Mag">
+            <English>.45 8Rnd Mag (ACP)</English>
+        </Key>
         <Key ID="STR_TACGT_Rename_Hamr_2D_Display">
             <English>Leupold Mark 4 HAMR (2D)</English>
         </Key>
