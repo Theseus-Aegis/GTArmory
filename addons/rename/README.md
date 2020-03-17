@@ -25,6 +25,7 @@
 
 ##### 7.62x39
 - PS: Standard steel-core round.
+- BP: Armour Piercing round.
 
 ##### 7.62x51
 - M80: Standard Ball round.

@@ -5,6 +5,7 @@ class CfgAmmo {
     class B_12Gauge_Pellets_Submunition;
     class B_12Gauge_Pellets_Submunition_Deploy;
 
+    // 12G ammo
     class CLASS(12g_Pellets_Submunition): B_12Gauge_Pellets_Submunition {
         caliber = 0.5;
         cost = 1;
@@ -17,6 +18,7 @@ class CfgAmmo {
         triggerSpeedCoef[] = {0.85, 1};
         triggerTime = 0.008;
     };
+
     class CLASS(12g_Pellets_Submunition_Deploy): B_12Gauge_Pellets_Submunition_Deploy {
         airFriction = -0.0030;
         caliber = 0.525;
@@ -43,6 +45,7 @@ class CfgAmmo {
         model = "\A3\weapons_f\empty.p3d";
         simulation = "shotBullet";
     };
+
     class CLASS(P_12G_000): B_12Gauge_Pellets_Submunition {
         caliber = 0.525;
         submunitionConeType[] = {"random", 12};
@@ -50,6 +53,8 @@ class CfgAmmo {
         submunitionAmmo = QCLASS(12g_Pellets_Submunition_Deploy);
         submunitionConeAngle = 0.81;
     };
+
+    // 5.56x45 Ammo
     class CLASS(556x45_EPR_M855A1): B_556x45_Ball {
         hit = 10.28;
         typicalSpeed = 974.8;
@@ -72,5 +77,13 @@ class CfgAmmo {
 
     class CLASS(556x45_EPR_M855A1_Red): CLASS(556x45_EPR_M855A1) {
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+    };
+
+    // 7.62x39 Ammo
+    class CLASS(762x39_BP): B_762x39_Ball_F {
+        hit = 14;
+        typicalSpeed = 705;
+        caliber = 1.8;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
     };
 };

@@ -1,7 +1,11 @@
 class CfgMagazines {
     class CA_Magazine;
-    class 30Rnd_556x45_Stanag_green;
     class 200Rnd_556x45_Box_F;
+    class 30Rnd_556x45_Stanag_green;
+    class 30Rnd_762x39_Mag_F;
+    class 30Rnd_762x39_AK12_Mag_F;
+    class 30rnd_762x39_AK12_Arid_Mag_F;
+    class 30rnd_762x39_AK12_Lush_Mag_F;
     class ACE_30Rnd_556x45_Stanag_M995_AP_mag;
     class ACE_30Rnd_556x45_Stanag_Mk262_mag;
     class ACE_30Rnd_556x45_Stanag_Mk318_mag;
@@ -178,6 +182,7 @@ class CfgMagazines {
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\emag_coyote_co.paa"}; 
     };
+
     class CLASS(30Rnd_556x45_M855A1_EMAG): 30Rnd_556x45_Stanag_green {
         author = "TyroneMF";
         scope = 2;
@@ -192,7 +197,7 @@ class CfgMagazines {
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\emag_co.paa"};
     };
-    
+
     class CLASS(30Rnd_556x45_M855A1_EMAG_Tan): CLASS(30Rnd_556x45_M855A1_EMAG) {
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_emag_coyote_ca.paa";
         displayName = "$STR_TACGT_Ammunition_30Rnd_556x45_M855A1_EMAG_Tan_Display";
@@ -200,7 +205,7 @@ class CfgMagazines {
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\emag_coyote_co.paa"}; 
     };
-    
+
     class CLASS(30Rnd_556x45_M995_EMAG): ACE_30Rnd_556x45_Stanag_M995_AP_mag {
         author = "TyroneMF";
         scope = 2;
@@ -276,22 +281,47 @@ class CfgMagazines {
         mass = 40;
         tracersEvery = 4;
     };
-    
+
     class CLASS(200Rnd_556x45_M855A1_Box_Red): CLASS(200Rnd_556x45_M855A1_Box) {
         displayName = "$STR_TACGT_Ammunition_200Rnd_556x45_M855A1_Box_Red_Display";
         ammo = QCLASS(556x45_EPR_M855A1_Red);
         tracersEvery = 4;
     };
-    
+
     class CLASS(200Rnd_556x45_M855A1_Box_Tracer): CLASS(200Rnd_556x45_M855A1_Box) {
         displayName = "$STR_TACGT_Ammunition_200Rnd_556x45_M855A1_Box_Tracer_Display";
         ammo = QCLASS(556x45_EPR_M855A1);
         tracersEvery = 1;
     };
-    
+
     class CLASS(200Rnd_556x45_M855A1_Box_Tracer_Red): CLASS(200Rnd_556x45_M855A1_Box_Tracer) {
         displayName = "$STR_TACGT_Ammunition_200Rnd_556x45_M855A1_Box_Tracer_Red_Display";
         ammo = QCLASS(556x45_EPR_M855A1_Red);
         tracersEvery = 1;
+    };
+
+    // 30Rnd 762x39 Magazines
+    class CLASS(30Rnd_762x39_BP_Mag): 30Rnd_762x39_Mag_F {
+        displayName = "$STR_TACGT_Ammunition_30Rnd_762x39_BP_Mag";
+        ammo = QCLASS(762x39_BP);
+        lastRoundsTracer = 2;
+    };
+
+    class CLASS(30Rnd_762x39_AK12_BP_Mag): 30Rnd_762x39_AK12_Mag_F {
+        displayName = "$STR_TACGT_Ammunition_30Rnd_762x39_AK12_BP_Mag";
+        ammo = QCLASS(762x39_BP);
+        lastRoundsTracer = 2;
+    };
+
+    class CLASS(30Rnd_762x39_AK12_Arid_BP_Mag): 30rnd_762x39_AK12_Arid_Mag_F {
+        displayName = "$STR_TACGT_Ammunition_30Rnd_762x39_AK12_Arid_BP_Mag";
+        ammo = QCLASS(762x39_BP);
+        lastRoundsTracer = 2;
+    };
+
+    class CLASS(30Rnd_762x39_AK12_Lush_BP_Mag): 30rnd_762x39_AK12_Lush_Mag_F {
+        displayName = "$STR_TACGT_Ammunition_30Rnd_762x39_AK12_Lush_BP_Mag";
+        ammo = QCLASS(762x39_BP);
+        lastRoundsTracer = 2;
     };
 };

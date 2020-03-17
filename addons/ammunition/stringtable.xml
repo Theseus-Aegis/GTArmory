@@ -105,5 +105,17 @@
         <Key ID="STR_TACGT_Ammunition_200Rnd_556x45_M855A1_Box_Tracer_Red_Display">
             <English>5.56mm 200Rnd [T] Red Box Mag (M856A1)</English>
         </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_762x39_BP_Mag">
+            <English>7.62mm 30Rnd [RT] Yellow Mag (BP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_762x39_AK12_BP_Mag">
+            <English>7.62mm 30Rnd AK-12 [RT] Yellow Mag (BP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_762x39_AK12_Arid_BP_Mag">
+            <English>7.62mm 30Rnd AK-12 Arid [RT] Yellow Mag (BP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_762x39_AK12_Lush_BP_Mag">
+            <English>7.62mm 30Rnd AK-12 Khaki [RT] Yellow Mag (BP)</English>
+        </Key>
     </Package>
 </Project>
