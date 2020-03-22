@@ -13,9 +13,9 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "BWA3_headgear", "milgp_uniforms_cfg", "milgp_vests_cfg"};
-        author = CSTRING(Author);
+        author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo", "TyroneMF"};
-        url = CSTRING(URL);
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

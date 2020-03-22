@@ -10,9 +10,9 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "CUP_Weapons_Glock17"};
-        author = CSTRING(Author);
+        author = ECSTRING(main,Author);
         authors[] = {"CUP", "TyroneMF"};
-        url = CSTRING(URL);
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

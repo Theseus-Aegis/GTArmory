@@ -10,3 +10,7 @@
 // Class
 #define CLASS(var1) DOUBLES(PREFIX,var1)
 #define QCLASS(var1) QUOTE(DOUBLES(PREFIX,var1))
+
+// Stringtable
+#define CSTRING(var1) QUOTE(TRIPLES($STR,ADDON,var1))
+#define ECSTRING(var1,var2) QUOTE(TRIPLES($STR,DOUBLES(PREFIX,var1),var2))
