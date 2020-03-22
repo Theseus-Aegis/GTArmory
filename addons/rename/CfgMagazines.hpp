@@ -54,6 +54,74 @@ class CfgMagazines {
     class 200Rnd_556x45_Box_Tracer_Red_F: 200Rnd_556x45_Box_Tracer_F {
         displayName = "$STR_TACGT_Rename_200Rnd_556x45_Box_Tracer_Red_Display";
     };
+    
+    // 20Rnd 6.5x39 Magazines
+    class 20Rnd_650x39_Cased_Mag_F: CA_Magazine {
+        displayName = "$STR_TACGT_Rename_20Rnd_650x39_Cased_Mag_F";
+    };
+    
+    // 30Rnd 6.5x39 Magazines
+    class 30Rnd_65x39_caseless_mag: CA_Magazine {
+        displayName = "$STR_TACGT_Rename_30Rnd_65x39_caseless_mag"; // MX Series
+    };
+    class 30Rnd_65x39_caseless_mag_Tracer: 30Rnd_65x39_caseless_mag {
+        displayName = "$STR_TACGT_Rename_30Rnd_65x39_caseless_mag_Tracer";
+    };
+    class 30Rnd_65x39_caseless_black_mag: 30Rnd_65x39_caseless_mag {
+        displayName = "$STR_TACGT_Rename_30Rnd_65x39_caseless_black_mag";
+    };
+    class 30Rnd_65x39_caseless_black_mag_Tracer: 30Rnd_65x39_caseless_mag_Tracer {
+        displayName = "$STR_TACGT_Rename_30Rnd_65x39_caseless_black_mag_Tracer";
+    };
+    class 30Rnd_65x39_caseless_khaki_mag: 30Rnd_65x39_caseless_mag {
+        displayName = "$STR_TACGT_Rename_30Rnd_65x39_caseless_khaki_mag";
+    };
+    class 30Rnd_65x39_caseless_khaki_mag_Tracer: 30Rnd_65x39_caseless_mag_Tracer {
+        displayName = "$STR_TACGT_Rename_30Rnd_65x39_caseless_khaki_mag_Tracer";
+    };
+    class tacs_30Rnd_65x39_caseless_BlackCamo_mag: 30Rnd_65x39_caseless_mag {
+        displayName = "$STR_TACGT_Rename_tacs_30Rnd_65x39_caseless_BlackCamo_mag";
+    };
+    class 30Rnd_65x39_caseless_green: 30Rnd_65x39_caseless_mag { // Katiba/Type 115
+        displayName = "$STR_TACGT_Rename_30Rnd_65x39_caseless_green";
+    };
+    class 30Rnd_65x39_caseless_green_mag_Tracer: 30Rnd_65x39_caseless_green {
+        displayName = "$STR_TACGT_Rename_30Rnd_65x39_caseless_green_mag_Tracer";
+    };
+    
+    // 100Rnd 6.5x39 Magazines
+    class 100Rnd_65x39_caseless_mag: CA_Magazine {
+        displayName = "$STR_TACGT_Rename_100Rnd_65x39_caseless_mag";
+    };
+    class 100Rnd_65x39_caseless_mag_Tracer: 100Rnd_65x39_caseless_mag {
+        displayName = "$STR_TACGT_Rename_100Rnd_65x39_caseless_mag_Tracer";
+    };
+    class 100Rnd_65x39_caseless_black_mag: 100Rnd_65x39_caseless_mag {
+        displayName = "$STR_TACGT_Rename_100Rnd_65x39_caseless_black_mag";
+    };
+    class 100Rnd_65x39_caseless_black_mag_tracer: 100Rnd_65x39_caseless_mag_Tracer {
+        displayName = "$STR_TACGT_Rename_100Rnd_65x39_caseless_black_mag_tracer";
+    };
+    class 100Rnd_65x39_caseless_khaki_mag: 100Rnd_65x39_caseless_mag {
+        displayName = "$STR_TACGT_Rename_100Rnd_65x39_caseless_khaki_mag";
+    };
+    class 100Rnd_65x39_caseless_khaki_mag_tracer: 100Rnd_65x39_caseless_mag_Tracer {
+        displayName = "$STR_TACGT_Rename_100Rnd_65x39_caseless_khaki_mag_tracer";
+    };
+    
+    // 200Rnd 6.5x39 Magazines
+    class 200Rnd_65x39_cased_Box: 100Rnd_65x39_caseless_mag {
+        displayName = "$STR_TACGT_Rename_200Rnd_65x39_cased_Box";
+    };
+    class 200Rnd_65x39_cased_Box_Red: 100Rnd_65x39_caseless_mag {
+        displayName = "$STR_TACGT_Rename_200Rnd_65x39_cased_Box_Red";
+    };
+    class 200Rnd_65x39_cased_Box_Tracer: 200Rnd_65x39_cased_Box {
+        displayName = "$STR_TACGT_Rename_200Rnd_65x39_cased_Box_Tracer";
+    };
+    class 200Rnd_65x39_cased_Box_Tracer_Red: 200Rnd_65x39_cased_Box {
+        displayName = "$STR_TACGT_Rename_200Rnd_65x39_cased_Box_Tracer_Red";
+    };
 
     // 30Rnd 762x39 Magazines
     class 30Rnd_762x39_Mag_F: CA_Magazine {

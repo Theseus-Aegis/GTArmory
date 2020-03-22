@@ -49,6 +49,66 @@
         <Key ID="STR_TACGT_Rename_200Rnd_556x45_Box_Tracer_Red_Display">
             <English>5.56mm 200Rnd [T] Red Box Mag (M856)</English>
         </Key>
+        <Key ID="STR_TACGT_Rename_20Rnd_650x39_Cased_Mag_F">
+            <English>6.5mm 20Rnd Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_mag">
+            <English>6.5mm 30Rnd Sand Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_mag_Tracer">
+            <English>6.5mm 30Rnd Sand [T] Red Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_black_mag">
+            <English>6.5mm 30Rnd Black Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_black_mag_Tracer">
+            <English>6.5mm 30Rnd Black [T] Red Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_khaki_mag">
+            <English>6.5mm 30Rnd Khaki Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_khaki_mag_Tracer">
+            <English>6.5mm 30Rnd Khaki [T] Red Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_green">
+            <English>6.5mm 30Rnd [RT] Green Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_green_mag_Tracer">
+            <English>6.5mm 30Rnd [T] Green Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_tacs_30Rnd_65x39_caseless_BlackCamo_mag">
+            <English>6.5mm 30Rnd Black Camo Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_100Rnd_65x39_caseless_mag">
+            <English>6.5mm 100Rnd Sand [TE4] Red Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_100Rnd_65x39_caseless_mag_Tracer">
+            <English>6.5mm 100Rnd Sand [T] Red Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_100Rnd_65x39_caseless_black_mag">
+            <English>6.5mm 100Rnd Black [TE4] Red Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_100Rnd_65x39_caseless_black_mag_tracer">
+            <English>6.5mm 100Rnd Black [T] Red Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_100Rnd_65x39_caseless_khaki_mag">
+            <English>6.5mm 100Rnd Khaki [TE4] Red Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_100Rnd_65x39_caseless_khaki_mag_tracer">
+            <English>6.5mm 100Rnd Khaki [T] Red Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_200Rnd_65x39_cased_Box">
+            <English>6.5mm 200Rnd [TE4] Yellow Box Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_200Rnd_65x39_cased_Box_Red">
+            <English>6.5mm 200Rnd [TE4] Red Box Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_200Rnd_65x39_cased_Box_Tracer">
+            <English>6.5mm 200Rnd [T] Yellow Box Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_200Rnd_65x39_cased_Box_Tracer_Red">
+            <English>6.5mm 200Rnd [T] Red Box Mag (Grendel)</English>
+        </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_762x39_Mag">
             <English>7.62mm 30Rnd [RT] Yellow Mag (PS)</English>
         </Key>
@@ -165,6 +225,36 @@
         </Key>
         <Key ID="STR_TACGT_Rename_MRCO_2D_Display">
             <English>IOR-Valdada Pitbull 2 (2D)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_arifle_MX_F_Display">
+            <English>MX (Sand)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_arifle_MX_GL_F_Display">
+            <English>MX 3GL (Sand)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_arifle_MX_SW_F_Display">
+            <English>MX LSW (Sand)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_arifle_MXC_F_Display">
+            <English>MXC (Sand)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_arifle_MXM_F_Display">
+            <English>MXM (Sand)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_arifle_MX_khk_F_Display">
+            <English>MX (Khaki)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_arifle_MX_GL_khk_F_Display">
+            <English>MX 3GL (Khaki)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_arifle_MX_SW_khk_F_Display">
+            <English>MX LSW (Khaki)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_arifle_MXC_khk_F_Display">
+            <English>MXC (Khaki)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_arifle_MXM_khk_F_Display">
+            <English>MXM (Khaki)</English>
         </Key>
     </Package>
 </Project>
