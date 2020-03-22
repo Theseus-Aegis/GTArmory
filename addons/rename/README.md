@@ -8,6 +8,9 @@
 
 ### **Ammunition Designations:**
 
+##### .45
+- ACP: Automatic Colt Pistol standard .45 Round.
+
 ##### 9x19
 - Luger: Standard Ball round.
 
@@ -23,10 +26,15 @@
 ##### 5.7x28
 - SS190: Standard Ball round.
 
+##### 6.5x39
+- Grendel: Standard caseless ball round.
+- Creedmoor: Long range performance caseless round.
+
 ##### 7.62x39
 - PS: Standard steel-core round.
 - BP: Armour Piercing round.
 
 ##### 7.62x51
+- M62: Tracer round.
 - M80: Standard Ball round.
 - M993: Armour Piercing round.
