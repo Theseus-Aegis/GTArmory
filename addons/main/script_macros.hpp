@@ -14,3 +14,8 @@
 // Stringtable
 #define CSTRING(var1) QUOTE(TRIPLES($STR,ADDON,var1))
 #define ECSTRING(var1,var2) QUOTE(TRIPLES($STR,DOUBLES(PREFIX,var1),var2))
+
+// Path
+#define PATHTOF_SYS(var1,var2,var3) \MAINPREFIX\##var1\SUBPREFIX\##var2\##var3
+#define PATHTOF(var1) PATHTOF_SYS(PREFIX,COMPONENT,var1)
+#define QPATHTOF(var1) QUOTE(PATHTOF(var1))
