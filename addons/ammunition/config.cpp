@@ -48,9 +48,9 @@ class CfgPatches {
             QCLASS(556x45_EPR_M855A1_Red),
             QCLASS(762x39_BP)
         };
-        author = CSTRING(Author);
+        author = ECSTRING(main,Author);
         authors[] = {"TyroneMF"};
-        url = CSTRING(URL);
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

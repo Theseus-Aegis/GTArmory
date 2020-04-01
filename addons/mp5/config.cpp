@@ -8,9 +8,9 @@ class CfgPatches {
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "hlcweapons_mp5"};
-        author = CSTRING(Author);
+        author = ECSTRING(main,Author);
         authors[] = {"TyroneMF"};
-        url = CSTRING(URL);
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
