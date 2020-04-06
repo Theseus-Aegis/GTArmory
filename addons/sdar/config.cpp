@@ -10,9 +10,6 @@ class CfgPatches {
         magazines[] = {
             QCLASS(20Rnd_762x51_RFB_Mag)
         };
-        ammo[] = {
-            QCLASS(762x51_dual)
-        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main"};
         author = ECSTRING(main,Author);
