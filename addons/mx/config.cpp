@@ -12,9 +12,6 @@ class CfgPatches {
             QCLASS(30Rnd_68x43_MX_Sand),
             QCLASS(30Rnd_68x43_MX_Black)
         };
-        ammo[] = {
-            QCLASS(68x43_SPC)
-        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main"};
         author = ECSTRING(main,Author);
