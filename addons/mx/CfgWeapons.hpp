@@ -12,8 +12,8 @@ class CfgWeapons {
         magazineWell[] = {QCLASS(68x43_MX)};
         hiddenSelections[] = {"camo1", "camo2"};
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\MX_68x43_Sand_co.paa),
-            QPATHTOF(data\MX_68x43_Sand_Short_co.paa)
+            QPATHTOF(data\mx_68x43_sand_co.paa),
+            QPATHTOF(data\mx_68x43_sand_short_co.paa)
         };
     };
 
@@ -27,8 +27,8 @@ class CfgWeapons {
         magazineWell[] = {QCLASS(68x43_MX)};
         hiddenSelections[] = {"camo1", "camo2"};
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\MX_68x43_Black_co.paa),
-            QPATHTOF(data\MX_68x43_Black_Short_co.paa)
+            QPATHTOF(data\mx_68x43_black_co.paa),
+            QPATHTOF(data\mx_68x43_black_short_co.paa)
         };
     };
 };
