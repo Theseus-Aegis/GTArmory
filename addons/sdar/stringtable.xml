@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACGT">
     <Package name="SDAR">
-        <Key ID="STR_TACGT_SDAR_SDAR_762_F">
+        <Key ID="STR_TACGT_SDAR_RFB_762_F">
             <English>Keltec RFB</English>
         </Key>
-        <Key ID="STR_TACGT_SDAR_SDAR_762_F_Description_Short">
+        <Key ID="STR_TACGT_SDAR_RFB_762_F_Description_Short">
             <English>Underwater Rifle</English>
         </Key>
         <Key ID="STR_TACGT_SDAR_20Rnd_762x51_RFB_Mag_Display">
