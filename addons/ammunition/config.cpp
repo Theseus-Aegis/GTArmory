@@ -41,13 +41,6 @@ class CfgPatches {
             QCLASS(30Rnd_762x39_AK12_Arid_BP_Mag),
             QCLASS(30Rnd_762x39_AK12_Lush_BP_Mag)
         };
-        ammo[] = {
-            QCLASS(S_12G_AP20),
-            QCLASS(P_12G_000),
-            QCLASS(556x45_EPR_M855A1),
-            QCLASS(556x45_EPR_M855A1_Red),
-            QCLASS(762x39_BP)
-        };
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF"};
         url = ECSTRING(main,URL);

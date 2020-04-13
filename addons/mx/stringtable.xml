@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="MX">
+        <Key ID="STR_TACGT_MX_MX_68x43_Sand_Display">
+            <English>MX 6.8 SPC (Sand)</English>
+        </Key>
+        <Key ID="STR_TACGT_MX_MX_68x43_Black_Display">
+            <English>MX 6.8 SPC (Black)</English>
+        </Key>
+        <Key ID="STR_TACGT_MX_30Rnd_68x43_MX_Sand_Display">
+            <English>6.8mm 30Rnd Sand [RT] Green Mag (SPC)</English>
+        </Key>
+        <Key ID="STR_TACGT_MX_30Rnd_68x43_MX_Black_Display">
+            <English>6.8mm 30Rnd Black [RT] Green Mag (SPC)</English>
+        </Key>
+        <Key ID="STR_TACGT_MX_30Rnd_68x43_MX_Short_Display">
+            <English>6.8mm SPC</English>
+        </Key>
+    </Package>
+</Project>
