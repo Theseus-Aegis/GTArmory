@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "ace_ballistics", "ace_optics", "tacs_weapons"};
+        requiredAddons[] = {"tacgt_main", "tacs_weapons"};
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF"};
         url = ECSTRING(main,URL);
