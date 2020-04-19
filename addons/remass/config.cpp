@@ -15,7 +15,6 @@ class CfgPatches {
             "hlcweapons_SG550",
             "hlcweapons_SAW",
             "hlcweapons_AUG",
-            "hlcweapons_m14",
             "hlcweapons_acr"
         };
         author = ECSTRING(main,Author);

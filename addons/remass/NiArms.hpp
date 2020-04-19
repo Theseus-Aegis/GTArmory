@@ -219,44 +219,6 @@
         mass = 10;
     };
 
-    // M14 Magazines
-    class hlc_20Rnd_762x51_B_M14: 30Rnd_556x45_Stanag {
-        mass = 11;
-    };
-    class hlc_20Rnd_762x51_mk316_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 11;
-    };
-    class hlc_20Rnd_762x51_barrier_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 11;
-    };
-    class hlc_20Rnd_762x51_T_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 11;
-    };
-    class hlc_20Rnd_762x51_Tdim_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 11;
-    };
-    class hlc_20Rnd_762x51_Mdim_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 11;
-    };
-    class hlc_20Rnd_762x51_S_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 11;
-    };
-    class hlc_50Rnd_762x51_B_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 20;
-    };
-    class hlc_50Rnd_762x51_T_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 20;
-    };
-    class hlc_50Rnd_762x51_M_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 20;
-    };
-    class hlc_50Rnd_762x51_TDIM_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 20;
-    };
-    class hlc_50Rnd_762x51_MDIM_M14: hlc_20Rnd_762x51_B_M14 {
-        mass = 20;
-    };
-
     // AUG Magazines
     class hlc_30Rnd_556x45_B_AUG: 30Rnd_556x45_Stanag {
         mass = 10;
@@ -312,66 +274,4 @@
     };
     class hlc_25Rnd_9x19mm_subsonic_AUG: 30Rnd_556x45_Stanag {
         mass = 8;
-    };
-
-    // G3 Magazines
-    class hlc_20rnd_762x51_b_G3: 30Rnd_556x45_Stanag {
-        mass = 11;
-    };
-    class hlc_20rnd_762x51_Mk316_G3: hlc_20rnd_762x51_b_G3 {
-        mass = 11;
-    };
-    class hlc_20rnd_762x51_barrier_G3: hlc_20rnd_762x51_b_G3 {
-        mass = 11;
-    };
-    class hlc_20rnd_762x51_T_G3: hlc_20rnd_762x51_b_G3 {
-        mass = 11;
-    };
-    class hlc_20rnd_762x51_MDim_G3: hlc_20rnd_762x51_b_G3 {
-        mass = 11;
-    };
-    class hlc_20rnd_762x51_IRDim_G3: hlc_20rnd_762x51_MDim_G3 {
-        mass = 11;
-    };
-    class hlc_20rnd_762x51_S_G3: hlc_20rnd_762x51_T_G3 {
-        mass = 11;
-    };
-    class hlc_50Rnd_762x51_B_G3: 30Rnd_556x45_Stanag {
-        mass = 20;
-    };
-    class hlc_50Rnd_762x51_T_G3: hlc_50Rnd_762x51_B_G3 {
-        mass = 20;
-    };
-    class hlc_50Rnd_762x51_TDim_G3: hlc_50Rnd_762x51_B_G3 {
-        mass = 20;
-    };
-    class hlc_50rnd_762x51_M_G3: hlc_20rnd_762x51_b_G3 {
-        mass = 20;
-    };
-    class hlc_50rnd_762x51_MDIM_G3: hlc_20rnd_762x51_b_G3 {
-        mass = 20;
-    };
-    class hlc_30rnd_556x45_b_HK33: 30Rnd_556x45_Stanag {
-        mass = 10;
-    };
-    class hlc_30rnd_556x45_t_HK33: hlc_30rnd_556x45_b_HK33 {
-        mass = 10;
-    };
-    class hlc_30rnd_556x45_EPR_HK33: hlc_30rnd_556x45_b_HK33 {
-        mass = 10;
-    };
-    class hlc_30rnd_556x45_SOST_HK33: hlc_30rnd_556x45_b_HK33 {
-        mass = 10;
-    };
-    class hlc_30rnd_556x45_SPR_HK33: hlc_30rnd_556x45_b_HK33 {
-        mass = 10;
-    };
-    class hlc_30rnd_556x45_M_HK33: hlc_30rnd_556x45_b_HK33 {
-        mass = 10;
-    };
-    class hlc_30rnd_556x45_tdim_HK33: hlc_30rnd_556x45_b_HK33 {
-        mass = 10;
-    };
-    class hlc_30rnd_556x45_mdim_HK33: hlc_30rnd_556x45_b_HK33 {
-        mass = 10;
     };
