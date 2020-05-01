@@ -17,7 +17,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {
             "\bwa3_headgear\data\bwa3_opscore_fleck_co.paa",
             "#(argb,8,8,3)color(0,0,0,0,CA)",
-            QPATHTOF(data\KG_Opscore_Patch_co.paa)
+            QPATHTOF(data\kg_opscore_patch_co.paa)
         };
     };
 
@@ -29,7 +29,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {
             "\bwa3_headgear\data\bwa3_opscore_schwarz_co.paa",
             "#(argb,8,8,3)color(0,0,0,0,CA)",
-            QPATHTOF(data\KG_Opscore_Patch_co.paa)
+            QPATHTOF(data\kg_opscore_patch_co.paa)
         };
     };
 
@@ -39,7 +39,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(JJ_HeliPilot_Black_Display);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\JJ_HeliPilot_Black_co.paa)
+            QPATHTOF(data\jj_heliPilot_black_co.paa)
         };
     };
 
@@ -52,7 +52,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {
             "milgp_vests\textures\v_marciras_khk_co.paa",
             "milgp_vests\textures\v_battle_belt_khk_co.paa",
-            QPATHTOF(data\RG_marciras_hh_belt_khk_co.paa),
+            QPATHTOF(data\rg_marciras_hh_belt_khk_co.paa),
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
@@ -65,20 +65,20 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {
             "milgp_vests\textures\v_marciras_rgr_co.paa",
             "milgp_vests\textures\v_battle_belt_rgr_co.paa",
-            QPATHTOF(data\RG_marciras_hh_belt_rgr_co.paa),
+            QPATHTOF(data\rg_marciras_hh_belt_rgr_co.paa),
             "milgp_vests\textures\v_gear_02_co.paa"
         };
     };
-    
+
     // Mick
-    class CLASS(MM_minotaur_uniform): U_I_C_Soldier_Bandit_2_F {
+    class CLASS(MM_Minotaur_Uniform): U_I_C_Soldier_Bandit_2_F {
         author = "GilleeDoo";
         scope = 2;
         displayName = CSTRING(MM_minotaur_uniform);
-        picture = QPATHTOF(ui\MM_minotaur_uniform);
+        picture = QPATHTOF(ui\mm_minotaur_uniform.paa);
         class ItemInfo: UniformItem {
             uniformModel = "";
-            uniformClass = QCLASS(MM_minotaur_uniform);
+            uniformClass = QCLASS(MM_Minotaur_Uniform);
             containerClass = "Supply40";
             mass = 40;
         };
