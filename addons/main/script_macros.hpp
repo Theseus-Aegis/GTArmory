@@ -19,3 +19,9 @@
 #define PATHTOF_SYS(var1,var2,var3) \MAINPREFIX\##var1\SUBPREFIX\##var2\##var3
 #define PATHTOF(var1) PATHTOF_SYS(PREFIX,COMPONENT,var1)
 #define QPATHTOF(var1) QUOTE(PATHTOF(var1))
+
+// Item to transport cargo
+#define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
+    name = #ITEM; \
+    count = COUNT; \
+}

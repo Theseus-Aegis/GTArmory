@@ -4,6 +4,9 @@ class CfgWeapons {
     class H_PilotHelmetHeli_B;
     class milgp_v_marciras_medic_belt_khk;
     class milgp_v_marciras_medic_belt_rgr;
+    class Uniform_Base;
+    class UniformItem;
+    class U_I_C_Soldier_Bandit_2_F;
 
     // Kelly
     class CLASS(KG_Opscore_Fleck_Patch): BWA3_OpsCore_Fleck_Patch {
@@ -64,6 +67,20 @@ class CfgWeapons {
             "milgp_vests\textures\v_battle_belt_rgr_co.paa",
             QPATHTOF(data\RG_marciras_hh_belt_rgr_co.paa),
             "milgp_vests\textures\v_gear_02_co.paa"
+        };
+    };
+    
+    // Mick
+    class CLASS(MM_minotaur_uniform): U_I_C_Soldier_Bandit_2_F {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = CSTRING(MM_minotaur_uniform);
+        picture = QPATHTOF(ui\MM_minotaur_uniform);
+        class ItemInfo: UniformItem {
+            uniformModel = "";
+            uniformClass = QCLASS(MM_minotaur_uniform);
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
 };
