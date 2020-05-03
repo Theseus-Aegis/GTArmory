@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="Saiga12">
+        <Key ID="STR_TACGT_Saiga12_8Rnd_Slug_Display">
+            <English>8Rnd Saiga 12k Slug</English>
+        </Key>
+        <Key ID="STR_TACGT_Saiga12_8Rnd_Pellet_Display">
+            <English>8Rnd Saiga 12k Pellets</English>
+        </Key>
+        <Key ID="STR_TACGT_Saiga12_20Rnd_Slug_Display">
+            <English>20Rnd Saiga 12k Slug</English>
+        </Key>
+        <Key ID="STR_TACGT_Saiga12_20Rnd_Pellet_Display">
+            <English>20Rnd Saiga 12k Pellets</English>
+        </Key>
+    </Package>
+</Project>

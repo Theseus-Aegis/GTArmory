@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "tacgt_m1014", "CUP_Weapons_Saiga12K"};
+        requiredAddons[] = {"tacgt_main", "tacgt_m1014", "CUP_Weapons_Saiga12K", "CUP_Weapons_Ammunition"};
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF"};
         url = ECSTRING(main,URL);
@@ -18,4 +18,5 @@ class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
 
+#include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"
