@@ -6,7 +6,7 @@ class CfgMagazineWells {
     class CLASS(6rnd_12g) {
         ADDON[] = {QCLASS(6Rnd_P_000), QCLASS(6Rnd_S_AP20)};
     };
-    
+
     class CBA_556x45_STANAG {
         ADDON[] = {
             QCLASS(30Rnd_556x45_M855_PMAG),
@@ -31,7 +31,7 @@ class CfgMagazineWells {
             QCLASS(30Rnd_556x45_MK318_EMAG_Tan)
         };
     };
-    
+
     class CBA_556x45_MINIMI {
         ADDON[] = {
             QCLASS(200Rnd_556x45_M855A1_Box),
@@ -40,7 +40,7 @@ class CfgMagazineWells {
             QCLASS(200Rnd_556x45_M855A1_Box_Tracer_Red)
         };
     };
-    
+
     class CBA_762x39_AK {
         ADDON[] = {
             QCLASS(30Rnd_762x39_BP_Mag),

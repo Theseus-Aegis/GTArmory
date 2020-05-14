@@ -16,24 +16,24 @@ class CfgMagazines {
     class CUP_PipeBomb_M: CUP_TimeBomb_M {
         scope = 1;
     };
-    
+
     // Small IED (Urban)
     class CUP_IED_V1_M: CUP_Mine_M {
         scope = 1;
     };
-    
+
     // Large IED (Urban)
     class CUP_IED_V2_M: CUP_IED_V1_M {
         scope = 1;
     };
-    
+
     // Small IED (Dug-in)
     class CUP_IED_V3_M: CUP_IED_V1_M {
         scope = 1;
     };
-    
+
     // Large IED (Dug-in)
     class CUP_IED_V4_M: CUP_IED_V1_M {
         scope = 1;
-    }; 
+    };
 };
