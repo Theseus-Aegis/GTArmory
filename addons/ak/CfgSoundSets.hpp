@@ -103,5 +103,5 @@ class CfgSoundSets {
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         soundShaders[] = {"AK74_silencerTailTrees_SoundShader", "AK74_silencerTailForest_SoundShader", "AK74_silencerTailMeadows_SoundShader", "AK74_silencerTailHouses_SoundShader"};
         volumeCurve = "InverseSquare2Curve";
-    };  
+    };
 };

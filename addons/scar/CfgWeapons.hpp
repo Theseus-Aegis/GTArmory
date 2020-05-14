@@ -133,7 +133,7 @@ class CfgWeapons {
     class CUP_arifle_Mk16_CQC_FG: CUP_arifle_Mk16_CQC {
         displayName = CSTRING(L_CQC_FG_Display);
     };
-    
+
     class CUP_arifle_Mk16_CQC_AFG: CUP_arifle_Mk16_CQC_FG {
         displayName = CSTRING(L_CQC_AFG_Display);
     };

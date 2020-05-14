@@ -20,7 +20,7 @@ class CfgMagazines {
     class 30Rnd_556x45_Stanag_Tracer_Yellow: 30Rnd_556x45_Stanag {
         displayName = CSTRING(30Rnd_556x45_Stanag_Tracer_Yellow_Display);
     };
-    
+
     // 150Rnd 556 Magazines
     class 150Rnd_556x45_Drum_Mag_F: CA_Magazine {
         displayName = CSTRING(150Rnd_556x45_Drum_Display);
@@ -40,7 +40,7 @@ class CfgMagazines {
     class 150Rnd_556x45_Drum_Mag_Tracer_F: 150Rnd_556x45_Drum_Mag_F {
         displayName = CSTRING(150Rnd_556x45_Drum_Tracer_Display);
     };
-    
+
     // 200Rnd 556 Box Magazines
     class 200Rnd_556x45_Box_F: CA_Magazine {
         displayName = CSTRING(200Rnd_556x45_Box_Display);
@@ -54,12 +54,12 @@ class CfgMagazines {
     class 200Rnd_556x45_Box_Tracer_Red_F: 200Rnd_556x45_Box_Tracer_F {
         displayName = CSTRING(200Rnd_556x45_Box_Tracer_Red_Display);
     };
-    
+
     // 20Rnd 6.5x39 Magazines
     class 20Rnd_650x39_Cased_Mag_F: CA_Magazine {
         displayName = CSTRING(20Rnd_650x39_Cased_Mag_F);
     };
-    
+
     // 30Rnd 6.5x39 Magazines
     class 30Rnd_65x39_caseless_mag: CA_Magazine {
         displayName = CSTRING(30Rnd_65x39_caseless_mag); // MX Series
@@ -88,7 +88,7 @@ class CfgMagazines {
     class 30Rnd_65x39_caseless_green_mag_Tracer: 30Rnd_65x39_caseless_green {
         displayName = CSTRING(30Rnd_65x39_caseless_green_mag_Tracer);
     };
-    
+
     // 100Rnd 6.5x39 Magazines
     class 100Rnd_65x39_caseless_mag: CA_Magazine {
         displayName = CSTRING(100Rnd_65x39_caseless_mag);
@@ -108,7 +108,7 @@ class CfgMagazines {
     class 100Rnd_65x39_caseless_khaki_mag_tracer: 100Rnd_65x39_caseless_mag_Tracer {
         displayName = CSTRING(100Rnd_65x39_caseless_khaki_mag_tracer);
     };
-    
+
     // 200Rnd 6.5x39 Magazines
     class 200Rnd_65x39_cased_Box: 100Rnd_65x39_caseless_mag {
         displayName = CSTRING(200Rnd_65x39_cased_Box);
@@ -186,12 +186,12 @@ class CfgMagazines {
     class ACE_20Rnd_762x51_Mag_Tracer: 20Rnd_762x51_Mag {
         displayName = CSTRING(20Rnd_762x51_Tracer_Mag);
     };
-    
+
     // 50Rnd 5.7 Magazine
     class 50Rnd_570x28_SMG_03: CA_Magazine {
         displayName = CSTRING(50Rnd_570x28_Mag);
     };
-    
+
     // 30Rnd 9x19 Magazines
     class 30Rnd_9x21_Mag: CA_Magazine {
         displayName = CSTRING(30Rnd_9x21_Mag);
@@ -231,7 +231,7 @@ class CfgMagazines {
     class 16Rnd_9x21_yellow_Mag: 16Rnd_9x21_Mag {
         displayName = CSTRING(17Rnd_9x21_Yellow_Mag);
     };
-    
+
     // 30Rnd .45ACP Magazines
     class 30Rnd_45ACP_Mag_SMG_01: 30Rnd_9x21_Mag {
         displayName = CSTRING(30Rnd_45ACP_Mag_SMG_01);
@@ -245,7 +245,7 @@ class CfgMagazines {
     class 30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow: 30Rnd_45ACP_Mag_SMG_01 {
         displayName = CSTRING(30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow);
     };
-    
+
     // Handgun .45ACP Magazines
     class 11Rnd_45ACP_Mag: CA_Magazine {
         displayName = CSTRING(11Rnd_45ACP_Mag);

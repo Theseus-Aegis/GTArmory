@@ -2,7 +2,7 @@
     class 30Rnd_556x45_Stanag: CA_Magazine {
         mass = 10;
     };
-    
+
     // 9mm Magazines
     class 30Rnd_9x21_Mag: CA_Magazine {
         mass = 9;

@@ -5,14 +5,14 @@ class CfgSoundshaders {
         range = 200;
         rangeCurve = "closeShotCurve";
     };
-    
+
     class CLASS(sgun_closeShotCenter_SoundShader) {
         samples[] = {{"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Close_Center_01",1}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Close_Center_02",1}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Close_Center_03",1}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Close_Center_04",1}};
         volume = 1.9;
         range = 25;
         rangeCurve = "closeShotCurve";
     };
-    
+
     class CLASS(sgun_distShot_SoundShader) {
         samples[] = {{"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Distant_01",1}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Distant_01",2}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Distant_01",3}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Distant_01",4}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Distant_01",5}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Distant_01",6}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Distant_01",7}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Distant_01",8}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Distant_01",9}, {"A3\Sounds_F_Enoch\Assets\Arsenal\Msbs65_01\Shotgun\Msbs65_01_Shotgun_Shot_Distant_01",10}};
         volume = 0.6;

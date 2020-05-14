@@ -1,6 +1,6 @@
 class CfgWeapons {
     class arifle_SDAR_F;
-    
+
     class CLASS(RFB_762_F): arifle_SDAR_F {
         author = "TyroneMF";
         scope = 2;
