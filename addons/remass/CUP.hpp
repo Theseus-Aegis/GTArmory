@@ -119,10 +119,10 @@
         mass = 80;
     };
     class CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M: CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M {
-        mass = 80;
+        mass = 40;
     };
     class CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M: CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M {
-        mass = 80;
+        mass = 40;
     };
     class CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M: CA_Magazine {
         mass = 40;
