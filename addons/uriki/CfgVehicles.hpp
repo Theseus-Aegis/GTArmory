@@ -29,7 +29,6 @@ class CfgVehicles {
     ELECTRONICS(UMI_Item_Land_MobilePhone_Old_F);
     ELECTRONICS(UMI_Item_Land_Tablet_Rugged_F);
     ELECTRONICS(UMI_Item_Land_Tablet_F);
-    ELECTRONICS(UMI_Item_Land_Portable_HDD_F);
     // Contraband
     CONTRABAND(UMI_Item_Briefcase_Money_Open);
     CONTRABAND(UMI_Item_Money);
@@ -40,4 +39,5 @@ class CfgVehicles {
     // Hidden
     HIDDEN(UMI_Nuke_WarHead);
     HIDDEN(UMI_Item_RhinoHorn_01);
+    HIDDEN(UMI_Item_Land_Portable_HDD_F);
 };
