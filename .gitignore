@@ -55,6 +55,7 @@ keys/*
 # HEMTT
 hemtt
 hemtt.exe
+.hemtt/local
 
 # Swap
 *.swp
