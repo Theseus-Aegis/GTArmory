@@ -6,8 +6,7 @@ class CfgMagazines {
         scope = 1;
         scopeArsenal = 0;
         displayName = "TestAmmo";
-        ammo = "B_9x21_Ball";
-        tracersEvery = 0;
-        lastRoundsTracer = 0;
+        ammo = "B_9x21_Ball_Tracer_Red";
+        tracersEvery = 1;
     };
 };
