@@ -32,6 +32,7 @@ class CfgPatches {
             QCLASS(30Rnd_556x45_MK262_EMAG_Tan),
             QCLASS(30Rnd_556x45_MK318_EMAG),
             QCLASS(30Rnd_556x45_MK318_EMAG_Tan),
+            QCLASS(60Rnd_556x45_M855A1_SureFire),
             QCLASS(200Rnd_556x45_M855A1_Box),
             QCLASS(200Rnd_556x45_M855A1_Box_Red),
             QCLASS(200Rnd_556x45_M855A1_Box_Tracer),

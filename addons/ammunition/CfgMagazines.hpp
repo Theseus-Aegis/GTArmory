@@ -9,6 +9,7 @@ class CfgMagazines {
     class ACE_30Rnd_556x45_Stanag_M995_AP_mag;
     class ACE_30Rnd_556x45_Stanag_Mk262_mag;
     class ACE_30Rnd_556x45_Stanag_Mk318_mag;
+    class CUP_60Rnd_556x45_SureFire;
 
     class CLASS(8Rnd_P_000): CA_Magazine {
         author = "TyroneMF";
@@ -270,6 +271,15 @@ class CfgMagazines {
         model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30Rnd_EMAG_coyote.p3d";
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\emag_coyote_co.paa"};
+    };
+
+    // 60Rnd 556 Magazines
+    class CLASS(60Rnd_556x45_M855A1_SureFire): CUP_60Rnd_556x45_SureFire {
+        author = "TyroneMF";
+        scope = 2;
+        displayName = CSTRING(60Rnd_556x45_M855A1_SureFire_Display);
+        ammo = QCLASS(556x45_EPR_M855A1);
+        tracersEvery = 4;
     };
 
     // 200Rnd 556 Box Magazines

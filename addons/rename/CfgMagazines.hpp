@@ -1,5 +1,6 @@
 class CfgMagazines {
     class CA_Magazine;
+    class CUP_30Rnd_556x45_Stanag;
 
     // 30Rnd 556 Stanag Magazines
     class 30Rnd_556x45_Stanag: CA_Magazine {
@@ -19,6 +20,11 @@ class CfgMagazines {
     };
     class 30Rnd_556x45_Stanag_Tracer_Yellow: 30Rnd_556x45_Stanag {
         displayName = CSTRING(30Rnd_556x45_Stanag_Tracer_Yellow_Display);
+    };
+    
+    // 60Rnd 556 Magazines
+    class CUP_60Rnd_556x45_SureFire: CUP_30Rnd_556x45_Stanag {
+        displayName = CSTRING(CUP_60Rnd_556x45_SureFire_Display);
     };
 
     // 150Rnd 556 Magazines

@@ -19,6 +19,9 @@
         <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Tracer_Yellow_Display">
             <English>5.56mm 30Rnd STANAG [T] Yellow (M856)</English>
         </Key>
+        <Key ID="STR_TACGT_Rename_CUP_60Rnd_556x45_SureFire_Display">
+            <English>5.56mm 60Rnd Surefire [RT] Yellow (M855)</English>
+        </Key>
         <Key ID="STR_TACGT_Rename_150Rnd_556x45_Drum_Display">
             <English>5.56mm 150Rnd [RT] Red Drum Mag (M855)</English>
         </Key>

@@ -93,6 +93,9 @@
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_MK318_EMAG_Tan_Display">
             <English>5.56mm 30Rnd EMAG Tan (MK318)</English>
         </Key>
+        <Key ID="STR_TACGT_Ammunition_60Rnd_556x45_M855A1_SureFire_Display">
+            <English>5.56mm 60Rnd Surefire [TE4] Yellow (M855A1)</English>
+        </Key>
         <Key ID="STR_TACGT_Ammunition_200Rnd_556x45_M855A1_Box_Display">
             <English>5.56mm 200Rnd [TE4] Yellow Box Mag (M855A1)</English>
         </Key>
