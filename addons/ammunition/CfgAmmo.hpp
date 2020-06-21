@@ -1,5 +1,6 @@
 class CfgAmmo {
     class BulletBase;
+    class B_545x39_Ball_F;
     class B_556x45_Ball;
     class B_762x39_Ball_F;
     class B_12Gauge_Pellets_Submunition;
@@ -52,6 +53,20 @@ class CfgAmmo {
         triggerTime = 0.008;
         submunitionAmmo = QCLASS(12g_Pellets_Submunition_Deploy);
         submunitionConeAngle = 0.81;
+    };
+    
+    // 5.45x39 Ammo
+    class CLASS(545x39_BP): B_545x39_Ball_F {
+        hit = 9;
+        caliber = 0.8;
+        typicalSpeed = 840;
+    };
+    
+    class CLASS(545x39_BT): B_545x39_Ball_F {
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        hit = 9.4;
+        caliber = 0.85
+        typicalSpeed = 846;
     };
 
     // 5.56x45 Ammo

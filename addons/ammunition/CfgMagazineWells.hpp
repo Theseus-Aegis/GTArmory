@@ -13,6 +13,19 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_545x39_AK {
+        ADDON[] = {
+            QCLASS(30Rnd_545x39_Mag_Black),
+            QCLASS(30Rnd_545x39_Mag_Plum),
+            QCLASS(30Rnd_545x39_BP_Mag_Bakelite),
+            QCLASS(30Rnd_545x39_BT_Mag_Bakelite),
+            QCLASS(30Rnd_545x39_BP_Mag_Black),
+            QCLASS(30Rnd_545x39_BT_Mag_Black),
+            QCLASS(30Rnd_545x39_BP_Mag_Plum),
+            QCLASS(30Rnd_545x39_BT_Mag_Plum)
+        };
+    };
+
     class CBA_556x45_STANAG {
         ADDON[] = {
             QCLASS(30Rnd_556x45_M855_PMAG),

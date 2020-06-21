@@ -14,6 +14,12 @@
 ##### 9x19
 - Luger: Standard Ball round.
 
+##### 5.45x39
+- PS: Standard steel-core round.
+- PRS: Tracer PS round.
+- BP: Armour piercing round.
+- BT: Tracer Armour piercing round.
+
 ##### 5.56x45
 - M855: Standard ball round.
 - M856: Tracer round matching the same performance as M855.

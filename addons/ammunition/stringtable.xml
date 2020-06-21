@@ -33,6 +33,30 @@
             <English>6Rnd AP-20 Slug</English>
             <French>6Rnd Limace AP-20</French>
         </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_Mag_Black_Display">
+            <English>5.45mm 30Rnd Black [RT] Yellow (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_Mag_Plum_Display">
+            <English>5.45mm 30Rnd Plum [RT] Yellow (PS)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_BP_Mag_Bakelite_Display">
+            <English>5.45mm 30Rnd Bakelite [RT] Yellow (BP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_BT_Mag_Bakelite_Display">
+            <English>5.45mm 30Rnd Bakelite [T] Red (BT)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_BP_Mag_Black_Display">
+            <English>5.45mm 30Rnd Black [RT] Yellow (BP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_BT_Mag_Black_Display">
+            <English>5.45mm 30Rnd Black [T] Red (BT)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_BP_Mag_Plum_Display">
+            <English>5.45mm 30Rnd Plum [RT] Yellow (BP)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_BT_Mag_Plum_Display">
+            <English>5.45mm 30Rnd Plum [T] Red (BT)</English>
+        </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855_PMAG_Display">
             <English>5.56mm 30Rnd PMAG [RT] Green (M855)</English>
         </Key>
