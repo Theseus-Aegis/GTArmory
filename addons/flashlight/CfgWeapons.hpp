@@ -11,7 +11,7 @@ class CfgWeapons {
         class ItemInfo: InventoryFlashLightItem_Base_F {
             mass = 4;
             class Flashlight {
-			    color[] = {185, 190, 199};
+                color[] = {185, 190, 199};
                 ambient[] = {6, 9, 9};
                 intensity = 100;
                 size = 1;
