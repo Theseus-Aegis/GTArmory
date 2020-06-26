@@ -53,7 +53,7 @@ class CfgMagazines {
         count = 6;
         mass = 6;
     };
-    
+
     // 545 30Rnd Magazines
     class CLASS(30Rnd_545x39_Mag_Black): 30Rnd_545x39_Mag_F {
         author = "TyroneMF";
@@ -72,7 +72,7 @@ class CfgMagazines {
         hiddenSelectionsTextures[] = {"\cup\weapons\cup_weapons_ak\data\ak74n_magazine_co.paa"};
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_ak74_plum_ca.paa";
     };
-    
+
     // AP Rounds
     class CLASS(30Rnd_545x39_BP_Mag_Bakelite): 30Rnd_545x39_Mag_F {
         author = "TyroneMF";
@@ -81,7 +81,7 @@ class CfgMagazines {
         ammo = QCLASS(545x39_BP);
         lastRoundsTracer = 4;
     };
-    
+
     class CLASS(30Rnd_545x39_BT_Mag_Bakelite): CLASS(30Rnd_545x39_BP_Mag_Bakelite) {
         displayName = CSTRING(30Rnd_545x39_BT_Mag_Bakelite_Display);
         ammo = QCLASS(545x39_BT);
@@ -99,7 +99,7 @@ class CfgMagazines {
         modelSpecialIsProxy = 1;
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_ak74m_ca.paa";
     };
-    
+
     class CLASS(30Rnd_545x39_BT_Mag_Black): CLASS(30Rnd_545x39_BP_Mag_Black) {
         displayName = CSTRING(30Rnd_545x39_BT_Mag_Black_Display);
         ammo = QCLASS(545x39_BT);
@@ -115,7 +115,7 @@ class CfgMagazines {
         modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30Rnd_AK74M.p3d";
         picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_ak74_plum_ca.paa";
     };
-    
+
     class CLASS(30Rnd_545x39_BT_Mag_Plum): CLASS(30Rnd_545x39_BP_Mag_Plum) {
         displayName = CSTRING(30Rnd_545x39_BT_Mag_Plum_Display);
         ammo = QCLASS(545x39_BT);

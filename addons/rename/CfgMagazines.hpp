@@ -45,7 +45,7 @@ class CfgMagazines {
     class 30Rnd_556x45_Stanag_Tracer_Yellow: 30Rnd_556x45_Stanag {
         displayName = CSTRING(30Rnd_556x45_Stanag_Tracer_Yellow_Display);
     };
-    
+
     // 60Rnd 556 Magazines
     class CUP_60Rnd_556x45_SureFire: CUP_30Rnd_556x45_Stanag {
         displayName = CSTRING(CUP_60Rnd_556x45_SureFire_Display);

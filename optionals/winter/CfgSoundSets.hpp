@@ -21,7 +21,7 @@
 class CfgSoundSets {
     class Vehicle_Base_Body_INT_SoundSet;
     class Vehicle_Base_Body_EXT_SoundSet;
-    
+
     ENVIRONMENT(Rain_Bg_Forest_Heavy_01_SoundSet);
     ENVIRONMENT(Rain_Bg_Forest_Heavy_SoundSet);
     ENVIRONMENT(Rain_Bg_Forest_Light_SoundSet);
