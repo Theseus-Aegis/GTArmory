@@ -61,7 +61,7 @@ class CfgWeapons {
     class FullAuto: Mode_FullAuto {
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = {AKM_SOUND_SET };
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     };
@@ -272,7 +272,7 @@ class CfgWeapons {
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = {AKM_SOUND_SET };
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     };
@@ -293,7 +293,7 @@ class CfgWeapons {
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = {AKM_SOUND_SET };
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     };
@@ -314,7 +314,7 @@ class CfgWeapons {
         class FullAuto: Mode_FullAuto {
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
-                soundSetShot[] = {AKM_SOUND_SET };
+                soundSetShot[] = {AKM_SOUND_SET};
             };
         };
     };

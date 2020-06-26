@@ -64,9 +64,6 @@
         <Key ID="STR_TACGT_Rename_200Rnd_556x45_Box_Tracer_Red_Display">
             <English>5.56mm 200Rnd [T] Red Box Mag (M856)</English>
         </Key>
-        <Key ID="STR_TACGT_Rename_20Rnd_650x39_Cased_Mag_F_Display">
-            <English>6.5mm 20Rnd Mag (Grendel)</English>
-        </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_black_mag_Display">
             <English>6.5mm 30Rnd Black Mag (Grendel)</English>
         </Key>
@@ -78,9 +75,6 @@
         </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_khaki_mag_Tracer_Display">
             <English>6.5mm 30Rnd Khaki [T] Red Mag (Grendel)</English>
-        </Key>
-        <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_green_Display">
-            <English>6.5mm 30Rnd [RT] Green Mag (Grendel)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_65x39_caseless_green_mag_Tracer_Display">
             <English>6.5mm 30Rnd [T] Green Mag (Grendel)</English>
@@ -100,14 +94,8 @@
         <Key ID="STR_TACGT_Rename_100Rnd_65x39_caseless_khaki_mag_tracer_Display">
             <English>6.5mm 100Rnd Khaki [T] Red Mag (Grendel)</English>
         </Key>
-        <Key ID="STR_TACGT_Rename_200Rnd_65x39_cased_Box_Display">
-            <English>6.5mm 200Rnd [TE4] Yellow Box Mag (Grendel)</English>
-        </Key>
         <Key ID="STR_TACGT_Rename_200Rnd_65x39_cased_Box_Red_Display">
             <English>6.5mm 200Rnd [TE4] Red Box Mag (Grendel)</English>
-        </Key>
-        <Key ID="STR_TACGT_Rename_200Rnd_65x39_cased_Box_Tracer_Display">
-            <English>6.5mm 200Rnd [T] Yellow Box Mag (Grendel)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_200Rnd_65x39_cased_Box_Tracer_Red_Display">
             <English>6.5mm 200Rnd [T] Red Box Mag (Grendel)</English>
@@ -172,12 +160,6 @@
         <Key ID="STR_TACGT_Rename_20Rnd_762x51_Tracer_Mag_Display">
             <English>7.62mm 20Rnd [T] Red Mag (M62)</English>
         </Key>
-        <Key ID="STR_TACGT_Rename_50Rnd_570x28_Mag_Display">
-            <English>5.7mm 50Rnd Mag (SS190)</English>
-        </Key>
-        <Key ID="STR_TACGT_Rename_30Rnd_9x21_Mag_Display">
-            <English>9mm 30Rnd Mag (Luger)</English>
-        </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_9x21_Green_Mag_Display">
             <English>9mm 30Rnd [RT] Green Mag (Luger)</English>
         </Key>
@@ -186,9 +168,6 @@
         </Key>
         <Key ID="STR_TACGT_Rename_30Rnd_9x21_Yellow_Mag_Display">
             <English>9mm 30Rnd [RT] Yellow Mag (Luger)</English>
-        </Key>
-        <Key ID="STR_TACGT_Rename_17Rnd_9x21_Mag_Display">
-            <English>9mm 17Rnd Mag (Luger)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_17Rnd_9x21_Green_Mag_Display">
             <English>9mm 17Rnd [RT] Green Mag (Luger)</English>
@@ -217,9 +196,6 @@
         <Key ID="STR_TACGT_Rename_6Rnd_45ACP_Cylinder_Display">
             <English>.45 6Rnd Cylinder (ACP)</English>
         </Key>
-        <Key ID="STR_TACGT_Rename_9Rnd_45ACP_Mag_Display">
-            <English>.45 8Rnd Mag (ACP)</English>
-        </Key>
         <Key ID="STR_TACGT_Rename_Hamr_2D_Display">
             <English>Leupold Mark 4 HAMR (2D)</English>
         </Key>
@@ -228,21 +204,6 @@
         </Key>
         <Key ID="STR_TACGT_Rename_MRCO_2D_Display">
             <English>IOR-Valdada Pitbull 2 (2D)</English>
-        </Key>
-        <Key ID="STR_TACGT_Rename_arifle_MX_F_Display">
-            <English>MX (Sand)</English>
-        </Key>
-        <Key ID="STR_TACGT_Rename_arifle_MX_GL_F_Display">
-            <English>MX 3GL (Sand)</English>
-        </Key>
-        <Key ID="STR_TACGT_Rename_arifle_MX_SW_F_Display">
-            <English>MX LSW (Sand)</English>
-        </Key>
-        <Key ID="STR_TACGT_Rename_arifle_MXC_F_Display">
-            <English>MXC (Sand)</English>
-        </Key>
-        <Key ID="STR_TACGT_Rename_arifle_MXM_F_Display">
-            <English>MXM (Sand)</English>
         </Key>
         <Key ID="STR_TACGT_Rename_arifle_MX_khk_F_Display">
             <English>MX (Khaki)</English>

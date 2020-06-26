@@ -2,6 +2,15 @@ class CfgMagazines {
     class CA_Magazine;
     class 30Rnd_545x39_Mag_Tracer_F;
     class CUP_30Rnd_556x45_Stanag;
+    class 100Rnd_65x39_caseless_mag;
+    class 100Rnd_65x39_caseless_mag_Tracer;
+    class 30Rnd_65x39_caseless_mag;
+    class 30Rnd_65x39_caseless_mag_Tracer;
+    class 30Rnd_65x39_caseless_green;
+    class 16Rnd_9x21_Mag;
+    class 30Rnd_9x21_Mag;
+    class 200Rnd_65x39_cased_Box;
+    class 200Rnd_65x39_cased_Box_Tracer;
 
     // 30Rnd 545 Russian Magazines
     class 30Rnd_545x39_Mag_F: CA_Magazine {
@@ -76,18 +85,7 @@ class CfgMagazines {
         displayName = CSTRING(200Rnd_556x45_Box_Tracer_Red_Display);
     };
 
-    // 20Rnd 6.5x39 Magazines
-    class 20Rnd_650x39_Cased_Mag_F: CA_Magazine {
-        displayName = CSTRING(20Rnd_650x39_Cased_Mag_F);
-    };
-
     // 30Rnd 6.5x39 Magazines MX
-    class 30Rnd_65x39_caseless_mag: CA_Magazine {
-        displayName = CSTRING(30Rnd_65x39_caseless_mag_Display);
-    };
-    class 30Rnd_65x39_caseless_mag_Tracer: 30Rnd_65x39_caseless_mag {
-        displayName = CSTRING(30Rnd_65x39_caseless_mag_Tracer_Display);
-    };
     class 30Rnd_65x39_caseless_black_mag: 30Rnd_65x39_caseless_mag {
         displayName = CSTRING(30Rnd_65x39_caseless_black_mag_Display);
     };
@@ -104,20 +102,11 @@ class CfgMagazines {
         displayName = CSTRING(tacs_30Rnd_65x39_caseless_BlackCamo_mag_Display);
     };
     // Katiba/Type 115
-    class 30Rnd_65x39_caseless_green: 30Rnd_65x39_caseless_mag {
-        displayName = CSTRING(30Rnd_65x39_caseless_green_Display);
-    };
     class 30Rnd_65x39_caseless_green_mag_Tracer: 30Rnd_65x39_caseless_green {
         displayName = CSTRING(30Rnd_65x39_caseless_green_mag_Tracer_Display);
     };
 
     // 100Rnd 6.5x39 Magazines
-    class 100Rnd_65x39_caseless_mag: CA_Magazine {
-        displayName = CSTRING(100Rnd_65x39_caseless_mag_Display);
-    };
-    class 100Rnd_65x39_caseless_mag_Tracer: 100Rnd_65x39_caseless_mag {
-        displayName = CSTRING(100Rnd_65x39_caseless_mag_Tracer_Display);
-    };
     class 100Rnd_65x39_caseless_black_mag: 100Rnd_65x39_caseless_mag {
         displayName = CSTRING(100Rnd_65x39_caseless_black_mag_Display);
     };
@@ -132,14 +121,8 @@ class CfgMagazines {
     };
 
     // 200Rnd 6.5x39 Magazines
-    class 200Rnd_65x39_cased_Box: 100Rnd_65x39_caseless_mag {
-        displayName = CSTRING(200Rnd_65x39_cased_Box_Display);
-    };
     class 200Rnd_65x39_cased_Box_Red: 100Rnd_65x39_caseless_mag {
         displayName = CSTRING(200Rnd_65x39_cased_Box_Red_Display);
-    };
-    class 200Rnd_65x39_cased_Box_Tracer: 200Rnd_65x39_cased_Box {
-        displayName = CSTRING(200Rnd_65x39_cased_Box_Tracer_Display);
     };
     class 200Rnd_65x39_cased_Box_Tracer_Red: 200Rnd_65x39_cased_Box {
         displayName = CSTRING(200Rnd_65x39_cased_Box_Tracer_Red_Display);
@@ -209,15 +192,7 @@ class CfgMagazines {
         displayName = CSTRING(20Rnd_762x51_Tracer_Mag_Display);
     };
 
-    // 50Rnd 5.7 Magazine
-    class 50Rnd_570x28_SMG_03: CA_Magazine {
-        displayName = CSTRING(50Rnd_570x28_Mag_Display);
-    };
-
     // 30Rnd 9x19 Magazines
-    class 30Rnd_9x21_Mag: CA_Magazine {
-        displayName = CSTRING(30Rnd_9x21_Mag_Display);
-    };
     class 30Rnd_9x21_Green_Mag: 30Rnd_9x21_Mag {
         displayName = CSTRING(30Rnd_9x21_Green_Mag_Display);
     };
@@ -241,9 +216,6 @@ class CfgMagazines {
     };
 
     // 17Rnd 9x19 Magazines
-    class 16Rnd_9x21_Mag: 30Rnd_9x21_Mag {
-        displayName = CSTRING(17Rnd_9x21_Mag_Display);
-    };
     class 16Rnd_9x21_green_Mag: 16Rnd_9x21_Mag {
         displayName = CSTRING(17Rnd_9x21_Green_Mag_Display);
     };
@@ -274,8 +246,5 @@ class CfgMagazines {
     };
     class 6Rnd_45ACP_Cylinder: 11Rnd_45ACP_Mag {
         displayName = CSTRING(6Rnd_45ACP_Cylinder_Display);
-    };
-    class 9Rnd_45ACP_Mag: 30Rnd_45ACP_Mag_SMG_01 {
-        displayName = CSTRING(9Rnd_45ACP_Mag_Display);
     };
 };

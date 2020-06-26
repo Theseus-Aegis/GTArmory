@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="Flashlight">
+        <Key ID="STR_TACGT_Flashlight_acc_flashlight_display">
+            <English>UTG Defender 126 (High Power)</English>
+        </Key>
+        <Key ID="STR_TACGT_Flashlight_acc_flashlight_description">
+            <English>High power weapon mounted light.</English>
+        </Key>
+    </Package>
+</Project>
