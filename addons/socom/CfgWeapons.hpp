@@ -42,12 +42,13 @@ class CfgWeapons {
         magazineWell[] = {QCLASS(458_Socom)};
         modes[] = {"Single"};
         class Single: Mode_SemiAuto {
+            class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {SOCOM_SOUND_SET};
             };
             class SilencedSound: BaseSoundModeType {
                 SoundSetShot[] = {SOCOM_S_SOUND_SET};
             };
-        }
+        };
     };
 };
