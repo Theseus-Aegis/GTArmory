@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="Socom">
+        <Key ID="STR_TACGT_Socom_SBR_458_Socom_Tan_Display">
+            <English>VLTOR 458 Custom (Tan)</English>
+        </Key>
+        <Key ID="STR_TACGT_Socom_10Rnd_458_Socom_PMAG_Display">
+            <English>.458 SOCOM 10Rnd PMAG</English>
+        </Key>
+    </Package>
+</Project>
