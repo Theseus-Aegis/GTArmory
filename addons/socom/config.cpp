@@ -4,10 +4,13 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {
-            QCLASS(SBR_458_Socom_Tan)
+            QCLASS(SBR_458_Socom_Tan),
+            QCLASS(SBR_458_Socom_OD)
         };
         magazines[] = {
-            QCLASS(10Rnd_458_Socom_PMAG)
+            QCLASS(10Rnd_458_Socom_PMAG),
+            QCLASS(10Rnd_458_Socom_PMAG_OD),
+            QCLASS(10Rnd_458_Socom_PMAG_Tan)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "tacgt_ammunition", "CUP_Weapons_M16"};
@@ -17,6 +20,7 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
+
 class Mode_SemiAuto;
 
 #include "CfgMagazines.hpp"
