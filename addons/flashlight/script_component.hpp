@@ -40,7 +40,7 @@
         }; \
     } \
 
-#define ANPEQLaser(CLASSNAME, PARENT, STRING, DESC, SWITCH) \
+#define SWITCHIR(CLASSNAME, PARENT, STRING, DESC, SWITCH) \
     class CLASS(CLASSNAME): PARENT { \
         displayName = CSTRING(STRING); \
         descriptionShort = CSTRING(DESC); \
@@ -63,7 +63,7 @@
         MRT_SwitchItemPrevClass = QCLASS(SWITCH); \
     } \
 
-#define ANPEQLight(CLASSNAME, PARENT, STRING, DESC, SWITCH) \
+#define SWITCHLIGHT(CLASSNAME, PARENT, STRING, DESC, SWITCH) \
     class CLASS(CLASSNAME): PARENT { \
         displayName = CSTRING(STRING); \
         descriptionShort = CSTRING(DESC); \
@@ -96,13 +96,14 @@
                     hardLimitStart = 200; \
                     hardLimitEnd = 300; \
                 }; \
+                scale [] = {0}; \
             }; \
         }; \
         MRT_SwitchItemNextClass = QCLASS(SWITCH); \
         MRT_SwitchItemPrevClass = QCLASS(SWITCH); \
     } \
 
-#define ANPEQVIS(CLASSNAME, PARENT, STRING, DESC, SWITCH1, SWITCH2) \
+#define SWITCHLASER(CLASSNAME, PARENT, STRING, DESC, SWITCH) \
     class CLASS(CLASSNAME): PARENT { \
         displayName = CSTRING(STRING); \
         descriptionShort = CSTRING(DESC); \
@@ -114,29 +115,30 @@
             mass = 4; \
             class Pointer {}; \
             class Flashlight { \
-                color[] = {185, 190, 199}; \
-                ambient[] = {6, 9, 9}; \
-                intensity = 100; \
-                size = 1; \
-                innerAngle = 18; \
-                outerAngle = 150; \
-                coneFadeCoef = 8; \
+                color[] = {0, 0, 0}; \
+                ambient[] = {0, 0, 0}; \
+                intensity = 0; \
+                size = 0; \
+                innerAngle = 0; \
+                outerAngle = 0; \
+                coneFadeCoef = 0; \
                 position = "flash dir"; \
                 direction = "flash"; \
-                useFlare = 1; \
-                flareSize = 1.5; \
-                flareMaxDistance = 300; \
+                useFlare = 0; \
+                flareSize = 0; \
+                flareMaxDistance = 0; \
                 dayLight = 0; \
                 class Attenuation { \
                     start = 0; \
-                    constant = 1; \
-                    linear = 1; \
-                    quadratic = 1; \
-                    hardLimitStart = 200; \
-                    hardLimitEnd = 300; \
+                    constant = 0; \
+                    linear = 0; \
+                    quadratic = 0; \
+                    hardLimitStart = 0; \
+                    hardLimitEnd = 0; \
                 }; \
+                scale [] = {0}; \
             }; \
         }; \
-        MRT_SwitchItemNextClass = QCLASS(SWITCH1); \
-        MRT_SwitchItemPrevClass = QCLASS(SWITCH2); \
+        MRT_SwitchItemNextClass = QCLASS(SWITCH); \
+        MRT_SwitchItemPrevClass = QCLASS(SWITCH); \
     } \

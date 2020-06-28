@@ -26,11 +26,23 @@ class CfgPatches {
             QCLASS(ANPEQ_15_Vis_Laser_Tan),
             QCLASS(ANPEQ_15_Light_OD),
             QCLASS(ANPEQ_15_Laser_OD),
-            QCLASS(ANPEQ_15_Vis_Laser_OD)
+            QCLASS(ANPEQ_15_Vis_Laser_OD),
+            QCLASS(LLM01_IR_Laser_Black),
+            QCLASS(LLM01_IR_Light_Black),
+            QCLASS(LLM01_Vis_Laser_Black),
+            QCLASS(LLM01_IR_Laser_Tan),
+            QCLASS(LLM01_IR_Light_Tan),
+            QCLASS(LLM01_Vis_Laser_Tan),
+            QCLASS(VarioRay_IR_Laser_Tan),
+            QCLASS(VarioRay_IR_Light_Tan),
+            QCLASS(VarioRay_Vis_Laser_Tan),
+            QCLASS(VarioRay_IR_Laser_Black),
+            QCLASS(VarioRay_IR_Light_Black),
+            QCLASS(VarioRay_Vis_Laser_Black)
         };
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main"};
+        requiredAddons[] = {"tacgt_main", "bwa3_attachments", "CUP_Weapons_West_Attachments"};
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF"};
         url = ECSTRING(main,URL);
@@ -63,6 +75,18 @@ class asdg_FrontSideRail: asdg_SlotInfo {
     tacgt_ANPEQ_15_Light_OD = 1;
     tacgt_ANPEQ_15_Laser_OD = 1;
     tacgt_ANPEQ_15_Vis_Laser_OD = 1;
+    tacgt_LLM01_IR_Laser_Black = 1;
+    tacgt_LLM01_IR_Light_Black = 1;
+    tacgt_LLM01_Vis_Laser_Black = 1;
+    tacgt_LLM01_IR_Laser_Tan = 1;
+    tacgt_LLM01_IR_Light_Tan = 1;
+    tacgt_LLM01_Vis_Laser_Tan = 1;
+    tacgt_VarioRay_IR_Laser_Tan = 1;
+    tacgt_VarioRay_IR_Light_Tan = 1;
+    tacgt_VarioRay_Vis_Laser_Tan = 1;
+    tacgt_VarioRay_IR_Laser_Black = 1;
+    tacgt_VarioRay_IR_Light_Black = 1;
+    tacgt_VarioRay_Vis_Laser_Black = 1;
     };
 };
 

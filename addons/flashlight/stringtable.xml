@@ -4,7 +4,7 @@
         <Key ID="STR_TACGT_Flashlight_Description">
             <English>High Power Blue Flashlight.</English>
         </Key>
-        <Key ID="STR_TACGT_Flashlight_ANPEQ_Description">
+        <Key ID="STR_TACGT_Flashlight_Multi_Description">
             <English>Laser/Light High Power Blue.</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_UTG_Flashlight_Display">
@@ -36,6 +36,18 @@
         </Key>
         <Key ID="STR_TACGT_Flashlight_ANPEQ_15_Laser_Light_OD_Display">
             <English>AN/PEQ-15 Laser + Flashlight (OD/High Power)</English>
+        </Key>
+        <Key ID="STR_TACGT_Flashlight_LLM01_IR_Laser_Black_Display">
+            <English>LLM01 Black (High Power)</English>
+        </Key>
+        <Key ID="STR_TACGT_Flashlight_LLM01_IR_Laser_Tan_Display">
+            <English>LLM01 Tan (High Power)</English>
+        </Key>
+        <Key ID="STR_TACGT_Flashlight_VarioRay_IR_Laser_Tan_Display">
+            <English>LLM Vario-Ray Tan (High Power)</English>
+        </Key>
+        <Key ID="STR_TACGT_Flashlight_VarioRay_IR_Laser_Black_Display">
+            <English>LLM Vario-Ray Black (High Power)</English>
         </Key>
     </Package>
 </Project>
