@@ -9,6 +9,7 @@ class CfgMagazines {
     class 30Rnd_65x39_caseless_green;
     class 16Rnd_9x21_Mag;
     class 30Rnd_9x21_Mag;
+    class 30Rnd_9x21_Mag_SMG_02;
     class 200Rnd_65x39_cased_Box;
     class 200Rnd_65x39_cased_Box_Tracer;
 
@@ -201,9 +202,6 @@ class CfgMagazines {
     };
     class 30Rnd_9x21_Yellow_Mag: 30Rnd_9x21_Mag {
         displayName = CSTRING(30Rnd_9x21_Yellow_Mag_Display);
-    };
-    class 30Rnd_9x21_Mag_SMG_02: 30Rnd_9x21_Mag {
-        displayName = CSTRING(30Rnd_9x21_Mag_Display);
     };
     class 30Rnd_9x21_Mag_SMG_02_Tracer_Green: 30Rnd_9x21_Mag_SMG_02 {
         displayName = CSTRING(30Rnd_9x21_Green_Mag_Display);
