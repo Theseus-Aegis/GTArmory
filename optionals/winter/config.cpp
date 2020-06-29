@@ -5,9 +5,8 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "tacs_weapons", "CUP_Weapons_Ammunition"};
+        requiredAddons[] = {"tacgt_main", "winter_2035"};
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF"};
         url = ECSTRING(main,URL);
@@ -15,5 +14,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgWeapons.hpp"
-#include "CfgMagazines.hpp"
+#include "CfgSoundSets.hpp"
