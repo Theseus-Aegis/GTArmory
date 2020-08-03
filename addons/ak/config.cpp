@@ -19,4 +19,3 @@ class Mode_Burst;
 class Mode_FullAuto;
 
 #include "CfgWeapons.hpp"
-#include "CfgSoundSets.hpp"

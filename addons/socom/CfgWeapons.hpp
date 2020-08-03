@@ -1,3 +1,14 @@
+#define MACRO_SOUNDSETS \
+            class Single: Mode_SemiAuto { \
+                class BaseSoundModeType; \
+                class StandardSound: BaseSoundModeType { \
+                    soundSetShot[] = {"50cal_Type115_Shot_SoundSet", "50cal_Type115_Tail_SoundSet", "50cal_Type115_interiorTail_SoundSet"}; \
+                }; \
+                class SilencedSound: BaseSoundModeType { \
+                    SoundSetShot[] = {"DMR05_silencerShot_SoundSet", "DMR05_silencerTail_SoundSet", "DMR05_silencerInteriorTail_SoundSet"}; \
+                }; \
+            }
+
 class CfgWeapons {
     class CUP_arifle_SBR_black;
     class CUP_arifle_SBR_od;
@@ -16,15 +27,7 @@ class CfgWeapons {
         };
         magazineWell[] = {QCLASS(458_Socom)};
         modes[] = {"Single"};
-        class Single: Mode_SemiAuto {
-            class BaseSoundModeType;
-            class StandardSound: BaseSoundModeType {
-                soundSetShot[] = {SOCOM_SOUND_SET};
-            };
-            class SilencedSound: BaseSoundModeType {
-                SoundSetShot[] = {SOCOM_S_SOUND_SET};
-            };
-        };
+        MACRO_SOUNDSETS;
     };
 
     class CLASS(SBR_458_Socom_OD): CUP_arifle_SBR_od {
@@ -41,14 +44,6 @@ class CfgWeapons {
         };
         magazineWell[] = {QCLASS(458_Socom)};
         modes[] = {"Single"};
-        class Single: Mode_SemiAuto {
-            class BaseSoundModeType;
-            class StandardSound: BaseSoundModeType {
-                soundSetShot[] = {SOCOM_SOUND_SET};
-            };
-            class SilencedSound: BaseSoundModeType {
-                SoundSetShot[] = {SOCOM_S_SOUND_SET};
-            };
-        };
+        MACRO_SOUNDSETS;
     };
 };

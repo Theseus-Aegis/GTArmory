@@ -27,7 +27,7 @@ class CfgMagazines {
         displayName = CSTRING(30Rnd_545x39_Mag_Green_F_Display);
     };
 
-    // 30Rnd 556 Stanag Magazines
+    // 30Rnd 556 Magazines
     class 30Rnd_556x45_Stanag: CA_Magazine {
         displayName = CSTRING(30Rnd_556x45_Stanag_Display);
     };
@@ -45,6 +45,18 @@ class CfgMagazines {
     };
     class 30Rnd_556x45_Stanag_Tracer_Yellow: 30Rnd_556x45_Stanag {
         displayName = CSTRING(30Rnd_556x45_Stanag_Tracer_Yellow_Display);
+    };
+    class CUP_30Rnd_556x45_X95: CA_Magazine {
+        displayName = CSTRING(CUP_30Rnd_556x45_X95_Display);
+    };
+    class CUP_30Rnd_556x45_X95_Tracer_Red: CUP_30Rnd_556x45_X95 {
+        displayName = CSTRING(CUP_30Rnd_556x45_X95_Tracer_Red_Display);
+    };
+    class CUP_30Rnd_556x45_X95_Tracer_Green: CUP_30Rnd_556x45_X95_Tracer_Red {
+        displayName = CSTRING(CUP_30Rnd_556x45_X95_Tracer_Green_Display);
+    };
+    class CUP_30Rnd_556x45_X95_Tracer_Yellow: CUP_30Rnd_556x45_X95_Tracer_Red {
+        displayName = CSTRING(CUP_30Rnd_556x45_X95_Tracer_Yellow_Display);
     };
 
     // 60Rnd 556 Magazines

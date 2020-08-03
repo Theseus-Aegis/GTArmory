@@ -31,6 +31,18 @@
         <Key ID="STR_TACGT_Rename_30Rnd_556x45_Stanag_Tracer_Yellow_Display">
             <English>5.56mm 30Rnd STANAG [T] Yellow (M856)</English>
         </Key>
+        <Key ID="STR_TACGT_Rename_CUP_30Rnd_556x45_X95_Display">
+            <English>5.56mm 30Rnd X95 [RT] Red (M855)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_CUP_30Rnd_556x45_X95_Tracer_Red_Display">
+            <English>5.56mm 30Rnd X95 [T] Red (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_CUP_30Rnd_556x45_X95_Tracer_Green_Display">
+            <English>5.56mm 30Rnd X95 [T] Green (M856)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_CUP_30Rnd_556x45_X95_Tracer_Yellow_Display">
+            <English>5.56mm 30Rnd X95 [T] Yellow (M856)</English>
+        </Key>
         <Key ID="STR_TACGT_Rename_CUP_60Rnd_556x45_SureFire_Display">
             <English>5.56mm 60Rnd Surefire [RT] Yellow (M855)</English>
         </Key>

@@ -189,6 +189,12 @@
         mass = 11;
     };
 
+
+    // 9x39 Magazines
+    class CUP_30Rnd_9x39_SP5_VIKHR_M: CA_Magazine {
+        mass = 10;
+    };
+
     // Shotgun Magazines
     class CUP_8Rnd_B_Saiga12_74Slug_M: CA_Magazine {
         mass = 10;

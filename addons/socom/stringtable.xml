@@ -19,5 +19,7 @@
         <Key ID="STR_TACGT_Socom_10Rnd_458_Socom_PMAG_OD_Display">
             <English>.458 SOCOM 10Rnd PMAG (OD)</English>
         </Key>
+        <Key ID="STR_TACGT_Socom_10Rnd_458_Socom_PMAG_Description">
+            <English>10 Round .458 SOCOM PMAG</English>
     </Package>
 </Project>

@@ -32,17 +32,10 @@ class CfgAmmo {
 
     class CLASS(S_12G_AP20): BulletBase {
         timetoLive = 6;
-        hit = 40;
-        indirectHit = 0;
-        indirectHitRange = 0;
+        hit = 25;
         cartridge = "FxCartridge_slug";
         cost = 5;
-        typicalSpeed = 600;
-        visibleFire = 18;
-        audibleFire = 18;
-        airFriction = -0.008;
-        caliber = 3;
-        deflecting = 10;
+        caliber = 1.2;
         model = "\A3\weapons_f\empty.p3d";
         simulation = "shotBullet";
     };
@@ -65,7 +58,7 @@ class CfgAmmo {
     class CLASS(545x39_BT): B_545x39_Ball_F {
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
         hit = 9.4;
-        caliber = 0.85
+        caliber = 0.95
         typicalSpeed = 846;
     };
 
@@ -74,8 +67,7 @@ class CfgAmmo {
         hit = 10.28;
         typicalSpeed = 974.8;
         airFriction = -0.0012744;
-        caliber = 0.964;
-        airFriction = -0.0012588;
+        caliber = 1.26;
         deflecting = 17;
         audibleFire = 20;
         ACE_caliber = 5.69;
