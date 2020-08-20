@@ -1,13 +1,13 @@
 #define ELECTRONICS(CLASSNAME) \
     class CLASSNAME: Item_Base_F { \
-        editorCategory = QCLASS(Mission_Items); \
-        editorSubcategory = QCLASS(Mission_Items_Electronics); \
+        editorCategory = "tac_Mission_Items"; \
+        editorSubcategory = "tac_Mission_Items_Electronics"; \
     }
 
 #define CONTRABAND(CLASSNAME,PARENT) \
     class CLASSNAME: PARENT { \
-        editorCategory = QCLASS(Mission_Items); \
-        editorSubcategory = QCLASS(Mission_Items_Contraband); \
+        editorCategory = "tac_Mission_Items"; \
+        editorSubcategory = "tac_Mission_Items_Contraband"; \
     }
 
 #define HIDDEN(CLASSNAME,PARENT) \
