@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "UMI_Mod"};
+        requiredAddons[] = {"tacgt_main", "tac_main", "UMI_Mod"};
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF", "Uriki"};
         url = ECSTRING(main,URL);
