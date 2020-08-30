@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "ace_ballistics", "CUP_Weapons_Ammunition"};
+        requiredAddons[] = {"tacgt_main", "ace_ballistics", "CUP_Weapons_Ammunition", "hlcweapons_SG550"};
         magazines[] = {
             QCLASS(8Rnd_P_000),
             QCLASS(6Rnd_P_000),
@@ -20,6 +20,18 @@ class CfgPatches {
             QCLASS(30Rnd_545x39_BT_Mag_Black),
             QCLASS(30Rnd_545x39_BP_Mag_Plum),
             QCLASS(30Rnd_545x39_BT_Mag_Plum),
+            QCLASS(30Rnd_556x45_M855A1_AK),
+            QCLASS(30Rnd_556x45_M855A1_AK_Red),
+            QCLASS(30Rnd_556x45_M995_AK),
+            QCLASS(30Rnd_556x45_M855A1_AUG),
+            QCLASS(30Rnd_556x45_M855A1_AUG_Red),
+            QCLASS(30Rnd_556x45_M995_AUG),
+            QCLASS(30Rnd_556x45_M855A1_G36),
+            QCLASS(30Rnd_556x45_M855A1_G36_Red),
+            QCLASS(30Rnd_556x45_M995_G36),
+            QCLASS(30Rnd_556x45_M855A1_SG550),
+            QCLASS(30Rnd_556x45_M855A1_SG550_Red),
+            QCLASS(30Rnd_556x45_M995_SG550),
             QCLASS(30Rnd_556x45_M855_PMAG),
             QCLASS(30Rnd_556x45_M855_PMAG_Tan),
             QCLASS(30Rnd_556x45_M855A1_PMAG),
@@ -48,7 +60,11 @@ class CfgPatches {
             QCLASS(30Rnd_762x39_BP_Mag),
             QCLASS(30Rnd_762x39_AK12_BP_Mag),
             QCLASS(30Rnd_762x39_AK12_Arid_BP_Mag),
-            QCLASS(30Rnd_762x39_AK12_Lush_BP_Mag)
+            QCLASS(30Rnd_762x39_AK12_Lush_BP_Mag),
+            QCLASS(75Rnd_762x39_RPK_BP_Mag),
+            QCLASS(20Rnd_762x51_FAL_AP_Mag),
+            QCLASS(30Rnd_762x51_FAL_AP_Mag),
+            QCLASS(10Rnd_762x54_SVD_AP_Mag)
         };
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF"};

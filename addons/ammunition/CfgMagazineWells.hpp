@@ -26,6 +26,30 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_556x45_AK {
+        ADDON[] = {
+            QCLASS(30Rnd_556x45_M855A1_AK),
+            QCLASS(30Rnd_556x45_M855A1_AK_Red),
+            QCLASS(30Rnd_556x45_M995_AK)
+        };
+    };
+
+    class CBA_556x45_G36 {
+        ADDON[] = {
+            QCLASS(30Rnd_556x45_M855A1_G36),
+            QCLASS(30Rnd_556x45_M855A1_G36_Red),
+            QCLASS(30Rnd_556x45_M995_G36)
+        };
+    };
+
+    class CBA_556x45_SG550 {
+        ADDON[] = {
+            QCLASS(30Rnd_556x45_M855A1_SG550),
+            QCLASS(30Rnd_556x45_M855A1_SG550_Red),
+            QCLASS(30Rnd_556x45_M995_SG550)
+        };
+    };
+
     class CBA_556x45_STANAG {
         ADDON[] = {
             QCLASS(30Rnd_556x45_M855_PMAG),
@@ -61,12 +85,39 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_556x45_STEYR {
+        ADDON[] = {
+            QCLASS(30Rnd_556x45_M855A1_AUG),
+            QCLASS(30Rnd_556x45_M855A1_AUG_Red),
+            QCLASS(30Rnd_556x45_M995_AUG)
+        };
+    };
+
     class CBA_762x39_AK {
         ADDON[] = {
             QCLASS(30Rnd_762x39_BP_Mag),
             QCLASS(30Rnd_762x39_AK12_BP_Mag),
             QCLASS(30Rnd_762x39_AK12_Arid_BP_Mag),
             QCLASS(30Rnd_762x39_AK12_Lush_BP_Mag)
+        };
+    };
+
+    class CBA_762x39_RPK {
+        ADDON[] = {
+            QCLASS(75Rnd_762x39_RPK_BP_Mag)
+        };
+    };
+
+    class CBA_762x51_FAL {
+        ADDON[] = {
+            QCLASS(20Rnd_762x51_FAL_AP_Mag),
+            QCLASS(30Rnd_762x51_FAL_AP_Mag)
+        };
+    };
+
+    class CBA_762x54R_SVD {
+        ADDON[] = {
+            QCLASS(10Rnd_762x54_SVD_AP_Mag)
         };
     };
 };
