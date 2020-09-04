@@ -1,4 +1,16 @@
 class CfgMagazineWells {
+    class CBA_12g_2rnds {
+        ADDON[] = {
+            QCLASS(2Rnd_P_000)
+        };
+    };
+
+    class HunterShotgun_01_12GA {
+        ADDON[] = {
+            QCLASS(2Rnd_P_000)
+        };
+    };
+
     class CLASS(8rnd_12g) {
         ADDON[] = {
             QCLASS(8Rnd_P_000),
@@ -23,6 +35,20 @@ class CfgMagazineWells {
             QCLASS(30Rnd_545x39_BT_Mag_Black),
             QCLASS(30Rnd_545x39_BP_Mag_Plum),
             QCLASS(30Rnd_545x39_BT_Mag_Plum)
+        };
+    };
+
+    class CBA_580x42_TYPE95 {
+        ADDON[] = {
+            QCLASS(30Rnd_580x42_DBP88),
+            QCLASS(30Rnd_580x42_DBP88_Green)
+        };
+    };
+
+    class CBA_580x42_TYPE95_XL {
+        ADDON[] = {
+            QCLASS(100Rnd_580x42_DBP88),
+            QCLASS(100Rnd_580x42_DBP88_Green)
         };
     };
 

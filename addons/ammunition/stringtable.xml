@@ -3,15 +3,15 @@
     <Package name="Ammunition">
         <Key ID="STR_TACGT_Ammunition_8Rnd_P_000_Name">
             <English>8Rnd #00 Magnum Shells</English>
-            <French>8Rnd #000 Cartouches de chevrotine</French>
+            <French>8Rnd #00 Cartouches de chevrotine</French>
         </Key>
         <Key ID="STR_TACGT_Ammunition_8Rnd_P_000_Name_Short">
             <English>#00 Magnum Shells</English>
-            <French>#000 Cartouches de chevrotine</French>
+            <French>#00 Cartouches de chevrotine</French>
         </Key>
         <Key ID="STR_TACGT_Ammunition_8Rnd_P_000_Description">
-            <English>#000 Buckshot</English>
-            <French>#000 Chevrotine</French>
+            <English>#00 Magnum</English>
+            <French>#00 Chevrotine</French>
         </Key>
         <Key ID="STR_TACGT_Ammunition_8Rnd_S_AP20_Name">
             <English>8Rnd AP-20 Slug</English>
@@ -24,6 +24,9 @@
         <Key ID="STR_TACGT_Ammunition_8Rnd_S_AP20_Description">
             <English>AP-20 Slugs for precise armour penetration</English>
             <French>Les balles AP-20 pour une pénétration précise du blindage</French>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_2Rnd_P_000_Name">
+            <English>2Rnd #00 Magnum Shells</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_6Rnd_P_000_Name">
             <English>6Rnd #00 Magnum Shells</English>
@@ -56,6 +59,18 @@
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_BT_Mag_Plum_Name">
             <English>5.45mm 30Rnd Plum [T] Red (BT)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_580x42_DBP88_Name">
+            <English>5.8mm 30Rnd [RT] Green (DBP88)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_580x42_DBP88_Green_Name">
+            <English>5.8mm 30Rnd [T] Green (DBP88)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_100Rnd_580x42_DBP88_Name">
+            <English>5.8mm 100Rnd [TE4] Green (DBP88)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_100Rnd_580x42_DBP88_Green_Name">
+            <English>5.8mm 100Rnd [T] Green (DBP88)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_AK_Name">
             <English>5.56mm 30Rnd AK [RT] Yellow (M855A1)</English>
@@ -187,7 +202,7 @@
             <English>7.62mm 20Rnd FAL Mag (M993)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_762x51_FAL_AP_Mag_Name">
-            <English>7.62mm 20Rnd FAL Mag (M993)</English>
+            <English>7.62mm 30Rnd FAL Mag (M993)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_10Rnd_762x54_SVD_AP_Mag_Name">
             <English>7.62mm 10Rnd SVD Mag (7N13)</English>

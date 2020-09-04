@@ -1,6 +1,7 @@
 class CfgAmmo {
     class BulletBase;
     class B_545x39_Ball_F;
+    class B_580x42_Ball_F;
     class B_556x45_Ball;
     class B_762x39_Ball_F;
     class B_12Gauge_Pellets_Submunition;
@@ -61,6 +62,13 @@ class CfgAmmo {
         hit = 9.4;
         caliber = 1.22;
         typicalSpeed = 846;
+    };
+
+    // 5.8x42 Ammo
+    class CLASS(580x42_DBP88): B_580x42_Ball_F {
+        hit = 9.6;
+        typicalSpeed = 870;
+        caliber = 1.1;
     };
 
     // 5.56x45 Ammo

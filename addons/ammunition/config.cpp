@@ -8,6 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "ace_ballistics", "CUP_Weapons_Ammunition", "hlcweapons_SG550"};
         magazines[] = {
+            QCLASS(2Rnd_P_000),
             QCLASS(8Rnd_P_000),
             QCLASS(6Rnd_P_000),
             QCLASS(8Rnd_S_AP20),
@@ -20,6 +21,10 @@ class CfgPatches {
             QCLASS(30Rnd_545x39_BT_Mag_Black),
             QCLASS(30Rnd_545x39_BP_Mag_Plum),
             QCLASS(30Rnd_545x39_BT_Mag_Plum),
+            QCLASS(30Rnd_580x42_DBP88),
+            QCLASS(30Rnd_580x42_DBP88_Green),
+            QCLASS(100Rnd_580x42_DBP88),
+            QCLASS(100Rnd_580x42_DBP88_Green),
             QCLASS(30Rnd_556x45_M855A1_AK),
             QCLASS(30Rnd_556x45_M855A1_AK_Red),
             QCLASS(30Rnd_556x45_M995_AK),
