@@ -1,10 +1,12 @@
 class CfgAmmo {
     class BulletBase;
     class B_545x39_Ball_F;
+    class B_580x42_Ball_F;
     class B_556x45_Ball;
     class B_762x39_Ball_F;
     class B_12Gauge_Pellets_Submunition;
     class B_12Gauge_Pellets_Submunition_Deploy;
+    class CUP_B_762x54_Ball_White_Tracer;
 
     // 12G ammo
     class CLASS(12g_Pellets_Submunition): B_12Gauge_Pellets_Submunition {
@@ -35,7 +37,7 @@ class CfgAmmo {
         hit = 25;
         cartridge = "FxCartridge_slug";
         cost = 5;
-        caliber = 1.2;
+        caliber = 1.3;
         model = "\A3\weapons_f\empty.p3d";
         simulation = "shotBullet";
     };
@@ -51,15 +53,22 @@ class CfgAmmo {
     // 5.45x39 Ammo
     class CLASS(545x39_BP): B_545x39_Ball_F {
         hit = 9;
-        caliber = 0.8;
+        caliber = 1.19;
         typicalSpeed = 840;
     };
 
     class CLASS(545x39_BT): B_545x39_Ball_F {
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
         hit = 9.4;
-        caliber = 0.95
+        caliber = 1.22;
         typicalSpeed = 846;
+    };
+
+    // 5.8x42 Ammo
+    class CLASS(580x42_DBP88): B_580x42_Ball_F {
+        hit = 9.6;
+        typicalSpeed = 870;
+        caliber = 1.1;
     };
 
     // 5.56x45 Ammo
@@ -67,7 +76,7 @@ class CfgAmmo {
         hit = 10.28;
         typicalSpeed = 974.8;
         airFriction = -0.0012744;
-        caliber = 1.26;
+        caliber = 1.37;
         deflecting = 17;
         audibleFire = 20;
         ACE_caliber = 5.69;
@@ -90,7 +99,15 @@ class CfgAmmo {
     class CLASS(762x39_BP): B_762x39_Ball_F {
         hit = 14;
         typicalSpeed = 705;
-        caliber = 1.8;
+        caliber = 2.1;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+    };
+
+    // 7.62x54r Ammo
+    class CLASS(762x54_AP): CUP_B_762x54_Ball_White_Tracer {
+        hit = 14.6;
+        typicalSpeed = 782;
+        caliber = 2.4;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
     };
 };
