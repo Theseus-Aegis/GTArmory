@@ -12,12 +12,12 @@
                     passThrough = 0.45; \
                 }; \
                 class Abdomen { \
-                    hitpointName="HitAbdomen"; \
+                    hitpointName = "HitAbdomen"; \
                     armor = 15; \
                     passThrough = 0.45; \
                 }; \
                 class Body { \
-                    hitpointName="HitBody"; \
+                    hitpointName = "HitBody"; \
                     armor = 15; \
                     passThrough = 0.45; \
                 }; \
