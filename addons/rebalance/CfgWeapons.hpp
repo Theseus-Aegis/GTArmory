@@ -7,5 +7,5 @@ class CfgWeapons {
 #include "milgp_mmac.hpp"
 #include "milgp_marciras.hpp"
 #include "s4_cpc.hpp"
-
+#include "s4_lbt.hpp"
 };
