@@ -3,10 +3,10 @@ class CfgAmmo {
 
     class CLASS(MSBS_Gimmick_A_Red): B_65x39_Caseless {
         author = "Tyrone";
-        hit = 2;
-        tracerScale = 13;
+        hit = 8;
+        tracerScale = 15;
         tracerStartTime = 0.01;
-        tracerEndTime = 3;
+        tracerEndTime = 4;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
 

@@ -3,8 +3,8 @@ class CfgWeapons {
 
     class CLASS(MSBS65_Gimmick): arifle_MSBS65_black_F {
         author = "Tyrone";
-        scope = 2;
-        scopeArsenal = 2;
+        scope = 1;
+        scopeArsenal = 1;
         displayName = "MSBS Y33T-CANNON";
         magazines[] = {
             QCLASS(MSBS65_Gimmick_M_Red),

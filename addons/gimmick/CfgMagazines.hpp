@@ -3,11 +3,11 @@ class CfgMagazines {
 
     class CLASS(MSBS65_Gimmick_M_Red): 30Rnd_65x39_caseless_msbs_mag {
         author = "Tyrone";
-        scope = 2;
-        scopeArsenal = 2;
+        scope = 1;
+        scopeArsenal = 1;
         displayName = "MSBS Y33T Magazine Red";
         tracersEvery = 1;
-        count = 200;
+        count = 500;
         ammo = QCLASS(MSBS_Gimmick_A_Red);
     };
     class CLASS(MSBS65_Gimmick_M_Green): CLASS(MSBS65_Gimmick_M_Red) {
