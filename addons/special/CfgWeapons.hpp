@@ -1,6 +1,4 @@
 class CfgWeapons {
-    class BWA3_OpsCore;
-    class BWA3_OpsCore_Fleck_Patch;
     class H_PilotHelmetHeli_B;
     class milgp_v_marciras_medic_belt_khk;
     class milgp_v_marciras_medic_belt_rgr;
@@ -8,30 +6,7 @@ class CfgWeapons {
     class UniformItem;
     class U_I_C_Soldier_Bandit_2_F;
 
-    // Kelly
-    class CLASS(KG_Opscore_Fleck_Patch): BWA3_OpsCore_Fleck_Patch {
-        author = "GilleeDoo";
-        scope = 2;
-        displayName = CSTRING(KG_Opscore_Fleck_Patch_Display);
-        hiddenSelections[] = {"Camo", "Camo1", "Camo2"};
-        hiddenSelectionsTextures[] = {
-            "\bwa3_headgear\data\bwa3_opscore_fleck_co.paa",
-            "#(argb,8,8,3)color(0,0,0,0,CA)",
-            QPATHTOF(data\kg_opscore_patch_co.paa)
-        };
-    };
-
-    class CLASS(KG_Opscore_Patch): BWA3_OpsCore {
-        author = "GilleeDoo";
-        scope = 2;
-        displayName = CSTRING(KG_Opscore_Patch_Display);
-        hiddenSelections[] = {"Camo", "Camo1", "Camo2"};
-        hiddenSelectionsTextures[] = {
-            "\bwa3_headgear\data\bwa3_opscore_schwarz_co.paa",
-            "#(argb,8,8,3)color(0,0,0,0,CA)",
-            QPATHTOF(data\kg_opscore_patch_co.paa)
-        };
-    };
+    // Kelly - Redo with a vest.
 
     // JJ
     class CLASS(JJ_HeliPilot_Black): H_PilotHelmetHeli_B {

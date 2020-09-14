@@ -21,18 +21,6 @@ class CfgWeapons {
     class cup_acc_anpeq_15_flashlight_od_l;
     class cup_acc_anpeq_15_flashlight_od_f;
     class cup_acc_anpeq_15_flashlight_od_v;
-    class BWA3_acc_LLM01_irlaser;
-    class BWA3_acc_LLM01_flash;
-    class BWA3_acc_LLM01_laser;
-    class BWA3_acc_LLM01_irlaser_tan;
-    class BWA3_acc_LLM01_flash_tan;
-    class BWA3_acc_LLM01_laser_tan;
-    class BWA3_acc_VarioRay_irlaser;
-    class BWA3_acc_VarioRay_flash;
-    class BWA3_acc_VarioRay_laser;
-    class BWA3_acc_VarioRay_irlaser_black;
-    class BWA3_acc_VarioRay_flash_black;
-    class BWA3_acc_VarioRay_laser_black;
     class InventoryFlashLightItem_Base_F;
 
     FLASHLIGHT(UTG_flashlight, acc_flashlight, UTG_Flashlight_Display, Description);
@@ -57,16 +45,4 @@ class CfgWeapons {
     SWITCHIR(ANPEQ_15_Light_OD, cup_acc_anpeq_15_flashlight_od_l, ANPEQ_15_Laser_Light_OD_Display, Multi_Description, ANPEQ_15_Laser_OD);
     SWITCHLIGHT(ANPEQ_15_Laser_OD, cup_acc_anpeq_15_flashlight_od_f, ANPEQ_15_Laser_Light_OD_Display, Multi_Description, ANPEQ_15_Vis_Laser_OD);
     SWITCHLASER(ANPEQ_15_Vis_Laser_OD, cup_acc_anpeq_15_flashlight_od_v, ANPEQ_15_Laser_Light_OD_Display, Multi_Description, ANPEQ_15_Light_OD);
-    SWITCHIR(LLM01_IR_Laser_Black, BWA3_acc_LLM01_irlaser, LLM01_IR_Laser_Black_Display, Multi_Description, LLM01_IR_Light_Black);
-    SWITCHLIGHT(LLM01_IR_Light_Black, BWA3_acc_LLM01_flash, LLM01_IR_Laser_Black_Display, Multi_Description, LLM01_Vis_Laser_Black);
-    SWITCHLASER(LLM01_Vis_Laser_Black, BWA3_acc_LLM01_laser, LLM01_IR_Laser_Black_Display, Multi_Description, LLM01_IR_Laser_Black);
-    SWITCHIR(LLM01_IR_Laser_Tan, BWA3_acc_LLM01_irlaser_tan, LLM01_IR_Laser_Tan_Display, Multi_Description, LLM01_IR_Light_Tan);
-    SWITCHLIGHT(LLM01_IR_Light_Tan, BWA3_acc_LLM01_flash_tan, LLM01_IR_Laser_Tan_Display, Multi_Description, LLM01_Vis_Laser_Tan);
-    SWITCHLASER(LLM01_Vis_Laser_Tan, BWA3_acc_LLM01_laser_tan, LLM01_IR_Laser_Tan_Display, Multi_Description, LLM01_IR_Laser_Tan);
-    SWITCHIR(VarioRay_IR_Laser_Tan, BWA3_acc_VarioRay_irlaser, VarioRay_IR_Laser_Tan_Display, Multi_Description, VarioRay_IR_Light_Tan);
-    SWITCHLIGHT(VarioRay_IR_Light_Tan, BWA3_acc_VarioRay_flash, VarioRay_IR_Laser_Tan_Display, Multi_Description, VarioRay_Vis_Laser_Tan);
-    SWITCHLASER(VarioRay_Vis_Laser_Tan, BWA3_acc_VarioRay_laser, VarioRay_IR_Laser_Tan_Display, Multi_Description, VarioRay_IR_Laser_Tan);
-    SWITCHIR(VarioRay_IR_Laser_Black, BWA3_acc_VarioRay_irlaser_black, VarioRay_IR_Laser_Black_Display, Multi_Description, VarioRay_IR_Light_Black);
-    SWITCHLIGHT(VarioRay_IR_Light_Black, BWA3_acc_VarioRay_flash_black, VarioRay_IR_Laser_Black_Display, Multi_Description, VarioRay_Vis_Laser_Black);
-    SWITCHLASER(VarioRay_Vis_Laser_Black, BWA3_acc_VarioRay_laser_black, VarioRay_IR_Laser_Black_Display, Multi_Description, VarioRay_IR_Laser_Black);
 };
