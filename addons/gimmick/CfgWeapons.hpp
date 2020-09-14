@@ -5,7 +5,7 @@ class CfgWeapons {
         author = "Tyrone";
         scope = 1;
         scopeArsenal = 1;
-        displayName = "MSBS Y33T-CANNON";
+        displayName = CSTRING(MSBS65_Gimmick_Name);
         magazines[] = {
             QCLASS(MSBS65_Gimmick_M_Red),
             QCLASS(MSBS65_Gimmick_M_Green)
