@@ -11,12 +11,6 @@ class CfgWeapons {
             "tacgt_8Rnd_S_AP20",
             "tacgt_6Rnd_S_AP20"
         };
-        magazineWell[] = {
-            "CBA_12g_8rnds",
-            "CBA_12g_6rnds",
-            "tacgt_8rnd_12g",
-            "tacgt_6rnd_12g"
-        };
 
         class Single: Mode_SemiAuto {
             class BaseSoundModeType;
@@ -34,10 +28,6 @@ class CfgWeapons {
             "CUP_6Rnd_B_Benelli_74Slug",
             "tacgt_6Rnd_P_000",
             "tacgt_6Rnd_S_AP20"
-        };
-        magazineWell[] = {
-            "CBA_12g_6rnds",
-            "tacgt_6rnd_12g"
         };
 
         class Single: Single {
