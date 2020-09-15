@@ -194,38 +194,3 @@
     class CUP_30Rnd_9x39_SP5_VIKHR_M: CA_Magazine {
         mass = 10;
     };
-
-    // Shotgun Magazines
-    class CUP_8Rnd_B_Saiga12_74Slug_M: CA_Magazine {
-        mass = 10;
-    };
-    class CUP_8Rnd_B_Saiga12_74Pellets_M: CA_Magazine {
-        mass = 10;
-    };
-    class CUP_20Rnd_B_Saiga12_74Slug_M: CUP_8Rnd_B_Saiga12_74Slug_M {
-        mass = 15;
-    };
-    class CUP_20Rnd_B_Saiga12_74Pellets_M: CUP_8Rnd_B_Saiga12_74Pellets_M {
-        mass = 15;
-    };
-    class CUP_20Rnd_B_AA12_Pellets: CA_Magazine {
-        mass = 15;
-    };
-    class CUP_20Rnd_B_AA12_74Slug: CA_Magazine {
-        mass = 15;
-    };
-    class CUP_20Rnd_B_AA12_HE: CA_Magazine {
-        mass = 15;
-    };
-    class CUP_8Rnd_B_Beneli_74Slug: CA_Magazine {
-        mass = 8;
-    };
-    class CUP_8Rnd_B_Beneli_74Pellets: CA_Magazine {
-        mass = 8;
-    };
-    class CUP_6Rnd_B_Benelli_74Slug: CUP_8Rnd_B_Beneli_74Slug {
-        mass = 6;
-    };
-    class CUP_6Rnd_B_Beneli_74Pellets: CUP_8Rnd_B_Beneli_74Pellets {
-        mass = 6;
-    };
