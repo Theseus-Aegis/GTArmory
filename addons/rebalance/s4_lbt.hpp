@@ -36,31 +36,20 @@ class lbt_operator_od: lbt_pouchless_coy {};
 class lbt_operator_aor1: lbt_pouchless_coy {};
 class lbt_operator_aor2: lbt_pouchless_coy {};
 class lbt_operator_mc: lbt_pouchless_coy {};
-
-class lbt_weapons_coy: lbt_pouchless_coy {
-    MACRO_HITPROTECTION_LBT
-};
+class lbt_weapons_coy: lbt_pouchless_coy {};
 class lbt_weapons_od: lbt_weapons_coy {};
 class lbt_weapons_aor1: lbt_weapons_coy {};
 class lbt_weapons_aor2: lbt_weapons_coy {};
 class lbt_weapons_mc: lbt_pouchless_coy {};
-
-class lbt_medical_coy: lbt_pouchless_coy {
-    MACRO_HITPROTECTION_LBT
-};
+class lbt_medical_coy: lbt_pouchless_coy {};
 class lbt_medical_od: lbt_medical_coy {};
 class lbt_medical_aor1: lbt_medical_coy {};
 class lbt_medical_aor2: lbt_medical_coy {};
-
-class lbt_medical_mc: lbt_pouchless_coy {
-    MACRO_HITPROTECTION_LBT
-};
-
+class lbt_medical_mc: lbt_pouchless_coy {};
 class lbt_comms_coy: lbt_pouchless_coy {};
 class lbt_comms_od: lbt_comms_coy {};
 class lbt_comms_aor1: lbt_comms_coy {};
 class lbt_comms_aor2: lbt_comms_coy {};
-
 class lbt_comms_mc: lbt_pouchless_coy {};
 class lbt_light_od: lbt_pouchless_coy {};
 class lbt_light_mc: lbt_pouchless_coy {};
