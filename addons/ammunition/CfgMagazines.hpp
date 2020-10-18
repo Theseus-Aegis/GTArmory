@@ -1,6 +1,8 @@
 class CfgMagazines {
     class CA_Magazine;
     class 2Rnd_12Gauge_Pellets;
+    class 6Rnd_12Gauge_Pellets;
+    class 6Rnd_12Gauge_Slug;
     class 10Rnd_762x54_Mag;
     class 200Rnd_556x45_Box_F;
     class 30Rnd_545x39_Mag_F;

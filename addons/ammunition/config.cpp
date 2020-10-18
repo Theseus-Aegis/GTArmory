@@ -13,6 +13,8 @@ class CfgPatches {
             QCLASS(6Rnd_P_000),
             QCLASS(8Rnd_S_AP20),
             QCLASS(6Rnd_S_AP20),
+            QCLASS(6Rnd_P_UGL),
+            QCLASS(6Rnd_S_UGL),
             QCLASS(30Rnd_545x39_Mag_Black),
             QCLASS(30Rnd_545x39_Mag_Plum),
             QCLASS(30Rnd_545x39_BP_Mag_Bakelite),
