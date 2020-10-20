@@ -25,6 +25,13 @@ class CfgMagazineWells {
         };
     };
 
+    class UBS_12GA {
+        ADDON[] = {
+            QCLASS(6Rnd_P_UGL),
+            QCLASS(6Rnd_S_UGL)
+        };
+    };
+
     class CBA_545x39_AK {
         ADDON[] = {
             QCLASS(30Rnd_545x39_Mag_Black),

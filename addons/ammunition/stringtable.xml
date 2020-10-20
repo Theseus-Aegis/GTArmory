@@ -36,6 +36,20 @@
             <English>6Rnd AP-20 Slug</English>
             <French>6Rnd Limace AP-20</French>
         </Key>
+        <Key ID="STR_TACGT_Ammunition_6Rnd_P_UGL_Name">
+            <English>6Rnd #00 Magnum Shells</English>
+            <French>6Rnd #000 Cartouches de chevrotine</French>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_6Rnd_P_UGL_Name_Short">
+            <English>#00 Magnum Shells</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_6Rnd_S_UGL_Name">
+            <English>6Rnd AP-20 Slug</English>
+            <French>6Rnd Limace AP-20</French>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_6Rnd_S_UGL_Name_Short">
+            <English>AP-20 Slug</English>
+        </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_Mag_Black_Name">
             <English>5.45mm 30Rnd Black [RT] Yellow (PS)</English>
         </Key>

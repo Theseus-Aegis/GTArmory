@@ -49,3 +49,21 @@ class CLASS(6Rnd_S_AP20): CLASS(8Rnd_S_AP20) {
     count = 6;
     mass = 6;
 };
+
+class CLASS(6Rnd_P_UGL): 6Rnd_12Gauge_Pellets {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = CSTRING(6Rnd_P_UGL_Name);
+    displayNameShort = CSTRING(6Rnd_P_UGL_Name_Short);
+    descriptionShort = CSTRING(6Rnd_P_UGL_Name_Short);
+    ammo = QCLASS(P_12G_000);
+};
+
+class CLASS(6Rnd_S_UGL): 6Rnd_12Gauge_Slug {
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = CSTRING(6Rnd_S_UGL_Name);
+    displayNameShort = CSTRING(6Rnd_S_UGL_Name_Short);
+    descriptionShort = CSTRING(6Rnd_S_UGL_Name_Short);
+    ammo = QCLASS(S_12G_AP20);
+};
