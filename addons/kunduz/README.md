@@ -5,4 +5,4 @@ Adds Gridlines to [FRL-Kunduz](https://steamcommunity.com/sharedfiles/filedetail
 ### Authors
 
 - [TyroneMF](https://github.com/tyronemf)
-- [JoramD](https://github.com/joramd)
+- [JoramD](https://github.com/joramd0)
