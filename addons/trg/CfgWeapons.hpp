@@ -4,6 +4,7 @@ class CfgWeapons {
         displayName = CSTRING(TAR21_Black_Display);
         scope = 2;
         scopeArsenal = 2;
+        picture = QPATHTOF(ui\tar21_black_ca.paa);
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\trg_black_co.paa)
@@ -16,6 +17,7 @@ class CfgWeapons {
         displayName = CSTRING(GTAR21_EGLM_Black_Display);
         scope = 2;
         scopeArsenal = 2;
+        picture = QPATHTOF(ui\gtar21_eglm_black_ca.paa);
         hiddenSelections[] = {
             "Camo1",
             "Camo2",
@@ -34,6 +36,7 @@ class CfgWeapons {
         displayName = CSTRING(CTAR21_Black_Display);
         scope = 2;
         scopeArsenal = 2;
+        picture = QPATHTOF(ui\ctar21_black_ca.paa);
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\trg_black_co.paa)
