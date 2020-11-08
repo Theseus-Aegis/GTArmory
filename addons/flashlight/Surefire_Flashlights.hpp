@@ -78,7 +78,7 @@ class CLASS(Surefire_Low_Flashlight_Tan): CUP_acc_Flashlight_desert {
     class ItemInfo: InventoryFlashLightItem_Base_F {
         mass = 4;
         class Flashlight {
-            MACRO_Low_FLASHLIGHT_SETTINGS
+            MACRO_LOW_FLASHLIGHT_SETTINGS
         };
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Flashlight_Tan);
