@@ -1,53 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACGT">
     <Package name="Flashlight">
+        <Key ID="STR_TACGT_Flashlight_Author">
+            <English>Tyrone</English>
+        </Key>
         <Key ID="STR_TACGT_Flashlight_Description">
-            <English>High Power Blue Flashlight.</English>
+            <English>GT Edition Blue Flashlight.</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_Multi_Description">
-            <English>Laser/Light High Power Blue.</English>
+            <English>Laser/Light GT Edition</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_UTG_Flashlight_Display">
-            <English>UTG Defender 126 (High Power)</English>
+            <English>UTG Defender 126 (GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_Surefire_Flashlight_Black_Display">
-            <English>Surefire Black (High Power)</English>
+            <English>Surefire Black (GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_Surefire_Flashlight_OD_Display">
-            <English>Surefire OD (High Power)</English>
+            <English>Surefire OD (GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_Surefire_Flashlight_Tan_Display">
-            <English>Surefire Tan (High Power)</English>
+            <English>Surefire Tan (GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_ANPEQ_15_Top_Laser_Light_Black_Display">
-            <English>AN/PEQ-15 Laser + Flashlight (Top/Black/High Power)</English>
+            <English>AN/PEQ-15 Laser + Flashlight (Top/Black/GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_ANPEQ_15_Top_Laser_Light_Tan_Display">
-            <English>AN/PEQ-15 Laser + Flashlight (Top/Tan/High Power)</English>
+            <English>AN/PEQ-15 Laser + Flashlight (Top/Tan/GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_ANPEQ_15_Top_Laser_Light_OD_Display">
-            <English>AN/PEQ-15 Laser + Flashlight (Top/OD/High Power)</English>
+            <English>AN/PEQ-15 Laser + Flashlight (Top/OD/GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_ANPEQ_15_Laser_Light_Black_Display">
-            <English>AN/PEQ-15 Laser + Flashlight (Black/High Power)</English>
+            <English>AN/PEQ-15 Laser + Flashlight (Black/GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_ANPEQ_15_Laser_Light_Tan_Display">
-            <English>AN/PEQ-15 Laser + Flashlight (Tan/High Power)</English>
+            <English>AN/PEQ-15 Laser + Flashlight (Tan/GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_ANPEQ_15_Laser_Light_OD_Display">
-            <English>AN/PEQ-15 Laser + Flashlight (OD/High Power)</English>
+            <English>AN/PEQ-15 Laser + Flashlight (OD/GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_LLM01_IR_Laser_Black_Display">
-            <English>LLM01 Black (High Power)</English>
+            <English>LLM01 Black (GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_LLM01_IR_Laser_Tan_Display">
-            <English>LLM01 Tan (High Power)</English>
+            <English>LLM01 Tan (GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_VarioRay_IR_Laser_Tan_Display">
-            <English>LLM Vario-Ray Tan (High Power)</English>
+            <English>LLM Vario-Ray Tan (GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_VarioRay_IR_Laser_Black_Display">
-            <English>LLM Vario-Ray Black (High Power)</English>
+            <English>LLM Vario-Ray Black (GT Edition)</English>
         </Key>
     </Package>
 </Project>
