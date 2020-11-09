@@ -40,17 +40,11 @@
         <Key ID="STR_TACGT_Flashlight_ANPEQ_15_Laser_Light_OD_Display">
             <English>AN/PEQ-15 Laser + Flashlight (OD/GT Edition)</English>
         </Key>
-        <Key ID="STR_TACGT_Flashlight_LLM01_IR_Laser_Black_Display">
+        <Key ID="STR_TACGT_Flashlight_LLM01_Laser_Light_Black_Display">
             <English>LLM01 Black (GT Edition)</English>
         </Key>
-        <Key ID="STR_TACGT_Flashlight_LLM01_IR_Laser_Tan_Display">
-            <English>LLM01 Tan (GT Edition)</English>
-        </Key>
-        <Key ID="STR_TACGT_Flashlight_VarioRay_IR_Laser_Tan_Display">
-            <English>LLM Vario-Ray Tan (GT Edition)</English>
-        </Key>
-        <Key ID="STR_TACGT_Flashlight_VarioRay_IR_Laser_Black_Display">
-            <English>LLM Vario-Ray Black (GT Edition)</English>
+        <Key ID="STR_TACGT_Flashlight_LLM_Laser_Light_Black_Display">
+            <English>LLM MKIII Tan (GT Edition)</English>
         </Key>
     </Package>
 </Project>

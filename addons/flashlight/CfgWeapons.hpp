@@ -41,4 +41,5 @@ class CfgWeapons {
     #include "ANPEQ_Black.hpp"
     #include "ANPEQ_Tan.hpp"
     #include "ANPEQ_OD.hpp"
+    #include "LLM.hpp"
 };
