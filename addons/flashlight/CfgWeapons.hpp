@@ -1,48 +1,45 @@
 class CfgWeapons {
-    class acc_flashlight;
-    class cup_acc_flashlight;
-    class CUP_acc_Flashlight_desert;
-    class CUP_acc_Flashlight_wdl;
-    class cup_acc_anpeq_15_top_flashlight_black_l;
-    class CUP_acc_anpeq_15_top_Flashlight_Black_f;
-    class CUP_acc_anpeq_15_top_Flashlight_Black_v;
-    class cup_acc_anpeq_15_top_flashlight_tan_l;
-    class cup_acc_anpeq_15_top_flashlight_tan_f;
-    class cup_acc_anpeq_15_top_flashlight_tan_v;
-    class cup_acc_anpeq_15_top_flashlight_od_l;
-    class cup_acc_anpeq_15_top_flashlight_od_f;
-    class cup_acc_anpeq_15_top_flashlight_od_v;
-    class cup_acc_anpeq_15_flashlight_black_l;
-    class cup_acc_anpeq_15_flashlight_black_f;
-    class CUP_acc_anpeq_15_flashlight_black_v;
-    class cup_acc_anpeq_15_flashlight_tan_l;
-    class cup_acc_anpeq_15_flashlight_tan_f;
-    class cup_acc_anpeq_15_flashlight_tan_v;
-    class cup_acc_anpeq_15_flashlight_od_l;
-    class cup_acc_anpeq_15_flashlight_od_f;
-    class cup_acc_anpeq_15_flashlight_od_v;
     class InventoryFlashLightItem_Base_F;
 
-    FLASHLIGHT(UTG_flashlight, acc_flashlight, UTG_Flashlight_Display, Description);
-    FLASHLIGHT(Surefire_Flashlight_Black, cup_acc_flashlight, Surefire_Flashlight_Black_Display, Description);
-    FLASHLIGHT(Surefire_Flashlight_OD, CUP_acc_Flashlight_wdl, Surefire_Flashlight_OD_Display, Description);
-    FLASHLIGHT(Surefire_Flashlight_Tan, CUP_acc_Flashlight_desert, Surefire_Flashlight_Tan_Display, Description);
-    SWITCHIR(ANPEQ_15_Top_Laser_Black, cup_acc_anpeq_15_top_flashlight_black_l, ANPEQ_15_Top_Laser_Light_Black_Display, Multi_Description, ANPEQ_15_Top_Light_Black);
-    SWITCHLIGHT(ANPEQ_15_Top_Light_Black, cup_acc_anpeq_15_top_flashlight_black_f, ANPEQ_15_Top_Laser_Light_Black_Display, Multi_Description, ANPEQ_15_Top_Vis_Laser_Black);
-    SWITCHLASER(ANPEQ_15_Top_Vis_Laser_Black, cup_acc_anpeq_15_top_flashlight_black_v, ANPEQ_15_Top_Laser_Light_Black_Display, Multi_Description, ANPEQ_15_Top_Laser_Black);
-    SWITCHIR(ANPEQ_15_Top_Light_Tan, cup_acc_anpeq_15_top_flashlight_tan_l, ANPEQ_15_Top_Laser_Light_Tan_Display, Multi_Description, ANPEQ_15_Top_Laser_Tan);
-    SWITCHLIGHT(ANPEQ_15_Top_Laser_Tan, cup_acc_anpeq_15_top_flashlight_tan_f, ANPEQ_15_Top_Laser_Light_Tan_Display, Multi_Description, ANPEQ_15_Top_Vis_Laser_Tan);
-    SWITCHLASER(ANPEQ_15_Top_Vis_Laser_Tan, cup_acc_anpeq_15_top_flashlight_tan_v, ANPEQ_15_Top_Laser_Light_Tan_Display, Multi_Description, ANPEQ_15_Top_Light_Tan);
-    SWITCHIR(ANPEQ_15_Top_Light_OD, cup_acc_anpeq_15_top_flashlight_od_l, ANPEQ_15_Top_Laser_Light_OD_Display, Multi_Description, ANPEQ_15_Top_Laser_OD);
-    SWITCHLIGHT(ANPEQ_15_Top_Laser_OD, cup_acc_anpeq_15_top_flashlight_od_f, ANPEQ_15_Top_Laser_Light_OD_Display, Multi_Description, ANPEQ_15_Top_Vis_Laser_OD);
-    SWITCHLASER(ANPEQ_15_Top_Vis_Laser_OD, cup_acc_anpeq_15_top_flashlight_od_v, ANPEQ_15_Top_Laser_Light_OD_Display, Multi_Description, ANPEQ_15_Top_Light_OD);
-    SWITCHIR(ANPEQ_15_Light_Black, cup_acc_anpeq_15_flashlight_black_l, ANPEQ_15_Laser_Light_Black_Display, Multi_Description, ANPEQ_15_Laser_Black);
-    SWITCHLIGHT(ANPEQ_15_Laser_Black, cup_acc_anpeq_15_flashlight_black_f, ANPEQ_15_Laser_Light_Black_Display, Multi_Description, ANPEQ_15_Vis_Laser_Black);
-    SWITCHLASER(ANPEQ_15_Vis_Laser_Black, cup_acc_anpeq_15_flashlight_black_v, ANPEQ_15_Laser_Light_Black_Display, Multi_Description, ANPEQ_15_Light_Black);
-    SWITCHIR(ANPEQ_15_Light_Tan, cup_acc_anpeq_15_flashlight_tan_l, ANPEQ_15_Laser_Light_Tan_Display, Multi_Description, ANPEQ_15_Laser_Tan);
-    SWITCHLIGHT(ANPEQ_15_Laser_Tan, cup_acc_anpeq_15_flashlight_tan_f, ANPEQ_15_Laser_Light_Tan_Display, Multi_Description, ANPEQ_15_Vis_Laser_Tan);
-    SWITCHLASER(ANPEQ_15_Vis_Laser_Tan, cup_acc_anpeq_15_flashlight_tan_v, ANPEQ_15_Laser_Light_Tan_Display, Multi_Description, ANPEQ_15_Light_Tan);
-    SWITCHIR(ANPEQ_15_Light_OD, cup_acc_anpeq_15_flashlight_od_l, ANPEQ_15_Laser_Light_OD_Display, Multi_Description, ANPEQ_15_Laser_OD);
-    SWITCHLIGHT(ANPEQ_15_Laser_OD, cup_acc_anpeq_15_flashlight_od_f, ANPEQ_15_Laser_Light_OD_Display, Multi_Description, ANPEQ_15_Vis_Laser_OD);
-    SWITCHLASER(ANPEQ_15_Vis_Laser_OD, cup_acc_anpeq_15_flashlight_od_v, ANPEQ_15_Laser_Light_OD_Display, Multi_Description, ANPEQ_15_Light_OD);
+    class acc_flashlight;
+    class CLASS(UTG_Flashlight): acc_flashlight {
+        displayName = CSTRING(UTG_Flashlight_Display);
+        MACRO_MULTI_1
+
+        class ItemInfo: InventoryFlashLightItem_Base_F {
+            mass = 4;
+            class Flashlight {
+                MACRO_HI_FLASHLIGHT_SETTINGS
+            };
+        };
+        MRT_SwitchItemNextClass = QCLASS(UTG_Low_Flashlight);
+        MRT_SwitchItemPrevClass = QCLASS(UTG_Low_Flashlight);
+    };
+
+    class CLASS(UTG_Low_Flashlight): acc_flashlight {
+        displayName = CSTRING(UTG_Flashlight_Display);
+        MACRO_MULTI_2
+
+        class ItemInfo: InventoryFlashLightItem_Base_F {
+            mass = 4;
+            class Flashlight {
+                MACRO_LOW_FLASHLIGHT_SETTINGS
+            };
+        };
+        MRT_SwitchItemNextClass = QCLASS(UTG_Flashlight);
+        MRT_SwitchItemPrevClass = QCLASS(UTG_Flashlight);
+    };
+
+    #include "Surefire_Flashlights.hpp"
+
+    // Multi-Function Laser/Lights - Top
+    #include "ANPEQ_Top_Black.hpp"
+    #include "ANPEQ_Top_Tan.hpp"
+    #include "ANPEQ_Top_OD.hpp"
+
+    // Multi-Function Laser/Lights - Side
+    #include "ANPEQ_Black.hpp"
+    #include "ANPEQ_Tan.hpp"
+    #include "ANPEQ_OD.hpp"
+    #include "LLM.hpp"
 };
