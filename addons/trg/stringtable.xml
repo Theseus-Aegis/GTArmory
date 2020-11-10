@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="TRG">
+        <Key ID="STR_TACGT_TRG_TAR21_Black_Display">
+            <English>TAR-21 (Black)</English>
+        </Key>
+        <Key ID="STR_TACGT_TRG_GTAR21_EGLM_Black_Display">
+            <English>GTAR-21 EGLM (Black)</English>
+        </Key>
+        <Key ID="STR_TACGT_TRG_CTAR21_Black_Display">
+            <English>CTAR-21 (Black)</English>
+        </Key>
+    </Package>
+</Project>
