@@ -4,6 +4,18 @@
         <Key ID="STR_TACGT_Flashlight_Author">
             <English>Tyrone</English>
         </Key>
+        <Key ID="STR_TACGT_Flashlight_Laser_Pointer">
+            <English>IR Laser</English>
+        </Key>
+        <Key ID="STR_TACGT_Flashlight_Visible_Laser">
+            <English>Visible Laser</English>
+        </Key>
+        <Key ID="STR_TACGT_Flashlight_High_Power_Light">
+            <English>Flashlight Blue</English>
+        </Key>
+        <Key ID="STR_TACGT_Flashlight_Low_Power_Light">
+            <English>Flashlight Red</English>
+        </Key>
         <Key ID="STR_TACGT_Flashlight_Description">
             <English>GT Edition Blue Flashlight.</English>
         </Key>
@@ -44,7 +56,7 @@
             <English>LLM01 Black (GT Edition)</English>
         </Key>
         <Key ID="STR_TACGT_Flashlight_LLM_Laser_Light_Black_Display">
-            <English>LLM MKIII Tan (GT Edition)</English>
+            <English>LLM MKIII (GT Edition)</English>
         </Key>
     </Package>
 </Project>

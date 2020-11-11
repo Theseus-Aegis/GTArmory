@@ -13,6 +13,7 @@ class CLASS(LLM01_Laser_Black): CUP_acc_LLM01_L {
     };
     MRT_SwitchItemNextClass = QCLASS(LLM01_Light_Black);
     MRT_SwitchItemPrevClass = QCLASS(LLM01_Vis_Laser_Black);
+    MRT_SwitchItemHintText = CSTRING(Laser_Pointer);
 };
 
 class CUP_acc_LLM01_F;
@@ -29,6 +30,7 @@ class CLASS(LLM01_Light_Black): CUP_acc_LLM01_F {
     };
     MRT_SwitchItemNextClass = QCLASS(LLM01_Low_Light_Black);
     MRT_SwitchItemPrevClass = QCLASS(LLM01_Laser_Black);
+    MRT_SwitchItemHintText = CSTRING(High_Power_Light);
 };
 
 class CLASS(LLM01_Low_Light_Black): CUP_acc_LLM01_F {
@@ -44,6 +46,7 @@ class CLASS(LLM01_Low_Light_Black): CUP_acc_LLM01_F {
     };
     MRT_SwitchItemNextClass = QCLASS(LLM01_Vis_Laser_Black);
     MRT_SwitchItemPrevClass = QCLASS(LLM01_Light_Black);
+    MRT_SwitchItemHintText = CSTRING(Low_Power_Light);
 };
 
 class CLASS(LLM01_Vis_Laser_Black): CUP_acc_LLM01_L {
@@ -58,6 +61,8 @@ class CLASS(LLM01_Vis_Laser_Black): CUP_acc_LLM01_L {
     };
     MRT_SwitchItemNextClass = QCLASS(LLM01_Laser_Black);
     MRT_SwitchItemPrevClass = QCLASS(LLM01_Low_Light_Black);
+    MRT_SwitchItemHintText = CSTRING(Visible_Laser);
+    ACE_LaserPointer = 1;
 };
 
 // Black Variant - LLM MKIII
@@ -75,6 +80,7 @@ class CLASS(LLM_Laser_Black): cup_acc_llm_black {
     };
     MRT_SwitchItemNextClass = QCLASS(LLM_Light_Black);
     MRT_SwitchItemPrevClass = QCLASS(LLM_Vis_Laser_Black);
+    MRT_SwitchItemHintText = CSTRING(Laser_Pointer);
 };
 
 class CUP_acc_LLM_black_Flashlight;
@@ -91,6 +97,7 @@ class CLASS(LLM_Light_Black): CUP_acc_LLM_black_Flashlight {
     };
     MRT_SwitchItemNextClass = QCLASS(LLM_Low_Light_Black);
     MRT_SwitchItemPrevClass = QCLASS(LLM_Laser_Black);
+    MRT_SwitchItemHintText = CSTRING(High_Power_Light);
 };
 
 class CLASS(LLM_Low_Light_Black): CUP_acc_LLM_black_Flashlight {
@@ -106,6 +113,7 @@ class CLASS(LLM_Low_Light_Black): CUP_acc_LLM_black_Flashlight {
     };
     MRT_SwitchItemNextClass = QCLASS(LLM_Vis_Laser_Black);
     MRT_SwitchItemPrevClass = QCLASS(LLM_Light_Black);
+    MRT_SwitchItemHintText = CSTRING(Low_Power_Light);
 };
 
 class CLASS(LLM_Vis_Laser_Black): cup_acc_llm_black {
@@ -116,10 +124,12 @@ class CLASS(LLM_Vis_Laser_Black): cup_acc_llm_black {
         mass = 4;
         class Pointer {};
         class Flashlight {
-            MACRO_LOW_FLASHLIGHT_SETTINGS
+            MACRO_VIS_POINTER_SETTINGS
         };
     };
     MRT_SwitchItemNextClass = QCLASS(LLM_Laser_Black);
     MRT_SwitchItemPrevClass = QCLASS(LLM_Low_Light_Black);
+    MRT_SwitchItemHintText = CSTRING(Visible_Laser);
+    ACE_LaserPointer = 1;
 };
 
