@@ -13,6 +13,7 @@
 
 ##### 9x19
 - Luger: Standard Ball round.
+- 7N21: Armour piercing round.
 
 ##### 5.45x39
 - PS: Standard steel-core round.
