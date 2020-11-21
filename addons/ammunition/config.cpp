@@ -71,7 +71,13 @@ class CfgPatches {
             QCLASS(75Rnd_762x39_RPK_BP_Mag),
             QCLASS(20Rnd_762x51_FAL_AP_Mag),
             QCLASS(30Rnd_762x51_FAL_AP_Mag),
-            QCLASS(10Rnd_762x54_SVD_AP_Mag)
+            QCLASS(10Rnd_762x54_SVD_AP_Mag),
+            QCLASS(30Rnd_9x19_Clear_7N21),
+            QCLASS(30Rnd_9x19_Clear_7N21_Green),
+            QCLASS(30Rnd_9x19_7N21),
+            QCLASS(30Rnd_9x19_7N21_Green),
+            QCLASS(30Rnd_9x19_MP5_7N21),
+            QCLASS(30Rnd_9x19_MP5_7N21_Green)
         };
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF"};
