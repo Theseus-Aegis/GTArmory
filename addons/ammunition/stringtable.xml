@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACGT">
     <Package name="Ammunition">
+        <Key ID="STR_TACGT_Ammunition_30Rnd_9x19_Clear_7N21_Name">
+            <English>9mm 30Rnd Clear [RT] Green (7N21)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_9x19_Clear_7N21_Green_Name">
+            <English>9mm 30Rnd Clear [T] Green (7N21)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_9x19_7N21_Name_Short">
+            <English>7N21 Rounds</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_9x19_7N21">
+            <English>9mm 30Rnd [RT] Green (7N21)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_9x19_7N21_Green_Name">
+            <English>9mm 30Rnd [T] Green (7N21)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_9x19_MP5_7N21_Name">
+            <English>9mm 30Rnd MP5 [RT] Green (7N21)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_9x19_MP5_7N21_Green_Name">
+            <English>9mm 30Rnd MP5 [T] Green (7N21)</English>
+        </Key>
         <Key ID="STR_TACGT_Ammunition_8Rnd_P_000_Name">
             <English>8Rnd #00 Magnum Shells</English>
             <French>8Rnd #00 Cartouches de chevrotine</French>

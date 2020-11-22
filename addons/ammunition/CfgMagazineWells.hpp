@@ -1,4 +1,21 @@
 class CfgMagazineWells {
+    class CLASS(9x19_MP5) { // Prevents regular BI Magazines fitting the CUP MP5s as no model shows.
+        ADDON[] = {
+            "CUP_30Rnd_9x19_MP5",
+            QCLASS(30Rnd_9x19_MP5_7N21),
+            QCLASS(30Rnd_9x19_MP5_7N21_Green)
+        };
+    };
+
+    class CBA_9x19_MP5 {
+        ADDON[] = {
+            QCLASS(30Rnd_9x19_Clear_7N21),
+            QCLASS(30Rnd_9x19_Clear_7N21_Green),
+            QCLASS(30Rnd_9x19_7N21),
+            QCLASS(30Rnd_9x19_7N21_Green)
+        };
+    };
+
     class CBA_12g_2rnds {
         ADDON[] = {
             QCLASS(2Rnd_P_000)

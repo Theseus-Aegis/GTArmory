@@ -24,7 +24,11 @@ class CfgMagazines {
     class CUP_30Rnd_556x45_G36;
     class CUP_60Rnd_556x45_SureFire;
     class hlc_30Rnd_556x45_EPR_sg550;
+    class 30Rnd_9x21_Mag_SMG_02;
+    class 30Rnd_9x21_Mag;
+    class CUP_30Rnd_9x19_MP5;
 
+#include "9x19.hpp"
 #include "12g.hpp"
 #include "545x39.hpp"
 #include "556x45.hpp"

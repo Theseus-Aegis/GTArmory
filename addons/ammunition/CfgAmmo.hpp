@@ -1,5 +1,6 @@
 class CfgAmmo {
     class BulletBase;
+    class B_9x21_Ball_Tracer_Green;
     class B_545x39_Ball_F;
     class B_580x42_Ball_F;
     class B_556x45_Ball;
@@ -7,6 +8,13 @@ class CfgAmmo {
     class B_12Gauge_Pellets_Submunition;
     class B_12Gauge_Pellets_Submunition_Deploy;
     class CUP_B_762x54_Ball_White_Tracer;
+
+    // 9mm ammo
+    class CLASS(9x19_7N21): B_9x21_Ball_Tracer_Green {
+        caliber = 1.4;
+        hit = 6.5;
+        typicalSpeed = 365;
+    };
 
     // 12G ammo
     class CLASS(12g_Pellets_Submunition): B_12Gauge_Pellets_Submunition {
