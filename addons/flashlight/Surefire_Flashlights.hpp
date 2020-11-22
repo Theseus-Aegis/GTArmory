@@ -11,6 +11,7 @@ class CLASS(Surefire_Flashlight_Black): cup_acc_flashlight {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Low_Flashlight_Black);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Low_Flashlight_Black);
+    MRT_SwitchItemHintText = CSTRING(High_Power_Light);
 };
 
 class CLASS(Surefire_Low_Flashlight_Black): cup_acc_flashlight {
@@ -25,6 +26,7 @@ class CLASS(Surefire_Low_Flashlight_Black): cup_acc_flashlight {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Flashlight_Black);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Flashlight_Black);
+    MRT_SwitchItemHintText = CSTRING(Low_Power_Light);
 };
 
 class CUP_acc_Flashlight_wdl;
@@ -40,6 +42,7 @@ class CLASS(Surefire_Flashlight_OD): CUP_acc_Flashlight_wdl {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Low_Flashlight_OD);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Low_Flashlight_OD);
+    MRT_SwitchItemHintText = CSTRING(High_Power_Light);
 };
 
 class CLASS(Surefire_Low_Flashlight_OD): CUP_acc_Flashlight_wdl {
@@ -54,6 +57,7 @@ class CLASS(Surefire_Low_Flashlight_OD): CUP_acc_Flashlight_wdl {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Flashlight_OD);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Flashlight_OD);
+    MRT_SwitchItemHintText = CSTRING(Low_Power_Light);
 };
 
 class CUP_acc_Flashlight_desert;
@@ -69,6 +73,7 @@ class CLASS(Surefire_Flashlight_Tan): CUP_acc_Flashlight_desert {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Low_Flashlight_Tan);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Low_Flashlight_Tan);
+    MRT_SwitchItemHintText = CSTRING(High_Power_Light);
 };
 
 class CLASS(Surefire_Low_Flashlight_Tan): CUP_acc_Flashlight_desert {
@@ -83,4 +88,5 @@ class CLASS(Surefire_Low_Flashlight_Tan): CUP_acc_Flashlight_desert {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Flashlight_Tan);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Flashlight_Tan);
+    MRT_SwitchItemHintText = CSTRING(Low_Power_Light);
 };
