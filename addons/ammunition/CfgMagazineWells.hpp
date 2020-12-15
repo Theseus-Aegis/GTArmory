@@ -88,7 +88,16 @@ class CfgMagazineWells {
         ADDON[] = {
             QCLASS(30Rnd_556x45_M855A1_G36),
             QCLASS(30Rnd_556x45_M855A1_G36_Red),
-            QCLASS(30Rnd_556x45_M995_G36)
+            QCLASS(30Rnd_556x45_M995_G36),
+            QCLASS(30Rnd_556x45_M855A1_CZ805),
+            QCLASS(30Rnd_556x45_M995_CZ805)
+        };
+    };
+
+    class CBA_556x45_FAMAS {
+        ADDON[] = {
+            QCLASS(25Rnd_556x45_M855A1_Famas),
+            QCLASS(25Rnd_556x45_M995_Famas)
         };
     };
 
@@ -152,6 +161,12 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_762x39_CZ {
+        ADDON[] = {
+            QCLASS(30Rnd_762x39_CZ807_BP_Mag)
+        };
+    };
+
     class CBA_762x39_RPK {
         ADDON[] = {
             QCLASS(75Rnd_762x39_RPK_BP_Mag)
@@ -162,6 +177,19 @@ class CfgMagazineWells {
         ADDON[] = {
             QCLASS(20Rnd_762x51_FAL_AP_Mag),
             QCLASS(30Rnd_762x51_FAL_AP_Mag)
+        };
+    };
+
+    class CBA_762x51_G3 {
+        ADDON[] = {
+            QCLASS(20Rnd_762x51_G3_AP_Mag)
+        };
+    };
+
+    class CBA_762x51_SCAR {
+        ADDON[] = {
+            QCLASS(20Rnd_762x51_SCARH_AP_Mag),
+            QCLASS(20Rnd_762x51_SCARH_Black_AP_Mag)
         };
     };
 

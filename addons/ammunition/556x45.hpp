@@ -40,6 +40,36 @@ class CLASS(30Rnd_556x45_M995_AUG): CLASS(30Rnd_556x45_M855A1_AUG) {
     ammo = "ACE_556x45_Ball_M995_AP";
 };
 
+// CZ 805 Mags
+class CLASS(30Rnd_556x45_M855A1_CZ805): CUP_30Rnd_556x45_CZ805 {
+    author = "TyroneMF";
+    scope = 2;
+    lastRoundsTracer = 4;
+    displayName = CSTRING(30Rnd_556x45_M855A1_CZ805_Name);
+    ammo = QCLASS(556x45_EPR_M855A1);
+    mass = 10;
+};
+
+class CLASS(30Rnd_556x45_M995_CZ805): CLASS(30Rnd_556x45_M855A1_CZ805) {
+    displayName = CSTRING(30Rnd_556x45_M995_CZ805_Name);
+    ammo = "ACE_556x45_Ball_M995_AP";
+};
+
+// Famas Mags
+class CLASS(25Rnd_556x45_M855A1_Famas): CUP_25Rnd_556x45_Famas {
+    author = "TyroneMF";
+    scope = 2;
+    lastRoundsTracer = 4;
+    displayName = CSTRING(25Rnd_556x45_M855A1_Famas_Name);
+    ammo = QCLASS(556x45_EPR_M855A1);
+    mass = 10;
+};
+
+class CLASS(25Rnd_556x45_M995_Famas): CLASS(25Rnd_556x45_M855A1_Famas) {
+    displayName = CSTRING(25Rnd_556x45_M995_Famas_Name);
+    ammo = "ACE_556x45_Ball_M995_AP";
+};
+
 // G36 Mags
 class CLASS(30Rnd_556x45_M855A1_G36): CUP_30Rnd_556x45_G36 {
     author = "TyroneMF";
