@@ -339,6 +339,17 @@ class CfgMagazines {
     class 30Rnd_9x21_Mag_SMG_02_Tracer_Yellow: 30Rnd_9x21_Mag_SMG_02 {
         displayName = CSTRING(30Rnd_9x21_Yellow_Mag_Display);
     };
+    class CUP_30Rnd_9x19_MP5: CA_Magazine {
+        displayName = CSTRING(CUP_30Rnd_9x19_MP5_Display);
+    };
+
+    // 20-40Rnd 46x30 Magazines
+    class CUP_40Rnd_46x30_MP7: CA_Magazine {
+        displayName = CSTRING(CUP_40Rnd_46x30_MP7_Display);
+    };
+    class CUP_20Rnd_46x30_MP7: CUP_40Rnd_46x30_MP7 {
+        displayName = CSTRING(CUP_20Rnd_46x30_MP7_Display);
+    };
 
     // 17Rnd 9x19 Magazines
     class 16Rnd_9x21_green_Mag: 16Rnd_9x21_Mag {

@@ -283,6 +283,15 @@
         <Key ID="STR_TACGT_Rename_30Rnd_9x21_Yellow_Mag_Display">
             <English>9mm 30Rnd [RT] Yellow Mag (Luger)</English>
         </Key>
+        <Key ID="STR_TACGT_Rename_CUP_30Rnd_9x19_MP5_Display">
+            <English>9mm 30Rnd MP5 Mag (Luger)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_CUP_40Rnd_46x30_MP7_Display">
+            <English>4.6mm 40Rnd MP7 Mag (DM11)</English>
+        </Key>
+        <Key ID="STR_TACGT_Rename_CUP_20Rnd_46x30_MP7_Display">
+            <English>4.6mm 20Rnd MP7 Mag (DM11)</English>
+        </Key>
         <Key ID="STR_TACGT_Rename_17Rnd_9x21_Green_Mag_Display">
             <English>9mm 17Rnd [RT] Green Mag (Luger)</English>
         </Key>

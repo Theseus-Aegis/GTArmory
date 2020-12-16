@@ -15,6 +15,9 @@
 - Luger: Standard Ball round.
 - 7N21: Armour piercing round.
 
+##### 4.6
+- DM11: Armour piercing round.
+
 ##### 5.45x39
 - PS: Standard steel-core round.
 - PRS: Tracer PS round.
@@ -28,7 +31,6 @@
 - M856A1: Enhanced performance tracer round.
 - M995: Armour Piercing round.
 - MK262: Match-quality round that is more effective at longer ranges than standard M855.
-- MK318: Enhanced variant of the M855, Designed to better penetrate objects with increased consistency.
 
 ##### 5.7x28
 - SS190: Standard Ball round.
