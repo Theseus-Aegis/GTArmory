@@ -16,6 +16,13 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_9x19_ScorpionEvo3 {
+        ADDON[] = {
+            QCLASS(30Rnd_9x19_Clear_7N21),
+            QCLASS(30Rnd_9x19_Clear_7N21_Green)
+        };
+    };
+
     class CBA_12g_2rnds {
         ADDON[] = {
             QCLASS(2Rnd_P_000)
