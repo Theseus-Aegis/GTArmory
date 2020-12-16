@@ -20,7 +20,12 @@ class CfgPatches {
     };
 };
 
+class Mode_SemiAuto;
+
 #include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
-#include "CfgWeapons.hpp"
 #include "CfgMagazineWells.hpp"
+#include "CfgSoundShaders.hpp"
+#include "CfgSoundSets.hpp"
+#include "CfgWeapons.hpp"
+

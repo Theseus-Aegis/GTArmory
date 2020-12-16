@@ -13,6 +13,17 @@ class CfgWeapons {
         magazineWell[] = {
             QCLASS(MSBS65_Gimmick_MW)
         };
+        modes[] = {"Single"};
         baseWeapon = QCLASS(MSBS65_Gimmick);
+
+        class Single: Mode_SemiAuto {
+            class BaseSoundModeType;
+            class StandardSound: BaseSoundModeType {
+                soundSetShot[] = {QCLASS(msbs_y33t_soundSet)};
+            };
+            class SilencedSound: BaseSoundModeType {
+                soundSetShot[] = {QCLASS(msbs_y33t_soundSet)};
+            };
+        };
     };
 };
