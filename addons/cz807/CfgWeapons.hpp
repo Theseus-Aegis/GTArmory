@@ -14,7 +14,7 @@ class CfgWeapons {
             "tacgt_30Rnd_762x39_CZ807_BP_Mag"
         };
         magazineWell[] = {
-            "CBA_762x39_CZ"
+            "tacgt_762x39_CZ" // Change this later! .. or wait for CUP to do it themselves.
         };
     };
 };
