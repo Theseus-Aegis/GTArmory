@@ -27,6 +27,11 @@ class CfgMagazines {
     class 30Rnd_9x21_Mag_SMG_02;
     class 30Rnd_9x21_Mag;
     class CUP_30Rnd_9x19_MP5;
+    class CUP_20Rnd_762x51_G3;
+    class CUP_30Rnd_556x45_CZ805;
+    class CUP_30Rnd_762x39_CZ807;
+    class CUP_25Rnd_556x45_Famas;
+    class CUP_20Rnd_762x51_B_SCAR;
 
 #include "9x19.hpp"
 #include "12g.hpp"

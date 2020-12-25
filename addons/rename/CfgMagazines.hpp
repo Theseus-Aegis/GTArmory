@@ -2,6 +2,11 @@ class CfgMagazines {
     class CA_Magazine;
     class 30Rnd_545x39_Mag_Tracer_F;
     class CUP_30Rnd_556x45_Stanag;
+    class CUP_20Rnd_762x51_G3;
+    class CUP_30Rnd_545x39_AK_M;
+    class CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M;
+    class CUP_100Rnd_556x45_BetaCMag;
+    class CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M;
     class 100Rnd_65x39_caseless_mag;
     class 100Rnd_65x39_caseless_mag_Tracer;
     class 30Rnd_65x39_caseless_mag;
@@ -25,6 +30,28 @@ class CfgMagazines {
     };
     class 30Rnd_545x39_Mag_Green_F: 30Rnd_545x39_Mag_F {
         displayName = CSTRING(30Rnd_545x39_Mag_Green_F_Display);
+    };
+
+    // 45Rnd 545 Russian Magazines
+    class CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M: CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M {
+        displayName = CSTRING(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M_Display);
+    };
+    class CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M: CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M {
+        displayName = CSTRING(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M_Display);
+    };
+
+    // 60Rnd 545 Russian Magazines
+    class CUP_60Rnd_545x39_AK74M_M: CUP_30Rnd_545x39_AK_M {
+        displayName = CSTRING(CUP_60Rnd_545x39_AK74M_M_Display);
+    };
+    class CUP_60Rnd_TE1_Green_Tracer_545x39_AK74M_M: CUP_60Rnd_545x39_AK74M_M {
+        displayName = CSTRING(CUP_60Rnd_TE1_Green_Tracer_545x39_AK74M_M_Display);
+    };
+    class CUP_60Rnd_TE1_Red_Tracer_545x39_AK74M_M: CUP_60Rnd_545x39_AK74M_M {
+        displayName = CSTRING(CUP_60Rnd_TE1_Red_Tracer_545x39_AK74M_M_Display);
+    };
+    class CUP_60Rnd_TE1_Yellow_Tracer_545x39_AK74M_M: CUP_60Rnd_545x39_AK74M_M {
+        displayName = CSTRING(CUP_60Rnd_TE1_Yellow_Tracer_545x39_AK74M_M_Display);
     };
 
     // 30Rnd 556 Magazines
@@ -58,6 +85,18 @@ class CfgMagazines {
     class CUP_30Rnd_556x45_X95_Tracer_Yellow: CUP_30Rnd_556x45_X95_Tracer_Red {
         displayName = CSTRING(CUP_30Rnd_556x45_X95_Tracer_Yellow_Display);
     };
+    class CUP_30Rnd_556x45_CZ805: CUP_30Rnd_556x45_Stanag {
+        displayName = CSTRING(CUP_30Rnd_556x45_CZ805_Display);
+    };
+    class CUP_30Rnd_TE1_Green_Tracer_556x45_CZ805: CUP_30Rnd_556x45_CZ805 {
+        displayName = CSTRING(CUP_30Rnd_TE1_Green_Tracer_556x45_CZ805_Display);
+    };
+    class CUP_25Rnd_556x45_Famas: CA_Magazine {
+        displayName = CSTRING(CUP_25Rnd_556x45_Famas_Display);
+    };
+    class CUP_25Rnd_556x45_Famas_Tracer_Green: CUP_25Rnd_556x45_Famas {
+        displayName = CSTRING(CUP_25Rnd_556x45_Famas_Tracer_Green_Name);
+    };
 
     // 60Rnd 556 Magazines
     class CUP_60Rnd_556x45_SureFire: CUP_30Rnd_556x45_Stanag {
@@ -83,6 +122,18 @@ class CfgMagazines {
     class 150Rnd_556x45_Drum_Mag_Tracer_F: 150Rnd_556x45_Drum_Mag_F {
         displayName = CSTRING(150Rnd_556x45_Drum_Tracer_Display);
     };
+    class CUP_100Rnd_556x45_BetaCMag_ar15: CUP_100Rnd_556x45_BetaCMag {
+        displayName = CSTRING(CUP_100Rnd_556x45_BetaCMag_ar15_Display);
+    };
+    class CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag_ar15: CUP_100Rnd_556x45_BetaCMag_ar15 {
+        displayName = CSTRING(CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag_ar15_Display);
+    };
+    class CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_ar15: CUP_100Rnd_556x45_BetaCMag_ar15 {
+        displayName = CSTRING(CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_ar15_Display);
+    };
+    class CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag_ar15: CUP_100Rnd_556x45_BetaCMag_ar15 {
+        displayName = CSTRING(CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag_ar15_Display);
+    };
 
     // 200Rnd 556 Box Magazines
     class 200Rnd_556x45_Box_F: CA_Magazine {
@@ -96,6 +147,18 @@ class CfgMagazines {
     };
     class 200Rnd_556x45_Box_Tracer_Red_F: 200Rnd_556x45_Box_Tracer_F {
         displayName = CSTRING(200Rnd_556x45_Box_Tracer_Red_Display);
+    };
+    class CUP_200Rnd_TE4_Green_Tracer_556x45_M249: CA_Magazine {
+        displayName = CSTRING(CUP_200Rnd_TE4_Green_Tracer_556x45_M249_Display);
+    };
+    class CUP_200Rnd_TE4_Red_Tracer_556x45_M249: CUP_200Rnd_TE4_Green_Tracer_556x45_M249 {
+        displayName = CSTRING(CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Display);
+    };
+    class CUP_200Rnd_TE1_Red_Tracer_556x45_M249: CUP_200Rnd_TE4_Red_Tracer_556x45_M249 {
+        displayName = CSTRING(CUP_200Rnd_TE1_Red_Tracer_556x45_M249_Name);
+    };
+    class CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249: CUP_200Rnd_TE4_Green_Tracer_556x45_M249 {
+        displayName = CSTRING(CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Display);
     };
 
     // 30Rnd 6.5x39 Magazines MX
@@ -172,6 +235,14 @@ class CfgMagazines {
     class 30rnd_762x39_AK12_Lush_Mag_Tracer_F: 30Rnd_762x39_AK12_Mag_Tracer_F {
         displayName = CSTRING(30Rnd_762x39_AK12_Lush_Mag_Tracer_Display);
     };
+    class CUP_30Rnd_762x39_CZ807: CA_Magazine {
+        displayName = CSTRING(CUP_30Rnd_762x39_CZ807_Display);
+    };
+    class CUP_30Rnd_TE1_Green_Tracer_762x39_CZ807: CUP_30Rnd_762x39_CZ807 {
+        displayName = CSTRING(CUP_30Rnd_TE1_Green_Tracer_762x39_CZ807_Display);
+    };
+
+    // 75Rnd 762x39 Magazines
     class 75Rnd_762x39_Mag_F: 30Rnd_762x39_Mag_F {
         displayName = CSTRING(75Rnd_762x39_AKM_Mag_Display);
     };
@@ -196,6 +267,9 @@ class CfgMagazines {
     class 75rnd_762x39_AK12_Lush_Mag_Tracer_F: 75rnd_762x39_AK12_Mag_Tracer_F {
         displayName = CSTRING(75Rnd_762x39_AK12_Lush_Mag_Tracer_Display);
     };
+    class CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M: CA_Magazine {
+        displayName = CSTRING(CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M_Display);
+    };
 
     // 20Rnd 762x51 Magazines
     class 20Rnd_762x51_Mag: CA_Magazine {
@@ -203,6 +277,47 @@ class CfgMagazines {
     };
     class ACE_20Rnd_762x51_Mag_Tracer: 20Rnd_762x51_Mag {
         displayName = CSTRING(20Rnd_762x51_Tracer_Mag_Display);
+    };
+    class CUP_20Rnd_762x51_FNFAL_M: CA_Magazine {
+        displayName = CSTRING(CUP_20Rnd_762x51_FNFAL_M_Display);
+    };
+    class CUP_20Rnd_TE1_Green_Tracer_762x51_FNFAL_M: CUP_20Rnd_762x51_FNFAL_M {
+        displayName = CSTRING(CUP_20Rnd_TE1_Green_Tracer_762x51_FNFAL_M_Display);
+    };
+    class CUP_20Rnd_762x51_G3: CA_Magazine {
+        displayName = CSTRING(CUP_20Rnd_762x51_G3_Display);
+    };
+    class CUP_20Rnd_TE1_Green_Tracer_762x51_G3: CUP_20Rnd_762x51_G3 {
+        displayName = CSTRING(CUP_20Rnd_TE1_Green_Tracer_762x51_G3_Display);
+    };
+    class CUP_20Rnd_762x51_B_SCAR: CA_Magazine {
+        displayName = CSTRING(CUP_20Rnd_762x51_B_SCAR_Display);
+    };
+    class CUP_20Rnd_762x51_B_SCAR_bkl: CUP_20Rnd_762x51_B_SCAR {
+        displayName = CSTRING(CUP_20Rnd_762x51_B_SCAR_bkl_Display);
+    };
+    class CUP_50Rnd_762x51_B_SCAR: CA_Magazine {
+        displayName = CSTRING(CUP_50Rnd_762x51_B_SCAR_Display);
+    };
+    class CUP_50Rnd_TE1_Green_Tracer_762x51_SCAR: CUP_50Rnd_762x51_B_SCAR {
+        displayName = CSTRING(CUP_50Rnd_TE1_Green_Tracer_762x51_SCAR_Display);
+    };
+    class CUP_50Rnd_TE1_Red_Tracer_762x51_SCAR: CUP_50Rnd_762x51_B_SCAR {
+        displayName = CSTRING(CUP_50Rnd_TE1_Red_Tracer_762x51_SCAR_Display);
+    };
+    class CUP_50Rnd_TE1_Yellow_Tracer_762x51_SCAR: CUP_50Rnd_762x51_B_SCAR {
+        displayName = CSTRING(CUP_50Rnd_TE1_Yellow_Tracer_762x51_SCAR_Display);
+    };
+
+    // 100Rnd 762x51 Magazines
+    class CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M: CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M {
+        displayName = CSTRING(CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M_Display);
+    };
+    class CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M: CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M {
+        displayName = CSTRING(CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M_Display);
+    };
+    class CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M: CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M {
+        displayName = CSTRING(CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M_Display);
     };
 
     // 30Rnd 9x19 Magazines
@@ -223,6 +338,17 @@ class CfgMagazines {
     };
     class 30Rnd_9x21_Mag_SMG_02_Tracer_Yellow: 30Rnd_9x21_Mag_SMG_02 {
         displayName = CSTRING(30Rnd_9x21_Yellow_Mag_Display);
+    };
+    class CUP_30Rnd_9x19_MP5: CA_Magazine {
+        displayName = CSTRING(CUP_30Rnd_9x19_MP5_Display);
+    };
+
+    // 20-40Rnd 46x30 Magazines
+    class CUP_40Rnd_46x30_MP7: CA_Magazine {
+        displayName = CSTRING(CUP_40Rnd_46x30_MP7_Display);
+    };
+    class CUP_20Rnd_46x30_MP7: CUP_40Rnd_46x30_MP7 {
+        displayName = CSTRING(CUP_20Rnd_46x30_MP7_Display);
     };
 
     // 17Rnd 9x19 Magazines
