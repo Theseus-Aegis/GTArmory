@@ -38,6 +38,10 @@ class CLASS(20Rnd_762x51_SCARH_AP_Mag): CUP_20Rnd_762x51_B_SCAR {
     lastRoundsTracer = 2;
 };
 
-class CLASS(20Rnd_762x51_SCARH_Black_AP_Mag): CLASS(20Rnd_762x51_SCARH_AP_Mag) {
+class CLASS(20Rnd_762x51_SCARH_Black_AP_Mag): CUP_20Rnd_762x51_B_SCAR_bkl {
+    author = "TyroneMF";
+    scope = 2;
     displayName = CSTRING(20Rnd_762x51_SCARH_Black_AP_Mag_Name);
+    ammo = "ACE_762x51_Ball_M993_AP";
+    lastRoundsTracer = 2;
 };
