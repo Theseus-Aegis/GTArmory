@@ -58,5 +58,11 @@
         <Key ID="STR_TACGT_Flashlight_LLM_Laser_Light_Black_Display">
             <English>LLM MKIII (GT Edition)</English>
         </Key>
+        <Key ID="STR_TACGT_Flashlight_CZ_M3X_Display">
+            <English>CZ M3X Laser/Light (GT Edition)</English>
+        </Key>
+        <Key ID="STR_TACGT_Flashlight_MLPLS_Display">
+            <English>Pistol IR/Vis Module (GT Edition)</English>
+        </Key>
     </Package>
 </Project>

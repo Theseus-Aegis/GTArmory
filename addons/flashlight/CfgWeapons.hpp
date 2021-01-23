@@ -42,4 +42,7 @@ class CfgWeapons {
     #include "ANPEQ_Tan.hpp"
     #include "ANPEQ_OD.hpp"
     #include "LLM.hpp"
+
+    // Pistol based Laser/Lights
+    #include "Handgun.hpp"
 };
