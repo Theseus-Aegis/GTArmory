@@ -33,6 +33,7 @@ class CfgMagazines {
     class CUP_25Rnd_556x45_Famas;
     class CUP_20Rnd_762x51_B_SCAR;
     class CUP_20Rnd_762x51_B_SCAR_bkl;
+    class hlc_40Rnd_556x45_B_AUG;
 
 #include "9x19.hpp"
 #include "12g.hpp"
