@@ -111,7 +111,7 @@
             <English>5.56mm 30Rnd AK [RT] Yellow (M855A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_AK_Red_Name">
-            <English>5.56mm 30Rnd AK [T] Red (M855A1)</English>
+            <English>5.56mm 30Rnd AK [T] Red (M856A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M995_AK_Name">
             <English>5.56mm 30Rnd AK (M995)</English>
@@ -120,19 +120,34 @@
             <English>5.56mm 30Rnd AUG [RT] Yellow (M855A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_AUG_Red_Name">
-            <English>5.56mm 30Rnd AUG [T] Red (M855A1)</English>
+            <English>5.56mm 30Rnd AUG [T] Red (M856A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M995_AUG_Name">
             <English>5.56mm 30Rnd AUG (M995)</English>
         </Key>
+        <Key ID="STR_TACGT_Ammunition_42Rnd_556x45_M855A1_AUG_Name">
+            <English>5.56mm 42Rnd AUG [RT] Yellow (M855A1)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_42Rnd_556x45_M855A1_AUG_Red_Name">
+            <English>5.56mm 42Rnd AUG [T] Red (M856A1)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_42Rnd_556x45_M995_AUG_Name">
+            <English>5.56mm 42Rnd AUG (M995)</English>
+        </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_CZ805_Name">
             <English>5.56mm 30Rnd CZ 805 [RT] Yellow (M855A1)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_CZ805_Red_Name">
+            <English>5.56mm 30Rnd CZ 805 [T] Red (M856A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M995_CZ805_Name">
             <English>5.56mm 30Rnd CZ 805 (M995)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_25Rnd_556x45_M855A1_Famas_Name">
             <English>5.56mm 25Rnd Famas [RT] Yellow (M855A1)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_25Rnd_556x45_M855A1_Famas_Red_Name">
+            <English>5.56mm 25Rnd Famas [T] Red (M856A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_25Rnd_556x45_M995_Famas_Name">
             <English>5.56mm 25Rnd Famas (M995)</English>
@@ -141,7 +156,7 @@
             <English>5.56mm 30Rnd G36 [RT] Yellow (M855A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_G36_Red_Name">
-            <English>5.56mm 30Rnd G36 [T] Red (M855A1)</English>
+            <English>5.56mm 30Rnd G36 [T] Red (M856A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M995_G36_Name">
             <English>5.56mm 30Rnd G36 (M995)</English>
@@ -150,7 +165,7 @@
             <English>5.56mm 30Rnd SG550 [RT] Yellow (M855A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_SG550_Red_Name">
-            <English>5.56mm 30Rnd SG550 [T] Red (M855A1)</English>
+            <English>5.56mm 30Rnd SG550 [T] Red (M856A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M995_SG550_Name">
             <English>5.56mm 30Rnd SG550 (M995)</English>
@@ -164,8 +179,14 @@
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_PMAG_Name">
             <English>5.56mm 30Rnd PMAG [RT] Yellow (M855A1)</English>
         </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_PMAG_Red_Name">
+            <English>5.56mm 30Rnd PMAG [T] Red (M856A1)</English>
+        </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_PMAG_Tan_Name">
             <English>5.56mm 30Rnd PMAG Tan [RT] Yellow (M855A1)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_PMAG_Tan_Red_Name">
+            <English>5.56mm 30Rnd PMAG Tan [T] Red (M856A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M995_PMAG_Name">
             <English>5.56mm 30Rnd PMAG (M995)</English>
@@ -194,8 +215,14 @@
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_EMAG_Name">
             <English>5.56mm 30Rnd EMAG [RT] Yellow (M855A1)</English>
         </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_EMAG_Red_Name">
+            <English>5.56mm 30Rnd EMAG [T] Red (M856A1)</English>
+        </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_EMAG_Tan_Name">
             <English>5.56mm 30Rnd EMAG Tan [RT] Yellow (M855A1)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M855A1_EMAG_Tan_Red_Name">
+            <English>5.56mm 30Rnd EMAG Tan [T] Red (M856A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_556x45_M995_EMAG_Name">
             <English>5.56mm 30Rnd EMAG (M995)</English>
@@ -217,6 +244,9 @@
         </Key>
         <Key ID="STR_TACGT_Ammunition_60Rnd_556x45_M855A1_SureFire_Name">
             <English>5.56mm 60Rnd Surefire [TE4] Yellow (M855A1)</English>
+        </Key>
+        <Key ID="STR_TACGT_Ammunition_60Rnd_556x45_M855A1_SureFire_Red_Name">
+            <English>5.56mm 60Rnd Surefire [T] Red (M856A1)</English>
         </Key>
         <Key ID="STR_TACGT_Ammunition_200Rnd_556x45_M855A1_Box_Name">
             <English>5.56mm 200Rnd [TE4] Yellow Box Mag (M855A1)</English>

@@ -97,6 +97,7 @@ class CfgMagazineWells {
             QCLASS(30Rnd_556x45_M855A1_G36_Red),
             QCLASS(30Rnd_556x45_M995_G36),
             QCLASS(30Rnd_556x45_M855A1_CZ805),
+            QCLASS(30Rnd_556x45_M855A1_CZ805_Red),
             QCLASS(30Rnd_556x45_M995_CZ805)
         };
     };
@@ -104,6 +105,7 @@ class CfgMagazineWells {
     class CBA_556x45_FAMAS {
         ADDON[] = {
             QCLASS(25Rnd_556x45_M855A1_Famas),
+            QCLASS(25Rnd_556x45_M855A1_Famas_Red),
             QCLASS(25Rnd_556x45_M995_Famas)
         };
     };
@@ -121,9 +123,13 @@ class CfgMagazineWells {
             QCLASS(30Rnd_556x45_M855_PMAG),
             QCLASS(30Rnd_556x45_M855_PMAG_Tan),
             QCLASS(30Rnd_556x45_M855A1_PMAG),
+            QCLASS(30Rnd_556x45_M855A1_PMAG_Red),
             QCLASS(30Rnd_556x45_M855A1_EMAG),
+            QCLASS(30Rnd_556x45_M855A1_EMAG_Red),
             QCLASS(30Rnd_556x45_M855A1_PMAG_Tan),
+            QCLASS(30Rnd_556x45_M855A1_PMAG_Tan_Red),
             QCLASS(30Rnd_556x45_M855A1_EMAG_Tan),
+            QCLASS(30Rnd_556x45_M855A1_EMAG_Tan_Red),
             QCLASS(30Rnd_556x45_M855_EMAG),
             QCLASS(30Rnd_556x45_M855_EMAG_Tan),
             QCLASS(30Rnd_556x45_M995_PMAG),
@@ -134,11 +140,8 @@ class CfgMagazineWells {
             QCLASS(30Rnd_556x45_MK262_PMAG_Tan),
             QCLASS(30Rnd_556x45_MK262_EMAG),
             QCLASS(30Rnd_556x45_MK262_EMAG_Tan),
-            QCLASS(30Rnd_556x45_MK318_PMAG),
-            QCLASS(30Rnd_556x45_MK318_PMAG_Tan),
-            QCLASS(30Rnd_556x45_MK318_EMAG),
-            QCLASS(30Rnd_556x45_MK318_EMAG_Tan),
-            QCLASS(60Rnd_556x45_M855A1_SureFire)
+            QCLASS(60Rnd_556x45_M855A1_SureFire),
+            QCLASS(60Rnd_556x45_M855A1_Surefire_Red)
         };
     };
 
@@ -155,7 +158,10 @@ class CfgMagazineWells {
         ADDON[] = {
             QCLASS(30Rnd_556x45_M855A1_AUG),
             QCLASS(30Rnd_556x45_M855A1_AUG_Red),
-            QCLASS(30Rnd_556x45_M995_AUG)
+            QCLASS(30Rnd_556x45_M995_AUG),
+            QCLASS(42Rnd_556x45_M855A1_AUG),
+            QCLASS(42Rnd_556x45_M855A1_AUG_Red),
+            QCLASS(42Rnd_556x45_M995_AUG)
         };
     };
 
