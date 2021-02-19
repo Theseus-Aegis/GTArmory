@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [object] call tac_supplies_fnc_medicalArsenal
+ * [object] call tacgt_supplies_fnc_medicalArsenal
  *
  * Public: No
  */
@@ -61,11 +61,11 @@ private _action = [
         if ("NCO" in (typeOf _target)) then {
             _player getUnitTrait "Medic"
         } else {
-            if (GVAR(trainings) isEqualTo false) then {
-                GVAR(trainings) = ["getTrainingIdentifiers", _player] call EFUNC(apollo,getPlayerInfo);
+            if (!GVAR(trainings)) then {
+                GVAR(trainings) = ["getTrainingIdentifiers", _player] call tac_apollo_fnc_getPlayerInfo;
             };
 
-            if !(GVAR(trainings) isEqualTo false) then {
+            if (GVAR(trainings)) then {
                 "medic" in GVAR(trainings)
             };
         };
