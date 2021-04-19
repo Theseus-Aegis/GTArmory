@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="LAMG">
+        <Key ID="STR_TACGT_LAMG_LMG_LAMG_Display">
+            <English>LAMG (GT Edition)</English>
+        </Key>
+        <Key ID="STR_TACGT_LAMG_LMG_LAMG_Description">
+            <English>GT Edition Light Machine-Gun</English>
+        </Key>
+        <Key ID="STR_TACGT_LAMG_100Rnd_65x39_Cased_Box_Display">
+            <English>6.5mm 100Rnd [RT] Yellow Box Mag (Grendel)</English>
+        </Key>
+        <Key ID="STR_TACGT_LAMG_100Rnd_65x39_Yellow_Cased_Box_Display">
+            <English>6.5mm 100Rnd [T] Yellow Box Mag (Grendel)</English>
+        </Key>
+    </Package>
+</Project>
