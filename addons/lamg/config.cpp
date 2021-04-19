@@ -5,7 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {
-            QCLASS(LMG_LAMG_F)
+            QCLASS(LMG_LAMG)
         };
         magazines[] = {
             QCLASS(100Rnd_65x39_Cased_Box),
