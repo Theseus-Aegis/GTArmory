@@ -1,5 +1,5 @@
-#define COMPONENT misc
-#define COMPONENT_BEAUTIFIED Misc
+#define COMPONENT vehicles
+#define COMPONENT_BEAUTIFIED Vehicles
 #include "\x\tacgt\addons\main\script_mod.hpp"
 #include "\x\tacgt\addons\main\script_macros.hpp"
 
