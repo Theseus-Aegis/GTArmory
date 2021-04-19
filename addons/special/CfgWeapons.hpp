@@ -18,6 +18,16 @@ class CfgWeapons {
         };
     };
 
+    // Joram
+    class CLASS(Joram_HeliPilot_Black): H_PilotHelmetHeli_B {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = CSTRING(Joram_HeliPilot_Black_Display);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\joram_heliPilot_black_co.paa)
+        };
+    };
+
     // Rory
     class CLASS(RG_marciras_hh_belt_khk): milgp_v_marciras_medic_belt_khk {
         author = "GilleeDoo";
