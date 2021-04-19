@@ -7,7 +7,13 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "CUP_Weapons_RPG7", "CUP_Weapons_Ammunition"};
+        requiredAddons[] = {
+            "tacgt_main",
+            "CUP_Weapons_RPG7",
+            "CUP_Weapons_RPG18",
+            "CUP_Weapons_RPG26",
+            "CUP_Weapons_Ammunition"
+        };
         author = ECSTRING(main,Author);
         authors[] = {"TyroneMF"};
         url = ECSTRING(main,URL);
