@@ -8,6 +8,7 @@ class CfgPatches {
         };
         weapons[] = {
             QCLASS(JJ_HeliPilot_Black),
+            QCLASS(Joram_HeliPilot_Black),
             QCLASS(RG_marciras_hh_belt_rgr),
             QCLASS(RG_marciras_hh_belt_khk),
             QCLASS(MM_minotaur_uniform)
