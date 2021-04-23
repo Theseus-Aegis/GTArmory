@@ -1,4 +1,18 @@
 class CfgMagazineWells {
+    // 357 Magnum Chiappa
+    class CLASS(Cylinder_357) {
+        ADDON[] = {
+            QCLASS(6Rnd_357)
+        };
+    };
+
+    // 44 Magnum Chiappa
+    class CLASS(Cylinder_44) {
+        ADDON[] = {
+            QCLASS(6Rnd_44)
+        };
+    };
+
     class CLASS(9x19_MP5) { // Prevents regular BI Magazines fitting the CUP MP5s as no model shows.
         ADDON[] = {
             "CUP_30Rnd_9x19_MP5",
