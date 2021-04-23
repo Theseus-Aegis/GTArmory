@@ -1,6 +1,6 @@
 #define MAG458SOCOM(CLASSNAME,PARENT,NAME) \
     class CLASS(CLASSNAME): PARENT { \
-        author = "TyroneMF"; \
+        author = ECSTRING(main,Author); \
         scope = 2; \
         ammo = QCLASS(458_Socom); \
         lastRoundsTracer = 2; \

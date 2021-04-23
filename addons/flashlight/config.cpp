@@ -54,8 +54,8 @@ class CfgPatches {
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "CUP_Weapons_West_Attachments"};
-        author = ECSTRING(main,Author);
-        authors[] = {"TyroneMF"};
+        author = ECSTRING(main,Authors);
+        authors[] = {"Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

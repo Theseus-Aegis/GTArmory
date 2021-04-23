@@ -1,5 +1,5 @@
 class CLASS(2Rnd_P_000): 2Rnd_12Gauge_Pellets {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(2Rnd_P_000_Name);
     displayNameShort = CSTRING(8Rnd_P_000_Name_Short);
@@ -9,7 +9,7 @@ class CLASS(2Rnd_P_000): 2Rnd_12Gauge_Pellets {
 };
 
 class CLASS(8Rnd_P_000): CA_Magazine {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(8Rnd_P_000_Name);
     displayNameShort = CSTRING(8Rnd_P_000_Name_Short);
@@ -23,7 +23,7 @@ class CLASS(8Rnd_P_000): CA_Magazine {
 };
 
 class CLASS(8Rnd_S_AP20): CA_Magazine {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(8Rnd_S_AP20_Name);
     displayNameShort = CSTRING(8Rnd_S_AP20_Name_Short);

@@ -1,5 +1,5 @@
 class CLASS(30Rnd_545x39_Mag_Black): 30Rnd_545x39_Mag_F {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(30Rnd_545x39_Mag_Black_Name);
     hiddenSelections[] = {"Camo1"};
@@ -19,7 +19,7 @@ class CLASS(30Rnd_545x39_Mag_Plum): CLASS(30Rnd_545x39_Mag_Black) {
 
 // AP Rounds
 class CLASS(30Rnd_545x39_BP_Mag_Bakelite): 30Rnd_545x39_Mag_F {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     displayName = CSTRING(30Rnd_545x39_BP_Mag_Bakelite_Name);
     scope = 2;
     ammo = QCLASS(545x39_BP);
@@ -33,7 +33,7 @@ class CLASS(30Rnd_545x39_BT_Mag_Bakelite): CLASS(30Rnd_545x39_BP_Mag_Bakelite) {
 };
 
 class CLASS(30Rnd_545x39_BP_Mag_Black): CLASS(30Rnd_545x39_BP_Mag_Bakelite) {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(30Rnd_545x39_BP_Mag_Black_Name);
     ammo = QCLASS(545x39_BP);
@@ -52,7 +52,7 @@ class CLASS(30Rnd_545x39_BT_Mag_Black): CLASS(30Rnd_545x39_BP_Mag_Black) {
 };
 
 class CLASS(30Rnd_545x39_BP_Mag_Plum): CLASS(30Rnd_545x39_BP_Mag_Black) {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(30Rnd_545x39_BP_Mag_Plum_Name);
     model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30Rnd_AK74_plum.p3d";

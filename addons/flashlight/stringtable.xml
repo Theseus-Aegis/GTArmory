@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACGT">
     <Package name="Flashlight">
-        <Key ID="STR_TACGT_Flashlight_Author">
-            <English>Tyrone</English>
-        </Key>
         <Key ID="STR_TACGT_Flashlight_Laser_Pointer">
             <English>IR Laser</English>
         </Key>

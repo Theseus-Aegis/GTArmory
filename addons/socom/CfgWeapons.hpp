@@ -14,7 +14,7 @@ class CfgWeapons {
     class CUP_arifle_SBR_od;
 
     class CLASS(SBR_458_Socom_Tan): CUP_arifle_SBR_black {
-        author = "TyroneMF";
+        author = ECSTRING(main,Author);
         scope = 2;
         scopeArsenal = 2;
         recoil = "recoil_dmr_02";
@@ -31,7 +31,7 @@ class CfgWeapons {
     };
 
     class CLASS(SBR_458_Socom_OD): CUP_arifle_SBR_od {
-        author = "TyroneMF";
+        author = ECSTRING(main,Author);
         scope = 2;
         scopeArsenal = 2;
         recoil = "recoil_dmr_02";

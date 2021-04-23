@@ -14,8 +14,8 @@ class CfgPatches {
             "lbtt_Vest_config",
             "fatpack"
         };
-        author = ECSTRING(main,Author);
-        authors[] = {"TyroneMF"};
+        author = ECSTRING(main,Authors);
+        authors[] = {"Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

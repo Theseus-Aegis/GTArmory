@@ -92,8 +92,8 @@ class CfgPatches {
             QCLASS(30Rnd_9x19_MP5_7N21),
             QCLASS(30Rnd_9x19_MP5_7N21_Green)
         };
-        author = ECSTRING(main,Author);
-        authors[] = {"TyroneMF"};
+        author = ECSTRING(main,Authors);
+        authors[] = {"Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

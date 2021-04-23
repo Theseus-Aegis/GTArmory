@@ -15,8 +15,8 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "milgp_uniforms_cfg", "milgp_vests_cfg"};
-        author = ECSTRING(main,Author);
-        authors[] = {"GilleeDoo", "TyroneMF"};
+        author = ECSTRING(main,Authors);
+        authors[] = {"GilleeDoo", "Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

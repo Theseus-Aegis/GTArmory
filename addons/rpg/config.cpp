@@ -14,8 +14,8 @@ class CfgPatches {
             "CUP_Weapons_RPG26",
             "CUP_Weapons_Ammunition"
         };
-        author = ECSTRING(main,Author);
-        authors[] = {"TyroneMF"};
+        author = ECSTRING(main,Authors);
+        authors[] = {"Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

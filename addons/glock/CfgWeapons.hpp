@@ -11,7 +11,7 @@ class CfgWeapons {
     };
 
     class CLASS(hgun_Glock18_Tan): CUP_hgun_Glock17_tan {
-        author = "CUP, TyroneMF";
+        author = ECSTRING(main,Author);
         scope = 2;
         displayName = CSTRING(Glock18_Tan_Display);
 

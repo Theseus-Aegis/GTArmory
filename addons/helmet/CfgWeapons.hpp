@@ -3,7 +3,7 @@ class CfgWeapons {
 
     class CLASS(OpsCore_Medic): CUP_H_OpsCore_Green {
         scope = 2;
-        author = "GilleeDoo, TyroneMF";
+        author = ECSTRING(main,Authors);
         displayName = CSTRING(OpsCore_Medic_Display);
         hiddenSelections[] = {
             "camo1",

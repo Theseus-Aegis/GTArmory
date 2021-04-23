@@ -1,7 +1,7 @@
 class CfgWeapons {
     class LMG_Mk200_F;
     class CLASS(LMG_LAMG): LMG_Mk200_F {
-        author = "TyroneMF";
+        author = ECSTRING(main,Author);
         scope = 2;
         displayName = CSTRING(LMG_LAMG_Display);
         descriptionShort = CSTRING(LMG_LAMG_Description);
