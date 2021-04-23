@@ -1,6 +1,7 @@
 class CfgAmmo {
     class BulletBase;
     class B_9x21_Ball_Tracer_Green;
+    class B_45ACP_Ball;
     class B_545x39_Ball_F;
     class B_580x42_Ball_F;
     class B_556x45_Ball;
@@ -56,6 +57,16 @@ class CfgAmmo {
         triggerTime = 0.008;
         submunitionAmmo = QCLASS(12g_Pellets_Submunition_Deploy);
         submunitionConeAngle = 0.81;
+    };
+
+    // .357 Ammo
+    class CLASS(357_Magnum): B_45ACP_Ball {
+        hit = 8;
+    };
+
+    // .44 Magnum Ammo
+    class CLASS(44_Magnum): CLASS(357_Magnum) {
+        hit = 11;
     };
 
     // 5.45x39 Ammo
