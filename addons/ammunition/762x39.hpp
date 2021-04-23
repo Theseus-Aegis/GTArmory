@@ -30,7 +30,7 @@ class CLASS(30Rnd_762x39_CZ807_BP_Mag): CUP_30Rnd_762x39_CZ807 {
 
 // 75Rnd 762x39 Magazines
 class CLASS(75Rnd_762x39_RPK_BP_Mag): 75rnd_762x39_AK12_Mag_F {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(75Rnd_762x39_RPK_BP_Mag_Name);
     ammo = QCLASS(762x39_BP);

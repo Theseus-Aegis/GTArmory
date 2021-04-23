@@ -2,7 +2,7 @@ class CfgWeapons {
     class arifle_SDAR_F;
 
     class CLASS(RFB_762_F): arifle_SDAR_F {
-        author = "TyroneMF";
+        author = ECSTRING(main,Author);
         scope = 2;
         scopeArsenal = 2;
         baseWeapon = QCLASS(RFB_762_F);

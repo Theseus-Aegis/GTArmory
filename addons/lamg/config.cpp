@@ -13,8 +13,8 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main"};
-        author = ECSTRING(main,Author);
-        authors[] = {"GilleeDoo, TyroneMF"};
+        author = ECSTRING(main,Authors);
+        authors[] = {"GilleeDoo, Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

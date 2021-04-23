@@ -1,6 +1,6 @@
 // 5.8 30Rnd Magazines
 class CLASS(30Rnd_580x42_DBP88): 30Rnd_580x42_Mag_F {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(30Rnd_580x42_DBP88_Name);
@@ -15,7 +15,7 @@ class CLASS(30Rnd_580x42_DBP88_Green): CLASS(30Rnd_580x42_DBP88) {
 
 // 5.8 100Rnd Magazines
 class CLASS(100Rnd_580x42_DBP88): 100Rnd_580x42_Mag_F {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     tracersEvery = 4;
     lastRoundsTracer = 4;

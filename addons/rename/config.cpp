@@ -8,8 +8,8 @@ class CfgPatches {
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "ace_ballistics", "CUP_Weapons_Ammunition", "tacs_weapons"};
-        author = ECSTRING(main,Author);
-        authors[] = {"TyroneMF"};
+        author = ECSTRING(main,Authors);
+        authors[] = {"Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

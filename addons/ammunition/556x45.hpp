@@ -1,6 +1,6 @@
 // AK Mags
 class CLASS(30Rnd_556x45_M855A1_AK): CUP_30Rnd_556x45_AK {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(30Rnd_556x45_M855A1_AK_Name);
@@ -21,7 +21,7 @@ class CLASS(30Rnd_556x45_M995_AK): CLASS(30Rnd_556x45_M855A1_AK) {
 
 // AUG Mags
 class CLASS(30Rnd_556x45_M855A1_AUG): CUP_30Rnd_556x45_AUG {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(30Rnd_556x45_M855A1_AUG_Name);
@@ -42,7 +42,7 @@ class CLASS(30Rnd_556x45_M995_AUG): CLASS(30Rnd_556x45_M855A1_AUG) {
 
 // 42Rnd AUG Mags
 class CLASS(42Rnd_556x45_M855A1_AUG): hlc_40Rnd_556x45_B_AUG {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(42Rnd_556x45_M855A1_AUG_Name);
@@ -63,7 +63,7 @@ class CLASS(42Rnd_556x45_M995_AUG): CLASS(42Rnd_556x45_M855A1_AUG) {
 
 // CZ 805 Mags
 class CLASS(30Rnd_556x45_M855A1_CZ805): CUP_30Rnd_556x45_CZ805 {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(30Rnd_556x45_M855A1_CZ805_Name);
@@ -84,7 +84,7 @@ class CLASS(30Rnd_556x45_M995_CZ805): CLASS(30Rnd_556x45_M855A1_CZ805) {
 
 // Famas Mags
 class CLASS(25Rnd_556x45_M855A1_Famas): CUP_25Rnd_556x45_Famas {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(25Rnd_556x45_M855A1_Famas_Name);
@@ -105,7 +105,7 @@ class CLASS(25Rnd_556x45_M995_Famas): CLASS(25Rnd_556x45_M855A1_Famas) {
 
 // G36 Mags
 class CLASS(30Rnd_556x45_M855A1_G36): CUP_30Rnd_556x45_G36 {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(30Rnd_556x45_M855A1_G36_Name);
@@ -126,7 +126,7 @@ class CLASS(30Rnd_556x45_M995_G36): CLASS(30Rnd_556x45_M855A1_G36) {
 
 // SIG Magazines
 class CLASS(30Rnd_556x45_M855A1_SG550): hlc_30Rnd_556x45_EPR_sg550 {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(30Rnd_556x45_M855A1_SG550_Name);
@@ -147,7 +147,7 @@ class CLASS(30Rnd_556x45_M995_SG550): CLASS(30Rnd_556x45_M855A1_SG550) {
 
 // PMAG
 class CLASS(30Rnd_556x45_M855_PMAG): 30Rnd_556x45_Stanag_green {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_pmag_ca.paa";
@@ -168,7 +168,7 @@ class CLASS(30Rnd_556x45_M855_PMAG_Tan): CLASS(30Rnd_556x45_M855_PMAG) {
 };
 
 class CLASS(30Rnd_556x45_M855A1_PMAG): 30Rnd_556x45_Stanag_green {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_pmag_ca.paa";
@@ -202,7 +202,7 @@ class CLASS(30Rnd_556x45_M855A1_PMAG_Tan_Red): CLASS(30Rnd_556x45_M855A1_PMAG_Ta
 };
 
 class CLASS(30Rnd_556x45_M995_PMAG): ACE_30Rnd_556x45_Stanag_M995_AP_mag {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 2;
     picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_pmag_ca.paa";
@@ -223,7 +223,7 @@ class CLASS(30Rnd_556x45_M995_PMAG_Tan): CLASS(30Rnd_556x45_M995_PMAG) {
 };
 
 class CLASS(30Rnd_556x45_MK262_PMAG): ACE_30Rnd_556x45_Stanag_Mk262_mag {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 2;
     picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_pmag_ca.paa";
@@ -245,7 +245,7 @@ class CLASS(30Rnd_556x45_MK262_PMAG_Tan): CLASS(30Rnd_556x45_MK262_PMAG) {
 
 // EMAG
 class CLASS(30Rnd_556x45_M855_EMAG): 30Rnd_556x45_Stanag_green {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_emag_ca.paa";
@@ -267,7 +267,7 @@ class CLASS(30Rnd_556x45_M855_EMAG_Tan): CLASS(30Rnd_556x45_M855_EMAG) {
 };
 
 class CLASS(30Rnd_556x45_M855A1_EMAG): 30Rnd_556x45_Stanag_green {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_emag_ca.paa";
@@ -302,7 +302,7 @@ class CLASS(30Rnd_556x45_M855A1_EMAG_Tan_Red): CLASS(30Rnd_556x45_M855A1_EMAG_Ta
 };
 
 class CLASS(30Rnd_556x45_M995_EMAG): ACE_30Rnd_556x45_Stanag_M995_AP_mag {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 2;
     picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_emag_ca.paa";
@@ -324,7 +324,7 @@ class CLASS(30Rnd_556x45_M995_EMAG_Tan): CLASS(30Rnd_556x45_M995_EMAG) {
 };
 
 class CLASS(30Rnd_556x45_MK262_EMAG): ACE_30Rnd_556x45_Stanag_Mk262_mag {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 2;
     picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_emag_ca.paa";
@@ -347,7 +347,7 @@ class CLASS(30Rnd_556x45_MK262_EMAG_Tan): CLASS(30Rnd_556x45_MK262_EMAG) {
 
 // 60Rnd 556 Magazines
 class CLASS(60Rnd_556x45_M855A1_SureFire): CUP_60Rnd_556x45_SureFire {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(60Rnd_556x45_M855A1_SureFire_Name);
     ammo = QCLASS(556x45_EPR_M855A1);
@@ -362,7 +362,7 @@ class CLASS(60Rnd_556x45_M855A1_Surefire_Red): CLASS(60Rnd_556x45_M855A1_SureFir
 
 // 200Rnd 556 Box Magazines
 class CLASS(200Rnd_556x45_M855A1_Box): 200Rnd_556x45_Box_F {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(200Rnd_556x45_M855A1_Box_Name);
     ammo = QCLASS(556x45_EPR_M855A1);

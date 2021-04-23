@@ -2,7 +2,7 @@ class CfgAmmo {
     class B_65x39_Caseless;
 
     class CLASS(MSBS_Gimmick_A_Red): B_65x39_Caseless {
-        author = "Tyrone";
+        author = ECSTRING(main,Author);
         hit = 6;
         tracerScale = 12;
         tracerStartTime = 0.01;

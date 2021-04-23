@@ -14,8 +14,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "CUP_Weapons_Ammunition"};
-        author = ECSTRING(main,Author);
-        authors[] = {"TyroneMF"};
+        author = ECSTRING(main,Authors);
+        authors[] = {"Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

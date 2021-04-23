@@ -17,8 +17,8 @@ class CfgPatches {
             "hlcweapons_AUG",
             "hlcweapons_acr"
         };
-        author = ECSTRING(main,Author);
-        authors[] = {"TyroneMF"};
+        author = ECSTRING(main,Authors);
+        authors[] = {"Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

@@ -23,8 +23,8 @@ class CfgPatches {
             "CUP_Weapons_East_Attachments",
             "CUP_Weapons_M136"
         };
-        author = ECSTRING(main,Author);
-        authors[] = {"GilleeDoo", "JoramD", "TyroneMF"};
+        author = ECSTRING(main,Authors);
+        authors[] = {"GilleeDoo", "JoramD", "Tyrone"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

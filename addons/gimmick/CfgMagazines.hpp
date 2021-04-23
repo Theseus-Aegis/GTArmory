@@ -2,7 +2,7 @@ class CfgMagazines {
     class 30Rnd_65x39_caseless_msbs_mag;
 
     class CLASS(MSBS65_Gimmick_M_Red): 30Rnd_65x39_caseless_msbs_mag {
-        author = "Tyrone";
+        author = ECSTRING(main,Author);
         scope = 1;
         scopeArsenal = 1;
         displayName = CSTRING(MSBS65_Gimmick_M_Red_Name);

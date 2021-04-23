@@ -1,6 +1,6 @@
 // 20Rnd 762x51 FAL Magazines
 class CLASS(20Rnd_762x51_FAL_AP_Mag): CUP_20Rnd_762x51_FNFAL_M {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(20Rnd_762x51_FAL_AP_Mag_Name);
     ammo = "ACE_762x51_Ball_M993_AP";
@@ -9,7 +9,7 @@ class CLASS(20Rnd_762x51_FAL_AP_Mag): CUP_20Rnd_762x51_FNFAL_M {
 
 // 30Rnd 762x51 FAL Magazines
 class CLASS(30Rnd_762x51_FAL_AP_Mag): CUP_30Rnd_762x51_FNFAL_M {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(30Rnd_762x51_FAL_AP_Mag_Name);
     ammo = "ACE_762x51_Ball_M993_AP";
@@ -22,7 +22,7 @@ class CUP_20Rnd_762x51_G3: CA_Magazine {
 };
 
 class CLASS(20Rnd_762x51_G3_AP_Mag): CUP_20Rnd_762x51_G3 {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(20Rnd_762x51_G3_AP_Mag_Name);
     ammo = "ACE_762x51_Ball_M993_AP";
@@ -31,7 +31,7 @@ class CLASS(20Rnd_762x51_G3_AP_Mag): CUP_20Rnd_762x51_G3 {
 
 // 20Rnd 762x51 SCAR-H Magazines
 class CLASS(20Rnd_762x51_SCARH_AP_Mag): CUP_20Rnd_762x51_B_SCAR {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(20Rnd_762x51_SCARH_AP_Mag_Name);
     ammo = "ACE_762x51_Ball_M993_AP";
@@ -39,7 +39,7 @@ class CLASS(20Rnd_762x51_SCARH_AP_Mag): CUP_20Rnd_762x51_B_SCAR {
 };
 
 class CLASS(20Rnd_762x51_SCARH_Black_AP_Mag): CUP_20Rnd_762x51_B_SCAR_bkl {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     displayName = CSTRING(20Rnd_762x51_SCARH_Black_AP_Mag_Name);
     ammo = "ACE_762x51_Ball_M993_AP";

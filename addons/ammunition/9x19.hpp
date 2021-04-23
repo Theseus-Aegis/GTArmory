@@ -1,6 +1,6 @@
 // Vanilla 9x19 - "Clear" Magazine
 class CLASS(30Rnd_9x19_Clear_7N21): 30Rnd_9x21_Mag_SMG_02 {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(30Rnd_9x19_Clear_7N21_Name);
@@ -17,7 +17,7 @@ class CLASS(30Rnd_9x19_Clear_7N21_Green): CLASS(30Rnd_9x19_Clear_7N21) {
 
 // Regular Magazine
 class CLASS(30Rnd_9x19_7N21): 30Rnd_9x21_Mag {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(30Rnd_9x19_7N21);
@@ -34,7 +34,7 @@ class CLASS(30Rnd_9x19_7N21_Green): CLASS(30Rnd_9x19_7N21) {
 
 // CUP MP5 Magazine
 class CLASS(30Rnd_9x19_MP5_7N21): CUP_30Rnd_9x19_MP5 {
-    author = "TyroneMF";
+    author = ECSTRING(main,Author);
     scope = 2;
     lastRoundsTracer = 4;
     displayName = CSTRING(30Rnd_9x19_MP5_7N21_Name);
