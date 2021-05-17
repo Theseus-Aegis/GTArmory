@@ -23,6 +23,7 @@ class CfgPatches {
             QCLASS(30Rnd_545x39_BT_Mag_Black),
             QCLASS(30Rnd_545x39_BP_Mag_Plum),
             QCLASS(30Rnd_545x39_BT_Mag_Plum),
+            QCLASS(50Rnd_57x28_SS190),
             QCLASS(30Rnd_580x42_DBP88),
             QCLASS(30Rnd_580x42_DBP88_Green),
             QCLASS(100Rnd_580x42_DBP88),

@@ -95,6 +95,9 @@
         <Key ID="STR_TACGT_Ammunition_30Rnd_545x39_BT_Mag_Plum_Name">
             <English>5.45mm 30Rnd Plum [T] Red (BT)</English>
         </Key>
+        <Key ID="STR_TACGT_Ammunition_50Rnd_57x28_SS190_Name">
+            <English>5.7mm 50Rnd (SS190)</English>
+        </Key>
         <Key ID="STR_TACGT_Ammunition_30Rnd_580x42_DBP88_Name">
             <English>5.8mm 30Rnd [RT] Green (DBP88)</English>
         </Key>
