@@ -33,7 +33,7 @@
 - MK262: Match-quality round that is more effective at longer ranges than standard M855.
 
 ##### 5.7x28
-- SS190: Standard Ball round.
+- SS190: Armour piercing round.
 
 ##### 6.5x39
 - Grendel: Standard caseless ball round.

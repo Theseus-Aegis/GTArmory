@@ -3,6 +3,7 @@ class CfgAmmo {
     class B_9x21_Ball_Tracer_Green;
     class B_45ACP_Ball;
     class B_545x39_Ball_F;
+    class B_570x28_Ball;
     class B_580x42_Ball_F;
     class B_556x45_Ball;
     class B_762x39_Ball_F;
@@ -81,6 +82,12 @@ class CfgAmmo {
         hit = 9.4;
         caliber = 1.22;
         typicalSpeed = 846;
+    };
+
+    // 5.7x28 Ammo
+    class CLASS(57x28_SS190): B_570x28_Ball {
+        hit = 9.4;
+        caliber = 0.89;
     };
 
     // 5.8x42 Ammo

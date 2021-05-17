@@ -13,6 +13,7 @@ class CfgMagazines {
     class 30Rnd_762x39_AK12_Mag_F;
     class 30rnd_762x39_AK12_Arid_Mag_F;
     class 30rnd_762x39_AK12_Lush_Mag_F;
+    class 50Rnd_570x28_SMG_03;
     class 75rnd_762x39_AK12_Mag_F;
     class ACE_30Rnd_556x45_Stanag_M995_AP_mag;
     class ACE_30Rnd_556x45_Stanag_Mk262_mag;
@@ -39,6 +40,7 @@ class CfgMagazines {
 #include "12g.hpp"
 #include "545x39.hpp"
 #include "556x45.hpp"
+#include "57x28.hpp"
 #include "580x42.hpp"
 #include "762x39.hpp"
 #include "762x51.hpp"
