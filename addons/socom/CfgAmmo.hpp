@@ -5,6 +5,5 @@ class CfgAmmo {
         hit = 19;
         caliber = 2;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_green";
-        typicalSpeed = 510;
     };
 };
