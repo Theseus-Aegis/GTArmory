@@ -15,7 +15,6 @@ class CfgAmmo {
     class CLASS(9x19_7N21): B_9x21_Ball_Tracer_Green {
         caliber = 1.4;
         hit = 6.5;
-        typicalSpeed = 365;
     };
 
     // 12G ammo
@@ -38,7 +37,6 @@ class CfgAmmo {
         hit = 8;
         indirectHit = 0;
         indirectHitRange = 0;
-        typicalSpeed = 360;
         deflecting = 35;
     };
 
@@ -74,14 +72,12 @@ class CfgAmmo {
     class CLASS(545x39_BP): B_545x39_Ball_F {
         hit = 9;
         caliber = 1.19;
-        typicalSpeed = 840;
     };
 
     class CLASS(545x39_BT): B_545x39_Ball_F {
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
         hit = 9.4;
         caliber = 1.22;
-        typicalSpeed = 846;
     };
 
     // 5.7x28 Ammo
@@ -93,14 +89,12 @@ class CfgAmmo {
     // 5.8x42 Ammo
     class CLASS(580x42_DBP88): B_580x42_Ball_F {
         hit = 9.6;
-        typicalSpeed = 870;
         caliber = 1.1;
     };
 
     // 5.56x45 Ammo
     class CLASS(556x45_EPR_M855A1): B_556x45_Ball {
         hit = 10.28;
-        typicalSpeed = 974.8;
         airFriction = -0.0012744;
         caliber = 1.37;
         deflecting = 17;
@@ -124,7 +118,6 @@ class CfgAmmo {
     // 7.62x39 Ammo
     class CLASS(762x39_BP): B_762x39_Ball_F {
         hit = 14;
-        typicalSpeed = 705;
         caliber = 2.1;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
     };
@@ -132,7 +125,6 @@ class CfgAmmo {
     // 7.62x54r Ammo
     class CLASS(762x54_AP): CUP_B_762x54_Ball_White_Tracer {
         hit = 14.6;
-        typicalSpeed = 782;
         caliber = 2.4;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
     };

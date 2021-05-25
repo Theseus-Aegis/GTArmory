@@ -6,6 +6,5 @@ class CfgAmmo {
         hit = 11;
         caliber = 1.1;
         thrust = 225;
-        typicalSpeed = 332;
     };
 };
