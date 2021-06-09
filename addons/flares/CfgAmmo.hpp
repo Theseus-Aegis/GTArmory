@@ -6,6 +6,13 @@ class CfgAmmo {
         coefGravity = 0.6;
     };
 
+    // Mortar Flare
+    class FlareCore;
+    class Flare_82mm_AMOS_White: FlareCore {
+        timeToLive = 180;
+        coefGravity = 0.8;
+    };
+
     // ACE
     class ACE_40mm_Flare_white: F_40mm_White {
         timeToLive = 180;
