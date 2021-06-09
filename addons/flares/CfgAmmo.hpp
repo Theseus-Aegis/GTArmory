@@ -9,6 +9,7 @@ class CfgAmmo {
     // Mortar Flare
     class FlareCore;
     class Flare_82mm_AMOS_White: FlareCore {
+        intensity = 125000;
         timeToLive = 180;
         coefGravity = 0.8;
     };
