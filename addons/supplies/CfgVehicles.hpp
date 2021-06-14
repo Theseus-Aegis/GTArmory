@@ -141,4 +141,82 @@ class CfgVehicles {
         };
         class TransportBackpacks {};
     };
+
+    class CLASS(Supply_Empty_1_1): tac_supplies_Engineer {
+        author = "Tyrone";
+        displayName = CSTRING(Supply_Empty_1_1);
+        EDITOR_CATEGORY
+        scope = 2;
+        scopeCurator = 2;
+        maximumLoad = 12000;
+        transportMaxWeapons = 100;
+        editorPreview = QPATHTOF(ui\supplies_Empty.jpg);
+        ace_dragging_canDrag = 1;
+        ace_dragging_dragPosition[] = {0, 1.2, 0};
+        ace_dragging_dragDirection = 0;
+        ace_dragging_canCarry = 1;
+        ace_dragging_carryPosition[] = {0, 1, 0.75};
+        ace_dragging_carryDirection = 90;
+        hiddenSelections[] = {
+            "camo",
+            "camo_signs"
+        };
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\supply_base_texture_co.paa),
+            QPATHTOF(data\supply_empty_1_1_ca.paa)
+        };
+
+        class TransportMagazines {};
+        class TransportItems {};
+        class TransportBackpacks {};
+    };
+    class CLASS(Supply_Empty_1_2): CLASS(Supply_Empty_1_1) {
+        displayName = CSTRING(Supply_Empty_1_2);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\supply_base_texture_co.paa),
+            QPATHTOF(data\supply_empty_1_2_ca.paa)
+        };
+    };
+    class CLASS(Supply_Empty_2_1): CLASS(Supply_Empty_1_1) {
+        displayName = CSTRING(Supply_Empty_2_1);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\supply_base_texture_co.paa),
+            QPATHTOF(data\supply_empty_2_1_ca.paa)
+        };
+    };
+    class CLASS(Supply_Empty_2_2): CLASS(Supply_Empty_1_1) {
+        displayName = CSTRING(Supply_Empty_2_2);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\supply_base_texture_co.paa),
+            QPATHTOF(data\supply_empty_2_2_ca.paa)
+        };
+    };
+    class CLASS(Supply_Empty_3_1): CLASS(Supply_Empty_1_1) {
+        displayName = CSTRING(Supply_Empty_3_1);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\supply_base_texture_co.paa),
+            QPATHTOF(data\supply_empty_3_1_ca.paa)
+        };
+    };
+    class CLASS(Supply_Empty_3_2): CLASS(Supply_Empty_1_1) {
+        displayName = CSTRING(Supply_Empty_3_2);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\supply_base_texture_co.paa),
+            QPATHTOF(data\supply_empty_3_2_ca.paa)
+        };
+    };
+    class CLASS(Supply_Empty_4_1): CLASS(Supply_Empty_1_1) {
+        displayName = CSTRING(Supply_Empty_4_1);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\supply_base_texture_co.paa),
+            QPATHTOF(data\supply_empty_4_1_ca.paa)
+        };
+    };
+    class CLASS(Supply_Empty_4_2): CLASS(Supply_Empty_1_1) {
+        displayName = CSTRING(Supply_Empty_4_2);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\supply_base_texture_co.paa),
+            QPATHTOF(data\supply_empty_4_2_ca.paa)
+        };
+    };
 };

@@ -9,7 +9,15 @@ class CfgPatches {
             "tac_supplies_Medic",
             "tac_supplies_Medic_NCO",
             "tac_supplies_Recruit",
-            "tac_supplies_VIP"
+            "tac_supplies_VIP",
+            QCLASS(Supply_Empty_1_1),
+            QCLASS(Supply_Empty_1_2),
+            QCLASS(Supply_Empty_2_1),
+            QCLASS(Supply_Empty_2_2),
+            QCLASS(Supply_Empty_3_1),
+            QCLASS(Supply_Empty_3_2),
+            QCLASS(Supply_Empty_4_1),
+            QCLASS(Supply_Empty_4_2)
         };
         weapons[] = {};
         magazines[] = {};
