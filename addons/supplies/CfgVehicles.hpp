@@ -3,7 +3,7 @@ class CfgVehicles {
     class Box_AAF_Uniforms_F;
 
     class tac_supplies_Launchers: Box_NATO_WpsLaunch_F {
-        author = "TyroneMF";
+        author = ECSTRING(main,Author);
         displayName = CSTRING(Supply_Launchers_Name);
         EDITOR_CATEGORY
         scope = 2;
@@ -42,7 +42,7 @@ class CfgVehicles {
     };
 
     class tac_supplies_Engineer: Box_AAF_Uniforms_F {
-        author = "TyroneMF";
+        author = ECSTRING(main,Author);
         displayName = CSTRING(Supply_Engineer_Name);
         EDITOR_CATEGORY
         scope = 2;
