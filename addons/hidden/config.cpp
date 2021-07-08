@@ -9,8 +9,10 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
+            "CUP_Weapons_AmmoBoxes",
             "CUP_Weapons_Grenades",
-            "CUP_Weapons_Put"
+            "CUP_Weapons_Put",
+            "CUP_Weapons_ACE_compat"
         };
         author = ECSTRING(main,Authors);
         authors[] = {"Tyrone"};
@@ -19,5 +21,5 @@ class CfgPatches {
     };
 };
 
-#include "CfgAmmo.hpp"
-#include "CfgWeapons.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgVehicles.hpp"
