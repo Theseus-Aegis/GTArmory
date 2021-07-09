@@ -7,7 +7,6 @@ class CfgPatches {
             "tac_supplies_Launchers",
             "tac_supplies_Engineer",
             "tac_supplies_Medic",
-            "tac_supplies_Medic_NCO",
             "tac_supplies_Recruit",
             "tac_supplies_VIP",
             QCLASS(Supply_Empty_1_1),
