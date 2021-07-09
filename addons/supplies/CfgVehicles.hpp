@@ -95,10 +95,6 @@ class CfgVehicles {
         class TransportWeapons {};
     };
 
-    class tac_supplies_Medic_NCO: tac_supplies_Medic {
-        displayName = CSTRING(Supply_Medic_NCO_Name);
-    };
-
     class tac_supplies_Recruit: tac_supplies_Engineer {
         displayName = CSTRING(Supply_Recruit_Name);
         EDITOR_CATEGORY
