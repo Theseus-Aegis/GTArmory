@@ -1,6 +1,5 @@
 class CfgWeapons {
     class CBA_MiscItem;
-    class CBA_MiscItem_ItemInfo;
     class CLASS(IFAK): CBA_MiscItem {
         scope = 2;
         author = ECSTRING(main,Author);
