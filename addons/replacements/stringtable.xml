@@ -4,5 +4,8 @@
         <Key ID="STR_TACGT_Replacements_IFAK_Name">
             <English>IFAK</English>
         </Key>
+        <Key ID="STR_TACGT_Replacements_Grenade_Case_Name">
+            <English>Grenade Case</English>
+        </Key>
     </Package>
 </Project>

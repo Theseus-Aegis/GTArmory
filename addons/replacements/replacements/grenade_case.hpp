@@ -1,0 +1,25 @@
+[
+    QCLASS(Grenade_Case),
+    [
+        "HandGrenade",
+        "HandGrenade",
+        "HandGrenade",
+        "HandGrenade",
+        "HandGrenade",
+        "HandGrenade",
+        "HandGrenade",
+        "HandGrenade",
+        "HandGrenade",
+        "HandGrenade",
+        "SmokeShell",
+        "SmokeShell",
+        "SmokeShell",
+        "SmokeShell",
+        "SmokeShell",
+        "SmokeShell",
+        "SmokeShell",
+        "SmokeShell",
+        "SmokeShell",
+        "SmokeShell"
+    ]
+] call ace_common_fnc_registerItemReplacement;
