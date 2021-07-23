@@ -1,7 +1,7 @@
-    class CLASS(Lootbox_Handgun): CLASS(Replacement_Base) {
+    class CLASS(Lootbox_Handgun): tac_supplies_replacementBox {
         picture = QPATHTOF(ui\lootbox_handgun_ca.paa);
         displayName = CSTRING(Lootbox_Handgun_Name);
-        tacgt_lootbox_list[] = {
+        tac_supplies_possibleItems[] = {
             "hgun_Pistol_heavy_02_F",
             "tacgt_Rhino_357",
             "tacgt_Rhino_44",

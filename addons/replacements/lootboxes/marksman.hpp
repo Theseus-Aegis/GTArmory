@@ -1,7 +1,7 @@
-    class CLASS(Lootbox_Marksman): CLASS(Replacement_Base) {
+    class CLASS(Lootbox_Marksman): tac_supplies_replacementBox {
         picture = QPATHTOF(ui\lootbox_marksman_ca.paa);
         displayName = CSTRING(Lootbox_Marksman_Name);
-        tacgt_lootbox_list[] = {
+        tac_supplies_possibleItems[] = {
             "arifle_SPAR_03_blk_F",
             "arifle_SPAR_03_khk_F",
             "arifle_SPAR_03_snd_F",

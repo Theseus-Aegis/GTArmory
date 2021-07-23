@@ -1,7 +1,7 @@
-    class CLASS(Lootbox_SMG): CLASS(Replacement_Base) {
+    class CLASS(Lootbox_SMG): tac_supplies_replacementBox {
         picture = QPATHTOF(ui\lootbox_smg_ca.paa);
         displayName = CSTRING(Lootbox_SMG_Name);
-        tacgt_lootbox_list[] = {
+        tac_supplies_possibleItems[] = {
             "hgun_PDW2000_F",
             "SMG_05_F",
             "SMG_03C_TR_black",

@@ -1,7 +1,7 @@
-    class CLASS(Lootbox_GL): CLASS(Replacement_Base) {
+    class CLASS(Lootbox_GL): tac_supplies_replacementBox {
         picture = QPATHTOF(ui\lootbox_gl_ca.paa);
         displayName = CSTRING(Lootbox_GL_Name);
-        tacgt_lootbox_list[] = {
+        tac_supplies_possibleItems[] = {
             "arifle_AK12_GL_F",
             "arifle_AK12_GL_arid_F",
             "arifle_AK12_GL_lush_F",

@@ -1,7 +1,7 @@
-    class CLASS(Lootbox_Rifle): CLASS(Replacement_Base) {
+    class CLASS(Lootbox_Rifle): tac_supplies_replacementBox {
         picture = QPATHTOF(ui\lootbox_rifle_ca.paa);
         displayName = CSTRING(Lootbox_rifle_Name);
-        tacgt_lootbox_list[] = {
+        tac_supplies_possibleItems[] = {
             "arifle_AK12_F",
             "arifle_AK12_arid_F",
             "arifle_AK12_lush_F",
