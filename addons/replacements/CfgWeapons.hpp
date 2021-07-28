@@ -1,6 +1,7 @@
 class CfgWeapons {
     class CBA_MiscItem;
     class CBA_MiscItem_ItemInfo;
+    class tac_supplies_randomizedBox;
     class CLASS(Replacement_Base): CBA_MiscItem {
         author = ECSTRING(main,Author);
         scope = 2;

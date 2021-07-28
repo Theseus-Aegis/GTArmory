@@ -1,4 +1,5 @@
-    class CLASS(Lootbox_SMG): tac_supplies_replacementBox {
+    class CLASS(Lootbox_SMG): tac_supplies_randomizedBox {
+        scope = 2;
         picture = QPATHTOF(ui\lootbox_smg_ca.paa);
         displayName = CSTRING(Lootbox_SMG_Name);
         tac_supplies_possibleItems[] = {

@@ -1,4 +1,5 @@
-    class CLASS(Lootbox_Handgun): tac_supplies_replacementBox {
+    class CLASS(Lootbox_Handgun): tac_supplies_randomizedBox {
+        scope = 2;
         picture = QPATHTOF(ui\lootbox_handgun_ca.paa);
         displayName = CSTRING(Lootbox_Handgun_Name);
         tac_supplies_possibleItems[] = {
