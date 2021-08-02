@@ -5,4 +5,9 @@ class CfgWeapons {
     class CUP_arifle_HK416_145_Base: Rifle_Base_F {
         recoil = "recoil_spar";
     };
+
+    // NiArms Sig SG-x series. (Jumps way too much compared to other weapons)
+    class hlc_sg550_base: Rifle_Base_F {
+        recoil = "recoil_spar";
+    };
 };
