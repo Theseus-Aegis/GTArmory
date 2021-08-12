@@ -2,36 +2,107 @@ class CfgWeapons {
     class CBA_MiscItem;
     class CBA_MiscItem_ItemInfo;
     class tac_supplies_randomizedBox;
-    class CLASS(Replacement_Base): CBA_MiscItem {
-        author = ECSTRING(main,Author);
+    class tac_supplies_replacementBase;
+
+    // IFAK
+    class CLASS(IFAK): tac_supplies_replacementBase {
         scope = 2;
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 1;
+        picture = QPATHTOF(ui\ifak_ca.paa);
+        displayName = CSTRING(IFAK_Name);
+        tac_supplies_replacementList[] = {
+            "ACE_bodyBag",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_fieldDressing",
+            "ACE_splint",
+            "ACE_splint",
+            "ACE_tourniquet",
+            "ACE_tourniquet",
+            "ACE_tourniquet",
+            "ACE_tourniquet",
+            "tac_medical_painkillers",
+            "tac_medical_painkillers"
         };
     };
 
-    // IFAK
-    class CLASS(IFAK): CLASS(Replacement_Base) {
-        picture = QPATHTOF(ui\ifak_ca.paa);
-        displayName = CSTRING(IFAK_Name);
-    };
-
     // Grenade Case
-    class CLASS(Grenade_Case): CLASS(Replacement_Base) {
+    class CLASS(Grenade_Case): tac_supplies_replacementBase {
+        scope = 2;
         picture = QPATHTOF(ui\grenade_case_ca.paa);
         displayName = CSTRING(Grenade_Case_Name);
+        tac_supplies_replacementList[] = {
+            "HandGrenade",
+            "HandGrenade",
+            "HandGrenade",
+            "HandGrenade",
+            "HandGrenade",
+            "HandGrenade",
+            "HandGrenade",
+            "HandGrenade",
+            "HandGrenade",
+            "HandGrenade",
+            "SmokeShell",
+            "SmokeShell",
+            "SmokeShell",
+            "SmokeShell",
+            "SmokeShell",
+            "SmokeShell",
+            "SmokeShell",
+            "SmokeShell",
+            "SmokeShell",
+            "SmokeShell"
+        };
     };
 
     // Smoke Grenade Case
-    class CLASS(Smoke_Grenade_Case): CLASS(Replacement_Base) {
+    class CLASS(Smoke_Grenade_Case): tac_supplies_replacementBase {
+        scope = 2;
         picture = QPATHTOF(ui\smoke_case_ca.paa);
         displayName = CSTRING(Smoke_Grenade_Case_Name);
+        tac_supplies_replacementList[] = {
+            "SmokeShellBlue",
+            "SmokeShellBlue",
+            "SmokeShellGreen",
+            "SmokeShellGreen",
+            "SmokeShellOrange",
+            "SmokeShellOrange",
+            "SmokeShellPurple",
+            "SmokeShellPurple",
+            "SmokeShellRed",
+            "SmokeShellRed"
+        };
     };
 
     // M4 Weapon Case
-    class CLASS(M4_Weapon_Case): CLASS(Replacement_Base) {
+    class CLASS(M4_Weapon_Case): tac_supplies_replacementBase {
+        scope = 2;
         picture = QPATHTOF(ui\m4_weapon_case_ca.paa);
         displayName = CSTRING(M4_Weapon_Case_Name);
+        tac_supplies_replacementList[] = {
+            "tacgt_30Rnd_556x45_M855_EMAG",
+            "tacgt_30Rnd_556x45_M855_EMAG",
+            "tacgt_30Rnd_556x45_M855_EMAG",
+            "tacgt_30Rnd_556x45_M855_EMAG",
+            "tacgt_30Rnd_556x45_M855_EMAG",
+            "tacgt_30Rnd_556x45_M855_EMAG",
+            "tacgt_30Rnd_556x45_M855_EMAG",
+            "tacgt_30Rnd_556x45_M855_EMAG",
+            "tacgt_30Rnd_556x45_M855_EMAG",
+            "tacgt_30Rnd_556x45_M855_EMAG",
+            "CUP_arifle_M4A1_black"
+        };
     };
 
     // Lootboxes - Linked to TAC Mods

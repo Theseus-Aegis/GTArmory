@@ -1,5 +1,0 @@
-#include "script_component.hpp"
-#include "replacements\ifak.hpp"
-#include "replacements\grenade_case.hpp"
-#include "replacements\smoke_grenade_case.hpp"
-#include "replacements\m4_weapon_case.hpp"
