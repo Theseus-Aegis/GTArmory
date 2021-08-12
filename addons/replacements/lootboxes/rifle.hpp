@@ -173,6 +173,28 @@
             "hlc_rifle_sg553RSB_TAC",
             "hlc_rifle_SG553LB_TAC",
             "hlc_rifle_SG553SB_TAC",
-            "bnae_rk95r_virtual"
+            "bnae_rk95r_virtual",
+            // Battle Rifles
+            "srifle_DMR_06_camo_F",
+            "srifle_DMR_06_olive_F",
+            "CUP_arifle_FNFAL5060_railed",
+            "CUP_arifle_FNFAL5060_railed_sand",
+            "CUP_arifle_FNFAL5062_railed",
+            "CUP_arifle_FNFAL_railed",
+            "CUP_arifle_FNFAL_railed_sand",
+            "CUP_arifle_FNFAL5061_wooden_railed",
+            "CUP_arifle_FNFAL_OSW_railed",
+            "CUP_arifle_G3A3_ris_vfg",
+            "CUP_arifle_G3A3_ris_vfg_black",
+            "CUP_arifle_G3A3_modern_ris",
+            "CUP_arifle_G3A3_modern_ris_black",
+            "CUP_srifle_M14",
+            // Shotguns
+            "CUP_sgun_M1014",
+            "CUP_sgun_M1014_vfg",
+            "CUP_sgun_M1014_solidstock",
+            "CUP_sgun_M1014_Entry",
+            "CUP_sgun_M1014_Entry_vfg",
+            "CUP_sgun_Saiga12K_top_rail",
         };
     };
