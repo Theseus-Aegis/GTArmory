@@ -30,7 +30,7 @@ class CfgWeapons {
 
     // M4 Weapon Case
     class CLASS(M4_Weapon_Case): CLASS(Replacement_Base) {
-        picture = QPATHTOF(ui\m4_weapon_case_ca.paa);
+        picture = QPATHTOF(ui\lootbox_rifle_ca.paa);
         displayName = CSTRING(M4_Weapon_Case_Name);
     };
 
