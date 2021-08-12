@@ -36,14 +36,14 @@ class CfgMagazines {
     class CUP_20Rnd_762x51_B_SCAR_bkl;
     class hlc_40Rnd_556x45_B_AUG;
 
-#include "9x19.hpp"
-#include "12g.hpp"
-#include "545x39.hpp"
-#include "556x45.hpp"
-#include "57x28.hpp"
-#include "580x42.hpp"
-#include "762x39.hpp"
-#include "762x51.hpp"
-#include "762x54r.hpp"
+#include "magazines\9x19.hpp"
+#include "magazines\12g.hpp"
+#include "magazines\545x39.hpp"
+#include "magazines\556x45.hpp"
+#include "magazines\57x28.hpp"
+#include "magazines\580x42.hpp"
+#include "magazines\762x39.hpp"
+#include "magazines\762x51.hpp"
+#include "magazines\762x54r.hpp"
 
 };
