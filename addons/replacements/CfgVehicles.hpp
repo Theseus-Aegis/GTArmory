@@ -1,24 +1,9 @@
-class CfgEditorCategories {
-    class CLASS(Replacement_Stuff) {
-        displayName = "GT Armory Replacements";
-    };
-};
-
-class CfgEditorSubcategories {
-    class CLASS(Replacement_Items) {
-        displayName = "Replacement Items";
-    };
-};
-
 class CfgVehicles {
     class Box_AAF_Uniforms_F;
     class CLASS(Replacement_Box): Box_AAF_Uniforms_F {
         displayName = "Replacement Testing Box";
-        scope = 2;
-        scopeCurator = 2;
+        scope = 1;
         maximumLoad = 3000;
-        editorCategory = QCLASS(Replacement_Stuff);
-        editorSubCategory = QCLASS(Replacement_Items);
 
         class TransportBackpacks {};
         class TransportMagazines {};
