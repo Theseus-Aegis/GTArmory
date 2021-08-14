@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACGT">
+    <Package name="Replacements">
+        <Key ID="STR_TACGT_Replacements_IFAK_Name">
+            <English>IFAK</English>
+        </Key>
+        <Key ID="STR_TACGT_Replacements_Grenade_Case_Name">
+            <English>Grenade Case</English>
+        </Key>
+        <Key ID="STR_TACGT_Replacements_Smoke_Grenade_Case_Name">
+            <English>Smoke Grenade Case</English>
+        </Key>
+        <Key ID="STR_TACGT_Replacements_M4_Weapon_Case_Name">
+            <English>Weapons Case (M4A1)</English>
+        </Key>
+        <Key ID="STR_TACGT_Replacements_Lootbox_Handgun_Name">
+            <English>Lootbox (Handgun)</English>
+        </Key>
+        <Key ID="STR_TACGT_Replacements_Lootbox_SMG_Name">
+            <English>Lootbox (SMG)</English>
+        </Key>
+        <Key ID="STR_TACGT_Replacements_Lootbox_rifle_Name">
+            <English>Lootbox (Rifle)</English>
+        </Key>
+        <Key ID="STR_TACGT_Replacements_Lootbox_GL_Name">
+            <English>Lootbox (GL)</English>
+        </Key>
+        <Key ID="STR_TACGT_Replacements_Lootbox_LMG_Name">
+            <English>Lootbox (LMG)</English>
+        </Key>
+        <Key ID="STR_TACGT_Replacements_Lootbox_Marksman_Name">
+            <English>Lootbox (Marksman)</English>
+        </Key>
+    </Package>
+</Project>
