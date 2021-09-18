@@ -5,6 +5,7 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(LMG_LAMG_Display);
         descriptionShort = CSTRING(LMG_LAMG_Description);
+        recoil = QCLASS(recoil_mk200);
         magazines[] = {
             QCLASS(100Rnd_65x39_Cased_Box),
             QCLASS(100Rnd_65x39_Yellow_Cased_Box)
