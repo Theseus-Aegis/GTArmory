@@ -7,7 +7,11 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main"};
+        requiredAddons[] = {
+            "tacgt_main",
+            "CUP_Creatures_People_LoadOrder",
+            "tacu_main"
+        };
         author = ECSTRING(main,Authors);
         authors[] = {"Tyrone"};
         url = ECSTRING(main,URL);
