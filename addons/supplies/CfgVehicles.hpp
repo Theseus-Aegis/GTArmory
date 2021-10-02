@@ -25,7 +25,7 @@ class CfgVehicles {
         class TransportMagazines {
             MACRO_ADDMAGAZINE(CUP_OG7_M,12);
             MACRO_ADDMAGAZINE(CUP_PG7V_M,12);
-            MACRO_ADDMAGAZINE(CUP_PG7VL_M,12);
+            MACRO_ADDMAGAZINE(CUP_PG7VM_M,12);
             MACRO_ADDMAGAZINE(CUP_PG7VR_M,12);
             MACRO_ADDMAGAZINE(MRAWS_HEAT_F,12);
             MACRO_ADDMAGAZINE(MRAWS_HE_F,12);
