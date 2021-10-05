@@ -23,15 +23,17 @@ class CfgVehicles {
         };
 
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(RPG7_F,12);
+            MACRO_ADDMAGAZINE(CUP_OG7_M,12);
+            MACRO_ADDMAGAZINE(CUP_PG7V_M,12);
+            MACRO_ADDMAGAZINE(CUP_PG7VM_M,12);
+            MACRO_ADDMAGAZINE(CUP_PG7VR_M,12);
             MACRO_ADDMAGAZINE(MRAWS_HEAT_F,12);
             MACRO_ADDMAGAZINE(MRAWS_HE_F,12);
             MACRO_ADDMAGAZINE(RPG32_F,12);
             MACRO_ADDMAGAZINE(RPG32_HE_F,12);
-            MACRO_ADDMAGAZINE(CUP_OG7_M,12);
         };
         class TransportWeapons {
-            MACRO_ADDWEAPON(launch_RPG7_F,3);
+            MACRO_ADDWEAPON(CUP_launch_RPG7V_PGO7V3,3);
             MACRO_ADDWEAPON(launch_RPG32_green_F,3);
             MACRO_ADDWEAPON(launch_MRAWS_green_rail_F,3);
             MACRO_ADDWEAPON(launch_MRAWS_green_F,3);
