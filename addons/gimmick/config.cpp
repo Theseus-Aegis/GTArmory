@@ -5,11 +5,13 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {
-            QCLASS(MSBS65_Gimmick)
+            QCLASS(MSBS65_Gimmick),
+            QCLASS(MSBS65_Gimmick_Super)
         };
         magazines[] = {
             QCLASS(MSBS65_Gimmick_M_Red),
-            QCLASS(MSBS65_Gimmick_M_Green)
+            QCLASS(MSBS65_Gimmick_M_Green),
+            QCLASS(MSBS65_Gimmick_M_Yellow)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main"};
@@ -21,6 +23,7 @@ class CfgPatches {
 };
 
 class Mode_SemiAuto;
+class Mode_FullAuto;
 
 #include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"

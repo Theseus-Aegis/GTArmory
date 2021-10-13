@@ -8,7 +8,8 @@ class CfgWeapons {
         displayName = CSTRING(MSBS65_Gimmick_Name);
         magazines[] = {
             QCLASS(MSBS65_Gimmick_M_Red),
-            QCLASS(MSBS65_Gimmick_M_Green)
+            QCLASS(MSBS65_Gimmick_M_Green),
+            QCLASS(MSBS65_Gimmick_M_Yellow)
         };
         magazineWell[] = {
             QCLASS(MSBS65_Gimmick_MW)
@@ -17,6 +18,24 @@ class CfgWeapons {
         baseWeapon = QCLASS(MSBS65_Gimmick);
 
         class Single: Mode_SemiAuto {
+            class BaseSoundModeType;
+            class StandardSound: BaseSoundModeType {
+                soundSetShot[] = {QCLASS(msbs_y33t_soundSet)};
+            };
+            class SilencedSound: BaseSoundModeType {
+                soundSetShot[] = {QCLASS(msbs_y33t_soundSet)};
+            };
+        };
+    };
+
+    // 'Pickup' Weapon
+    class CLASS(MSBS65_Gimmick_Super): CLASS(MSBS65_Gimmick) {
+        displayName = CSTRING(MSBS65_Gimmick_Super_Name);
+        modes [] = {"Single", "FullAuto"};
+        baseWeapon = QCLASS(MSBS65_Gimmick_Super);
+
+        class FullAuto: Mode_FullAuto {
+            reloadTime = 0.1;
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {QCLASS(msbs_y33t_soundSet)};

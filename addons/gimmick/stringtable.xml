@@ -4,11 +4,17 @@
         <Key ID="STR_TACGT_Gimmick_MSBS65_Gimmick_Name">
             <English>MSBS Y33T-CANNON</English>
         </Key>
+        <Key ID="STR_TACGT_Gimmick_MSBS65_Gimmick_Super_Name">
+            <English>MSBS SUPER Y33T-CANNON</English>
+        </Key>
         <Key ID="STR_TACGT_Gimmick_MSBS65_Gimmick_M_Red_Name">
             <English>MSBS Y33T Magazine Red</English>
         </Key>
         <Key ID="STR_TACGT_Gimmick_MSBS65_Gimmick_M_Green_Name">
             <English>MSBS Y33T Magazine Green</English>
+        </Key>
+        <Key ID="STR_TACGT_Gimmick_MSBS65_Gimmick_M_Yellow_Name">
+            <English>MSBS SUPER Y33T Magazine</English>
         </Key>
     </Package>
 </Project>

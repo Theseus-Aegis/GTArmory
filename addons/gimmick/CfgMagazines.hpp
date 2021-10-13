@@ -7,11 +7,17 @@ class CfgMagazines {
         scopeArsenal = 1;
         displayName = CSTRING(MSBS65_Gimmick_M_Red_Name);
         tracersEvery = 1;
-        count = 500;
+        count = 9999;
         ammo = QCLASS(MSBS_Gimmick_A_Red);
     };
     class CLASS(MSBS65_Gimmick_M_Green): CLASS(MSBS65_Gimmick_M_Red) {
         displayName = CSTRING(MSBS65_Gimmick_M_Green_Name);
         ammo = QCLASS(MSBS_Gimmick_A_Green);
+    };
+
+    // 'Pickup' Magazine
+    class CLASS(MSBS65_Gimmick_M_Yellow): CLASS(MSBS65_Gimmick_M_Red) {
+        displayName = CSTRING(MSBS65_Gimmick_M_Yellow_Name);
+        ammo = QCLASS(MSBS_Gimmick_A_Yellow);
     };
 };
