@@ -71,4 +71,9 @@ class CfgAmmo {
 
     class CUP_F_40mm_Star_Green: CUP_F_40mm_Star_White {};
     class CUP_F_40mm_Star_Red: CUP_F_40mm_Star_White {};
+
+    // CUP Ilumination Rounds (Forcibly set in CUP instead of inheriting)
+    class CUP_F_265mm_Star_White: F_40mm_White {
+        timeToLive = 180;
+    };
 };
