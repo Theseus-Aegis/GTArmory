@@ -12,6 +12,7 @@ class CfgVehicles {
         transportMaxWeapons = 100;
         ace_dragging_canDrag = 0;
         ace_dragging_canCarry = 0;
+        ace_cargo_noRename = 1;  // Blocks renaming object
         editorPreview = QPATHTOF(ui\supplies_launchers.jpg);
         hiddenSelections[] = {
             "Camo_Signs",
@@ -49,6 +50,7 @@ class CfgVehicles {
         maximumLoad = 3000;
         ace_dragging_canDrag = 0;
         ace_dragging_canCarry = 0;
+        ace_cargo_noRename = 1;  // Blocks renaming object
         editorPreview = QPATHTOF(ui\supplies_engineer.jpg);
         hiddenSelections[] = {
             "camo",
@@ -152,6 +154,7 @@ class CfgVehicles {
         ace_dragging_canCarry = 1;
         ace_dragging_carryPosition[] = {0, 1, 0.75};
         ace_dragging_carryDirection = 90;
+        ace_cargo_noRename = 0;  // Allows renaming object
         hiddenSelections[] = {
             "camo",
             "camo_signs"
