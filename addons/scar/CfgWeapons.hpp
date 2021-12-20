@@ -110,6 +110,9 @@ class CfgWeapons {
     SCARNAME(CUP_arifle_Mk17_STD_FG,CUP_arifle_Mk17_STD,H_FG_Display);
     SCARNAME(CUP_arifle_Mk17_STD_FG_black,CUP_arifle_Mk17_STD_FG,H_Black_FG_Display);
     SCARNAME(CUP_arifle_Mk17_STD_FG_woodland,CUP_arifle_Mk17_STD_FG,H_Woodland_FG_Display);
+    SCARNAME(CUP_arifle_Mk17_STD_AFG,CUP_arifle_Mk17_STD_FG,H_AFG_Display);
+    SCARNAME(CUP_arifle_Mk17_STD_AFG_black,CUP_arifle_Mk17_STD_AFG,H_Black_AFG_Display);
+    SCARNAME(CUP_arifle_Mk17_STD_AFG_woodland,CUP_arifle_Mk17_STD_AFG,H_Woodland_AFG_Display);
     SCARNAME(CUP_arifle_Mk17_STD_SFG,CUP_arifle_Mk17_STD_FG,H_SFG_Display);
     SCARNAME(CUP_arifle_Mk17_STD_SFG_black,CUP_arifle_Mk17_STD_SFG,H_Black_SFG_Display);
     SCARNAME(CUP_arifle_Mk17_STD_SFG_woodland,CUP_arifle_Mk17_STD_SFG,H_Woodland_SFG_Display);
@@ -125,6 +128,9 @@ class CfgWeapons {
     SCARNAME(CUP_arifle_Mk17_CQC_FG,CUP_arifle_Mk17_CQC,H_CQC_FG_Display);
     SCARNAME(CUP_arifle_Mk17_CQC_FG_black,CUP_arifle_Mk17_CQC_FG,H_Black_CQC_FG_Display);
     SCARNAME(CUP_arifle_Mk17_CQC_FG_woodland,CUP_arifle_Mk17_CQC_FG,H_Woodland_CQC_FG_Display);
+    SCARNAME(CUP_arifle_Mk17_CQC_AFG,CUP_arifle_Mk17_CQC_FG,H_CQC_AFG_Display);
+    SCARNAME(CUP_arifle_Mk17_CQC_AFG_black,CUP_arifle_Mk17_CQC_AFG,H_CQC_AFG_Black_Display);
+    SCARNAME(CUP_arifle_Mk17_CQC_AFG_woodland,CUP_arifle_Mk17_CQC_AFG,H_CQC_AFG_Woodland_Display);
     SCARNAME(CUP_arifle_Mk17_CQC_SFG,CUP_arifle_Mk17_CQC_FG,H_CQC_SFG_Display);
     SCARNAME(CUP_arifle_Mk17_CQC_SFG_black,CUP_arifle_Mk17_CQC_SFG,H_Black_CQC_SFG_Display);
     SCARNAME(CUP_arifle_Mk17_CQC_SFG_woodland,CUP_arifle_Mk17_CQC_SFG,H_Woodland_CQC_SFG_Display);
