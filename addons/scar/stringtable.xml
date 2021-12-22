@@ -157,6 +157,18 @@
             <English>SCAR-H Woodland (Front Grip)</English>
             <French>SCAR-H Des Bois (Poignée Avant)</French>
         </Key>
+        <Key ID="STR_TACGT_Scar_H_AFG_Display">
+            <English>SCAR-H (AFG)</English>
+            <French>SCAR-H (AFG)</French>
+        </Key>
+        <Key ID="STR_TACGT_Scar_H_Black_AFG_Display">
+            <English>SCAR-H Black (AFG)</English>
+            <French>SCAR-H Noir (AFG)</French>
+        </Key>
+        <Key ID="STR_TACGT_Scar_H_Woodland_AFG_Display">
+            <English>SCAR-H Woodland (AFG)</English>
+            <French>SCAR-H Des Bois (AFG)</French>
+        </Key>
         <Key ID="STR_TACGT_Scar_H_SFG_Display">
             <English>SCAR-H (Surefire Front Grip)</English>
             <French>SCAR-H (Surefire Poignée Avant)</French>
@@ -217,6 +229,18 @@
             <English>SCAR-H Woodland CQC (Front Grip)</English>
             <French>SCAR-H Des Bois CQC (Poignée Avant)</French>
         </Key>
+        <Key ID="STR_TACGT_Scar_H_CQC_AFG_Display">
+            <English>SCAR-H CQC (AFG)</English>
+            <French>SCAR-H CQC (AFG)</French>
+        </Key>
+        <Key ID="STR_TACGT_Scar_H_CQC_AFG_Black_Display">
+            <English>SCAR-H Black CQC (AFG)</English>
+            <French>SCAR-H Noir CQC (AFG)</French>
+        </Key>
+        <Key ID="STR_TACGT_Scar_H_CQC_AFG_Woodland_Display">
+            <English>SCAR-H Woodland CQC (AFG)</English>
+            <French>SCAR-H Des Bois CQC (AFG)</French>
+        </Key>
         <Key ID="STR_TACGT_Scar_H_CQC_SFG_Display">
             <English>SCAR-H CQC (Surefire Front Grip)</English>
             <French>SCAR-H CQC (Surefire Poignée Avant)</French>
@@ -226,7 +250,7 @@
             <French>SCAR-H Noir CQC (Surefire Poignée Avant)</French>
         </Key>
         <Key ID="STR_TACGT_Scar_H_Woodland_CQC_SFG_Display">
-            <English>SCAR-H Wooddland CQC (Surefire Front Grip)</English>
+            <English>SCAR-H Woodland CQC (Surefire Front Grip)</English>
             <French>SCAR-H Des Bois CQC (Surefire Poignée Avant)</French>
         </Key>
         <Key ID="STR_TACGT_Scar_H_CQC_EGLM_Display">
