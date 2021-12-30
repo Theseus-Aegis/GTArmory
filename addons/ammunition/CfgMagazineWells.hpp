@@ -79,7 +79,11 @@ class CfgMagazineWells {
             QCLASS(30Rnd_545x39_BP_Mag_Black),
             QCLASS(30Rnd_545x39_BT_Mag_Black),
             QCLASS(30Rnd_545x39_BP_Mag_Plum),
-            QCLASS(30Rnd_545x39_BT_Mag_Plum)
+            QCLASS(30Rnd_545x39_BT_Mag_Plum),
+            QCLASS(30Rnd_545x39_BP_Mag_AK12_Black),
+            QCLASS(30Rnd_545x39_BT_Mag_AK12_Black),
+            QCLASS(30Rnd_545x39_BP_Mag_AK12_Tan),
+            QCLASS(30Rnd_545x39_BT_Mag_AK12_Tan)
         };
     };
 
@@ -229,6 +233,15 @@ class CfgMagazineWells {
     class CBA_762x54R_SVD {
         ADDON[] = {
             QCLASS(10Rnd_762x54_SVD_AP_Mag)
+        };
+    };
+
+    class CUP_AK19 {
+        ADDON[] = {
+            QCLASS(30Rnd_556x45_M855A1_AK19),
+            QCLASS(30Rnd_556x45_M855A1_AK19_Red),
+            QCLASS(30Rnd_556x45_M855A1_AK19_Tan),
+            QCLASS(30Rnd_556x45_M855A1_AK19_Tan_Red)
         };
     };
 };

@@ -31,6 +31,18 @@ class CfgMagazines {
     class 30Rnd_545x39_Mag_Green_F: 30Rnd_545x39_Mag_F {
         displayName = CSTRING(30Rnd_545x39_Mag_Green_F_Display);
     };
+    class CUP_30Rnd_545x39_AK12_M: CA_Magazine {
+        displayName = "5.45mm 30Rnd AK-12 (PS)";
+    };
+    class CUP_30Rnd_TE1_Green_Tracer_545x39_AK12_M: CUP_30Rnd_545x39_AK12_M {
+        displayName = "5.45mm 30Rnd AK-12 [T] Green (PS)";
+    };
+    class CUP_30Rnd_545x39_AK12_Tan_M: CUP_30Rnd_545x39_AK12_M {
+        displayName = "5.45mm 30Rnd AK-12 Tan (PS)";
+    };
+    class CUP_30Rnd_TE1_Green_Tracer_545x39_AK12_Tan_M: CUP_30Rnd_TE1_Green_Tracer_545x39_AK12_M {
+        displayName = "5.45mm 30Rnd AK-12 Tan [T] Green (PS)";
+    };
 
     // 45Rnd 545 Russian Magazines
     class CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M: CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M {
@@ -97,6 +109,19 @@ class CfgMagazines {
     class CUP_25Rnd_556x45_Famas_Tracer_Green: CUP_25Rnd_556x45_Famas {
         displayName = CSTRING(CUP_25Rnd_556x45_Famas_Tracer_Green_Name);
     };
+    class CUP_30Rnd_556x45_AK19_M: CA_Magazine {
+        displayName = "5.56mm 30Rnd AK-19 [RT] Red (M855)";
+    };
+    class CUP_30Rnd_556x45_Tracer_Red_AK19_M: CUP_30Rnd_556x45_AK19_M {
+        displayName = "5.56mm 30Rnd AK-19 [T] Red (M856)";
+    };
+    class CUP_30Rnd_556x45_AK19_Tan_M: CUP_30Rnd_556x45_AK19_M {
+        displayName = "5.56mm 30Rnd AK-19 Tan [RT] Red (M855)";
+    };
+    class CUP_30Rnd_556x45_TE1_Tracer_Green_AK19_Tan_M: CUP_30Rnd_556x45_AK19_Tan_M {
+        displayName = "5.56mm 30Rnd AK-19 Tan [T] Red (M856)";
+    };
+
 
     // 60Rnd 556 Magazines
     class CUP_60Rnd_556x45_SureFire: CUP_30Rnd_556x45_Stanag {
