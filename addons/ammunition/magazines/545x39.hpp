@@ -67,3 +67,29 @@ class CLASS(30Rnd_545x39_BT_Mag_Plum): CLASS(30Rnd_545x39_BP_Mag_Plum) {
     ammo = QCLASS(545x39_BT);
     tracersEvery = 1;
 };
+
+class CLASS(30Rnd_545x39_BP_Mag_AK12_Black): CUP_30Rnd_545x39_AK12_M {
+    author = ECSTRING(main,Author);
+    scope = 2;
+    displayName = "5.45mm 30Rnd AK-12 [RT] Yellow (BP)";
+    ammo = QCLASS(545x39_BP);
+    lastRoundsTracer = 4;
+};
+class CLASS(30Rnd_545x39_BT_Mag_AK12_Black): CLASS(30Rnd_545x39_BP_Mag_Black) {
+    displayName = "5.45mm 30Rnd AK-12 [T] Red (BT)";
+    ammo = QCLASS(545x39_BT);
+    tracersEvery = 1;
+};
+class CLASS(30Rnd_545x39_BP_Mag_AK12_Tan): CUP_30Rnd_545x39_AK12_Tan_M {
+    author = ECSTRING(main,Author);
+    scope = 2;
+    displayName = "5.45mm 30Rnd AK-12 Tan [RT] Yellow (BP)";
+    ammo = QCLASS(545x39_BP);
+    lastRoundsTracer = 4;
+};
+class CLASS(30Rnd_545x39_BT_Mag_AK12_Tan): CLASS(30Rnd_545x39_BP_Mag_Tan) {
+    displayName = "5.45mm 30Rnd AK-12 Tan [T] Red (BT)";
+    ammo = QCLASS(545x39_BT);
+    tracersEvery = 1;
+};
+
