@@ -29,7 +29,7 @@ class CUP_arifle_Mk16_CQC_FG: CUP_arifle_Mk16_CQC {
     displayName = "SCAR-L CQC (Front Grip)";
 };
 
-class CUP_arifle_Mk16_CQC_AFG: CUP_arifle_Mk16_CQC_FG {{
+class CUP_arifle_Mk16_CQC_AFG: CUP_arifle_Mk16_CQC_FG {
     displayName = "SCAR-L CQC (AFG)";
 };
 
