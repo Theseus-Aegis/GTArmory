@@ -1,7 +1,7 @@
 class CLASS(Lootbox_LMG): tac_supplies_randomizedBox {
     scope = 2;
     picture = QPATHTOF(ui\lootbox_lmg_ca.paa);
-    displayName = CSTRING(Lootbox_LMG_Name);
+    displayName = "Lootbox (LMG)";
     tac_supplies_possibleItems[] = {
         "LMG_03_F",
         "arifle_SPAR_02_blk_F",

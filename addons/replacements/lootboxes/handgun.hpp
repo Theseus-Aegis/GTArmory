@@ -1,7 +1,7 @@
 class CLASS(Lootbox_Handgun): tac_supplies_randomizedBox {
     scope = 2;
     picture = QPATHTOF(ui\lootbox_handgun_ca.paa);
-    displayName = CSTRING(Lootbox_Handgun_Name);
+    displayName = "Lootbox (Handgun)";
     tac_supplies_possibleItems[] = {
         "hgun_Pistol_heavy_02_F",
         "tacgt_Rhino_357",

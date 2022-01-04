@@ -12,7 +12,7 @@ class CfgWeapons {
     class CLASS(JJ_HeliPilot_Black): H_PilotHelmetHeli_B {
         author = "GilleeDoo";
         scope = 2;
-        displayName = CSTRING(JJ_HeliPilot_Black_Display);
+        displayName = "Heli Pilot Helmet Black 'JJ' Edition";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\jj_heliPilot_black_co.paa)
         };
@@ -22,7 +22,7 @@ class CfgWeapons {
     class CLASS(Joram_HeliPilot_Black): H_PilotHelmetHeli_B {
         author = "GilleeDoo";
         scope = 2;
-        displayName = CSTRING(Joram_HeliPilot_Black_Display);
+        displayName = "Heli Pilot Helmet Black 'Joram' Edition";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\joram_heliPilot_black_co.paa)
         };
@@ -32,7 +32,7 @@ class CfgWeapons {
     class CLASS(RG_marciras_hh_belt_khk): milgp_v_marciras_medic_belt_khk {
         author = "GilleeDoo";
         scope = 2;
-        displayName = CSTRING(RG_MarCiras_HH_Belt_KHK);
+        displayName = "MarCiras Head Honcho 'RG' Edition + Belt (KHK)";
         hiddenSelections[] = {"camo", "camo1", "camo2", "camo3"};
         hiddenSelectionsTextures[] = {
             "milgp_vests\textures\v_marciras_khk_co.paa",
@@ -45,7 +45,7 @@ class CfgWeapons {
     class CLASS(RG_marciras_hh_belt_rgr): milgp_v_marciras_medic_belt_rgr {
         author = "GilleeDoo";
         scope = 2;
-        displayName = CSTRING(RG_MarCiras_HH_Belt_RGR);
+        displayName = "MarCiras Head Honcho 'RG' Edition + Belt (RGR)";
         hiddenSelections[] = {"camo", "camo1", "camo2", "camo3"};
         hiddenSelectionsTextures[] = {
             "milgp_vests\textures\v_marciras_rgr_co.paa",
@@ -59,7 +59,7 @@ class CfgWeapons {
     class CLASS(MM_Minotaur_Uniform): U_I_C_Soldier_Bandit_2_F {
         author = "GilleeDoo";
         scope = 2;
-        displayName = CSTRING(MM_minotaur_uniform);
+        displayName = "Minotaur Uniform 'MM' Edition";
         picture = QPATHTOF(ui\mm_minotaur_uniform.paa);
         class ItemInfo: UniformItem {
             uniformModel = "";

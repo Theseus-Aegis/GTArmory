@@ -1,7 +1,7 @@
 class CLASS(Lootbox_Rifle): tac_supplies_randomizedBox {
     scope = 2;
     picture = QPATHTOF(ui\lootbox_rifle_ca.paa);
-    displayName = CSTRING(Lootbox_rifle_Name);
+    displayName = "Lootbox (Rifle)";
     tac_supplies_possibleItems[] = {
         "arifle_AK12_F",
         "arifle_AK12_arid_F",
@@ -44,8 +44,6 @@ class CLASS(Lootbox_Rifle): tac_supplies_randomizedBox {
         "arifle_ARX_blk_F",
         "arifle_ARX_ghex_F",
         "arifle_ARX_hex_F",
-        "tacgt_SBR_458_Socom_OD",
-        "tacgt_SBR_458_Socom_Tan",
         "CUP_arifle_AK47_top_rail",
         "CUP_arifle_AK101_top_rail",
         "CUP_arifle_AK101_railed",
@@ -71,6 +69,18 @@ class CLASS(Lootbox_Rifle): tac_supplies_randomizedBox {
         "CUP_arifle_AKS74U_top_rail",
         "CUP_arifle_AKS74U_railed",
         "CUP_arifle_AKS74_top_rail",
+        "CUP_arifle_AK12_black",
+        "CUP_arifle_AK12_bicolor",
+        "CUP_arifle_AK12_AFG_black",
+        "CUP_arifle_AK12_AFG_bicolor",
+        "CUP_arifle_AK12_VG_black",
+        "CUP_arifle_AK12_VG_bicolor",
+        "CUP_arifle_AK19_black",
+        "CUP_arifle_AK19_bicolor",
+        "CUP_arifle_AK19_AFG_black",
+        "CUP_arifle_AK19_AFG_bicolor",
+        "CUP_arifle_AK19_VG_black",
+        "CUP_arifle_AK19_VG_bicolor",
         "CUP_arifle_CZ805_A1",
         "CUP_arifle_CZ805_A1_blk",
         "CUP_arifle_CZ805_A1_coyote",

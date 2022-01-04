@@ -4,7 +4,7 @@ class CfgVehicles {
 
     class tac_supplies_Launchers: Box_NATO_WpsLaunch_F {
         author = ECSTRING(main,Author);
-        displayName = CSTRING(Supply_Launchers_Name);
+        displayName = "[TAC] Launcher Supplies";
         EDITOR_CATEGORY
         scope = 2;
         scopeCurator = 2;
@@ -43,7 +43,7 @@ class CfgVehicles {
 
     class tac_supplies_Engineer: Box_AAF_Uniforms_F {
         author = ECSTRING(main,Author);
-        displayName = CSTRING(Supply_Engineer_Name);
+        displayName = "[TAC] Engineer Supplies";
         EDITOR_CATEGORY
         scope = 2;
         scopeCurator = 2;
@@ -75,7 +75,7 @@ class CfgVehicles {
     };
 
     class tac_supplies_Medic: tac_supplies_Engineer {
-        displayName = CSTRING(Supply_Medic_Name);
+        displayName = "[TAC] Medic Supplies";
         EDITOR_CATEGORY
         editorPreview = QPATHTOF(ui\supplies_medic.jpg);
         hiddenSelections[] = {
@@ -97,7 +97,7 @@ class CfgVehicles {
     };
 
     class tac_supplies_Recruit: tac_supplies_Engineer {
-        displayName = CSTRING(Supply_Recruit_Name);
+        displayName = "[TAC] Recruit Supplies";
         EDITOR_CATEGORY
         editorPreview = QPATHTOF(ui\supplies_Recruit.jpg);
         hiddenSelections[] = {
@@ -119,7 +119,7 @@ class CfgVehicles {
     };
 
     class tac_supplies_VIP: tac_supplies_Recruit {
-        displayName = CSTRING(Supply_VIP_Name);
+        displayName = "[TAC] VIP Protective Gear";
         EDITOR_CATEGORY
         editorPreview = QPATHTOF(ui\supplies_VIP.jpg);
         hiddenSelections[] = {
@@ -141,7 +141,7 @@ class CfgVehicles {
 
     class CLASS(Supply_Empty_1_1): tac_supplies_Engineer {
         author = "Tyrone";
-        displayName = CSTRING(Supply_Empty_1_1);
+        displayName = "[TAC] Supply Box (1-1)";
         EDITOR_CATEGORY
         scope = 2;
         scopeCurator = 2;
@@ -169,49 +169,49 @@ class CfgVehicles {
         class TransportBackpacks {};
     };
     class CLASS(Supply_Empty_1_2): CLASS(Supply_Empty_1_1) {
-        displayName = CSTRING(Supply_Empty_1_2);
+        displayName = "[TAC] Supply Box (1-2)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\supply_base_texture_co.paa),
             QPATHTOF(data\supply_empty_1_2_ca.paa)
         };
     };
     class CLASS(Supply_Empty_2_1): CLASS(Supply_Empty_1_1) {
-        displayName = CSTRING(Supply_Empty_2_1);
+        displayName = "[TAC] Supply Box (2-1)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\supply_base_texture_co.paa),
             QPATHTOF(data\supply_empty_2_1_ca.paa)
         };
     };
     class CLASS(Supply_Empty_2_2): CLASS(Supply_Empty_1_1) {
-        displayName = CSTRING(Supply_Empty_2_2);
+        displayName = "[TAC] Supply Box (2-2)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\supply_base_texture_co.paa),
             QPATHTOF(data\supply_empty_2_2_ca.paa)
         };
     };
     class CLASS(Supply_Empty_3_1): CLASS(Supply_Empty_1_1) {
-        displayName = CSTRING(Supply_Empty_3_1);
+        displayName = "[TAC] Supply Box (3-1)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\supply_base_texture_co.paa),
             QPATHTOF(data\supply_empty_3_1_ca.paa)
         };
     };
     class CLASS(Supply_Empty_3_2): CLASS(Supply_Empty_1_1) {
-        displayName = CSTRING(Supply_Empty_3_2);
+        displayName = "[TAC] Supply Box (3-2)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\supply_base_texture_co.paa),
             QPATHTOF(data\supply_empty_3_2_ca.paa)
         };
     };
     class CLASS(Supply_Empty_4_1): CLASS(Supply_Empty_1_1) {
-        displayName = CSTRING(Supply_Empty_4_1);
+        displayName = "[TAC] Supply Box (4-1)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\supply_base_texture_co.paa),
             QPATHTOF(data\supply_empty_4_1_ca.paa)
         };
     };
     class CLASS(Supply_Empty_4_2): CLASS(Supply_Empty_1_1) {
-        displayName = CSTRING(Supply_Empty_4_2);
+        displayName = "[TAC] Supply Box (4-2)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\supply_base_texture_co.paa),
             QPATHTOF(data\supply_empty_4_2_ca.paa)

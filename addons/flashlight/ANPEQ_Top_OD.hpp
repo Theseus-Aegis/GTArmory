@@ -1,6 +1,6 @@
 class cup_acc_anpeq_15_top_flashlight_od_l;
 class CLASS(ANPEQ_15_Top_Laser_OD): cup_acc_anpeq_15_top_flashlight_od_l {
-    displayName = CSTRING(ANPEQ_15_Top_Laser_Light_OD_Display);
+    displayName = "AN/PEQ-15 Laser + Flashlight (Top/OD/GT Edition)";
     MACRO_MULTI_1
 
     class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -12,12 +12,12 @@ class CLASS(ANPEQ_15_Top_Laser_OD): cup_acc_anpeq_15_top_flashlight_od_l {
     };
     MRT_SwitchItemNextClass = QCLASS(ANPEQ_15_Top_Light_OD);
     MRT_SwitchItemPrevClass = QCLASS(ANPEQ_15_Top_Vis_Laser_OD);
-    MRT_SwitchItemHintText = CSTRING(Laser_Pointer);
+    MRT_SwitchItemHintText = "IR Laser";
 };
 
 class cup_acc_anpeq_15_top_flashlight_od_f;
 class CLASS(ANPEQ_15_Top_Light_OD): cup_acc_anpeq_15_top_flashlight_od_f {
-    displayName = CSTRING(ANPEQ_15_Top_Laser_Light_OD_Display);
+    displayName = "AN/PEQ-15 Laser + Flashlight (Top/OD/GT Edition)";
     MACRO_MULTI_2
 
     class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -29,11 +29,11 @@ class CLASS(ANPEQ_15_Top_Light_OD): cup_acc_anpeq_15_top_flashlight_od_f {
     };
     MRT_SwitchItemNextClass = QCLASS(ANPEQ_15_Top_Low_Light_OD);
     MRT_SwitchItemPrevClass = QCLASS(ANPEQ_15_Top_Laser_OD);
-    MRT_SwitchItemHintText = CSTRING(High_Power_Light);
+    MRT_SwitchItemHintText = "Flashlight Blue";
 };
 
 class CLASS(ANPEQ_15_Top_Low_Light_OD): cup_acc_anpeq_15_top_flashlight_od_f {
-    displayName = CSTRING(ANPEQ_15_Top_Laser_Light_OD_Display);
+    displayName = "AN/PEQ-15 Laser + Flashlight (Top/OD/GT Edition)";
     MACRO_MULTI_2
 
     class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -45,12 +45,12 @@ class CLASS(ANPEQ_15_Top_Low_Light_OD): cup_acc_anpeq_15_top_flashlight_od_f {
     };
     MRT_SwitchItemNextClass = QCLASS(ANPEQ_15_Top_Vis_Laser_OD);
     MRT_SwitchItemPrevClass = QCLASS(ANPEQ_15_Top_Light_OD);
-    MRT_SwitchItemHintText = CSTRING(Low_Power_Light);
+    MRT_SwitchItemHintText = "Flashlight Red";
 };
 
 class cup_acc_anpeq_15_top_flashlight_od_v;
 class CLASS(ANPEQ_15_Top_Vis_Laser_OD): cup_acc_anpeq_15_top_flashlight_od_v {
-    displayName = CSTRING(ANPEQ_15_Top_Laser_Light_OD_Display);
+    displayName = "AN/PEQ-15 Laser + Flashlight (Top/OD/GT Edition)";
     MACRO_MULTI_2
 
     class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -62,6 +62,6 @@ class CLASS(ANPEQ_15_Top_Vis_Laser_OD): cup_acc_anpeq_15_top_flashlight_od_v {
     };
     MRT_SwitchItemNextClass = QCLASS(ANPEQ_15_Top_Laser_OD);
     MRT_SwitchItemPrevClass = QCLASS(ANPEQ_15_Top_Low_Light_OD);
-    MRT_SwitchItemHintText = CSTRING(Visible_Laser);
+    MRT_SwitchItemHintText = "Visible Laser";
     ACE_LaserPointer = 1;
 };

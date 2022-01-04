@@ -2,9 +2,9 @@ class CfgWeapons {
     class CUP_H_OpsCore_Green;
 
     class CLASS(OpsCore_Medic): CUP_H_OpsCore_Green {
-        scope = 2;
         author = ECSTRING(main,Authors);
-        displayName = CSTRING(OpsCore_Medic_Display);
+        displayName = "OpsCore FAST (Medic)";
+        scope = 2;
         hiddenSelections[] = {
             "camo1",
             "camo2",

@@ -1,7 +1,7 @@
 class CLASS(Lootbox_GL): tac_supplies_randomizedBox {
     scope = 2;
     picture = QPATHTOF(ui\lootbox_gl_ca.paa);
-    displayName = CSTRING(Lootbox_GL_Name);
+    displayName = "Lootbox (GL)";
     tac_supplies_possibleItems[] = {
         "arifle_AK12_GL_F",
         "arifle_AK12_GL_arid_F",
@@ -34,6 +34,10 @@ class CLASS(Lootbox_GL): tac_supplies_randomizedBox {
         "CUP_arifle_AK74M_GL_railed",
         "CUP_arifle_AK74_GL_top_rail",
         "CUP_arifle_AKS74_GL_top_rail",
+        "CUP_arifle_AK12_GP34_black",
+        "CUP_arifle_AK12_GP34_bicolor",
+        "CUP_arifle_AK19_GP34_black",
+        "CUP_arifle_AK19_GP34_bicolor",
         "CUP_arifle_CZ805_GL",
         "CUP_arifle_CZ805_GL_blk",
         "CUP_arifle_CZ805_GL_coyote",

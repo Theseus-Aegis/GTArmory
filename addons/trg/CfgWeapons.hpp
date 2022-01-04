@@ -1,7 +1,7 @@
 class CfgWeapons {
     class arifle_TRG21_F;
     class CLASS(TAR21_Black): arifle_TRG21_F {
-        displayName = CSTRING(TAR21_Black_Display);
+        displayName = "TAR-21 (Black)";
         scope = 2;
         scopeArsenal = 2;
         picture = QPATHTOF(ui\tar21_black_ca.paa);
@@ -14,7 +14,7 @@ class CfgWeapons {
 
     class arifle_TRG21_GL_F;
     class CLASS(GTAR21_EGLM_Black): arifle_TRG21_GL_F {
-        displayName = CSTRING(GTAR21_EGLM_Black_Display);
+        displayName = "GTAR-21 EGLM (Black)";
         scope = 2;
         scopeArsenal = 2;
         picture = QPATHTOF(ui\gtar21_eglm_black_ca.paa);
@@ -33,7 +33,7 @@ class CfgWeapons {
 
     class arifle_TRG20_F;
     class CLASS(CTAR21_Black): arifle_TRG20_F {
-        displayName = CSTRING(CTAR21_Black_Display);
+        displayName = "CTAR-21 (Black)";
         scope = 2;
         scopeArsenal = 2;
         picture = QPATHTOF(ui\ctar21_black_ca.paa);

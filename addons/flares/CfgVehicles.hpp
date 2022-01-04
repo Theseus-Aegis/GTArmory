@@ -63,48 +63,48 @@ class CfgVehicles {
 
     class CLASS(ModuleFlareStarRed): ModuleFlareRed_F {
         author = ECSTRING(main,Author);
+        displayName = "Parachute Red";
         scope = 1;
         scopeCurator = 2;
-        displayName = CSTRING(Star_Red_Name);
         ammo = "CUP_F_40mm_Star_Red";
     };
     class CLASS(ModuleFlareStarWhite): ModuleFlareWhite_F {
         author = ECSTRING(main,Author);
+        displayName = "Parachute White";
         scope = 1;
         scopeCurator = 2;
-        displayName = CSTRING(Star_White_Name);
         ammo = "CUP_F_40mm_Star_White";
     };
 
     class CLASS(ModuleFlareStarGreen): ModuleFlareGreen_F {
         author = ECSTRING(main,Author);
+        displayName = "Parachute Green";
         scope = 1;
         scopeCurator = 2;
-        displayName = CSTRING(Star_Green_Name);
         ammo = "CUP_F_40mm_Star_Green";
     };
 
     class CLASS(ModuleFlareClusterRed): ModuleFlareRed_F {
         author = ECSTRING(main,Author);
+        displayName = "Cluster Red";
         scope = 1;
         scopeCurator = 2;
-        displayName = CSTRING(Cluster_Red_Name);
         ammo = "CUP_Sub_F_40mm_StarCluster_Red";
     };
 
     class CLASS(ModuleFlareClusterWhite): ModuleFlareWhite_F {
         author = ECSTRING(main,Author);
+        displayName = "Cluster White";
         scope = 1;
         scopeCurator = 2;
-        displayName = CSTRING(Cluster_White_Name);
         ammo = "CUP_Sub_F_40mm_StarCluster_White";
     };
 
     class CLASS(ModuleFlareClusterGreen): ModuleFlareGreen_F {
         author = ECSTRING(main,Author);
+        displayName = "Cluster Green";
         scope = 1;
         scopeCurator = 2;
-        displayName = CSTRING(Cluster_Green_Name);
         ammo = "CUP_Sub_F_40mm_StarCluster_Green";
     };
 };

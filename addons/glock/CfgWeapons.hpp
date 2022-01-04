@@ -1,20 +1,19 @@
 class CfgWeapons {
     class Pistol_Base_F;
     class CUP_hgun_Glock17: Pistol_Base_F {
-        displayName = CSTRING(Glock17_Display);
+        displayName = "Glock 17";
     };
     class CUP_hgun_Glock17_tan: CUP_hgun_Glock17 {
-        displayName = CSTRING(Glock17_Tan_Display);
+        displayName = "Glock 17 (Tan)";
     };
     class CUP_hgun_Glock17_blk: CUP_hgun_Glock17 {
-        displayName = CSTRING(Glock17_Black_Display);
+        displayName = "Glock 17 (Black)";
     };
 
     class CLASS(hgun_Glock18_Tan): CUP_hgun_Glock17_tan {
         author = ECSTRING(main,Author);
+        displayName = "Glock 18c (Tan)";
         scope = 2;
-        displayName = CSTRING(Glock18_Tan_Display);
-
         autoFire = 1;
         modes[] = {"Single", "FullAuto"};
 
@@ -56,8 +55,8 @@ class CfgWeapons {
     };
 
     class CLASS(hgun_Glock18_Black): CLASS(hgun_Glock18_Tan) {
+        displayName = "Glock 18c (Black)";
         scope = 2;
-        displayName = CSTRING(Glock18_Black_Display);
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_glock17\data\glock17_blk_co.paa"};
     };

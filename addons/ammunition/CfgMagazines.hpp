@@ -1,53 +1,52 @@
 class CfgMagazines {
-    class CA_Magazine;
-    class 2Rnd_12Gauge_Pellets;
-    class 6Rnd_12Gauge_Pellets;
-    class 6Rnd_12Gauge_Slug;
-    class 10Rnd_762x54_Mag;
-    class 200Rnd_556x45_Box_F;
-    class 30Rnd_545x39_Mag_F;
-    class 30Rnd_580x42_Mag_F;
-    class 100Rnd_580x42_Mag_F;
-    class 30Rnd_556x45_Stanag_green;
-    class 30Rnd_762x39_Mag_F;
-    class 30Rnd_762x39_AK12_Mag_F;
-    class 30rnd_762x39_AK12_Arid_Mag_F;
-    class 30rnd_762x39_AK12_Lush_Mag_F;
-    class 50Rnd_570x28_SMG_03;
-    class 75rnd_762x39_AK12_Mag_F;
-    class ACE_30Rnd_556x45_Stanag_M995_AP_mag;
-    class ACE_30Rnd_556x45_Stanag_Mk262_mag;
-    class ACE_30Rnd_556x45_Stanag_Mk318_mag;
-    class CUP_20Rnd_762x51_FNFAL_M;
-    class CUP_30Rnd_762x51_FNFAL_M;
-    class CUP_30Rnd_556x45_AK;
-    class CUP_30Rnd_545x39_AK12_M;
-    class CUP_30Rnd_545x39_AK12_Tan_M;
-    class CUP_30Rnd_556x45_AK19_M;
-    class CUP_30Rnd_556x45_AK19_Tan_M;
-    class CUP_30Rnd_556x45_AUG;
-    class CUP_30Rnd_556x45_G36;
-    class CUP_60Rnd_556x45_SureFire;
-    class hlc_30Rnd_556x45_EPR_sg550;
-    class 30Rnd_9x21_Mag_SMG_02;
-    class 30Rnd_9x21_Mag;
-    class CUP_30Rnd_9x19_MP5;
-    class CUP_20Rnd_762x51_G3;
-    class CUP_30Rnd_556x45_CZ805;
-    class CUP_30Rnd_762x39_CZ807;
-    class CUP_25Rnd_556x45_Famas;
-    class CUP_20Rnd_762x51_B_SCAR;
-    class CUP_20Rnd_762x51_B_SCAR_bkl;
-    class hlc_40Rnd_556x45_B_AUG;
+    #include "magazines\baseclasses.hpp"
 
-#include "magazines\9x19.hpp"
-#include "magazines\12g.hpp"
-#include "magazines\545x39.hpp"
-#include "magazines\556x45.hpp"
-#include "magazines\57x28.hpp"
-#include "magazines\580x42.hpp"
-#include "magazines\762x39.hpp"
-#include "magazines\762x51.hpp"
-#include "magazines\762x54r.hpp"
+    // 9x19
+    #include "magazines\9x19\clear.hpp"
+    #include "magazines\9x19\standard.hpp"
+    #include "magazines\9x19\mp5.hpp"
 
+    // 12G
+    #include "magazines\12g\2Rnd.hpp"
+    #include "magazines\12g\6Rnd.hpp"
+    #include "magazines\12g\8Rnd.hpp"
+
+    // 5.7
+    #include "magazines\57x28\p90.hpp"
+
+    // 545x39
+    #include "magazines\545x39\bakelite.hpp"
+    #include "magazines\545x39\black.hpp"
+    #include "magazines\545x39\plum.hpp"
+    #include "magazines\545x39\tan.hpp"
+
+    // 556x45
+    #include "magazines\556x45\ak.hpp"
+    #include "magazines\556x45\ak19.hpp"
+    #include "magazines\556x45\aug.hpp"
+    #include "magazines\556x45\box.hpp"
+    #include "magazines\556x45\cz805.hpp"
+    #include "magazines\556x45\emag.hpp"
+    #include "magazines\556x45\famas.hpp"
+    #include "magazines\556x45\g36.hpp"
+    #include "magazines\556x45\pmag.hpp"
+    #include "magazines\556x45\sig.hpp"
+    #include "magazines\556x45\surefire.hpp"
+
+    // 5.8
+    #include "magazines\580x42\qbz.hpp"
+
+    // 762x39
+    #include "magazines\762x39\ak.hpp"
+    #include "magazines\762x39\ak12.hpp"
+    #include "magazines\762x39\cz807.hpp"
+    #include "magazines\762x39\rpk.hpp"
+
+    // 762x51
+    #include "magazines\762x51\fal.hpp"
+    #include "magazines\762x51\g3.hpp"
+    #include "magazines\762x51\scar.hpp"
+
+    // 762x54r
+    #include "magazines\762x54\svd.hpp"
 };

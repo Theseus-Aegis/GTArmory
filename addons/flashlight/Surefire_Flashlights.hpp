@@ -1,6 +1,6 @@
 class cup_acc_flashlight;
 class CLASS(Surefire_Flashlight_Black): cup_acc_flashlight {
-    displayName = CSTRING(Surefire_Flashlight_Black_Display);
+    displayName = "Surefire Black (GT Edition)";
     MACRO_MULTI_1
 
     class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -11,11 +11,11 @@ class CLASS(Surefire_Flashlight_Black): cup_acc_flashlight {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Low_Flashlight_Black);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Low_Flashlight_Black);
-    MRT_SwitchItemHintText = CSTRING(High_Power_Light);
+    MRT_SwitchItemHintText = "Flashlight Blue";
 };
 
 class CLASS(Surefire_Low_Flashlight_Black): cup_acc_flashlight {
-    displayName = CSTRING(Surefire_Flashlight_Black_Display);
+    displayName = "Surefire Black (GT Edition)";
     MACRO_MULTI_2
 
     class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -26,12 +26,12 @@ class CLASS(Surefire_Low_Flashlight_Black): cup_acc_flashlight {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Flashlight_Black);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Flashlight_Black);
-    MRT_SwitchItemHintText = CSTRING(Low_Power_Light);
+    MRT_SwitchItemHintText = "Flashlight Red";
 };
 
 class CUP_acc_Flashlight_wdl;
 class CLASS(Surefire_Flashlight_OD): CUP_acc_Flashlight_wdl {
-    displayName = CSTRING(Surefire_Flashlight_OD_Display);
+    displayName = "Surefire OD (GT Edition)";
     MACRO_MULTI_1
 
     class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -42,11 +42,11 @@ class CLASS(Surefire_Flashlight_OD): CUP_acc_Flashlight_wdl {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Low_Flashlight_OD);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Low_Flashlight_OD);
-    MRT_SwitchItemHintText = CSTRING(High_Power_Light);
+    MRT_SwitchItemHintText = "Flashlight Blue";
 };
 
 class CLASS(Surefire_Low_Flashlight_OD): CUP_acc_Flashlight_wdl {
-    displayName = CSTRING(Surefire_Flashlight_OD_Display);
+    displayName = "Surefire OD (GT Edition)";
     MACRO_MULTI_2
 
     class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -57,12 +57,12 @@ class CLASS(Surefire_Low_Flashlight_OD): CUP_acc_Flashlight_wdl {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Flashlight_OD);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Flashlight_OD);
-    MRT_SwitchItemHintText = CSTRING(Low_Power_Light);
+    MRT_SwitchItemHintText = "Flashlight Red";
 };
 
 class CUP_acc_Flashlight_desert;
 class CLASS(Surefire_Flashlight_Tan): CUP_acc_Flashlight_desert {
-    displayName = CSTRING(Surefire_Flashlight_Tan_Display);
+    displayName = "Surefire Tan (GT Edition)";
     MACRO_MULTI_1
 
     class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -73,11 +73,11 @@ class CLASS(Surefire_Flashlight_Tan): CUP_acc_Flashlight_desert {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Low_Flashlight_Tan);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Low_Flashlight_Tan);
-    MRT_SwitchItemHintText = CSTRING(High_Power_Light);
+    MRT_SwitchItemHintText = "Flashlight Blue";
 };
 
 class CLASS(Surefire_Low_Flashlight_Tan): CUP_acc_Flashlight_desert {
-    displayName = CSTRING(Surefire_Flashlight_Tan_Display);
+    displayName = "Surefire Tan (GT Edition)";
     MACRO_MULTI_2
 
     class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -88,5 +88,5 @@ class CLASS(Surefire_Low_Flashlight_Tan): CUP_acc_Flashlight_desert {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Flashlight_Tan);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Flashlight_Tan);
-    MRT_SwitchItemHintText = CSTRING(Low_Power_Light);
+    MRT_SwitchItemHintText = "Flashlight Red";
 };
