@@ -52,6 +52,14 @@ class CLASS(30Rnd_556x45_M855A1_PMAG_Red): CLASS(30Rnd_556x45_M855A1_PMAG) {
     ammo = QCLASS(556x45_EPR_M856A1_Red);
 };
 
+// M856A1 (Tan)
+class CLASS(30Rnd_556x45_M855A1_PMAG_Tan_Red): CLASS(30Rnd_556x45_M855A1_PMAG_Tan) {
+    displayName = "5.56mm 30Rnd PMAG Tan [T] Red (M856A1)";
+    tracersEvery = 1;
+    ammo = QCLASS(556x45_EPR_M856A1_Red);
+};
+
+
 // M995
 class CLASS(30Rnd_556x45_M995_PMAG): ACE_30Rnd_556x45_Stanag_M995_AP_mag {
     author = ECSTRING(main,Author);

@@ -4,13 +4,13 @@
 #include "\x\tacgt\addons\main\script_macros.hpp"
 
 #define MACRO_MULTI_1 \
-    descriptionShort = CSTRING(Multi_Description); \
+    descriptionShort = "Laser/Light GT Edition"; \
     author = ECSTRING(main,Author); \
     scope = 2; \
     scopeArsenal = 2;
 
 #define MACRO_MULTI_2 \
-    descriptionShort = CSTRING(Multi_Description); \
+    descriptionShort = "Laser/Light GT Edition"; \
     author = ECSTRING(main,Author); \
     scope = 1; \
     scopeArsenal = 1;

@@ -30,10 +30,6 @@
     class CUP_30Rnd_556x45_Emag: CUP_30Rnd_556x45_Stanag {
         mass = 10;
     };
-    class CUP_30Rnd_556x45_PMAG_QP: CUP_30Rnd_556x45_Stanag {
-        mass = 10;
-    };
-
     class CUP_60Rnd_556x45_SureFire: CUP_30Rnd_556x45_Stanag {
         mass = 20;
     };

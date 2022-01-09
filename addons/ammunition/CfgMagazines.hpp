@@ -8,8 +8,8 @@ class CfgMagazines {
 
     // 12G
     #include "magazines\12g\2Rnd.hpp"
-    #include "magazines\12g\6Rnd.hpp"
     #include "magazines\12g\8Rnd.hpp"
+    #include "magazines\12g\6Rnd.hpp"
 
     // 5.7
     #include "magazines\57x28\p90.hpp"
