@@ -19,5 +19,4 @@ class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
 
-#include "CfgRecoils.hpp"
 #include "CfgWeapons.hpp"

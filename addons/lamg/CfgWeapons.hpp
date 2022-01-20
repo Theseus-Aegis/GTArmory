@@ -2,9 +2,9 @@ class CfgWeapons {
     class LMG_Mk200_F;
     class CLASS(LMG_LAMG): LMG_Mk200_F {
         author = ECSTRING(main,Author);
+        displayName = "LAMG (GT Edition)";
+        descriptionShort = "GT Edition Light Machine-Gun";
         scope = 2;
-        displayName = CSTRING(LMG_LAMG_Display);
-        descriptionShort = CSTRING(LMG_LAMG_Description);
         recoil = QCLASS(recoil_mk200);
         magazines[] = {
             QCLASS(100Rnd_65x39_Cased_Box),

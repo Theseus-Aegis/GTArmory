@@ -3,7 +3,7 @@ class CfgWeapons {
 
     class acc_flashlight;
     class CLASS(UTG_Flashlight): acc_flashlight {
-        displayName = CSTRING(UTG_Flashlight_Display);
+        displayName = "UTG Defender 126 (GT Edition)";
         MACRO_MULTI_1
 
         class ItemInfo: InventoryFlashLightItem_Base_F {
@@ -17,7 +17,7 @@ class CfgWeapons {
     };
 
     class CLASS(UTG_Low_Flashlight): acc_flashlight {
-        displayName = CSTRING(UTG_Flashlight_Display);
+        displayName = "UTG Defender 126 (GT Edition)";
         MACRO_MULTI_2
 
         class ItemInfo: InventoryFlashLightItem_Base_F {

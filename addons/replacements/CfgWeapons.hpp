@@ -8,7 +8,7 @@ class CfgWeapons {
     class CLASS(IFAK): tac_supplies_replacementBase {
         scope = 2;
         picture = QPATHTOF(ui\ifak_ca.paa);
-        displayName = CSTRING(IFAK_Name);
+        displayName = "IFAK";
         tac_supplies_replacementList[] = {
             "ACE_bodyBag",
             "ACE_fieldDressing",
@@ -41,7 +41,7 @@ class CfgWeapons {
     class CLASS(Grenade_Case): tac_supplies_replacementBase {
         scope = 2;
         picture = QPATHTOF(ui\grenade_case_ca.paa);
-        displayName = CSTRING(Grenade_Case_Name);
+        displayName = "Grenade Case";
         tac_supplies_replacementList[] = {
             "HandGrenade",
             "HandGrenade",
@@ -70,7 +70,7 @@ class CfgWeapons {
     class CLASS(Smoke_Grenade_Case): tac_supplies_replacementBase {
         scope = 2;
         picture = QPATHTOF(ui\smoke_case_ca.paa);
-        displayName = CSTRING(Smoke_Grenade_Case_Name);
+        displayName = "Smoke Grenade Case";
         tac_supplies_replacementList[] = {
             "SmokeShellBlue",
             "SmokeShellBlue",
@@ -89,7 +89,7 @@ class CfgWeapons {
     class CLASS(M4_Weapon_Case): tac_supplies_replacementBase {
         scope = 2;
         picture = QPATHTOF(ui\m4_weapon_case_ca.paa);
-        displayName = CSTRING(M4_Weapon_Case_Name);
+        displayName = "Weapons Casse (M4A1)";
         tac_supplies_replacementList[] = {
             "tacgt_30Rnd_556x45_M855_EMAG",
             "tacgt_30Rnd_556x45_M855_EMAG",

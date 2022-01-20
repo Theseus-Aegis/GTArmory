@@ -8,7 +8,7 @@ class CfgFaces {
         class Sturrock;
 
         class CLASS(TyroneMF_Face): Sturrock {
-            displayName = CSTRING(TyroneMF_Face_Display);
+            displayName = "Tyrone Woods";
             textureHL = QPATHTOF(data\TyroneMF_face_co.paa);
             identityTypes[] = {}; // Disables this face being used on other units.
         };

@@ -3,9 +3,9 @@ class CfgWeapons {
 
     class CLASS(MSBS65_Gimmick): arifle_MSBS65_black_F {
         author = ECSTRING(main,Author);
+        displayName = "MSBS Y33T-CANNON";
         scope = 1;
         scopeArsenal = 1;
-        displayName = CSTRING(MSBS65_Gimmick_Name);
         magazines[] = {
             QCLASS(MSBS65_Gimmick_M_Red),
             QCLASS(MSBS65_Gimmick_M_Green),
@@ -30,7 +30,7 @@ class CfgWeapons {
 
     // 'Pickup' Weapon
     class CLASS(MSBS65_Gimmick_Super): CLASS(MSBS65_Gimmick) {
-        displayName = CSTRING(MSBS65_Gimmick_Super_Name);
+        displayName = "MSBS SUPER Y33T-CANNON";
         modes [] = {"Single", "FullAuto"};
         baseWeapon = QCLASS(MSBS65_Gimmick_Super);
 
