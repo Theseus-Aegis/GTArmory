@@ -6,8 +6,6 @@ class CfgWeapons {
     class UniformItem;
     class U_I_C_Soldier_Bandit_2_F;
 
-    // Kelly - Redo with a vest.
-
     // JJ
     class CLASS(JJ_HeliPilot_Black): H_PilotHelmetHeli_B {
         author = "GilleeDoo";
