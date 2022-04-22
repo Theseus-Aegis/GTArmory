@@ -91,6 +91,7 @@ class CfgVehicles {
         class TransportItems {
             MACRO_ADDITEM(ACE_salineIV_500,20);
             MACRO_ADDITEM(ACE_salineIV_250,20);
+            MACRO_ADDITEM(ACE_surgicalKit,1);
         };
         class TransportMagazines {};
         class TransportWeapons {};
