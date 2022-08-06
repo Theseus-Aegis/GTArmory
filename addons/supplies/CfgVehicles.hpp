@@ -141,7 +141,7 @@ class CfgVehicles {
     };
 
     class CLASS(Supply_Empty_1_1): tac_supplies_Engineer {
-        author = "Tyrone";
+        author = "Mike";
         displayName = "[TAC] Supply Box (1-1)";
         EDITOR_CATEGORY
         scope = 2;

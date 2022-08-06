@@ -6,5 +6,5 @@ logoOver = "tacgt_logo_64.paa";
 tooltip = "";
 tooltipOwned = "";
 overview = "";
-author = "TyroneMF, Gilleedoo";
+author = "Mike, Gilleedoo";
 overviewPicture = "tacgt_logo_128.paa";

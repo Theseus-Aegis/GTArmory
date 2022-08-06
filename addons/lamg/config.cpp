@@ -14,7 +14,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main"};
         author = ECSTRING(main,Authors);
-        authors[] = {"GilleeDoo, Tyrone"};
+        authors[] = {"GilleeDoo, Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

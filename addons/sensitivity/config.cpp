@@ -13,7 +13,7 @@ class CfgPatches {
             "tacu_main"
         };
         author = ECSTRING(main,Authors);
-        authors[] = {"Tyrone"};
+        authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

@@ -1,6 +1,6 @@
 name = "GT Armory"
 prefix = "tacgt"
-author = "Tyrone, Gilleedoo"
+author = "Mike, Gilleedoo"
 files = [
     "mod.cpp",
     "README.md",
