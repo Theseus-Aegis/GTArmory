@@ -1,9 +1,6 @@
 class CfgWeapons {
     // Base classes
-    #include "bohemia\baseclasses.hpp"
-    #include "cup\baseclasses.hpp"
-    #include "niarms\baseclasses.hpp"
-    #include "pi\baseclasses.hpp"
+    #include "baseclasses.hpp"
 
     // 5.45
     #include "bohemia\545\ak.hpp"

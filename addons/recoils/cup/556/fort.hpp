@@ -4,9 +4,11 @@
 class CUP_arifle_Fort221: arifle_TRG20_F {
     recoil = QCLASS(556_Bullpup_Short);
 };
+
 class CUP_arifle_X95: Tavor_base_F {
     recoil = QCLASS(556_Bullpup_Short);
 };
+
 // Foregrip
 class CUP_arifle_X95_Grippod: CUP_arifle_X95 {
     recoil = QCLASS(556_Bullpup_Foregrip_Short);
