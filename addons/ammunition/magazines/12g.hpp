@@ -64,7 +64,7 @@ class CLASS(6Rnd_S_UGL): 6Rnd_12Gauge_Slug {
 // 8Rnd Saiga
 class CLASS(8Rnd_Saiga_000): CUP_5Rnd_B_Saiga12_Buck_00 {
     MACRO_SCOPE
-    ammo = QCLASS(S_12G_000);
+    ammo = QCLASS(P_12G_000);
     count = 8;
     descriptionShort = "#00 Magnum Shells";
     displayName = "8Rnd Saiga (Magnum)";
