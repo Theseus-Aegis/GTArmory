@@ -86,6 +86,6 @@ class CLASS(100Rnd_762x51_Ball_Tracer_Belt): CLASS(100Rnd_762x51_Ball_Belt) {
 };
 class CLASS(100Rnd_762x51_EPR_Belt): CLASS(100Rnd_762x51_Ball_Belt) {
     ammo = QCLASS(762x51_EPR);
-    descriptionShort = "7.62x51mm Ball Tracer Every 4";
+    descriptionShort = "7.62x51mm EPR Tracer Every 4";
     displayName = "7.62mm 100Rnd [TE4] (EPR)";
 };

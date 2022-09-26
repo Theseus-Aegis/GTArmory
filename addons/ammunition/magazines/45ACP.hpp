@@ -1,3 +1,4 @@
+// .45ACP
 class CLASS(25Rnd_45ACP_Ball): 30Rnd_45ACP_Mag_SMG_01 {
     MACRO_SCOPE
     ammo = QCLASS(45ACP_Ball);

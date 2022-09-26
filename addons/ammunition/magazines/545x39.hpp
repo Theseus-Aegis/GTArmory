@@ -4,39 +4,43 @@ class CLASS(30Rnd_545x39_Ball): 30Rnd_545x39_Mag_F {
     MACRO_AK12_MAGAZINE_TAN
     ammo = QCLASS(545x39_Ball);
     descriptionShort = "5.45x39mm Ball Reload Tracer";
-    displayName = "5.45mm Tan 30Rnd (Ball)";
+    displayName = "5.45mm 30Rnd Tan (Ball)";
     lastRoundsTracer = 4;
     mass = 10;
 };
 class CLASS(30Rnd_545x39_Ball_Tracer): CLASS(30Rnd_545x39_Ball) {
     descriptionShort = "5.45x39mm Ball Tracer";
-    displayName = "5.45mm Tan 30Rnd [T] (Ball)";
+    displayName = "5.45mm 30Rnd Tan [T] (Ball)";
     tracersEvery = 1;
 };
 class CLASS(30Rnd_545x39_EPR): CLASS(30Rnd_545x39_Ball) {
     ammo = QCLASS(545x39_EPR);
     descriptionShort = "5.45x39mm EPR Reload Tracer";
-    displayName = "5.45mm Tan 30Rnd (EPR)";
+    displayName = "5.45mm 30Rnd Tan (EPR)";
 };
 class CLASS(30Rnd_545x39_AP): CLASS(30Rnd_545x39_EPR) {
     ammo = QCLASS(545x39_AP);
     descriptionShort = "5.45x39mm AP Reload Tracer";
-    displayName = "5.45mm Tan 30Rnd (AP)";
+    displayName = "5.45mm 30Rnd Tan (AP)";
 };
 
 // 5.45x39mm Black
 class CLASS(30Rnd_545x39_Ball_Black): CLASS(30Rnd_545x39_Ball) {
     MACRO_AK12_MAGAZINE_BLACK
+    displayName = "5.45mm 30Rnd Black (Ball)";
 };
 class CLASS(30Rnd_545x39_Ball_Tracer_Black): CLASS(30Rnd_545x39_Ball_Tracer) {
     MACRO_AK12_MAGAZINE_BLACK
+    displayName = "5.45mm 30Rnd Black [T] (Ball)";
 };
 
 class CLASS(30Rnd_545x39_EPR_Black): CLASS(30Rnd_545x39_EPR) {
     MACRO_AK12_MAGAZINE_BLACK
+    displayName = "5.45mm 30Rnd Black (EPR)";
 };
 class CLASS(30Rnd_545x39_AP_Black): CLASS(30Rnd_545x39_AP) {
     MACRO_AK12_MAGAZINE_BLACK
+    displayName = "5.45mm 30Rnd Black (AP)";
 };
 
 // 5.45x39mm Quadstack

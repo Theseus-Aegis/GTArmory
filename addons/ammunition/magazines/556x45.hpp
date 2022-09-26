@@ -244,7 +244,7 @@ class CLASS(42Rnd_556x45_EPR_AUG): CLASS(42Rnd_556x45_Ball_AUG) {
 };
 class CLASS(42Rnd_556x45_AP_AUG): CLASS(42Rnd_556x45_EPR_AUG) {
     ammo = QCLASS(556x45_AP);
-    descriptionShort = "5.56x45mm EPR Reload Tracer";
+    descriptionShort = "5.56x45mm AP Reload Tracer";
     displayName = "5.56mm 42Rnd AUG (AP)";
 };
 
