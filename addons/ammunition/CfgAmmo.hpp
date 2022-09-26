@@ -120,6 +120,19 @@ class CfgAmmo {
         caliber = 2;
     };
 
+    // 4.6x30mm (Comparable to 5.7x28mm but slightly worse performing penetration.)
+    class CLASS(46x30_Ball): CLASS(57x28_Ball) {
+        caliber = 1.25;
+        hit = 12.2;
+    };
+    class CLASS(46x30_EPR): CLASS(46x30_Ball) {
+        caliber = 1.64;
+        hit = 10.7;
+    };
+    class CLASS(46x30_AP): CLASS(46x30_EPR) {
+        caliber = 1.89;
+    };
+
     // 5.8x42mm
     class CLASS(58x42_Ball): B_580x42_Ball_F {
         aiAmmoUsageFlags = "64 + 128";
@@ -221,5 +234,38 @@ class CfgAmmo {
     };
     class CLASS(762x54r_AP): CLASS(762x54r_EPR) {
         caliber = 2.25;
+    };
+
+
+    // .300AAC - Subsonic
+    class HLC_300Blackout_RNBT;
+    class CLASS(300AAC_Ball): HLC_300Blackout_RNBT {
+        aiAmmoUsageFlags = "64 + 128";
+        caliber = 1;
+        hit = 12;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+    };
+    class CLASS(300AAC_EPR): CLASS(300AAC_Ball) {
+        caliber = 1.2;
+        hit = 11;
+    };
+    class CLASS(300AAC_AP): CLASS(300AAC_EPR) {
+        caliber = 1.4;
+    };
+
+    // 9x39mm - Subsonic
+    class CUP_B_9x39_SP5;
+    class CLASS(9x39_Ball): CUP_B_9x39_SP5 {
+        aiAmmoUsageFlags = "64 + 128";
+        caliber = 0.9;
+        hit = 11;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+    };
+    class CLASS(9x39_EPR): CLASS(9x39_Ball) {
+        caliber = 1.1;
+        hit = 10.5;
+    };
+    class CLASS(9x39_AP): CLASS(9x39_EPR) {
+        caliber = 1.2;
     };
 };

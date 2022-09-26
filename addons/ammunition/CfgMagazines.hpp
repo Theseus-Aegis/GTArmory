@@ -7,7 +7,11 @@ class CfgMagazines {
     class 6Rnd_12Gauge_Slug;
     class 30Rnd_9x21_Mag;
     class CUP_30Rnd_9x19_MP5;
+    class CUP_30Rnd_9x19_Vityaz;
+    class CUP_64Rnd_9x19_Bizon_M;
+    class CUP_40Rnd_46x30_MP7;
     class 30Rnd_545x39_Mag_F;
+    class CUP_30Rnd_545x39_Fort224_M;
     class CUP_60Rnd_545x39_AK74M_M;
     class 30Rnd_45ACP_Mag_SMG_01;
     class 50Rnd_570x28_SMG_03;
@@ -21,6 +25,8 @@ class CfgMagazines {
     class hlc_40Rnd_556x45_B_AUG;
     class CUP_30Rnd_TE1_Green_Tracer_556x45_G36;
     class CUP_60Rnd_556x45_SureFire;
+    class 150Rnd_556x45_Drum_Mag_F;
+    class CUP_100Rnd_556x45_BetaCMag;
     class 200Rnd_556x45_Box_F;
     class 30Rnd_65x39_caseless_mag; // MX
     class 100Rnd_65x39_caseless_mag;
@@ -39,14 +45,19 @@ class CfgMagazines {
     class hlc_100Rnd_762x51_B_M60E4;
     class 150Rnd_762x54_Box;
     class 10Rnd_762x54_Mag;
+    class 29rnd_300BLK_STANAG_T;
+    class CUP_30Rnd_9x39_SP5_VIKHR_M;
 
     #include "magazines\12g.hpp"
     #include "magazines\9x19.hpp"
+    #include "magazines\9x39.hpp"
     #include "magazines\45ACP.hpp"
+    #include "magazines\46x30.hpp"
     #include "magazines\57x28.hpp"
     #include "magazines\58x42.hpp"
     #include "magazines\65x39.hpp"
     #include "magazines\68x43.hpp"
+    #include "magazines\300Blackout.hpp"
     #include "magazines\545x39.hpp"
     #include "magazines\556x45.hpp"
     #include "magazines\762x39.hpp"

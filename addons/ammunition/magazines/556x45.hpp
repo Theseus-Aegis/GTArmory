@@ -268,3 +268,42 @@ class CLASS(60Rnd_556x45_EPR_Surefire): CLASS(60Rnd_556x45_Ball_Surefire) {
     displayName = "5.56mm 60Rnd Surefire [TE4] (EPR)";
 };
 
+// 5.56x45mm Drum 150
+class CLASS(150Rnd_556x45_Ball_Drum): 150Rnd_556x45_Drum_Mag_F {
+    MACRO_SCOPE
+    ammo = QCLASS(556x45_Ball);
+    descriptionShort = "5.56x45mm Ball Tracer Every 4";
+    displayName = "5.56mm 150Rnd Drum [TE4] (Ball)";
+    tracersEvery = 4;
+    mass = 35;
+};
+class CLASS(150Rnd_556x45_Ball_Tracer_Drum): CLASS(150Rnd_556x45_Ball_Drum) {
+    descriptionShort = "5.56x45mm Ball Tracer";
+    displayName = "5.56mm 150Rnd Drum [T] (Ball)";
+    tracersEvery = 1;
+};
+class CLASS(150Rnd_556x45_EPR_Drum): CLASS(150Rnd_556x45_Ball_Drum) {
+    ammo = QCLASS(556x45_EPR);
+    descriptionShort = "5.56x45mm EPR Tracer Every 4";
+    displayName = "5.56mm 150Rnd Drum [TE4] (EPR)";
+};
+
+/// 5.56x45mm Beta-C
+class CLASS(100Rnd_556x45_Ball_BetaC): CUP_100Rnd_556x45_BetaCMag {
+    MACRO_SCOPE
+    ammo = QCLASS(556x45_Ball);
+    descriptionShort = "5.56x45mm Ball Tracer Every 4";
+    displayName = "5.56mm 100Rnd Beta-C [TE4] (Ball)";
+    tracersEvery = 4;
+    mass = 30;
+};
+class CLASS(100Rnd_556x45_Ball_Tracer_BetaC): CLASS(100Rnd_556x45_Ball_BetaC) {
+    descriptionShort = "5.56x45mm Ball Tracer";
+    displayName = "5.56mm 100Rnd Beta-C [T] (Ball)";
+    tracersEvery = 1;
+};
+class CLASS(100Rnd_556x45_EPR_BetaC): CLASS(100Rnd_556x45_Ball_BetaC) {
+    ammo = QCLASS(556x45_EPR);
+    descriptionShort = "5.56x45mm EPR Tracer Every 4";
+    displayName = "5.56mm 100Rnd Beta-C [TE4] (EPR)";
+};

@@ -58,3 +58,28 @@ class CLASS(60Rnd_545x39_EPR_Quadstack): CLASS(60Rnd_545x39_Ball_Quadstack) {
     descriptionShort = "5.45x39mm EPR Tracer Every 4";
     displayName = "5.45mm 60Rnd Quadstack [TE4] (EPR)";
 };
+
+// 5.45x39mm Fort
+class CLASS(30Rnd_545x39_Ball_Fort): CUP_30Rnd_545x39_Fort224_M {
+    MACRO_SCOPE
+    ammo = QCLASS(545x39_Ball);
+    descriptionShort = "5.45x39mm Ball Reload Tracer";
+    displayName = "5.45mm 30Rnd Fort (Ball)";
+    lastRoundsTracer = 4;
+    mass = 10;
+};
+class CLASS(30Rnd_545x39_Ball_Tracer_Fort): CLASS(30Rnd_545x39_Ball_Fort) {
+    descriptionShort = "5.45x39mm Ball Tracer";
+    displayName = "5.45mm 30Rnd Fort [T] (Ball)";
+    tracersEvery = 1;
+};
+class CLASS(30Rnd_545x39_EPR_Fort): CLASS(30Rnd_545x39_Ball_Fort) {
+    ammo = QCLASS(545x39_EPR);
+    descriptionShort = "5.45x39mm EPR Reload Tracer";
+    displayName = "5.45mm 30Rnd Fort (EPR)";
+};
+class CLASS(30Rnd_545x39_AP_Fort): CLASS(30Rnd_545x39_EPR_Fort) {
+    ammo = QCLASS(545x39_AP);
+    descriptionShort = "5.45x39mm AP Reload Tracer";
+    displayName = "5.45mm 30Rnd Fort (AP)";
+};

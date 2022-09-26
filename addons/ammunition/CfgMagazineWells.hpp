@@ -50,6 +50,24 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_9x39_VSS {
+        ADDON[] = {
+            QCLASS(30Rnd_9x39_Ball),
+            QCLASS(30Rnd_9x39_Ball_Tracer),
+            QCLASS(30Rnd_9x39_EPR),
+            QCLASS(30Rnd_9x39_AP)
+        };
+    };
+
+    class CBA_300BLK_STANAG {
+        ADDON[] = {
+            QCLASS(30Rnd_300AAC_Ball),
+            QCLASS(30Rnd_300AAC_Ball_Tracer),
+            QCLASS(30Rnd_300AAC_EPR),
+            QCLASS(30Rnd_300AAC_AP)
+        };
+    };
+
     class CLASS(9x19_MP5) { // Prevents regular BI Magazines fitting the CUP MP5s as no model shows.
         ADDON[] = {
             QCLASS(30Rnd_9x19_Ball_MP5),
@@ -68,6 +86,33 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_9x19_PP19 {
+        ADDON[] = {
+            QCLASS(64Rnd_9x19_Ball_Bizon),
+            QCLASS(64Rnd_9x19_Ball_Tracer_Bizon),
+            QCLASS(64Rnd_9x19_EPR_Bizon),
+            QCLASS(64Rnd_9x19_AP_Bizon)
+        };
+    };
+
+    class CBA_9x19_Vityaz {
+        ADDON[] = {
+            QCLASS(30Rnd_9x19_Ball_Vityaz),
+            QCLASS(30Rnd_9x19_Ball_Tracer_Vityaz),
+            QCLASS(30Rnd_9x19_EPR_Vityaz),
+            QCLASS(30Rnd_9x19_AP_Vityaz)
+        };
+    };
+
+    class CBA_46x30_MP7 {
+        ADDON[] = {
+            QCLASS(40Rnd_46x30_Ball),
+            QCLASS(40Rnd_46x30_Ball_Tracer),
+            QCLASS(40Rnd_46x30_EPR),
+            QCLASS(40Rnd_46x30_AP)
+        };
+    };
+
     class CBA_545x39_AK {
         ADDON[] = {
             QCLASS(30Rnd_545x39_Ball),
@@ -81,6 +126,15 @@ class CfgMagazineWells {
             QCLASS(60Rnd_545x39_Ball_Quadstack),
             QCLASS(60Rnd_545x39_Ball_Tracer_Quadstack),
             QCLASS(60Rnd_545x39_EPR_Quadstack)
+        };
+    };
+
+    class CBA_545x39_Fort {
+        ADDON[] = {
+            QCLASS(30Rnd_545x39_Ball_Fort),
+            QCLASS(30Rnd_545x39_Ball_Tracer_Fort),
+            QCLASS(30Rnd_545x39_EPR_Fort),
+            QCLASS(30Rnd_545x39_AP_Fort)
         };
     };
 
@@ -132,7 +186,10 @@ class CfgMagazineWells {
             QCLASS(30Rnd_556x45_Ball_G36),
             QCLASS(30Rnd_556x45_Ball_Tracer_G36),
             QCLASS(30Rnd_556x45_EPR_G36),
-            CLASS(30Rnd_556x45_AP_G36)
+            CLASS(30Rnd_556x45_AP_G36),
+            QCLASS(100Rnd_556x45_Ball_BetaC),
+            QCLASS(100Rnd_556x45_Ball_Tracer_BetaC),
+            QCLASS(100Rnd_556x45_EPR_BetaC)
         };
     };
 
@@ -174,7 +231,18 @@ class CfgMagazineWells {
             QCLASS(30Rnd_556x45_AP_PMAG_Tan),
             QCLASS(60Rnd_556x45_Ball_Surefire),
             QCLASS(60Rnd_556x45_Ball_Tracer_Surefire),
-            QCLASS(60Rnd_556x45_EPR_Surefire)
+            QCLASS(60Rnd_556x45_EPR_Surefire),
+            QCLASS(100Rnd_556x45_Ball_BetaC),
+            QCLASS(100Rnd_556x45_Ball_Tracer_BetaC),
+            QCLASS(100Rnd_556x45_EPR_BetaC)
+        };
+    };
+
+    class CBA_556x45_STANAG_2D_XL {
+        ADDON[] = {
+            QCLASS(150Rnd_556x45_Ball_Drum),
+            QCLASS(150Rnd_556x45_Ball_Tracer_Drum),
+            QCLASS(150Rnd_556x45_EPR_Drum)
         };
     };
 

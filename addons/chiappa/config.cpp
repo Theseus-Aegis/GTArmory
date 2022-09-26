@@ -19,6 +19,7 @@ class CfgPatches {
 
 class Mode_SemiAuto;
 
+#include "CfgAmmo.hpp"
+#include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgMagazineWells.hpp"
-#include "CfgMagazines.hpp"

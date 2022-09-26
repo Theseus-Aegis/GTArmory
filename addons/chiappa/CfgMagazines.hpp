@@ -8,13 +8,9 @@ class CfgMagazines {
         scopeArsenal = 2;
         ammo = QCLASS(357_Magnum);
     };
-
-    class CLASS(6Rnd_44): 6Rnd_45ACP_Cylinder {
-        author = ECSTRING(main,Author);
+    class CLASS(6Rnd_44): CLASS(6Rnd_357) {
         displayName = "6Rnd .44 Cylinder";
         descriptionShort = "Caliber: .44 Magnum";
-        scope = 2;
-        scopeArsenal = 2;
         ammo = QCLASS(44_Magnum);
     };
 };
