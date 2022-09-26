@@ -6,7 +6,17 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "ace_ballistics", "CUP_Weapons_Ammunition", "hlcweapons_AUG", "hlcweapons_SG550"};
+        requiredAddons[] = {
+            "tacgt_main",
+            "ace_ballistics",
+            "CUP_Weapons_Ammunition",
+            "CUP_Weapons_AK12",
+            "CUP_Weapons_Bren2",
+            "CUP_Weapons_Famas",
+            "hlcweapons_core",
+            "hlcweapons_AUG",
+            "hlcweapons_SG550"
+        };
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
@@ -17,3 +27,4 @@ class CfgPatches {
 #include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
+#include "CfgWeapons.hpp"
