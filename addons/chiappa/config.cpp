@@ -8,12 +8,8 @@ class CfgPatches {
             QCLASS(Rhino_357),
             QCLASS(Rhino_44)
         };
-        magazines[] = {
-            QCLASS(6Rnd_357),
-            QCLASS(6Rnd_44)
-        };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "tacgt_ammunition"};
+        requiredAddons[] = {"tacgt_main"};
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
@@ -23,5 +19,7 @@ class CfgPatches {
 
 class Mode_SemiAuto;
 
-#include "CfgWeapons.hpp"
+#include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgMagazineWells.hpp"
