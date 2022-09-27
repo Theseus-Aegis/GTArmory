@@ -5,7 +5,7 @@ class CfgVehicles {
     // Ground Items
     class CLASS(MM_Item_Minotaur_Uniform): Item_Base_F {
         author = "GilleeDoo";
-        displayName = displayName = "Minotaur Uniform 'MM' Edition";
+        displayName = "Minotaur Uniform 'MM' Edition";
         scope = 2;
         scopeCurator = 2;
         vehicleClass = "ItemsUniforms";
