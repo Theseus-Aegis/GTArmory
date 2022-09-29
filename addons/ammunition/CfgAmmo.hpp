@@ -1,6 +1,5 @@
 class CfgAmmo {
  /*
-  * Tracer Model: // model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
   * Most require Ball (HP), EPR and AP variants.
   * HP has minimal penetration with high damage
   * EPR has medium penetration with medium damage
@@ -11,9 +10,9 @@ class CfgAmmo {
     class BulletBase; // 12G
     class B_12Gauge_Pellets_Submunition;
     class B_12Gauge_Pellets_Submunition_Deploy;
-    class B_9x21_Ball; // 9x19
+    class B_9x21_Ball_Tracer_Yellow; // 9x19
     class B_545x39_Ball_F; // 5.45x39
-    class B_570x28_Ball; // 5.7x28
+    class CUP_B_570x28_Ball_Tracer_Yellow; // 5.7x28
     class B_45ACP_Ball; // .45ACP
     class B_580x42_Ball_F; // 5.8x42
     class B_556x45_Ball; // 5.56x45
@@ -21,6 +20,8 @@ class CfgAmmo {
     class B_762x39_Ball_F; // 7.62x39
     class B_762x51_Ball; // 7.62x51
     class B_762x54_Ball; // 7.62x54R
+    class HLC_300Blackout_RNBT; // .300 Blackout Subsonic
+    class CUP_B_9x39_SP5; // 9x39
 
     // 12G
     class CLASS(12g_Pellets_Submunition): B_12Gauge_Pellets_Submunition {
@@ -64,11 +65,12 @@ class CfgAmmo {
     };
 
     // 9x19mm
-    class CLASS(9x19_Ball): B_9x21_Ball {
+    class B_9x21_Ball_Tracer_Yellow;
+    class CLASS(9x19_Ball): B_9x21_Ball_Tracer_Yellow {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.8;
         hit = 10;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(9x19_EPR): CLASS(9x19_Ball) {
         caliber = 1.3;
@@ -83,7 +85,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 1.2;
         hit = 12;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(545x39_EPR): CLASS(545x39_Ball) {
         caliber = 1.6;
@@ -98,7 +100,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.8;
         hit = 10;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(45ACP_EPR): CLASS(45ACP_Ball) {
         caliber = 1.3;
@@ -106,11 +108,11 @@ class CfgAmmo {
     };
 
     // 5.7x28mm
-    class CLASS(57x28_Ball): B_570x28_Ball {
+    class CLASS(57x28_Ball): CUP_B_570x28_Ball_Tracer_Yellow {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 1.4;
         hit = 12;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(57x28_EPR): CLASS(57x28_Ball) {
         caliber = 1.75;
@@ -138,7 +140,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 1.25;
         hit = 12.5;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(58x42_EPR): CLASS(58x42_Ball) {
         caliber = 1.65;
@@ -153,7 +155,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 1.25;
         hit = 12.5;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(556x45_EPR): CLASS(556x45_Ball) {
         caliber = 1.65;
@@ -168,7 +170,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 1.25;
         hit = 12.8;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(65x39_EPR): CLASS(65x39_Ball) {
         caliber = 1.6;
@@ -196,7 +198,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 1.25;
         hit = 12.8;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(762x39_EPR): CLASS(762x39_Ball) {
         caliber = 1.55;
@@ -211,7 +213,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 1.25;
         hit = 12.8;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(762x51_EPR): CLASS(762x51_Ball) {
         caliber = 1.76;
@@ -226,7 +228,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 1.45;
         hit = 13;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(762x54r_EPR): CLASS(762x54r_Ball) {
         caliber = 1.85;
@@ -238,12 +240,11 @@ class CfgAmmo {
 
 
     // .300AAC - Subsonic
-    class HLC_300Blackout_RNBT;
     class CLASS(300AAC_Ball): HLC_300Blackout_RNBT {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 1;
         hit = 12;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(300AAC_EPR): CLASS(300AAC_Ball) {
         caliber = 1.2;
@@ -254,12 +255,11 @@ class CfgAmmo {
     };
 
     // 9x39mm - Subsonic
-    class CUP_B_9x39_SP5;
     class CLASS(9x39_Ball): CUP_B_9x39_SP5 {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.9;
         hit = 11;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+        MACRO_TRACERS
     };
     class CLASS(9x39_EPR): CLASS(9x39_Ball) {
         caliber = 1.1;
