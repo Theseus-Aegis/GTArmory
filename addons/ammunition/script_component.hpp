@@ -8,6 +8,12 @@
     scopeArsenal = 2; \
     author = ECSTRING(main,Author);
 
+#define MACRO_TRACERS \
+    model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow";
+    tracerEndTime = 1;
+    tracerScale = 0.5;
+    tracerstartTime = 0.05;
+
 #define MACRO_AK12_MAGAZINE_TAN \
     hiddenSelections[] = {"Camo1"}; \
     hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\ak12_mag_tan_co.paa"}; \
