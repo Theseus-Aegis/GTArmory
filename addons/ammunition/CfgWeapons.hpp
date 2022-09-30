@@ -48,4 +48,9 @@ class CfgWeapons {
     class CUP_arifle_Mk17_CQC_EGLM: CUP_arifle_Mk17_CQC {
         magazineWell[] = {"CBA_762x51_SCAR"};
     };
+
+    class bnae_r1_base;
+    class bnae_r1_virtual: bnae_r1_base {
+        magazineWell[] = {"ACPC2_45ACP","CBA_45ACP_1911"};
+    };
 };
