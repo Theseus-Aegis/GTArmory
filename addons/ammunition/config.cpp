@@ -17,7 +17,8 @@ class CfgPatches {
             "CUP_Weapons_X95",
             "hlcweapons_core",
             "hlcweapons_AUG",
-            "hlcweapons_SG550"
+            "hlcweapons_SG550",
+            "bnae_r1_virtual"
         };
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
