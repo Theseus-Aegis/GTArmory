@@ -107,6 +107,16 @@ class CfgAmmo {
         hit = 8;
     };
 
+    // .357 Magnum
+    class CLASS(357_Magnum): B_45ACP_Ball {
+        hit = 10;
+    };
+
+    // .44 Magnum
+    class CLASS(44_Magnum): CLASS(357_Magnum) {
+        hit = 12;
+    };
+
     // 5.7x28mm
     class CLASS(57x28_Ball): CUP_B_570x28_Ball_Tracer_Yellow {
         aiAmmoUsageFlags = "64 + 128";
