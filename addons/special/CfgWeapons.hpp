@@ -66,4 +66,15 @@ class CfgWeapons {
             mass = 40;
         };
     };
+
+    // Zak (Additional stuff inside Ammunition component)
+    class hlc_Pistol_M11A1;
+    class CLASS(M11A1_Special): hlc_Pistol_M11A1 {
+        author = "Mike";
+        scope = 2;
+        displayName = "Sig Sauer M11-10 Compact";
+        magazines[] = {QCLASS(10mm_Ball_Special)};
+        magazineWell[] = {};
+        baseWeapon = QCLASS(M11A1_Special);
+    };
 };
