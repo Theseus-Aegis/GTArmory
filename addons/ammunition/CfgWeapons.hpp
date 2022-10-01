@@ -6,6 +6,27 @@ class CfgWeapons {
         magazineWell[] = {"CBA_9x19_ScorpionEvo3"};
     };
 
+    class Pistol_Base_F;
+    class hgun_P07_F: Pistol_Base_F {
+        magazineWell[] += {"CBA_9x19_Walther"};
+    };
+
+    class CUP_hgun_M17_Coyote: Pistol_Base_F {
+        magazineWell[] = {"CBA_9x19_M17"};
+    };
+
+    class hgun_Pistol_heavy_01_F: Pistol_Base_F {
+        magazineWell[] += {"CBA_45ACP_FNX45"};
+    };
+
+    class hgun_Rook40_F: Pistol_Base_F {
+        magazineWell[] += {"CBA_9x19_Walther"};
+    };
+
+    class CUP_hgun_Mk23: Pistol_Base_F {
+        magazineWell[] = {"CBA_45ACP_MK23"};
+    };
+
     class Rifle_Long_Base_F;
     class DMR_07_base_F: Rifle_Long_Base_F {
         magazineWell[] = {"CBA_65x39_QBU"};

@@ -48,6 +48,22 @@ class CfgMagazines {
     class 29rnd_300BLK_STANAG_T;
     class CUP_30Rnd_9x39_SP5_VIKHR_M;
 
+    // Handgun baseclasses
+    class 16Rnd_9x21_Mag;
+    class CUP_13Rnd_9x19_Browning_HP;
+    class CUP_18Rnd_9x19_Phantom;
+    class CUP_17Rnd_9x19_glock17;
+    class hlc_15Rnd_9x19_B_P226;
+    class CUP_17Rnd_9x19_M17_Black;
+    class CUP_15Rnd_9x19_M9;
+    class hlc_10Rnd_9x19_B_P239;
+    class CUP_7Rnd_45ACP_1911;
+    class 11Rnd_45ACP_Mag;
+    class CUP_12Rnd_45ACP_mk23;
+    class hlc_12Rnd_357SIG_B_P226;
+    class hlc_8Rnd_357SIG_B_P239;
+
+    // Rifles
     #include "magazines\12g.hpp"
     #include "magazines\9x19.hpp"
     #include "magazines\9x39.hpp"
@@ -63,4 +79,9 @@ class CfgMagazines {
     #include "magazines\762x39.hpp"
     #include "magazines\762x51.hpp"
     #include "magazines\762x54r.hpp"
+
+    // Handguns
+    #include "handgun_magazines\9x19.hpp"
+    #include "handgun_magazines\45ACP.hpp"
+    #include "handgun_magazines\357.hpp"
 };
