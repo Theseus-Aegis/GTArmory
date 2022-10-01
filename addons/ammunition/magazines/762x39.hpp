@@ -5,6 +5,7 @@ class CLASS(30Rnd_762x39_Ball_Plastic_Black): 30Rnd_762x39_AK12_Mag_F {
     descriptionShort = "7.62x39mm Ball Reload Tracer";
     displayName = "7.62mm 30Rnd AK Plastic Black (Ball)";
     lastRoundsTracer = 4;
+    mass = 11;
 };
 class CLASS(30Rnd_762x39_Ball_Tracer_Plastic_Black): CLASS(30Rnd_762x39_Ball_Plastic_Black) {
     descriptionShort = "7.62x39mm Ball Tracer";
@@ -26,6 +27,7 @@ class CLASS(30Rnd_762x39_AP_Plastic_Black): CLASS(30Rnd_762x39_EPR_Plastic_Black
 class CLASS(30Rnd_762x39_Ball_Plastic_Tan): CLASS(30Rnd_762x39_Ball_Plastic_Black) {
     MACRO_762_AK12_MAGAZINE_TAN
     displayName = "7.62mm 30Rnd AK Plastic Tan (Ball)";
+    mass = 11;
 };
 class CLASS(30Rnd_762x39_Ball_Tracer_Plastic_Tan): CLASS(30Rnd_762x39_Ball_Tracer_Plastic_Black) {
     MACRO_762_AK12_MAGAZINE_TAN
@@ -47,6 +49,7 @@ class CLASS(30Rnd_762x39_Ball_Metal): 30Rnd_762x39_Mag_F {
     descriptionShort = "7.62x39mm Ball Reload Tracer";
     displayName = "7.62mm 30Rnd AK Metal (Ball)";
     lastRoundsTracer = 4;
+    mass = 11;
 };
 class CLASS(30Rnd_762x39_Ball_Tracer_Metal): CLASS(30Rnd_762x39_Ball_Metal) {
     descriptionShort = "7.62x39mm Ball Tracer";
@@ -91,7 +94,7 @@ class CLASS(30Rnd_762x39_Ball_CZ): CUP_30Rnd_762x39_CZ807 {
     descriptionShort = "7.62x39mm Ball Reload Tracer";
     displayName = "7.62mm 30Rnd CZ (Ball)";
     lastRoundsTracer = 4;
-    mass = 10;
+    mass = 11;
 };
 class CLASS(30Rnd_762x39_Ball_Tracer_CZ): CLASS(30Rnd_762x39_Ball_CZ) {
     descriptionShort = "7.62x39mm Ball Tracer";
