@@ -14,7 +14,7 @@ class CfgPatches {
             QCLASS(MM_minotaur_uniform)
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "milgp_uniforms_cfg", "milgp_vests_cfg"};
+        requiredAddons[] = {"tacgt_main", "tacgt_ammunition", "milgp_uniforms_cfg", "milgp_vests_cfg", "niaweapons_226"};
         author = ECSTRING(main,Authors);
         authors[] = {"GilleeDoo", "Mike"};
         url = ECSTRING(main,URL);

@@ -84,4 +84,5 @@ class CfgMagazines {
     #include "handgun_magazines\9x19.hpp"
     #include "handgun_magazines\45ACP.hpp"
     #include "handgun_magazines\357.hpp"
+    #include "handgun_magazines\10mm.hpp"
 };

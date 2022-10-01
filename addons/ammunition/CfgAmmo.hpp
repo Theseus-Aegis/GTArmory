@@ -117,6 +117,11 @@ class CfgAmmo {
         hit = 12;
     };
 
+    // 10mm
+    class CLASS(10mm_Ball): CLASS(357_Magnum) {
+        hit = 11;
+    };
+
     // 5.7x28mm
     class CLASS(57x28_Ball): CUP_B_570x28_Ball_Tracer_Yellow {
         aiAmmoUsageFlags = "64 + 128";
