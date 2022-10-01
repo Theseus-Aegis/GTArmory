@@ -5,6 +5,7 @@ class CLASS(150Rnd_762x54r_Ball_Belt): 150Rnd_762x54_Box {
     descriptionShort = "7.62x54r Ball Tracer Every 4";
     displayName = "7.62mm 150Rnd Belt [TE4] (Ball)";
     tracersEvery = 4;
+    mass = 35;
 };
 class CLASS(150Rnd_762x54r_Ball_Tracer_Belt): CLASS(150Rnd_762x54r_Ball_Belt) {
     descriptionShort = "7.62x54r Ball Tracer";
@@ -24,6 +25,7 @@ class CLASS(10Rnd_762x54r_Ball): 10Rnd_762x54_Mag {
     descriptionShort = "7.62x54r Ball Reload Tracer";
     displayName = "7.62mm 10Rnd (Ball)";
     lastRoundsTracer = 2;
+    mass = 8;
 };
 class CLASS(10Rnd_762x54r_Ball_Tracer): CLASS(10Rnd_762x54r_Ball) {
     descriptionShort = "7.62x54r Ball Tracer";
