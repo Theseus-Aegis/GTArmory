@@ -22,6 +22,8 @@ class CfgPatches {
     };
 };
 
+class Mode_SemiAuto;
+
 #include "CfgFaces.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
