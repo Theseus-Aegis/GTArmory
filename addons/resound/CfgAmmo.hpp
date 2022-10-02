@@ -1,3 +1,4 @@
+// Mortar whistling sound
 class CfgAmmo {
     class Sh_155mm_AMOS;
     class Sh_82mm_AMOS: Sh_155mm_AMOS {

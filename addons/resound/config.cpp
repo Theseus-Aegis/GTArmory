@@ -5,9 +5,18 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "CUP_Weapons_MP7"};
+        requiredAddons[] = {
+            "tacgt_main",
+            "CUP_Weapons_Ammunition",
+            "CUP_Weapons_AK",
+            "CUP_Weapons_Deagle",
+            "CUP_Weapons_L85",
+            "CUP_Weapons_M1014",
+            "CUP_Weapons_MP7",
+            "CUP_Weapons_Saiga12K",
+            "CUP_Weapons_Sounds"
+        };
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
@@ -16,6 +25,9 @@ class CfgPatches {
 };
 
 class Mode_SemiAuto;
+class Mode_Burst;
 class Mode_FullAuto;
+class MGun;
 
+#include "CfgAmmo.hpp"
 #include "CfgWeapons.hpp"
