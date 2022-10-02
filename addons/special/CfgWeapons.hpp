@@ -72,9 +72,26 @@ class CfgWeapons {
     class CLASS(M11A1_Special): hlc_Pistol_M11A1 {
         author = "Mike";
         scope = 2;
-        displayName = "Sig Sauer M11-10 Compact";
+        displayName = "SigSauer M11 10th Legion Special";
         magazines[] = {QCLASS(10mm_Ball_Special)};
         magazineWell[] = {};
         baseWeapon = QCLASS(M11A1_Special);
+        hiddenSelections[] = {"228Slides", "Sigframe_228", "SIG_US_Grips228", "SIGpistol_Common"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\228slides_zz_co.paa),
+            "hlc_wp_p226\tex\p226\228m11a1_frame_co.paa",
+            "hlc_wp_p226\tex\p226\228_grips_co.paa",
+            "hlc_wp_p226\tex\p226\common_co.paa"
+        };
+
+        class Single: Mode_SemiAuto {
+            class BaseSoundModeType;
+            class StandardSound: BaseSoundModeType {
+                soundSetShot[] = {"ACPC2_Shot_SoundSet", "ACPC2_Tail_SoundSet", "ACPC2_InteriorTail_SoundSet"};
+            };
+            class SilencedSound: BaseSoundModeType {
+                SoundSetShot[] = {"ACPC2_silencerShot_SoundSet", "ACPC2_silencerTail_SoundSet", "ACPC2_silencerInteriorTail_SoundSet"};
+            };
+        };
     };
 };
