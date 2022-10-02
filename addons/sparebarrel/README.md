@@ -1,3 +1,3 @@
 # Spare Barrel
 
-Reduces Mass on the Spare Barrel to half
+Reduces Mass on the Spare Barrel to half.
