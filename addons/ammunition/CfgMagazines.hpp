@@ -28,6 +28,9 @@ class CfgMagazines {
     class 150Rnd_556x45_Drum_Mag_F;
     class CUP_100Rnd_556x45_BetaCMag;
     class 200Rnd_556x45_Box_F;
+    class CUP_100Rnd_TE4_Green_Tracer_556x45_M249;
+    class CUP_200Rnd_TE4_Green_Tracer_556x45_M249_Pouch;
+    class CUP_200Rnd_TE4_Green_Tracer_556x45_M249;
     class 30Rnd_65x39_caseless_mag; // MX
     class 100Rnd_65x39_caseless_mag;
     class 30Rnd_65x39_caseless_green; // Katiba - Type-115
