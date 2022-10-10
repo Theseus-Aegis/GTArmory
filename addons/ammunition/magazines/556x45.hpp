@@ -307,3 +307,63 @@ class CLASS(100Rnd_556x45_EPR_BetaC): CLASS(100Rnd_556x45_Ball_BetaC) {
     descriptionShort = "5.56x45mm EPR Tracer Every 4";
     displayName = "5.56mm 100Rnd Beta-C [TE4] (EPR)";
 };
+
+// 5.56x45mm M249 Pouch 100
+class CLASS(100Rnd_556x54_Ball_Pouch): CUP_100Rnd_TE4_Green_Tracer_556x45_M249 {
+    MACRO_SCOPE
+    ammo = QCLASS(556x45_Ball);
+    descriptionShort = "5.56x45mm Ball Tracer Every 4";
+    displayName = "5.56mm 100Rnd M249 Pouch [TE4] (Ball)";
+    tracersEvery = 4;
+    mass = 30;
+};
+class CLASS(100Rnd_556x54_Ball_Tracer_Pouch): CLASS(100Rnd_556x54_Ball_Pouch) {
+    descriptionShort = "5.56x45mm Ball Tracer";
+    displayName = "5.56mm 100Rnd M249 Pouch [T] (Ball)";
+    tracersEvery = 1;
+};
+class CLASS(100Rnd_556x54_EPR_Pouch): CLASS(100Rnd_556x54_Ball_Pouch) {
+    ammo = QCLASS(556x45_EPR);
+    descriptionShort = "5.56x45mm EPR Tracer Every 4";
+    displayName = "5.56mm 100Rnd M249 Pouch [TE4] (EPR)";
+};
+
+// 5.56x45mm M249 Pouch 200
+class CLASS(200Rnd_556x45_Ball_Pouch): CUP_200Rnd_TE4_Green_Tracer_556x45_M249_Pouch {
+    MACRO_SCOPE
+    ammo = QCLASS(556x45_Ball);
+    descriptionShort = "5.56x45mm Ball Tracer Every 4";
+    displayName = "5.56mm 200Rnd M249 Pouch [TE4] (Ball)";
+    tracersEvery = 4;
+    mass = 40;
+};
+class CLASS(200Rnd_556x45_Ball_Tracer_Pouch): CLASS(200Rnd_556x45_Ball_Pouch) {
+    descriptionShort = "5.56x45mm Ball Tracer";
+    displayName = "5.56mm 200Rnd M249 Pouch [T] (Ball)";
+    tracersEvery = 1;
+};
+class CLASS(200Rnd_556x45_EPR_Pouch): CLASS(200Rnd_556x45_Ball_Pouch) {
+    ammo = QCLASS(556x45_EPR);
+    descriptionShort = "5.56x45mm EPR Tracer Every 4";
+    displayName = "5.56mm 200Rnd M249 Pouch [TE4] (EPR)";
+};
+
+// 5.56x45mm M249 Box 200
+class CLASS(200Rnd_556x45_Ball_Box): CUP_200Rnd_TE4_Green_Tracer_556x45_M249 {
+    MACRO_SCOPE
+    ammo = QCLASS(556x45_Ball);
+    descriptionShort = "5.56x45mm Ball Tracer Every 4";
+    displayName = "5.56mm 200Rnd M249 Box [TE4] (Ball)";
+    tracersEvery = 4;
+    mass = 40;
+};
+class CLASS(200Rnd_556x45_Ball_Tracer_Box): CLASS(200Rnd_556x45_Ball_Box) {
+    descriptionShort = "5.56x45mm Ball Tracer";
+    displayName = "5.56mm 200Rnd M249 Box [T] (Ball)";
+    tracersEvery = 1;
+};
+class CLASS(200Rnd_556x45_EPR_Box): CLASS(200Rnd_556x45_Ball_Box) {
+    ammo = QCLASS(556x45_EPR);
+    descriptionShort = "5.56x45mm EPR Tracer Every 4";
+    displayName = "5.56mm 200Rnd M249 Box [TE4] (EPR)";
+};

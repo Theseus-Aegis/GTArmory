@@ -249,7 +249,16 @@ class CBA_556x45_MINIMI {
     ADDON[] = {
         QCLASS(200Rnd_556x45_Ball_Belt),
         QCLASS(200Rnd_556x45_Ball_Tracer_Belt),
-        QCLASS(200Rnd_556x45_EPR_Belt)
+        QCLASS(200Rnd_556x45_EPR_Belt),
+        QCLASS(100Rnd_556x54_Ball_Pouch),
+        QCLASS(100Rnd_556x54_Ball_Tracer_Pouch),
+        QCLASS(100Rnd_556x54_EPR_Pouch),
+        QCLASS(200Rnd_556x45_Ball_Pouch),
+        QCLASS(200Rnd_556x45_Ball_Tracer_Pouch),
+        QCLASS(200Rnd_556x45_EPR_Pouch),
+        QCLASS(200Rnd_556x45_Ball_Box),
+        QCLASS(200Rnd_556x45_Ball_Tracer_Box),
+        QCLASS(200Rnd_556x45_EPR_Box)
     };
 };
 
