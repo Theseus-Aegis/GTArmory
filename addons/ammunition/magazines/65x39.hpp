@@ -137,7 +137,7 @@ class CLASS(200Rnd_65x39_Ball_Tracer_Belt): CLASS(200Rnd_65x39_Ball_Belt) {
 class CLASS(200Rnd_65x39_EPR_Belt): CLASS(200Rnd_65x39_Ball_Belt) {
     ammo = QCLASS(65x39_EPR);
     descriptionShort = "6.5x39mm EPR Tracer Every 4";
-    displayName = "6.5mm  200Rnd Belt [TE4] (EPR)";
+    displayName = "6.5mm 200Rnd Belt [TE4] (EPR)";
 };
 
 // 6.5x39mm DMR
