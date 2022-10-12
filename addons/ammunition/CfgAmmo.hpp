@@ -1,9 +1,9 @@
 class CfgAmmo {
  /*
-  * Most require Ball (HP), EPR and AP variants.
-  * HP has minimal penetration with high damage
-  * EPR has medium penetration with medium damage
-  * AP has high penetration with medium damage
+  * Most calibers have Ball, EPR & AP. (Simulated)
+  * Caliber value only affects vehicles and terrain objects for penetration.
+  * Hit value is increased per type to simulate actual penetration values.
+  * ACE properties taken from magazines that have them, if they don't exist they just inherit base ones.
  */
 
     // Base classes
