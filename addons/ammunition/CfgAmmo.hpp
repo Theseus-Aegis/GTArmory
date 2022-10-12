@@ -1,9 +1,9 @@
 class CfgAmmo {
  /*
-  * Most require Ball (HP), EPR and AP variants.
-  * HP has minimal penetration with high damage
-  * EPR has medium penetration with medium damage
-  * AP has high penetration with medium damage
+  * Most calibers have Ball, EPR & AP. (Simulated)
+  * Caliber value only affects vehicles and terrain objects for penetration.
+  * Hit value is increased per type to simulate actual penetration values.
+  * ACE properties taken from magazines that have them, if they don't exist they just inherit base ones.
  */
 
     // Base classes
@@ -68,151 +68,163 @@ class CfgAmmo {
     class B_9x21_Ball_Tracer_Yellow;
     class CLASS(9x19_Ball): B_9x21_Ball_Tracer_Yellow {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 0.8;
-        hit = 10;
+        caliber = 0.1;
+        hit = 8;
         MACRO_TRACERS
     };
     class CLASS(9x19_EPR): CLASS(9x19_Ball) {
-        caliber = 1.3;
-        hit = 8;
+        caliber = 0.9;
+        hit = 9;
     };
     class CLASS(9x19_AP): CLASS(9x19_EPR) {
-        caliber = 1.6;
+        caliber = 1.3;
+        hit = 9.5;
     };
 
     // 5.45x39mm
     class CLASS(545x39_Ball): B_545x39_Ball_F {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 1.2;
-        hit = 12;
+        caliber = 0.3;
+        hit = 10;
         MACRO_TRACERS
     };
     class CLASS(545x39_EPR): CLASS(545x39_Ball) {
-        caliber = 1.6;
-        hit = 10;
+        caliber = 1;
+        hit = 11;
     };
     class CLASS(545x39_AP): CLASS(545x39_EPR) {
-        caliber = 1.8;
+        caliber = 1.3;
+        hit = 11.5;
     };
 
     // .45ACP
     class CLASS(45ACP_Ball): B_45ACP_Ball {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 0.8;
-        hit = 10;
+        caliber = 0.15;
+        hit = 11;
         MACRO_TRACERS
     };
     class CLASS(45ACP_EPR): CLASS(45ACP_Ball) {
-        caliber = 1.3;
-        hit = 8;
+        caliber = 0.85;
+        hit = 12;
     };
 
     // .357 Magnum
     class CLASS(357_Magnum): B_45ACP_Ball {
-        hit = 10;
+        hit = 12;
     };
 
     // .44 Magnum
     class CLASS(44_Magnum): CLASS(357_Magnum) {
-        hit = 12;
+        hit = 13;
     };
 
     // 10mm
     class CLASS(10mm_Ball): CLASS(357_Magnum) {
-        hit = 11;
+        hit = 12;
     };
 
     // 5.7x28mm
     class CLASS(57x28_Ball): CUP_B_570x28_Ball_Tracer_Yellow {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 1.4;
+        caliber = 1.5;
         hit = 12;
         MACRO_TRACERS
-    };
-    class CLASS(57x28_EPR): CLASS(57x28_Ball) {
-        caliber = 1.75;
-        hit = 10;
-    };
-    class CLASS(57x28_AP): CLASS(57x28_EPR) {
-        caliber = 2;
+        ACE_caliber = 5.7;
+        ACE_bulletLength = 21.6;
+        ACE_bulletMass = 2;
+        ACE_muzzleVelocities[] = {716, 776};
+        ACE_barrelLengths[] = {264, 407};
     };
 
     // 4.6x30mm (Comparable to 5.7x28mm but slightly worse performing penetration.)
     class CLASS(46x30_Ball): CLASS(57x28_Ball) {
-        caliber = 1.25;
-        hit = 12.2;
+        caliber = 0.15;
+        hit = 8;
     };
     class CLASS(46x30_EPR): CLASS(46x30_Ball) {
-        caliber = 1.64;
-        hit = 10.7;
+        caliber = 0.75;
+        hit = 9;
     };
     class CLASS(46x30_AP): CLASS(46x30_EPR) {
-        caliber = 1.89;
+        caliber = 1.25;
+        hit = 9.5;
     };
 
     // 5.8x42mm
     class CLASS(58x42_Ball): B_580x42_Ball_F {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 1.25;
-        hit = 12.5;
+        caliber = 0.25;
+        hit = 10;
         MACRO_TRACERS
     };
     class CLASS(58x42_EPR): CLASS(58x42_Ball) {
-        caliber = 1.65;
+        caliber = 1.35;
         hit = 10.5;
+        ACE_muzzleVelocities[] = {903};
+        ACE_barrelLengths[] = {640};
     };
     class CLASS(58x42_AP): CLASS(58x42_EPR) {
-        caliber = 1.85;
+        caliber = 11;
     };
 
     // 5.56x45mm
     class CLASS(556x45_Ball): B_556x45_Ball {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 1.25;
-        hit = 12.5;
+        caliber = 0.4;
+        hit = 11;
         MACRO_TRACERS
     };
     class CLASS(556x45_EPR): CLASS(556x45_Ball) {
-        caliber = 1.65;
-        hit = 11.5;
+        hit = 12;
+        caliber = 1.5;
+        ACE_bulletMass = 4.3359237;
+        ACE_muzzleVelocities[] = {780, 886, 950};
+        ACE_barrelLengths[] = {254.0, 393.7, 508.0};
     };
     class CLASS(556x45_AP): CLASS(556x45_EPR) {
-        caliber = 1.95;
+        hit = 12.5;
+        caliber = 2;
+        ACE_bulletMass = 4.5359237;
+        ACE_muzzleVelocities[] = {820, 900, 950};
     };
 
     // 6.5x39mm
     class CLASS(65x39_Ball): B_65x39_Caseless {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 1.25;
-        hit = 12.8;
+        caliber = 0.35;
+        hit = 10.8;
         MACRO_TRACERS
     };
     class CLASS(65x39_EPR): CLASS(65x39_Ball) {
         caliber = 1.6;
         hit = 11.8;
+        ACE_muzzleVelocities[] = {750, 820, 840, 852, 860};
+        ACE_barrelLengths[] = {254.0, 406.4, 508.0, 609.6, 660.4};
     };
     class CLASS(65x39_AP): CLASS(65x39_EPR) {
+        hit = 12.3;
         caliber = 2;
     };
 
     // 6.8x43mm
     class CLASS(68x43_Ball): CLASS(65x39_Ball) {
-        caliber = 1.33;
-        hit = 13.2;
+        caliber = 0.35;
+        hit = 11;
     };
     class CLASS(68x43_EPR): CLASS(68x43_Ball) {
         caliber = 1.8;
-        hit = 13;
+        hit = 12;
     };
     class CLASS(68x43_AP): CLASS(68x43_EPR) {
-        caliber = 2.1;
+        caliber = 12.5;
     };
 
     // 7.62x39mm
     class CLASS(762x39_Ball): B_762x39_Ball_F {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 1.25;
-        hit = 12.8;
+        caliber = 0.25;
+        hit = 11.3;
         MACRO_TRACERS
     };
     class CLASS(762x39_EPR): CLASS(762x39_Ball) {
@@ -220,67 +232,90 @@ class CfgAmmo {
         hit = 12.3;
     };
     class CLASS(762x39_AP): CLASS(762x39_EPR) {
+        hit = 12.8;
         caliber = 1.78;
     };
 
     // 7.62x51mm
     class CLASS(762x51_Ball): B_762x51_Ball {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 1.25;
+        caliber = 0.28;
         hit = 12.8;
         MACRO_TRACERS
     };
     class CLASS(762x51_EPR): CLASS(762x51_Ball) {
-        caliber = 1.76;
-        hit = 11.8;
+        caliber = 1.85;
+        hit = 13.8;
+        ACE_caliber=7.823;
+        ACE_bulletLength=31.496;
+        ACE_bulletMass=8.424;
+        ACE_muzzleVelocityVariationSD=0.45;
+        ACE_ammoTempMuzzleVelocityShifts[]={-2.655, -2.547, -2.285, -2.012, -1.698, -1.280, -0.764, -0.153, 0.596, 1.517, 2.619};
+        ACE_ballisticCoefficients[]={0.377};
+        ACE_velocityBoundaries[]={};
+        ACE_standardAtmosphere="ICAO";
+        ACE_dragModel=1;
+        ACE_muzzleVelocities[]={838, 892, 910};
+        ACE_barrelLengths[]={330.2, 406.4, 508.0};
     };
     class CLASS(762x51_AP): CLASS(762x51_EPR) {
-        caliber = 2.13;
+        caliber = 2.3;
+        hit = 14.3;
+        ACE_bulletMass = 8.22946157;
+        ACE_ammoTempMuzzleVelocityShifts[] = {-26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19};
+        ACE_ballisticCoefficients[] = {0.359};
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_muzzleVelocities[] = {875, 910, 930};
+        ACE_barrelLengths[] = {330.2, 406.4, 508.0};
     };
 
     // 7.62x54R
     class CLASS(762x54r_Ball): B_762x54_Ball {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 1.45;
+        caliber = 0.33;
         hit = 13;
         MACRO_TRACERS
     };
     class CLASS(762x54r_EPR): CLASS(762x54r_Ball) {
-        caliber = 1.85;
-        hit = 12;
+        caliber = 2;
+        hit = 14;
     };
     class CLASS(762x54r_AP): CLASS(762x54r_EPR) {
-        caliber = 2.25;
+        caliber = 2.5;
+        hit = 14.5;
     };
 
 
     // .300AAC - Subsonic
     class CLASS(300AAC_Ball): HLC_300Blackout_RNBT {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 1;
+        caliber = 0.19;
         hit = 12;
         MACRO_TRACERS
     };
     class CLASS(300AAC_EPR): CLASS(300AAC_Ball) {
         caliber = 1.2;
-        hit = 11;
+        hit = 13;
     };
     class CLASS(300AAC_AP): CLASS(300AAC_EPR) {
         caliber = 1.4;
+        hit = 13.5;
     };
 
     // 9x39mm - Subsonic
     class CLASS(9x39_Ball): CUP_B_9x39_SP5 {
         aiAmmoUsageFlags = "64 + 128";
-        caliber = 0.9;
-        hit = 11;
+        caliber = 0.15;
+        hit = 10;
         MACRO_TRACERS
     };
     class CLASS(9x39_EPR): CLASS(9x39_Ball) {
         caliber = 1.1;
-        hit = 10.5;
+        hit = 11;
     };
     class CLASS(9x39_AP): CLASS(9x39_EPR) {
-        caliber = 1.2;
+        caliber = 1.3;
+        hit = 11.5;
     };
 };
