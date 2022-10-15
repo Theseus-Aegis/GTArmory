@@ -130,6 +130,7 @@ class CLASS(30Rnd_556x45_Ball_G36): CUP_30Rnd_TE1_Green_Tracer_556x45_G36 {
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     displayName = "5.56mm 30Rnd G36 (Ball)";
     lastRoundsTracer = 4;
+    tracersEvery = 0; // Required due to inheriting a tracer mag.
     mass = 10;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_G36): CLASS(30Rnd_556x45_Ball_G36) {
