@@ -90,4 +90,5 @@ class CLASS(20Rnd_Saiga_000): CLASS(8Rnd_Saiga_000) {
 class CLASS(20Rnd_Saiga_AP20): CLASS(20Rnd_Saiga_000) {
     descriptionShort = "AP-20 Slug";
     displayName = "20Rnd Saiga (Slug)";
+    ammo = QCLASS(S_12G_AP20);
 };
