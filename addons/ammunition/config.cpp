@@ -23,7 +23,10 @@ class CfgPatches {
             "hlcweapons_AUG",
             "hlcweapons_SG550",
             "niaweapons_226",
-            "tacs_weapons"
+            "tacs_weapons",
+            "Weapons_1_F_lxWS",
+            "Weapons_1_F_lxWS_Shotguns_AA40",
+            "Weapons_F_lxWS_Rifles"
         };
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};

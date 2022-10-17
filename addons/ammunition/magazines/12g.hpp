@@ -92,3 +92,25 @@ class CLASS(20Rnd_Saiga_AP20): CLASS(20Rnd_Saiga_000) {
     displayName = "20Rnd Saiga (Slug)";
     ammo = QCLASS(S_12G_AP20);
 };
+
+// Western Sahara - AA40
+class CLASS(8Rnd_AA40_000): 8Rnd_12Gauge_AA40_Pellets_lxWS {
+    displayName = "8Rnd AA40 (Magnum)";
+    descriptionShort = "#00 Magnum Shells";
+    ammo = QCLASS(P_12G_000);
+};
+class CLASS(8Rnd_AA40_AP20): CLASS(8Rnd_AA40_000){
+    displayName = "8Rnd AA40 (Slug)";
+    descriptionShort = "AP-20 Slug";
+    ammo = QCLASS(S_12G_AP20);
+};
+class CLASS(20Rnd_AA40_000): 20Rnd_12Gauge_AA40_Pellets_lxWS {
+    displayName = "20Rnd AA40 (Magnum)";
+    descriptionShort = "#00 Magnum Shells";
+    ammo = QCLASS(P_12G_000);
+};
+class CLASS(20Rnd_AA40_AP20): CLASS(20Rnd_AA40_000) {
+    displayName = "20Rnd AA40 (Slug)";
+    descriptionShort = "AP-20 Slug";
+    ammo = QCLASS(S_12G_AP20);
+};

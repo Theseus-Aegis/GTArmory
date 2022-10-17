@@ -368,3 +368,27 @@ class CLASS(200Rnd_556x45_EPR_Box): CLASS(200Rnd_556x45_Ball_Box) {
     descriptionShort = "5.56x45mm EPR Tracer Every 4";
     displayName = "5.56mm 200Rnd M249 Box [TE4] (EPR)";
 };
+
+// Western Sahara Assets
+class CLASS(35Rnd_556x45_Ball_R4): 35Rnd_556x45_Velko_reload_tracer_yellow_lxWS {
+    MACRO_SCOPE
+    ammo = QCLASS(556x45_Ball);
+    descriptionShort = "5.56x45mm Ball Reload Tracer";
+    displayName = "5.56mm 35Rnd R4 (Ball)";
+    lastRoundsTracer = 4;
+};
+class CLASS(35Rnd_556x45_Ball_Tracer_R4): CLASS(35Rnd_556x45_Ball_R4) {
+    descriptionShort = "5.56x45mm Ball Tracer";
+    displayName = "5.56mm 35Rnd R4 [T] (Ball)";
+    tracersEvery = 1;
+};
+class CLASS(35Rnd_556x45_EPR_R4): CLASS(35Rnd_556x45_Ball_R4) {
+    ammo = QCLASS(556x45_EPR);
+    descriptionShort = "5.56x45mm EPR Reload Tracer";
+    displayName = "5.56mm 35Rnd R4 (EPR)";
+};
+class CLASS(35Rnd_556x45_AP_R4): CLASS(35Rnd_556x45_EPR_R4) {
+    ammo = QCLASS(556x45_AP);
+    descriptionShort = "5.56x45mm AP Reload Tracer";
+    displayName = "5.56mm 35Rnd R4 (AP)";
+};

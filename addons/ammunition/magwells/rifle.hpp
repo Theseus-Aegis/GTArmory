@@ -460,3 +460,22 @@ class CBA_762x54R_LINKS {
         QCLASS(150Rnd_762x54r_EPR_Belt)
     };
 };
+
+// Western Sahara
+class 556x45_Velko {
+    ADDON[] = {
+        QCLASS(35Rnd_556x45_Ball_R4),
+        QCLASS(35Rnd_556x45_Ball_Tracer_R4),
+        QCLASS(35Rnd_556x45_EPR_R4),
+        CLASS(35Rnd_556x45_AP_R4)
+    };
+};
+
+class AA40_12Gauge {
+    ADDON[] = {
+        QCLASS(8Rnd_AA40_000),
+        QCLASS(8Rnd_AA40_AP20),
+        QCLASS(20Rnd_AA40_000),
+        QCLASS(20Rnd_AA40_AP20)
+    };
+};

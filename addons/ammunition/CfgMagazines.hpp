@@ -50,6 +50,9 @@ class CfgMagazines {
     class 10Rnd_762x54_Mag;
     class 29rnd_300BLK_STANAG_T;
     class CUP_30Rnd_9x39_SP5_VIKHR_M;
+    class 35Rnd_556x45_Velko_reload_tracer_yellow_lxWS;
+    class 8Rnd_12Gauge_AA40_Pellets_lxWS;
+    class 20Rnd_12Gauge_AA40_Pellets_lxWS;
 
     // Handgun baseclasses
     class 16Rnd_9x21_Mag;
