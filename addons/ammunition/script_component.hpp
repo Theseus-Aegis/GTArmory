@@ -32,14 +32,16 @@
 
 #define MACRO_556_MAGAZINE_PMAG_Black \
     hiddenSelections[] = {"Camo1"}; \
-    hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\pmag_black_co.paa"}; \
-    model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30rnd_pmag_qp.p3d"; \
-    modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30rnd_pmag_qp.p3d"; \
-    modelSpecialIsProxy = 1;
+    hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\cup_pmag_black_co.paa"}; \
+    model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30rnd_pmag.p3d"; \
+    modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30rnd_pmag.p3d"; \
+    modelSpecialIsProxy = 1; \
+    picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_30rnd_pmag_black_ca.paa";
 
 #define MACRO_556_MAGAZINE_PMAG_Tan \
     hiddenSelections[] = {"Camo1"}; \
-    hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\pmag_coyote_co.paa"};
+    hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\cup_pmag_coyote_co.paa"}; \
+    picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_30rnd_pmag_coyote_ca.paa";
 
 #define MACRO_556_MAGAZINE_EMAG_Black \
     hiddenSelections[] = {"Camo1"}; \
