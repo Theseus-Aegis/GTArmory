@@ -63,19 +63,19 @@ class CLASS(30Rnd_556x45_AP_PMAG): CLASS(30Rnd_556x45_AP_EMAG) {
 // 5.56x45mm (PMAG, Tan)
 class CLASS(30Rnd_556x45_Ball_PMAG_Tan): CLASS(30Rnd_556x45_Ball_PMAG) {
     MACRO_556_MAGAZINE_PMAG_Tan
-    displayName = "5.56mm 30Rnd PMAG Tan (Ball)";
+    displayName = "5.56mm 30Rnd PMAG Coyote (Ball)";
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_PMAG_Tan): CLASS(30Rnd_556x45_Ball_Tracer_PMAG) {
     MACRO_556_MAGAZINE_PMAG_Tan
-    displayName = "5.56mm 30Rnd PMAG Tan [T] (Ball)";
+    displayName = "5.56mm 30Rnd PMAG Coyote [T] (Ball)";
 };
 class CLASS(30Rnd_556x45_EPR_PMAG_Tan): CLASS(30Rnd_556x45_EPR_PMAG) {
     MACRO_556_MAGAZINE_PMAG_Tan
-    displayName = "5.56mm 30Rnd PMAG Tan (EPR)";
+    displayName = "5.56mm 30Rnd PMAG Coyote (EPR)";
 };
 class CLASS(30Rnd_556x45_AP_PMAG_Tan): CLASS(30Rnd_556x45_AP_PMAG) {
     MACRO_556_MAGAZINE_PMAG_Tan
-    displayName = "5.56mm 30Rnd PMAG Tan (AP)";
+    displayName = "5.56mm 30Rnd PMAG Coyote (AP)";
 };
 
 // 5.56x45mm Belt
