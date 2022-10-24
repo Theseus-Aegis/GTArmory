@@ -13,21 +13,24 @@ class HunterShotgun_01_12GA {
 class CBA_12g_8rnds {
     ADDON[] = {
         QCLASS(8Rnd_P_000),
-        QCLASS(8Rnd_S_AP20)
+        QCLASS(8Rnd_S_AP20),
+        QCLASS(8Rnd_Smoke_M1014)
     };
 };
 
 class CBA_12g_6rnds {
     ADDON[] = {
         QCLASS(6Rnd_P_000),
-        QCLASS(6Rnd_S_AP20)
+        QCLASS(6Rnd_S_AP20),
+        QCLASS(6Rnd_Smoke_M1014)
     };
 };
 
 class UBS_12GA {
     ADDON[] = {
         QCLASS(6Rnd_P_UGL),
-        QCLASS(6Rnd_S_UGL)
+        QCLASS(6Rnd_S_UGL),
+        QCLASS(6Rnd_Smoke_UGL)
     };
 };
 
@@ -35,8 +38,10 @@ class CBA_12g_SAIGA {
     ADDON[] = {
         QCLASS(8Rnd_Saiga_000),
         QCLASS(8Rnd_Saiga_AP20),
+        QCLASS(8Rnd_Saiga_Smoke),
         QCLASS(20Rnd_Saiga_000),
-        QCLASS(20Rnd_Saiga_AP20)
+        QCLASS(20Rnd_Saiga_AP20),
+        QCLASS(20Rnd_Saiga_Smoke)
     };
 };
 
@@ -475,7 +480,9 @@ class AA40_12Gauge {
     ADDON[] = {
         QCLASS(8Rnd_AA40_000),
         QCLASS(8Rnd_AA40_AP20),
+        QCLASS(8Rnd_AA40_Smoke),
         QCLASS(20Rnd_AA40_000),
-        QCLASS(20Rnd_AA40_AP20)
+        QCLASS(20Rnd_AA40_AP20),
+        QCLASS(20Rnd_AA40_Smoke)
     };
 };

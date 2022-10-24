@@ -31,6 +31,13 @@ class CLASS(8Rnd_S_AP20): CA_Magazine {
     reloadaction = "CUP_GestureReloadM1014_8Rnd";
 };
 
+class CLASS(8Rnd_Smoke_M1014): CLASS(8Rnd_S_AP20) {
+    ammo = "B_12gauge_Smoke_Cartridge_lxWS";
+    displayName = "8Rnd M1014 (Smoke)";
+    displayNameShort = "Smoke Screen";
+    descriptionShort = "Smoke Shell";
+};
+
 // 6Rnd M1014
 class CLASS(6Rnd_P_000): CLASS(8Rnd_P_000) {
     displayName = "6Rnd M1014 (Magnum)";
@@ -42,6 +49,14 @@ class CLASS(6Rnd_P_000): CLASS(8Rnd_P_000) {
 class CLASS(6Rnd_S_AP20): CLASS(8Rnd_S_AP20) {
     displayName = "6Rnd M1014 (Slug)";
     descriptionShort = "AP-20 Slug Round";
+    count = 6;
+    mass = 6;
+};
+
+class CLASS(6Rnd_Smoke_M1014): CLASS(8Rnd_Smoke_M1014) {
+    displayName = "6Rnd M1014 (Smoke)";
+    displayNameShort = "Smoke Screen";
+    descriptionShort = "Smoke Shell";
     count = 6;
     mass = 6;
 };
@@ -61,6 +76,13 @@ class CLASS(6Rnd_S_UGL): 6Rnd_12Gauge_Slug {
     displayName = "6Rnd MSBS (Slug)";
 };
 
+class CLASS(6Rnd_Smoke_UGL): CLASS(6Rnd_S_UGL) {
+    ammo = "B_12gauge_Smoke_Cartridge_lxWS";
+    descriptionShort = "Smoke Shell";
+    displayNameShort = "Smoke Screen";
+    displayName = "6Rnd MSBS (Smoke)";
+};
+
 // 8Rnd Saiga
 class CLASS(8Rnd_Saiga_000): CUP_5Rnd_B_Saiga12_Buck_00 {
     MACRO_SCOPE
@@ -73,6 +95,13 @@ class CLASS(8Rnd_Saiga_AP20): CLASS(8Rnd_Saiga_000) {
     ammo = QCLASS(S_12G_AP20);
     descriptionShort = "AP-20 Slug";
     displayName = "8Rnd Saiga (Slug)";
+};
+
+class CLASS(8Rnd_Saiga_Smoke): CLASS(8Rnd_Saiga_AP20) {
+    ammo = "B_12gauge_Smoke_Cartridge_lxWS";
+    descriptionShort = "Smoke Shell";
+    displayNameShort = "Smoke Screen";
+    displayName = "8Rnd Saiga (Smoke)";
 };
 
 // 20Rnd Saiga
@@ -93,6 +122,13 @@ class CLASS(20Rnd_Saiga_AP20): CLASS(20Rnd_Saiga_000) {
     ammo = QCLASS(S_12G_AP20);
 };
 
+class CLASS(20Rnd_Saiga_Smoke): CLASS(20Rnd_Saiga_AP20) {
+    ammo = "B_12gauge_Smoke_Cartridge_lxWS";
+    descriptionShort = "Smoke Shell";
+    displayNameShort = "Smoke Screen";
+    displayName = "20Rnd Saiga (Smoke)";
+};
+
 // Western Sahara - AA40
 class CLASS(8Rnd_AA40_000): 8Rnd_12Gauge_AA40_Pellets_lxWS {
     displayName = "8Rnd AA40 (Magnum)";
@@ -104,6 +140,12 @@ class CLASS(8Rnd_AA40_AP20): CLASS(8Rnd_AA40_000){
     descriptionShort = "AP-20 Slug";
     ammo = QCLASS(S_12G_AP20);
 };
+class CLASS(8Rnd_AA40_Smoke): CLASS(8Rnd_AA40_AP20) {
+    ammo = "B_12gauge_Smoke_Cartridge_lxWS";
+    descriptionShort = "Smoke Shell";
+    displayNameShort = "Smoke Screen";
+    displayName = "8Rnd AA40 (Smoke)";
+};
 class CLASS(20Rnd_AA40_000): 20Rnd_12Gauge_AA40_Pellets_lxWS {
     displayName = "20Rnd AA40 (Magnum)";
     descriptionShort = "#00 Magnum Shells";
@@ -113,4 +155,10 @@ class CLASS(20Rnd_AA40_AP20): CLASS(20Rnd_AA40_000) {
     displayName = "20Rnd AA40 (Slug)";
     descriptionShort = "AP-20 Slug";
     ammo = QCLASS(S_12G_AP20);
+};
+class CLASS(20Rnd_AA40_Smoke): CLASS(20Rnd_AA40_AP20) {
+    ammo = "B_12gauge_Smoke_Cartridge_lxWS";
+    descriptionShort = "Smoke Shell";
+    displayNameShort = "Smoke Screen";
+    displayName = "20Rnd AA40 (Smoke)";
 };
