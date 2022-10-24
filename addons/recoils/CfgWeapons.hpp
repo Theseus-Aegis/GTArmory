@@ -33,6 +33,8 @@ class CfgWeapons {
     #include "niarms\556\aug.hpp"
     #include "niarms\556\m4.hpp"
     #include "niarms\556\sig.hpp"
+    #include "ws\556\velko.hpp"
+    #include "ws\556\xms.hpp"
 
     // 6.5
     #include "bohemia\65\katiba.hpp"
@@ -53,6 +55,7 @@ class CfgWeapons {
     #include "cup\762R\rpk.hpp"
     #include "niarms\762R\sig.hpp"
     #include "pi\762R\rk.hpp"
+    #include "ws\762R\galat.hpp"
 
     // 7.62x51
     #include "bohemia\762N\ebr.hpp"
@@ -78,6 +81,7 @@ class CfgWeapons {
     // 12G Shotguns
     #include "cup\12G\m1014.hpp"
     #include "cup\12G\saiga12.hpp"
+    #include "ws\12G\aa40.hpp"
 
     // .300 Blackout
     #include "niarms\blackout\ar15.hpp"
