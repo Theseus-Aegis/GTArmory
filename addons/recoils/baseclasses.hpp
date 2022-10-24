@@ -172,3 +172,13 @@ class bnae_falkor_base;
 
 // RK95s
 class bnae_rk95_base;
+
+// Western Sahara
+// AA40
+class sgun_aa40_base_lxWS;
+
+// Galat
+class arifle_Galat_base_lxWS;
+
+// Velko
+class arifle_Velko_base_lxWS;
