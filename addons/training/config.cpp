@@ -21,13 +21,13 @@ class CfgPatches {
         };
         weapons[] = {};
         magazines[] = {
-            QCLASS(APERSBoundingMine_Range_Mag_Training),
-            QCLASS(APERSMine_Range_Mag_Training),
-            QCLASS(APERSTripMine_Wire_Mag_Training),
-            QCLASS(ATMine_Range_Mag_Training),
-            QCLASS(Claymore_Remote_Mag_Training),
-            QCLASS(DemoCharge_Remote_Mag_Training),
-            QCLASS(SatchelCharge_Remote_Mag_Training)
+            QCLASS(APERSBoundingMine_Range_Training_Mag),
+            QCLASS(APERSMine_Range_Training_Mag),
+            QCLASS(APERSTripMine_Wire_Training_Mag),
+            QCLASS(ATMine_Range_Training_Mag),
+            QCLASS(Claymore_Remote_Training_Mag),
+            QCLASS(DemoCharge_Remote_Training_Mag),
+            QCLASS(SatchelCharge_Remote_Training_Mag)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main"};
