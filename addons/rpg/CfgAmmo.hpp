@@ -29,6 +29,22 @@ class CfgAmmo {
     // MAAWS HE 44 Round
     class R_MRAAWS_HE_F: R_MRAAWS_HEAT_F {
         MACRO_RPG_AMMO
+        ace_frag_classes[] = {"ACE_frag_medium"};
+    };
+
+    // SPG-9 HEAT
+    class M_SPG9_HEAT: RocketBase {
+        MACRO_RPG_AMMO
+    };
+
+    // SPG-9 HE
+    class M_SPG9_HE: M_SPG9_HEAT {
+        ace_frag_enabled = 1;
+        ace_frag_metal = 350;
+        ace_frag_charge = 210;
+        ace_frag_gurney_c = 2800;
+        ace_Frag_gurney_k = 3/5;
+        ace_frag_classes[] = {"ACE_frag_medium"};
     };
 
     // CUP Ammunition
@@ -40,7 +56,7 @@ class CfgAmmo {
         ace_frag_charge = 210;
         ace_frag_gurney_c = 2800;
         ace_Frag_gurney_k = 3/5;
-        ace_frag_classes[] = {"ACE_frag_medium_HD"};
+        ace_frag_classes[] = {"ACE_frag_medium"};
     };
 
     // PG-7V (HEAT) Rocket
