@@ -19,14 +19,12 @@ class CfgPatches {
             "CUP_Weapons_Mk23",
             "CUP_Weapons_SCAR",
             "CUP_Weapons_X95",
+            "data_f_lxWS_Loadorder",
             "hlcweapons_core",
             "hlcweapons_AUG",
             "hlcweapons_SG550",
             "niaweapons_226",
-            "tacs_weapons",
-            "Weapons_1_F_lxWS",
-            "Weapons_1_F_lxWS_Shotguns_AA40",
-            "Weapons_F_lxWS_Rifles"
+            "tacs_weapons"
         };
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
