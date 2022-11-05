@@ -5,6 +5,35 @@ class CfgWeapons {
     class Uniform_Base;
     class UniformItem;
     class U_I_C_Soldier_Bandit_2_F;
+    class HeadgearItem;
+    class ItemCore;
+
+    // Jack
+    class CUP_H_C_Beret_01: ItemCore {
+        class ItemInfo: HeadgearItem {
+            class HitpointsProtectionInfo {
+                class Head;
+            };
+        };
+    };
+
+    class CLASS(Jack_Beret): CUP_H_C_Beret_01 {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "Beret, True Freedom Edition";
+        descriptionShort = "It has armour, somehow.";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\jack_beret_co.paa)
+        };
+        // Mythical head protection of an unknown origin..
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo: HitpointsProtectionInfo {
+                class Head: Head {
+                    armor = 10;
+                };
+            };
+        };
+    };
 
     // JJ
     class CLASS(JJ_HeliPilot_Black): H_PilotHelmetHeli_B {
