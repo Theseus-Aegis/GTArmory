@@ -86,6 +86,22 @@ class CfgMagazines {
         displayName = "Generic MP5 Magazine";
     };
 
+    // TEC9
+    class CUP_32Rnd_9x19_TEC9;
+    class CLASS(AI_32Rnd_9x19_TEC9): CUP_32Rnd_9x19_TEC9 {
+        MACRO_AI_MAGAZINE
+        ammo = QCLASS(AI_9x19);
+        displayName = "Generic TEC9 Magazine";
+    };
+
+    // UZI
+    class CUP_32Rnd_9x19_UZI_M;
+    class CLASS(AI_32Rnd_9x19_UZI): CUP_32Rnd_9x19_UZI_M {
+        MACRO_AI_MAGAZINE
+        ammo = QCLASS(AI_9x19);
+        displayName = "Generic UZI Magazine";
+    };
+
     // Vityaz
     class CUP_30Rnd_9x19_Vityaz;
     class CLASS(AI_30Rnd_9x19_Vityaz): CUP_30Rnd_9x19_Vityaz {
@@ -125,6 +141,14 @@ class CfgMagazines {
         MACRO_AI_MAGAZINE_HANDGUN
         ammo = QCLASS(AI_45ACP);
         displayName = "Generic .45ACP MK23 Magazine";
+    };
+
+    // MAC-10
+    class CUP_30Rnd_45ACP_MAC10_M;
+    class CLASS(AI_30Rnd_45ACP_MAC10): CUP_30Rnd_45ACP_MAC10_M {
+        MACRO_AI_MAGAZINE
+        ammo = QCLASS(AI_45ACP);
+        displayName = "Generic .45ACP MAC10 Magazine";
     };
 
     // Vector

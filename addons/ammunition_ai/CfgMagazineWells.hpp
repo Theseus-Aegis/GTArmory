@@ -60,6 +60,18 @@ class CfgMagazineWells {
         };
     };
 
+    class CLASS(9x19_TEC9) {
+        ADDON[] = {
+            QCLASS(AI_32Rnd_9x19_TEC9)
+        };
+    };
+
+    class CBA_9x19_UZI {
+        ADDON[] = {
+            QCLASS(AI_32Rnd_9x19_UZI)
+        };
+    };
+
     class CBA_45ACP_FNX45 {
         ADDON[] = {
             QCLASS(AI_11Rnd_45ACP_FNX)
@@ -75,6 +87,12 @@ class CfgMagazineWells {
     class CBA_45ACP_1911 {
         ADDON[] = {
             QCLASS(AI_8Rnd_45ACP_1911)
+        };
+    };
+
+    class CLASS(45ACP_MAC10) {
+        ADDON[] = {
+            QCLASS(AI_30Rnd_45ACP_MAC10)
         };
     };
 

@@ -27,6 +27,15 @@ class CfgWeapons {
         magazineWell[] = {"CBA_45ACP_MK23"};
     };
 
+    class CUP_Mac10_Base;
+    class CUP_smg_MAC10: CUP_Mac10_Base {
+        magazineWell[] = {QCLASS(45ACP_MAC10)};
+    };
+
+    class CUP_hgun_TEC9: Pistol_Base_F {
+        magazineWell[] = {QCLASS(9x19_TEC9)};
+    };
+
     class Rifle_Long_Base_F;
     class DMR_07_base_F: Rifle_Long_Base_F {
         magazineWell[] = {"CBA_65x39_QBU"};
