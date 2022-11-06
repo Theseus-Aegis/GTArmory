@@ -160,7 +160,8 @@ class CfgMagazineWells {
 
     class CBA_556x45_G36 {
         ADDON[] = {
-            QCLASS(AI_30Rnd_556x45_G36)
+            QCLASS(AI_30Rnd_556x45_G36),
+            QCLASS(AI_100Rnd_556x45_BetaC)
         };
     };
 

@@ -32,6 +32,10 @@ class CfgWeapons {
         magazineWell[] = {QCLASS(45ACP_MAC10)};
     };
 
+    class CUP_hgun_Mac10: CUP_Mac10_Base {
+        magazineWell[] = {QCLASS(45ACP_MAC10)};
+    };
+
     class CUP_hgun_TEC9: Pistol_Base_F {
         magazineWell[] = {QCLASS(9x19_TEC9)};
     };
@@ -77,6 +81,10 @@ class CfgWeapons {
     class CUP_arifle_Mk17_CQC;
     class CUP_arifle_Mk17_CQC_EGLM: CUP_arifle_Mk17_CQC {
         magazineWell[] = {"CBA_762x51_SCAR"};
+    };
+
+    class CUP_arifle_ACR_EGLM_blk_556: CUP_arifle_ACR_BASE_556 {
+        magazineWell[] += {"CBA_556x45_STANAG"};
     };
 
     class bnae_r1_base;
