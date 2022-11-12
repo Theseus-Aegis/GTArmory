@@ -1,6 +1,8 @@
 # Ammunition AI
 
-Magazines designed specifically for AI only.
+Magazines that utilise a different tracer colour to Theseus with slightly improved performance.
+
+If a magazine you're looking for is not listed, you can request for it to be added or just use any other.
 
 AI Magazine | Original Magazine
 If the right hand side classname fits the gun, the one on the left will too.
