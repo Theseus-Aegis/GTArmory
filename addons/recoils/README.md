@@ -1,3 +1,3 @@
-# L85
+    # Recoils
 
-Alters soundsets for all L85 variants
+Alters all weapons to utilise a new recoil system more punishing than Vanilla.
