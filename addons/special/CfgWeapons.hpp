@@ -21,7 +21,7 @@ class CfgWeapons {
         author = "GilleeDoo";
         scope = 2;
         displayName = "Beret, True Freedom Edition";
-        descriptionShort = "It has armour, somehow.";
+        descriptionShort = "Fitted with a steel plate";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\jack_beret_co.paa)
         };
