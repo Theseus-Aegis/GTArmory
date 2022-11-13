@@ -217,7 +217,8 @@ class CfgAmmo {
         hit = 12;
     };
     class CLASS(68x43_AP): CLASS(68x43_EPR) {
-        caliber = 12.5;
+        caliber = 2.3;
+        hit = 12.5;
     };
 
     // 7.62x39mm

@@ -27,6 +27,20 @@ class CfgWeapons {
         magazineWell[] = {"CBA_45ACP_MK23"};
     };
 
+    class CUP_Mac10_Base;
+    class CUP_smg_MAC10: CUP_Mac10_Base {
+        magazineWell[] = {QCLASS(45ACP_MAC10)};
+    };
+
+    class CUP_hgun_Mac10_Base;
+    class CUP_hgun_Mac10: CUP_hgun_Mac10_Base {
+        magazineWell[] = {QCLASS(45ACP_MAC10)};
+    };
+
+    class CUP_hgun_TEC9: Pistol_Base_F {
+        magazineWell[] = {QCLASS(9x19_TEC9)};
+    };
+
     class Rifle_Long_Base_F;
     class DMR_07_base_F: Rifle_Long_Base_F {
         magazineWell[] = {"CBA_65x39_QBU"};
@@ -70,8 +84,12 @@ class CfgWeapons {
         magazineWell[] = {"CBA_762x51_SCAR"};
     };
 
-    class bnae_r1_base;
-    class bnae_r1_virtual: bnae_r1_base {
+    class CUP_arifle_ACR_EGLM_BASE_556;
+    class CUP_arifle_ACR_EGLM_blk_556: CUP_arifle_ACR_EGLM_BASE_556 {
+        magazineWell[] += {"CBA_556x45_STANAG"};
+    };
+
+    class bnae_r1_base: Pistol_Base_F {
         magazineWell[] = {"ACPC2_45ACP","CBA_45ACP_1911"};
     };
 
