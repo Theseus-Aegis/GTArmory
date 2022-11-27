@@ -50,6 +50,7 @@ class bnae_rk95r_virtual: bnae_rk95_virtual {
 
     class WeaponSlotsInfo: WeaponSlotsInfo {
         class asdg_OpticRail_bnae: asdg_OpticRail1913 {};
+        mass = 100;
     };
 };
 
