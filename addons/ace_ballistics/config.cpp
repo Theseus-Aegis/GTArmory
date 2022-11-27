@@ -2,22 +2,22 @@
 
 class CfgPatches {
     class ADDON {
-        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "Weapons_F_lxWS",
-            "Weapons_1_F_lxWS",
-            "Characters_f_lxWS_headgear"
+            "bnae_falkor",
+            "bnae_mk1",
+            "bnae_rk95",
+            "bnae_trg42"
         };
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
 
+#include "CfgAmmo.hpp"
 #include "CfgWeapons.hpp"
