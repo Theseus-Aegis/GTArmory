@@ -24,11 +24,11 @@ class CfgVehicles {
     class APERSTripMine;
     class CLASS(APERSTripMine_Training): APERSTripMine {
         ammo = QCLASS(APERSTripMine_Range_Training_Ammo);
-        displayName = "APERS Trip Mine (Training)";
+        displayName = "APERS Tripwire Mine (Training)";
     };
     class ModuleMine_APERSTripMine_F;
     class CLASS(ModuleMine_APERSTripMine_Training_F): ModuleMine_APERSTripMine_F {
-        displayName = "APERS Trip Mine (Training)";
+        displayName = "APERS Tripwire Mine (Training)";
         explosive = QCLASS(APERSTripMine_Wire_Training_Ammo);
     };
 
@@ -40,7 +40,7 @@ class CfgVehicles {
     class ModuleMine_ATMine_F;
     class CLASS(ModuleMine_ATMine_Training_F): ModuleMine_ATMine_F {
         displayName = "AT Mine (Training)";
-        explosive = QCLASS(ATMine_Remote_Training_Ammo);
+        explosive = QCLASS(ATMine_Range_Training_Ammo);
     };
 
     class Claymore_F;
