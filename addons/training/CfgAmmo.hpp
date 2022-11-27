@@ -32,10 +32,10 @@ class CfgAmmo {
     };
 
     class ATMine_Range_Ammo;
-    class CLASS(ATMine_Training_Ammo): ATMine_Range_Ammo {
+    class CLASS(ATMine_Range_Training_Ammo): ATMine_Range_Ammo {
         TRAINING_EXPLOSIVE;
-        ace_explosives_magazine = QCLASS(ATMine_Training_Mag);
-        defaultMagazine = QCLASS(ATMine_Training_Mag);
+        ace_explosives_magazine = QCLASS(ATMine_Range_Training_Mag);
+        defaultMagazine = QCLASS(ATMine_Range_Training_Mag);
     };
 
     class ClaymoreDirectionalMine_Remote_Ammo;
