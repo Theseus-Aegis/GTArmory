@@ -4,7 +4,7 @@ class arifle_Velko_lxWS: arifle_Velko_base_lxWS {
     recoil = QCLASS(556_LongBarrel);
 };
 
-class arifle_VelkoR5_lxWS: arifle_Velko_lxWS {
+class arifle_VelkoR5_lxWS: arifle_Velko_base_lxWS {
     recoil = QCLASS(556_ShortBarrel);
 };
 
