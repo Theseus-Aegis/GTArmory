@@ -319,4 +319,9 @@ class CfgAmmo {
         caliber = 1.3;
         hit = 11.5;
     };
+
+    // MELB Tracer Size
+    class B_762x51_Ball_MELB: B_762x51_Ball {
+        tracerScale = 1;
+    };
 };

@@ -23,6 +23,7 @@ class CfgPatches {
             "hlcweapons_core",
             "hlcweapons_AUG",
             "hlcweapons_SG550",
+            "MELB",
             "niaweapons_226",
             "tacs_weapons"
         };
