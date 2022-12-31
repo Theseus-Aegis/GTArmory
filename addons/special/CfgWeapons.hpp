@@ -7,6 +7,16 @@ class CfgWeapons {
     class U_I_C_Soldier_Bandit_2_F;
     class HeadgearItem;
     class ItemCore;
+    class H_HelmetB_TI_arid_F;
+
+    // Ethan
+    class CLASS(Ethan_Helmet): H_HelmetB_TI_arid_F {
+        displayName = "Stealth Helmet, 'Ethan' Edition";
+        scope = 2;
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\h_helmetb_ti_ethan_f_co.paa)
+        };
+    };
 
     // Jack
     class CUP_H_C_Beret_01: ItemCore {
