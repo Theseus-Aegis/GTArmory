@@ -7,6 +7,7 @@ class CfgPatches {
             QCLASS(MM_item_minotaur_uniform)
         };
         weapons[] = {
+            QCLASS(Ethan_Helmet),
             QCLASS(Jack_Beret),
             QCLASS(JJ_HeliPilot_Black),
             QCLASS(Joram_HeliPilot_Black),
