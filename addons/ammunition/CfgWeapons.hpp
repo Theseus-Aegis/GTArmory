@@ -103,4 +103,13 @@ class CfgWeapons {
     class arifle_XMS_Base_lxWS: arifle_SPAR_01_base_F {
         magazineWell[] += {"CBA_556x45_STANAG"};
     };
+
+    class DMR_06_base_F;
+    class arifle_SLR_lxWS: DMR_06_base_F {
+        magazineWell[] += {QCLASS(762x51_SLR)};
+    };
+
+    class LMG_S77_base_lxWS: Rifle_Long_Base_F {
+        magazineWell[] += {QCLASS(762x51_SA77)};
+    };
 };
