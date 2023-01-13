@@ -182,3 +182,6 @@ class arifle_Galat_base_lxWS;
 
 // Velko
 class arifle_Velko_base_lxWS;
+
+// SLR
+class arifle_SLR_V_lxWS;
