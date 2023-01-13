@@ -74,6 +74,7 @@ class CfgWeapons {
     #include "cup\762N\sa58.hpp"
     #include "cup\762N\scar.hpp"
     #include "cup\762N\stg.hpp"
+    #include "ws\762N\slr.hpp"
 
     // 7.62x54r
     #include "cup\762_54\svd.hpp"
