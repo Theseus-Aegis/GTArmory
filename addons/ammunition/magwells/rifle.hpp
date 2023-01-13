@@ -486,3 +486,20 @@ class AA40_12Gauge {
         QCLASS(20Rnd_AA40_Smoke)
     };
 };
+
+class CLASS(762x51_SLR) {
+    ADDON[] = {
+        QCLASS(20Rnd_762x51_Ball_SLR),
+        QCLASS(20Rnd_762x51_Ball_Tracer_SLR),
+        QCLASS(20Rnd_762x51_EPR_SLR),
+        QCLASS(20Rnd_762x51_AP_SLR)
+    };
+};
+
+class CLASS(762x51_SA77) {
+    ADDON[] = {
+        QCLASS(100Rnd_762x51_Ball_Belt_SA77),
+        QCLASS(100Rnd_762x51_Ball_Tracer_Belt_SA77),
+        QCLASS(100Rnd_762x51_EPR_Belt_SA77)
+    };
+};
