@@ -118,3 +118,4 @@ class asdg_PistolUnderRail: asdg_SlotInfo {
 };
 
 #include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
