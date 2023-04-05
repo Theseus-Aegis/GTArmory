@@ -68,6 +68,7 @@ class CfgVehicles {
         class TransportItems {
             MACRO_ADDITEM(B_UavTerminal,1);
             MACRO_ADDITEM(ACE_UAVBattery,3);
+            MACRO_ADDITEM(Toolkit,10);
         };
         class TransportBackpacks {
             MACRO_ADDBACKPACK(B_UGV_02_Demining_backpack_F,1);
