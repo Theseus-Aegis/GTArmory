@@ -218,4 +218,15 @@ class CfgVehicles {
             QPATHTOF(data\supply_empty_4_2_ca.paa)
         };
     };
+
+    class Land_CanisterFuel_F;
+    class CLASS(CanisterFuel_Theseus): Land_CanisterFuel_F {
+        displayName = "[TAC] Fuel Canister";
+        EDITOR_CATEGORY
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = QPATHTOF(ui\supplies_Empty.jpg); // TODO: make editorPreview.
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\canisterfuel_theseus.paa)};
+    };
 };
