@@ -225,7 +225,7 @@ class CfgVehicles {
         EDITOR_CATEGORY
         scope = 2;
         scopeCurator = 2;
-        editorPreview = QPATHTOF(ui\supplies_Empty.jpg); // TODO: make editorPreview.
+        editorPreview = QPATHTOF(ui\supplies_FuelCanister.jpg);
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\canisterfuel_theseus.paa)};
     };
