@@ -89,18 +89,18 @@ class CfgWeapons {
     class CLASS(M4_Weapon_Case): tac_supplies_replacementBase {
         scope = 2;
         picture = QPATHTOF(ui\m4_weapon_case_ca.paa);
-        displayName = "Weapons Casse (M4A1)";
+        displayName = "Weapons Case (M4A1)";
         tac_supplies_replacementList[] = {
-            "tacgt_30Rnd_556x45_M855_EMAG",
-            "tacgt_30Rnd_556x45_M855_EMAG",
-            "tacgt_30Rnd_556x45_M855_EMAG",
-            "tacgt_30Rnd_556x45_M855_EMAG",
-            "tacgt_30Rnd_556x45_M855_EMAG",
-            "tacgt_30Rnd_556x45_M855_EMAG",
-            "tacgt_30Rnd_556x45_M855_EMAG",
-            "tacgt_30Rnd_556x45_M855_EMAG",
-            "tacgt_30Rnd_556x45_M855_EMAG",
-            "tacgt_30Rnd_556x45_M855_EMAG",
+            "tacgt_30Rnd_556x45_Ball_EMAG",
+            "tacgt_30Rnd_556x45_Ball_EMAG",
+            "tacgt_30Rnd_556x45_Ball_EMAG",
+            "tacgt_30Rnd_556x45_Ball_EMAG",
+            "tacgt_30Rnd_556x45_Ball_EMAG",
+            "tacgt_30Rnd_556x45_Ball_EMAG",
+            "tacgt_30Rnd_556x45_Ball_EMAG",
+            "tacgt_30Rnd_556x45_Ball_EMAG",
+            "tacgt_30Rnd_556x45_Ball_EMAG",
+            "tacgt_30Rnd_556x45_Ball_EMAG",
             "CUP_arifle_M4A1_black"
         };
     };

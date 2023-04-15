@@ -4,7 +4,7 @@ Recategorises and Hides certain things from [Uriki's Mission Items](https://stea
 
 ### Authors
 - [Uriki](http://steamcommunity.com/profiles/76561198042874146)
-- [Tyrone](https://github.com/TyroneMF)
+- [MikeMF](https://github.com/MikeMF)
 
 ### License
 [This component of GT Armory is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.](https://creativecommons.org/licenses/by-nc-sa/4.0)

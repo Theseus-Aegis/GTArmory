@@ -7,8 +7,9 @@ class CfgWeapons {
         scope = 2;
         recoil = QCLASS(recoil_mk200);
         magazines[] = {
-            QCLASS(100Rnd_65x39_Cased_Box),
-            QCLASS(100Rnd_65x39_Yellow_Cased_Box)
+            QCLASS(100Rnd_65x39_Ball_Belt),
+            QCLASS(100Rnd_65x39_Ball_Tracer_Belt),
+            QCLASS(100Rnd_65x39_EPR_Belt)
         };
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\1st_person_gt_co.paa),

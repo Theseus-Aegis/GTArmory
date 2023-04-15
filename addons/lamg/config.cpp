@@ -7,14 +7,10 @@ class CfgPatches {
         weapons[] = {
             QCLASS(LMG_LAMG)
         };
-        magazines[] = {
-            QCLASS(100Rnd_65x39_Cased_Box),
-            QCLASS(100Rnd_65x39_Yellow_Cased_Box)
-        };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main"};
+        requiredAddons[] = {"tacgt_main", "tacgt_ammunition"};
         author = ECSTRING(main,Authors);
-        authors[] = {"GilleeDoo, Tyrone"};
+        authors[] = {"GilleeDoo, Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

@@ -4,4 +4,4 @@ Removes rain sounds from Vanilla vehicles/objects when utilising the converted S
 
 ### Authors
 
-- [TyroneMF](https://github.com/tyronemf)
+- [MikeMF](https://github.com/MikeMF)

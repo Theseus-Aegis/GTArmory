@@ -55,7 +55,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "CUP_Weapons_West_Attachments"};
         author = ECSTRING(main,Authors);
-        authors[] = {"Tyrone"};
+        authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
@@ -118,3 +118,4 @@ class asdg_PistolUnderRail: asdg_SlotInfo {
 };
 
 #include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"

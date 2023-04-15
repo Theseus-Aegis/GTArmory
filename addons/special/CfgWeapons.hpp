@@ -5,6 +5,45 @@ class CfgWeapons {
     class Uniform_Base;
     class UniformItem;
     class U_I_C_Soldier_Bandit_2_F;
+    class HeadgearItem;
+    class ItemCore;
+    class H_HelmetB_TI_arid_F;
+
+    // Ethan
+    class CLASS(Ethan_Helmet): H_HelmetB_TI_arid_F {
+        displayName = "Stealth Helmet, 'Ethan' Edition";
+        scope = 2;
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\h_helmetb_ti_ethan_f_co.paa)
+        };
+    };
+
+    // Jack
+    class CUP_H_C_Beret_01: ItemCore {
+        class ItemInfo: HeadgearItem {
+            class HitpointsProtectionInfo {
+                class Head;
+            };
+        };
+    };
+
+    class CLASS(Jack_Beret): CUP_H_C_Beret_01 {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "Beret, True Freedom Edition";
+        descriptionShort = "Fitted with a steel plate";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\jack_beret_co.paa)
+        };
+        // Mythical head protection of an unknown origin..
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo: HitpointsProtectionInfo {
+                class Head: Head {
+                    armor = 10;
+                };
+            };
+        };
+    };
 
     // JJ
     class CLASS(JJ_HeliPilot_Black): H_PilotHelmetHeli_B {
@@ -64,6 +103,34 @@ class CfgWeapons {
             uniformClass = QCLASS(MM_Minotaur_Uniform);
             containerClass = "Supply40";
             mass = 40;
+        };
+    };
+
+    // Zak (Additional stuff inside Ammunition component)
+    class hlc_Pistol_M11A1;
+    class CLASS(M11A1_Special): hlc_Pistol_M11A1 {
+        author = "Mike";
+        scope = 2;
+        displayName = "SigSauer M11 10th Legion Special";
+        magazines[] = {QCLASS(10mm_Ball_Special)};
+        magazineWell[] = {};
+        baseWeapon = QCLASS(M11A1_Special);
+        hiddenSelections[] = {"228Slides", "Sigframe_228", "SIG_US_Grips228", "SIGpistol_Common"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\228slides_zz_co.paa),
+            "hlc_wp_p226\tex\p226\228m11a1_frame_co.paa",
+            "hlc_wp_p226\tex\p226\228_grips_co.paa",
+            "hlc_wp_p226\tex\p226\common_co.paa"
+        };
+
+        class Single: Mode_SemiAuto {
+            class BaseSoundModeType;
+            class StandardSound: BaseSoundModeType {
+                soundSetShot[] = {"ACPC2_Shot_SoundSet", "ACPC2_Tail_SoundSet", "ACPC2_InteriorTail_SoundSet"};
+            };
+            class SilencedSound: BaseSoundModeType {
+                SoundSetShot[] = {"ACPC2_silencerShot_SoundSet", "ACPC2_silencerTail_SoundSet", "ACPC2_silencerInteriorTail_SoundSet"};
+            };
         };
     };
 };
