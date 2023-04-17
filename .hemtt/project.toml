@@ -1,0 +1,20 @@
+name = "GT Armory"
+prefix = "tacgt"
+author = "Mike, Gilleedoo"
+
+[files]
+include = [
+    "mod.cpp",
+    "README.md",
+    "tacgt_logo_128.paa",
+    "tacgt_logo_64.paa"
+]
+
+[version]
+git_hash = 0
+
+[hemtt.config]
+preset = "Hemtt"
+
+[hemtt.release]
+folder = "gt_armory"
