@@ -187,7 +187,7 @@ class CBA_556x45_G36 {
         QCLASS(30Rnd_556x45_Ball_G36),
         QCLASS(30Rnd_556x45_Ball_Tracer_G36),
         QCLASS(30Rnd_556x45_EPR_G36),
-        CLASS(30Rnd_556x45_AP_G36),
+        QCLASS(30Rnd_556x45_AP_G36),
         QCLASS(100Rnd_556x45_Ball_BetaC),
         QCLASS(100Rnd_556x45_Ball_Tracer_BetaC),
         QCLASS(100Rnd_556x45_EPR_BetaC)
@@ -444,7 +444,7 @@ class CBA_762x51_SR25 {
 class CBA_762x54R_SVD {
     ADDON[] = {
         QCLASS(10Rnd_762x54r_Ball),
-        CLASS(10Rnd_762x54r_Ball_Tracer),
+        QCLASS(10Rnd_762x54r_Ball_Tracer),
         QCLASS(10Rnd_762x54r_EPR),
         QCLASS(10Rnd_762x54r_AP)
     };
@@ -454,7 +454,7 @@ class CBA_762x51_LINKS {
     ADDON[] = {
         QCLASS(100Rnd_762x51_Ball_Belt),
         QCLASS(100Rnd_762x51_Ball_Tracer_Belt),
-        CLASS(100Rnd_762x51_EPR_Belt)
+        QCLASS(100Rnd_762x51_EPR_Belt)
     };
 };
 
@@ -472,7 +472,7 @@ class 556x45_Velko {
         QCLASS(35Rnd_556x45_Ball_R4),
         QCLASS(35Rnd_556x45_Ball_Tracer_R4),
         QCLASS(35Rnd_556x45_EPR_R4),
-        CLASS(35Rnd_556x45_AP_R4)
+        QCLASS(35Rnd_556x45_AP_R4)
     };
 };
 
