@@ -5,7 +5,7 @@
 
 // Main
 #define QUOTE(var1) #var1
-#define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCH.BUILD); versionAr[] = {MAJOR,MINOR,PATCH,BUILD}
+#define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCH); versionAr[] = {MAJOR,MINOR,PATCH}
 
 // Class
 #define CLASS(var1) DOUBLES(PREFIX,var1)
