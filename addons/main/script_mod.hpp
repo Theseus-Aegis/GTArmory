@@ -4,6 +4,8 @@
 
 #include "script_version.hpp"
 
+#define REQUIRED_VERSION 1.56
+
 #ifdef COMPONENT_BEAUTIFIED
     #define COMPONENT_NAME QUOTE(GT Armory - COMPONENT_BEAUTIFIED)
 #else
