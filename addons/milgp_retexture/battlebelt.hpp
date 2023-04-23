@@ -5,7 +5,7 @@
     hiddenSelectionsTextures[] = { \
         QPATHTOF(data\v_battle_belt_gry_co.paa), \
         QPATHTOF(data\v_gear_01_gry_co.paa), \
-        "milgp_vests\textures\v_gear_02_co.paa" \
+        QPATHTOF(data\v_gear_02_co.paa) \
     };
 
 class milgp_v_battle_belt_assaulter_RGR;
