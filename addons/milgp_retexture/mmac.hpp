@@ -44,7 +44,7 @@ class CLASS(mmac_medic_gry):milgp_v_mmac_medic_rgr {
 };
 
 class milgp_v_mmac_medic_belt_rgr;
-class CLASS(mmac_medic_gry):milgp_v_mmac_medic_belt_rgr {
+class CLASS(mmac_medic_belt_gry):milgp_v_mmac_medic_belt_rgr {
     displayName = "MMAC Medic + Belt (GRY)";
     MACRO_MMAC_BELT
 };
@@ -56,7 +56,7 @@ class CLASS(mmac_teamleader_gry):milgp_v_mmac_teamleader_rgr {
 };
 
 class milgp_v_mmac_teamleader_belt_rgr;
-class CLASS(mmac_teamleader_gry):milgp_v_mmac_teamleader_belt_rgr {
+class CLASS(mmac_teamleader_belt_gry):milgp_v_mmac_teamleader_belt_rgr {
     displayName = "MMAC TeamLeader + Belt (GRY)";
     MACRO_MMAC_BELT
 };
@@ -68,7 +68,7 @@ class CLASS(mmac_marksman_gry):milgp_v_mmac_marksman_rgr {
 };
 
 class milgp_v_mmac_marksman_belt_rgr;
-class CLASS(mmac_marksman_gry):milgp_v_mmac_marksman_belt_rgr {
+class CLASS(mmac_marksman_belt_gry):milgp_v_mmac_marksman_belt_rgr {
     displayName = "MMAC Marksman + Belt (GRY)";
     MACRO_MMAC_BELT
 };
@@ -80,7 +80,7 @@ class CLASS(mmac_hgunner_gry):milgp_v_mmac_hgunner_rgr {
 };
 
 class milgp_v_mmac_hgunner_belt_rgr;
-class CLASS(mmac_hgunner_gry):milgp_v_mmac_hgunner_belt_rgr {
+class CLASS(mmac_hgunner_belt_gry):milgp_v_mmac_hgunner_belt_rgr {
     displayName = "MMAC HeavyGunner + Belt (GRY)";
     MACRO_MMAC_BELT
 };
@@ -92,7 +92,7 @@ class CLASS(mmac_grenadier_gry):milgp_v_mmac_grenadier_rgr {
 };
 
 class milgp_v_mmac_grenadier_belt_rgr;
-class CLASS(mmac_grenadier_gry):milgp_v_mmac_grenadier_belt_rgr {
+class CLASS(mmac_grenadier_belt_gry):milgp_v_mmac_grenadier_belt_rgr {
     displayName = "MMAC Grenadier + Belt (GRY)";
     MACRO_MMAC_BELT
 };
