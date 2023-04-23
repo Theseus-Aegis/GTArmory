@@ -23,3 +23,5 @@ class CfgWeapons {
     #include "battlebelt.hpp"
     #include "mmac.hpp"
 };
+
+// TODO: UI pictures
