@@ -20,5 +20,6 @@ class CfgPatches {
 };
 
 class CfgWeapons {
+    #include "battlebelt.hpp"
     #include "mmac.hpp"
 };
