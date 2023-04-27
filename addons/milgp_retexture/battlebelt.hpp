@@ -28,7 +28,6 @@ class CLASS(battle_belt_assaulter_gry):milgp_v_battle_belt_assaulter_RGR {
 };
 
 // Black
-class milgp_v_battle_belt_assaulter_RGR;
 class CLASS(battle_belt_assaulter_blk):milgp_v_battle_belt_assaulter_RGR {
     displayName = "Battle Belt Assaulter (BLK)";
     MACRO_BATTLEBELT_BLK
@@ -42,7 +41,6 @@ class CLASS(battle_belt_hgunner_gry):milgp_v_battle_belt_hgunner_RGR {
 };
 
 // Black
-class milgp_v_battle_belt_hgunner_RGR;
 class CLASS(battle_belt_hgunner_blk):milgp_v_battle_belt_hgunner_RGR {
     displayName = "Battle Belt Assaulter (BLK)";
     MACRO_BATTLEBELT_BLK

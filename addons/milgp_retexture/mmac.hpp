@@ -50,7 +50,6 @@ class CLASS(mmac_light_gry):milgp_v_mmac_light_rgr {
 };
 
 // Black
-class milgp_v_mmac_light_rgr;
 class CLASS(mmac_light_blk):milgp_v_mmac_light_rgr {
     displayName = "MMAC Light (BLK)";
     MACRO_MMAC_BLK
@@ -70,13 +69,11 @@ class CLASS(mmac_assaulter_belt_gry): milgp_v_mmac_assaulter_belt_rgr {
 };
 
 // Black
-class milgp_v_mmac_assaulter_rgr;
 class CLASS(mmac_assaulter_blk): milgp_v_mmac_assaulter_rgr {
     displayName = "MMAC Assaulter (BLK)";
     MACRO_MMAC_BLK
 };
 
-class milgp_v_mmac_assaulter_belt_rgr;
 class CLASS(mmac_assaulter_belt_blk): milgp_v_mmac_assaulter_belt_rgr {
     displayName = "MMAC Assaulter + Belt (BLK)";
     MACRO_MMAC_BELT_BLK
@@ -96,13 +93,11 @@ class CLASS(mmac_medic_belt_gry):milgp_v_mmac_medic_belt_rgr {
 };
 
 // Black
-class milgp_v_mmac_medic_rgr;
 class CLASS(mmac_medic_blk):milgp_v_mmac_medic_rgr {
     displayName = "MMAC Medic (BLK)";
     MACRO_MMAC_BLK
 };
 
-class milgp_v_mmac_medic_belt_rgr;
 class CLASS(mmac_medic_belt_blk):milgp_v_mmac_medic_belt_rgr {
     displayName = "MMAC Medic + Belt (BLK)";
     MACRO_MMAC_BELT_BLK
@@ -122,13 +117,11 @@ class CLASS(mmac_teamleader_belt_gry):milgp_v_mmac_teamleader_belt_rgr {
 };
 
 // Black
-class milgp_v_mmac_teamleader_rgr;
 class CLASS(mmac_teamleader_blk):milgp_v_mmac_teamleader_rgr {
     displayName = "MMAC TeamLeader (BLK)";
     MACRO_MMAC_BLK
 };
 
-class milgp_v_mmac_teamleader_belt_rgr;
 class CLASS(mmac_teamleader_belt_blk):milgp_v_mmac_teamleader_belt_rgr {
     displayName = "MMAC TeamLeader + Belt (BLK)";
     MACRO_MMAC_BELT_BLK
@@ -148,13 +141,11 @@ class CLASS(mmac_marksman_belt_gry):milgp_v_mmac_marksman_belt_rgr {
 };
 
 // Black
-class milgp_v_mmac_marksman_rgr;
 class CLASS(mmac_marksman_blk):milgp_v_mmac_marksman_rgr {
     displayName = "MMAC Marksman (BLK)";
     MACRO_MMAC_BLK
 };
 
-class milgp_v_mmac_marksman_belt_rgr;
 class CLASS(mmac_marksman_belt_blk):milgp_v_mmac_marksman_belt_rgr {
     displayName = "MMAC Marksman + Belt (BLK)";
     MACRO_MMAC_BELT_BLK
@@ -174,13 +165,11 @@ class CLASS(mmac_hgunner_belt_gry):milgp_v_mmac_hgunner_belt_rgr {
 };
 
 // Black
-class milgp_v_mmac_hgunner_rgr;
 class CLASS(mmac_hgunner_blk):milgp_v_mmac_hgunner_rgr {
     displayName = "MMAC HeavyGunner (BLK)";
     MACRO_MMAC_BLK
 };
 
-class milgp_v_mmac_hgunner_belt_rgr;
 class CLASS(mmac_hgunner_belt_blk):milgp_v_mmac_hgunner_belt_rgr {
     displayName = "MMAC HeavyGunner + Belt (BLK)";
     MACRO_MMAC_BELT_BLK
@@ -200,13 +189,11 @@ class CLASS(mmac_grenadier_belt_gry):milgp_v_mmac_grenadier_belt_rgr {
 };
 
 // Black
-class milgp_v_mmac_grenadier_rgr;
 class CLASS(mmac_grenadier_blk):milgp_v_mmac_grenadier_rgr {
     displayName = "MMAC Grenadier (BLK)";
     MACRO_MMAC_BLK
 };
 
-class milgp_v_mmac_grenadier_belt_rgr;
 class CLASS(mmac_grenadier_belt_blk):milgp_v_mmac_grenadier_belt_rgr {
     displayName = "MMAC Grenadier + Belt (BLK)";
     MACRO_MMAC_BELT_BLK
