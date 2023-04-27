@@ -20,28 +20,28 @@
         QPATHTOF(data\v_gear_02_co.paa) \
     };
 
-// Grey
+// Assaulter Grey
 class milgp_v_battle_belt_assaulter_RGR;
 class CLASS(battle_belt_assaulter_gry):milgp_v_battle_belt_assaulter_RGR {
     displayName = "Battle Belt Assaulter (GRY)";
     MACRO_BATTLEBELT_GRY
 };
 
-// Black
+// Assaulter Black
 class CLASS(battle_belt_assaulter_blk):milgp_v_battle_belt_assaulter_RGR {
     displayName = "Battle Belt Assaulter (BLK)";
     MACRO_BATTLEBELT_BLK
 };
 
-// Grey
+// HeavyGunner Grey
 class milgp_v_battle_belt_hgunner_RGR;
 class CLASS(battle_belt_hgunner_gry):milgp_v_battle_belt_hgunner_RGR {
-    displayName = "Battle Belt Assaulter (GRY)";
+    displayName = "Battle Belt HeavyGunner (GRY)";
     MACRO_BATTLEBELT_GRY
 };
 
-// Black
+// HeavyGunner Black
 class CLASS(battle_belt_hgunner_blk):milgp_v_battle_belt_hgunner_RGR {
-    displayName = "Battle Belt Assaulter (BLK)";
+    displayName = "Battle Belt HeavyGunner (BLK)";
     MACRO_BATTLEBELT_BLK
 };

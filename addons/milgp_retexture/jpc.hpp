@@ -42,20 +42,20 @@
         QPATHTOF(data\v_gear_02_co.paa) \
     };
 
-// Grey
+// Light Grey
 class milgp_v_jpc_Light_rgr;
 class CLASS(jpc_light_gry): milgp_v_jpc_Light_rgr {
     displayName = "JPC Light (GRY)";
     MACRO_JPC_GRY
 };
 
-// Black
+// Light Black
 class CLASS(jpc_light_blk): milgp_v_jpc_Light_rgr {
     displayName = "JPC Light (BLK)";
     MACRO_JPC_BLK
 };
 
-// Grey
+// Assaulter Grey
 class milgp_v_jpc_assaulter_rgr;
 class CLASS(jpc_assaulter_gry): milgp_v_jpc_assaulter_rgr {
     displayname = "JPC Assaulter (GRY)";
@@ -68,7 +68,7 @@ class CLASS(jpc_assaulter_belt_gry): milgp_v_jpc_assaulter_belt_rgr {
     MACRO_JPC_BELT_GRY
 };
 
-// Black
+// Assaulter Black
 class CLASS(jpc_assaulter_blk): milgp_v_jpc_assaulter_rgr {
     displayname = "JPC Assaulter (BLK)";
     MACRO_JPC_BLK
@@ -79,7 +79,7 @@ class CLASS(jpc_assaulter_belt_blk): milgp_v_jpc_assaulter_belt_rgr {
     MACRO_JPC_BELT_BLK
 };
 
-// Grey
+// Grenadier Grey
 class milgp_v_jpc_Grenadier_rgr;
 class CLASS(jpc_grenadier_gry): milgp_v_jpc_Grenadier_rgr {
     displayname = "JPC Grenadier (GRY)";
@@ -92,7 +92,7 @@ class CLASS(jpc_grenadier_belt_gry): milgp_v_jpc_Grenadier_belt_rgr {
     MACRO_JPC_BELT_GRY
 };
 
-// Black
+// Grenadier Black
 class CLASS(jpc_grenadier_blk): milgp_v_jpc_Grenadier_rgr {
     displayname = "JPC Grenadier (BLK)";
     MACRO_JPC_BLK
@@ -103,7 +103,7 @@ class CLASS(jpc_grenadier_belt_blk): milgp_v_jpc_Grenadier_belt_rgr {
     MACRO_JPC_BELT_BLK
 };
 
-// Grey
+// HeavyGunner Grey
 class milgp_v_jpc_hgunner_rgr;
 class CLASS(jpc_hgunner_gry): milgp_v_jpc_hgunner_rgr {
     displayname = "JPC HeavyGunner (GRY)";
@@ -116,7 +116,7 @@ class CLASS(jpc_hgunner_belt_gry): milgp_v_jpc_hgunner_belt_rgr {
     MACRO_JPC_BELT_GRY
 };
 
-// Black
+// HeavyGunner Black
 class CLASS(jpc_hgunner_blk): milgp_v_jpc_hgunner_rgr {
     displayname = "JPC HeavyGunner (BLK)";
     MACRO_JPC_BLK
@@ -127,31 +127,7 @@ class CLASS(jpc_hgunner_belt_blk): milgp_v_jpc_hgunner_belt_rgr {
     MACRO_JPC_BELT_BLK
 };
 
-// Grey
-class milgp_v_jpc_Medic_rgr;
-class CLASS(jpc_medic_gry): milgp_v_jpc_Medic_rgr {
-    displayname = "JPC Medic (GRY)";
-    MACRO_JPC_GRY
-};
-
-class milgp_v_jpc_medic_belt_rgr;
-class CLASS(jpc_medic_belt_gry): milgp_v_jpc_medic_belt_rgr {
-    displayname = "JPC Medic + Belt (GRY)";
-    MACRO_JPC_BELT_GRY
-};
-
-// Black
-class CLASS(jpc_medic_blk): milgp_v_jpc_Medic_rgr {
-    displayname = "JPC Medic (BLK)";
-    MACRO_JPC_BLK
-};
-
-class CLASS(jpc_medic_belt_blk): milgp_v_jpc_medic_belt_rgr {
-    displayname = "JPC Medic + Belt (BLK)";
-    MACRO_JPC_BELT_BLK
-};
-
-// Grey
+// Marksman Grey
 class milgp_v_jpc_Marksman_rgr;
 class CLASS(jpc_marksman_gry): milgp_v_jpc_Marksman_rgr {
     displayname = "JPC Marksman (GRY)";
@@ -164,7 +140,7 @@ class CLASS(jpc_marksman_belt_gry): milgp_v_jpc_marksman_belt_rgr {
     MACRO_JPC_BELT_GRY
 };
 
-// Black
+// Marksman Black
 class CLASS(jpc_marksman_blk): milgp_v_jpc_Marksman_rgr {
     displayname = "JPC Marksman (BLK)";
     MACRO_JPC_BLK
@@ -175,7 +151,31 @@ class CLASS(jpc_marksman_belt_blk): milgp_v_jpc_marksman_belt_rgr {
     MACRO_JPC_BELT_BLK
 };
 
-// Grey
+// Medic Grey
+class milgp_v_jpc_Medic_rgr;
+class CLASS(jpc_medic_gry): milgp_v_jpc_Medic_rgr {
+    displayname = "JPC Medic (GRY)";
+    MACRO_JPC_GRY
+};
+
+class milgp_v_jpc_medic_belt_rgr;
+class CLASS(jpc_medic_belt_gry): milgp_v_jpc_medic_belt_rgr {
+    displayname = "JPC Medic + Belt (GRY)";
+    MACRO_JPC_BELT_GRY
+};
+
+// Medic Black
+class CLASS(jpc_medic_blk): milgp_v_jpc_Medic_rgr {
+    displayname = "JPC Medic (BLK)";
+    MACRO_JPC_BLK
+};
+
+class CLASS(jpc_medic_belt_blk): milgp_v_jpc_medic_belt_rgr {
+    displayname = "JPC Medic + Belt (BLK)";
+    MACRO_JPC_BELT_BLK
+};
+
+// TeamLeader Grey
 class milgp_v_jpc_TeamLeader_rgr;
 class CLASS(jpc_teamleader_gry): milgp_v_jpc_TeamLeader_rgr {
     displayname = "JPC TeamLeader (GRY)";
@@ -188,7 +188,7 @@ class CLASS(jpc_teamleader_belt_gry): milgp_v_jpc_teamleader_belt_rgr {
     MACRO_JPC_BELT_GRY
 };
 
-// Black
+// TeamLeader Black
 class CLASS(jpc_teamleader_blk): milgp_v_jpc_TeamLeader_rgr {
     displayname = "JPC TeamLeader (BLK)";
     MACRO_JPC_BLK
