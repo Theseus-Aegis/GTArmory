@@ -1,4 +1,5 @@
-#define MACRO_BATTLEBELT \
+// Grey
+#define MACRO_BATTLEBELT_GRY \
     author = "GilleeDoo"; \
     scope = 2; \
     hiddenSelections[] = {"camo1", "camo2", "camo3"}; \
@@ -8,14 +9,41 @@
         QPATHTOF(data\v_gear_02_co.paa) \
     };
 
+// Black
+#define MACRO_BATTLEBELT_BLK \
+    author = "GilleeDoo"; \
+    scope = 2; \
+    hiddenSelections[] = {"camo1", "camo2", "camo3"}; \
+    hiddenSelectionsTextures[] = { \
+        QPATHTOF(data\v_battle_belt_blk_co.paa), \
+        QPATHTOF(data\v_gear_01_blk_co.paa), \
+        QPATHTOF(data\v_gear_02_co.paa) \
+    };
+
+// Grey
 class milgp_v_battle_belt_assaulter_RGR;
 class CLASS(battle_belt_assaulter_gry):milgp_v_battle_belt_assaulter_RGR {
     displayName = "Battle Belt Assaulter (GRY)";
-    MACRO_BATTLEBELT
+    MACRO_BATTLEBELT_GRY
 };
 
+// Black
+class milgp_v_battle_belt_assaulter_RGR;
+class CLASS(battle_belt_assaulter_blk):milgp_v_battle_belt_assaulter_RGR {
+    displayName = "Battle Belt Assaulter (BLK)";
+    MACRO_BATTLEBELT_BLK
+};
+
+// Grey
 class milgp_v_battle_belt_hgunner_RGR;
 class CLASS(battle_belt_hgunner_gry):milgp_v_battle_belt_hgunner_RGR {
     displayName = "Battle Belt Assaulter (GRY)";
-    MACRO_BATTLEBELT
+    MACRO_BATTLEBELT_GRY
+};
+
+// Black
+class milgp_v_battle_belt_hgunner_RGR;
+class CLASS(battle_belt_hgunner_blk):milgp_v_battle_belt_hgunner_RGR {
+    displayName = "Battle Belt Assaulter (BLK)";
+    MACRO_BATTLEBELT_BLK
 };
