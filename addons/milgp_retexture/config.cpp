@@ -32,9 +32,14 @@ class CfgPatches {
     };
 };
 
+class CfgVehicles {
+    #include "backpacks.hpp"
+};
+
 class CfgWeapons {
     #include "battlebelt.hpp"
     #include "mmac.hpp"
 };
 
+// TODO: Classnames in CfgPatches
 // TODO: UI pictures
