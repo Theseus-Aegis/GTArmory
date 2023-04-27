@@ -39,6 +39,7 @@ class CfgVehicles {
 class CfgWeapons {
     #include "battlebelt.hpp"
     #include "jpc.hpp"
+    #include "marciras.hpp"
     #include "mmac.hpp"
 };
 
