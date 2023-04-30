@@ -122,5 +122,4 @@ class CfgWeapons {
     #include "mmac.hpp"
 };
 
-// TODO: Finish textures
 // TODO: UI pictures

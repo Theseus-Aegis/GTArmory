@@ -77,26 +77,3 @@ class CLASS(tomahawk_blk): milgp_bp_Tomahawk_rgr {
         QPATHTOF(data\b_cryedro_blk_co.paa)
     };
 };
-
-// Patrol 01 Grey
-class milgp_b_patrol_01_rgr;
-class CLASS(patrol_01_gry): milgp_b_patrol_01_rgr {
-    displayName = "Patrol 01 (GRY)";
-    author = "GilleeDoo";
-    hiddenSelections[] = {"camo","camo1"};
-    hiddenSelectionsTextures[] = {
-        QPATHTOF(data\b_patrol_gry_co.paa),
-        QPATHTOF(data\v_gear_01_gry_co.paa)
-    };
-};
-
-// Patrol 01 Black
-class CLASS(patrol_01_blk): milgp_b_patrol_01_rgr {
-    displayName = "Patrol 01 (BLK)";
-    author = "GilleeDoo";
-    hiddenSelections[] = {"camo","camo1"};
-    hiddenSelectionsTextures[] = {
-        QPATHTOF(data\b_patrol_blk_co.paa),
-        QPATHTOF(data\v_gear_01_blk_co.paa)
-    };
-};
