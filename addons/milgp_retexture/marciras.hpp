@@ -1,5 +1,6 @@
 // Grey
 #define MACRO_MARCIRAS_GRY \
+    picture = QPATHTOF(ui\icon_v_marciras_gry_ca.paa); \
     author = "GilleeDoo"; \
     scope = 2; \
     hiddenSelections[] = {"camo", "camo2", "camo3"}; \
@@ -10,6 +11,7 @@
     };
 
 #define MACRO_MARCIRAS_BELT_GRY \
+    picture = QPATHTOF(ui\icon_v_marciras_gry_ca.paa); \
     author = "GilleeDoo"; \
     scope = 2; \
     hiddenSelections[] = {"camo", "camo1", "camo2", "camo3"}; \
@@ -22,6 +24,7 @@
 
 // Black
 #define MACRO_MARCIRAS_BLK \
+    picture = QPATHTOF(ui\icon_v_marciras_blk_ca.paa); \
     author = "GilleeDoo"; \
     scope = 2; \
     hiddenSelections[] = {"camo", "camo2", "camo3"}; \
@@ -32,6 +35,7 @@
     };
 
 #define MACRO_MARCIRAS_BELT_BLK \
+    picture = QPATHTOF(ui\icon_v_marciras_blk_ca.paa); \
     author = "GilleeDoo"; \
     scope = 2; \
     hiddenSelections[] = {"camo", "camo1", "camo2", "camo3"}; \

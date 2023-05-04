@@ -1,5 +1,6 @@
 // Grey
 #define MACRO_BATTLEBELT_GRY \
+    picture = QPATHTOF(ui\icon_v_battle_belt_gry_ca.paa); \
     author = "GilleeDoo"; \
     scope = 2; \
     hiddenSelections[] = {"camo1", "camo2", "camo3"}; \
@@ -11,6 +12,7 @@
 
 // Black
 #define MACRO_BATTLEBELT_BLK \
+    picture = QPATHTOF(ui\icon_v_battle_belt_blk_ca.paa); \
     author = "GilleeDoo"; \
     scope = 2; \
     hiddenSelections[] = {"camo1", "camo2", "camo3"}; \
