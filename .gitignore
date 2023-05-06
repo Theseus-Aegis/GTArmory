@@ -51,11 +51,13 @@ release/*
 *.cache
 releases/*
 keys/*
+*.zip
 
 # HEMTT
 hemtt
 hemtt.exe
 .hemtt/local
+.hemttout
 
 # Swap
 *.swp
