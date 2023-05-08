@@ -68,6 +68,7 @@ class CfgVehicles {
         class TransportItems {
             MACRO_ADDITEM(B_UavTerminal,1);
             MACRO_ADDITEM(ACE_UAVBattery,3);
+            MACRO_ADDITEM(Toolkit,10);
         };
         class TransportBackpacks {
             MACRO_ADDBACKPACK(B_UGV_02_Demining_backpack_F,1);
@@ -217,5 +218,16 @@ class CfgVehicles {
             QPATHTOF(data\supply_base_texture_co.paa),
             QPATHTOF(data\supply_empty_4_2_ca.paa)
         };
+    };
+
+    class Land_CanisterFuel_F;
+    class CLASS(CanisterFuel_Theseus): Land_CanisterFuel_F {
+        displayName = "[TAC] Fuel Canister";
+        EDITOR_CATEGORY
+        scope = 2;
+        scopeCurator = 2;
+        editorPreview = QPATHTOF(ui\supplies_FuelCanister.jpg);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\canisterfuel_theseus.paa)};
     };
 };

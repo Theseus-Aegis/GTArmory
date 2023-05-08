@@ -13,7 +13,9 @@ class CfgPatches {
             QCLASS(Joram_HeliPilot_Black),
             QCLASS(RG_marciras_hh_belt_rgr),
             QCLASS(RG_marciras_hh_belt_khk),
-            QCLASS(MM_minotaur_uniform)
+            QCLASS(MM_minotaur_uniform),
+            QCLASS(M11A1_Special),
+            QCLASS(Rambo_HK417DMR_White)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
@@ -22,7 +24,8 @@ class CfgPatches {
             "tacgt_ammunition",
             "milgp_uniforms_cfg",
             "milgp_vests_cfg",
-            "niaweapons_226"
+            "niaweapons_226",
+            "CUP_Weapons_HK416"
         };
         author = ECSTRING(main,Authors);
         authors[] = {"GilleeDoo", "Mike"};

@@ -53,6 +53,8 @@ class CfgMagazines {
     class 35Rnd_556x45_Velko_reload_tracer_yellow_lxWS;
     class 8Rnd_12Gauge_AA40_Pellets_lxWS;
     class 20Rnd_12Gauge_AA40_Pellets_lxWS;
+    class 20Rnd_762x51_slr_lxWS;
+    class 100Rnd_762x51_S77_Yellow_lxWS;
 
     // Handgun baseclasses
     class 16Rnd_9x21_Mag;

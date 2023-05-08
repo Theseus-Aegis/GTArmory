@@ -133,4 +133,15 @@ class CfgWeapons {
             };
         };
     };
+
+    // Rambo
+    class CUP_arifle_HK417_20;
+    class CLASS(Rambo_HK417DMR_White): CUP_arifle_HK417_20 {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "HK417 DMR 'White Rambo' Edition";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\rambo_hk417_white_co.paa)
+        };
+    };
 };
