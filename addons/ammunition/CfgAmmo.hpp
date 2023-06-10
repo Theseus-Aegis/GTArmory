@@ -20,7 +20,7 @@ class CfgAmmo {
     class B_762x39_Ball_F; // 7.62x39
     class B_762x51_Ball; // 7.62x51
     class B_762x54_Ball; // 7.62x54R
-    class HLC_300Blackout_RNBT; // .300 Blackout Subsonic
+    class HLC_300Blackout_Ball; // .300 Blackout Ball (Formerly subsonic)
     class CUP_B_9x39_SP5; // 9x39
 
     // 12G
@@ -288,8 +288,8 @@ class CfgAmmo {
     };
 
 
-    // .300AAC - Subsonic
-    class CLASS(300AAC_Ball): HLC_300Blackout_RNBT {
+    // .300AAC - Not subsonic anymore
+    class CLASS(300AAC_Ball): HLC_300Blackout_Ball {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.19;
         hit = 12;
