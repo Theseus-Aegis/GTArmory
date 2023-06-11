@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {
             QCLASS(OpsCore_Medic),
             QCLASS(Cap_DEF_NYMets),
-            QCLASS(Jack_Beret)
+            "tacgt_special_Jack_Beret"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
