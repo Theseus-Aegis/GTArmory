@@ -2,6 +2,7 @@
 
 class CfgVehicles {
     // Base Classes
+    class Civilian_F;
     class Land;
     class SoldierWB;
     class SoldierEB;
@@ -12,16 +13,23 @@ class CfgVehicles {
     };
 
     // TAC - Units
-    class TACU_Main_U_BLUFOR_Soldier_Base: SoldierWB {
-        MACRO_SENSITIVITY
-    };
+    #include "units\tacu_units.hpp"
 
-    class TACU_Main_U_OPFOR_Soldier_Base: SoldierEB {
-        MACRO_SENSITIVITY
-    };
-
-    class TACU_Main_U_INDEP_Soldier_Base: SoldierGB {
-        MACRO_SENSITIVITY
-    };
-
+    // CUP Units
+    #include "units\cup\acr.hpp"
+    #include "units\cup\baf.hpp"
+    #include "units\cup\cdf.hpp"
+    #include "units\cup\chedaki.hpp"
+    #include "units\cup\civilians.hpp"
+    #include "units\cup\germany.hpp"
+    #include "units\cup\hil.hpp"
+    #include "units\cup\napa.hpp"
+    #include "units\cup\pmc.hpp"
+    #include "units\cup\racs.hpp"
+    #include "units\cup\russia.hpp"
+    #include "units\cup\sla.hpp"
+    #include "units\cup\taki.hpp"
+    #include "units\cup\takiinsurgents.hpp"
+    #include "units\cup\usarmy.hpp"
+    #include "units\cup\usmc.hpp"
 };

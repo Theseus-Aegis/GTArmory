@@ -8,6 +8,7 @@ class CfgPatches {
         };
         weapons[] = {
             QCLASS(Ethan_Helmet),
+            QCLASS(Jack_Beret),
             QCLASS(JJ_HeliPilot_Black),
             QCLASS(Joram_HeliPilot_Black),
             QCLASS(RG_marciras_hh_belt_rgr),
@@ -19,6 +20,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
+            "CUP_Creatures_People_Civil_Chernarus",
             "tacgt_ammunition",
             "milgp_uniforms_cfg",
             "milgp_vests_cfg",

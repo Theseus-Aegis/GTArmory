@@ -7,11 +7,7 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacgt_main",
-            "CUP_Creatures_People_LoadOrder",
-            "tacu_main"
-        };
+        requiredAddons[] = {"tacgt_main", "CUP_Weapons_Backpacks"};
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
