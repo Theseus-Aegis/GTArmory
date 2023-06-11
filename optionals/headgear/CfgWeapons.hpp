@@ -39,7 +39,7 @@ class CfgWeapons {
         };
     };
 
-    class CLASS(Jack_Beret): CUP_H_C_Beret_01 {
+    class tacgt_special_Jack_Beret: CUP_H_C_Beret_01 {
         author = "GilleeDoo";
         scope = 2;
         displayName = "Beret, True Freedom Edition";
