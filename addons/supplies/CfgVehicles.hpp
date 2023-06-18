@@ -64,6 +64,7 @@ class CfgVehicles {
         class TransportMagazines {
             MACRO_ADDMAGAZINE(SatchelCharge_Remote_Mag,6);
             MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,6);
+            MACRO_ADDMAGAZINE(tac_breaching_breachingCharge_mag,12);
         };
         class TransportItems {
             MACRO_ADDITEM(B_UavTerminal,1);
