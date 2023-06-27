@@ -1,3 +1,4 @@
+// Re-add missing soundshader. Broken as of modpack 4.0.0-beta1
 class CfgSoundShaders {
     class nia_p2269mm_closeShot_SoundShader {
         range = 20;
