@@ -5,7 +5,7 @@ class CLASS(Surefire_Flashlight_Black): cup_acc_flashlight {
     scope = 2;
     scopeArsenal = 2;
 
-    class ItemInfo: ItemInfo {
+    class ItemInfo: InventoryFlashLightItem_Base_F {
         mass = 4;
         class Pointer {};
         class Flashlight {
@@ -39,7 +39,7 @@ class CLASS(Surefire_Flashlight_OD): CUP_acc_Flashlight_wdl {
     scope = 2;
     scopeArsenal = 2;
 
-    class ItemInfo: ItemInfo {
+    class ItemInfo: InventoryFlashLightItem_Base_F {
         mass = 4;
         class Pointer {};
         class Flashlight {
@@ -73,7 +73,7 @@ class CLASS(Surefire_Flashlight_Tan): CUP_acc_Flashlight_desert {
     scope = 2;
     scopeArsenal = 2;
 
-    class ItemInfo: ItemInfo {
+    class ItemInfo: InventoryFlashLightItem_Base_F {
         mass = 4;
         class Pointer {};
         class Flashlight {
