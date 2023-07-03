@@ -5,7 +5,7 @@ class CLASS(UTG_Flashlight): acc_flashlight {
     scope = 2;
     scopeArsenal = 2;
 
-    class ItemInfo: ItemInfo {
+    class ItemInfo: InventoryFlashLightItem_Base_F {
         mass = 4;
         class Pointer {};
         class Flashlight {
