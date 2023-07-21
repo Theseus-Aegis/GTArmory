@@ -27,20 +27,6 @@ class CfgWeapons {
         magazineWell[] = {"CBA_45ACP_MK23"};
     };
 
-    class CUP_Mac10_Base;
-    class CUP_smg_MAC10: CUP_Mac10_Base {
-        magazineWell[] = {QCLASS(45ACP_MAC10)};
-    };
-
-    class CUP_hgun_Mac10_Base;
-    class CUP_hgun_Mac10: CUP_hgun_Mac10_Base {
-        magazineWell[] = {QCLASS(45ACP_MAC10)};
-    };
-
-    class CUP_hgun_TEC9: Pistol_Base_F {
-        magazineWell[] = {QCLASS(9x19_TEC9)};
-    };
-
     class Rifle_Long_Base_F;
     class DMR_07_base_F: Rifle_Long_Base_F {
         magazineWell[] = {"CBA_65x39_QBU"};
@@ -53,7 +39,7 @@ class CfgWeapons {
 
     class CUP_CZ_BREN2_Base;
     class CUP_CZ_BREN2_762_Base: CUP_CZ_BREN2_Base {
-        magazineWell[] = {QCLASS(762x39_CZ)};
+        magazineWell[] += {QCLASS(762x39_CZ)};
     };
 
     class CUP_arifle_AK19_Base: Rifle_Base_F {
@@ -90,7 +76,7 @@ class CfgWeapons {
     };
 
     class bnae_r1_base: Pistol_Base_F {
-        magazineWell[] = {"ACPC2_45ACP","CBA_45ACP_1911"};
+        magazineWell[] = {"ACPC2_45ACP", "CBA_45ACP_1911"};
     };
 
     // Western Sahara Weapons
@@ -102,14 +88,5 @@ class CfgWeapons {
     class arifle_SPAR_01_base_F;
     class arifle_XMS_Base_lxWS: arifle_SPAR_01_base_F {
         magazineWell[] += {"CBA_556x45_STANAG"};
-    };
-
-    class DMR_06_base_F;
-    class arifle_SLR_lxWS: DMR_06_base_F {
-        magazineWell[] += {QCLASS(762x51_SLR)};
-    };
-
-    class LMG_S77_base_lxWS: Rifle_Long_Base_F {
-        magazineWell[] += {QCLASS(762x51_SA77)};
     };
 };
