@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "hlcweapons_core"};
+        requiredAddons[] = {"tacgt_main", "hlcweapons_core", "niaweapons_226"};
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
@@ -16,3 +16,4 @@ class CfgPatches {
 };
 
 #include "CfgWeapons.hpp"
+#include "CfgSoundShaders.hpp"

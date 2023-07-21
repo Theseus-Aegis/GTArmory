@@ -48,7 +48,7 @@ class CfgMagazines {
     class hlc_100Rnd_762x51_B_M60E4;
     class 150Rnd_762x54_Box;
     class 10Rnd_762x54_Mag;
-    class 29rnd_300BLK_STANAG_T;
+    class hlc_29rnd_300BLK_STANAG;
     class CUP_30Rnd_9x39_SP5_VIKHR_M;
     class 35Rnd_556x45_Velko_reload_tracer_yellow_lxWS;
     class 8Rnd_12Gauge_AA40_Pellets_lxWS;
