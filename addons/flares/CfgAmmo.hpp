@@ -64,11 +64,6 @@ class CfgAmmo {
         coefGravity = 0.6;
     };
 
-    // Parachute
-    class CUP_F_40mm_Star_White: F_40mm_White {
-        timeToLive = 180;
-    };
-
     class CUP_F_40mm_Star_Green: CUP_F_40mm_Star_White {};
     class CUP_F_40mm_Star_Red: CUP_F_40mm_Star_White {};
 
