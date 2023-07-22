@@ -50,7 +50,11 @@ class CBA_9x19_MP5 {
         QCLASS(30Rnd_9x19_Ball),
         QCLASS(30Rnd_9x19_Ball_Tracer),
         QCLASS(30Rnd_9x19_EPR),
-        QCLASS(30Rnd_9x19_AP)
+        QCLASS(30Rnd_9x19_AP),
+        QCLASS(30Rnd_9x19_Ball_MP5),
+        QCLASS(30Rnd_9x19_Ball_Tracer_MP5),
+        QCLASS(30Rnd_9x19_EPR_MP5),
+        QCLASS(30Rnd_9x19_AP_MP5)
     };
 };
 
@@ -69,15 +73,6 @@ class CBA_300BLK_STANAG {
         QCLASS(30Rnd_300AAC_Ball_Tracer),
         QCLASS(30Rnd_300AAC_EPR),
         QCLASS(30Rnd_300AAC_AP)
-    };
-};
-
-class CBA_9x19_MP5 {
-    ADDON[] = {
-        QCLASS(30Rnd_9x19_Ball_MP5),
-        QCLASS(30Rnd_9x19_Ball_Tracer_MP5),
-        QCLASS(30Rnd_9x19_EPR_MP5),
-        QCLASS(30Rnd_9x19_AP_MP5)
     };
 };
 
