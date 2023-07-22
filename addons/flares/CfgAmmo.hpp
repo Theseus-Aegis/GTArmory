@@ -49,6 +49,8 @@ class CfgAmmo {
         timeToLive = 180;
         coefGravity = 0.25;
     };
+    class CUP_F_40mm_Star_Green: CUP_F_40mm_Star_White {};
+    class CUP_F_40mm_Star_Red: CUP_F_40mm_Star_White {};
 
     // Cluster
     class CUP_F_40mm_StarCluster_White: CUP_F_40mm_Star_White {
@@ -63,9 +65,6 @@ class CfgAmmo {
         timeToLive = 180;
         coefGravity = 0.6;
     };
-
-    class CUP_F_40mm_Star_Green: CUP_F_40mm_Star_White {};
-    class CUP_F_40mm_Star_Red: CUP_F_40mm_Star_White {};
 
     // CUP Ilumination Rounds (CUP sets it in this class again instead of inheriting)
     class CUP_F_265mm_Star_White: F_40mm_White {
