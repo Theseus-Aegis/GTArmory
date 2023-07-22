@@ -4,9 +4,6 @@
 class CUP_arifle_G36A: CUP_arifle_G36_Base_CarryhandleOptics {
     recoil = QCLASS(556_LongBarrel);
 };
-class CUP_arifle_G36A_RIS: CUP_arifle_G36_Base {
-    recoil = QCLASS(556_LongBarrel);
-};
 // GL
 class CUP_arifle_AG36: CUP_arifle_G36A {
     recoil = QCLASS(556_GL_Long);

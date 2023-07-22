@@ -72,7 +72,7 @@ class CBA_300BLK_STANAG {
     };
 };
 
-class CLASS(9x19_MP5) { // Prevents regular BI Magazines fitting the CUP MP5s as no model shows.
+class CBA_9x19_MP5 {
     ADDON[] = {
         QCLASS(30Rnd_9x19_Ball_MP5),
         QCLASS(30Rnd_9x19_Ball_Tracer_MP5),
@@ -487,7 +487,7 @@ class AA40_12Gauge {
     };
 };
 
-class CLASS(762x51_SLR) {
+class SLR_762x51 {
     ADDON[] = {
         QCLASS(20Rnd_762x51_Ball_SLR),
         QCLASS(20Rnd_762x51_Ball_Tracer_SLR),
@@ -496,7 +496,7 @@ class CLASS(762x51_SLR) {
     };
 };
 
-class CLASS(762x51_SA77) {
+class S77_762x51 {
     ADDON[] = {
         QCLASS(100Rnd_762x51_Ball_Belt_SA77),
         QCLASS(100Rnd_762x51_Ball_Tracer_Belt_SA77),
