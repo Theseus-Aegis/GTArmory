@@ -26,6 +26,7 @@ class CfgMagazines {
     class CUP_15Rnd_9x19_M9;
     class CUP_7Rnd_45ACP_1911;
     class CUP_12Rnd_45ACP_mk23;
+    class 30Rnd_556x45_Stanag;
 
     #include "magazines\12g.hpp"
     #include "magazines\45ACP.hpp"

@@ -32,6 +32,10 @@ class CfgWeapons {
 
     // SLR
     class arifle_SLR_V_lxWS;
+    class DMR_06_base_F;
+
+    // XMS
+    class arifle_SPAR_01_base_F;
 
     #include "556\velko.hpp"
     #include "556\xms.hpp"
