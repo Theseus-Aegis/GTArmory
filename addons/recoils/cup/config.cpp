@@ -41,6 +41,12 @@ class CfgPatches {
 };
 
 class CfgWeapons {
+    // Multiple
+    class Rifle_Base_F;
+    class Tavor_base_F;
+    class arifle_TRG20_F;
+    class arifle_TRG21_F;
+
     // ACRs
     class CUP_arifle_ACR_Short_BASE_556;
     class CUP_arifle_ACR_EGLM_SHORT_BASE_556;
