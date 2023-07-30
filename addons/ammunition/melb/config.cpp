@@ -5,9 +5,12 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "hlcweapons_core", "niaweapons_226"};
+        requiredAddons[] = {
+            "tacgt_main",
+            "tacgt_ammunition",
+            "MELB",
+        };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
@@ -16,5 +19,11 @@ class CfgPatches {
     };
 };
 
-#include "CfgWeapons.hpp"
-#include "CfgSoundShaders.hpp"
+class CfgAmmo {
+    class B_762x51_Ball; // 7.62x51
+
+    // MELB Tracer Size
+    class B_762x51_Ball_MELB: B_762x51_Ball {
+        tracerScale = 1;
+    };
+};

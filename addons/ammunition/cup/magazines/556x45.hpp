@@ -82,29 +82,6 @@ class CLASS(30Rnd_556x45_AP_PMAG_Tan): CLASS(30Rnd_556x45_AP_PMAG) {
     displayName = "5.56mm 30Rnd PMAG Coyote (AP)";
 };
 
-// 5.56x45mm Belt
-class CLASS(200Rnd_556x45_Ball_Belt): 200Rnd_556x45_Box_F {
-    MACRO_SCOPE
-    ammo = QCLASS(556x45_Ball);
-    displayName = "5.56mm 200Rnd Belt [TE4] (Ball)";
-    displayNameShort = "Ball TE4";
-    descriptionShort = "5.56x45mm Ball Tracer Every 4";
-    tracersEvery = 4;
-    mass = 40;
-};
-class CLASS(200Rnd_556x45_Ball_Tracer_Belt): CLASS(200Rnd_556x45_Ball_Belt) {
-    displayName = "5.56mm 200Rnd Belt [T] (Ball)";
-    displayNameShort = "Ball Tracer";
-    descriptionShort = "5.56x45mm Ball Tracer";
-    tracersEvery = 1;
-};
-class CLASS(200Rnd_556x45_EPR_Belt): CLASS(200Rnd_556x45_Ball_Belt) {
-    ammo = QCLASS(556x45_EPR);
-    displayName = "5.56mm 200Rnd Belt [TE4] (EPR)";
-    displayNameShort = "EPR TE4";
-    descriptionShort = "5.56x45mm EPR Tracer Every 4";
-};
-
 // 5.56x45mm AK
 class CLASS(30Rnd_556x45_Ball_AK): CUP_30Rnd_556x45_AK {
     MACRO_SCOPE
@@ -193,93 +170,6 @@ class CLASS(25Rnd_556x45_AP_FAMAS): CLASS(25Rnd_556x45_Ball_FAMAS) {
     descriptionShort = "5.56x45mm AP Reload Tracer";
 };
 
-// 5.56x45mm SG55X Series
-class CLASS(30Rnd_556x45_Ball_SG): hlc_30Rnd_556x45_EPR_sg550 {
-    MACRO_SCOPE
-    ammo = QCLASS(556x45_Ball);
-    displayName = "5.56mm 30Rnd SiG (Ball)";
-    displayNameShort = "Ball";
-    descriptionShort = "5.56x45mm Ball Reload Tracer";
-    lastRoundsTracer = 4;
-    mass = 10;
-};
-class CLASS(30Rnd_556x45_Ball_Tracer_SG): CLASS(30Rnd_556x45_Ball_SG) {
-    displayName = "5.56mm 30Rnd SiG [T] (Ball)";
-    displayNameShort = "Ball Tracer";
-    descriptionShort = "5.56x45mm Ball Tracer";
-    tracersEvery = 1;
-};
-class CLASS(30Rnd_556x45_EPR_SG): CLASS(30Rnd_556x45_Ball_SG) {
-    ammo = QCLASS(556x45_EPR);
-    displayName = "5.56mm 30Rnd SiG (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = "5.56x45mm EPR Reload Tracer";
-};
-class CLASS(30Rnd_556x45_AP_SG): CLASS(30Rnd_556x45_EPR_SG) {
-    ammo = QCLASS(556x45_AP);
-    displayName = "5.56mm 30Rnd SiG (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "5.56x45mm AP Reload Tracer";
-};
-
-// 5.56x45mm AUG
-class CLASS(30Rnd_556x45_Ball_AUG): hlc_30Rnd_556x45_B_AUG {
-    MACRO_SCOPE
-    ammo = QCLASS(556x45_Ball);
-    displayName = "5.56mm 30Rnd AUG (Ball)";
-    displayNameShort = "Ball";
-    descriptionShort = "5.56x45mm Ball Reload Tracer";
-    lastRoundsTracer = 4;
-    mass = 10;
-};
-class CLASS(30Rnd_556x45_Ball_Tracer_AUG): CLASS(30Rnd_556x45_Ball_AUG) {
-    displayName = "5.56mm 30Rnd AUG [T] (Ball)";
-    displayNameShort = "Ball Tracer";
-    descriptionShort = "5.56x45mm Ball Tracer";
-    tracersEvery = 1;
-};
-class CLASS(30Rnd_556x45_EPR_AUG): CLASS(30Rnd_556x45_Ball_AUG) {
-    ammo = QCLASS(556x45_EPR);
-    displayName = "5.56mm 30Rnd AUG (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = "5.56x45mm EPR Reload Tracer";
-};
-class CLASS(30Rnd_556x45_AP_AUG): CLASS(30Rnd_556x45_EPR_AUG) {
-    ammo = QCLASS(556x45_AP);
-    displayName = "5.56mm 30Rnd AUG (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "5.56x45mm AP Reload Tracer";
-};
-
-// 5.56x45mm AUG 42Rnd
-class CLASS(42Rnd_556x45_Ball_AUG): hlc_40Rnd_556x45_B_AUG {
-    MACRO_SCOPE
-    ammo = QCLASS(556x45_Ball);
-    displayName = "5.56mm 42Rnd AUG (Ball)";
-    displayNameShort = "Ball";
-    descriptionShort = "5.56x45mm Ball Reload Tracer";
-    lastRoundsTracer = 4;
-    mass = 15;
-};
-class CLASS(42Rnd_556x45_Ball_Tracer_AUG): CLASS(42Rnd_556x45_Ball_AUG) {
-    displayName = "5.56mm 42Rnd AUG [T] (Ball)";
-    displayNameShort = "Ball Tracer";
-    descriptionShort = "5.56x45mm Ball Tracer";
-    tracersEvery = 1;
-};
-class CLASS(42Rnd_556x45_EPR_AUG): CLASS(42Rnd_556x45_Ball_AUG) {
-    ammo = QCLASS(556x45_EPR);
-    displayName = "5.56mm 42Rnd AUG (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = "5.56x45mm EPR Reload Tracer";
-};
-class CLASS(42Rnd_556x45_AP_AUG): CLASS(42Rnd_556x45_EPR_AUG) {
-    ammo = QCLASS(556x45_AP);
-    displayName = "5.56mm 42Rnd AUG (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "5.56x45mm AP Reload Tracer";
-};
-
 // 5.56x45mm Surefire 60Rnd
 class CLASS(60Rnd_556x45_Ball_Surefire): CUP_60Rnd_556x45_SureFire {
     MACRO_SCOPE
@@ -299,29 +189,6 @@ class CLASS(60Rnd_556x45_Ball_Tracer_Surefire): CLASS(60Rnd_556x45_Ball_Surefire
 class CLASS(60Rnd_556x45_EPR_Surefire): CLASS(60Rnd_556x45_Ball_Surefire) {
     ammo = QCLASS(556x45_EPR);
     displayName = "5.56mm 60Rnd Surefire [TE4] (EPR)";
-    displayNameShort = "EPR TE4";
-    descriptionShort = "5.56x45mm EPR Tracer Every 4";
-};
-
-// 5.56x45mm Drum 150
-class CLASS(150Rnd_556x45_Ball_Drum): 150Rnd_556x45_Drum_Mag_F {
-    MACRO_SCOPE
-    ammo = QCLASS(556x45_Ball);
-    displayName = "5.56mm 150Rnd Drum [TE4] (Ball)";
-    displayNameShort = "Ball TE4";
-    descriptionShort = "5.56x45mm Ball Tracer Every 4";
-    tracersEvery = 4;
-    mass = 35;
-};
-class CLASS(150Rnd_556x45_Ball_Tracer_Drum): CLASS(150Rnd_556x45_Ball_Drum) {
-    displayName = "5.56mm 150Rnd Drum [T] (Ball)";
-    displayNameShort = "Ball Tracer";
-    descriptionShort = "5.56x45mm Ball Tracer";
-    tracersEvery = 1;
-};
-class CLASS(150Rnd_556x45_EPR_Drum): CLASS(150Rnd_556x45_Ball_Drum) {
-    ammo = QCLASS(556x45_EPR);
-    displayName = "5.56mm 150Rnd Drum [TE4] (EPR)";
     displayNameShort = "EPR TE4";
     descriptionShort = "5.56x45mm EPR Tracer Every 4";
 };
@@ -416,32 +283,4 @@ class CLASS(200Rnd_556x45_EPR_Box): CLASS(200Rnd_556x45_Ball_Box) {
     displayName = "5.56mm 200Rnd M249 Box [TE4] (EPR)";
     displayNameShort = "EPR TE4";
     descriptionShort = "5.56x45mm EPR Tracer Every 4";
-};
-
-// Western Sahara Assets
-class CLASS(35Rnd_556x45_Ball_R4): 35Rnd_556x45_Velko_reload_tracer_yellow_lxWS {
-    MACRO_SCOPE
-    ammo = QCLASS(556x45_Ball);
-    displayName = "5.56mm 35Rnd R4 (Ball)";
-    displayNameShort = "Ball";
-    descriptionShort = "5.56x45mm Ball Reload Tracer";
-    lastRoundsTracer = 4;
-};
-class CLASS(35Rnd_556x45_Ball_Tracer_R4): CLASS(35Rnd_556x45_Ball_R4) {
-    displayName = "5.56mm 35Rnd R4 [T] (Ball)";
-    displayNameShort = "Ball Tracer";
-    descriptionShort = "5.56x45mm Ball Tracer";
-    tracersEvery = 1;
-};
-class CLASS(35Rnd_556x45_EPR_R4): CLASS(35Rnd_556x45_Ball_R4) {
-    ammo = QCLASS(556x45_EPR);
-    displayName = "5.56mm 35Rnd R4 (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = "5.56x45mm EPR Reload Tracer";
-};
-class CLASS(35Rnd_556x45_AP_R4): CLASS(35Rnd_556x45_EPR_R4) {
-    ammo = QCLASS(556x45_AP);
-    displayName = "5.56mm 35Rnd R4 (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "5.56x45mm AP Reload Tracer";
 };
