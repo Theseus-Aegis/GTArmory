@@ -1,4 +1,14 @@
-// .45ACP
+// .45ACP FNX-45
+class 11Rnd_45ACP_Mag;
+class CLASS(15Rnd_45ACP_FNX45_Ball): 11Rnd_45ACP_Mag {
+    MACRO_SCOPE
+    ammo = QCLASS(45ACP_Ball);
+    descriptionShort = ".45ACP Ball Reload Tracer";
+    displayName = ".45ACP 15Rnd FNX-45 (Ball)";
+    lastRoundsTracer = 2;
+};
+
+// .45ACP SMG
 class CLASS(25Rnd_45ACP_Ball): 30Rnd_45ACP_Mag_SMG_01 {
     MACRO_SCOPE
     ammo = QCLASS(45ACP_Ball);

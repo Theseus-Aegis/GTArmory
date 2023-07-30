@@ -1,30 +1,51 @@
-// 9x19mm
-class CLASS(30Rnd_9x19_Ball): 30Rnd_9x21_Mag {
+// 9x19 Browning
+class CUP_13Rnd_9x19_Browning_HP;
+class CLASS(13Rnd_9x19_Browning_Ball): CUP_13Rnd_9x19_Browning_HP {
     MACRO_SCOPE
     ammo = QCLASS(9x19_Ball);
-    displayName = "9mm 30Rnd (Ball)";
-    displayNameShort = "Ball";
     descriptionShort = "9x19mm Ball Reload Tracer";
-    lastRoundsTracer = 4;
-    mass = 9;
+    displayName = "9mm 13Rnd Browning (Ball)";
+    lastRoundsTracer = 2;
 };
-class CLASS(30Rnd_9x19_Ball_Tracer): CLASS(30Rnd_9x19_Ball) {
-    displayName = "9mm 30Rnd [T] (Ball)";
-    displayNameShort = "Ball Tracer";
-    descriptionShort = "9x19mm Ball Tracer";
-    tracersEvery = 1;
+
+// 9x19 CZ75
+class CUP_18Rnd_9x19_Phantom;
+class CLASS(18Rnd_9x19_CZ75_Ball): CUP_18Rnd_9x19_Phantom {
+    MACRO_SCOPE
+    ammo = QCLASS(9x19_Ball);
+    descriptionShort = "9x19mm Ball Reload Tracer";
+    displayName = "9mm 18Rnd CZ75 (Ball)";
+    lastRoundsTracer = 2;
 };
-class CLASS(30Rnd_9x19_EPR): CLASS(30Rnd_9x19_Ball) {
-    ammo = QCLASS(9x19_EPR);
-    displayName = "9mm 30Rnd (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = "9x19mm EPR Reload Tracer";
+
+// 9x19 Glock
+class CUP_17Rnd_9x19_glock17;
+class CLASS(17Rnd_9x19_Glock_Ball): CUP_17Rnd_9x19_glock17 {
+    MACRO_SCOPE
+    ammo = QCLASS(9x19_Ball);
+    descriptionShort = "9x19mm Ball Reload Tracer";
+    displayName = "9mm 17Rnd Glock (Ball)";
+    lastRoundsTracer = 2;
 };
-class CLASS(30Rnd_9x19_AP): CLASS(30Rnd_9x19_EPR) {
-    ammo = QCLASS(9x19_AP);
-    displayName = "9mm 30Rnd (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "9x19mm AP Reload Tracer";
+
+// 9x19 M17
+class CUP_17Rnd_9x19_M17_Black;
+class CLASS(17Rnd_9x19_M17_Ball): CUP_17Rnd_9x19_M17_Black {
+    MACRO_SCOPE
+    ammo = QCLASS(9x19_Ball);
+    descriptionShort = "9x19mm Ball Reload Tracer";
+    displayName = "9mm 17Rnd M17 (Ball)";
+    lastRoundsTracer = 2;
+};
+
+// 9x19 M9
+class CUP_15Rnd_9x19_M9;
+class CLASS(15Rnd_9x19_M9_Ball): CUP_15Rnd_9x19_M9 {
+    MACRO_SCOPE
+    ammo = QCLASS(9x19_Ball);
+    descriptionShort = "9x19mm Ball Reload Tracer";
+    displayName = "9mm 15Rnd M9 (Ball)";
+    lastRoundsTracer = 2;
 };
 
 // 9x19mm MP5

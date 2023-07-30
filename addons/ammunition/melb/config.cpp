@@ -8,9 +8,10 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "ace_ballistics",
-            "tacs_weapons"
+            "tacgt_ammunition",
+            "MELB",
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
@@ -18,7 +19,11 @@ class CfgPatches {
     };
 };
 
-#include "CfgAmmo.hpp"
-#include "CfgMagazines.hpp"
-#include "CfgMagazineWells.hpp"
-#include "CfgWeapons.hpp"
+class CfgAmmo {
+    class B_762x51_Ball; // 7.62x51
+
+    // MELB Tracer Size
+    class B_762x51_Ball_MELB: B_762x51_Ball {
+        tracerScale = 1;
+    };
+};

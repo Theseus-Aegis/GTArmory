@@ -8,9 +8,13 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "ace_ballistics",
-            "tacs_weapons"
+            "tacgt_ammunition",
+            "hlcweapons_core",
+            "hlcweapons_AUG",
+            "hlcweapons_SG550",
+            "niaweapons_226",
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
@@ -20,5 +24,3 @@ class CfgPatches {
 
 #include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
-#include "CfgMagazineWells.hpp"
-#include "CfgWeapons.hpp"

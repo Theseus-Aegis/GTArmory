@@ -8,9 +8,11 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "ace_ballistics",
-            "tacs_weapons"
+            "tacgt_ammunition",
+            "bnae_r1",
+            "bnae_RK95",
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
@@ -18,7 +20,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgAmmo.hpp"
-#include "CfgMagazines.hpp"
-#include "CfgMagazineWells.hpp"
 #include "CfgWeapons.hpp"
