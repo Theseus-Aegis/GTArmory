@@ -9,7 +9,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "tacgr_recoils",
+            "tacgt_recoils",
             "data_f_lxWS_Loadorder",
         };
         skipWhenMissingDependencies = 1;
