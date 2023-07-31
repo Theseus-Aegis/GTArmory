@@ -5,9 +5,13 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "hlcweapons_core", "niaweapons_226"};
+        requiredAddons[] = {
+            "tacgt_main",
+            "tacgt_ammunition",
+            "bnae_r1",
+            "bnae_RK95",
+        };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
@@ -17,4 +21,3 @@ class CfgPatches {
 };
 
 #include "CfgWeapons.hpp"
-#include "CfgSoundShaders.hpp"

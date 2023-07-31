@@ -8,9 +8,17 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "ace_ballistics",
-            "tacs_weapons"
+            "tacgt_ammunition",
+            "CUP_Weapons_Ammunition",
+            "CUP_Weapons_AK12",
+            "CUP_Weapons_Bren2",
+            "CUP_Weapons_Famas",
+            "CUP_Weapons_M17",
+            "CUP_Weapons_Mk23",
+            "CUP_Weapons_SCAR",
+            "CUP_Weapons_X95",
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
@@ -20,5 +28,3 @@ class CfgPatches {
 
 #include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
-#include "CfgMagazineWells.hpp"
-#include "CfgWeapons.hpp"

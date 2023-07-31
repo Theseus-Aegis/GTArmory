@@ -7,7 +7,12 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "hlcweapons_core", "niaweapons_226"};
+        requiredAddons[] = {
+            "tacgt_main",
+            "tacgt_recoils",
+            "bnae_falkor",
+            "bnae_RK95"
+        };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
@@ -16,5 +21,13 @@ class CfgPatches {
     };
 };
 
-#include "CfgWeapons.hpp"
-#include "CfgSoundShaders.hpp"
+class CfgWeapons {
+    // Falkor
+    class bnae_falkor_base;
+
+    // RK95s
+    class bnae_rk95_base;
+
+    #include "762R\rk.hpp"
+    #include "300WM\falkor.hpp"
+};
