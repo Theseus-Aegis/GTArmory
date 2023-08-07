@@ -18,11 +18,11 @@ class CfgPatches {
             "CUP_Weapons_SCAR",
             "CUP_Weapons_X95",
         };
-        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 

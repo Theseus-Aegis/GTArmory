@@ -7,11 +7,11 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "tac_main", "UMI_Mod"};
-        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Authors);
         authors[] = {"Mike", "Uriki"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
