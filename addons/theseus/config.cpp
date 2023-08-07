@@ -7,15 +7,10 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "hlcweapons_AUG"};
-        skipWhenMissingDependencies = 1;
+        requiredAddons[] = {"tacgt_main"};
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
-
-class Single;
-
-#include "CfgWeapons.hpp"
