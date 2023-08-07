@@ -1,4 +1,5 @@
 class CfgSoundShaders {
+    // MK200/Stoner volume fix.
     class Mk200_closeShot_SoundShader {
         samples[] = {
             {"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\Mk200_closeShot_01", 1},
