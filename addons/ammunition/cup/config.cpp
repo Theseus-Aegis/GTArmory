@@ -9,14 +9,7 @@ class CfgPatches {
         requiredAddons[] = {
             "tacgt_main",
             "tacgt_ammunition",
-            "CUP_Weapons_Ammunition",
-            "CUP_Weapons_AK12",
-            "CUP_Weapons_Bren2",
-            "CUP_Weapons_Famas",
-            "CUP_Weapons_M17",
-            "CUP_Weapons_Mk23",
-            "CUP_Weapons_SCAR",
-            "CUP_Weapons_X95",
+            "CUP_Weapons_LoadOrder"
         };
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
