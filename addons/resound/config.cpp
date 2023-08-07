@@ -6,17 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacgt_main",
-            "CUP_Weapons_Ammunition",
-            "CUP_Weapons_AK",
-            "CUP_Weapons_Deagle",
-            "CUP_Weapons_L85",
-            "CUP_Weapons_M1014",
-            "CUP_Weapons_MP7",
-            "CUP_Weapons_Saiga12K",
-            "CUP_Weapons_Sounds"
-        };
+        requiredAddons[] = {"tacgt_main", "CUP_Weapons_LoadOrder"};
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
