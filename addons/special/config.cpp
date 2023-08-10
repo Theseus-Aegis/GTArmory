@@ -20,17 +20,19 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "CUP_Creatures_People_Civil_Chernarus",
             "tacgt_ammunition",
+            "tacgt_theseus",
+            "CUP_Creatures_People_LoadOrder",
+            "CUP_Weapons_LoadOrder",
             "milgp_uniforms_cfg",
             "milgp_vests_cfg",
             "niaweapons_226",
-            "CUP_Weapons_HK416"
         };
         author = ECSTRING(main,Authors);
         authors[] = {"GilleeDoo", "Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 

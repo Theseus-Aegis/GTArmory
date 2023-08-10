@@ -5,19 +5,12 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
+        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacgt_main",
-            "tacgt_ammunition",
-            "CUP_Weapons_LoadOrder"
-        };
+        requiredAddons[] = {"tacgt_main"};
         author = ECSTRING(main,Authors);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
-
-#include "CfgAmmo.hpp"
-#include "CfgMagazines.hpp"
