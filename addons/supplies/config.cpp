@@ -23,6 +23,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
+            "tacgt_theseus",
             "tacs_vests",
             "ace_medical_treatment",
             "CUP_Weapons_Ammunition",
@@ -34,6 +35,7 @@ class CfgPatches {
         authors[] = {"GilleeDoo", "JoramD", "Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
