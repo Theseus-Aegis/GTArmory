@@ -1,4 +1,5 @@
 class CfgWeapons {
+    #include "vanilla_overwrites.hpp"
     // Chiappa Rhino
     class Pistol_Base_F;
     class hgun_Pistol_heavy_02_F: Pistol_Base_F {
