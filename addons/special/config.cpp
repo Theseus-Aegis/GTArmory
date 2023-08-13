@@ -28,7 +28,7 @@ class CfgPatches {
             "milgp_vests_cfg",
             "niaweapons_226",
         };
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo", "Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

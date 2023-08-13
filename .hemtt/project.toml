@@ -1,6 +1,6 @@
 name = "GT Armory"
 prefix = "tacgt"
-author = "Mike, Gilleedoo"
+author = "Theseus Incorporated"
 
 [files]
 include = [

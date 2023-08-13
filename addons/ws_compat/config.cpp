@@ -13,7 +13,7 @@ class CfgPatches {
             "Weapons_1_F_lxWS",
             "Characters_f_lxWS_headgear"
         };
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
