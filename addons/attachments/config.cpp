@@ -12,7 +12,7 @@ class CfgPatches {
             "tacgt_flashlight",
             "CUP_Weapons_West_Attachments"
         };
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

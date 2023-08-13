@@ -10,7 +10,7 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "CUP_Creatures_Extra_OpsCore"};
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo, Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

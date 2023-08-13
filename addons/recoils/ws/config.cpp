@@ -12,7 +12,7 @@ class CfgPatches {
             "tacgt_recoils",
             "data_f_lxWS_Loadorder",
         };
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

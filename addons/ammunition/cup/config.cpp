@@ -11,7 +11,7 @@ class CfgPatches {
             "tacgt_ammunition",
             "CUP_Weapons_LoadOrder"
         };
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

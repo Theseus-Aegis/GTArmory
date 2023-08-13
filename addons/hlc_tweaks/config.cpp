@@ -14,7 +14,7 @@ class CfgPatches {
             "niaweapons_226",
             "hlcweapons_AUG"
         };
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
