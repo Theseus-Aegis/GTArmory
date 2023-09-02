@@ -29,7 +29,7 @@ class CLASS(20Rnd_762x51_AP_FAL): CLASS(20Rnd_762x51_EPR_FAL) {
 
 // 7.62x51mm HK417
 class CLASS(20Rnd_762x51_Ball_HK417): CUP_20Rnd_762x51_HK417 {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x51_Ball);
     displayName = "7.62mm 20Rnd HK417 (Ball)";
     displayNameShort = "Ball";
