@@ -3,11 +3,8 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {
-            QCLASS(Replacement_Box)
-        };
+        units[] = {QCLASS(Replacement_Box)};
         weapons[] = {};
-        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
@@ -18,6 +15,7 @@ class CfgPatches {
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
