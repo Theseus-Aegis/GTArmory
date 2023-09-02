@@ -1,6 +1,6 @@
 // 5.56x45mm Belt
 class CLASS(200Rnd_556x45_Ball_Belt): 200Rnd_556x45_Box_F {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 200Rnd Belt [TE4] (Ball)";
     displayNameShort = "Ball TE4";
@@ -23,7 +23,7 @@ class CLASS(200Rnd_556x45_EPR_Belt): CLASS(200Rnd_556x45_Ball_Belt) {
 
 // 5.56x45mm Drum 150
 class CLASS(150Rnd_556x45_Ball_Drum): 150Rnd_556x45_Drum_Mag_F {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 150Rnd Drum [TE4] (Ball)";
     displayNameShort = "Ball TE4";

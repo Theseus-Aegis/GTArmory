@@ -1,6 +1,6 @@
 class 16Rnd_9x21_Mag;
 class CLASS(17Rnd_9x19mm_Walther_Ball): 16Rnd_9x21_Mag {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
     descriptionShort = "9x19mm Ball Reload Tracer";
     displayName = "9mm 17Rnd Walther (Ball)";
@@ -9,7 +9,7 @@ class CLASS(17Rnd_9x19mm_Walther_Ball): 16Rnd_9x21_Mag {
 
 // 9x19mm
 class CLASS(30Rnd_9x19_Ball): 30Rnd_9x21_Mag {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
     displayName = "9mm 30Rnd (Ball)";
     displayNameShort = "Ball";

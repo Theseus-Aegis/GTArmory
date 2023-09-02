@@ -1,6 +1,6 @@
 // WS FAL (Original FAL magazines are not properly positioned)
 class CLASS(20Rnd_762x51_Ball_SLR): 20Rnd_762x51_slr_lxWS {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x51_Ball);
     displayName = "7.62mm 20Rnd SLR (Ball)";
     displayNameShort = "Ball";
@@ -29,7 +29,7 @@ class CLASS(20Rnd_762x51_AP_SLR): CLASS(20Rnd_762x51_Ball_SLR) {
 
 // Western Sahara Belt
 class CLASS(100Rnd_762x51_Ball_Belt_SA77): 100Rnd_762x51_S77_Yellow_lxWS {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x51_Ball);
     displayName = "7.62mm 100Rnd SA-77 [TE4] (Ball)";
     displayNameShort = "Ball TE4";

@@ -1,6 +1,6 @@
 // 9x39mm
 class CLASS(30Rnd_9x39_Ball): CUP_30Rnd_9x39_SP5_VIKHR_M {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(9x39_Ball);
     displayName = "9x39mm 30Rnd (Ball)";
     displayNameShort = "Ball";

@@ -1,6 +1,6 @@
 // 4.6x30mm
 class CLASS(40Rnd_46x30_Ball): CUP_40Rnd_46x30_MP7 {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(46x30_Ball);
     displayName = "4.6mm 40Rnd (Ball)";
     displayNameShort = "Ball";

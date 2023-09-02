@@ -1,7 +1,7 @@
 // 5.56x45mm (EMAG, Black)
 class CLASS(30Rnd_556x45_Ball_EMAG): 30Rnd_556x45_Stanag {
-    MACRO_SCOPE
-    MACRO_556_MAGAZINE_EMAG_Black
+    MACRO_SCOPE;
+    MACRO_556_MAGAZINE_EMAG_Black;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 30Rnd EMAG (Ball)";
     displayNameShort = "Ball";
@@ -30,61 +30,61 @@ class CLASS(30Rnd_556x45_AP_EMAG): CLASS(30Rnd_556x45_EPR_EMAG) {
 
 // 5.56x45mm (EMAG, Tan)
 class CLASS(30Rnd_556x45_Ball_EMAG_Tan): CLASS(30Rnd_556x45_Ball_EMAG) {
-    MACRO_556_MAGAZINE_EMAG_Tan
+    MACRO_556_MAGAZINE_EMAG_Tan;
     displayName = "5.56mm 30Rnd EMAG Tan (Ball)";
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_EMAG_Tan): CLASS(30Rnd_556x45_Ball_Tracer_EMAG) {
-    MACRO_556_MAGAZINE_EMAG_Tan
+    MACRO_556_MAGAZINE_EMAG_Tan;
     displayName = "5.56mm 30Rnd EMAG Tan [T] (Ball)";
 };
 class CLASS(30Rnd_556x45_EPR_EMAG_Tan): CLASS(30Rnd_556x45_EPR_EMAG) {
-    MACRO_556_MAGAZINE_EMAG_Tan
+    MACRO_556_MAGAZINE_EMAG_Tan;
     displayName = "5.56mm 30Rnd EMAG Tan (EPR)";
 };
 class CLASS(30Rnd_556x45_AP_EMAG_Tan): CLASS(30Rnd_556x45_AP_EMAG) {
-    MACRO_556_MAGAZINE_EMAG_Tan
+    MACRO_556_MAGAZINE_EMAG_Tan;
     displayName = "5.56mm 30Rnd EMAG Tan (AP)";
 };
 
 // 5.56x45mm (PMAG, Black)
 class CLASS(30Rnd_556x45_Ball_PMAG): CLASS(30Rnd_556x45_Ball_EMAG) {
-    MACRO_556_MAGAZINE_PMAG_Black
+    MACRO_556_MAGAZINE_PMAG_Black;
     displayName = "5.56mm 30Rnd PMAG (Ball)";
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_PMAG): CLASS(30Rnd_556x45_Ball_Tracer_EMAG) {
-    MACRO_556_MAGAZINE_PMAG_Black
+    MACRO_556_MAGAZINE_PMAG_Black;
     displayName = "5.56mm 30Rnd PMAG [T] (Ball)";
 };
 class CLASS(30Rnd_556x45_EPR_PMAG): CLASS(30Rnd_556x45_EPR_EMAG) {
-    MACRO_556_MAGAZINE_PMAG_Black
+    MACRO_556_MAGAZINE_PMAG_Black;
     displayName = "5.56mm 30Rnd PMAG (EPR)";
 };
 class CLASS(30Rnd_556x45_AP_PMAG): CLASS(30Rnd_556x45_AP_EMAG) {
-    MACRO_556_MAGAZINE_PMAG_Black
+    MACRO_556_MAGAZINE_PMAG_Black;
     displayName = "5.56mm 30Rnd PMAG (AP)";
 };
 
 // 5.56x45mm (PMAG, Tan)
 class CLASS(30Rnd_556x45_Ball_PMAG_Tan): CLASS(30Rnd_556x45_Ball_PMAG) {
-    MACRO_556_MAGAZINE_PMAG_Tan
+    MACRO_556_MAGAZINE_PMAG_Tan;
     displayName = "5.56mm 30Rnd PMAG Coyote (Ball)";
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_PMAG_Tan): CLASS(30Rnd_556x45_Ball_Tracer_PMAG) {
-    MACRO_556_MAGAZINE_PMAG_Tan
+    MACRO_556_MAGAZINE_PMAG_Tan;
     displayName = "5.56mm 30Rnd PMAG Coyote [T] (Ball)";
 };
 class CLASS(30Rnd_556x45_EPR_PMAG_Tan): CLASS(30Rnd_556x45_EPR_PMAG) {
-    MACRO_556_MAGAZINE_PMAG_Tan
+    MACRO_556_MAGAZINE_PMAG_Tan;
     displayName = "5.56mm 30Rnd PMAG Coyote (EPR)";
 };
 class CLASS(30Rnd_556x45_AP_PMAG_Tan): CLASS(30Rnd_556x45_AP_PMAG) {
-    MACRO_556_MAGAZINE_PMAG_Tan
+    MACRO_556_MAGAZINE_PMAG_Tan;
     displayName = "5.56mm 30Rnd PMAG Coyote (AP)";
 };
 
 // 5.56x45mm AK
 class CLASS(30Rnd_556x45_Ball_AK): CUP_30Rnd_556x45_AK {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 30Rnd AK (Ball)";
     displayNameShort = "Ball";
@@ -113,7 +113,7 @@ class CLASS(30Rnd_556x45_AP_AK): CLASS(30Rnd_556x45_EPR_AK) {
 
 // 5.56x45mm G36
 class CLASS(30Rnd_556x45_Ball_G36): CUP_30Rnd_TE1_Green_Tracer_556x45_G36 {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 30Rnd G36 (Ball)";
     displayNameShort = "Ball";
@@ -143,7 +143,7 @@ class CLASS(30Rnd_556x45_AP_G36): CLASS(30Rnd_556x45_Ball_G36) {
 
 // 5.56x45mm FAMAS
 class CLASS(25Rnd_556x45_Ball_FAMAS): CUP_25Rnd_556x45_Famas {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 25Rnd FAMAS (Ball)";
     displayNameShort = "Ball";
@@ -172,7 +172,7 @@ class CLASS(25Rnd_556x45_AP_FAMAS): CLASS(25Rnd_556x45_Ball_FAMAS) {
 
 // 5.56x45mm Surefire 60Rnd
 class CLASS(60Rnd_556x45_Ball_Surefire): CUP_60Rnd_556x45_SureFire {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 60Rnd Surefire [TE4] (Ball)";
     displayNameShort = "Ball TE4";
@@ -195,7 +195,7 @@ class CLASS(60Rnd_556x45_EPR_Surefire): CLASS(60Rnd_556x45_Ball_Surefire) {
 
 /// 5.56x45mm Beta-C
 class CLASS(100Rnd_556x45_Ball_BetaC): CUP_100Rnd_556x45_BetaCMag {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 100Rnd Beta-C [TE4] (Ball)";
     displayNameShort = "Ball TE4";
@@ -218,7 +218,7 @@ class CLASS(100Rnd_556x45_EPR_BetaC): CLASS(100Rnd_556x45_Ball_BetaC) {
 
 // 5.56x45mm M249 Pouch 100
 class CLASS(100Rnd_556x54_Ball_Pouch): CUP_100Rnd_TE4_Green_Tracer_556x45_M249 {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 100Rnd M249 Pouch [TE4] (Ball)";
     displayNameShort = "Ball TE4";
@@ -241,7 +241,7 @@ class CLASS(100Rnd_556x54_EPR_Pouch): CLASS(100Rnd_556x54_Ball_Pouch) {
 
 // 5.56x45mm M249 Pouch 200
 class CLASS(200Rnd_556x45_Ball_Pouch): CUP_200Rnd_TE4_Green_Tracer_556x45_M249_Pouch {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 200Rnd M249 Pouch [TE4] (Ball)";
     displayNameShort = "Ball TE4";
@@ -264,7 +264,7 @@ class CLASS(200Rnd_556x45_EPR_Pouch): CLASS(200Rnd_556x45_Ball_Pouch) {
 
 // 5.56x45mm M249 Box 200
 class CLASS(200Rnd_556x45_Ball_Box): CUP_200Rnd_TE4_Green_Tracer_556x45_M249 {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 200Rnd M249 Box [TE4] (Ball)";
     displayNameShort = "Ball TE4";

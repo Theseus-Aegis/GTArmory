@@ -1,5 +1,5 @@
 class CLASS(2Rnd_P_000): 2Rnd_12Gauge_Pellets {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     displayName = "2Rnd (Magnum)";
     displayNameShort = "#00 Magnum";
     descriptionShort = "#00 Magnum Shells";
@@ -23,7 +23,7 @@ class CLASS(8Rnd_P_000): CA_Magazine {
 };
 
 class CLASS(8Rnd_S_AP20): CA_Magazine {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(S_12G_AP20);
     displayName = "8Rnd M1014 (Slug)";
     displayNameShort = "AP-20";
@@ -68,7 +68,7 @@ class CLASS(6Rnd_Smoke_M1014): CLASS(8Rnd_Smoke_M1014) {
 
 // 6Rnd MSBS GROT
 class CLASS(6Rnd_P_UGL): 6Rnd_12Gauge_Pellets {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(P_12G_000);
     displayName = "6Rnd MSBS (Magnum)";
     displayNameShort = "#00 Magnum";
@@ -76,7 +76,7 @@ class CLASS(6Rnd_P_UGL): 6Rnd_12Gauge_Pellets {
 };
 
 class CLASS(6Rnd_S_UGL): 6Rnd_12Gauge_Slug {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(S_12G_AP20);
     displayName = "6Rnd MSBS (Slug)";
     displayNameShort = "AP-20";
