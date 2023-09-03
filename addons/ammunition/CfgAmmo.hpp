@@ -57,6 +57,7 @@ class CfgAmmo {
         caliber = 0.525;
         submunitionConeType[] = {"random", 12};
         triggerTime = 0.008;
+        cartridge = "FxCartridge_slug";
         submunitionAmmo = QCLASS(12g_Pellets_Submunition_Deploy);
         submunitionConeAngle = 0.81;
     };
@@ -66,8 +67,9 @@ class CfgAmmo {
     class CLASS(9x19_Ball): B_9x21_Ball_Tracer_Yellow {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.1;
+        cartridge = "FxCartridge_9mm";
         hit = 8;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(9x19_EPR): CLASS(9x19_Ball) {
         caliber = 0.9;
@@ -83,7 +85,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.3;
         hit = 10;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(545x39_EPR): CLASS(545x39_Ball) {
         caliber = 1;
@@ -98,8 +100,9 @@ class CfgAmmo {
     class CLASS(45ACP_Ball): B_45ACP_Ball {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.15;
+        cartridge = "FxCartridge_9mm";
         hit = 11;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(45ACP_EPR): CLASS(45ACP_Ball) {
         caliber = 0.85;
@@ -126,7 +129,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.25;
         hit = 10;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(58x42_EPR): CLASS(58x42_Ball) {
         caliber = 1.35;
@@ -143,7 +146,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.4;
         hit = 11;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(556x45_EPR): CLASS(556x45_Ball) {
         hit = 12;
@@ -163,8 +166,9 @@ class CfgAmmo {
     class CLASS(65x39_Ball): B_65x39_Caseless {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.35;
+        cartridge = "FxCartridge_65";
         hit = 10.8;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(65x39_EPR): CLASS(65x39_Ball) {
         caliber = 1.6;
@@ -196,7 +200,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.25;
         hit = 11.3;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(762x39_EPR): CLASS(762x39_Ball) {
         caliber = 1.55;
@@ -212,7 +216,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.28;
         hit = 12.8;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(762x51_EPR): CLASS(762x51_Ball) {
         caliber = 1.85;
@@ -246,7 +250,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.33;
         hit = 13;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(762x54r_EPR): CLASS(762x54r_Ball) {
         caliber = 2;

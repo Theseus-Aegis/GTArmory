@@ -1,6 +1,6 @@
 // 7.62x39mm (Plastic, Black)
 class CLASS(30Rnd_762x39_Ball_Plastic_Black): 30Rnd_762x39_AK12_Mag_F {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x39_Ball);
     displayName = "7.62mm 30Rnd AK Plastic Black (Ball)";
     displayNameShort = "Ball";
@@ -29,26 +29,26 @@ class CLASS(30Rnd_762x39_AP_Plastic_Black): CLASS(30Rnd_762x39_EPR_Plastic_Black
 
 // 7.62x39mm (Plastic, Tan)
 class CLASS(30Rnd_762x39_Ball_Plastic_Tan): CLASS(30Rnd_762x39_Ball_Plastic_Black) {
-    MACRO_762_AK12_MAGAZINE_TAN
+    MACRO_762_AK12_MAGAZINE_TAN;
     displayName = "7.62mm 30Rnd AK Plastic Tan (Ball)";
     mass = 11;
 };
 class CLASS(30Rnd_762x39_Ball_Tracer_Plastic_Tan): CLASS(30Rnd_762x39_Ball_Tracer_Plastic_Black) {
-    MACRO_762_AK12_MAGAZINE_TAN
+    MACRO_762_AK12_MAGAZINE_TAN;
     displayName = "7.62mm 30Rnd AK Plastic Tan [T] (Ball)";
 };
 class CLASS(30Rnd_762x39_EPR_Plastic_Tan): CLASS(30Rnd_762x39_EPR_Plastic_Black) {
-    MACRO_762_AK12_MAGAZINE_TAN
+    MACRO_762_AK12_MAGAZINE_TAN;
     displayName = "7.62mm 30Rnd AK Plastic Tan (EPR)";
 };
 class CLASS(30Rnd_762x39_AP_Plastic_Tan): CLASS(30Rnd_762x39_AP_Plastic_Black) {
-    MACRO_762_AK12_MAGAZINE_TAN
+    MACRO_762_AK12_MAGAZINE_TAN;
     displayName = "7.62mm 30Rnd AK Plastic Tan (AP)";
 };
 
 // 7.62x39mm (Metal)
 class CLASS(30Rnd_762x39_Ball_Metal): 30Rnd_762x39_Mag_F {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x39_Ball);
     displayName = "7.62mm 30Rnd AK Metal (Ball)";
     displayNameShort = "Ball";
@@ -77,7 +77,7 @@ class CLASS(30Rnd_762x39_AP_Metal): CLASS(30Rnd_762x39_EPR_Metal) {
 
 // 7.62x39mm (Drum)
 class CLASS(75Rnd_762x39_Ball_Drum): 75rnd_762x39_AK12_Mag_F {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x39_Ball);
     displayName = "7.62mm 75Rnd AK Drum [TE4] (Ball)";
     displayNameShort = "Ball TE4";

@@ -1,6 +1,6 @@
 // 7.62x39mm CZ807
 class CLASS(30Rnd_762x39_Ball_CZ): CUP_30Rnd_762x39_CZ807 {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x39_Ball);
     displayName = "7.62mm 30Rnd CZ (Ball)";
     displayNameShort = "Ball";

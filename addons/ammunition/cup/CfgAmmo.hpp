@@ -7,7 +7,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 1.5;
         hit = 12;
-        MACRO_TRACERS
+        MACRO_TRACERS;
         ACE_caliber = 5.7;
         ACE_bulletLength = 21.6;
         ACE_bulletMass = 2;
@@ -18,6 +18,7 @@ class CfgAmmo {
     // 4.6x30mm (Comparable to 5.7x28mm but slightly worse performing penetration.)
     class CLASS(46x30_Ball): CLASS(57x28_Ball) {
         caliber = 0.15;
+        cartridge = "FxCartridge_9mm";
         hit = 8;
     };
     class CLASS(46x30_EPR): CLASS(46x30_Ball) {
@@ -33,8 +34,9 @@ class CfgAmmo {
     class CLASS(9x39_Ball): CUP_B_9x39_SP5 {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.15;
+        cartridge = "FxCartridge_9mm";
         hit = 10;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(9x39_EPR): CLASS(9x39_Ball) {
         caliber = 1.1;

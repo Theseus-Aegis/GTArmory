@@ -1,6 +1,6 @@
 // 8Rnd Saiga
 class CLASS(8Rnd_Saiga_000): CUP_5Rnd_B_Saiga12_Buck_00 {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(P_12G_000);
     count = 8;
     displayName = "8Rnd Saiga (Magnum)";
