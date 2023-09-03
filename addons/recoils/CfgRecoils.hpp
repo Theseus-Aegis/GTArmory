@@ -40,77 +40,77 @@ class CfgRecoils {
         kickBack[] = {0.02, 0.04};
         muzzleOuter[] = {0.25, 0.75, 0.4, 0.4};
         permanent = 0.4;
-        temporary = 0.25;
+        temporary = 0.025;
     };
     class CLASS(12G_Long_FG) {
         kickBack[] = {0.018, 0.038};
         muzzleOuter[] = {0.22, 0.7, 0.37, 0.37};
         permanent = 0.35;
-        temporary = 0.2;
+        temporary = 0.02;
     };
     class CLASS(12G_Short) {
         kickBack[] = {0.025, 0.045};
         muzzleOuter[] = {0.28, 0.85, 0.44, 0.44};
         permanent = 0.44;
-        temporary = 0.3;
+        temporary = 0.03;
     };
     class CLASS(12G_Short_FG) {
         kickBack[] = {0.023, 0.043};
         muzzleOuter[] = {0.25, 0.8, 0.41, 0.41};
         permanent = 0.39;
-        temporary = 0.25;
+        temporary = 0.025;
     };
 
     // 6.5
     class CLASS(65_Long) {
-        kickBack[] = {0.025, 0.045};
-        muzzleOuter[] = {0.25, 0.6, 0.35, 0.38};
-        permanent = 0.2;
-        temporary = 0.15;
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.25, 0.6, 0.35, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
     };
     class CLASS(65_Medium) {
-        kickBack[] = {0.027, 0.047};
-        muzzleOuter[] = {0.28, 0.64, 0.38, 0.42};
-        permanent = 0.22;
-        temporary = 0.17;
+        kickBack[] = {0.025, 0.05};
+        muzzleOuter[] = {0.28, 0.64, 0.38, 0.3};
+        permanent = 0.15;
+        temporary = 0.017;
     };
     class CLASS(65_Short) {
-        kickBack[] = {0.029, 0.049};
-        muzzleOuter[] = {0.31, 0.66, 0.41, 0.46};
-        permanent = 0.24;
-        temporary = 0.19;
+        kickBack[] = {0.03, 0.06};
+        muzzleOuter[] = {0.31, 0.66, 0.41, 0.4};
+        permanent = 0.15;
+        temporary = 0.019;
     };
 
     class CLASS(65_Long_FG) {
-        kickBack[] = {0.023, 0.043};
-        muzzleOuter[] = {0.22, 0.55, 0.32, 0.35};
-        permanent = 0.18;
-        temporary = 0.13;
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.22, 0.55, 0.32, 0.3};
+        permanent = 0.15;
+        temporary = 0.013;
     };
     class CLASS(65_Medium_FG) {
-        kickBack[] = {0.025, 0.045};
-        muzzleOuter[] = {0.24, 0.59, 0.35, 0.39};
-        permanent = 0.2;
-        temporary = 0.15;
+        kickBack[] = {0.025, 0.05};
+        muzzleOuter[] = {0.24, 0.59, 0.35, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
     };
     class CLASS(65_Short_FG) {
-        kickBack[] = {0.027, 0.047};
-        muzzleOuter[] = {0.26, 0.61, 0.38, 0.43};
-        permanent = 0.22;
-        temporary = 0.17;
+        kickBack[] = {0.03, 0.06};
+        muzzleOuter[] = {0.26, 0.61, 0.38, 0.4};
+        permanent = 0.15;
+        temporary = 0.017;
     };
 
     class CLASS(65_Long_BP) {
-        kickBack[] = {0.025, 0.045};
-        muzzleOuter[] = {0.22, 0.6, 0.35, 0.38};
-        permanent = 0.2;
-        temporary = 0.14;
+        kickBack[] = {0.015, 0.035};
+        muzzleOuter[] = {0.22, 0.6, 0.35, 0.3};
+        permanent = 0.15;
+        temporary = 0.014;
     };
     class CLASS(65_Medium_BP) {
-        kickBack[] = {0.027, 0.047};
-        muzzleOuter[] = {0.24, 0.64, 0.38, 0.42};
-        permanent = 0.22;
-        temporary = 0.16;
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.24, 0.64, 0.38, 0.4};
+        permanent = 0.15;
+        temporary = 0.016;
     };
 
     class CLASS(65_Long_MG) {};
@@ -120,7 +120,7 @@ class CfgRecoils {
         kickBack[] = {0.3, 0.5};
         muzzleOuter[] = {0.46, 0.76, 0.5, 0.5};
         permanent = 0.2;
-        temporary = 0.2;
+        temporary = 0.02;
     };
 
     // 338 Lapua
@@ -128,56 +128,194 @@ class CfgRecoils {
         kickBack[] = {0.33, 0.53};
         muzzleOuter[] = {0.5, 0.82, 0.55, 0.55};
         permanent = 0.22;
-        temporary = 0.2;
+        temporary = 0.02;
     };
 
     // 5.45
-    class CLASS(545_Long) {};
-    class CLASS(545_Medium) {};
-    class CLASS(545_Short) {};
+    class CLASS(545_Long) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.2, 0.45, 0.3, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
+    };
+    class CLASS(545_Medium) {
+        kickBack[] = {0.025, 0.05};
+        muzzleOuter[] = {0.23, 0.49, 0.36, 0.3};
+        permanent = 0.15;
+        temporary = 0.017;
+    };
+    class CLASS(545_Short) {
+        kickBack[] = {0.03, 0.06};
+        muzzleOuter[] = {0.26, 0.51, 0.39, 0.4};
+        permanent = 0.15;
+        temporary = 0.019;
+    };
 
-    class CLASS(545_Long_FG) {};
-    class CLASS(545_Medium_FG) {};
-    class CLASS(545_Short_FG) {};
+    class CLASS(545_Long_FG) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.2, 0.44, 0.33, 0.3};
+        permanent = 0.15;
+        temporary = 0.013;
+    };
+    class CLASS(545_Medium_FG) {
+        kickBack[] = {0.025, 0.05};
+        muzzleOuter[] = {0.22, 0.48, 0.36, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
+    };
+    class CLASS(545_Short_FG) {
+        kickBack[] = {0.03, 0.06};
+        muzzleOuter[] = {0.24, 0.5, 0.39, 0.3};
+        permanent =  0.15;
+        temporary = 0.017;
+    };
+
+    class CLASS(545_Long_BP) {};
+    class CLASS(545_Short_BP) {};
 
     class CLASS(545_Long_MG) {};
 
     // 5.56
-    class CLASS(556_Long) {};
-    class CLASS(556_Medium) {};
-    class CLASS(556_Short) {};
+    class CLASS(556_Long) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.225, 0.525, 0.325, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
+    };
+    class CLASS(556_Medium) {
+        kickBack[] = {0.025, 0.05};
+        muzzleOuter[] = {0.255, 0.565, 0.37, 0.3};
+        permanent = 0.15;
+        temporary = 0.017;
+    };
+    class CLASS(556_Short) {
+        kickBack[] = {0.03, 0.06};
+        muzzleOuter[] = {0.285, 0.585, 0.4, 0.4};
+        permanent = 0.15;
+        temporary = 0.019;
+    };
 
-    class CLASS(556_Long_FG) {};
-    class CLASS(556_Medium_FG) {};
-    class CLASS(556_Short_FG) {};
+    class CLASS(556_Long_FG) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.21, 0.495, 0.325, 0.3};
+        permanent = 0.15;
+        temporary = 0.013;
+    };
+    class CLASS(556_Medium_FG) {
+        kickBack[] = {0.025, 0.05};
+        muzzleOuter[] = {0.23, 0.535, 0.355, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
+    };
+    class CLASS(556_Short_FG) {
+        kickBack[] = {0.03, 0.06};
+        muzzleOuter[] = {0.025, 0.555, 0.385, 0.4};
+        permanent = 0.15;
+        temporary = 0.017;
+    };
 
-    class CLASS(556_Long_BP) {};
-    class CLASS(556_Medium_BP) {};
-    class CLASS(556_Short_BP) {};
+    class CLASS(556_Long_BP) {
+        kickBack[] = {0.015, 0.035};
+        muzzleOuter[] = {0.22, 0.6, 0.35, 0.3};
+        permanent = 0.15;
+        temporary = 0.014;
+    };
+    class CLASS(556_Medium_BP) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.24, 0.64, 0.38, 0.4};
+        permanent = 0.15;
+        temporary = 0.016;
+    };
+    class CLASS(556_Short_BP) {
+        kickBack[] = {0.025, 0.045};
+        muzzleOuter[] = {0.26, 0.68, 0.41, 0.4};
+        permanent = 0.15;
+        temporary = 0.018;
+    };
 
     class CLASS(556_Long_MG) {};
     class CLASS(556_Medium_MG) {};
 
     // 7.62 NATO
-    class CLASS(762N_Long) {};
-    class CLASS(762N_Medium) {};
-    class CLASS(762N_Short) {};
+    class CLASS(762N_Long) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.31, 0.7, 0.41, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
+    };
+    class CLASS(762N_Medium) {
+        kickBack[] = {0.025, 0.05};
+        muzzleOuter[] = {0.34, 0.74, 0.44, 0.3};
+        permanent = 0.015;
+        temporary = 0.017;
+    };
+    class CLASS(762N_Short) {
+        kickBack[] = {0.03, 0.06};
+        muzzleOuter[] = {0.37, 0.78, 0.47, 0.4};
+        permanent = 0.015;
+        temporary = 0.019;
+    };
 
-    class CLASS(762N_Long_FG) {};
-    class CLASS(762N_Medium_FG) {};
-    class CLASS(762N_Short_FG) {};
+    class CLASS(762N_Long_FG) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.28, 0.65, 0.38, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
+    };
+    class CLASS(762N_Medium_FG) {
+        kickBack[] = {0.025, 0.05};
+        muzzleOuter[] = {0.3, 0.69, 0.41, 0.3};
+        permanent = 0.15;
+        temporary = 0.017;
+    };
+    class CLASS(762N_Short_FG) {
+        kickBack[] = {0.03, 0.06};
+        muzzleOuter[] = {0.32, 0.73, 0.44, 0.4};
+        permanent = 0.15;
+        temporary = 0.019;
+    };
 
     class CLASS(762N_Long_MG) {};
     class CLASS(762N_Medium_MG) {};
 
     // 7.62 Russian
-    class CLASS(762R_Long) {};
-    class CLASS(762R_Medium) {};
-    class CLASS(762R_Short) {};
+    class CLASS(762R_Long) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.28, 0.65, 0.38, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
+    };
+    class CLASS(762R_Medium) {
+        kickBack[] = {0.025, 0.05};
+        muzzleOuter[] = {0.31, 0.69, 0.41, 0.3};
+        permanent = 0.15;
+        temporary = 0.017;
+    };
+    class CLASS(762R_Short) {
+        kickBack[] = {0.03, 0.06};
+        muzzleOuter[] = {0.34, 0.73, 0.43, 0.4};
+        permanent = 0.15;
+        temporary = 0.019;
+    };
 
-    class CLASS(762R_Long_FG) {};
-    class CLASS(762R_Medium_FG) {};
-    class CLASS(762R_Short_FG) {};
+    class CLASS(762R_Long_FG) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.25, 0.6, 0.35, 0.3};
+        permanent = 0.15;
+        temporary = 0.013;
+    };
+    class CLASS(762R_Medium_FG) {
+        kickBack[] = {0.025, 0.05};
+        muzzleOuter[] = {0.27, 0.64, 0.38, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
+    };
+    class CLASS(762R_Short_FG) {
+        kickBack[] = {0.03, 0.06};
+        muzzleOuter[] = {0.29, 0.68, 0.41, 0.4};
+        permanent = 0.15;
+        temporary = 0.017;
+    };
 
     class CLASS(762R_Long_MG) {};
     class CLASS(762R_Medium_MG) {};
