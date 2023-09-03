@@ -5,10 +5,16 @@ class CUP_arifle_AK105: CUP_arifle_AK_Base {
 class CUP_arifle_AK105_railed: CUP_arifle_AK105 {
     recoil = QCLASS(545_Short_FG);
 };
+class CUP_arifle_AK105_top_rail: CUP_arifle_AK105 {
+    recoil = QCLASS(545_Short_FG);
+};
 class CUP_arifle_AK107: CUP_arifle_AK107_Base {
     recoil = QCLASS(545_Medium);
 };
 class CUP_arifle_AK107_railed: CUP_arifle_AK107 {
+    recoil = QCLASS(545_Medium_FG);
+};
+class CUP_arifle_AK107_top_rail: CUP_arifle_AK107 {
     recoil = QCLASS(545_Medium_FG);
 };
 class CUP_arifle_AK107_GL: CUP_arifle_AK107_Base {

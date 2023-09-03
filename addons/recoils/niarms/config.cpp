@@ -27,5 +27,6 @@ class CfgWeapons {
     #include "weapons\baseclasses.hpp"
     #include "weapons\68.hpp"
     #include "weapons\556.hpp"
+    #include "weapons\762N.hpp"
     #include "weapons\762R.hpp"
 };

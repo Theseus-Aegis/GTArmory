@@ -92,3 +92,54 @@ class hlc_rifle_SG551LB_TAC_GL: hlc_rifle_SG551LB {
 class hlc_rifle_SG553SB: hlc_sg550_base {
     recoil = QCLASS(556_Short);
 };
+
+// M249
+class hlc_m249_pip1: hlc_lmg_minimi_railed {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_m249_pip2: hlc_lmg_minimi_railed {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_m249_pip3: hlc_lmg_minimi_railed {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_m249_pip4: hlc_lmg_minimi_railed {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_m249_SQuantoon: hlc_m249_pip4 {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_lmg_M249E1: hlc_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_lmg_M249E2: hlc_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_lmg_m249para: hlc_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};
+
+// Mk46
+class hlc_lmg_mk46: hlc_lmg_minimi_railed {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_lmg_mk46mod1: hlc_lmg_mk46 {
+    recoil = QCLASS(556_Long_MG);
+};
+
+// Minimi
+class hlc_lmg_minimipara: hlc_saw_base {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_lmg_minimi_railed: hlc_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_lmg_minimipara_long: hlc_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_lmg_minimipara_railed: hlc_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};
+class hlc_lmg_minimipara_long_railed: hlc_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};

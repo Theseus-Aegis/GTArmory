@@ -134,3 +134,73 @@ class CUP_arifle_Steyr_Stg58: CUP_arifle_FNFAL {
 class CUP_srifle_SVD: Rifle_Base_F {
     recoil = QCLASS(762N_Long);
 };
+
+// Mk48
+class CUP_lmg_Mk48: CUP_lmg_Mk48_Base {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Mk48_des: CUP_lmg_Mk48 {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Mk48_od: CUP_lmg_Mk48 {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Mk48_tan: CUP_lmg_Mk48 {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Mk48_wdl: CUP_lmg_Mk48 {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Mk48_nohg: CUP_lmg_Mk48 {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Mk48_nohg_des: CUP_lmg_Mk48_nohg {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Mk48_nohg_wdl: CUP_lmg_Mk48_nohg {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Mk48_nohg_tan: CUP_lmg_Mk48_nohg {
+    recoil = QCLASS(762N_Long_MG);
+};
+
+
+// PKM
+class CUP_lmg_PKM: Rifle_Long_Base_F {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_PKM_B50_vfg: CUP_lmg_PKM {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_PKM_front_rail_B50_vfg: CUP_lmg_PKM_B50_vfg {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_PKM_top_rail: CUP_lmg_PKM {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_PKM_top_rail_B50_vfg: CUP_lmg_PKM_top_rail {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_PKMN: CUP_lmg_PKM {
+    recoil = QCLASS(762N_Long_MG);
+};
+
+// PKP
+class CUP_lmg_Pecheneg: CUP_lmg_PKM {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Pecheneg_B50_vfg: CUP_lmg_Pecheneg {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Pecheneg_desert: CUP_lmg_Pecheneg {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Pecheneg_top_rail: CUP_lmg_Pecheneg {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Pecheneg_top_rail_B50_vfg: CUP_lmg_Pecheneg_top_rail {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_Pecheneg_woodland: CUP_lmg_Pecheneg {
+    recoil = QCLASS(762N_Long_MG);
+};

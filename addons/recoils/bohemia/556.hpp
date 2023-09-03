@@ -74,3 +74,8 @@ class arifle_XMS_GL_lxWS: arifle_XMS_Base_lxWS  {
 class arifle_XMS_Shot_lxWS: arifle_XMS_Base_lxWS {
     recoil = QCLASS(556_Short_FG);
 };
+
+// Minimi SPW
+class LMG_03_F: LMG_03_base_F {
+    recoil = QCLASS(556_Long_MG);
+};

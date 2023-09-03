@@ -344,3 +344,40 @@ class CUP_arifle_Mk16_CQC_SFG: CUP_arifle_Mk16_CQC {
 class CUP_arifle_Mk16_CQC_EGLM: CUP_arifle_Mk16_CQC {
     recoil = QCLASS(556_Short_FG);
 };
+
+// Minimi
+class CUP_lmg_minimipara: CUP_saw_base {
+    recoil = QCLASS(556_Long_MG);
+};
+class CUP_lmg_minimi: CUP_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};
+class CUP_lmg_minimi_railed: CUP_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};
+
+// M249
+class CUP_lmg_m249_pip1: CUP_lmg_minimi_railed {
+    recoil = QCLASS(556_Long_MG);
+};
+class CUP_lmg_m249_pip3: CUP_lmg_minimi_railed {
+    recoil = QCLASS(556_Long_MG);
+};
+class CUP_lmg_m249_pip4: CUP_lmg_minimi_railed {
+    recoil = QCLASS(556_Long_MG);
+};
+class CUP_lmg_m249_SQuantoon: CUP_lmg_m249_pip4 {
+    recoil = QCLASS(556_Long_MG);
+};
+class CUP_lmg_M249_E2: CUP_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};
+class CUP_lmg_M249_E1: CUP_lmg_M249_E2 {
+    recoil = QCLASS(556_Long_MG);
+};
+class CUP_lmg_m249_pip2: CUP_lmg_minimi_railed {
+    recoil = QCLASS(556_Long_MG);
+};
+class CUP_lmg_m249_para: CUP_lmg_minimipara {
+    recoil = QCLASS(556_Long_MG);
+};
