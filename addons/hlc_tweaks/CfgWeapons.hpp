@@ -22,5 +22,20 @@ class CfgWeapons {
         class Single: Single {
             showToPlayer = 1;
         };
+        class LinkedItems {
+            delete LinkedItemsMuzzle;
+        };
+    };
+
+    class hlc_rifle_auga3_b: hlc_rifle_auga3 {
+        class LinkedItems {
+            delete LinkedItemsMuzzle;
+        };
+    };
+
+    class hlc_rifle_auga3_bl: hlc_rifle_auga3 {
+        class LinkedItems {
+            delete LinkedItemsMuzzle;
+        };
     };
 };
