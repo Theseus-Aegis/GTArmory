@@ -28,3 +28,16 @@ class srifle_DMR_06_hunter_F: DMR_06_hunter_base_F {
 class srifle_DMR_03_F: DMR_03_base_F {
     recoil = QCLASS(762N_Long);
 };
+
+// SLR
+class arifle_SLR_lxWS: DMR_06_base_F {
+    recoil = QCLASS(762N_Long);
+};
+
+class arifle_SLR_GL_lxWS: arifle_SLR_lxWS {
+    recoil = QCLASS(762N_Long_FG);
+};
+
+class arifle_SLR_V_GL_lxWS: arifle_SLR_V_lxWS {
+    recoil = QCLASS(762N_Long_FG);
+};
