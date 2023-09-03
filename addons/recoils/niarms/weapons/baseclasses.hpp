@@ -11,3 +11,4 @@ class hlc_rifle_CQBR;
 class hlc_rifle_honeybase;
 class hlc_saw_base;
 class hlc_sg550_base;
+class hlc_rifle_Bushmaster300;

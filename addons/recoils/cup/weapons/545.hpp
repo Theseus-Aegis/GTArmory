@@ -32,6 +32,12 @@ class CUP_arifle_AK74: CUP_arifle_AK_Base {
 class CUP_arifle_AK74_GL: CUP_arifle_AK_Base {
     recoil = QCLASS(545_Medium_FG);
 };
+class CUP_arifle_AKS74_GL: CUP_arifle_AK74_GL {
+    recoil = QCLASS(545_Medium_FG);
+};
+class CUP_arifle_AKS74_GL_top_rail: CUP_arifle_AKS74_GL {
+    recoil = QCLASS(545_Medium_FG);
+};
 class CUP_arifle_AK74M: CUP_arifle_AK_Base {
     recoil = QCLASS(545_Medium);
 };
@@ -49,6 +55,9 @@ class CUP_arifle_AKS74U: CUP_arifle_AKS_Base {
 };
 class CUP_arifle_AKS74U_railed: CUP_arifle_AKS74U {
     recoil = QCLASS(545_Short_FG);
+};
+class CUP_arifle_AKMN_railed_afg: CUP_arifle_AKM {
+    recoil = QCLASS(545_Long_FG);
 };
 
 // AK-12

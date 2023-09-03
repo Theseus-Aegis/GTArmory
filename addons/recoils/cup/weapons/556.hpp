@@ -81,13 +81,13 @@ class CUP_arifle_AUG_A1: CUP_arifle_AUG_Base {
 
 // CZ
 class CUP_arifle_CZ805_A1: CUP_arifle_CZ805_Base {
-    recoil = QCLASS(556_Medium);
+    recoil = QCLASS(556_Medium_FG);
 };
 class CUP_arifle_CZ805_GL: CUP_arifle_CZ805_Base {
     recoil = QCLASS(556_Medium_FG);
 };
 class CUP_arifle_CZ805_A2: CUP_arifle_CZ805_Base {
-    recoil = QCLASS(556_Medium);
+    recoil = QCLASS(556_Medium_FG);
 };
 class CUP_CZ_BREN2_556_11: CUP_CZ_BREN2_Base {
     recoil = QCLASS(556_Short);
