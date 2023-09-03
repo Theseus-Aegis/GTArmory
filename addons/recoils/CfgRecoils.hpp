@@ -113,8 +113,6 @@ class CfgRecoils {
         temporary = 0.016;
     };
 
-    class CLASS(65_Long_MG) {};
-
     // 300WM
     class CLASS(300WM_Long) {
         kickBack[] = {0.3, 0.5};
@@ -170,10 +168,18 @@ class CfgRecoils {
         temporary = 0.017;
     };
 
-    class CLASS(545_Long_BP) {};
-    class CLASS(545_Short_BP) {};
-
-    class CLASS(545_Long_MG) {};
+    class CLASS(545_Long_BP) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.18, 0.4, 0.3, 0.3};
+        permanent = 0.15;
+        temporary = 0.013;
+    };
+    class CLASS(545_Short_BP) {
+        kickBack[] = {0.03, 0.05};
+        muzzleOuter[] = {0.22, 0.44, 0.33, 0.3};
+        permanent = 0.15;
+        temporary = 0.015;
+    };
 
     // 5.56
     class CLASS(556_Long) {
@@ -233,8 +239,12 @@ class CfgRecoils {
         temporary = 0.018;
     };
 
-    class CLASS(556_Long_MG) {};
-    class CLASS(556_Medium_MG) {};
+    class CLASS(556_Long_MG) {
+        kickBack[] = {0.01, 0.03};
+        muzzleOuter[] = {0.15, 0.36, 0.25, 0.25};
+        permanent = 0.12;
+        temporary = 0.01;
+    };
 
     // 7.62 NATO
     class CLASS(762N_Long) {
@@ -275,8 +285,12 @@ class CfgRecoils {
         temporary = 0.019;
     };
 
-    class CLASS(762N_Long_MG) {};
-    class CLASS(762N_Medium_MG) {};
+    class CLASS(762N_Long_MG) {
+        kickBack[] = {0.01, 0.03};
+        muzzleOuter[] = {0.25, 0.45, 0.35, 0.35};
+        permanent = 0.15;
+        temporary = 0.015;
+    };
 
     // 7.62 Russian
     class CLASS(762R_Long) {
@@ -316,7 +330,4 @@ class CfgRecoils {
         permanent = 0.15;
         temporary = 0.017;
     };
-
-    class CLASS(762R_Long_MG) {};
-    class CLASS(762R_Medium_MG) {};
 };
