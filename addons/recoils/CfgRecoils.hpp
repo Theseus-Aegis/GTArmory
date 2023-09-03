@@ -1,7 +1,7 @@
 class CfgRecoils {
     /*
         - Parameter muzzleOuter defines the possible area where the recoil would like to move the weapon's muzzle randomly at each shot.
-        It is defined as ellipse with variables defining the:
+          It is defined as ellipse with variables defining the:
             x = horizontal axis position (Kick Right)
             y = vertical axis position (Kick Up)
             a = horizontal magnitude (Kick Left)
