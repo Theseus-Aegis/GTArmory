@@ -63,6 +63,9 @@ class hlc_rifle_bcmblackjack: hlc_rifle_bcmjack {
 class hlc_rifle_honeybadger: hlc_rifle_honeybase {
     recoil = QCLASS(556_Short);
 };
+class hlc_rifle_vendimus: hlc_rifle_Bushmaster300 {
+    recoil = QCLASS(556_Long);
+};
 
 // SiG Rifles
 class hlc_rifle_SG550: hlc_sg550_base {
