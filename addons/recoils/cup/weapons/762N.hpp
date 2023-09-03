@@ -68,7 +68,7 @@ class CUP_srifle_M14_DMR: Rifle_Base_F {
 
 // M110
 class CUP_srifle_M110: Rifle_Base_F {
-    recoil = QCLASS(762N_Long);
+    recoil = QCLASS(762N_Long_FG);
 };
 
 // Romat
@@ -88,6 +88,9 @@ class CUP_arifle_DSA_SA58_OSW_VFG: CUP_arifle_DSA_SA58_OSW {
 };
 class CUP_arifle_DSA_SA58_OSW_M203: CUP_arifle_DSA_SA58_OSW {
     recoil = QCLASS(762N_Short_FG);
+};
+class CUP_arifle_DSA_SA58_DMR: CUP_arifle_DSA_SA58 {
+    recoil = QCLASS(762N_Long);
 };
 
 // SCAR-H

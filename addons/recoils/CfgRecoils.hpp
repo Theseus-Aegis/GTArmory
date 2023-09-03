@@ -29,10 +29,8 @@ class CfgRecoils {
             Caliber_Medium_BP
             Caliber_Short_BP
 
-            LMGs: Different recoil patterns to make them more manageable, will be separated into Long/Medium.
+            LMGs: Different style of recoil pattern for manageability.
             Caliber_Long_MG
-            Caliber_Medium_MG
-            Caliber_Short_MG
     */
 
     // 12G - Operate differently from regular rifles, the barrel is either short or long.

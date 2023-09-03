@@ -50,6 +50,9 @@ class CUP_arifle_AKM: CUP_arifle_AK_Base {
 class CUP_arifle_AKMN_railed: CUP_arifle_AKM {
     recoil = QCLASS(762R_Medium_FG);
 };
+class CUP_arifle_AKMN_railed_afg: CUP_arifle_AKM {
+    recoil = QCLASS(762R_Medium_FG);
+};
 class CUP_arifle_AKM_GL: CUP_arifle_AKM {
     recoil = QCLASS(762R_Medium_FG);
 };

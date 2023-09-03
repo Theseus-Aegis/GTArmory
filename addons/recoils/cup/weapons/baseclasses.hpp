@@ -12,7 +12,6 @@ class CUP_arifle_ACR_Short_BASE_556;
 class CUP_arifle_ACR_Short_BASE_68;
 class CUP_arifle_AK107_Base;
 class CUP_arifle_AK_Base;
-class CUP_arifle_AKM;
 class CUP_arifle_AKS_Base;
 class CUP_arifle_AUG_Base;
 class CUP_arifle_CZ805_Base;

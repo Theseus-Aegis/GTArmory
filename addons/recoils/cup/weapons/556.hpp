@@ -307,7 +307,7 @@ class CUP_srifle_Mk12SPR: CUP_arifle_M4_Base {
 
 // MK18
 class CUP_arifle_mk18_black: CUP_arifle_M4A1_BUIS_Base {
-    recoil = QCLASS(556_Medium);
+    recoil = QCLASS(556_Medium_FG);
 };
 class CUP_arifle_mk18_m203_black: CUP_arifle_mk18_black {
     recoil = QCLASS(556_Medium_FG);
