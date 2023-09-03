@@ -62,16 +62,56 @@ class CfgRecoils {
     };
 
     // 6.5
-    class CLASS(65_Long) {};
-    class CLASS(65_Medium) {};
-    class CLASS(65_Short) {};
+    class CLASS(65_Long) {
+        kickBack[] = {0.025, 0.045};
+        muzzleOuter[] = {0.25, 0.6, 0.35, 0.38};
+        permanent = 0.2;
+        temporary = 0.15;
+    };
+    class CLASS(65_Medium) {
+        kickBack[] = {0.027, 0.047};
+        muzzleOuter[] = {0.28, 0.64, 0.38, 0.42};
+        permanent = 0.22;
+        temporary = 0.17;
+    };
+    class CLASS(65_Short) {
+        kickBack[] = {0.029, 0.049};
+        muzzleOuter[] = {0.31, 0.66, 0.41, 0.46};
+        permanent = 0.24;
+        temporary = 0.19;
+    };
 
-    class CLASS(65_Long_FG) {};
-    class CLASS(65_Medium_FG) {};
-    class CLASS(65_Short_FG) {};
+    class CLASS(65_Long_FG) {
+        kickBack[] = {0.023, 0.043};
+        muzzleOuter[] = {0.22, 0.55, 0.32, 0.35};
+        permanent = 0.18;
+        temporary = 0.13;
+    };
+    class CLASS(65_Medium_FG) {
+        kickBack[] = {0.025, 0.045};
+        muzzleOuter[] = {0.24, 0.59, 0.35, 0.39};
+        permanent = 0.2;
+        temporary = 0.15;
+    };
+    class CLASS(65_Short_FG) {
+        kickBack[] = {0.027, 0.047};
+        muzzleOuter[] = {0.26, 0.61, 0.38, 0.43};
+        permanent = 0.22;
+        temporary = 0.17;
+    };
 
-    class CLASS(65_Long_BP) {};
-    class CLASS(65_Medium_BP) {};
+    class CLASS(65_Long_BP) {
+        kickBack[] = {0.025, 0.045};
+        muzzleOuter[] = {0.22, 0.6, 0.35, 0.38};
+        permanent = 0.2;
+        temporary = 0.14;
+    };
+    class CLASS(65_Medium_BP) {
+        kickBack[] = {0.027, 0.047};
+        muzzleOuter[] = {0.24, 0.64, 0.38, 0.42};
+        permanent = 0.22;
+        temporary = 0.16;
+    };
 
     class CLASS(65_Long_MG) {};
 
