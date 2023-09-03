@@ -1,5 +1,5 @@
 class CLASS(30Rnd_300AAC_Ball): hlc_29rnd_300BLK_STANAG {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(300AAC_Ball);
     displayName = ".300AAC 30Rnd (Ball)";
     displayNameShort = "Ball";

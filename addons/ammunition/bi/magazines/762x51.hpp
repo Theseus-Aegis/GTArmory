@@ -1,6 +1,6 @@
 // 7.62x51mm
 class CLASS(20Rnd_762x51_Ball): 20Rnd_762x51_Mag {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x51_Ball);
     displayName = "7.62mm 20Rnd (Ball)";
     displayNameShort = "Ball";

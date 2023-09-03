@@ -1,6 +1,6 @@
 // 7.62x54r Negev Boxes
 class CLASS(150Rnd_762x54r_Ball_Belt): 150Rnd_762x54_Box {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x54r_Ball);
     displayName = "7.62mm 150Rnd Belt [TE4] (Ball)";
     displayNameShort = "Ball TE4";
@@ -23,7 +23,7 @@ class CLASS(150Rnd_762x54r_EPR_Belt): CLASS(150Rnd_762x54r_Ball_Belt) {
 
 // 7.62x54r SVD/VS-121 Magazines
 class CLASS(10Rnd_762x54r_Ball): 10Rnd_762x54_Mag {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x54r_Ball);
     displayName = "7.62mm 10Rnd (Ball)";
     displayNameShort = "Ball";

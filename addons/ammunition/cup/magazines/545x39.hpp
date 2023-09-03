@@ -1,6 +1,6 @@
 // 5.45x39mm Quadstack
 class CLASS(60Rnd_545x39_Ball_Quadstack): CUP_60Rnd_545x39_AK74M_M {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(545x39_Ball);
     displayName = "5.45mm 60Rnd Quadstack [TE4] (Ball)";
     displayNameShort = "Ball TE4";
@@ -23,7 +23,7 @@ class CLASS(60Rnd_545x39_EPR_Quadstack): CLASS(60Rnd_545x39_Ball_Quadstack) {
 
 // 5.45x39mm Fort
 class CLASS(30Rnd_545x39_Ball_Fort): CUP_30Rnd_545x39_Fort224_M {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(545x39_Ball);
     displayName = "5.45mm 30Rnd Fort (Ball)";
     displayNameShort = "Ball";
