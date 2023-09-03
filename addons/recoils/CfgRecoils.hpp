@@ -1,28 +1,134 @@
 class CfgRecoils {
     /*
-        - Parameter muzzleOuter defines the possible area where the recoil would like to move the weapon's muzzle randomly at each shot. It is defined as ellipse with variables defining the
-        (x = horizontal axis position, y = vertical axis position, a = horizontal magnitude, b = vertical magnitude); or, translated to the weapon's recoil movement behavior
+        - Parameter muzzleOuter defines the possible area where the recoil would like to move the weapon's muzzle randomly at each shot.
+        It is defined as ellipse with variables defining the:
+            x = horizontal axis position (Kick Right)
+            y = vertical axis position (Kick Up)
+            a = horizontal magnitude (Kick Left)
+            b = vertical magnitude (Kick Up/Down)
         (how far to the right, how high up, how much horizontal deviation, how much vertical deviation).
 
         - Parameter kickBack defines the minimum and maximum of random interval for backward force applied over the arms and torso for each fired shot.
-        Remaining parameters define how much of the random muzzle displacement within the defined ellipse space is permanent (causing muzzle rise you should compensate for) and how much is temporary
-        (causing temporal weapon rise up and down, thus causing the weapon to shake in your hands).
+        - Parameter temporary defines how much shake the weapon has when fired.
+        - Parameter permanent defines how much your weapon climbs per shot.
+
+        - Recoil Naming:
+
+            Regular Rifles:
+            Caliber_Long - 16-18"
+            Caliber_Medium - 14-16"
+            Caliber_Short - < 14"
+
+            Foregrip or Grenade Launchers: Lessened horizontal recoil.
+            Caliber_Long_FG
+            Caliber_Medium_FG
+            Caliber_Short_FG
+
+            Bullpups: Lessened horizontal recoil, no FG variant, slightly better than FG for rifles.
+            Caliber_Long_BP
+            Caliber_Medium_BP
+            Caliber_Short_BP
+
+            LMGs: Different recoil patterns to make them more manageable, will be separated into Long/Medium.
+            Caliber_Long_MG
+            Caliber_Medium_MG
+            Caliber_Short_MG
     */
 
-    // Inherit into new classes.
-    class CLASS(Recoil_Default) {
-        kickBack[] = {0.03, 0.05};
-        temporary = 0.02;
+    // 12G - Operate differently from regular rifles, the barrel is either short or long.
+    class CLASS(12G_Long) {
+        kickBack[] = {0.02, 0.04};
+        muzzleOuter[] = {0.25, 0.75, 0.4, 0.4};
+        permanent = 0.4;
+        temporary = 0.25;
+    };
+    class CLASS(12G_Long_FG) {
+        kickBack[] = {0.018, 0.038};
+        muzzleOuter[] = {0.22, 0.7, 0.37, 0.37};
+        permanent = 0.35;
+        temporary = 0.2;
+    };
+    class CLASS(12G_Short) {
+        kickBack[] = {0.025, 0.045};
+        muzzleOuter[] = {0.28, 0.85, 0.44, 0.44};
+        permanent = 0.44;
+        temporary = 0.3;
+    };
+    class CLASS(12G_Short_FG) {
+        kickBack[] = {0.023, 0.043};
+        muzzleOuter[] = {0.25, 0.8, 0.41, 0.41};
+        permanent = 0.39;
+        temporary = 0.25;
     };
 
-    #include "recoils\545.hpp"
-    #include "recoils\556.hpp"
-    #include "recoils\65.hpp"
-    #include "recoils\68.hpp"
-    #include "recoils\762R.hpp"
-    #include "recoils\762N.hpp"
-    #include "recoils\12G.hpp"
-    #include "recoils\blackout.hpp"
-    #include "recoils\300wm.hpp"
-    #include "recoils\338.hpp"
+    // 6.5
+    class CLASS(65_Long) {};
+    class CLASS(65_Medium) {};
+    class CLASS(65_Short) {};
+
+    class CLASS(65_Long_FG) {};
+    class CLASS(65_Medium_FG) {};
+    class CLASS(65_Short_FG) {};
+
+    class CLASS(65_Long_BP) {};
+    class CLASS(65_Medium_BP) {};
+
+    class CLASS(65_Long_MG) {};
+
+    // 300WM
+    class CLASS(300WM_Long) {};
+
+    // 338 Lapua
+    class CLASS(338_Long) {};
+
+    // 5.45
+    class CLASS(545_Long) {};
+    class CLASS(545_Medium) {};
+    class CLASS(545_Short) {};
+
+    class CLASS(545_Long_FG) {};
+    class CLASS(545_Medium_FG) {};
+    class CLASS(545_Short_FG) {};
+
+    class CLASS(545_Long_MG) {};
+
+    // 5.56
+    class CLASS(556_Long) {};
+    class CLASS(556_Medium) {};
+    class CLASS(556_Short) {};
+
+    class CLASS(556_Long_FG) {};
+    class CLASS(556_Medium_FG) {};
+    class CLASS(556_Short_FG) {};
+
+    class CLASS(556_Long_BP) {};
+    class CLASS(556_Medium_BP) {};
+    class CLASS(556_Short_BP) {};
+
+    class CLASS(556_Long_MG) {};
+    class CLASS(556_Medium_MG) {};
+
+    // 7.62 NATO
+    class CLASS(762N_Long) {};
+    class CLASS(762N_Medium) {};
+    class CLASS(762N_Short) {};
+
+    class CLASS(762N_Long_FG) {};
+    class CLASS(762N_Medium_FG) {};
+    class CLASS(762N_Short_FG) {};
+
+    class CLASS(762N_Long_MG) {};
+    class CLASS(762N_Medium_MG) {};
+
+    // 7.62 Russian
+    class CLASS(762R_Long) {};
+    class CLASS(762R_Medium) {};
+    class CLASS(762R_Short) {};
+
+    class CLASS(762R_Long_FG) {};
+    class CLASS(762R_Medium_FG) {};
+    class CLASS(762R_Short_FG) {};
+
+    class CLASS(762R_Long_MG) {};
+    class CLASS(762R_Medium_MG) {};
 };
