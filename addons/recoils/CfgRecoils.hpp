@@ -116,10 +116,20 @@ class CfgRecoils {
     class CLASS(65_Long_MG) {};
 
     // 300WM
-    class CLASS(300WM_Long) {};
+    class CLASS(300WM_Long) {
+        kickBack[] = {0.3, 0.5};
+        muzzleOuter[] = {0.46, 0.76, 0.5, 0.5};
+        permanent = 0.2;
+        temporary = 0.2;
+    };
 
     // 338 Lapua
-    class CLASS(338_Long) {};
+    class CLASS(338_Long) {
+        kickBack[] = {0.33, 0.53};
+        muzzleOuter[] = {0.5, 0.82, 0.55, 0.55};
+        permanent = 0.22;
+        temporary = 0.2;
+    };
 
     // 5.45
     class CLASS(545_Long) {};
