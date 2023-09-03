@@ -164,6 +164,14 @@ class CUP_lmg_Mk48_nohg_tan: CUP_lmg_Mk48_nohg {
     recoil = QCLASS(762N_Long_MG);
 };
 
+// M60
+class CUP_lmg_M60: CUP_M60E4_base {
+    recoil = QCLASS(762N_Long_MG);
+};
+class CUP_lmg_M60E4_norail: CUP_M60E4_base {
+    recoil = QCLASS(762N_Long_MG);
+};
+
 
 // PKM
 class CUP_lmg_PKM: Rifle_Long_Base_F {
