@@ -1,6 +1,6 @@
 // Western Sahara Assets
 class CLASS(35Rnd_556x45_Ball_R4): 35Rnd_556x45_Velko_reload_tracer_yellow_lxWS {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 35Rnd R4 (Ball)";
     displayNameShort = "Ball";

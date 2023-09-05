@@ -1,6 +1,6 @@
 // 7.62x51mm FAL
 class CLASS(20Rnd_762x51_Ball_FAL): CUP_20Rnd_762x51_FNFAL_M {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x51_Ball);
     displayName = "7.62mm 20Rnd FAL (Ball)";
     displayNameShort = "Ball";
@@ -27,9 +27,38 @@ class CLASS(20Rnd_762x51_AP_FAL): CLASS(20Rnd_762x51_EPR_FAL) {
     descriptionShort = "7.62x51mm AP Reload Tracer";
 };
 
+// 7.62x51mm HK417
+class CLASS(20Rnd_762x51_Ball_HK417): CUP_20Rnd_762x51_HK417 {
+    MACRO_SCOPE;
+    ammo = QCLASS(762x51_Ball);
+    displayName = "7.62mm 20Rnd HK417 (Ball)";
+    displayNameShort = "Ball";
+    descriptionShort = "7.62x51mm Ball Reload Tracer";
+    lastRoundsTracer = 2;
+    mass = 11;
+};
+class CLASS(20Rnd_762x51_Ball_Tracer_HK417): CLASS(20Rnd_762x51_Ball_HK417) {
+    displayName = "7.62mm 20Rnd HK417 [T] (Ball)";
+    displayNameShort = "Ball Tracer";
+    descriptionShort = "7.62x51mm Ball Tracer";
+    tracersEvery = 1;
+};
+class CLASS(20Rnd_762x51_EPR_HK417): CLASS(20Rnd_762x51_Ball_HK417) {
+    ammo = QCLASS(762x51_EPR);
+    displayName = "7.62mm 20Rnd HK417 (EPR)";
+    displayNameShort = "EPR";
+    descriptionShort = "7.62x51mm EPR Reload Tracer";
+};
+class CLASS(20Rnd_762x51_AP_HK417): CLASS(20Rnd_762x51_Ball_HK417) {
+    ammo = QCLASS(762x51_AP);
+    displayName = "7.62mm 20Rnd HK417 (AP)";
+    displayNameShort = "AP";
+    descriptionShort = "7.62x51mm AP Reload Tracer";
+};
+
 // 7.62x51mm SCAR-H
 class CLASS(20Rnd_762x51_Ball_SCAR): CUP_20Rnd_762x51_B_SCAR_bkl {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x51_Ball);
     displayName = "7.62mm 20Rnd SCAR (Ball)";
     displayNameShort = "Ball";

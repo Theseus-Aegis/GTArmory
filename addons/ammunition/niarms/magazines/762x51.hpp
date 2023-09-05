@@ -1,6 +1,6 @@
 // 7.62x51mm Belt
 class CLASS(100Rnd_762x51_Ball_Belt): hlc_100Rnd_762x51_B_M60E4 {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(762x51_Ball);
     displayName = "7.62mm 100Rnd [TE4] (Ball)";
     displayNameShort = "Ball TE4";

@@ -1,32 +1,33 @@
 class CfgMagazines {
-    class CUP_5Rnd_B_Saiga12_Buck_00;
-    class CUP_30Rnd_9x19_MP5;
-    class CUP_30Rnd_9x19_Vityaz;
-    class CUP_64Rnd_9x19_Bizon_M;
-    class CUP_40Rnd_46x30_MP7;
-    class CUP_30Rnd_545x39_Fort224_M;
-    class CUP_60Rnd_545x39_AK74M_M;
-    class CUP_30Rnd_556x45_AK;
-    class CUP_25Rnd_556x45_Famas;
-    class CUP_30Rnd_TE1_Green_Tracer_556x45_G36;
-    class CUP_60Rnd_556x45_SureFire;
+    class 30Rnd_556x45_Stanag;
     class CUP_100Rnd_556x45_BetaCMag;
     class CUP_100Rnd_TE4_Green_Tracer_556x45_M249;
-    class CUP_200Rnd_TE4_Green_Tracer_556x45_M249_Pouch;
-    class CUP_200Rnd_TE4_Green_Tracer_556x45_M249;
-    class CUP_30Rnd_680x43_Stanag;
-    class CUP_30Rnd_762x39_CZ807;
-    class CUP_20Rnd_762x51_FNFAL_M;
-    class CUP_20Rnd_762x51_B_SCAR_bkl;
-    class CUP_30Rnd_9x39_SP5_VIKHR_M;
+    class CUP_12Rnd_45ACP_mk23;
     class CUP_13Rnd_9x19_Browning_HP;
-    class CUP_18Rnd_9x19_Phantom;
+    class CUP_15Rnd_9x19_M9;
     class CUP_17Rnd_9x19_glock17;
     class CUP_17Rnd_9x19_M17_Black;
-    class CUP_15Rnd_9x19_M9;
+    class CUP_18Rnd_9x19_Phantom;
+    class CUP_200Rnd_TE4_Green_Tracer_556x45_M249;
+    class CUP_200Rnd_TE4_Green_Tracer_556x45_M249_Pouch;
+    class CUP_20Rnd_762x51_B_SCAR_bkl;
+    class CUP_20Rnd_762x51_FNFAL_M;
+    class CUP_20Rnd_762x51_HK417;
+    class CUP_25Rnd_556x45_Famas;
+    class CUP_30Rnd_545x39_Fort224_M;
+    class CUP_30Rnd_556x45_AK;
+    class CUP_30Rnd_680x43_Stanag;
+    class CUP_30Rnd_762x39_CZ807;
+    class CUP_30Rnd_9x19_MP5;
+    class CUP_30Rnd_9x19_Vityaz;
+    class CUP_30Rnd_9x39_SP5_VIKHR_M;
+    class CUP_30Rnd_TE1_Green_Tracer_556x45_G36;
+    class CUP_40Rnd_46x30_MP7;
+    class CUP_5Rnd_B_Saiga12_Buck_00;
+    class CUP_60Rnd_545x39_AK74M_M;
+    class CUP_60Rnd_556x45_SureFire;
+    class CUP_64Rnd_9x19_Bizon_M;
     class CUP_7Rnd_45ACP_1911;
-    class CUP_12Rnd_45ACP_mk23;
-    class 30Rnd_556x45_Stanag;
 
     #include "magazines\12g.hpp"
     #include "magazines\45ACP.hpp"
