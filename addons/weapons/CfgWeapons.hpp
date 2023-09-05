@@ -103,7 +103,7 @@ class CfgWeapons {
         displayName = "LAMG (GT Edition)";
         descriptionShort = "GT Edition Light Machine-Gun";
         scope = 2;
-        recoil = QCLASS(recoil_mk200);
+        recoil = QCLASS(65_Long_MG);
         magazines[] = {
             QCLASS(100Rnd_65x39_Ball_Belt),
             QCLASS(100Rnd_65x39_Ball_Tracer_Belt),

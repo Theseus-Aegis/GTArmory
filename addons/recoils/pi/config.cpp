@@ -22,12 +22,25 @@ class CfgPatches {
 };
 
 class CfgWeapons {
-    // Falkor
     class bnae_falkor_base;
-
-    // RK95s
     class bnae_rk95_base;
 
-    #include "762R\rk.hpp"
-    #include "300WM\falkor.hpp"
+    // RK-95
+    class bnae_rk95_virtual: bnae_rk95_base {
+        recoil = QCLASS(762R_Long);
+    };
+
+    // Falkor Petra
+    class bnae_falkor_blk_virtual: bnae_falkor_base {
+        recoil = QCLASS(300WM_Long);
+    };
+    class bnae_falkor_camo1_virtual: bnae_falkor_base {
+        recoil = QCLASS(300WM_Long);
+    };
+    class bnae_falkor_snd_virtual: bnae_falkor_base {
+        recoil = QCLASS(300WM_Long);
+    };
+    class bnae_falkor_camo2_virtual: bnae_falkor_base {
+        recoil = QCLASS(300WM_Long);
+    };
 };

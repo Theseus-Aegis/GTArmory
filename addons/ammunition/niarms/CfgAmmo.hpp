@@ -5,8 +5,9 @@ class CfgAmmo {
     class CLASS(300AAC_Ball): HLC_300Blackout_Ball {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.19;
+        cartridge = "FxCartridge_762";
         hit = 12;
-        MACRO_TRACERS
+        MACRO_TRACERS;
     };
     class CLASS(300AAC_EPR): CLASS(300AAC_Ball) {
         caliber = 1.2;

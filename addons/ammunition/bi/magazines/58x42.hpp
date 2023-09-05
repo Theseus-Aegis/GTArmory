@@ -1,6 +1,6 @@
 // 5.8x42mm
 class CLASS(30Rnd_58x42_Ball): 30Rnd_580x42_Mag_F {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(58x42_Ball);
     displayName = "5.8mm 30Rnd (Ball)";
     displayNameShort = "Ball";
@@ -29,7 +29,7 @@ class CLASS(30Rnd_58x42_AP): CLASS(30Rnd_58x42_EPR) {
 
 // 5.8x42mm Drum
 class CLASS(100Rnd_58x42_Ball): 100Rnd_580x42_Mag_F {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(58x42_Ball);
     displayName = "5.8mm 100Rnd [TE4] (Ball)";
     displayNameShort = "Ball TE4";

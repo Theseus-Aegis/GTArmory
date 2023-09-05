@@ -1,6 +1,6 @@
 // 5.56x45mm SG55X Series
 class CLASS(30Rnd_556x45_Ball_SG): hlc_30Rnd_556x45_EPR_sg550 {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 30Rnd SiG (Ball)";
     displayNameShort = "Ball";
@@ -29,7 +29,7 @@ class CLASS(30Rnd_556x45_AP_SG): CLASS(30Rnd_556x45_EPR_SG) {
 
 // 5.56x45mm AUG
 class CLASS(30Rnd_556x45_Ball_AUG): hlc_30Rnd_556x45_B_AUG {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 30Rnd AUG (Ball)";
     displayNameShort = "Ball";
@@ -58,7 +58,7 @@ class CLASS(30Rnd_556x45_AP_AUG): CLASS(30Rnd_556x45_EPR_AUG) {
 
 // 5.56x45mm AUG 42Rnd
 class CLASS(42Rnd_556x45_Ball_AUG): hlc_40Rnd_556x45_B_AUG {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
     displayName = "5.56mm 42Rnd AUG (Ball)";
     displayNameShort = "Ball";

@@ -1,6 +1,6 @@
 // 6.8x43mm ACR
 class CLASS(30Rnd_68x43_Ball_ACR): CUP_30Rnd_680x43_Stanag {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(68x43_Ball);
     displayName = "6.8mm 30Rnd ACR (Ball)";
     displayNameShort = "Ball";

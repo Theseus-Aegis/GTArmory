@@ -414,7 +414,11 @@ class CBA_762x51_HK417 {
         QCLASS(20Rnd_762x51_Ball),
         QCLASS(20Rnd_762x51_Ball_Tracer),
         QCLASS(20Rnd_762x51_EPR),
-        QCLASS(20Rnd_762x51_AP)
+        QCLASS(20Rnd_762x51_AP),
+        QCLASS(20Rnd_762x51_Ball_HK417),
+        QCLASS(20Rnd_762x51_Ball_Tracer_HK417),
+        QCLASS(20Rnd_762x51_EPR_HK417),
+        QCLASS(20Rnd_762x51_AP_HK417)
     };
 };
 

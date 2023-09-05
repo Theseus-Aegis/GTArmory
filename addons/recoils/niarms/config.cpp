@@ -24,31 +24,9 @@ class CfgPatches {
 };
 
 class CfgWeapons {
-    // ACR-E
-    class hlc_acr556_base;
-    class hlc_rifle_ACR_SBR_black;
-    class hlc_rifle_ACR68_SBR_black;
-    class hlc_acr_base;
-
-    // AUG
-    class hlc_aug_base;
-    class hlc_rifle_auga3;
-
-    // Honey Badger
-    class hlc_rifle_honeybase;
-
-    // M4 Variants
-    class hlc_ar15_base;
-    class hlc_rifle_CQBR;
-
-    // SG55X
-    class hlc_sg550_base;
-
-    #include "556\acr.hpp"
-    #include "556\aug.hpp"
-    #include "556\m4.hpp"
-    #include "556\sig.hpp"
-    #include "762R\sig.hpp"
-    #include "blackout\ar15.hpp"
-    #include "blackout\honeybadger.hpp"
+    #include "weapons\baseclasses.hpp"
+    #include "weapons\68.hpp"
+    #include "weapons\556.hpp"
+    #include "weapons\762N.hpp"
+    #include "weapons\762R.hpp"
 };

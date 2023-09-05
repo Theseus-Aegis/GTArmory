@@ -1,6 +1,6 @@
 // 6.5x39mm (MX, Sand)
 class CLASS(30Rnd_65x39_Ball_MX_Sand): 30Rnd_65x39_caseless_mag {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(65x39_Ball);
     displayName = "6.5mm 30Rnd MX Sand (Ball)";
     displayNameShort = "Ball";
@@ -28,25 +28,25 @@ class CLASS(30Rnd_65x39_AP_MX_Sand): CLASS(30Rnd_65x39_EPR_MX_Sand) {
 
 // 6.5x39mm (MX, Black)
 class CLASS(30Rnd_65x39_Ball_MX_Black): CLASS(30Rnd_65x39_Ball_MX_Sand) {
-    MACRO_65_MAGAZINE_MX_Black
+    MACRO_65_MAGAZINE_MX_Black;
     displayName = "6.5mm 30Rnd MX Black (Ball)";
 };
 class CLASS(30Rnd_65x39_Ball_Tracer_MX_Black): CLASS(30Rnd_65x39_Ball_Tracer_MX_Sand) {
-    MACRO_65_MAGAZINE_MX_Black
+    MACRO_65_MAGAZINE_MX_Black;
     displayName = "6.5mm 30Rnd MX Black [T] (Ball)";
 };
 class CLASS(30Rnd_65x39_EPR_MX_Black): CLASS(30Rnd_65x39_EPR_MX_Sand) {
-    MACRO_65_MAGAZINE_MX_Black
+    MACRO_65_MAGAZINE_MX_Black;
     displayName = "6.5mm 30Rnd MX Black (EPR)";
 };
 class CLASS(30Rnd_65x39_AP_MX_Black): CLASS(30Rnd_65x39_AP_MX_Sand) {
-    MACRO_65_MAGAZINE_MX_Black
+    MACRO_65_MAGAZINE_MX_Black;
     displayName = "6.5mm 30Rnd MX Black (AP)";
 };
 
 // 6.5x39mm (MX, MG Sand)
 class CLASS(100Rnd_65x39_Ball_MX_LSW_Sand): 100Rnd_65x39_caseless_mag {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(65x39_Ball);
     displayName = "6.5mm 100Rnd MX LSW Sand [TE4] (Ball)";
     displayNameShort = "Ball TE4";
@@ -68,21 +68,21 @@ class CLASS(100Rnd_65x39_EPR_MX_LSW_Sand): CLASS(100Rnd_65x39_Ball_MX_LSW_Sand) 
 
 // 6.5x39mm (MX, MG Black)
 class CLASS(100Rnd_65x39_Ball_MX_LSW_Black): CLASS(100Rnd_65x39_Ball_MX_LSW_Sand) {
-    MACRO_65_MAGAZINE_MX_LSW_Black
+    MACRO_65_MAGAZINE_MX_LSW_Black;
     displayName = "6.5mm 100Rnd MX LSW Black [TE4] (Ball)";
 };
 class CLASS(100Rnd_65x39_Ball_Tracer_MX_LSW_Black): CLASS(100Rnd_65x39_Ball_Tracer_MX_LSW_Sand) {
-    MACRO_65_MAGAZINE_MX_LSW_Black
+    MACRO_65_MAGAZINE_MX_LSW_Black;
     displayName = "6.5mm 100Rnd MX LSW Black [T] (Ball)";
 };
 class CLASS(100Rnd_65x39_EPR_MX_LSW_Black): CLASS(100Rnd_65x39_EPR_MX_LSW_Sand) {
-    MACRO_65_MAGAZINE_MX_LSW_Black
+    MACRO_65_MAGAZINE_MX_LSW_Black;
     displayName = "6.5mm 100Rnd MX LSW Black [TE4] (EPR)";
 };
 
 // 6.5x39mm (GROT/MSBS)
 class CLASS(30Rnd_65x39_Ball_MSBS): 30Rnd_65x39_caseless_msbs_mag {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(65x39_Ball);
     displayName = "6.5mm 30Rnd MSBS (Ball)";
     displayNameShort = "Ball";
@@ -110,7 +110,7 @@ class CLASS(30Rnd_65x39_AP_MSBS): CLASS(30Rnd_65x39_EPR_MSBS) {
 
 // 6.5x39mm Katiba/Type-115
 class CLASS(30Rnd_65x39_Ball_Katiba): 30Rnd_65x39_caseless_green {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(65x39_Ball);
     displayName = "6.5mm 30Rnd Katiba (Ball)";
     displayNameShort = "Ball";
@@ -138,7 +138,7 @@ class CLASS(30Rnd_65x39_AP_Katiba): CLASS(30Rnd_65x39_EPR_Katiba) {
 
 // 6.5x39mm Belt
 class CLASS(200Rnd_65x39_Ball_Belt): 200Rnd_65x39_cased_Box {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(65x39_Ball);
     displayName = "6.5mm 200Rnd Belt [TE4] (Ball)";
     displayNameShort = "Ball TE4";
@@ -160,7 +160,7 @@ class CLASS(200Rnd_65x39_EPR_Belt): CLASS(200Rnd_65x39_Ball_Belt) {
 
 // 6.5x39mm DMR
 class CLASS(20Rnd_65x39_Ball): 20Rnd_650x39_Cased_Mag_F {
-    MACRO_SCOPE
+    MACRO_SCOPE;
     ammo = QCLASS(65x39_Ball);
     displayName = "6.5mm 20Rnd (Ball)";
     displayNameShort = "Ball";
