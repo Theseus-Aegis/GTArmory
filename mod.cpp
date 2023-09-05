@@ -1,10 +1,12 @@
 name = "GT Armory";
 picture = "tacgt_logo_128.paa";
-description = "G&T Armory";
+actionName = "GitHub";
+action = "https://github.com/Theseus-Aegis/GTArmory";
+description = "GT Armory - Overhaul and content mod for Theseus Incorporated Modpack";
 logo = "tacgt_logo_64.paa";
 logoOver = "tacgt_logo_64.paa";
-tooltip = "";
-tooltipOwned = "";
-overview = "";
-author = "Mike, Gilleedoo";
+tooltip = "GT Armory";
+tooltipOwned = "GT Armory Owned";
+overview = "Overhaul and content mod providing quality of life changes for Thesseus Incorporated modpack as well as some new content for Theseus Armory and its members";
+author = "Theseus Incorporated";
 overviewPicture = "tacgt_logo_128.paa";

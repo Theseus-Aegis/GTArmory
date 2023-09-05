@@ -14,7 +14,7 @@ class CfgPatches {
             "CUP_Weapons_Put",
             "CUP_Weapons_ACE_compat"
         };
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

@@ -50,7 +50,11 @@ class CBA_9x19_MP5 {
         QCLASS(30Rnd_9x19_Ball),
         QCLASS(30Rnd_9x19_Ball_Tracer),
         QCLASS(30Rnd_9x19_EPR),
-        QCLASS(30Rnd_9x19_AP)
+        QCLASS(30Rnd_9x19_AP),
+        QCLASS(30Rnd_9x19_Ball_MP5),
+        QCLASS(30Rnd_9x19_Ball_Tracer_MP5),
+        QCLASS(30Rnd_9x19_EPR_MP5),
+        QCLASS(30Rnd_9x19_AP_MP5)
     };
 };
 
@@ -69,15 +73,6 @@ class CBA_300BLK_STANAG {
         QCLASS(30Rnd_300AAC_Ball_Tracer),
         QCLASS(30Rnd_300AAC_EPR),
         QCLASS(30Rnd_300AAC_AP)
-    };
-};
-
-class CLASS(9x19_MP5) { // Prevents regular BI Magazines fitting the CUP MP5s as no model shows.
-    ADDON[] = {
-        QCLASS(30Rnd_9x19_Ball_MP5),
-        QCLASS(30Rnd_9x19_Ball_Tracer_MP5),
-        QCLASS(30Rnd_9x19_EPR_MP5),
-        QCLASS(30Rnd_9x19_AP_MP5)
     };
 };
 
@@ -419,7 +414,11 @@ class CBA_762x51_HK417 {
         QCLASS(20Rnd_762x51_Ball),
         QCLASS(20Rnd_762x51_Ball_Tracer),
         QCLASS(20Rnd_762x51_EPR),
-        QCLASS(20Rnd_762x51_AP)
+        QCLASS(20Rnd_762x51_AP),
+        QCLASS(20Rnd_762x51_Ball_HK417),
+        QCLASS(20Rnd_762x51_Ball_Tracer_HK417),
+        QCLASS(20Rnd_762x51_EPR_HK417),
+        QCLASS(20Rnd_762x51_AP_HK417)
     };
 };
 
@@ -487,7 +486,7 @@ class AA40_12Gauge {
     };
 };
 
-class CLASS(762x51_SLR) {
+class SLR_762x51 {
     ADDON[] = {
         QCLASS(20Rnd_762x51_Ball_SLR),
         QCLASS(20Rnd_762x51_Ball_Tracer_SLR),
@@ -496,7 +495,7 @@ class CLASS(762x51_SLR) {
     };
 };
 
-class CLASS(762x51_SA77) {
+class S77_762x51 {
     ADDON[] = {
         QCLASS(100Rnd_762x51_Ball_Belt_SA77),
         QCLASS(100Rnd_762x51_Ball_Tracer_Belt_SA77),
