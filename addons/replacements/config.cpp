@@ -11,6 +11,7 @@ class CfgPatches {
             "tacgt_theseus",
             "tac_supplies"
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
