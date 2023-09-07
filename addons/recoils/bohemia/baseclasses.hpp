@@ -47,5 +47,6 @@ class LMG_S77_base_lxWS;
 class LMG_S77_Compact_base_lxWS;
 class mk20_base_F;
 class Rifle_Base_F;
+class Rifle_Long_Base_F;
 class sgun_aa40_base_lxWS;
 class Tavor_base_F;
