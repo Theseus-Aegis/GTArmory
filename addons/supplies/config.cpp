@@ -16,7 +16,8 @@ class CfgPatches {
             QCLASS(Supply_Empty_3_1),
             QCLASS(Supply_Empty_3_2),
             QCLASS(Supply_Empty_4_1),
-            QCLASS(Supply_Empty_4_2)
+            QCLASS(Supply_Empty_4_2),
+            QCLASS(CanisterFuel_Theseus)
         };
         weapons[] = {};
         magazines[] = {};
