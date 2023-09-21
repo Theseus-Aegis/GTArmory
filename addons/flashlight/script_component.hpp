@@ -68,12 +68,12 @@
     irDistance = 5
 
 #define MACRO_VISIBLE_POINTER \
+    beamColor[] = {0, 0, 0}; \
+    beamMaxLength = 50; \
+    beamThickness = 0; \
+    dotColor[] = {16384, 0, 0}; \
     irDistance = 5; \
+    irDotSize = QUOTE(0.1/4); \
     irLaserEnd = "laser dir"; \
     irLaserPos = "laser pos"; \
-    isIR = 0; \
-    irDotSize = 0.1; \
-    beamThickness = 0; \
-    beamMaxLength = 1000; \
-    beamColor[] = {0, 0, 0}; \
-    dotColor[] = {0, 10000, 0}
+    isIR = 0
