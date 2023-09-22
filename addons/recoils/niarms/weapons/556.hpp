@@ -8,7 +8,7 @@ class hlc_rifle_ACR_GL_SBR_black: hlc_rifle_ACR_SBR_black {
 class hlc_rifle_ACR_carb_black: hlc_rifle_ACR_SBR_tan {
     recoil = QCLASS(556_Medium);
 };
-class hlc_rifle_ACR_GL_Carb_black: hlc_rifle_ACR_Carb_black {
+class hlc_rifle_ACR_GL_Carb_black: hlc_rifle_ACR_carb_black {
     recoil = QCLASS(556_Medium_FG);
 };
 class hlc_rifle_ACR_MID_black: hlc_rifle_ACR_SBR_tan {
