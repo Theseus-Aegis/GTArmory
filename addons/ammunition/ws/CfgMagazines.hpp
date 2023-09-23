@@ -1,5 +1,6 @@
 class CfgMagazines {
     class 35Rnd_556x45_Velko_reload_tracer_yellow_lxWS;
+    class 50Rnd_556x45_Velko_lxWS;
     class 8Rnd_12Gauge_AA40_Pellets_lxWS;
     class 20Rnd_12Gauge_AA40_Pellets_lxWS;
     class 20Rnd_762x51_slr_lxWS;
