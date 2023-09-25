@@ -471,7 +471,10 @@ class 556x45_Velko {
         QCLASS(35Rnd_556x45_Ball_R4),
         QCLASS(35Rnd_556x45_Ball_Tracer_R4),
         QCLASS(35Rnd_556x45_EPR_R4),
-        QCLASS(35Rnd_556x45_AP_R4)
+        QCLASS(35Rnd_556x45_AP_R4),
+        QCLASS(50Rnd_556x45_Ball_R4),
+        QCLASS(50Rnd_556x45_Ball_Tracer_R4),
+        QCLASS(50Rnd_556x45_EPR_R4)
     };
 };
 
