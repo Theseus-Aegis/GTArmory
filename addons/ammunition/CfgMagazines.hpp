@@ -21,7 +21,8 @@ class CfgMagazines {
     class 20Rnd_650x39_Cased_Mag_F;
     class 30Rnd_762x39_AK12_Mag_F; // Plastic AK Mag
     class 30Rnd_762x39_Mag_F; // Metal AK Mag
-    class 75rnd_762x39_AK12_Mag_F;
+    class 75rnd_762x39_AK12_Mag_F; // Plastic AK Drum
+    class 75Rnd_762x39_Mag_F; // Metal AK Drum
     class 20Rnd_762x51_Mag;
     class 150Rnd_762x54_Box;
     class 10Rnd_762x54_Mag;

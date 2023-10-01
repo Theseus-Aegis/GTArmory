@@ -75,25 +75,48 @@ class CLASS(30Rnd_762x39_AP_Metal): CLASS(30Rnd_762x39_EPR_Metal) {
     descriptionShort = "7.62x39mm AP Reload Tracer";
 };
 
-// 7.62x39mm (Drum)
+// 7.62x39mm (Drum) Plastic
 class CLASS(75Rnd_762x39_Ball_Drum): 75rnd_762x39_AK12_Mag_F {
     MACRO_SCOPE;
     ammo = QCLASS(762x39_Ball);
-    displayName = "7.62mm 75Rnd AK Drum [TE4] (Ball)";
+    displayName = "7.62mm 75Rnd Plastic Drum [TE4] (Ball)";
     displayNameShort = "Ball TE4";
     descriptionShort = "7.62x39mm Ball Tracer Every 4";
     tracersEvery = 4;
     mass = 25;
 };
 class CLASS(75Rnd_762x39_Ball_Tracer_Drum): CLASS(75Rnd_762x39_Ball_Drum) {
-    displayName = "7.62mm 75Rnd AK Drum [T] (Ball)";
+    displayName = "7.62mm 75Rnd Plastic Drum [T] (Ball)";
     displayNameShort = "Ball Tracer";
     descriptionShort = "7.62x39mm Ball Tracer";
     tracersEvery = 1;
 };
 class CLASS(75Rnd_762x39_EPR_Drum): CLASS(75Rnd_762x39_Ball_Drum) {
     ammo = QCLASS(762x39_EPR);
-    displayName = "7.62mm 75Rnd AK Drum [TE4] (EPR)";
+    displayName = "7.62mm 75Rnd Plastic Drum [TE4] (EPR)";
+    displayNameShort = "EPR TE4";
+    descriptionShort = "7.62x39mm EPR Tracer Every 4";
+};
+
+// 7.62x39mm (Drum) Metal
+class CLASS(75Rnd_762x39_Ball_Drum_Metal): 75Rnd_762x39_Mag_F {
+    MACRO_SCOPE;
+    ammo = QCLASS(762x39_Ball);
+    displayName = "7.62mm 75Rnd Metal Drum [TE4] (Ball)";
+    displayNameShort = "Ball TE4";
+    descriptionShort = "7.62x39mm Ball Tracer Every 4";
+    tracersEvery = 4;
+    mass = 25;
+};
+class CLASS(75Rnd_762x39_Ball_Tracer_Drum_Metal): CLASS(75Rnd_762x39_Ball_Drum_Metal) {
+    displayName = "7.62mm 75Rnd Metal Drum [T] (Ball)";
+    displayNameShort = "Ball Tracer";
+    descriptionShort = "7.62x39mm Ball Tracer";
+    tracersEvery = 1;
+};
+class CLASS(75Rnd_762x39_EPR_Drum_Metal): CLASS(75Rnd_762x39_Ball_Drum_Metal) {
+    ammo = QCLASS(762x39_EPR);
+    displayName = "7.62mm 75Rnd Metal Drum [TE4] (EPR)";
     displayNameShort = "EPR TE4";
     descriptionShort = "7.62x39mm EPR Tracer Every 4";
 };
