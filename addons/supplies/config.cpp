@@ -20,7 +20,6 @@ class CfgPatches {
             QCLASS(CanisterFuel_Theseus)
         };
         weapons[] = {};
-        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",

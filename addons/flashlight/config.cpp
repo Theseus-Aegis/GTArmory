@@ -51,7 +51,6 @@ class CfgPatches {
             QCLASS(UTG_Flashlight),
             QCLASS(UTG_Low_Flashlight)
         };
-        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "CUP_Weapons_West_Attachments"};
         author = ECSTRING(main,Author);
