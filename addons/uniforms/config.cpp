@@ -10,7 +10,6 @@ class CfgPatches {
             QCLASS(Uniform_PMC_Casual_GTArmoury),
             QCLASS(Uniform_PMC_Casual_ACRE2)
         };
-        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "tacgt_theseus"};
         skipWhenMissingDependencies = 1;

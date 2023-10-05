@@ -5,7 +5,6 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        magazines[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "data_f_lxWS_Loadorder"};
         author = ECSTRING(main,Author);
