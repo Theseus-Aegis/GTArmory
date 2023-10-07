@@ -14,7 +14,7 @@ class CfgVehicles {
     };
 
     class CLASS(Uniform_PMC_Casual_YeeYees_V): C_Uniform_ArtTShirt_01_v1_F {
-        scope = 2;
+        scope = 1;
         author = "GilleeDoo, Mike";
         uniformClass = QCLASS(Uniform_PMC_Casual_YeeYees);
         hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_yeeyees_co.paa)};
@@ -32,7 +32,7 @@ class CfgVehicles {
     };
 
     class CLASS(Uniform_PMC_Casual_Arcadian_V): C_Uniform_ArtTShirt_01_v1_F {
-        scope = 2;
+        scope = 1;
         author = "GilleeDoo, Mike";
         uniformClass = QCLASS(Uniform_PMC_Casual_Arcadian);
         hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_arcadian_co.paa)};
@@ -49,7 +49,7 @@ class CfgVehicles {
     };
 
     class CLASS(Uniform_PMC_Casual_GTArmoury_V): C_Uniform_ArtTShirt_01_v1_F {
-        scope = 2;
+        scope = 1;
         author = "GilleeDoo, Mike";
         uniformClass = QCLASS(Uniform_PMC_Casual_GTArmoury);
         hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_gtarmoury_co.paa)};
@@ -66,7 +66,7 @@ class CfgVehicles {
     };
 
     class CLASS(Uniform_PMC_Casual_ACRE2_V): C_Uniform_ArtTShirt_01_v1_F {
-        scope = 2;
+        scope = 1;
         author = "GilleeDoo, Mike";
         uniformClass = QCLASS(Uniform_PMC_Casual_ACRE2);
         hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_acre2_co.paa)};
