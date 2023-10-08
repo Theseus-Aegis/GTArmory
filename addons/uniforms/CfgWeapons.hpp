@@ -7,6 +7,8 @@ class CfgWeapons {
     // Server's Up YeeYees
     class CLASS(Uniform_PMC_Casual_YeeYees): U_C_ArtTShirt_01_v1_F {
         displayName = "PMC Casual (YeeYees)";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_yeeyees_co.paa)};
         picture = QPATHTOF(ui\icon_pmc_casual_yeeyees_co.paa);
         scope = 2;
         class ItemInfo: ItemInfo {
@@ -17,6 +19,8 @@ class CfgWeapons {
     // Arcadian
     class CLASS(Uniform_PMC_Casual_Arcadian): U_C_ArtTShirt_01_v1_F {
         displayName = "PMC Casual (Arcadian)";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_arcadian_co.paa)};
         picture = QPATHTOF(ui\icon_pmc_casual_arcadian_co.paa);
         scope = 2;
         class ItemInfo: ItemInfo {
@@ -27,6 +31,8 @@ class CfgWeapons {
     // GT Armoury
     class CLASS(Uniform_PMC_Casual_GTArmoury): U_C_ArtTShirt_01_v1_F {
         displayName = "PMC Casual (GT Armoury)";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_gtarmoury_co.paa)};
         picture = QPATHTOF(ui\icon_pmc_casual_gtarmoury_co.paa);
         scope = 2;
         class ItemInfo: ItemInfo {
@@ -37,6 +43,8 @@ class CfgWeapons {
     // ACRE2
     class CLASS(Uniform_PMC_Casual_ACRE2): U_C_ArtTShirt_01_v1_F {
         displayName = "PMC Casual (ACRE2)";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_acre2_co.paa)};
         picture = QPATHTOF(ui\icon_pmc_casual_acre2_co.paa);
         scope = 2;
         class ItemInfo: ItemInfo {
