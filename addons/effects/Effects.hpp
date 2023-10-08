@@ -270,12 +270,6 @@ class SencondaryExplosion {
         MACRO_FX;
     };
 };
-class VehicleCapacitorExplosionEffectsBig {
-    class CLASS(blastwave_refract) {
-        type = QCLASS(blastwave_effect_very_large);
-        MACRO_FX;
-    };
-};
 class VehicleExplosionEffects {
     class CLASS(blastwave_refract) {
         type = QCLASS(blastwave_effect_large);
