@@ -28,18 +28,6 @@ class CBA_9x19_Glock_Full {
     };
 };
 
-class CBA_9x19_P226 {
-    ADDON[] = {
-        QCLASS(15Rnd_9x19_P226_Ball)
-    };
-};
-
-class CBA_9x19_P228 {
-    ADDON[] = {
-        QCLASS(15Rnd_9x19_P226_Ball)
-    };
-};
-
 class CBA_9x19_M17 {
     ADDON[] = {
         QCLASS(17Rnd_9x19_M17_Ball)
@@ -49,12 +37,6 @@ class CBA_9x19_M17 {
 class CBA_9x19_M9 {
     ADDON[] = {
         QCLASS(15Rnd_9x19_M9_Ball)
-    };
-};
-
-class CBA_9x19_P239 {
-    ADDON[] = {
-        QCLASS(10Rnd_9x19_P239_Ball)
     };
 };
 
@@ -73,18 +55,6 @@ class CBA_45ACP_MK23 {
 class CBA_45ACP_1911 {
     ADDON[] = {
         QCLASS(8Rnd_45ACP_1911_Ball)
-    };
-};
-
-class CBA_357SIG_P239 {
-    ADDON[] = {
-        QCLASS(8Rnd_357_P239_Magnum)
-    };
-};
-
-class CBA_357SIG_P226 {
-    ADDON[] = {
-        QCLASS(12Rnd_357_P226_Magnum)
     };
 };
 
