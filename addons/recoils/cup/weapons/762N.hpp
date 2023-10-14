@@ -98,7 +98,7 @@ class CUP_arifle_Mk17_STD: CUP_arifle_Mk17_Base {
     recoil = QCLASS(762N_Long);
 };
 class CUP_arifle_Mk17_STD_EGLM: CUP_arifle_Mk17_STD {
-    recoil = QCLASS(762N_GL_Long);
+    recoil = QCLASS(762N_Long_FG);
 };
 class CUP_arifle_Mk17_STD_FG: CUP_arifle_Mk17_STD {
     recoil = QCLASS(762N_Long_FG);
