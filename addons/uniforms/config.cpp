@@ -8,7 +8,8 @@ class CfgPatches {
             QCLASS(Uniform_PMC_Casual_YeeYees),
             QCLASS(Uniform_PMC_Casual_Arcadian),
             QCLASS(Uniform_PMC_Casual_GTArmoury),
-            QCLASS(Uniform_PMC_Casual_ACRE2)
+            QCLASS(Uniform_PMC_Casual_ACRE2),
+            QCLASS(Uniform_PMC_Casual_Theseus)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "tacgt_theseus"};
