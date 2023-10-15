@@ -34,45 +34,12 @@ class UBS_12GA {
     };
 };
 
-class CBA_12g_SAIGA {
-    ADDON[] = {
-        QCLASS(8Rnd_Saiga_000),
-        QCLASS(8Rnd_Saiga_AP20),
-        QCLASS(8Rnd_Saiga_Smoke),
-        QCLASS(20Rnd_Saiga_000),
-        QCLASS(20Rnd_Saiga_AP20),
-        QCLASS(20Rnd_Saiga_Smoke)
-    };
-};
-
 class CBA_9x19_MP5 {
     ADDON[] = {
         QCLASS(30Rnd_9x19_Ball),
         QCLASS(30Rnd_9x19_Ball_Tracer),
         QCLASS(30Rnd_9x19_EPR),
-        QCLASS(30Rnd_9x19_AP),
-        QCLASS(30Rnd_9x19_Ball_MP5),
-        QCLASS(30Rnd_9x19_Ball_Tracer_MP5),
-        QCLASS(30Rnd_9x19_EPR_MP5),
-        QCLASS(30Rnd_9x19_AP_MP5)
-    };
-};
-
-class CBA_9x39_VSS {
-    ADDON[] = {
-        QCLASS(30Rnd_9x39_Ball),
-        QCLASS(30Rnd_9x39_Ball_Tracer),
-        QCLASS(30Rnd_9x39_EPR),
-        QCLASS(30Rnd_9x39_AP)
-    };
-};
-
-class CBA_300BLK_STANAG {
-    ADDON[] = {
-        QCLASS(30Rnd_300AAC_Ball),
-        QCLASS(30Rnd_300AAC_Ball_Tracer),
-        QCLASS(30Rnd_300AAC_EPR),
-        QCLASS(30Rnd_300AAC_AP)
+        QCLASS(30Rnd_9x19_AP)
     };
 };
 
@@ -85,33 +52,6 @@ class CBA_9x19_ScorpionEvo3 {
     };
 };
 
-class CBA_9x19_PP19 {
-    ADDON[] = {
-        QCLASS(64Rnd_9x19_Ball_Bizon),
-        QCLASS(64Rnd_9x19_Ball_Tracer_Bizon),
-        QCLASS(64Rnd_9x19_EPR_Bizon),
-        QCLASS(64Rnd_9x19_AP_Bizon)
-    };
-};
-
-class CBA_9x19_Vityaz {
-    ADDON[] = {
-        QCLASS(30Rnd_9x19_Ball_Vityaz),
-        QCLASS(30Rnd_9x19_Ball_Tracer_Vityaz),
-        QCLASS(30Rnd_9x19_EPR_Vityaz),
-        QCLASS(30Rnd_9x19_AP_Vityaz)
-    };
-};
-
-class CBA_46x30_MP7 {
-    ADDON[] = {
-        QCLASS(40Rnd_46x30_Ball),
-        QCLASS(40Rnd_46x30_Ball_Tracer),
-        QCLASS(40Rnd_46x30_EPR),
-        QCLASS(40Rnd_46x30_AP)
-    };
-};
-
 class CBA_545x39_AK {
     ADDON[] = {
         QCLASS(30Rnd_545x39_Ball),
@@ -121,19 +61,7 @@ class CBA_545x39_AK {
         QCLASS(30Rnd_545x39_EPR),
         QCLASS(30Rnd_545x39_EPR_Black),
         QCLASS(30Rnd_545x39_AP),
-        QCLASS(30Rnd_545x39_AP_Black),
-        QCLASS(60Rnd_545x39_Ball_Quadstack),
-        QCLASS(60Rnd_545x39_Ball_Tracer_Quadstack),
-        QCLASS(60Rnd_545x39_EPR_Quadstack)
-    };
-};
-
-class CBA_545x39_Fort {
-    ADDON[] = {
-        QCLASS(30Rnd_545x39_Ball_Fort),
-        QCLASS(30Rnd_545x39_Ball_Tracer_Fort),
-        QCLASS(30Rnd_545x39_EPR_Fort),
-        QCLASS(30Rnd_545x39_AP_Fort)
+        QCLASS(30Rnd_545x39_AP_Black)
     };
 };
 
@@ -168,72 +96,6 @@ class CBA_580x42_TYPE95_XL {
     };
 };
 
-class CBA_556x45_AK {
-    ADDON[] = {
-        QCLASS(30Rnd_556x45_Ball_AK),
-        QCLASS(30Rnd_556x45_Ball_Tracer_AK),
-        QCLASS(30Rnd_556x45_EPR_AK),
-        QCLASS(30Rnd_556x45_AP_AK)
-    };
-};
-
-class CBA_556x45_G36 {
-    ADDON[] = {
-        QCLASS(30Rnd_556x45_Ball_G36),
-        QCLASS(30Rnd_556x45_Ball_Tracer_G36),
-        QCLASS(30Rnd_556x45_EPR_G36),
-        QCLASS(30Rnd_556x45_AP_G36),
-        QCLASS(100Rnd_556x45_Ball_BetaC),
-        QCLASS(100Rnd_556x45_Ball_Tracer_BetaC),
-        QCLASS(100Rnd_556x45_EPR_BetaC)
-    };
-};
-
-class CBA_556x45_FAMAS {
-    ADDON[] = {
-        QCLASS(25Rnd_556x45_Ball_FAMAS),
-        QCLASS(25Rnd_556x45_Ball_Tracer_FAMAS),
-        QCLASS(25Rnd_556x45_EPR_FAMAS),
-        QCLASS(25Rnd_556x45_AP_FAMAS)
-    };
-};
-
-class CBA_556x45_SG550 {
-    ADDON[] = {
-        QCLASS(30Rnd_556x45_Ball_SG),
-        QCLASS(30Rnd_556x45_Ball_Tracer_SG),
-        QCLASS(30Rnd_556x45_EPR_SG),
-        QCLASS(30Rnd_556x45_AP_SG)
-    };
-};
-
-class CBA_556x45_STANAG {
-    ADDON[] = {
-        QCLASS(30Rnd_556x45_Ball_EMAG),
-        QCLASS(30Rnd_556x45_Ball_Tracer_EMAG),
-        QCLASS(30Rnd_556x45_EPR_EMAG),
-        QCLASS(30Rnd_556x45_AP_EMAG),
-        QCLASS(30Rnd_556x45_Ball_EMAG_Tan),
-        QCLASS(30Rnd_556x45_Ball_Tracer_EMAG_Tan),
-        QCLASS(30Rnd_556x45_EPR_EMAG_Tan),
-        QCLASS(30Rnd_556x45_AP_EMAG_Tan),
-        QCLASS(30Rnd_556x45_Ball_PMAG),
-        QCLASS(30Rnd_556x45_Ball_Tracer_PMAG),
-        QCLASS(30Rnd_556x45_EPR_PMAG),
-        QCLASS(30Rnd_556x45_AP_PMAG),
-        QCLASS(30Rnd_556x45_Ball_PMAG_Tan),
-        QCLASS(30Rnd_556x45_Ball_Tracer_PMAG_Tan),
-        QCLASS(30Rnd_556x45_EPR_PMAG_Tan),
-        QCLASS(30Rnd_556x45_AP_PMAG_Tan),
-        QCLASS(60Rnd_556x45_Ball_Surefire),
-        QCLASS(60Rnd_556x45_Ball_Tracer_Surefire),
-        QCLASS(60Rnd_556x45_EPR_Surefire),
-        QCLASS(100Rnd_556x45_Ball_BetaC),
-        QCLASS(100Rnd_556x45_Ball_Tracer_BetaC),
-        QCLASS(100Rnd_556x45_EPR_BetaC)
-    };
-};
-
 class CBA_556x45_STANAG_2D_XL {
     ADDON[] = {
         QCLASS(150Rnd_556x45_Ball_Drum),
@@ -246,29 +108,7 @@ class CBA_556x45_MINIMI {
     ADDON[] = {
         QCLASS(200Rnd_556x45_Ball_Belt),
         QCLASS(200Rnd_556x45_Ball_Tracer_Belt),
-        QCLASS(200Rnd_556x45_EPR_Belt),
-        QCLASS(100Rnd_556x54_Ball_Pouch),
-        QCLASS(100Rnd_556x54_Ball_Tracer_Pouch),
-        QCLASS(100Rnd_556x54_EPR_Pouch),
-        QCLASS(200Rnd_556x45_Ball_Pouch),
-        QCLASS(200Rnd_556x45_Ball_Tracer_Pouch),
-        QCLASS(200Rnd_556x45_EPR_Pouch),
-        QCLASS(200Rnd_556x45_Ball_Box),
-        QCLASS(200Rnd_556x45_Ball_Tracer_Box),
-        QCLASS(200Rnd_556x45_EPR_Box)
-    };
-};
-
-class CBA_556x45_STEYR {
-    ADDON[] = {
-        QCLASS(30Rnd_556x45_Ball_AUG),
-        QCLASS(30Rnd_556x45_Ball_Tracer_AUG),
-        QCLASS(30Rnd_556x45_EPR_AUG),
-        QCLASS(30Rnd_556x45_AP_AUG),
-        QCLASS(42Rnd_556x45_Ball_AUG),
-        QCLASS(42Rnd_556x45_Ball_Tracer_AUG),
-        QCLASS(42Rnd_556x45_EPR_AUG),
-        QCLASS(42Rnd_556x45_AP_AUG)
+        QCLASS(200Rnd_556x45_EPR_Belt)
     };
 };
 
@@ -330,15 +170,6 @@ class CBA_65x39_QBU {
     };
 };
 
-class CBA_68SPC_STANAG {
-    ADDON[] = {
-        QCLASS(30Rnd_68x43_Ball_ACR),
-        QCLASS(30Rnd_68x43_Ball_Tracer_ACR),
-        QCLASS(30Rnd_68x43_EPR_ACR),
-        QCLASS(30Rnd_68x43_AP_ACR)
-    };
-};
-
 class CBA_762x39_AK {
     ADDON[] = {
         QCLASS(30Rnd_762x39_Ball_Plastic_Black),
@@ -373,30 +204,12 @@ class CBA_762x39_RPK {
     };
 };
 
-class CLASS(762x39_CZ) {
-    ADDON[] = {
-        QCLASS(30Rnd_762x39_Ball_CZ),
-        QCLASS(30Rnd_762x39_Ball_Tracer_CZ),
-        QCLASS(30Rnd_762x39_EPR_CZ),
-        QCLASS(30Rnd_762x39_AP_CZ)
-    };
-};
-
 class CBA_762x51_AR10 {
     ADDON[] = {
         QCLASS(20Rnd_762x51_Ball),
         QCLASS(20Rnd_762x51_Ball_Tracer),
         QCLASS(20Rnd_762x51_EPR),
         QCLASS(20Rnd_762x51_AP)
-    };
-};
-
-class CBA_762x51_FAL {
-    ADDON[] = {
-        QCLASS(20Rnd_762x51_Ball_FAL),
-        QCLASS(20Rnd_762x51_Ball_Tracer_FAL),
-        QCLASS(20Rnd_762x51_EPR_FAL),
-        QCLASS(20Rnd_762x51_AP_FAL)
     };
 };
 
@@ -409,25 +222,12 @@ class CBA_762x51_G3 {
     };
 };
 
-class CBA_762x51_SCAR {
-    ADDON[] = {
-        QCLASS(20Rnd_762x51_Ball_SCAR),
-        QCLASS(20Rnd_762x51_Ball_Tracer_SCAR),
-        QCLASS(20Rnd_762x51_EPR_SCAR),
-        QCLASS(20Rnd_762x51_AP_SCAR)
-    };
-};
-
 class CBA_762x51_HK417 {
     ADDON[] = {
         QCLASS(20Rnd_762x51_Ball),
         QCLASS(20Rnd_762x51_Ball_Tracer),
         QCLASS(20Rnd_762x51_EPR),
-        QCLASS(20Rnd_762x51_AP),
-        QCLASS(20Rnd_762x51_Ball_HK417),
-        QCLASS(20Rnd_762x51_Ball_Tracer_HK417),
-        QCLASS(20Rnd_762x51_EPR_HK417),
-        QCLASS(20Rnd_762x51_AP_HK417)
+        QCLASS(20Rnd_762x51_AP)
     };
 };
 
@@ -458,59 +258,10 @@ class CBA_762x54R_SVD {
     };
 };
 
-class CBA_762x51_LINKS {
-    ADDON[] = {
-        QCLASS(100Rnd_762x51_Ball_Belt),
-        QCLASS(100Rnd_762x51_Ball_Tracer_Belt),
-        QCLASS(100Rnd_762x51_EPR_Belt)
-    };
-};
-
 class CBA_762x54R_LINKS {
     ADDON[] = {
         QCLASS(150Rnd_762x54r_Ball_Belt),
         QCLASS(150Rnd_762x54r_Ball_Tracer_Belt),
         QCLASS(150Rnd_762x54r_EPR_Belt)
-    };
-};
-
-// Western Sahara
-class 556x45_Velko {
-    ADDON[] = {
-        QCLASS(35Rnd_556x45_Ball_R4),
-        QCLASS(35Rnd_556x45_Ball_Tracer_R4),
-        QCLASS(35Rnd_556x45_EPR_R4),
-        QCLASS(35Rnd_556x45_AP_R4),
-        QCLASS(50Rnd_556x45_Ball_R4),
-        QCLASS(50Rnd_556x45_Ball_Tracer_R4),
-        QCLASS(50Rnd_556x45_EPR_R4)
-    };
-};
-
-class AA40_12Gauge {
-    ADDON[] = {
-        QCLASS(8Rnd_AA40_000),
-        QCLASS(8Rnd_AA40_AP20),
-        QCLASS(8Rnd_AA40_Smoke),
-        QCLASS(20Rnd_AA40_000),
-        QCLASS(20Rnd_AA40_AP20),
-        QCLASS(20Rnd_AA40_Smoke)
-    };
-};
-
-class SLR_762x51 {
-    ADDON[] = {
-        QCLASS(20Rnd_762x51_Ball_SLR),
-        QCLASS(20Rnd_762x51_Ball_Tracer_SLR),
-        QCLASS(20Rnd_762x51_EPR_SLR),
-        QCLASS(20Rnd_762x51_AP_SLR)
-    };
-};
-
-class S77_762x51 {
-    ADDON[] = {
-        QCLASS(100Rnd_762x51_Ball_Belt_SA77),
-        QCLASS(100Rnd_762x51_Ball_Tracer_Belt_SA77),
-        QCLASS(100Rnd_762x51_EPR_Belt_SA77)
     };
 };

@@ -19,7 +19,7 @@ class CfgCloudlets {
         interval = 30;
         lifeTime = 0.6;
         lifeTimeVar = 0;
-        MoveVelocityVar[] = {0.2, 0.5, 0.2};
+        moveVelocityVar[] = {0.2, 0.5, 0.2};
         moveVelocity[] = {0, 0, 0};
         onTimerScript = "";
         particleFSFrameCount = 1;
