@@ -57,7 +57,7 @@ class CfgWeapons {
         displayName = "PMC Casual (Theseus)";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_theseus_co.paa)};
-        //picture = QPATHTOF(ui\icon_pmc_casual_theseus_co.paa);
+        picture = QPATHTOF(ui\icon_pmc_casual_theseus_co.paa);
         scope = 2;
         class ItemInfo: ItemInfo {
             uniformClass = QCLASS(Uniform_PMC_Casual_Theseus_V);
