@@ -10,7 +10,7 @@ class CfgWeapons {
         picture = QPATHTOF(ui\ifak_ca.paa);
         displayName = "IFAK";
         tac_supplies_replacementList[] = {
-            "ACE_bodyBag",
+            "TAC_Bodybag_OrangeLogo",
             "ACE_fieldDressing",
             "ACE_fieldDressing",
             "ACE_fieldDressing",
