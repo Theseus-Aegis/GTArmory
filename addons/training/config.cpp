@@ -20,18 +20,9 @@ class CfgPatches {
             QCLASS(ModuleExplosive_SatchelCharge_Training_F)
         };
         weapons[] = {};
-        magazines[] = {
-            QCLASS(APERSBoundingMine_Range_Training_Mag),
-            QCLASS(APERSMine_Range_Training_Mag),
-            QCLASS(APERSTripMine_Wire_Training_Mag),
-            QCLASS(ATMine_Range_Training_Mag),
-            QCLASS(Claymore_Remote_Training_Mag),
-            QCLASS(DemoCharge_Remote_Training_Mag),
-            QCLASS(SatchelCharge_Remote_Training_Mag)
-        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main"};
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         authors[] = {"Brett"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

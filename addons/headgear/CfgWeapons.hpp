@@ -1,7 +1,7 @@
 class CfgWeapons {
     class CUP_H_OpsCore_Green;
     class CLASS(OpsCore_Medic): CUP_H_OpsCore_Green {
-        author = ECSTRING(main,Authors);
+        author = ECSTRING(main,Author);
         displayName = "OpsCore FAST (Medic)";
         scope = 2;
         hiddenSelections[] = {
@@ -23,8 +23,13 @@ class CfgWeapons {
         author = "GilleeDoo";
         scope = 2;
         displayName = "Cap w/DEF (New York Mets)";
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\cap_def_nymets_co.paa)
-        };
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_def_nymets_co.paa)};
+    };
+
+    class CLASS(Cap_DEF_ASU): CUP_H_USA_Cap_AU_DEF {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "Cap w/DEF (Arizona State)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_def_asu_co.paa)};
     };
 };

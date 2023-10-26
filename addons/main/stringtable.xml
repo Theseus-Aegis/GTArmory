@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACGT">
     <Package name="Main">
-        <Key ID="STR_TACGT_Main_Authors">
-            <English>GT Armory Team</English>
-        </Key>
         <Key ID="STR_TACGT_Main_Author">
-            <English>Mike</English>
+            <English>Theseus Incorporated</English>
         </Key>
         <Key ID="STR_TACGT_Main_Name">
             <English>GT Armory</English>
