@@ -71,4 +71,21 @@ class CfgVehicles {
         uniformClass = QCLASS(Uniform_PMC_Casual_ACRE2);
         hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_acre2_co.paa)};
     };
+    // Theseus
+    class CLASS(Uniform_PMC_Casual_Theseus_V_Item): Item_Base_F {
+        displayName = "PMC Casual (Theseus)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(CLASS(Uniform_PMC_Casual_Theseus),1);
+        };
+    };
+
+    class CLASS(Uniform_PMC_Casual_Theseus_V): C_Uniform_ArtTShirt_01_v1_F {
+        scope = 1;
+        author = "GilleeDoo, Mike";
+        uniformClass = QCLASS(Uniform_PMC_Casual_Theseus);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_theseus_co.paa)};
+    };
 };

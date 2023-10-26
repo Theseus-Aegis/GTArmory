@@ -52,4 +52,16 @@ class CfgWeapons {
             containerClass = "Supply40";
         };
     };
+    // Theseus
+    class CLASS(Uniform_PMC_Casual_Theseus): U_C_ArtTShirt_01_v1_F {
+        displayName = "PMC Casual (Theseus)";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_theseus_co.paa)};
+        picture = QPATHTOF(ui\icon_pmc_casual_theseus_co.paa);
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            uniformClass = QCLASS(Uniform_PMC_Casual_Theseus_V);
+            containerClass = "Supply40";
+        };
+    };
 };
