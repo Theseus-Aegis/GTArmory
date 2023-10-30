@@ -2,6 +2,7 @@ class CfgMagazines {
     class 30Rnd_556x45_Stanag;
     class CUP_100Rnd_556x45_BetaCMag;
     class CUP_100Rnd_TE4_Green_Tracer_556x45_M249;
+    class CUP_10Rnd_762x51_CZ750;
     class CUP_12Rnd_45ACP_mk23;
     class CUP_13Rnd_9x19_Browning_HP;
     class CUP_15Rnd_9x19_M9;
@@ -23,6 +24,7 @@ class CfgMagazines {
     class CUP_30Rnd_9x39_SP5_VIKHR_M;
     class CUP_30Rnd_TE1_Green_Tracer_556x45_G36;
     class CUP_40Rnd_46x30_MP7;
+    class CUP_5Rnd_762x67_G22;
     class CUP_5Rnd_B_Saiga12_Buck_00;
     class CUP_60Rnd_545x39_AK74M_M;
     class CUP_60Rnd_556x45_SureFire;
@@ -39,4 +41,5 @@ class CfgMagazines {
     #include "magazines\762x51.hpp"
     #include "magazines\9x19.hpp"
     #include "magazines\9x39.hpp"
+    #include "magazines\300WM.hpp"
 };
