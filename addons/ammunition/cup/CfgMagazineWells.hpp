@@ -139,6 +139,15 @@ class CfgMagazineWells {
             QCLASS(30Rnd_556x45_AP_AK)
         };
     };
+    // Quick fix for AK19 mags
+    class CUP_AK19 {
+        ADDON[] = {
+            QCLASS(30Rnd_556x45_Ball_AK),
+            QCLASS(30Rnd_556x45_Ball_Tracer_AK),
+            QCLASS(30Rnd_556x45_EPR_AK),
+            QCLASS(30Rnd_556x45_AP_AK)
+        };
+    };
     class CBA_556x45_G36 {
         ADDON[] = {
             QCLASS(30Rnd_556x45_Ball_G36),
