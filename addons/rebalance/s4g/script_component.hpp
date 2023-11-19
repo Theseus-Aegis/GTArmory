@@ -5,6 +5,8 @@
 
 #define MACRO_HITPROTECTION_CPC \
     class ItemInfo: VestItem { \
+        containerClass = "Supply140"; \
+        mass = 50; \
         class HitpointsProtectionInfo { \
             class Chest { \
                 HitpointName = "HitChest"; \
@@ -31,6 +33,8 @@
 
 #define MACRO_HITPROTECTION_LBT \
     class ItemInfo: VestItem { \
+        containerClass = "Supply140"; \
+        mass = 50; \
         class HitpointsProtectionInfo { \
             class Chest { \
                 HitpointName = "HitChest"; \
