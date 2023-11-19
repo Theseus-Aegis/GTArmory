@@ -1,3 +1,20 @@
+// 7.62x51mm CZ750
+class CLASS(10Rnd_762x51_EPR_CZ750): CUP_10Rnd_762x51_CZ750 {
+    MACRO_SCOPE;
+    ammo = QCLASS(762x51_EPR);
+    displayName = "7.62mm 10Rnd CZ750 [T] (EPR)";
+    displayNameShort = "EPR Tracer";
+    descriptionShort = "7.62x51mm EPR Tracer";
+    tracersEvery = 1;
+    mass = 7;
+};
+class CLASS(10Rnd_762x51_AP_CZ750): CLASS(10Rnd_762x51_EPR_CZ750) {
+    ammo = QCLASS(762x51_AP);
+    displayName = "7.62mm 10Rnd CZ750 [T] (AP)";
+    displayNameShort = "AP Tracer";
+    descriptionShort = "7.62x51mm AP Tracer";
+};
+
 // 7.62x51mm FAL
 class CLASS(20Rnd_762x51_Ball_FAL): CUP_20Rnd_762x51_FNFAL_M {
     MACRO_SCOPE;
