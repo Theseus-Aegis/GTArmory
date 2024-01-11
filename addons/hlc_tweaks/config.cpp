@@ -11,7 +11,8 @@ class CfgPatches {
             "tacgt_theseus",
             "hlcweapons_core",
             "niaweapons_226",
-            "hlcweapons_AUG"
+            "hlcweapons_AUG",
+            "hlcweapons_ar15"
         };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
