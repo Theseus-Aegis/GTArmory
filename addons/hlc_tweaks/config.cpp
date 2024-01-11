@@ -14,11 +14,11 @@ class CfgPatches {
             "hlcweapons_AUG",
             "hlcweapons_ar15"
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 

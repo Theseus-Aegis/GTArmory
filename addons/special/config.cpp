@@ -28,11 +28,11 @@ class CfgPatches {
             "milgp_vests_cfg",
             "niaweapons_226",
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo", "Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 
