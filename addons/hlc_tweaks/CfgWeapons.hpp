@@ -38,4 +38,14 @@ class CfgWeapons {
             delete LinkedItemsMuzzle;
         };
     };
+
+    class hlc_rifle_honeybase;
+    class hlc_rifle_honeybadger: hlc_rifle_honeybase {
+        class LinkedItems {
+            class LinkedItemsMuzzle {
+                item = "muzzle_HBADGER";
+                slot = "MuzzleSlot";
+            };
+        };
+    };
 };
