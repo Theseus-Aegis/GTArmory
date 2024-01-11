@@ -13,6 +13,7 @@ class CfgPatches {
             "CUP_Weapons_Put",
             "CUP_Weapons_ACE_compat"
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
