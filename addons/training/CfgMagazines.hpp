@@ -40,4 +40,47 @@ class CfgMagazines {
         displayName = "M183 Demolition Charge Assembly (Training)";
         ammo = QCLASS(SatchelCharge_Remote_Training_Ammo);
     };
+
+    class SmokeShell;
+    class CLASS(SmokeShell_Training): SmokeShell {
+        displayName = "M83 Smoke Shell (White, Training)";
+        ammo = QCLASS(SmokeShell_Training_Ammo);
+    };
+
+    class SmokeShellGreen;
+    class CLASS(SmokeShellGreen_Training): SmokeShellGreen {
+        displayName = "M18 Smoke Shell (Green, Training)";
+        ammo = QCLASS(SmokeShellGreen_Training_Ammo);
+    };
+
+
+    class SmokeShellRed;
+    class CLASS(SmokeShellRed_Training): SmokeShellRed {
+        displayName = "M18 Smoke Shell (Red, Training)";
+        ammo = QCLASS(SmokeShellRed_Training_Ammo);
+    };
+
+    class SmokeShellYellow;
+    class CLASS(SmokeShellYellow_Training): SmokeShellYellow {
+        displayName = "M18 Smoke Shell (Yellow, Training)";
+        ammo = QCLASS(SmokeShellYellow_Training_Ammo);
+    };
+
+    class SmokeShellPurple;
+    class CLASS(SmokeShellPurple_Training): SmokeShellPurple {
+        displayName = "M18 Smoke Shell (Purple, Training)";
+        ammo = QCLASS(SmokeShellPurple_Training_Ammo);
+    };
+
+    class SmokeShellBlue;
+    class CLASS(SmokeShellBlue_Training): SmokeShellBlue {
+        displayName = "M18 Smoke Shell (Blue, Training)";
+        ammo = QCLASS(SmokeShellBlue_Training_Ammo);
+    };
+
+    class SmokeShellOrange;
+    class CLASS(SmokeShellOrange_Training): SmokeShellOrange {
+        displayName = "M18 Smoke Shell (Orange, Training)";
+        ammo = QCLASS(SmokeShellOrange_Training_Ammo);
+    };
 };
