@@ -11,7 +11,7 @@ class CfgWeapons {
                 QCLASS(ATMine_Range_Training_Mag),
                 QCLASS(Claymore_Remote_Training_Mag),
                 QCLASS(DemoCharge_Remote_Training_Mag),
-                QCLASS(SatchelCharge_Remote_Training_Mag),
+                QCLASS(SatchelCharge_Remote_Training_Mag)
             };
         };
     };
