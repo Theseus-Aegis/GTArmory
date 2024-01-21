@@ -53,7 +53,6 @@ class CfgMagazines {
         ammo = QCLASS(SmokeShellGreen_Training_Ammo);
     };
 
-
     class SmokeShellRed;
     class CLASS(SmokeShellRed_Training): SmokeShellRed {
         displayName = "M18 Smoke Shell (Red, Training)";
