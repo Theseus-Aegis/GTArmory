@@ -72,7 +72,7 @@ class CfgVehicles {
             MACRO_ADDITEM(Toolkit,10);
         };
         class TransportBackpacks {
-            MACRO_ADDBACKPACK(B_UGV_02_Demining_backpack_F,1);
+            MACRO_ADDBACKPACK(CLASS(Wall_E_Backpack),1);
         };
     };
 
