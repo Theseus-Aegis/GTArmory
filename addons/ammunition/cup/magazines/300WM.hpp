@@ -3,7 +3,7 @@
 // .300WM G22
 class CLASS(5Rnd_300WM_EPR_G22): CUP_5Rnd_762x67_G22 {
     MACRO_SCOPE;
-    ammo = QCLASS(762x54r_EPR);
+    ammo = QCLASS(300WM_EPR);
     displayName = ".300WM 5Rnd G22 [T] (EPR)";
     displayNameShort = "EPR Tracer";
     descriptionShort = ".300WM EPR Tracer";
@@ -11,7 +11,7 @@ class CLASS(5Rnd_300WM_EPR_G22): CUP_5Rnd_762x67_G22 {
     mass = 3.5;
 };
 class CLASS(5Rnd_300WM_AP_G22): CLASS(5Rnd_300WM_EPR_G22) {
-    ammo = QCLASS(762x54r_AP);
+    ammo = QCLASS(300WM_AP);
     displayName = ".300WM 5Rnd G22 [T] (AP)";
     displayNameShort = "AP Tracer";
     descriptionShort = ".300WM AP Tracer";
