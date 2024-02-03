@@ -260,4 +260,14 @@ class CfgAmmo {
         caliber = 2.5;
         hit = 14.5;
     };
+
+    // 300WM, slightly stronger than 7.62x54r
+    class CLASS(300WM_EPR): CLASS(762x54r_EPR) {
+        caliber = 2.2;
+        hit = 14.5;
+    };
+    class CLASS(300WM_AP): CLASS(300WM_EPR) {
+        caliber = 2.6;
+        hit = 14.9;
+    };
 };
