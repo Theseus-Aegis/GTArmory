@@ -2,6 +2,9 @@ class CfgFactionClasses {
     class BLU_CTRG_F {
         displayName = "DEPRECATED";
     };
+    class BLU_UN_lxWS {
+        displayName = "DEPRECATED";
+    };
 
     // CUP Factions
     class CUP_B_USMC {

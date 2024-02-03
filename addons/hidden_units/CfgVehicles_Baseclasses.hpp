@@ -55,6 +55,37 @@ class I_SFIA_APC_Tracked_02_cannon_lxWS;
 class I_SFIA_APC_Tracked_02_AA_lxWS;
 class I_SFIA_Truck_02_aa_lxWS;
 
+// UNA
+class B_soldier_AR_F;
+class B_Soldier_F;
+class B_medic_F;
+class B_crew_F;
+class B_engineer_F;
+class B_Soldier_GL_F;
+class B_Helipilot_F;
+class B_officer_F;
+class B_soldier_repair_F;
+class B_Soldier_lite_F;
+class B_Soldier_TL_F;
+
+// Vehicles
+class APC_Wheeled_01_command_base_lxWS;
+class APC_Wheeled_02_hmg_base_lxws;
+class APC_Wheeled_02_unarmed_base_lxws;
+class B_Truck_01_mover_F;
+class B_Truck_01_ammo_F;
+class B_Truck_01_box_F;
+class B_Truck_01_fuel_F;
+class B_Truck_01_medical_F;
+class B_Truck_01_Repair_F;
+class B_Truck_01_transport_F;
+class B_Truck_01_covered_F;
+class B_MRAP_01_F;
+class Offroad_01_base_lxWS;
+class Offroad_01_armor_base_lxWS;
+class Heli_Transport_02_base_F;
+class I_MBT_03_cannon_F;
+
 // CUP
 // Units
 class CUP_BAF_Soldier_DPM_Base;
