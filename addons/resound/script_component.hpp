@@ -12,3 +12,5 @@
 #define MP7_SOUND_SET "SMGPDW2000_Shot_SoundSet", "SMGPDW2000_Tail_SoundSet", "SMGPDW2000_InteriorTail_SoundSet"
 #define MP7S_SOUND_SET "SMGPDW2000_silencerShot_SoundSet", "SMGPDW2000_silencerTail_SoundSet", "SMGPDW2000_silencerInteriorTail_SoundSet"
 #define M1014_SOUND_SET "HunterShotgun_01_Shot_SoundSet", "HunterShotgun_01_Tail_SoundSet"
+#define SVD_SOUND_SET  "DMR01_Shot_SoundSet", "DMR01_Tail_SoundSet", "DMR01_InteriorTail_SoundSet"
+#define SVDS_SOUND_SET "DMR01_silencerShot_SoundSet", "DMR01_silencerTail_SoundSet", "DMR01_silencerInteriorTail_SoundSet"
