@@ -15,6 +15,7 @@ class CfgVehicles {
     #include "CUP_Units\takistani_army.hpp"
     #include "CUP_Units\takistani_locals.hpp"
     #include "CUP_Units\takistani_militia.hpp"
+    #include "CUP_Units\ukraine.hpp"
     #include "CUP_Units\united_nations.hpp"
     #include "CUP_Units\united_states_army.hpp"
     #include "CUP_Units\united_states_marine_corps.hpp"
@@ -24,4 +25,5 @@ class CfgVehicles {
     #include "Vanilla_Units\una.hpp"
 
     #include "CfgVehicles_Turrets.hpp"
+    #include "CfgVehicles_Vehicles.hpp"
 };

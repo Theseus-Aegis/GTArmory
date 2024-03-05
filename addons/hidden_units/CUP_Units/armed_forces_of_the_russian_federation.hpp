@@ -1459,3 +1459,681 @@ class CUP_O_RU_Soldier_AAT_MSV_VSR93: CUP_O_RUS_Soldier_VSR93_worn_MSV_rolled_up
     scope = 1;
     scopeCurator = 1;
 };
+
+// Modern
+class CUP_O_RUS_M_Soldier_Survivor_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Unarmed_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Lite_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_GL_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AR_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_MG_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Marksman_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_TL_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_SL_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Medic_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Repair_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Exp_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Mine_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Engineer_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_LAT_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AT_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_HAT_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AA_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_A_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAR_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAT_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AHAT_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Crew_VKPO_Summer: CUP_O_RUS_M_Soldier_VKPO_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_O_RUS_M_Soldier_Survivor_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Unarmed_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Lite_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_GL_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AR_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_MG_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Marksman_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_TL_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_SL_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Medic_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Repair_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Exp_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Mine_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Engineer_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_LAT_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AT_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_HAT_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AA_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_A_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAR_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAT_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AHAT_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Crew_VKPO_Desert: CUP_O_RUS_M_Soldier_VKPO_Desert_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_O_RUS_M_Soldier_Survivor_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Unarmed_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Lite_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_GL_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AR_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_MG_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Marksman_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_TL_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_SL_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Medic_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Repair_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Exp_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Mine_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Engineer_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_LAT_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AT_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_HAT_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AA_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_A_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAR_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAT_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AHAT_VKPO_Winter: CUP_O_RUS_M_Soldier_VKPO_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_O_RUS_M_Soldier_Survivor_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Unarmed_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Lite_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_GL_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AR_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_MG_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Marksman_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_TL_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_SL_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Medic_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Repair_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Exp_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Mine_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Engineer_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_LAT_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AT_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_HAT_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AA_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_A_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAR_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAT_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AHAT_Ratnik_Summer: CUP_O_RUS_M_Soldier_Ratnik_Summer_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_O_RUS_M_Soldier_Survivor_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Unarmed_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Lite_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_GL_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AR_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_MG_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Marksman_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_TL_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_SL_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Medic_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Repair_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Exp_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Mine_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Engineer_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_LAT_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AT_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_HAT_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AA_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_A_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAR_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAT_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AHAT_Ratnik_Autumn: CUP_O_RUS_M_Soldier_Ratnik_Autumn_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_O_RUS_M_Soldier_Survivor_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Unarmed_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Lite_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_GL_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AR_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_MG_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Marksman_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_TL_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_SL_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Medic_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Repair_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Exp_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Mine_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_Engineer_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_LAT_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AT_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_HAT_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AA_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_A_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAR_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AAT_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Soldier_AHAT_Ratnik_Winter: CUP_O_RUS_M_Soldier_Ratnik_Winter_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_O_RUS_M_Recon_TL_Gorka_Brown: CUP_O_RUS_M_Recon_Gorka_Brown_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Rifleman_Gorka_Brown: CUP_O_RUS_M_Recon_Gorka_Brown_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Marksman_Gorka_Brown: CUP_O_RUS_M_Recon_Gorka_Brown_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_LAT_Gorka_Brown: CUP_O_RUS_M_Recon_Gorka_Brown_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Medic_Gorka_Brown: CUP_O_RUS_M_Recon_Gorka_Brown_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Exp_Gorka_Brown: CUP_O_RUS_M_Recon_Gorka_Brown_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Sharpshooter_Gorka_Brown: CUP_O_RUS_M_Recon_Gorka_Brown_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_GL_Gorka_Brown: CUP_O_RUS_M_Recon_Gorka_Brown_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_MG_Gorka_Brown: CUP_O_RUS_M_Recon_Gorka_Brown_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_O_RUS_M_Recon_TL_Gorka_Khaki: CUP_O_RUS_M_Recon_Gorka_Khaki_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Rifleman_Gorka_Khaki: CUP_O_RUS_M_Recon_Gorka_Khaki_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Marksman_Gorka_Khaki: CUP_O_RUS_M_Recon_Gorka_Khaki_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_LAT_Gorka_Khaki: CUP_O_RUS_M_Recon_Gorka_Khaki_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Medic_Gorka_Khaki: CUP_O_RUS_M_Recon_Gorka_Khaki_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Exp_Gorka_Khaki: CUP_O_RUS_M_Recon_Gorka_Khaki_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Sharpshooter_Gorka_Khaki: CUP_O_RUS_M_Recon_Gorka_Khaki_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_GL_Gorka_Khaki: CUP_O_RUS_M_Recon_Gorka_Khaki_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_MG_Gorka_Khaki: CUP_O_RUS_M_Recon_Gorka_Khaki_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_O_RUS_M_Recon_TL_Gorka_EMR: CUP_O_RUS_M_Recon_Gorka_EMR_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Rifleman_Gorka_EMR: CUP_O_RUS_M_Recon_Gorka_EMR_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Marksman_Gorka_EMR: CUP_O_RUS_M_Recon_Gorka_EMR_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_LAT_Gorka_EMR: CUP_O_RUS_M_Recon_Gorka_EMR_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Medic_Gorka_EMR: CUP_O_RUS_M_Recon_Gorka_EMR_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Exp_Gorka_EMR: CUP_O_RUS_M_Recon_Gorka_EMR_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_Sharpshooter_Gorka_EMR: CUP_O_RUS_M_Recon_Gorka_EMR_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_GL_Gorka_EMR: CUP_O_RUS_M_Recon_Gorka_EMR_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_RUS_M_Recon_MG_Gorka_EMR: CUP_O_RUS_M_Recon_Gorka_EMR_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
