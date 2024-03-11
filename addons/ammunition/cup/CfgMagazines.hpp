@@ -30,6 +30,7 @@ class CfgMagazines {
     class CUP_60Rnd_556x45_SureFire;
     class CUP_64Rnd_9x19_Bizon_M;
     class CUP_7Rnd_45ACP_1911;
+    class CUP_30Rnd_556x45_AUG;
 
     #include "magazines\12g.hpp"
     #include "magazines\45ACP.hpp"
