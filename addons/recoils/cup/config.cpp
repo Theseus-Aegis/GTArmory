@@ -21,6 +21,7 @@ class CfgPatches {
 
 class CfgWeapons {
     #include "weapons\baseclasses.hpp"
+    #include "weapons\smgs.hpp"
     #include "weapons\12G.hpp"
     #include "weapons\68.hpp"
     #include "weapons\545.hpp"

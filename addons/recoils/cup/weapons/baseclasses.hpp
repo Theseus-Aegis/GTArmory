@@ -46,4 +46,5 @@ class CUP_saw_base;
 class CUP_sgun_M1014_base;
 class Rifle_Base_F;
 class Rifle_Long_Base_F;
+class Rifle_Short_Base_F;
 class Tavor_base_F;
