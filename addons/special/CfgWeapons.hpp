@@ -106,6 +106,20 @@ class CfgWeapons {
         };
     };
 
+    // Mike
+    class CLASS(MW_marciras_wd_belt_rgr): milgp_v_marciras_medic_belt_rgr {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "MarCiras 'War Daddy' Edition + Belt (RGR)";
+        hiddenSelections[] = {"camo", "camo1", "camo2", "camo3"};
+        hiddenSelectionsTextures[] = {
+            "milgp_vests\textures\v_marciras_rgr_co.paa",
+            "milgp_vests\textures\v_battle_belt_rgr_co.paa",
+            QPATHTOF(data\mw_marciras_wd_belt_rgr_co.paa),
+            "milgp_vests\textures\v_gear_02_co.paa"
+        };
+    };
+
     // Zak (Additional stuff inside Ammunition component)
     class hlc_Pistol_M11A1;
     class CLASS(M11A1_Special): hlc_Pistol_M11A1 {
