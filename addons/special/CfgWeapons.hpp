@@ -8,6 +8,7 @@ class CfgWeapons {
     class HeadgearItem;
     class ItemCore;
     class H_HelmetB_TI_arid_F;
+    class CUP_H_OpsCore_Covered_MCAM;
 
     // Ethan
     class CLASS(Ethan_Helmet): H_HelmetB_TI_arid_F {
@@ -89,6 +90,20 @@ class CfgWeapons {
             "milgp_vests\textures\v_battle_belt_rgr_co.paa",
             QPATHTOF(data\rg_marciras_hh_belt_rgr_co.paa),
             "milgp_vests\textures\v_gear_02_co.paa"
+        };
+    };
+
+    // Matt
+    class CLASS(MM_opscore_mcam): CUP_H_OpsCore_Covered_MCAM {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "OpsCore Covered 'MM' Edition (Multicam)";
+        hiddenSelections[] = {"camo1", "camo2", "camo3", "flag"};
+        hiddenSelectionsTextures[] = {
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_mcam_co.paa",
+            QPATHTOF(data\mm_opscore_mcam_co.paa),
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
+            ""
         };
     };
 
