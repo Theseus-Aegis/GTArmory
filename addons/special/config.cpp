@@ -14,6 +14,8 @@ class CfgPatches {
             QCLASS(RG_marciras_hh_belt_rgr),
             QCLASS(RG_marciras_hh_belt_khk),
             QCLASS(MM_minotaur_uniform),
+            QCLASS(MM_opscore_mcam),
+            QCLASS(MW_marciras_wd_belt_rgr),
             QCLASS(M11A1_Special),
             QCLASS(Rambo_HK417DMR_White)
         };
