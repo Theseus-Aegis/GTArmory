@@ -9,6 +9,7 @@ class CfgWeapons {
     class ItemCore;
     class H_HelmetB_TI_arid_F;
     class CUP_H_OpsCore_Covered_MCAM;
+    class U_B_CTRG_Soldier_2_Arid_F;
 
     // Ethan
     class CLASS(Ethan_Helmet): H_HelmetB_TI_arid_F {
@@ -100,9 +101,9 @@ class CfgWeapons {
         displayName = "OpsCore Covered 'MM' Edition (Multicam)";
         hiddenSelections[] = {"camo1", "camo2", "camo3", "flag"};
         hiddenSelectionsTextures[] = {
-            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_covered_mcam_co.paa",
+            "\cup\creatures\people\military\cup_creatures_people_military_extra\opscore\data\cup_ops_core_covered_mcam_co.paa",
             QPATHTOF(data\mm_opscore_mcam_co.paa),
-            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\CUP_ops_core_parts_2_co.paa",
+            "\cup\creatures\people\military\cup_creatures_people_military_extra\opscore\data\cup_ops_core_parts_2_co.paa",
             ""
         };
     };
@@ -132,6 +133,19 @@ class CfgWeapons {
             "milgp_vests\textures\v_battle_belt_rgr_co.paa",
             QPATHTOF(data\mw_marciras_wd_belt_rgr_co.paa),
             "milgp_vests\textures\v_gear_02_co.paa"
+        };
+    };
+    class CLASS(MW_stealth_tee): U_B_CTRG_Soldier_2_Arid_F {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "Stealth Uniform 'CUP' Edition (Tee, Arid)";
+        hiddenSelections[]= {"camo"};
+        hiddenSelectionsTextures[]= {"\a3\characters_f_exp\blufor\data\u_b_ctrg_soldier_f_co.paa"};
+        class ItemInfo: UniformItem {
+            uniformModel = "-";
+            uniformClass = QCLASS(MW_Stealth_Uniform);
+            containerClass = "Supply50";
+            mass = 40;
         };
     };
 
