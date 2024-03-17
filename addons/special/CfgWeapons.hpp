@@ -1,15 +1,19 @@
 class CfgWeapons {
+    class CUP_arifle_HK417_20;
+    class CUP_H_OpsCore_Covered_MCAM;
+    class H_HelmetB_TI_arid_F;
     class H_PilotHelmetHeli_B;
+    class HeadgearItem;
+    class hlc_Pistol_M11A1;
+    class hlc_rifle_auga2lsw_b;
+    class ItemCore;
     class milgp_v_marciras_medic_belt_khk;
     class milgp_v_marciras_medic_belt_rgr;
+    class U_B_CTRG_Soldier_2_Arid_F;
+    class U_B_GEN_Commander_F;
+    class U_I_C_Soldier_Bandit_2_F;
     class Uniform_Base;
     class UniformItem;
-    class U_I_C_Soldier_Bandit_2_F;
-    class HeadgearItem;
-    class ItemCore;
-    class H_HelmetB_TI_arid_F;
-    class CUP_H_OpsCore_Covered_MCAM;
-    class U_B_CTRG_Soldier_2_Arid_F;
 
     // Ethan
     class CLASS(Ethan_Helmet): H_HelmetB_TI_arid_F {
@@ -67,6 +71,28 @@ class CfgWeapons {
         };
     };
 
+    // Josh V
+    class CLASS(JV_Uniform): U_B_GEN_Commander_F {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "Kempton, 'Vee' Edition";
+        hiddenSelections[]= {"camo"};
+        hiddenSelectionsTextures[]= {QPATHTOF(data\jv_kempton_uniform_co.paa)};
+        class ItemInfo: UniformItem {
+            uniformModel = "-";
+            uniformClass = QCLASS(JV_Uniform);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+    class CLASS(AUGA2_HBAR_Vee_Blue): hlc_rifle_auga2lsw_b {
+        author = "GilleeDoo";
+        displayName = "Steyr AUGA2 HBAR 'Vee' Edition (Blue)";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\steyr_aug_jv_co.paa)};
+        baseWeapon = QCLASS(AUGA2_HBAR_Vee_Blue);
+    };
+
     // Rory
     class CLASS(RG_marciras_hh_belt_khk): milgp_v_marciras_medic_belt_khk {
         author = "GilleeDoo";
@@ -115,7 +141,7 @@ class CfgWeapons {
         displayName = "Minotaur Uniform 'MM' Edition";
         picture = QPATHTOF(ui\mm_minotaur_uniform.paa);
         class ItemInfo: UniformItem {
-            uniformModel = "";
+            uniformModel = "-";
             uniformClass = QCLASS(MM_Minotaur_Uniform);
             containerClass = "Supply40";
             mass = 40;
@@ -149,8 +175,18 @@ class CfgWeapons {
         };
     };
 
+    // Rambo
+    class CLASS(Rambo_HK417DMR_White): CUP_arifle_HK417_20 {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "HK417 DMR 'White Rambo' Edition";
+        baseWeapon = QCLASS(Rambo_HK417DMR_White);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\rambo_hk417_white_co.paa)
+        };
+    };
+
     // Zak (Additional stuff inside Ammunition component)
-    class hlc_Pistol_M11A1;
     class CLASS(M11A1_Special): hlc_Pistol_M11A1 {
         author = "Mike";
         scope = 2;
@@ -174,17 +210,6 @@ class CfgWeapons {
             class SilencedSound: BaseSoundModeType {
                 SoundSetShot[] = {"ACPC2_silencerShot_SoundSet", "ACPC2_silencerTail_SoundSet", "ACPC2_silencerInteriorTail_SoundSet"};
             };
-        };
-    };
-
-    // Rambo
-    class CUP_arifle_HK417_20;
-    class CLASS(Rambo_HK417DMR_White): CUP_arifle_HK417_20 {
-        author = "GilleeDoo";
-        scope = 2;
-        displayName = "HK417 DMR 'White Rambo' Edition";
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\rambo_hk417_white_co.paa)
         };
     };
 };
