@@ -2,7 +2,29 @@ class CfgVehicles {
     class Item_Base_F;
     class I_C_Soldier_Bandit_2_F;
     class B_CTRG_Soldier_2_arid_F;
+    class B_GEN_Commander_F;
 
+    // Josh V - Ground Item & Uniform
+    class CLASS(JV_Item_Uniform): Item_Base_F {
+        author = "GilleeDoo";
+        displayName = "Kempton, 'Vee' Edition";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(tacgt_JV_Uniform,1);
+        };
+    };
+    class CLASS(JV_Uniform): B_GEN_Commander_F {
+        author = "GilleeDoo";
+        scope = 1;
+        uniformClass = QCLASS(JV_Uniform);
+        hiddenSelections[]= {"camo", "insignia"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\jv_kempton_uniform_co.paa),
+            ""
+        };
+    };
     // Mick - Ground Item & Uniform
     class CLASS(MM_Item_Minotaur_Uniform): Item_Base_F {
         author = "GilleeDoo";
