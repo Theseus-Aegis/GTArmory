@@ -11,6 +11,7 @@ class CfgPatches {
             "tacgt_theseus",
             "hlcweapons_core",
             "niaweapons_226",
+            "hlcweapons_acr",
             "hlcweapons_AUG",
             "hlcweapons_ar15"
         };
