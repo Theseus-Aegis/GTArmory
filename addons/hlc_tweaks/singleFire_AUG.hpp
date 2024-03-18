@@ -37,7 +37,7 @@ class hlc_rifle_auga3_bl: hlc_rifle_auga3 {
 class hlc_rifle_aughbar: hlc_rifle_aug {
     scope = 2;
     scopeArsenal = 2;
-    modes[]= {
+    modes[] = {
         "Single",
         "FullAuto",
         "50",
@@ -74,7 +74,7 @@ class hlc_rifle_aughbar_t: hlc_rifle_aughbar {
 };
 
 class hlc_rifle_auga2lsw: hlc_rifle_aughbar {
-    modes[]= {
+    modes[] = {
         "Single",
         "FullAuto",
         "50",
