@@ -1,6 +1,5 @@
 class CfgMagazines {
     class hlc_30Rnd_556x45_EPR_sg550;
-    class hlc_30Rnd_556x45_B_AUG;
     class hlc_40Rnd_556x45_B_AUG;
     class hlc_100Rnd_762x51_B_M60E4;
     class hlc_29rnd_300BLK_STANAG;

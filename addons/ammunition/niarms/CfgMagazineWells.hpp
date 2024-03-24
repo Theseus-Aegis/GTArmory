@@ -58,10 +58,6 @@ class CfgMagazineWells {
 
     class CBA_556x45_STEYR {
         ADDON[] = {
-            QCLASS(30Rnd_556x45_Ball_AUG),
-            QCLASS(30Rnd_556x45_Ball_Tracer_AUG),
-            QCLASS(30Rnd_556x45_EPR_AUG),
-            QCLASS(30Rnd_556x45_AP_AUG),
             QCLASS(42Rnd_556x45_Ball_AUG),
             QCLASS(42Rnd_556x45_Ball_Tracer_AUG),
             QCLASS(42Rnd_556x45_EPR_AUG),
