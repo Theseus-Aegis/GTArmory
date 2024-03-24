@@ -10,6 +10,7 @@ class CfgPatches {
         };
         weapons[] = {
             QCLASS(Ethan_Helmet),
+            QCLASS(Sig_P226R_Combat_IP_Edition),
             QCLASS(Jack_Beret),
             QCLASS(JJ_HeliPilot_Black),
             QCLASS(Joram_HeliPilot_Black),
