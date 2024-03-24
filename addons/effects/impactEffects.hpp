@@ -51,15 +51,6 @@ class ImpactMetal {
         lifeTime = 1;
         qualityLevel = 2;
     };
-    class CLASS(sparksSparkleEffect) {
-        simulation = "particles";
-        type = QCLASS(starterSparksOmniSparklings);
-        position[] = {0, 0, 0};
-        intensity = 1;
-        interval = 1;
-        lifeTime = 0.03;
-        qualityLevel = 2;
-    };
 };
 
 // Increases the visual effect of hitting something slightly, follow the same particle settings as vanilla does.

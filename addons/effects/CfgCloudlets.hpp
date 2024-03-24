@@ -164,7 +164,6 @@ class CfgCloudlets {
         interval = 0.5;
         moveVelocity[] = {1, 1, 1};
         moveVelocityVar[] = {0.1, -1, 0.1};
-        postEffects = QCLASS(sparksSparkleEffect);
         size[] = {0.15, 0.05, 0};
     };
     class CLASS(sparksOmniSparklings): CLASS(sparksBurst1) {
@@ -191,6 +190,5 @@ class CfgCloudlets {
         lifeTimeVar = 1;
         moveVelocity[] = {-0.1, -1, 0.1};
         moveVelocityVar[] = {0.2, 2, 0.2};
-        postEffects = QCLASS(sparksSparkleEffect);
     };
 };
