@@ -12,10 +12,10 @@ class CfgPatches {
             "tacu_faction_overwrites",
             "CUP_Creatures_People_LoadOrder"
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 

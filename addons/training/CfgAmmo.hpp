@@ -58,4 +58,39 @@ class CfgAmmo {
         ace_explosives_magazine = QCLASS(SatchelCharge_Remote_Training_Mag);
         defaultMagazine = QCLASS(SatchelCharge_Remote_Training_Mag);
     };
+
+    class SmokeShell;
+    class CLASS(SmokeShell_Training_Ammo): SmokeShell {
+        timeToLive = 2;
+    };
+
+    class SmokeShellRed;
+    class CLASS(SmokeShellRed_Training_Ammo): SmokeShellRed {
+        timeToLive = 2;
+    };
+
+    class SmokeShellGreen;
+    class CLASS(SmokeShellGreen_Training_Ammo): SmokeShellGreen {
+        timeToLive = 2;
+    };
+
+    class SmokeShellYellow;
+    class CLASS(SmokeShellYellow_Training_Ammo): SmokeShellYellow {
+        timeToLive = 2;
+    };
+
+    class SmokeShellPurple;
+    class CLASS(SmokeShellPurple_Training_Ammo): SmokeShellPurple {
+        timeToLive = 2;
+    };
+
+    class SmokeShellBlue;
+    class CLASS(SmokeShellBlue_Training_Ammo): SmokeShellBlue {
+        timeToLive = 2;
+    };
+
+    class SmokeShellOrange;
+    class CLASS(SmokeShellOrange_Training_Ammo): SmokeShellOrange {
+        timeToLive = 2;
+    };
 };

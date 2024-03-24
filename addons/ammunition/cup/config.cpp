@@ -9,13 +9,14 @@ class CfgPatches {
         requiredAddons[] = {
             "tacgt_main",
             "tacgt_ammunition",
-            "CUP_Weapons_LoadOrder"
+            "CUP_Weapons_LoadOrder",
+            "CUP_Weapons_AK12"
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 

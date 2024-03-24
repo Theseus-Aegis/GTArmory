@@ -15,4 +15,20 @@ class CfgWeapons {
             };
         };
     };
+    class GrenadeLauncher;
+    class Throw: GrenadeLauncher {
+        muzzles[] += {QCLASS(training_muzzle)};
+        class ThrowMuzzle: GrenadeLauncher {};
+        class CLASS(training_muzzle): ThrowMuzzle {
+            magazines[] = {
+                QCLASS(SmokeShell_Training),
+                QCLASS(SmokeShellBlue_Training),
+                QCLASS(SmokeShellGreen_Training),
+                QCLASS(SmokeShellOrange_Training),
+                QCLASS(SmokeShellPurple_Training),
+                QCLASS(SmokeShellRed_Training),
+                QCLASS(SmokeShellYellow_Training)
+            };
+        };
+    };
 };

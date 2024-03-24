@@ -11,16 +11,17 @@ class CfgPatches {
             "tacgt_recoils",
             "CUP_Weapons_LoadOrder"
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 
 class CfgWeapons {
     #include "weapons\baseclasses.hpp"
+    #include "weapons\smgs.hpp"
     #include "weapons\12G.hpp"
     #include "weapons\68.hpp"
     #include "weapons\545.hpp"

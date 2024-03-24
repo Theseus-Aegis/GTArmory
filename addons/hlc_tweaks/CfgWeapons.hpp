@@ -38,4 +38,66 @@ class CfgWeapons {
             delete LinkedItemsMuzzle;
         };
     };
+
+    // HBAR semi-auto, isn't not using inheritance fun guys?
+    class hlc_rifle_aughbar: hlc_rifle_aug {
+        modes[]= {
+            "Single",
+            "FullAuto",
+            "50",
+            "AI_long",
+            "AI_close",
+            "AI_short",
+            "AI_far",
+            "AI_toofar",
+            "AI_far_optic1"
+        };
+        class Single: Single {
+            showToPlayer = 1;
+        };
+    };
+
+    class hlc_rifle_aughbar_b: hlc_rifle_aughbar {
+        modes[] = {
+            "Single",
+            "FullAuto",
+            "fullauto_medium",
+            "single_medium_optics1",
+            "single_far_optics2"
+        };
+    };
+
+    class hlc_rifle_aughbar_t: hlc_rifle_aughbar {
+        modes[] = {
+            "Single",
+            "FullAuto",
+            "fullauto_medium",
+            "single_medium_optics1",
+            "single_far_optics2"
+        };
+    };
+
+    class hlc_rifle_auga2lsw: hlc_rifle_aughbar {
+        modes[]= {
+            "Single",
+            "FullAuto",
+            "50",
+            "AI_long",
+            "AI_close",
+            "AI_short",
+            "AI_far",
+            "AI_toofar",
+            "AI_far_optic1"
+        };
+    };
+
+    class hlc_rifle_honeybase;
+    class hlc_rifle_honeybadger: hlc_rifle_honeybase {
+        class LinkedItems {
+            class LinkedItemsMuzzle {
+                item = "muzzle_HBADGER";
+                slot = "MuzzleSlot";
+            };
+        };
+    };
 };

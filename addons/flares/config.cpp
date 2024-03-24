@@ -13,7 +13,13 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "ace_grenades", "CUP_Weapons_Ammunition", "CUP_Weapons_Flaregun"};
+        requiredAddons[] = {
+            "tacgt_main",
+            "ace_grenades",
+            "CUP_Weapons_Ammunition",
+            "CUP_Weapons_Flaregun"
+        };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);

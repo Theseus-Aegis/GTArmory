@@ -44,8 +44,3 @@ class arifle_RPK12_arid_F: arifle_RPK12_base_F {
 class arifle_RPK12_lush_F: arifle_RPK12_base_F {
     recoil = QCLASS(762R_Long);
 };
-
-// Galat
-class arifle_Galat_lxWS: arifle_Galat_base_lxWS {
-    recoil = QCLASS(762R_Long);
-};

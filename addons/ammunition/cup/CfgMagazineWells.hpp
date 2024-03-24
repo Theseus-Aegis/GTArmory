@@ -131,7 +131,24 @@ class CfgMagazineWells {
             QCLASS(100Rnd_556x45_EPR_BetaC)
         };
     };
+    class CBA_556x45_STEYR {
+        ADDON[] = {
+            QCLASS(30Rnd_556x45_Ball_AUG),
+            QCLASS(30Rnd_556x45_Ball_Tracer_AUG),
+            QCLASS(30Rnd_556x45_EPR_AUG),
+            QCLASS(30Rnd_556x45_AP_AUG)
+        };
+    };
     class CBA_556x45_AK {
+        ADDON[] = {
+            QCLASS(30Rnd_556x45_Ball_AK),
+            QCLASS(30Rnd_556x45_Ball_Tracer_AK),
+            QCLASS(30Rnd_556x45_EPR_AK),
+            QCLASS(30Rnd_556x45_AP_AK)
+        };
+    };
+    // Quick fix for AK19 mags
+    class CUP_AK19 {
         ADDON[] = {
             QCLASS(30Rnd_556x45_Ball_AK),
             QCLASS(30Rnd_556x45_Ball_Tracer_AK),
@@ -180,6 +197,14 @@ class CfgMagazineWells {
             QCLASS(30Rnd_762x39_AP_CZ)
         };
     };
+
+    class CBA_762x51_CZ750 {
+        ADDON[] = {
+            QCLASS(10Rnd_762x51_EPR_CZ750),
+            QCLASS(10Rnd_762x51_AP_CZ750)
+        };
+    };
+
     class CBA_762x51_FAL {
         ADDON[] = {
             QCLASS(20Rnd_762x51_Ball_FAL),
@@ -218,6 +243,13 @@ class CfgMagazineWells {
             QCLASS(30Rnd_9x39_Ball_Tracer),
             QCLASS(30Rnd_9x39_EPR),
             QCLASS(30Rnd_9x39_AP)
+        };
+    };
+
+    class CBA_300WM_AICS {
+        ADDON[] = {
+            QCLASS(5Rnd_300WM_EPR_G22),
+            QCLASS(5Rnd_300WM_AP_G22)
         };
     };
 };

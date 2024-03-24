@@ -14,6 +14,30 @@ class BLU_CTRG_F {
     };
 };
 
+// UNA; Replaced by UN
+class BLU_UN_lxWS {
+    class Infantry {
+        name = "DEPRECATED";
+        delete BUNA_InfSquad_lxWS;
+        delete BUNA_InfSentry_lxWS;
+    };
+    class Motorized {
+        name = "DEPRECATED";
+        delete BUNA_MotInf_Team;
+        delete BUNA_MotInf_Reinforce;
+    };
+    class Mechanized {
+        name = "DEPRECATED";
+        delete BUNA_MechInfSquad;
+        delete BUNA_MechInf_Support;
+    };
+    class Armored {
+        name = "DEPRECATED";
+        delete BUNA_TankPlatoon;
+        delete BUNA_TankSection;
+    };
+};
+
 // CUP
 class CUP_B_CZ {
     class Motorized {

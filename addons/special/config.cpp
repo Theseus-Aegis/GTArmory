@@ -4,16 +4,23 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            QCLASS(MM_item_minotaur_uniform)
+            QCLASS(JV_Item_Uniform),
+            QCLASS(MM_item_minotaur_uniform),
+            QCLASS(MW_Item_Stealth_Uniform)
         };
         weapons[] = {
             QCLASS(Ethan_Helmet),
             QCLASS(Jack_Beret),
             QCLASS(JJ_HeliPilot_Black),
             QCLASS(Joram_HeliPilot_Black),
+            QCLASS(JV_Uniform),
+            QCLASS(AUGA2_HBAR_Vee_Blue),
             QCLASS(RG_marciras_hh_belt_rgr),
             QCLASS(RG_marciras_hh_belt_khk),
             QCLASS(MM_minotaur_uniform),
+            QCLASS(MM_opscore_mcam),
+            QCLASS(MW_marciras_wd_belt_rgr),
+            QCLASS(MW_stealth_tee),
             QCLASS(M11A1_Special),
             QCLASS(Rambo_HK417DMR_White)
         };
@@ -28,11 +35,11 @@ class CfgPatches {
             "milgp_vests_cfg",
             "niaweapons_226",
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo", "Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 
