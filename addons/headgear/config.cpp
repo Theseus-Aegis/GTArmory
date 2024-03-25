@@ -7,6 +7,7 @@ class CfgPatches {
         weapons[] = {
             QCLASS(OpsCore_Medic),
             QCLASS(OpsCore_Grijs),
+            QCLASS(OpsCore_Grijs_NoHS),
             QCLASS(Cap_DEF_NYMets),
             QCLASS(Cap_DEF_ASU)
         };
