@@ -1,5 +1,6 @@
 class CfgWeapons {
     #include "bohemia\baseclasses.hpp"
+    #include "bohemia\smgs.hpp"
     #include "bohemia\65.hpp"
     #include "bohemia\338.hpp"
     #include "bohemia\545.hpp"

@@ -17,6 +17,7 @@ class CfgMagazines {
     class CUP_25Rnd_556x45_Famas;
     class CUP_30Rnd_545x39_Fort224_M;
     class CUP_30Rnd_556x45_AK;
+    class CUP_30Rnd_556x45_AUG;
     class CUP_30Rnd_680x43_Stanag;
     class CUP_30Rnd_762x39_CZ807;
     class CUP_30Rnd_9x19_MP5;
