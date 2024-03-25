@@ -215,6 +215,127 @@ class CUP_O_RU {
     };
 };
 
+class CUP_O_RUS_M {
+    class Infantry_VKPO_Summer {
+        name = "DEPRECATED";
+        delete InfSquad;
+        delete InfSquad_Weapons;
+        delete InfTeam;
+        delete InfTeam_AT;
+        delete InfTeam_AA;
+        delete InfSentry;
+        delete InfAssault;
+        delete O_InfTeam_AT_Heavy;
+    };
+
+    class Infantry_VKPO_Desert {
+        name = "DEPRECATED";
+        delete InfSquad;
+        delete InfSquad_Weapons;
+        delete InfTeam;
+        delete InfTeam_AT;
+        delete InfTeam_AA;
+        delete InfSentry;
+        delete InfAssault;
+        delete O_InfTeam_AT_Heavy;
+    };
+
+    class Infantry_VKPO_Winter {
+        name = "DEPRECATED";
+        delete InfSquad;
+        delete InfSquad_Weapons;
+        delete InfTeam;
+        delete InfTeam_AT;
+        delete InfTeam_AA;
+        delete InfSentry;
+        delete InfAssault;
+        delete O_InfTeam_AT_Heavy;
+    };
+
+    class Infantry_Ratnik_Summer {
+        name = "DEPRECATED";
+        delete InfSquad;
+        delete InfSquad_Weapons;
+        delete InfTeam;
+        delete InfTeam_AT;
+        delete InfTeam_AA;
+        delete InfSentry;
+        delete InfAssault;
+        delete O_InfTeam_AT_Heavy;
+    };
+
+    class Infantry_Ratnik_Autumn {
+        name = "DEPRECATED";
+        delete InfSquad;
+        delete InfSquad_Weapons;
+        delete InfTeam;
+        delete InfTeam_AT;
+        delete InfTeam_AA;
+        delete InfSentry;
+        delete InfAssault;
+        delete O_InfTeam_AT_Heavy;
+    };
+
+    class Infantry_Ratnik_Winter {
+        name = "DEPRECATED";
+        delete InfSquad;
+        delete InfSquad_Weapons;
+        delete InfTeam;
+        delete InfTeam_AT;
+        delete InfTeam_AA;
+        delete InfSentry;
+        delete InfAssault;
+        delete O_InfTeam_AT_Heavy;
+    };
+
+    class SpecOps_Gorka_Brown {
+        name = "DEPRECATED";
+        delete reconTeam;
+        delete reconSentry;
+        delete reconPatrol;
+    };
+
+    class SpecOps_Gorka_Khaki {
+        name = "DEPRECATED";
+        delete reconTeam;
+        delete reconSentry;
+        delete reconPatrol;
+    };
+
+    class SpecOps_Gorka_EMR {
+        name = "DEPRECATED";
+        delete reconTeam;
+        delete reconSentry;
+        delete reconPatrol;
+    };
+
+    class Support_VKPO_Summer {
+        name = "DEPRECATED";
+        delete support_CLS;
+        delete support_EOD;
+        delete support_ENG;
+    };
+
+    class Support_VKPO_Desert {
+        name = "DEPRECATED";
+        delete support_CLS;
+        delete support_EOD;
+        delete support_ENG;
+    };
+
+    class Support_VKPO_Winter {
+        name = "DEPRECATED";
+        delete support_CLS;
+        delete support_EOD;
+        delete support_ENG;
+    };
+
+    class Motorized {
+        name = "DEPRECATED";
+        delete MotInf_Reinforce_VKPO_Summer;
+    };
+};
+
 class CUP_O_TK {
     class Motorized {
         name = "DEPRECATED";

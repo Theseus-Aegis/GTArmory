@@ -371,6 +371,141 @@ class CUP_O_ZU23_RU_M_BeigeDigital: CUP_ZU23_base {
     scopeCurator = 1;
 };
 
+class CUP_O_ZU23_RUS_M_Summer: CUP_ZU23_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_KORD_RUS_M_Summer: CUP_KORD_MiniTripod_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_KORD_high_RUS_M_Summer: CUP_KORD_High_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_AGS_RUS_M_Summer: CUP_AGS_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_Metis_RUS_M_Summer: CUP_Metis_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_Igla_AA_pod_RUS_M_Summer: CUP_Igla_AA_pod_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_2b14_82mm_RUS_M_Summer: CUP_2b14_82mm_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_D30_RUS_M_Summer: CUP_D30_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_D30_AT_RUS_M_Summer: CUP_D30_AT_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_Kornet_RUS_M_Summer: CUP_Kornet_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_SearchLight_static_RUS_M_Summer: CUP_SearchLight_static_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_O_ZU23_RUS_M_Winter: CUP_ZU23_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_KORD_RUS_M_Winter: CUP_KORD_MiniTripod_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_KORD_high_RUS_M_Winter: CUP_KORD_High_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_AGS_RUS_M_Winter: CUP_AGS_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_Metis_RUS_M_Winter: CUP_Metis_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_Igla_AA_pod_RUS_M_Winter: CUP_Igla_AA_pod_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_2b14_82mm_RUS_M_Winter: CUP_2b14_82mm_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_D30_RUS_M_Winter: CUP_D30_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_D30_AT_RUS_M_Winter: CUP_D30_AT_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_Kornet_RUS_M_Winter: CUP_Kornet_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_SearchLight_static_RUS_M_Winter: CUP_SearchLight_static_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_O_ZU23_RUS_M_Desert: CUP_ZU23_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_KORD_RUS_M_Desert: CUP_KORD_MiniTripod_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_KORD_high_RUS_M_Desert: CUP_KORD_High_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_AGS_RUS_M_Desert: CUP_AGS_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_Metis_RUS_M_Desert: CUP_Metis_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_Igla_AA_pod_RUS_M_Desert: CUP_Igla_AA_pod_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_2b14_82mm_RUS_M_Desert: CUP_2b14_82mm_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_D30_RUS_M_Desert: CUP_D30_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_D30_AT_RUS_M_Desert: CUP_D30_AT_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_Kornet_RUS_M_Desert: CUP_Kornet_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_O_SearchLight_static_RUS_M_Desert: CUP_SearchLight_static_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+
 class CUP_O_AGS_TK: CUP_AGS_base {
     scope = 1;
     scopeCurator = 1;
@@ -643,6 +778,55 @@ class CUP_B_M134_A_GER: CUP_B_M134_A_USMC {
     scopeCurator = 1;
 };
 class CUP_B_M134_A_GB: CUP_B_M134_A_USMC {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+class CUP_B_ZU23_AFU: CUP_ZU23_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_DSHKM_AFU: CUP_DSHKM_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_DSHkM_MiniTriPod_AFU: CUP_DSHKM_MiniTripod_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_AGS_AFU: CUP_AGS_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_SPG9_AFU: CUP_SPG9_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_2b14_82mm_AFU: CUP_2b14_82mm_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_D30_AFU: CUP_D30_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_D30_AT_AFU: CUP_D30_AT_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_Igla_AA_pod_AFU: CUP_Igla_AA_pod_Base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_SearchLight_static_AFU: CUP_SearchLight_static_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_M2StaticMG_AFU: CUP_M2StaticMG_base {
+    scope = 1;
+    scopeCurator = 1;
+};
+class CUP_B_M2StaticMG_MiniTripod_AFU: CUP_M2StaticMG_MiniTripod_base {
     scope = 1;
     scopeCurator = 1;
 };
