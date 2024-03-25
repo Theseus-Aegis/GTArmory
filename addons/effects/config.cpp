@@ -16,4 +16,5 @@ class CfgPatches {
 
 #include "CfgAmmo.hpp"
 #include "CfgCloudlets.hpp"
-#include "Effects.hpp"
+#include "blastwaveEffects.hpp"
+#include "impactEffects.hpp"

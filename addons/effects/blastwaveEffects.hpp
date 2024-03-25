@@ -1,10 +1,12 @@
 #define MACRO_FX \
-    position[] = {0, 0, 0}; \
     intensity = 1; \
     interval = 3; \
     lifeTime = 1; \
+    position[] = {0, 0, 0}; \
+    qualityLevel = -1; \
     simulation = "particles"
 
+// Adds a refraction effect to explosions, these play everytime for everybody.
 class 120mm_HE {
     class CLASS(blastwave_refract) {
         type = QCLASS(blastwave_effect_medium);

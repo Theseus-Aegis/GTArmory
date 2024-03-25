@@ -37,14 +37,14 @@ class CfgRecoils {
     class CLASS(SMG_Base) {
         kickBack[] = {0.02, 0.03};
         muzzleOuter[] = {0.18, 0.3, 0.16, 0.18};
-        permanent = 0.35;
-        temporary = 0.02;
+        permanent = 0.12;
+        temporary = 0.08;
     };
     class CLASS(SMG_Foregrip) {
         kickBack[] = {0.018, 0.035};
         muzzleOuter[] = {0.16, 0.28, 0.14, 0.16};
-        permanent = 0.32;
-        temporary = 0.018;
+        permanent = 0.1;
+        temporary = 0.06;
     };
 
     // 12G - Operate differently from regular rifles, the barrel is either short or long.
