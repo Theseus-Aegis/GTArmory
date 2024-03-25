@@ -54,6 +54,19 @@ class ImpactMetal {
 };
 
 // Increases the visual effect of hitting something slightly, follow the same particle settings as vanilla does.
+class ImpactEffectsBlood {
+    class CLASS(bloodMist) {
+        intensity = 1;
+        interval = 1;
+        lifeTime = 0.5;
+        moveVelocityVar[] = {0,0,0};
+        position[] = {0,0,0};
+        qualityLevel = 2;
+        simulation = "particles";
+        type = QCLASS(bloodMist);
+    };
+};
+
 class ImpactConcrete {
     class ImpactDust {
         intensity = 2;
