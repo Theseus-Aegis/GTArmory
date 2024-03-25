@@ -6,7 +6,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {
             QCLASS(OpsCore_Medic),
-            QCLASS(Cap_DEF_NYMets)
+            QCLASS(OpsCore_Grijs),
+            QCLASS(OpsCore_Grijs_NoHS),
+            QCLASS(Cap_DEF_NYMets),
+            QCLASS(Cap_DEF_ASU)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacgt_main", "CUP_Creatures_Extra_OpsCore"};
