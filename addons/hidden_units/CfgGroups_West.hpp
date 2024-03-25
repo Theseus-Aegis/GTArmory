@@ -434,3 +434,51 @@ class CUP_B_HIL {
         delete CUP_B_HIL_DiverSection;
     };
 };
+
+class CUP_B_AFU {
+    class Infantry {
+        name = "DEPRECATED";
+        delete CUP_B_AFU_HQ;
+        delete CUP_B_AFU_FireTeam;
+        delete CUP_B_AFU_ATTeam;
+        delete CUP_B_AFU_MachinegunTeam;
+        delete CUP_B_AFU_AntiAirTeam;
+        delete CUP_B_AFU_SniperTeam;
+        delete CUP_B_AFU_HeavyATTeam;
+        delete CUP_B_AFU_InfantySquad;
+        delete CUP_B_AFU_ReconPatrol;
+        delete CUP_B_AFU_ReconSquad;
+        delete CUP_B_AFU_DemoTeam;
+    };
+    class InfantryILDU {
+        name = "DEPRECATED";
+        delete CUP_B_AFU_ILDU_Command;
+        delete CUP_B_AFU_ILDU_ATTeam;
+        delete CUP_B_AFU_ILDU_WeaponsTeam;
+        delete CUP_B_AFU_ILDU_Fireteam;
+        delete CUP_B_AFU_ILDU_SupportTeam;
+        delete CUP_B_AFU_IDLU_FireTeam2;
+        delete CUP_B_AFU_IDLU_Fireteam3;
+        delete CUP_B_AFU_ILDU_RifleSquad;
+        delete CUP_B_AFU_ILDU_WeaponsSquad;
+        delete CUP_B_AFU_ILDU_ReconTeam;
+        delete CUP_B_AFU_ILDU_ReconSquad;
+        delete CUP_B_AFU_ILDU_SniperTeam;
+    };
+    class SpecialOps {
+        name = "DEPRECATED";
+        delete CUP_B_AFU_SF_Team;
+        delete CUP_B_AFU_SF_Squad;
+    };
+    class InfantryTDF {
+        name = "DEPRECATED";
+        delete CUP_B_AFU_TDF_HQElement;
+        delete CUP_B_AFU_TDF_Fireteam;
+        delete CUP_B_AFU_TDF_Fireteam_2;
+        delete CUP_B_AFU_TDF_Fireteam_3;
+        delete CUP_B_AFU_TDF_Engineering;
+        delete CUP_B_AFU_TDF_MachinegunTeam;
+        delete CUP_B_AFU_TDF_ATTeam;
+        delete CUP_B_AFU_TDF_Squad;
+    };
+};
