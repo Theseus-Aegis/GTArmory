@@ -5,6 +5,7 @@ class CfgWeapons {
     class H_PilotHelmetHeli_B;
     class HeadgearItem;
     class hlc_Pistol_M11A1;
+    class hlc_pistol_Mk25TR;
     class hlc_rifle_auga2lsw_b;
     class ItemCore;
     class milgp_v_marciras_medic_belt_khk;
@@ -21,6 +22,26 @@ class CfgWeapons {
         scope = 2;
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\h_helmetb_ti_ethan_f_co.paa)
+        };
+    };
+
+    // Ian
+    class CLASS(Sig_P226R_Combat_IP_Edition): hlc_pistol_Mk25TR {
+        displayName = "SigSauer P226R Combat 'IP' Edition";
+        magazines[]= {"hlc_12Rnd_357SIG_B_P226","hlc_12Rnd_357SIG_JHP_P226"};
+        magazineWell[]= {"CBA_357SIG_P226"};
+        baseWeapon = QCLASS(Sig_P226R_Combat_IP_Edition);
+        hiddenSelections[]= {
+            "226Slides",
+            "Sigframe_226Mk25",
+            "Hogue_overmold",
+            "SIGpistol_Common"
+        };
+        hiddenSelectionsTextures[]= {
+            "hlc_wp_p226\tex\p226\226slides_co.paa",
+            QPATHTOF(data\ip_p226r_frame_co.paa),
+            "hlc_wp_p226\tex\p226\226usgrip_co.paa",
+            "hlc_wp_p226\tex\p226\common_co.paa"
         };
     };
 
