@@ -9,55 +9,55 @@ class ImpactMetal {
         type = QCLASS(bulletExplode);
     };
     class CLASS(startSparksBurstLow) {
-        simulation = "particles";
-        type = QCLASS(sparksBurstLow);
-        position[] = {0,0,0};
         intensity = 1;
         interval = 0.1;
         lifeTime = 0.4;
-        randomDirectionPeriodVar = 1;
-        randomDirectionIntensityVar = 1;
+        position[] = {0,0,0};
         qualityLevel = 2;
+        randomDirectionIntensityVar = 1;
+        randomDirectionPeriodVar = 1;
+        simulation = "particles";
+        type = QCLASS(sparksBurstLow);
     };
     class CLASS(startSparksBurstMed) {
-        simulation = "particles";
-        type = QCLASS(sparksBurstMed);
-        position[] = {0,0,0};
         intensity = 1;
         interval = 0.1;
         lifeTime = 0.6;
-        randomDirectionPeriodVar = 1;
-        randomDirectionIntensityVar = 1;
+        position[] = {0,0,0};
         qualityLevel = 2;
+        randomDirectionIntensityVar = 1;
+        randomDirectionPeriodVar = 1;
+        simulation = "particles";
+        type = QCLASS(sparksBurstMed);
     };
     class CLASS(startSparksOmni) {
-        simulation = "particles";
-        type = QCLASS(sparksOmni);
-        position[] = {0,0,0};
         intensity = 1;
         interval = 10;
-        randomDirectionPeriodVar = 0.5;
-        randomDirectionIntensityVar = 2;
         lifeTime = 1;
+        position[] = {0,0,0};
         qualityLevel = 2;
+        randomDirectionIntensityVar = 2;
+        randomDirectionPeriodVar = 0.5;
+        simulation = "particles";
+        type = QCLASS(sparksOmni);
     };
     class CLASS(startSparksDrop) {
-        simulation = "particles";
-        type = QCLASS(sparksDrop);
-        position[] = {0,0,0};
         intensity = 1;
         interval = 11;
         lifeTime = 1.5;
+        position[] = {0,0,0};
         qualityLevel = 2;
+        simulation = "particles";
+        type = QCLASS(sparksDrop);
     };
     class CLASS(startSparksDrop2) {
-        simulation = "particles";
-        type = QCLASS(sparksDrop2);
-        position[] = {0,0,0};
         intensity = 1;
         interval = 1;
         lifeTime = 1;
+        position[] = {0,0,0};
         qualityLevel = 2;
+        simulation = "particles";
+        type = QCLASS(sparksDrop2);
     };
 };
 
