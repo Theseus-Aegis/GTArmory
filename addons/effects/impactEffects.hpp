@@ -1,5 +1,13 @@
 // Spark Effects from Metal, these only play on particles high settings.
 class ImpactMetal {
+    class LightExp {
+        intensity = 1;
+        interval = 1;
+        lifeTime = 1;
+        position[] = {0,0,0};
+        simulation = "light";
+        type = QCLASS(bulletExplode);
+    };
     class CLASS(startSparksBurstLow) {
         simulation = "particles";
         type = QCLASS(sparksBurstLow);
