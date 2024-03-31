@@ -1,8 +1,32 @@
 class CfgVehicles {
-    class Item_Base_F;
-    class I_C_Soldier_Bandit_2_F;
     class B_CTRG_Soldier_2_arid_F;
     class B_GEN_Commander_F;
+    class C_Uniform_Scientist_02_formal_F;
+    class I_C_Soldier_Bandit_2_F;
+    class Item_Base_F;
+
+    // Jack Uniform, Available to everyone by his request.
+    class CLASS(JL_Item_Uniform): Item_Base_F {
+        author = "GilleeDoo";
+        displayName = "Tee, Jeans (Sventa)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(tacgt_Jack_Uniform,1);
+        };
+    };
+    class CLASS(JL_Uniform): C_Uniform_Scientist_02_formal_F {
+        author = "GilleeDoo";
+        scope = 1;
+        uniformClass = QCLASS(JL_Uniform);
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\scientist_02_1_sventa_co.paa),
+            "a3\characters_f_enoch\uniforms\data\scientist_02_2_formal_co.paa",
+            "a3\characters_f_enoch\uniforms\data\scientist_01_co.paa",
+            "a3\Characters_F_Enoch\Uniforms\Data\scientist_id_default.paa"
+        };
+    };
 
     // Josh V - Ground Item & Uniform
     class CLASS(JV_Item_Uniform): Item_Base_F {
@@ -25,6 +49,7 @@ class CfgVehicles {
             ""
         };
     };
+
     // Mick - Ground Item & Uniform
     class CLASS(MM_Item_Minotaur_Uniform): Item_Base_F {
         author = "GilleeDoo";

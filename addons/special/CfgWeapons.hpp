@@ -12,6 +12,7 @@ class CfgWeapons {
     class milgp_v_marciras_medic_belt_rgr;
     class U_B_CTRG_Soldier_2_Arid_F;
     class U_B_GEN_Commander_F;
+    class U_C_Uniform_Scientist_02_formal_F;
     class U_I_C_Soldier_Bandit_2_F;
     class Uniform_Base;
     class UniformItem;
@@ -53,7 +54,6 @@ class CfgWeapons {
             };
         };
     };
-
     class CLASS(Jack_Beret): CUP_H_C_Beret_01 {
         author = "GilleeDoo";
         scope = 2;
@@ -69,6 +69,20 @@ class CfgWeapons {
                     armor = 10;
                 };
             };
+        };
+    };
+
+    class CLASS(Jack_Uniform): U_C_Uniform_Scientist_02_formal_F {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "Tee, Jeans (Sventa)";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\scientist_02_1_sventa_co.paa)};
+        class ItemInfo: UniformItem {
+            uniformModel = "-";
+            uniformClass = QCLASS(JL_Uniform);
+            containerClass = "Supply40";
+            mass = 20;
         };
     };
 
