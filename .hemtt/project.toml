@@ -1,5 +1,6 @@
 name = "GT Armory"
 prefix = "tacgt"
+mainprefix = "x"
 author = "Theseus Incorporated"
 
 [files]
@@ -13,8 +14,22 @@ include = [
 [version]
 git_hash = 0
 
-[hemtt.config]
-preset = "Hemtt"
-
 [hemtt.release]
 folder = "gt_armory"
+
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA
+    "463939057", # ACE3
+    "646999497", # Theseus Services
+]
+
+[hemtt.launch.zen]
+workshop = [
+    "1779063631", # Zeus Enhanced
+]
+
+[hemtt.launch.ws]
+dlc = [
+    "ws",
+]
