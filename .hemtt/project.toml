@@ -25,11 +25,13 @@ workshop = [
 ]
 
 [hemtt.launch.zen]
+extends = "default"
 workshop = [
     "1779063631", # Zeus Enhanced
 ]
 
 [hemtt.launch.ws]
+extends = "default"
 dlc = [
     "ws",
 ]
