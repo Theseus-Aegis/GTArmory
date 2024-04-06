@@ -1,9 +1,18 @@
 class CfgVehicles {
     class B_CTRG_Soldier_2_arid_F;
     class B_GEN_Commander_F;
+    class B_Kitbag_Base;
     class C_Uniform_Scientist_02_formal_F;
     class I_C_Soldier_Bandit_2_F;
     class Item_Base_F;
+
+    // Ethan Backpack
+    class CLASS(EM_Backpack): B_Kitbag_Base {
+        scope = 2;
+        author = "GilleeDoo";
+        displayName = "Kitbag 'EM' Edition (Stars and Stripes)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\kitbag_em_co.paa)};
+    };
 
     // Jack Uniform, Available to everyone by his request.
     class CLASS(JL_Item_Uniform): Item_Base_F {
@@ -21,7 +30,7 @@ class CfgVehicles {
         scope = 1;
         uniformClass = QCLASS(JL_Uniform);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\scientist_02_1_sventa_co.paa),
+            QPATHTOF(data\scientist_02_1_sventafest_co.paa),
             "a3\characters_f_enoch\uniforms\data\scientist_02_2_formal_co.paa",
             "a3\characters_f_enoch\uniforms\data\scientist_01_co.paa",
             "a3\Characters_F_Enoch\Uniforms\Data\scientist_id_default.paa"

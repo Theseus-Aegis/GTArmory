@@ -1,5 +1,6 @@
 class CfgWeapons {
     class CUP_arifle_HK417_20;
+    class CUP_arifle_Mk17_CQC_EGLM;
     class CUP_H_OpsCore_Covered_MCAM;
     class H_HelmetB_TI_arid_F;
     class H_PilotHelmetHeli_B;
@@ -23,6 +24,17 @@ class CfgWeapons {
         scope = 2;
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\h_helmetb_ti_ethan_f_co.paa)
+        };
+    };
+    class CLASS(SCAR_H_EM_Edition): CUP_arifle_Mk17_CQC_EGLM {
+        author = "GilleeDoo";
+        baseWeapon = QCLASS(SCAR_H_EM_Edition);
+        displayName = "SCAR-H CQC 'Ethan' Edition (EGLM)";
+        hiddenSelections[] = {"Camo1","Camo2", "Camo3"};
+        hiddenSelectionsTextures[] = {
+            "\CUP\Weapons\CUP_Weapons_SCAR\data\scar_h_co.paa",
+            "\CUP\Weapons\CUP_Weapons_SCAR\data\scar_acc_co.paa",
+            QPATHTOF(data\eglm_EM_co.paa)
         };
     };
 
@@ -77,7 +89,7 @@ class CfgWeapons {
         scope = 2;
         displayName = "Tee, Jeans (Sventa)";
         hiddenSelections[] = {"camo"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\scientist_02_1_sventa_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\scientist_02_1_sventafest_co.paa)};
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = QCLASS(JL_Uniform);

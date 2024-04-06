@@ -4,6 +4,7 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            QCLASS(EM_Backpack),
             QCLASS(JL_Uniform),
             QCLASS(JV_Uniform),
             QCLASS(MM_item_minotaur_uniform),
@@ -11,6 +12,7 @@ class CfgPatches {
         };
         weapons[] = {
             QCLASS(Ethan_Helmet),
+            QCLASS(SCAR_H_EM_Edition),
             QCLASS(Sig_P226R_Combat_IP_Edition),
             QCLASS(Jack_Beret),
             QCLASS(JL_Uniform),
