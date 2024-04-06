@@ -99,3 +99,15 @@ class CLASS(Surefire_Low_Flashlight_Tan): CLASS(Surefire_Flashlight_Tan) {
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Flashlight_Tan);
     MRT_SwitchItemHintText = "Flashlight Red";
 };
+
+// XC-1-C Pistol Flashlight
+class CLASS(Surefire_XC1_Flashlight): CUP_acc_SF_XC1 {
+    displayName = "Surefire XC1-C (GT Edition)";
+    descriptionShort = "Light GT Edition";
+    class ItemInfo: InventoryFlashLightItem_Base_F {
+        mass = 4;
+        class Flashlight {
+            MACRO_FLASHLIGHT;
+        };
+    };
+};

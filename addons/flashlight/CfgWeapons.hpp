@@ -13,6 +13,7 @@ class CfgWeapons {
     class CUP_acc_LLM01_L;
     class cup_acc_llm_black;
     class CUP_acc_MLPLS_Laser;
+    class CUP_acc_SF_XC1;
     class InventoryFlashLightItem_Base_F;
 
     #include "AN_PEQ.hpp"
