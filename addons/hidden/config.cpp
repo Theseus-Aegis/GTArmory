@@ -10,8 +10,7 @@ class CfgPatches {
             "tacgt_main",
             "CUP_Weapons_AmmoBoxes",
             "CUP_Weapons_Grenades",
-            "CUP_Weapons_Put",
-            "CUP_Weapons_ACE_compat"
+            "CUP_Weapons_Put"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);

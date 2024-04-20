@@ -52,5 +52,6 @@ class asdg_PistolUnderRail: asdg_SlotInfo {
         tacgt_CZ_M3X_Vis_Laser = 1;
         tacgt_MLPLS_Laser = 1;
         tacgt_MLPLS_Vis_Laser = 1;
+        tacgt_Surefire_XC1_Flashlight = 1;
     };
 };

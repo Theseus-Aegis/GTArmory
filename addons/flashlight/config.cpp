@@ -48,6 +48,7 @@ class CfgPatches {
             QCLASS(Surefire_Low_Flashlight_Black),
             QCLASS(Surefire_Low_Flashlight_OD),
             QCLASS(Surefire_Low_Flashlight_Tan),
+            QCLASS(Surefire_XC1_Flashlight),
             QCLASS(UTG_Flashlight),
             QCLASS(UTG_Low_Flashlight)
         };
