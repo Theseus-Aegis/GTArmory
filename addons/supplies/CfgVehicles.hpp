@@ -34,7 +34,9 @@ class CfgVehicles {
         class TransportWeapons {
             MACRO_ADDWEAPON(CUP_launch_RPG7V_PGO7V3,3);
             MACRO_ADDWEAPON(launch_MRAWS_green_rail_F,3);
+            MACRO_ADDWEAPON(tacs_MRAWS_Black_Rail_F,3);
             MACRO_ADDWEAPON(launch_MRAWS_green_F,3);
+            MACRO_ADDWEAPON(tacs_MRAWS_Black_F,3);
             MACRO_ADDWEAPON(launch_NLAW_F,3);
             MACRO_ADDWEAPON(CUP_launch_M136,3);
         };
