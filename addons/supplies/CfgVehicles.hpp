@@ -39,6 +39,7 @@ class CfgVehicles {
             MACRO_ADDWEAPON(tacs_MRAWS_Black_F,3);
             MACRO_ADDWEAPON(launch_NLAW_F,3);
             MACRO_ADDWEAPON(CUP_launch_M136,3);
+            MACRO_ADDWEAPON(tacgt_rpag_2,2);
         };
         class TransportBackpacks {};
     };
