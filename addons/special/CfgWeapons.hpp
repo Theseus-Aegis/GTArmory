@@ -13,6 +13,7 @@ class CfgWeapons {
     class milgp_v_marciras_medic_belt_rgr;
     class U_B_CTRG_Soldier_2_Arid_F;
     class U_B_GEN_Commander_F;
+    class U_C_E_LooterJacket_01_F;
     class U_C_Uniform_Scientist_02_formal_F;
     class U_I_C_Soldier_Bandit_2_F;
     class Uniform_Base;
@@ -26,12 +27,11 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\custom_davids_helmet_co.paa)};
     };
 
-    // Jay - Incomplete
-    class U_C_E_LooterJacket_01_F;
+    // Jay
     class CLASS(Custom_Fifright_Uniform): U_C_E_LooterJacket_01_F {
         author = "GilleeDoo";
-        scope = 1;
-        displayName = "FINISH ME";
+        scope = 2;
+        displayName = "Kryptek Obskura Jacket, PMC Casual";
         hiddenSelections[] = {"camo"};
         hiddenselectionsTextures[] = {QPATHTOF(data\custom_fifright_uniform_co.paa)};
         class ItemInfo: UniformItem {

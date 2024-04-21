@@ -2,22 +2,22 @@ class CfgVehicles {
     class B_CTRG_Soldier_2_arid_F;
     class B_GEN_Commander_F;
     class B_Kitbag_Base;
+    class C_E_LooterJacket_01_F;
     class C_Uniform_Scientist_02_formal_F;
     class I_C_Soldier_Bandit_2_F;
     class Item_Base_F;
 
-    // Jay Uniform - Incomplete
+    // Jay Uniform
     class CLASS(Custom_Fifright_Uniform_Item): Item_Base_F {
         author = "GilleeDoo";
-        displayName = "FINISH ME";
-        scope = 1;
-        scopeCurator = 1;
+        displayName = "Kryptek Obskura Jacket, PMC Casual";
+        scope = 2;
+        scopeCurator = 2;
         vehicleClass = "ItemsUniforms";
         class TransportItems {
             MACRO_ADDITEM(tacgt_Custom_Fifright_Uniform,1);
         };
     };
-    class C_E_LooterJacket_01_F;
     class CLASS(Custom_Fifright_Uniform_V): C_E_LooterJacket_01_F {
         author = "GilleeDoo";
         scope = 1;
