@@ -4,10 +4,10 @@ class CfgMagazines {
     class CUP_HandGrenade_M67: HandGrenade {
         scope = 1;
     };
-    class CUP_HandGrenade_L109A1_HE: CUP_HandGrenade_M67 {
+    class CUP_HandGrenade_L109A1_HE: HandGrenade {
         scope = 1;
     };
-    class CUP_HandGrenade_L109A2_HE: CUP_HandGrenade_M67 {
+    class CUP_HandGrenade_L109A2_HE: HandGrenade {
         scope = 1;
     };
 
