@@ -147,7 +147,6 @@ class CfgWeapons {
         displayName = "Stealth Helmet, 'Ethan' Edition";
         scope = 2;
         hiddenSelectionsTextures[] = {QPATHTOF(data\custom_mcquade_helmet_co.paa)};
-        picture = QPATHTOF(ui\custom_mcquade_helmet_ca.paa);
     };
 
     class CLASS(Custom_McQuade_SCARH_EGLM): CUP_arifle_Mk17_CQC_EGLM {
