@@ -4,26 +4,32 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            QCLASS(JV_Item_Uniform),
-            QCLASS(MM_item_minotaur_uniform),
-            QCLASS(MW_Item_Stealth_Uniform)
+            QCLASS(Custom_Fifright_Uniform_V),
+            QCLASS(Custom_Laird_Uniform_V),
+            QCLASS(Custom_Mathews_Uniform_V),
+            QCLASS(Custom_McQuade_Backpack),
+            QCLASS(Custom_Vee_Uniform_V),
+            QCLASS(Custom_Woods_Uniform_V)
         };
         weapons[] = {
-            QCLASS(Ethan_Helmet),
-            QCLASS(Sig_P226R_Combat_IP_Edition),
-            QCLASS(Jack_Beret),
-            QCLASS(JJ_HeliPilot_Black),
-            QCLASS(Joram_HeliPilot_Black),
-            QCLASS(JV_Uniform),
-            QCLASS(AUGA2_HBAR_Vee_Blue),
-            QCLASS(RG_marciras_hh_belt_rgr),
-            QCLASS(RG_marciras_hh_belt_khk),
-            QCLASS(MM_minotaur_uniform),
-            QCLASS(MM_opscore_mcam),
-            QCLASS(MW_marciras_wd_belt_rgr),
-            QCLASS(MW_stealth_tee),
-            QCLASS(M11A1_Special),
-            QCLASS(Rambo_HK417DMR_White)
+            QCLASS(Custom_Davids_Helmet),
+            QCLASS(Custom_Fifright_Uniform),
+            QCLASS(Custom_Guldentops_Vest_KHK),
+            QCLASS(Custom_Guldentops_Vest_RGR),
+            QCLASS(Custom_James_Helmet),
+            QCLASS(Custom_Laird_Bonnet),
+            QCLASS(Custom_Laird_Uniform),
+            QCLASS(Custom_Mathews_Uniform),
+            QCLASS(Custom_McCarthy_Helmet),
+            QCLASS(Custom_McQuade_Helmet),
+            QCLASS(Custom_McQuade_SCARH_EGLM),
+            QCLASS(Custom_Pierce_Handgun),
+            QCLASS(Custom_Rambo_HK417),
+            QCLASS(Custom_Vee_HBAR),
+            QCLASS(Custom_Vee_Uniform),
+            QCLASS(Custom_Woods_Uniform),
+            QCLASS(Custom_Woods_Vest),
+            QCLASS(Custom_Zakharov_Handgun)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
