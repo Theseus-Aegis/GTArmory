@@ -26,10 +26,7 @@ class CfgPatches {
             "tacgt_theseus",
             "tacs_vests",
             "ace_medical_treatment",
-            "CUP_Weapons_Ammunition",
-            "CUP_Weapons_NVG",
-            "CUP_Weapons_East_Attachments",
-            "CUP_Weapons_M136"
+            "CUP_Weapons_LoadOrder"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
