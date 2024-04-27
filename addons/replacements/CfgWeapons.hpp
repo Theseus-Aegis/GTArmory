@@ -32,7 +32,6 @@ class CfgWeapons {
             "ACE_tourniquet",
             "ACE_tourniquet",
             "ACE_tourniquet",
-            "ACE_painkillers",
             "ACE_painkillers"
         };
     };
