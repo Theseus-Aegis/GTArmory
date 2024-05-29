@@ -12,6 +12,11 @@ class arifle_SLR_V_GL_lxWS: arifle_SLR_V_lxWS {
     recoil = QCLASS(762N_Long);
 };
 
+// SLR Para
+class arifle_SLR_Para_lxWS: arifle_SLR_V_lxWS {
+    recoil = QCLASS(762N_Short);
+};
+
 // SA-77
 class LMG_S77_lxWS: LMG_S77_base_lxWS {
     recoil = QCLASS(762N_Long_MG);
