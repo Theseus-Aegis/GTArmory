@@ -14,7 +14,7 @@ class arifle_SLR_V_GL_lxWS: arifle_SLR_V_lxWS {
 
 // SLR Para
 class arifle_SLR_Para_lxWS: arifle_SLR_V_lxWS {
-    recoil = QCLASS(762N_Short);
+    recoil = QCLASS(762N_Short_FG);
 };
 
 // SA-77
