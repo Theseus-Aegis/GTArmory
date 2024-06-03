@@ -31,15 +31,16 @@ class CfgMagazines {
     class 16Rnd_9x21_Mag;
     class 11Rnd_45ACP_Mag;
 
-    #include "bi\magazines\12g.hpp"
-    #include "bi\magazines\45ACP.hpp"
-    #include "bi\magazines\545x39.hpp"
-    #include "bi\magazines\556x45.hpp"
-    #include "bi\magazines\57x28.hpp"
-    #include "bi\magazines\58x42.hpp"
-    #include "bi\magazines\65x39.hpp"
-    #include "bi\magazines\762x39.hpp"
-    #include "bi\magazines\762x51.hpp"
-    #include "bi\magazines\762x54r.hpp"
-    #include "bi\magazines\9x19.hpp"
+    #include "bi\12g.hpp"
+    #include "bi\45ACP.hpp"
+    #include "bi\545x39.hpp"
+    #include "bi\556x45.hpp"
+    #include "bi\57x28.hpp"
+    #include "bi\58x42.hpp"
+    #include "bi\65x39.hpp"
+    #include "bi\762x39.hpp"
+    #include "bi\762x51.hpp"
+    #include "bi\762x54r.hpp"
+    #include "bi\9x19.hpp"
+    #include "bi\vehicle.hpp"
 };
