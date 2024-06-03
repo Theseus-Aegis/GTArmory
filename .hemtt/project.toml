@@ -35,3 +35,9 @@ extends = "default"
 dlc = [
     "ws",
 ]
+
+[hemtt.launch.rf]
+extends = "default"
+dlc = [
+    "rf",
+]
