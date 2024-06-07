@@ -5,6 +5,7 @@ class CLASS(10Rnd_127x55_AP_Mag_RF): 10Rnd_127x55_Mag_RF {
     displayNameShort = "Ball";
     descriptionShort = "12.7x55mm AP Reload Tracer";
     lastRoundsTracer = 4;
+    mass = 8;
 };
 class CLASS(10Rnd_127x55_AP_Mag_desert_RF): 10Rnd_127x55_Mag_desert_RF {
     MACRO_SCOPE;
@@ -13,6 +14,7 @@ class CLASS(10Rnd_127x55_AP_Mag_desert_RF): 10Rnd_127x55_Mag_desert_RF {
     displayNameShort = "Ball";
     descriptionShort = "12.7x55mm AP Reload Tracer";
     lastRoundsTracer = 4;
+    mass = 8;
 };
 class CLASS(10Rnd_127x55_AP_Mag_wood_RF): 10Rnd_127x55_Mag_wood_RF {
     MACRO_SCOPE;
@@ -21,6 +23,7 @@ class CLASS(10Rnd_127x55_AP_Mag_wood_RF): 10Rnd_127x55_Mag_wood_RF {
     displayNameShort = "Ball";
     descriptionShort = "12.7x55mm AP Reload Tracer";
     lastRoundsTracer = 4;
+    mass = 8;
 };
 
 class CLASS(20Rnd_127x55_AP_Mag_RF): 20Rnd_127x55_Mag_RF {
@@ -30,6 +33,7 @@ class CLASS(20Rnd_127x55_AP_Mag_RF): 20Rnd_127x55_Mag_RF {
     displayNameShort = "Ball";
     descriptionShort = "12.7x55mm AP Reload Tracer";
     lastRoundsTracer = 4;
+    mass = 16;
 };
 class CLASS(20Rnd_127x55_AP_Mag_desert_RF): 20Rnd_127x55_Mag_desert_RF {
     MACRO_SCOPE;
@@ -38,6 +42,7 @@ class CLASS(20Rnd_127x55_AP_Mag_desert_RF): 20Rnd_127x55_Mag_desert_RF {
     displayNameShort = "Ball";
     descriptionShort = "12.7x55mm AP Reload Tracer";
     lastRoundsTracer = 4;
+    mass = 16;
 };
 class CLASS(20Rnd_127x55_AP_Mag_wood_RF): 20Rnd_127x55_Mag_wood_RF {
     MACRO_SCOPE;
@@ -46,4 +51,5 @@ class CLASS(20Rnd_127x55_AP_Mag_wood_RF): 20Rnd_127x55_Mag_wood_RF {
     displayNameShort = "Ball";
     descriptionShort = "12.7x55mm AP Reload Tracer";
     lastRoundsTracer = 4;
+    mass = 16;
 };
