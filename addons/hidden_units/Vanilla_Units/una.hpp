@@ -54,6 +54,10 @@ class B_UN_Soldier_TL_lxWS: B_Soldier_TL_F {
     scope = 1;
     scopeCurator = 1;
 };
+class B_UN_soldier_LAT2_lxWS: B_soldier_LAT2_F {
+    scope = 1;
+    scopeCurator = 1;
+};
 
 // Vehicles
 class B_UN_APC_Wheeled_01_command_lxWS: APC_Wheeled_01_command_base_lxWS {

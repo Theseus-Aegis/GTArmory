@@ -37,12 +37,16 @@ class CLASS(Lootbox_LMG): tac_supplies_randomizedBox {
         "hlc_lmg_mk46",
         "hlc_lmg_mk48",
         "hlc_lmg_mk48mod1",
+        "hlc_m249_pip1",
+        "hlc_m249_pip3",
+        "hlc_m249_SQuantoon",
         "LMG_03_F",
         "LMG_Mk200_black_F",
         "LMG_Mk200_F",
         "LMG_S77_Compact_lxWS",
         "LMG_S77_lxWS",
         "LMG_Zafir_F",
-        "tacgt_lmg_lamg"
+        "tacgt_lmg_lamg",
+        "TACU_Assets_W_HK416A5_Arid"
     };
 };
