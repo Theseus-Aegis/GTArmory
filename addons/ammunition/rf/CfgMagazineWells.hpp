@@ -1,4 +1,26 @@
 class CfgMagazineWells {
+    class CBA_40mm_M203 {
+        ADDON[] = {
+            "1Rnd_RC40_HE_shell_RF",
+            "1Rnd_RC40_shell_RF",
+            "1Rnd_RC40_SmokeBlue_shell_RF",
+            "1Rnd_RC40_SmokeGreen_shell_RF",
+            "1Rnd_RC40_SmokeOrange_shell_RF",
+            "1Rnd_RC40_SmokeRed_shell_RF",
+            "1Rnd_RC40_SmokeWhite_shell_RF"
+        };
+    };
+    class CBA_40mm_EGLM {
+        ADDON[] = {
+            "1Rnd_RC40_HE_shell_RF",
+            "1Rnd_RC40_shell_RF",
+            "1Rnd_RC40_SmokeBlue_shell_RF",
+            "1Rnd_RC40_SmokeGreen_shell_RF",
+            "1Rnd_RC40_SmokeOrange_shell_RF",
+            "1Rnd_RC40_SmokeRed_shell_RF",
+            "1Rnd_RC40_SmokeWhite_shell_RF"
+        };
+    };
     class CBA_556x45_STANAG {
         ADDON[] = {
             QCLASS(10Rnd_556x45_Ball_Stanag_RF),
@@ -56,6 +78,11 @@ class CfgMagazineWells {
             QCLASS(33Rnd_9x19_Ball_Mag_khk_RF),
             QCLASS(33Rnd_9x19_Ball_Mag_Tan_RF),
             QCLASS(65Rnd_9x19_Ball_Mag_RF)
+        };
+    };
+    class Pistol_DEagle_RF {
+        ADDON[] = {
+            QCLASS(7Rnd_50AE_Ball_Mag_RF)
         };
     };
 };

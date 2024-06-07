@@ -4,4 +4,10 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128";
         MACRO_TRACERS;
     };
+
+    class B_50AE_Ball_RF;
+    class CLASS(50AE_Ball): B_50AE_Ball_RF {
+        aiAmmoUsageFlags = "64 + 128";
+        MACRO_TRACERS;
+    };
 };

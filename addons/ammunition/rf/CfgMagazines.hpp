@@ -22,7 +22,10 @@ class CfgMagazines {
     class 33Rnd_9x19_Mag_Tan_RF;
     class 65Rnd_9x19_Mag_RF;
 
+    class 7Rnd_50AE_Mag_RF;
+
     #include "magazines\9x19.hpp"
+    #include "magazines\50AE.hpp"
     #include "magazines\556x45.hpp"
     #include "magazines\127x55.hpp"
 };
