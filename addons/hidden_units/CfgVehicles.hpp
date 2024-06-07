@@ -21,8 +21,6 @@ class CfgVehicles {
     #include "CUP_Units\united_states_marine_corps.hpp"
 
     #include "Vanilla_Units\ctrg.hpp"
-    #include "Vanilla_Units\sfia.hpp"
-    #include "Vanilla_Units\una.hpp"
 
     #include "CfgVehicles_Turrets.hpp"
     #include "CfgVehicles_Vehicles.hpp"
