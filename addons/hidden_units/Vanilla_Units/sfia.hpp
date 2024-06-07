@@ -63,6 +63,82 @@ class I_SFIA_soldier_lite_lxWS: I_SFIA_soldier_lxWS {
     scope = 1;
     scopeCurator = 1;
 };
+class I_SFIA_defector_lxWS: I_SFIA_soldier_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_Tura_deserter_lxWS: I_SFIA_deserter_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_SFIA_enforcer_lxWS: I_C_Soldier_Para_2_F {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_SFIA_hireling_lxWS: I_C_Soldier_Bandit_2_F {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_Tura_HeavyGunner_lxWS: I_Tura_deserter_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_SFIA_scout_lxWS: I_C_Soldier_Bandit_5_F {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_SFIA_medic2_lxWS: I_C_Soldier_Bandit_1_F {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_SFIA_thug_lxWS: I_SFIA_scout_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_Tura_soldier_UAV_lxWS: I_Tura_deserter_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_SFIA_watcher_lxWS: I_C_Soldier_Bandit_4_F {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_SFIA_Said_lxWS: I_SFIA_officer_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_PMC_Story_Gustavo_lxWS: I_PMC_Soldier_01_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_Tura_HMG_02_lxWS: I_SFIA_HMG_02_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_Tura_HMG_02_high_lxWS: I_SFIA_HMG_02_high_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_Tura_Mortar_lxWS: I_SFIA_Mortar_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_Tura_Offroad_armor_lxWS: Offroad_01_armor_base_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_Tura_Offroad_armor_AT_lxWS: Offroad_01_armor_AT_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_Tura_Offroad_armor_armed_lxWS: Offroad_01_armor_armed_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class I_Tura_UAV_02_IED_lxWS: UAV_02_IED_Base_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
 
 // Opfor
 class O_SFIA_Soldier_AAA_lxWS: I_SFIA_Soldier_AAA_lxWS {
@@ -138,6 +214,46 @@ class O_SFIA_survivor_lxWS: I_SFIA_survivor_lxWS {
     scopeCurator = 1;
 };
 class O_SFIA_Soldier_TL_lxWS: I_SFIA_Soldier_TL_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_defector_lxWS: I_SFIA_defector_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_deserter_lxWS: I_SFIA_deserter_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_enforcer_lxWS: I_SFIA_enforcer_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_hireling_lxWS: I_SFIA_hireling_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_HeavyGunner_lxWS: I_Tura_HeavyGunner_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_scout_lxWS: I_SFIA_scout_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_medic2_lxWS: I_SFIA_medic2_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_thug_lxWS: I_SFIA_thug_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_soldier_UAV_lxWS: O_Tura_deserter_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_watcher_lxWS: I_SFIA_watcher_lxWS {
     scope = 1;
     scopeCurator = 1;
 };
@@ -232,6 +348,82 @@ class O_SFIA_Mortar_lxWS: I_SFIA_Mortar_lxWS {
     scopeCurator = 1;
 };
 class O_SFIA_ZU23_lxWS: I_SFIA_ZU23_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_Offroad_armor_lxWS: I_Tura_Offroad_armor_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_Offroad_armor_AT_lxWS: I_Tura_Offroad_armor_AT_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_Offroad_armor_armed_lxWS: I_Tura_Offroad_armor_armed_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class O_Tura_UAV_02_IED_lxWS: UAV_02_IED_Base_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+// Blufor
+class B_Tura_defector_lxWS: I_SFIA_defector_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_deserter_lxWS: I_SFIA_deserter_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_enforcer_lxWS: I_SFIA_enforcer_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_hireling_lxWS: I_SFIA_hireling_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_HeavyGunner_lxWS: I_Tura_HeavyGunner_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_scout_lxWS: I_SFIA_scout_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_medic2_lxWS: I_SFIA_medic2_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_thug_lxWS: I_SFIA_thug_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_soldier_UAV_lxWS: B_Tura_deserter_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_watcher_lxWS: I_SFIA_watcher_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+
+// Vehicles
+class B_Tura_Offroad_armor_lxWS: I_Tura_Offroad_armor_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_Offroad_armor_AT_lxWS: I_Tura_Offroad_armor_AT_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_Offroad_armor_armed_lxWS: I_Tura_Offroad_armor_armed_lxWS {
+    scope = 1;
+    scopeCurator = 1;
+};
+class B_Tura_UAV_02_IED_lxWS: UAV_02_IED_Base_lxWS {
     scope = 1;
     scopeCurator = 1;
 };
