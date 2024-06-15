@@ -19,7 +19,6 @@ class CLASS(18Rnd_9x19_CZ75_Ball): CUP_18Rnd_9x19_Phantom {
 };
 
 // 9x19 Glock
-class CUP_17Rnd_9x19_glock17;
 class CLASS(17Rnd_9x19_Glock_Ball): CUP_17Rnd_9x19_glock17 {
     MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
