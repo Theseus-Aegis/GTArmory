@@ -9,7 +9,8 @@ class CfgPatches {
         requiredAddons[] = {
             "cpc_Vest_config",
             "lbtt_Vest_config",
-            "fatpack"
+            "fatpack",
+            "C_Gen3_Characters"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
