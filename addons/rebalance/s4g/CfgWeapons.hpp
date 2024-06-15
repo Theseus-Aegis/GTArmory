@@ -1,4 +1,67 @@
 class CfgWeapons {
+
+    // Uniforms - Lowered mass from 80 to 40
+    class Uniform_Base;
+    class UniformItem;
+    class Gen3_Multicam: Uniform_Base {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+    class Gen3_Ranger: Gen3_Multicam {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+    class Gen3_M81: Gen3_Multicam {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+    class Gen3_Tan: Gen3_Multicam {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+    class Gen3_Blk: Gen3_Multicam {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+    class Gen3_mctropical: Gen3_Multicam {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+    class Gen3_mcarid: Gen3_Multicam {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+    class Gen3_atacsfg: Gen3_Multicam {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+    class Gen3_atacsau: Gen3_Multicam {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+    class Gen3_aor1: Gen3_Multicam {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+    class Gen3_aor2: Gen3_Multicam {
+        class ItemInfo: UniformItem {
+            mass = 40;
+        };
+    };
+
+
+    // Vests
+
     // CPC
     class VestItem;
     class Vest_Camo_Base;
