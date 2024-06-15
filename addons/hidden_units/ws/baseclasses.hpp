@@ -94,6 +94,5 @@ class B_Truck_01_transport_F;
 class B_Truck_01_covered_F;
 class B_MRAP_01_F;
 class Offroad_01_base_lxWS;
-class Offroad_01_armor_base_lxWS;
 class Heli_Transport_02_base_F;
 class I_MBT_03_cannon_F;
