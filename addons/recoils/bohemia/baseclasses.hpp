@@ -27,7 +27,6 @@ class arifle_MSBS65_UBS_base_sand_F;
 class arifle_MX_Base_F;
 class arifle_RPK12_base_F;
 class arifle_SPAR_01_base_F;
-class arifle_SPAR_01_base_F;
 class arifle_SPAR_01_GL_base_F;
 class arifle_SPAR_02_base_F;
 class arifle_SPAR_03_base_F;

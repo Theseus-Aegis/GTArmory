@@ -1,5 +1,4 @@
 // 9x19 Browning
-class CUP_13Rnd_9x19_Browning_HP;
 class CLASS(13Rnd_9x19_Browning_Ball): CUP_13Rnd_9x19_Browning_HP {
     MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
@@ -9,7 +8,6 @@ class CLASS(13Rnd_9x19_Browning_Ball): CUP_13Rnd_9x19_Browning_HP {
 };
 
 // 9x19 CZ75
-class CUP_18Rnd_9x19_Phantom;
 class CLASS(18Rnd_9x19_CZ75_Ball): CUP_18Rnd_9x19_Phantom {
     MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
@@ -28,7 +26,6 @@ class CLASS(17Rnd_9x19_Glock_Ball): CUP_17Rnd_9x19_glock17 {
 };
 
 // 9x19 M17
-class CUP_17Rnd_9x19_M17_Black;
 class CLASS(17Rnd_9x19_M17_Ball): CUP_17Rnd_9x19_M17_Black {
     MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
@@ -38,7 +35,6 @@ class CLASS(17Rnd_9x19_M17_Ball): CUP_17Rnd_9x19_M17_Black {
 };
 
 // 9x19 M9
-class CUP_15Rnd_9x19_M9;
 class CLASS(15Rnd_9x19_M9_Ball): CUP_15Rnd_9x19_M9 {
     MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
