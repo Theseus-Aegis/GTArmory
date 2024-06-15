@@ -15,16 +15,16 @@ class CLASS(Lootbox_Marksman): tac_supplies_randomizedBox {
         "arifle_SPAR_03_snd_F",
         "bnae_falkor_blk_virtual",
         "bnae_falkor_snd_virtual",
-        "CUP_srifle_CZ750",
         "CUP_arifle_DSA_SA58_DMR",
         "CUP_arifle_HK417_20",
-        "CUP_srifle_G22_wdl",
-        "CUP_srifle_G22_blk",
-        "CUP_srifle_G22_des",
         "CUP_arifle_Mk16_SV",
         "CUP_arifle_Mk16_SV_black",
         "CUP_arifle_Mk20",
         "CUP_arifle_Mk20_black",
+        "CUP_srifle_CZ750",
+        "CUP_srifle_G22_blk",
+        "CUP_srifle_G22_des",
+        "CUP_srifle_G22_wdl",
         "CUP_srifle_L129A1",
         "CUP_srifle_L129A1_HG",
         "CUP_srifle_M110_black",
@@ -46,6 +46,7 @@ class CLASS(Lootbox_Marksman): tac_supplies_randomizedBox {
         "srifle_DMR_07_ghex_F",
         "srifle_DMR_07_hex_F",
         "srifle_EBR_F",
-        "tacs_EBR_Black_F"
+        "tacs_EBR_Black_F",
+        "TACU_Assets_W_HK417A2_Arid"
     };
 };

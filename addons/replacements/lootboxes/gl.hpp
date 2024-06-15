@@ -31,6 +31,7 @@ class CLASS(Lootbox_GL): tac_supplies_randomizedBox {
         "CUP_arifle_AK12_GP34_black",
         "CUP_arifle_AK19_GP34_bicolor",
         "CUP_arifle_AK19_GP34_black",
+        "CUP_arifle_AK19_GP34_tiger",
         "CUP_arifle_AK47_GL_top_rail",
         "CUP_arifle_AK74_GL_top_rail",
         "CUP_arifle_AK74M_GL_railed",
@@ -77,6 +78,7 @@ class CLASS(Lootbox_GL): tac_supplies_randomizedBox {
         "hlc_rifle_SG551SB_TAC_GL",
         "tacgt_GTAR21_EGLM_Black",
         "tacs_MK20_EGLM_Black_F",
-        "tacs_MX_GL_BlackCamo"
+        "tacs_MX_GL_BlackCamo",
+        "TACU_Assets_W_HK416A5_GL_Arid"
     };
 };
