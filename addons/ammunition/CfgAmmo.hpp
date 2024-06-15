@@ -63,7 +63,6 @@ class CfgAmmo {
     };
 
     // 9x19mm
-    class B_9x21_Ball_Tracer_Yellow;
     class CLASS(9x19_Ball): B_9x21_Ball_Tracer_Yellow {
         aiAmmoUsageFlags = "64 + 128";
         caliber = 0.1;

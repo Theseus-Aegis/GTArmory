@@ -1,5 +1,4 @@
 // .45ACP FNX-45
-class 11Rnd_45ACP_Mag;
 class CLASS(15Rnd_45ACP_FNX45_Ball): 11Rnd_45ACP_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(45ACP_Ball);
