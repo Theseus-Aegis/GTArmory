@@ -28,8 +28,6 @@ class CUP_arifle_M4A1_BUIS_Base;
 class CUP_arifle_Mk17_Base;
 class CUP_arifle_OTS14_GROZA_762_base;
 class CUP_arifle_SCAR_L_Base;
-class CUP_arifle_X95;
-class CUP_arifle_X95_Grippod;
 class CUP_arifle_XM16E1;
 class CUP_CZ_BREN2_762_Base;
 class CUP_CZ_BREN2_762_GL_Base;
