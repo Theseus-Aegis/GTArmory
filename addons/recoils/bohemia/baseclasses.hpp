@@ -30,8 +30,6 @@ class arifle_SPAR_01_base_F;
 class arifle_SPAR_01_GL_base_F;
 class arifle_SPAR_02_base_F;
 class arifle_SPAR_03_base_F;
-class arifle_TRG20_F;
-class arifle_TRG21_F;
 class DMR_02_base_F;
 class DMR_03_base_F;
 class DMR_06_base_F;
