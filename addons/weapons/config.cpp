@@ -11,7 +11,6 @@ class CfgPatches {
             QCLASS(GTAR21_EGLM_Black),
             QCLASS(CTAR21_Black),
             QCLASS(LMG_LAMG),
-            QCLASS(RFB_762_F),
             QCLASS(Rhino_357),
             QCLASS(Rhino_44)
         };
@@ -32,7 +31,9 @@ class CfgPatches {
 class Mode_SemiAuto;
 class Mode_FullAuto;
 
+#include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
 #include "CfgRecoils.hpp"
+#include "CfgSoundShaders.hpp"
 #include "CfgWeapons.hpp"
