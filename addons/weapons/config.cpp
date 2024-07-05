@@ -31,7 +31,6 @@ class CfgPatches {
 class Mode_SemiAuto;
 class Mode_FullAuto;
 
-#include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
 #include "CfgRecoils.hpp"
