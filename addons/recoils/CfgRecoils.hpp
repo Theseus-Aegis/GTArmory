@@ -36,13 +36,13 @@ class CfgRecoils {
     // SMG Recoils - Not handled by caliber as it doesn't really make much difference between them, minor recoil to keep them viable.
     class CLASS(SMG_Base) {
         kickBack[] = {0.02, 0.03};
-        muzzleOuter[] = {0.18, 0.3, 0.16, 0.18};
+        muzzleOuter[] = {0.18, 0.25, 0.16, 0.18};
         permanent = 0.12;
         temporary = 0.08;
     };
     class CLASS(SMG_Foregrip) {
         kickBack[] = {0.018, 0.035};
-        muzzleOuter[] = {0.16, 0.28, 0.14, 0.16};
+        muzzleOuter[] = {0.16, 0.23, 0.14, 0.16};
         permanent = 0.1;
         temporary = 0.06;
     };
