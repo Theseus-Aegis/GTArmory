@@ -15,6 +15,10 @@ class CfgPatches {
     };
 };
 
+class CfgAnimation {
+    ladderSpeed = 1; // default: 0.5
+};
+
 class CfgMovesBasic;
 class CfgMovesMaleSdr: CfgMovesBasic {
     class States {
