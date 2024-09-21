@@ -1,4 +1,5 @@
 class CfgWeapons {
+    class CUP_arifle_HK416_CQB_Black;
     class CUP_arifle_HK417_20;
     class CUP_arifle_Mk17_CQC_EGLM;
     class CUP_H_OpsCore_Covered_MCAM;
@@ -18,6 +19,17 @@ class CfgWeapons {
     class U_I_C_Soldier_Bandit_2_F;
     class Uniform_Base;
     class UniformItem;
+
+    // Bruno
+    class CLASS(Custom_Almeida_HK416): CUP_arifle_HK416_CQB_Black {
+        author = "GilleeDoo, Mike";
+        scope = 2;
+        displayName = "HK416 CQC 'Almeida' Edition";
+        hiddenSelectionsTextures[] = {
+            "\cup\weapons\cup_weapons_hk416\data\new_hk416_co.paa",
+            QPATHTOF(data\custom_almeida_hk416_furniture_co.paa)
+        };
+    };
 
     // Joram
     class CLASS(Custom_Davids_Helmet): H_PilotHelmetHeli_B {
