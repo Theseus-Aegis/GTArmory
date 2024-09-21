@@ -74,6 +74,6 @@ class CfgWeapons {
     class CLASS(PASGT_ASU): H_PASGT_basic_white_F {
         displayName = "PASGT Helmet (ASU)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\pasgt_asu_co.paa)};
-        //picture = QPATHTOF(ui\pasgt_asu_ca.paa); TODO
+        picture = QPATHTOF(ui\pasgt_asu_ca.paa);
     };
 };
