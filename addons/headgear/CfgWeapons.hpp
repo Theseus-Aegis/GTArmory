@@ -54,6 +54,14 @@ class CfgWeapons {
         };
     };
 
+    class tacs_Cap_BlackLogo;
+    class CLASS(Cap_GT): tacs_Cap_BlackLogo {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "Cap (GT Armory)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_gtarmory_co.paa)};
+    };
+
     class CUP_H_USA_Cap_AU_DEF;
     class CLASS(Cap_DEF_NYMets): CUP_H_USA_Cap_AU_DEF {
         author = "GilleeDoo";
