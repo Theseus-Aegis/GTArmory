@@ -76,4 +76,12 @@ class CfgWeapons {
         displayName = "Cap w/DEF (Arizona State)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_def_asu_co.paa)};
     };
+
+    // PASGT
+    class H_PASGT_basic_white_F;
+    class CLASS(PASGT_ASU): H_PASGT_basic_white_F {
+        displayName = "PASGT Helmet (ASU)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\pasgt_asu_co.paa)};
+        picture = QPATHTOF(ui\pasgt_asu_ca.paa);
+    };
 };
