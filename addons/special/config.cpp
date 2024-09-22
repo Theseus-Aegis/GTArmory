@@ -12,6 +12,7 @@ class CfgPatches {
             QCLASS(Custom_Woods_Uniform_V)
         };
         weapons[] = {
+            QCLASS(Custom_Almeida_HK416),
             QCLASS(Custom_Davids_Helmet),
             QCLASS(Custom_Fifright_Uniform),
             QCLASS(Custom_Guldentops_Vest_KHK),
