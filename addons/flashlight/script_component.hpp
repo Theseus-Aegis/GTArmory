@@ -14,52 +14,77 @@
     scopeArsenal = 1
 
 #define MACRO_FLASHLIGHT \
-    color[] = {185, 190, 199}; \
     ambient[] = {6, 9, 9}; \
-    intensity = 100; \
-    size = 1; \
-    innerAngle = 18; \
-    outerAngle = 150; \
-    coneFadeCoef = 8; \
-    position = "flash dir"; \
+    color[] = {185, 190, 199}; \
+    coneFadeCoef = 150; \
+    dayLight = 1; \
     direction = "flash"; \
+    flareMaxDistance = 600; \
+    flareSize = 1; \
+    innerAngle = 15; \
+    intensity = 100; \
+    outerAngle = 120; \
+    position = "flash dir"; \
+    size = 1; \
     useFlare = 1; \
-    flareSize = 1.5; \
-    flareMaxDistance = 300; \
-    dayLight = 0; \
     class Attenuation { \
-        start = 0; \
         constant = 1; \
+        hardLimitEnd = 175; \
+        hardLimitStart = 100; \
         linear = 1; \
-        quadratic = 1; \
-        hardLimitStart = 200; \
-        hardLimitEnd = 300; \
+        quadratic = 0; \
+        start = 0.1; \
     }; \
     scale [] = {0}
 
 #define MACRO_RED_FLASHLIGHT \
-    color[] = {175, 50, 36}; \
     ambient[] = {9, 9, 9}; \
-    intensity = 17; \
-    size = 1; \
-    innerAngle = 18; \
-    outerAngle = 100; \
+    color[] = {175, 50, 36}; \
     coneFadeCoef = 5; \
-    position = "flash dir"; \
-    direction = "flash"; \
-    useFlare = 1; \
-    flareSize = 1.5; \
-    flareMaxDistance = 150; \
     dayLight = 0; \
+    direction = "flash"; \
+    flareMaxDistance = 150; \
+    flareSize = 1; \
+    innerAngle = 15; \
+    intensity = 17; \
+    outerAngle = 120; \
+    position = "flash dir"; \
+    size = 1; \
+    useFlare = 1; \
     class Attenuation { \
-        start = 0; \
         constant = 1; \
+        hardLimitEnd = 175; \
+        hardLimitStart = 100; \
         linear = 1; \
-        quadratic = 1; \
-        hardLimitStart = 200; \
-        hardLimitEnd = 300; \
+        quadratic = 0; \
+        start = 0.1; \
     }; \
     scale [] = {0}
+
+#define MACRO_IR_LIGHT \
+    color[] = {1, 1, 1}; \
+    ambient[] = {1, 1, 1}; \
+    size = 1; \
+    innerAngle = 10; \
+    outerAngle = 12; \
+    position = "laser pos"; \
+    direction = "laser dir"; \
+    useFlare = 1; \
+    flareSize = 1.4; \
+    flareMaxDistance = 200; \
+    coneFadeCoef = 6; \
+    intensity = 50; \
+    irLight = 1; \
+    volumeShape = "a3\data_f\VolumeLightFlashlight.p3d"; \
+    scale[] = {0.25, 0.25, 1}; \
+    class Attenuation { \
+        constant = 1; \
+        linear = 0; \
+        quadratic = 0.001; \
+        start = 1; \
+        hardLimitStart = 570; \
+        hardLimitEnd = 600; \
+    }
 
 #define MACRO_IR_POINTER \
     RMBhint = "Laser Pointer"; \
