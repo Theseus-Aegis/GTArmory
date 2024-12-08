@@ -30,14 +30,32 @@ workshop = [
     "1779063631", # Zeus Enhanced
 ]
 
+[hemtt.launch.adt]
+extends = "default"
+workshop = [
+    "2369477168", # ADT
+]
+
 [hemtt.launch.ws]
 extends = "default"
 dlc = [
     "ws",
 ]
 
-# [hemtt.launch.rf]
-# extends = "default"
-# dlc = [
-#     "rf",
-# ]
+[hemtt.launch.rf]
+extends = "default"
+dlc = [
+    "rf",
+]
+
+[hemtt.launch.aegis]
+extends = "default"
+workshop = [
+    "2538332070", # Aegis - Development
+]
+
+[hemtt.launch.atlas]
+extends = "default"
+workshop = [
+    "2538339575", # Atlas - Development
+]
