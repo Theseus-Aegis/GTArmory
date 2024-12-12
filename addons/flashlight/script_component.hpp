@@ -44,20 +44,20 @@
     dayLight = 0; \
     direction = "flash"; \
     flareMaxDistance = 150; \
-    flareSize = 1; \
-    innerAngle = 15; \
+    flareSize = 1.5; \
+    innerAngle = 18; \
     intensity = 17; \
-    outerAngle = 120; \
+    outerAngle = 100; \
     position = "flash dir"; \
     size = 1; \
     useFlare = 1; \
     class Attenuation { \
         constant = 1; \
-        hardLimitEnd = 175; \
-        hardLimitStart = 100; \
+        hardLimitEnd = 200; \
+        hardLimitStart = 300; \
         linear = 1; \
-        quadratic = 0; \
-        start = 0.1; \
+        quadratic = 1; \
+        start = 0; \
     }; \
     scale [] = {0}
 
