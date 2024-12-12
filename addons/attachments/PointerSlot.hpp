@@ -1,4 +1,3 @@
-class PointerSlot;
 class PointerSlot_Rail: PointerSlot {
     class compatibleItems {
         // CUP Stuff

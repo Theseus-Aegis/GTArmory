@@ -1,4 +1,3 @@
-class CowsSlot;
 class CowsSlot_Rail : CowsSlot {
     class compatibleItems {
         // CUP

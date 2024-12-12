@@ -19,5 +19,9 @@ class CfgPatches {
     };
 };
 
+class CowsSlot;
+class PointerSlot;
+
 #include "PointerSlot.hpp"
+#include "PointerSlot_Pistol.hpp"
 #include "CowsSlot_Rail.hpp"
