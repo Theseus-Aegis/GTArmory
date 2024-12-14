@@ -14,6 +14,7 @@ class CfgMagazines {
     class CUP_20Rnd_762x51_B_SCAR_bkl;
     class CUP_20Rnd_762x51_FNFAL_M;
     class CUP_20Rnd_762x51_HK417;
+    class CUP_20Rnd_762x51_B_M110;
     class CUP_25Rnd_556x45_Famas;
     class CUP_30Rnd_545x39_Fort224_M;
     class CUP_30Rnd_556x45_AK;
