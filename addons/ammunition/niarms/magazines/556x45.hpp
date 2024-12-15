@@ -7,6 +7,7 @@ class CLASS(30Rnd_556x45_Ball_SG): hlc_30Rnd_556x45_EPR_sg550 {
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
     mass = 10;
+    picture = "\x\tacgt\addons\ammunition\niarms\data\sig_mag_ca.paa";
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_SG): CLASS(30Rnd_556x45_Ball_SG) {
     displayName = "5.56mm 30Rnd SiG [T] (Ball)";
