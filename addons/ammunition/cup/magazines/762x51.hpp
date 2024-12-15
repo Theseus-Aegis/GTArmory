@@ -73,6 +73,35 @@ class CLASS(20Rnd_762x51_AP_HK417): CLASS(20Rnd_762x51_Ball_HK417) {
     descriptionShort = "7.62x51mm AP Reload Tracer";
 };
 
+// 7.62x51mm M110
+class CLASS(20Rnd_762x51_Ball_M110): CUP_20Rnd_762x51_B_M110 {
+    MACRO_SCOPE;
+    ammo = QCLASS(762x51_Ball);
+    displayName = "7.62mm 20Rnd M110 (Ball)";
+    displayNameShort = "Ball";
+    descriptionShort = "7.62x51mm Ball Reload Tracer";
+    lastRoundsTracer = 2;
+    mass = 11;
+};
+class CLASS(20Rnd_762x51_Ball_Tracer_M110): CLASS(20Rnd_762x51_Ball_M110) {
+    displayName = "7.62mm 20Rnd M110 [T] (Ball)";
+    displayNameShort = "Ball Tracer";
+    descriptionShort = "7.62x51mm Ball Tracer";
+    tracersEvery = 1;
+};
+class CLASS(20Rnd_762x51_EPR_M110): CLASS(20Rnd_762x51_Ball_M110) {
+    ammo = QCLASS(762x51_EPR);
+    displayName = "7.62mm 20Rnd M110 (EPR)";
+    displayNameShort = "EPR";
+    descriptionShort = "7.62x51mm EPR Reload Tracer";
+};
+class CLASS(20Rnd_762x51_AP_M110): CLASS(20Rnd_762x51_Ball_M110) {
+    ammo = QCLASS(762x51_AP);
+    displayName = "7.62mm 20Rnd M110 (AP)";
+    displayNameShort = "AP";
+    descriptionShort = "7.62x51mm AP Reload Tracer";
+};
+
 // 7.62x51mm SCAR-H
 class CLASS(20Rnd_762x51_Ball_SCAR): CUP_20Rnd_762x51_B_SCAR_bkl {
     MACRO_SCOPE;

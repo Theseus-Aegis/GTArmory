@@ -221,6 +221,14 @@ class CfgMagazineWells {
             QCLASS(20Rnd_762x51_AP_HK417)
         };
     };
+    class CBA_762x51_AR10 {
+        ADDON[] = {
+            QCLASS(20Rnd_762x51_Ball_M110),
+            QCLASS(20Rnd_762x51_Ball_Tracer_M110),
+            QCLASS(20Rnd_762x51_EPR_M110),
+            QCLASS(20Rnd_762x51_AP_M110)
+        };
+    };
     class CBA_762x51_SCAR {
         ADDON[] = {
             QCLASS(20Rnd_762x51_Ball_SCAR),
