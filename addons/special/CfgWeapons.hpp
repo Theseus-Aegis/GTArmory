@@ -95,7 +95,7 @@ class CfgWeapons {
     class CLASS(Custom_Krotzko_AUG): hlc_rifle_auga3_bl {
         author = "GilleeDoo";
         baseWeapon = QCLASS(Custom_Krotzko_AUG);
-        displayName = "AUG A3 'Scoot Edition";
+        displayName = "AUG A3 'Krotzko' Edition";
         hiddenSelectionsTextures[] = {QPATHTOF(data\custom_krotzko_aug_co.paa)};
         scope = 2;
     };
