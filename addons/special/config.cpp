@@ -18,6 +18,7 @@ class CfgPatches {
             QCLASS(Custom_Guldentops_Vest_KHK),
             QCLASS(Custom_Guldentops_Vest_RGR),
             QCLASS(Custom_James_Helmet),
+            QCLASS(Custom_Krotzko_AUG),
             QCLASS(Custom_Laird_Bonnet),
             QCLASS(Custom_Laird_Uniform),
             QCLASS(Custom_Mathews_Uniform),
@@ -42,6 +43,7 @@ class CfgPatches {
             "milgp_uniforms_cfg",
             "milgp_vests_cfg",
             "niaweapons_226",
+            "hlcweapons_AUG"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
