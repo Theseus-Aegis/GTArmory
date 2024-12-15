@@ -4,7 +4,7 @@ class CLASS(8Rnd_AA40_000): 8Rnd_12Gauge_AA40_Pellets_lxWS {
     displayName = "8Rnd AA40 (Magnum)";
     displayNameShort = "#00 Magnum";
     descriptionShort = "#00 Magnum Shells";
-    mass = 8;
+    mass = 6.5;
 };
 class CLASS(8Rnd_AA40_AP20): CLASS(8Rnd_AA40_000){
     ammo = QCLASS(S_12G_AP20);
@@ -23,7 +23,7 @@ class CLASS(20Rnd_AA40_000): 20Rnd_12Gauge_AA40_Pellets_lxWS {
     displayName = "20Rnd AA40 (Magnum)";
     displayNameShort = "#00 Magnum";
     descriptionShort = "#00 Magnum Shells";
-    mass = 14;
+    mass = 12;
 };
 class CLASS(20Rnd_AA40_AP20): CLASS(20Rnd_AA40_000) {
     ammo = QCLASS(S_12G_AP20);
