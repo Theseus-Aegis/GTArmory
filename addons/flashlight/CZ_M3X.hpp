@@ -27,7 +27,7 @@ class CLASS(CZ_M3X_Light): CLASS(CZ_M3X_Laser) {
     };
     MRT_SwitchItemNextClass = QCLASS(CZ_M3X_Vis_Laser);
     MRT_SwitchItemPrevClass = QCLASS(CZ_M3X_Laser);
-    MRT_SwitchItemHintText = "Flashlight Blue";
+    MRT_SwitchItemHintText = "Visible White";
 };
 
 class CLASS(CZ_M3X_Vis_Laser): CLASS(CZ_M3X_Laser) {

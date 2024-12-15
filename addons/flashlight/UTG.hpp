@@ -14,7 +14,7 @@ class CLASS(UTG_Flashlight): acc_flashlight {
     };
     MRT_SwitchItemNextClass = QCLASS(UTG_Low_Flashlight);
     MRT_SwitchItemPrevClass = QCLASS(UTG_Low_Flashlight);
-    MRT_SwitchItemHintText = "Flashlight Blue";
+    MRT_SwitchItemHintText = "Visible White";
 };
 
 class CLASS(UTG_Low_Flashlight): CLASS(UTG_Flashlight) {
@@ -29,5 +29,5 @@ class CLASS(UTG_Low_Flashlight): CLASS(UTG_Flashlight) {
     };
     MRT_SwitchItemNextClass = QCLASS(UTG_Flashlight);
     MRT_SwitchItemPrevClass = QCLASS(UTG_Flashlight);
-    MRT_SwitchItemHintText = "Flashlight Red";
+    MRT_SwitchItemHintText = "Visible Red";
 };

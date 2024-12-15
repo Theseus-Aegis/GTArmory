@@ -14,7 +14,7 @@ class CLASS(Surefire_Flashlight_Black): cup_acc_flashlight {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Low_Flashlight_Black);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Low_Flashlight_Black);
-    MRT_SwitchItemHintText = "Flashlight Blue";
+    MRT_SwitchItemHintText = "Visible White";
 };
 
 class CLASS(Surefire_Low_Flashlight_Black): CLASS(Surefire_Flashlight_Black) {
@@ -29,7 +29,7 @@ class CLASS(Surefire_Low_Flashlight_Black): CLASS(Surefire_Flashlight_Black) {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Flashlight_Black);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Flashlight_Black);
-    MRT_SwitchItemHintText = "Flashlight Red";
+    MRT_SwitchItemHintText = "Visible Red";
 };
 
 // Surefire OD
@@ -48,7 +48,7 @@ class CLASS(Surefire_Flashlight_OD): CUP_acc_Flashlight_wdl {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Low_Flashlight_OD);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Low_Flashlight_OD);
-    MRT_SwitchItemHintText = "Flashlight Blue";
+    MRT_SwitchItemHintText = "Visible White";
 };
 
 class CLASS(Surefire_Low_Flashlight_OD): CLASS(Surefire_Flashlight_OD) {
@@ -63,7 +63,7 @@ class CLASS(Surefire_Low_Flashlight_OD): CLASS(Surefire_Flashlight_OD) {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Flashlight_OD);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Flashlight_OD);
-    MRT_SwitchItemHintText = "Flashlight Red";
+    MRT_SwitchItemHintText = "Visible Red";
 };
 
 // Surefire Tan
@@ -82,7 +82,7 @@ class CLASS(Surefire_Flashlight_Tan): CUP_acc_Flashlight_desert {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Low_Flashlight_Tan);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Low_Flashlight_Tan);
-    MRT_SwitchItemHintText = "Flashlight Blue";
+    MRT_SwitchItemHintText = "Visible White";
 };
 
 class CLASS(Surefire_Low_Flashlight_Tan): CLASS(Surefire_Flashlight_Tan) {
@@ -97,7 +97,7 @@ class CLASS(Surefire_Low_Flashlight_Tan): CLASS(Surefire_Flashlight_Tan) {
     };
     MRT_SwitchItemNextClass = QCLASS(Surefire_Flashlight_Tan);
     MRT_SwitchItemPrevClass = QCLASS(Surefire_Flashlight_Tan);
-    MRT_SwitchItemHintText = "Flashlight Red";
+    MRT_SwitchItemHintText = "Visible Red";
 };
 
 // XC-1-C Pistol Flashlight

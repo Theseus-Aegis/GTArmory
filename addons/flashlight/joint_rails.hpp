@@ -2,6 +2,9 @@
 class asdg_SlotInfo;
 class asdg_FrontSideRail: asdg_SlotInfo {
     class compatibleItems {
+        tacgt_ANPEQ_15_IR_Light_Black = 1;
+        tacgt_ANPEQ_15_IR_Light_OD = 1;
+        tacgt_ANPEQ_15_IR_Light_Tan = 1;
         tacgt_ANPEQ_15_Laser_Black = 1;
         tacgt_ANPEQ_15_Laser_OD = 1;
         tacgt_ANPEQ_15_Laser_Tan = 1;
@@ -11,6 +14,9 @@ class asdg_FrontSideRail: asdg_SlotInfo {
         tacgt_ANPEQ_15_Low_Light_Black = 1;
         tacgt_ANPEQ_15_Low_Light_OD = 1;
         tacgt_ANPEQ_15_Low_Light_Tan = 1;
+        tacgt_ANPEQ_15_Top_IR_Light_Black = 1;
+        tacgt_ANPEQ_15_Top_IR_Light_OD = 1;
+        tacgt_ANPEQ_15_Top_IR_Light_Tan = 1;
         tacgt_ANPEQ_15_Top_Laser_Black = 1;
         tacgt_ANPEQ_15_Top_Laser_OD = 1;
         tacgt_ANPEQ_15_Top_Laser_Tan = 1;
@@ -29,10 +35,12 @@ class asdg_FrontSideRail: asdg_SlotInfo {
         tacgt_LLM01_Laser_Black = 1;
         tacgt_LLM01_Light_Black = 1;
         tacgt_LLM01_Low_Light_Black = 1;
+        tacgt_LLM01_IR_Light_Black = 1;
         tacgt_LLM01_Vis_Laser_Black = 1;
         tacgt_LLM_Laser_Black = 1;
         tacgt_LLM_Light_Black = 1;
         tacgt_LLM_Low_Light_Black = 1;
+        tacgt_LLM_IR_Light_Black = 1;
         tacgt_LLM_Vis_Laser_Black = 1;
         tacgt_Surefire_Flashlight_Black = 1;
         tacgt_Surefire_Flashlight_OD = 1;

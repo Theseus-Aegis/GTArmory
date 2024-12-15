@@ -27,7 +27,7 @@ class CLASS(LLM_Light_Black): CLASS(LLM_Laser_Black) {
     };
     MRT_SwitchItemNextClass = QCLASS(LLM_Low_Light_Black);
     MRT_SwitchItemPrevClass = QCLASS(LLM_Laser_Black);
-    MRT_SwitchItemHintText = "Flashlight Blue";
+    MRT_SwitchItemHintText = "Visible White";
 };
 
 class CLASS(LLM_Low_Light_Black): CLASS(LLM_Laser_Black) {
@@ -40,9 +40,24 @@ class CLASS(LLM_Low_Light_Black): CLASS(LLM_Laser_Black) {
             MACRO_RED_FLASHLIGHT;
         };
     };
-    MRT_SwitchItemNextClass = QCLASS(LLM_Vis_Laser_Black);
+    MRT_SwitchItemNextClass = QCLASS(LLM_IR_Light_Black);
     MRT_SwitchItemPrevClass = QCLASS(LLM_Light_Black);
-    MRT_SwitchItemHintText = "Flashlight Red";
+    MRT_SwitchItemHintText = "Visible Red";
+};
+
+class CLASS(LLM_IR_Light_Black): CLASS(LLM_Laser_Black) {
+    MACRO_SECONDARY;
+
+    class ItemInfo: ItemInfo {
+        mass = 4;
+        class Pointer {};
+        class Flashlight {
+            MACRO_IR_LIGHT;
+        };
+    };
+    MRT_SwitchItemNextClass = QCLASS(LLM_Vis_Laser_Black);
+    MRT_SwitchItemPrevClass = QCLASS(LLM_Low_Light_Black);
+    MRT_SwitchItemHintText = "IR Illuminator";
 };
 
 class CLASS(LLM_Vis_Laser_Black): CLASS(LLM_Laser_Black) {
@@ -56,6 +71,6 @@ class CLASS(LLM_Vis_Laser_Black): CLASS(LLM_Laser_Black) {
         class Flashlight {};
     };
     MRT_SwitchItemNextClass = QCLASS(LLM_Laser_Black);
-    MRT_SwitchItemPrevClass = QCLASS(LLM_Low_Light_Black);
+    MRT_SwitchItemPrevClass = QCLASS(LLM_IR_Light_Black);
     MRT_SwitchItemHintText = "Visible Laser";
 };
