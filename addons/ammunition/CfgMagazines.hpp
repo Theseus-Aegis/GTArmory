@@ -30,6 +30,7 @@ class CfgMagazines {
     // Handgun baseclasses
     class 16Rnd_9x21_Mag;
     class 11Rnd_45ACP_Mag;
+    class 9Rnd_45ACP_Mag;
 
     #include "bi\12g.hpp"
     #include "bi\45ACP.hpp"

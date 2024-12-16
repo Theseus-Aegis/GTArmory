@@ -27,4 +27,19 @@ class CfgMagazineWells {
             QCLASS(20Rnd_762x51_AP_SCAR_Aegis),
         };
     };
+    class CBA_9x21_G17 {
+        ADDON[] = {
+            QCLASS(17Rnd_9x21_Ball_G17_Aegis)
+        };
+    };
+    class CBA_57x28_RP57 {
+        ADDON[] = {
+            QCLASS(10Rnd_57x28_Ball)
+        };
+    };
+    class CBA_127x33_Mk26 {
+        ADDON[] = {
+            QCLASS(7Rnd_127x33_Ball)
+        };
+    };
 };

@@ -42,4 +42,25 @@ class CfgWeapons {
     class arifle_RPK_F: arifle_RPK_base_F {
         magazineWell[] += {"CBA_762x39_RPK"};
     };
+
+    // G17
+    class Pistol_Base_F;
+    class hgun_G17_F: Pistol_Base_F {
+        magazineWell[] += {"CBA_9x21_G17"};
+    };
+
+    // P320
+    class Aegis_hgun_P320_base_F: Pistol_Base_F {
+        magazineWell[] += {"CBA_9x19_Walther"};
+    };
+
+    // RP57
+    class Aegis_hgun_Pistol_R57_F: Pistol_Base_F {
+        magazineWell[] += {"CBA_57x28_RP57"};
+    };
+
+    // Mk26
+    class hgun_Mk26_F: Pistol_Base_F {
+        magazineWell[] += {"CBA_127x33_Mk26"};
+    };
 };
