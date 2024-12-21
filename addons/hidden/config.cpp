@@ -8,6 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
+            "ace_intelitems",
             "CUP_Weapons_AmmoBoxes",
             "CUP_Weapons_Grenades",
             "CUP_Weapons_Put"
