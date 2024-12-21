@@ -5,6 +5,8 @@ class CfgVehicles {
     class Pickup_fuel_base_rf;
     class Heli_EC_01A_military_base_RF;
     class I_SFIA_Heli_EC_02_RF;
+    class B_UN_soldier_LAT2_lxWS;
+    class Pickup_01_Rocket_base_rf;
 
     class B_UN_Pickup_rf: Pickup_01_base_rf {
         scope = 1;
@@ -58,4 +60,21 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 1;
     };
+    class I_Tura_Pickup_01_Rocket_rf: Pickup_01_Rocket_base_rf {
+        scope = 1;
+        scopeCurator = 1;
+    };
+    class B_Tura_Pickup_01_Rocket_rf: I_Tura_Pickup_01_Rocket_rf {
+        scope = 1;
+        scopeCurator = 1;
+    };
+    class O_Tura_Pickup_01_Rocket_rf: I_Tura_Pickup_01_Rocket_rf {
+        scope = 1;
+        scopeCurator = 1;
+    };
+    class B_UN_soldier_LAT_rf: B_UN_soldier_LAT2_lxWS {
+        scope = 1;
+        scopeCurator = 1;
+    };
+
 };
