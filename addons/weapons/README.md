@@ -8,5 +8,3 @@ General changes or new derivatives of weapons.
 - Fixes overly loud MK200 soundshaders.
 - Adds a modified Keltec RFB chambered in 7.62x51 (Underwater rifle).
 - Adds a Chiappa Rhino in .44 Magnum and .357
-
-- [MikeMF](https://github.com/MikeMF)
