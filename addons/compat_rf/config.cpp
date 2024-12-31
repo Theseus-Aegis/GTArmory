@@ -8,9 +8,8 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "tacgt_theseus",
-            "RF_Data_ws_compatibility",
-            "data_f_lxWS_Loadorder"
+            "tacgt_supplies",
+            "RF_Weapons_Launchers_PSRL1"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
@@ -20,4 +19,5 @@ class CfgPatches {
     };
 };
 
+#include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
