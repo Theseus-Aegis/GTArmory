@@ -16,12 +16,12 @@ class CfgWeapons {
     class CUP_acc_SF_XC1;
     class InventoryFlashLightItem_Base_F;
 
-    #include "AN_PEQ.hpp"
-    #include "AN_PEQ_Top.hpp"
-    #include "CZ_M3X.hpp"
-    #include "LLM01.hpp"
-    #include "LLM_MKIII.hpp"
-    #include "MLPLS.hpp"
-    #include "Surefire.hpp"
-    #include "UTG.hpp"
+    #include "lights\AN_PEQ.hpp"
+    #include "lights\AN_PEQ_Top.hpp"
+    #include "lights\CZ_M3X.hpp"
+    #include "lights\LLM01.hpp"
+    #include "lights\LLM_MKIII.hpp"
+    #include "lights\MLPLS.hpp"
+    #include "lights\Surefire.hpp"
+    #include "lights\UTG.hpp"
 };
