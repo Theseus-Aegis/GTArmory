@@ -9,8 +9,7 @@ class CfgPatches {
         requiredAddons[] = {
             "tacgt_main",
             "tacgt_theseus",
-            "RF_Data_ws_compatibility",
-            "data_f_lxWS_Loadorder"
+            "CUP_Vehicles_LoadOrder"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
