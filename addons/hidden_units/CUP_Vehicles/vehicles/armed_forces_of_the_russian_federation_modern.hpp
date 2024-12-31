@@ -74,6 +74,9 @@ class CUP_O_Tigr_M_233114_KORD_RU: CUP_Tigr_233114_KORD_Base {
 class CUP_O_Tigr_M_233114_GREEN_PK_RU: CUP_Tigr_233114_PK_Base {
     MACRO_HIDE_VEHICLE;
 };
+class CUP_O_Tigr_M_233114_PK_RU: CUP_Tigr_233114_PK_Base {
+    MACRO_HIDE_VEHICLE;
+};
 
 // Tanks
 class CUP_O_T90M_RU: CUP_T90M_Base {

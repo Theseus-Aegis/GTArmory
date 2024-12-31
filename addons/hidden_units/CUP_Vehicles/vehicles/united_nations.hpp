@@ -92,6 +92,9 @@ class CUP_I_Ural_Empty_UN: CUP_Ural_Empty_Base {
 class CUP_I_Ural_Repair_UN: CUP_Ural_Repair_Base {
     MACRO_HIDE_VEHICLE;
 };
+class CUP_I_Ural_Reammo_UN: CUP_Ural_Reammo_Base {
+    MACRO_HIDE_VEHICLE;
+};
 
 // Helicopters
 class CUP_I_Mi24_Mk3_UN: CUP_Mi35_TOH_Dynamic_Base {
@@ -110,5 +113,8 @@ class CUP_I_MI6T_UN: CUP_MI6T_Base {
     MACRO_HIDE_VEHICLE;
 };
 class CUP_I_Mi17_VIV_UN: CUP_Mi8_VIV_base {
+    MACRO_HIDE_VEHICLE;
+};
+class CUP_I_Mi17_UN: CUP_Mi8_base {
     MACRO_HIDE_VEHICLE;
 };

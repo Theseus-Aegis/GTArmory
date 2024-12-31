@@ -201,6 +201,9 @@ class CUP_O_UH1H_gunship_TKA: CUP_UH1H_gunship_base {
 class CUP_O_UH1H_slick_TKA: CUP_UH1H_slick_base {
     MACRO_HIDE_VEHICLE;
 };
+class CUP_O_UH1H_armed_TKA: CUP_UH1H_armed_base {
+    MACRO_HIDE_VEHICLE;
+};
 
 // Planes
 class CUP_O_Su25_Dyn_TKA: CUP_Su25_Dyn_Base {

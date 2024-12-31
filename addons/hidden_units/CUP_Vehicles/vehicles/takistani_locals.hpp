@@ -129,6 +129,9 @@ class CUP_I_V3S_Rearm_TKG: CUP_V3S_Rearm_Base {
 class CUP_I_V3S_Refuel_TKG: CUP_V3S_Refuel_Base {
     MACRO_HIDE_VEHICLE;
 };
+class CUP_I_V3S_Open_TKG: CUP_V3S_Open_Base {
+    MACRO_HIDE_VEHICLE;
+};
 
 // Helicopters
 class CUP_I_UH1H_TK_GUE: CUP_UH1H_base {

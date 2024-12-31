@@ -75,6 +75,21 @@ class CUP_B_Zodiac_USMC: Rubber_duck_base_F {
 };
 
 // Cars
+class CUP_B_RG31E_M2_USMC: CUP_RG31E_M2 {
+    MACRO_HIDE_VEHICLE;
+};
+class CUP_B_nM1038_Ammo_USMC_DES: CUP_nM1038_Ammo_Base {
+    MACRO_HIDE_VEHICLE;
+};
+class CUP_B_nM1151_Unarmed_USMC_DES: CUP_ECVHMMWV_Unarmed_Base {
+    MACRO_HIDE_VEHICLE;
+};
+class CUP_B_M1151_Deploy_DSRT_USMC: CUP_M1151_Deploy_BASE {
+    MACRO_HIDE_VEHICLE;
+};
+class CUP_B_nM997_USMC_DES: CUP_nM997_amb_Base {
+    MACRO_HIDE_VEHICLE;
+};
 class CUP_B_nM1025_M2_USMC_WDL: CUP_nM1025_M2_Base {
     MACRO_HIDE_VEHICLE;
 };
@@ -371,6 +386,12 @@ class CUP_MH60S_Unarmed_USN: CUP_UH60_Unarmed_Base {
     MACRO_HIDE_VEHICLE;
 };
 class CUP_MH60S_Unarmed_FFV_USN: CUP_MH60S_Unarmed_FFV_Base {
+    MACRO_HIDE_VEHICLE;
+};
+class CUP_B_UH1Y_UNA_USMC: CUP_B_UH1Y_Base {
+    MACRO_HIDE_VEHICLE;
+};
+class CUP_B_UH1Y_MEV_USMC: CUP_B_UH1Y_UNA_USMC {
     MACRO_HIDE_VEHICLE;
 };
 

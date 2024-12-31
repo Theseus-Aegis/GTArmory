@@ -132,6 +132,12 @@ class CUP_I_UH60L_Unarmed_RACS: CUP_Uh60L_Unarmed_Base {
 class CUP_I_UH60L_Unarmed_FFV_Racs: CUP_Uh60L_Unarmed_FFV_Base {
     MACRO_HIDE_VEHICLE;
 };
+class CUP_I_UH1H_RACS: CUP_UH1H_base {
+    MACRO_HIDE_VEHICLE;
+};
+class CUP_I_UH60L_RACS: CUP_Uh60L_Base {
+    MACRO_HIDE_VEHICLE;
+};
 
 // Planes
 class CUP_I_CESSNA_T41_ARMED_RACS: cup_cessna_t41_armed_base {

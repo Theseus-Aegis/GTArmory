@@ -145,6 +145,9 @@ class CUP_O_Ural_Empty_CHDKZ: CUP_Ural_Empty_Base {
 class CUP_O_Ural_Refuel_CHDKZ: CUP_Ural_Refuel_Base {
     MACRO_HIDE_VEHICLE;
 };
+class CUP_O_Ural_Open_CHDKZ: CUP_Ural_Open_Base {
+    MACRO_HIDE_VEHICLE;
+};
 
 // Helicopters
 class CUP_O_MI6A_CHDKZ: CUP_MI6A_Base {

@@ -166,3 +166,8 @@ class CUP_B_L39_CZ: CUP_L39_DYN_Base {
 class CUP_B_L39_CZ_GREY: CUP_L39_DYN_Base {
     MACRO_HIDE_VEHICLE;
 };
+
+// Tanks
+class CUP_B_T72_CZ: CUP_T72_ACR_Base {
+    MACRO_HIDE_VEHICLE;
+};
