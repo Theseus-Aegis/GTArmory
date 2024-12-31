@@ -40,3 +40,7 @@
     backpack = #BACKPACK; \
     count = COUNT; \
 }
+
+#define MACRO_HIDE_VEHICLE \
+    scope = 1; \
+    scopeCurator = 1
