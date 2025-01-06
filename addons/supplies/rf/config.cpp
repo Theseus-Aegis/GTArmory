@@ -8,7 +8,9 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "RF_Weapons_Launchers_PSRL1"
+            "tacgt_supplies",
+            "RF_Weapons_Launchers_PSRL1",
+            "CUP_Weapons_LoadOrder"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
@@ -18,4 +20,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
