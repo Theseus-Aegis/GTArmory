@@ -9,17 +9,17 @@
     scopeArsenal = 1
 
 #define MACRO_FLASHLIGHT \
+    direction = "flash"; \
+    position = "flash dir"; \
     ambient[] = {6, 9, 9}; \
     color[] = {185, 190, 199}; \
-    coneFadeCoef = 150; \
+    coneFadeCoef = 80; \
     dayLight = 1; \
-    direction = "flash"; \
-    flareMaxDistance = 600; \
+    flareMaxDistance = 150; \
     flareSize = 1; \
     innerAngle = 15; \
     intensity = 100; \
     outerAngle = 120; \
-    position = "flash dir"; \
     size = 1; \
     useFlare = 1; \
     class Attenuation { \
@@ -33,17 +33,17 @@
     scale [] = {0}
 
 #define MACRO_FLASHLIGHT_NIARMS \
+    direction = "flash dir"; \
+    position = "flash"; \
     ambient[] = {6, 9, 9}; \
     color[] = {185, 190, 199}; \
-    coneFadeCoef = 150; \
+    coneFadeCoef = 80; \
     dayLight = 1; \
-    direction = "flash dir"; \
-    flareMaxDistance = 600; \
+    flareMaxDistance = 150; \
     flareSize = 1; \
     innerAngle = 15; \
     intensity = 100; \
     outerAngle = 120; \
-    position = "flash"; \
     size = 1; \
     useFlare = 1; \
     class Attenuation { \
