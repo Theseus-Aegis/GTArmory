@@ -57,7 +57,7 @@ class CLASS(30Rnd_556x45_Ball_Camo_Stanag): 30Rnd_556x45_Stanag_Tracer_Yellow_ca
     lastRoundsTracer = 4;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_Camo_Stanag): CLASS(30Rnd_556x45_Ball_Camo_Stanag) {
-    displayName = "5.56mm 30Rnd Stanag [T] Camo (Ball)";
+    displayName = "5.56mm 30Rnd Stanag Camo [T] (Ball)";
     displayNameShort = "Ball Tracer";
     descriptionShort = "5.56x45mm Ball Tracer";
     tracersEvery = 1;

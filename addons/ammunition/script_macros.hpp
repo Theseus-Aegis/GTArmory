@@ -54,10 +54,20 @@
     hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"}; \
     picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_30Rnd_65x39_caseless_black_mag_CA.paa"
 
+#define MACRO_65_MAGAZINE_MX_Khaki \
+    hiddenSelections[] = {"camo"}; \
+    hiddenSelectionsTextures[] = {"\A3\Weapons_F_Exp\Rifles\MX\Data\XMX_Base_khk_co.paa"}; \
+    picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_30Rnd_65x39_caseless_khaki_mag_CA.paa"
+
 #define MACRO_65_MAGAZINE_MX_LSW_Black \
     hiddenSelections[] = {"camo"}; \
     hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_lmg_Black_co.paa"}; \
     picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_100Rnd_65x39_caseless_black_mag_CA.paa"
+
+#define MACRO_65_MAGAZINE_MX_LSW_Khaki \
+    hiddenSelections[] = {"camo"}; \
+    hiddenSelectionsTextures[] = {"\A3\Weapons_F_Exp\Rifles\MX\Data\XMX_LMG_khk_co.paa"}; \
+    picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_100Rnd_65x39_caseless_khaki_mag_CA.paa"
 
 #define MACRO_762_AK12_MAGAZINE_TAN \
     hiddenSelections[] = {"Camo"}; \
