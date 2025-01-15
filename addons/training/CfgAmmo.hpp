@@ -61,36 +61,36 @@ class CfgAmmo {
 
     class SmokeShell;
     class CLASS(SmokeShell_Training_Ammo): SmokeShell {
-        timeToLive = 2;
+        timeToLive = 5;
     };
 
     class SmokeShellRed;
     class CLASS(SmokeShellRed_Training_Ammo): SmokeShellRed {
-        timeToLive = 2;
+        timeToLive = 5;
     };
 
     class SmokeShellGreen;
     class CLASS(SmokeShellGreen_Training_Ammo): SmokeShellGreen {
-        timeToLive = 2;
+        timeToLive = 5;
     };
 
     class SmokeShellYellow;
     class CLASS(SmokeShellYellow_Training_Ammo): SmokeShellYellow {
-        timeToLive = 2;
+        timeToLive = 5;
     };
 
     class SmokeShellPurple;
     class CLASS(SmokeShellPurple_Training_Ammo): SmokeShellPurple {
-        timeToLive = 2;
+        timeToLive = 5;
     };
 
     class SmokeShellBlue;
     class CLASS(SmokeShellBlue_Training_Ammo): SmokeShellBlue {
-        timeToLive = 2;
+        timeToLive = 5;
     };
 
     class SmokeShellOrange;
     class CLASS(SmokeShellOrange_Training_Ammo): SmokeShellOrange {
-        timeToLive = 2;
+        timeToLive = 5;
     };
 };

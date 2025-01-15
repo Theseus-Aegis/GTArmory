@@ -43,43 +43,50 @@ class CfgMagazines {
 
     class SmokeShell;
     class CLASS(SmokeShell_Training): SmokeShell {
-        displayName = "M83 Smoke Shell (White, Training)";
+        displayName = "M83T Smoke Grenade (White)";
+        displayNameShort = "White (Training)";
         ammo = QCLASS(SmokeShell_Training_Ammo);
     };
 
     class SmokeShellGreen;
     class CLASS(SmokeShellGreen_Training): SmokeShellGreen {
-        displayName = "M18 Smoke Shell (Green, Training)";
+        displayName = "M18T Smoke Grenade (Green)";
+        displayNameShort = "Green (Training)";
         ammo = QCLASS(SmokeShellGreen_Training_Ammo);
     };
 
     class SmokeShellRed;
     class CLASS(SmokeShellRed_Training): SmokeShellRed {
-        displayName = "M18 Smoke Shell (Red, Training)";
+        displayName = "M18T Smoke Grenade (Red)";
+        displayNameShort = "Red (Training)";
         ammo = QCLASS(SmokeShellRed_Training_Ammo);
     };
 
     class SmokeShellYellow;
     class CLASS(SmokeShellYellow_Training): SmokeShellYellow {
-        displayName = "M18 Smoke Shell (Yellow, Training)";
+        displayName = "M18T Smoke Grenade (Yellow)";
+        displayNameShort = "Yellow (Training)";
         ammo = QCLASS(SmokeShellYellow_Training_Ammo);
     };
 
     class SmokeShellPurple;
     class CLASS(SmokeShellPurple_Training): SmokeShellPurple {
-        displayName = "M18 Smoke Shell (Purple, Training)";
+        displayName = "M18T Smoke Grenade (Purple)";
+        displayNameShort = "Purple (Training)";
         ammo = QCLASS(SmokeShellPurple_Training_Ammo);
     };
 
     class SmokeShellBlue;
     class CLASS(SmokeShellBlue_Training): SmokeShellBlue {
-        displayName = "M18 Smoke Shell (Blue, Training)";
+        displayName = "M18T Smoke Grenade (Blue)";
+        displayNameShort = "Blue (Training)";
         ammo = QCLASS(SmokeShellBlue_Training_Ammo);
     };
 
     class SmokeShellOrange;
     class CLASS(SmokeShellOrange_Training): SmokeShellOrange {
-        displayName = "M18 Smoke Shell (Orange, Training)";
+        displayName = "M18T Smoke Grenade (Orange)";
+        displayNameShort = "Orange (Training)";
         ammo = QCLASS(SmokeShellOrange_Training_Ammo);
     };
 };
