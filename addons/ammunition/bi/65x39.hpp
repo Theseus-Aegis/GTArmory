@@ -44,6 +44,24 @@ class CLASS(30Rnd_65x39_AP_MX_Black): CLASS(30Rnd_65x39_AP_MX_Sand) {
     displayName = "6.5mm 30Rnd MX Black (AP)";
 };
 
+// 6.5x39mm (MX, Khaki)
+class CLASS(30Rnd_65x39_Ball_MX_Khaki): CLASS(30Rnd_65x39_Ball_MX_Sand) {
+    MACRO_65_MAGAZINE_MX_Khaki;
+    displayName = "6.5mm 30Rnd MX Khaki (Ball)";
+};
+class CLASS(30Rnd_65x39_Ball_Tracer_MX_Khaki): CLASS(30Rnd_65x39_Ball_Tracer_MX_Sand) {
+    MACRO_65_MAGAZINE_MX_Khaki;
+    displayName = "6.5mm 30Rnd MX Khaki [T] (Ball)";
+};
+class CLASS(30Rnd_65x39_EPR_MX_Khaki): CLASS(30Rnd_65x39_EPR_MX_Sand) {
+    MACRO_65_MAGAZINE_MX_Khaki;
+    displayName = "6.5mm 30Rnd MX Khaki (EPR)";
+};
+class CLASS(30Rnd_65x39_AP_MX_Khaki): CLASS(30Rnd_65x39_AP_MX_Sand) {
+    MACRO_65_MAGAZINE_MX_Khaki;
+    displayName = "6.5mm 30Rnd MX Khaki (AP)";
+};
+
 // 6.5x39mm (MX, MG Sand)
 class CLASS(100Rnd_65x39_Ball_MX_LSW_Sand): 100Rnd_65x39_caseless_mag {
     MACRO_SCOPE;
@@ -78,6 +96,20 @@ class CLASS(100Rnd_65x39_Ball_Tracer_MX_LSW_Black): CLASS(100Rnd_65x39_Ball_Trac
 class CLASS(100Rnd_65x39_EPR_MX_LSW_Black): CLASS(100Rnd_65x39_EPR_MX_LSW_Sand) {
     MACRO_65_MAGAZINE_MX_LSW_Black;
     displayName = "6.5mm 100Rnd MX LSW Black [TE4] (EPR)";
+};
+
+// 6.5x39mm (MX, MG Khaki)
+class CLASS(100Rnd_65x39_Ball_MX_LSW_Khaki): CLASS(100Rnd_65x39_Ball_MX_LSW_Sand) {
+    MACRO_65_MAGAZINE_MX_LSW_Khaki;
+    displayName = "6.5mm 100Rnd MX LSW Khaki [TE4] (Ball)";
+};
+class CLASS(100Rnd_65x39_Ball_Tracer_MX_LSW_Khaki): CLASS(100Rnd_65x39_Ball_Tracer_MX_LSW_Sand) {
+    MACRO_65_MAGAZINE_MX_LSW_Khaki;
+    displayName = "6.5mm 100Rnd MX LSW Khaki [T] (Ball)";
+};
+class CLASS(100Rnd_65x39_EPR_MX_LSW_Khaki): CLASS(100Rnd_65x39_EPR_MX_LSW_Sand) {
+    MACRO_65_MAGAZINE_MX_LSW_Khaki;
+    displayName = "6.5mm 100Rnd MX LSW Khaki [TE4] (EPR)";
 };
 
 // 6.5x39mm (GROT/MSBS)

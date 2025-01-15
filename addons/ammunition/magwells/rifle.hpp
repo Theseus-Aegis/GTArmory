@@ -130,7 +130,11 @@ class CBA_65x39_MX {
         QCLASS(30Rnd_65x39_Ball_MX_Black),
         QCLASS(30Rnd_65x39_Ball_Tracer_MX_Black),
         QCLASS(30Rnd_65x39_EPR_MX_Black),
-        QCLASS(30Rnd_65x39_AP_MX_Black)
+        QCLASS(30Rnd_65x39_AP_MX_Black),
+        QCLASS(30Rnd_65x39_Ball_MX_Khaki),
+        QCLASS(30Rnd_65x39_Ball_Tracer_MX_Khaki),
+        QCLASS(30Rnd_65x39_EPR_MX_Khaki),
+        QCLASS(30Rnd_65x39_AP_MX_Khaki)
     };
 };
 
@@ -141,7 +145,10 @@ class CBA_65x39_MX_XL {
         QCLASS(100Rnd_65x39_EPR_MX_LSW_Sand),
         QCLASS(100Rnd_65x39_Ball_MX_LSW_Black),
         QCLASS(100Rnd_65x39_Ball_Tracer_MX_LSW_Black),
-        QCLASS(100Rnd_65x39_EPR_MX_LSW_Black)
+        QCLASS(100Rnd_65x39_EPR_MX_LSW_Black),
+        QCLASS(100Rnd_65x39_Ball_MX_LSW_Khaki),
+        QCLASS(100Rnd_65x39_Ball_Tracer_MX_LSW_Khaki),
+        QCLASS(100Rnd_65x39_EPR_MX_LSW_Khaki)
     };
 };
 
