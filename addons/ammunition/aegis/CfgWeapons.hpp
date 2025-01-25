@@ -19,17 +19,17 @@ class CfgWeapons {
 
     // M16
     class Aegis_arifle_M16A4_base_F: Rifle_Base_F {
-        magazineWell[] += {"CBA_556x45_STANAG"};
+        magazineWell[] += {"CBA_556x45_STANAG", "CBA_556x45_STANAG_2D_XL"};
     };
 
     // M4A1
     class Aegis_arifle_M4A1_base_F: Rifle_Base_F {
-        magazineWell[] += {"CBA_556x45_STANAG"};
+        magazineWell[] += {"CBA_556x45_STANAG", "CBA_556x45_STANAG_2D_XL"};
     };
 
     // SCAR-L
     class arifle_SCAR_L_base_F: Rifle_Base_F {
-        magazineWell[] += {"CBA_556x45_STANAG"};
+        magazineWell[] += {"CBA_556x45_STANAG", "CBA_556x45_STANAG_2D_XL"};
     };
 
     // SCAR-H
