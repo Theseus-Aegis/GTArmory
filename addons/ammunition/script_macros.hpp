@@ -4,7 +4,7 @@
     author = ECSTRING(main,Author)
 
 #define MACRO_TRACERS \
-    model = "\A3\Weapons_f\Data\bullettracer\tracer_Yellow"; \
+    model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow.p3d"; \
     tracerEndTime = 1; \
     tracerScale = 0.5; \
     tracerstartTime = 0.05
