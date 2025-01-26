@@ -1,3 +1,3 @@
-# Arcadian
+# Armory
 
-Switches M134 magazines to GT magazines
+Adds Aegis weapons from the public releases under APL-SA.
