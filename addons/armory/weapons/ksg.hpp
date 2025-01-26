@@ -1,20 +1,32 @@
 class CLASS(KSG_Base): Rifle_Base_F {
-    author = "Avery The Kitty, Mike";
+    author = "Aegis Team, Mike";
     aiDispersionCoefX = 4;
     aiDispersionCoefY = 6;
     aimTransitionSpeed = 1.2;
+    bullet1[] = {"a3\sounds_f\weapons\shells\shotgun\metal_shotgun_01", 0.501, 1, 15};
+    bullet2[] = {"a3\sounds_f\weapons\shells\shotgun\metal_shotgun_02", 0.501, 1, 15};
+    bullet3[] = {"a3\sounds_f\weapons\shells\shotgun\metal_shotgun_03", 0.501, 1, 15};
+    bullet4[] = {"a3\sounds_f\weapons\shells\shotgun\metal_shotgun_04", 0.501, 1, 15};
+    bullet5[] = {"a3\sounds_f\weapons\shells\shotgun\dirt_shotgun_01", 0.398, 1, 15};
+    bullet6[] = {"a3\sounds_f\weapons\shells\shotgun\dirt_shotgun_02", 0.398, 1, 15};
+    bullet7[] = {"a3\sounds_f\weapons\shells\shotgun\dirt_shotgun_03", 0.398, 1, 15};
+    bullet8[] = {"a3\sounds_f\weapons\shells\shotgun\dirt_shotgun_04", 0.398, 1, 15};
+    bullet9[] = {"a3\sounds_f\weapons\shells\shotgun\grass_shotgun_01", 0.223, 1, 15};
+    bullet10[] = {"a3\sounds_f\weapons\shells\shotgun\grass_shotgun_02", 0.223, 1, 15};
+    bullet11[] = {"a3\sounds_f\weapons\shells\shotgun\grass_shotgun_03", 0.223, 1, 15};
+    bullet12[] = {"a3\sounds_f\weapons\shells\shotgun\grass_shotgun_04", 0.223, 1, 15};
     class Library {
         libTextDesc = "";
     };
-    changeFiremodeSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK47\AK47_firemode.wss", 0.177, 1, 5};
+    changeFiremodeSound[] = {"a3\sounds_f_exp\arsenal\weapons\rifles\rifle_ak47\ak47_firemode.wss", 0.177, 1, 5};
     cursor = "sgun";
     displayName = "Kel-Tec KSG-25A Shotgun";
     descriptionShort = "Kel-Tec KSG-25A Shotgun";
     distanceZoomMax = 100;
     distanceZoomMin = 100;
     dexterity = 1.5;
-    drySound[] = {"A3\Sounds_F_Enoch\Assets\Arsenal\HunterShotgun_01\HunterShotgun_01_Shot_Dry_01.wss", 0.501, 1, 10};
-    handAnim[] = {"OFP2_ManSkeleton", "\A3\Weapons_F\Machineguns\M200\Data\Anim\M200.rtm"};
+    drySound[] = {"a3\sounds_f_enoch\assets\arsenal\huntershotgun_01\huntershotgun_01_shot_dry_01.wss", 0.501, 1, 10};
+    handAnim[] = {"OFP2_ManSkeleton", "\a3\weapons_f\machineguns\m200\data\anim\m200.rtm"};
     hiddenSelections[] = {"camo"};
     htMax = 550;
     htMin = 16;
@@ -33,10 +45,24 @@ class CLASS(KSG_Base): Rifle_Base_F {
     picture = QPATHTOF(ui\icon_ksg_olive_ca.paa);
     recoil = QCLASS(12G_Short);
     reloadAction = "CUP_GestureReloadM1014_1Rnd";
-    reloadMagazineSound[] = {"CUP\Weapons\CUP_Weapons_M1014\data\sfx\Reload_6Rnd.wss", 1, 1, 35};
+    reloadMagazineSound[] = {"cup\weapons\cup_weapons_m1014\data\sfx\reload_6rnd.wss", 1, 1, 35};
     scope = 0;
     scopeArsenal = 0;
-    uiPicture = "\A3\Weapons_F\Data\UI\icon_regular_CA.paa";
+    soundBullet[] = {
+        "bullet1", 0.083,
+        "bullet2", 0.083,
+        "bullet3", 0.083,
+        "bullet4", 0.083,
+        "bullet5", 0.083,
+        "bullet6", 0.083,
+        "bullet7", 0.083,
+        "bullet8", 0.083,
+        "bullet9", 0.083,
+        "bullet10", 0.083,
+        "bullet11", 0.083,
+        "bullet12", 0.083
+    };
+    uiPicture = "\a3\weapons_f\data\ui\icon_regular_ca.paa";
 
     class Single: Mode_SemiAuto {
         class BaseSoundModeType;
