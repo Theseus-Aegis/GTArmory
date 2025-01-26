@@ -25,4 +25,5 @@ class CfgPatches {
 class Mode_SemiAuto;
 class asdg_OpticRail1913_short;
 
+#include "CfgInGameUI.hpp"
 #include "CfgWeapons.hpp"
