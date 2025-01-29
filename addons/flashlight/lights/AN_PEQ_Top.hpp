@@ -38,7 +38,7 @@ class CLASS(ANPEQ_15_Top_Low_Light_Black): CLASS(ANPEQ_15_Top_Laser_Black) {
             MACRO_RED_FLASHLIGHT;
         };
     };
-    MRT_SwitchItemNextClass = QCLASS(ANPEQ_15_Top_Low_Light_Black);
+    MRT_SwitchItemNextClass = QCLASS(ANPEQ_15_Top_IR_Light_Black);
     MRT_SwitchItemPrevClass = QCLASS(ANPEQ_15_Top_Light_Black);
     MRT_SwitchItemHintText = "Visible Red";
 };
