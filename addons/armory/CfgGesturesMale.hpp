@@ -6,7 +6,7 @@ class CfgGesturesMale {
             speed = 0.2;
             mask = "handsWeapon";
             headBobStrength = 0.25;
-            headBobMode = 0.2;
+            headBobMode = 2;
             weaponIK = 1;
             leftHandIKCurve[] = {
                 0, 1,
