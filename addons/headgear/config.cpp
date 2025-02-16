@@ -10,10 +10,15 @@ class CfgPatches {
             QCLASS(OpsCore_Grijs_NoHS),
             QCLASS(Cap_DEF_NYMets),
             QCLASS(Cap_DEF_ASU),
+            QCLASS(Cap_Medic),
             QCLASS(PASGT_ASU)
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "CUP_Creatures_Extra_OpsCore"};
+        requiredAddons[] = {
+            "tacgt_main",
+            "tacs_headgear",
+            "CUP_Creatures_Extra_OpsCore"
+        };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo, Mike"};
@@ -21,4 +26,5 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
+
 #include "CfgWeapons.hpp"
