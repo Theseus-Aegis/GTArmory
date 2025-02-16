@@ -3,6 +3,7 @@ class CfgWeapons {
     class CUP_arifle_HK417_20;
     class CUP_arifle_Mk17_CQC_EGLM;
     class CUP_H_OpsCore_Covered_MCAM;
+    class CUP_H_OpsCore_Tan_SF;
     class H_HelmetB_TI_arid_F;
     class H_PilotHelmetHeli_B;
     class HeadgearItem;
@@ -135,6 +136,19 @@ class CfgWeapons {
             containerClass = "Supply40";
             mass = 20;
         };
+    };
+
+    // Dave
+    class CLASS(Custom_Langston_Helmet): CUP_H_OpsCore_Tan_SF {
+        author = "GilleeDoo";
+        displayName = "Ops Core FAST SF 'Langston' Edition";
+        hiddenSelections[] = {"camo1", "camo2", "camo3", "flag"};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\custom_langston_helmet_co.paa),
+            QPATHTOF(data\custom_langston_helmet_1_co.paa),
+            QPATHTOF(data\custom_langston_helmet_2_co.paa)
+        };
+        scope = 2;
     };
 
     // Mick

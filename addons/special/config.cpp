@@ -21,6 +21,7 @@ class CfgPatches {
             QCLASS(Custom_Krotzko_AUG),
             QCLASS(Custom_Laird_Bonnet),
             QCLASS(Custom_Laird_Uniform),
+            QCLASS(Custom_Langston_Helmet),
             QCLASS(Custom_Mathews_Uniform),
             QCLASS(Custom_McCarthy_Helmet),
             QCLASS(Custom_McQuade_Helmet),
