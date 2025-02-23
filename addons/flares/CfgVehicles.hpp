@@ -33,27 +33,27 @@ class CfgVehicles {
                         value="F_40mm_Red";
                     };
                     class CLASS(Star_Red) {
-                        name = CSTRING(Star_Red_Name);
+                        name = "Parachute Red";
                         value = "CUP_F_40mm_Star_Red";
                     };
                     class CLASS(Star_White) {
-                        name = CSTRING(Star_White_Name);
+                        name = "Parachute White";
                         value = "CUP_F_40mm_Star_White";
                     };
                     class CLASS(Star_Green) {
-                        name = CSTRING(Star_Green_Name);
+                        name = "Parachute Green";
                         value = "CUP_F_40mm_Star_Green";
                     };
                     class CLASS(Cluster_Red) {
-                        name = CSTRING(Cluster_Red_Name);
+                        name = "Cluster Red";
                         value = "CUP_Sub_F_40mm_StarCluster_Red";
                     };
                     class CLASS(Cluster_White) {
-                        name = CSTRING(Cluster_White_Name);
+                        name = "Cluster White";
                         value = "CUP_Sub_F_40mm_StarCluster_White";
                     };
                     class CLASS(Cluster_Green) {
-                        name = CSTRING(Cluster_Green_Name);
+                        name = "Cluster Green";
                         value = "CUP_Sub_F_40mm_StarCluster_Green";
                     };
                 };
