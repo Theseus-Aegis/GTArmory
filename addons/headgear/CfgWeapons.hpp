@@ -77,6 +77,14 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\cap_def_asu_co.paa)};
     };
 
+    class H_Cap_White_IDAP_F;
+    class CLASS(Cap_Medic): H_Cap_White_IDAP_F {
+        author = "GilleeDoo";
+        scope = 2;
+        displayName = "Cap (Medic)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_medic_co.paa)};
+    };
+
     // PASGT
     class H_PASGT_basic_white_F;
     class CLASS(PASGT_ASU): H_PASGT_basic_white_F {
