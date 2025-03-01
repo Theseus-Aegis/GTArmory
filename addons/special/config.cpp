@@ -44,7 +44,8 @@ class CfgPatches {
             "milgp_uniforms_cfg",
             "milgp_vests_cfg",
             "niaweapons_226",
-            "hlcweapons_AUG"
+            "hlcweapons_AUG",
+            "RF_Data_Loadorder"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
