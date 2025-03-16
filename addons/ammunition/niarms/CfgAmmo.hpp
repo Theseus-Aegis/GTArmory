@@ -3,7 +3,7 @@ class CfgAmmo {
 
     // .300AAC - Not subsonic anymore - Ridiculous drop at 400m
     class CLASS(300AAC_Ball): HLC_300Blackout_Ball {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.19;
         cartridge = "FxCartridge_762";
         hit = 12;
