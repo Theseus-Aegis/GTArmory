@@ -65,7 +65,7 @@ class CfgAmmo {
 
     // 9x19mm
     class CLASS(9x19_Ball): B_9x21_Ball_Tracer_Yellow {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.1;
         cartridge = "FxCartridge_9mm";
         hit = 8;
@@ -82,7 +82,7 @@ class CfgAmmo {
 
     // 5.45x39mm
     class CLASS(545x39_Ball): B_545x39_Ball_F {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.3;
         hit = 10;
         MACRO_TRACERS;
@@ -98,7 +98,7 @@ class CfgAmmo {
 
     // .45ACP
     class CLASS(45ACP_Ball): B_45ACP_Ball {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.15;
         cartridge = "FxCartridge_9mm";
         hit = 11;
@@ -126,7 +126,7 @@ class CfgAmmo {
 
     // 5.8x42mm
     class CLASS(58x42_Ball): B_580x42_Ball_F {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.25;
         hit = 10;
         MACRO_TRACERS;
@@ -143,7 +143,7 @@ class CfgAmmo {
 
     // 5.56x45mm
     class CLASS(556x45_Ball): B_556x45_Ball {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.4;
         hit = 11;
         MACRO_TRACERS;
@@ -164,7 +164,7 @@ class CfgAmmo {
 
     // 6.5x39mm
     class CLASS(65x39_Ball): B_65x39_Caseless {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.35;
         cartridge = "FxCartridge_65";
         hit = 10.8;
@@ -197,7 +197,7 @@ class CfgAmmo {
 
     // 7.62x39mm
     class CLASS(762x39_Ball): B_762x39_Ball_F {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.25;
         hit = 11.3;
         MACRO_TRACERS;
@@ -213,7 +213,7 @@ class CfgAmmo {
 
     // 7.62x51mm
     class CLASS(762x51_Ball): B_762x51_Ball {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.28;
         hit = 12.8;
         MACRO_TRACERS;
@@ -247,7 +247,7 @@ class CfgAmmo {
 
     // 7.62x54R
     class CLASS(762x54r_Ball): B_762x54_Ball {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.33;
         hit = 13;
         MACRO_TRACERS;
@@ -273,7 +273,7 @@ class CfgAmmo {
 
     // 5.7x28mm
     class CLASS(57x28_Ball): B_570x28_Ball {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 1.5;
         hit = 12;
         MACRO_TRACERS;

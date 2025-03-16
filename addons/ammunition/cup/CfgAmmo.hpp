@@ -3,7 +3,7 @@ class CfgAmmo {
 
     // 9x39mm - Subsonic
     class CLASS(9x39_Ball): CUP_B_9x39_SP5 {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = 192;
         caliber = 0.15;
         cartridge = "FxCartridge_9mm";
         hit = 10;
