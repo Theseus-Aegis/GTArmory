@@ -7,6 +7,7 @@ class CfgWeapons {
     class H_HelmetB_TI_arid_F;
     class H_PilotHelmetHeli_B;
     class HeadgearItem;
+    class hgun_Glock19_RF;
     class hlc_Pistol_M11A1;
     class hlc_pistol_Mk25TR;
     class hlc_rifle_auga2lsw_b;
@@ -281,6 +282,24 @@ class CfgWeapons {
     };
 
     // Zak (Additional stuff inside Ammunition component)
+    class CLASS(Custom_Zakharov_Handgun): hgun_Glock19_RF {
+        author = "Mike";
+        baseWeapon = QCLASS(Custom_Zakharov_Handgun);
+        displayName = "Glock 20 Custom";
+        magazines[] = {QCLASS(10mm_Ball_Special)};
+        magazineWell[] = {};
+        class Single: Mode_SemiAuto {
+            class BaseSoundModeType;
+            class StandardSound: BaseSoundModeType {
+                soundSetShot[] = {"ACPC2_Shot_SoundSet", "ACPC2_Tail_SoundSet", "ACPC2_InteriorTail_SoundSet"};
+            };
+            class SilencedSound: BaseSoundModeType {
+                SoundSetShot[] = {"ACPC2_silencerShot_SoundSet", "ACPC2_silencerTail_SoundSet", "ACPC2_silencerInteriorTail_SoundSet"};
+            };
+        };
+    };
+
+    /* Old Variant
     class CLASS(Custom_Zakharov_Handgun): hlc_Pistol_M11A1 {
         author = "Mike";
         baseWeapon = QCLASS(Custom_Zakharov_Handgun);
@@ -305,4 +324,5 @@ class CfgWeapons {
             };
         };
     };
+    */
 };

@@ -24,6 +24,7 @@ class CfgMagazines {
 
     class 7Rnd_50AE_Mag_RF;
 
+    #include "magazines\10mm.hpp"
     #include "magazines\9x19.hpp"
     #include "magazines\50AE.hpp"
     #include "magazines\556x45.hpp"

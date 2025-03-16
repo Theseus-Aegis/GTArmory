@@ -8,7 +8,6 @@ class CfgMagazines {
     class hlc_12Rnd_357SIG_B_P226;
     class hlc_8Rnd_357SIG_B_P239;
 
-    #include "magazines\10mm.hpp"
     #include "magazines\300Blackout.hpp"
     #include "magazines\357.hpp"
     #include "magazines\556x45.hpp"
