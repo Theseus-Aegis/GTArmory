@@ -5,7 +5,7 @@ class CfgVehicles {
     class tac_supplies_Launchers: Box_NATO_WpsLaunch_F {
         author = ECSTRING(main,Author);
         displayName = "[TAC] Launcher Supplies";
-        EDITOR_CATEGORY
+        EDITOR_CATEGORY;
         scope = 2;
         scopeCurator = 2;
         maximumLoad = 12000;
@@ -40,6 +40,7 @@ class CfgVehicles {
             MACRO_ADDWEAPON(launch_NLAW_F,3);
             MACRO_ADDWEAPON(CUP_launch_M136,3);
             MACRO_ADDWEAPON(tacgt_rpag_2,2);
+            MACRO_ADDWEAPON(CUP_launch_M72A6,4);
         };
         class TransportBackpacks {};
     };
@@ -47,7 +48,7 @@ class CfgVehicles {
     class tac_supplies_Engineer: Box_AAF_Uniforms_F {
         author = ECSTRING(main,Author);
         displayName = "[TAC] Engineer Supplies";
-        EDITOR_CATEGORY
+        EDITOR_CATEGORY;
         scope = 2;
         scopeCurator = 2;
         maximumLoad = 3000;
@@ -81,7 +82,7 @@ class CfgVehicles {
 
     class tac_supplies_Medic: tac_supplies_Engineer {
         displayName = "[TAC] Medic Supplies";
-        EDITOR_CATEGORY
+        EDITOR_CATEGORY;
         editorPreview = QPATHTOF(ui\supplies_medic.jpg);
         hiddenSelections[] = {
             "camo",
@@ -104,7 +105,7 @@ class CfgVehicles {
 
     class tac_supplies_Recruit: tac_supplies_Engineer {
         displayName = "[TAC] Recruit Supplies";
-        EDITOR_CATEGORY
+        EDITOR_CATEGORY;
         editorPreview = QPATHTOF(ui\supplies_Recruit.jpg);
         hiddenSelections[] = {
             "camo",
@@ -126,7 +127,7 @@ class CfgVehicles {
 
     class tac_supplies_VIP: tac_supplies_Recruit {
         displayName = "[TAC] VIP Protective Gear";
-        EDITOR_CATEGORY
+        EDITOR_CATEGORY;
         editorPreview = QPATHTOF(ui\supplies_VIP.jpg);
         hiddenSelections[] = {
             "camo",
@@ -148,7 +149,7 @@ class CfgVehicles {
     class CLASS(Supply_Empty_1_1): tac_supplies_Engineer {
         author = "Mike";
         displayName = "[TAC] Supply Box (1-1)";
-        EDITOR_CATEGORY
+        EDITOR_CATEGORY;
         scope = 2;
         scopeCurator = 2;
         maximumLoad = 12000;
@@ -224,10 +225,33 @@ class CfgVehicles {
         };
     };
 
+    class CLASS(Supply_Keres): CLASS(Supply_Empty_1_1) {
+        displayName = "[TAC] Keres";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\supply_base_texture_co.paa),
+            QPATHTOF(data\supply_keres_ca.paa)
+        };
+        class TransportMagazines {};
+        class TransportItems {};
+        class TransportBackpacks {};
+        class TransportWeapons {};
+    };
+    class CLASS(Supply_Special): CLASS(Supply_Keres) {
+        displayName = "[TAC] Special";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\supply_base_texture_co.paa),
+            QPATHTOF(data\supply_special_ca.paa)
+        };
+        class TransportMagazines {};
+        class TransportItems {};
+        class TransportBackpacks {};
+        class TransportWeapons {};
+    };
+
     class Land_CanisterFuel_F;
     class CLASS(CanisterFuel_Theseus): Land_CanisterFuel_F {
         displayName = "[TAC] Fuel Canister";
-        EDITOR_CATEGORY
+        EDITOR_CATEGORY;
         scope = 2;
         scopeCurator = 2;
         editorPreview = QPATHTOF(ui\supplies_FuelCanister.jpg);

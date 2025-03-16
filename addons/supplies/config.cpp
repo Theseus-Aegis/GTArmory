@@ -9,6 +9,8 @@ class CfgPatches {
             "tac_supplies_Medic",
             "tac_supplies_Recruit",
             "tac_supplies_VIP",
+            QCLASS(Supply_Keres),
+            QCLASS(Supply_Special),
             QCLASS(Supply_Empty_1_1),
             QCLASS(Supply_Empty_1_2),
             QCLASS(Supply_Empty_2_1),
