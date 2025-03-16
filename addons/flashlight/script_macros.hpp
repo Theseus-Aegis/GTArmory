@@ -24,8 +24,8 @@
     useFlare = 1; \
     class Attenuation { \
         constant = 1; \
-        hardLimitEnd = 175; \
-        hardLimitStart = 100; \
+        hardLimitEnd = 120; \
+        hardLimitStart = 70; \
         linear = 1; \
         quadratic = 0; \
         start = 0.1; \
@@ -48,8 +48,8 @@
     useFlare = 1; \
     class Attenuation { \
         constant = 1; \
-        hardLimitEnd = 175; \
-        hardLimitStart = 100; \
+        hardLimitEnd = 120; \
+        hardLimitStart = 70; \
         linear = 1; \
         quadratic = 0; \
         start = 0.1; \
@@ -101,8 +101,8 @@
         linear = 0; \
         quadratic = 0.001; \
         start = 1; \
-        hardLimitStart = 570; \
-        hardLimitEnd = 600; \
+        hardLimitStart = 100; \
+        hardLimitEnd = 120; \
     }
 
 #define MACRO_IR_POINTER \
