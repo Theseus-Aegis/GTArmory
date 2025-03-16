@@ -117,7 +117,7 @@
     beamThickness = 0; \
     dotColor[] = {16384, 0, 0}; \
     irDistance = 5; \
-    irDotSize = QUOTE(0.1/4); \
+    irDotSize = 0.025; \
     irLaserEnd = "laser dir"; \
     irLaserPos = "laser pos"; \
     isIR = 0
