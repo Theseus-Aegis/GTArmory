@@ -5,4 +5,4 @@
 
 #define EDITOR_CATEGORY \
     editorCategory = "tac_Mission_Items"; \
-    editorSubCategory = "tac_Mission_Items_Supplies";
+    editorSubCategory = "tac_Mission_Items_Supplies"
