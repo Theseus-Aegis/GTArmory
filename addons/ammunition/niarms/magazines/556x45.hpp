@@ -56,3 +56,26 @@ class CLASS(42Rnd_556x45_AP_AUG): CLASS(42Rnd_556x45_EPR_AUG) {
     displayNameShort = "AP";
     descriptionShort = "5.56x45mm AP Reload Tracer";
 };
+
+// 5.56x45mm 50Rnd Drum
+class CLASS(50Rnd_556x45_Ball_Drum): hlc_50rnd_556x45_M {
+    MACRO_SCOPE;
+    ammo = QCLASS(556x45_Ball);
+    displayName = "5.56mm 50Rnd Drum (Ball)";
+    displayNameShort = "Ball";
+    descriptionShort = "5.56x45mm Ball Reload Tracer";
+    tracersEvery = 4;
+    mass = 15;
+};
+class CLASS(50Rnd_556x45_Ball_Tracer_Drum): CLASS(50Rnd_556x45_Ball_Drum) {
+    displayName = "5.56mm 50Rnd Drum [T] (Ball)";
+    displayNameShort = "Ball Tracer";
+    descriptionShort = "5.56x45mm Ball Tracer";
+    tracersEvery = 1;
+};
+class CLASS(50Rnd_556x45_EPR_Drum): CLASS(50Rnd_556x45_Ball_Drum) {
+    ammo = QCLASS(556x45_EPR);
+    displayName = "5.56mm 50Rnd Drum (EPR)";
+    displayNameShort = "EPR";
+    descriptionShort = "5.56x45mm EPR Reload Tracer";
+};

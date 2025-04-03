@@ -64,4 +64,12 @@ class CfgMagazineWells {
             QCLASS(42Rnd_556x45_AP_AUG)
         };
     };
+
+    class CBA_556x45_STANAG_2D_XL {
+        ADDON[] = {
+            QCLASS(50Rnd_556x45_Ball_Drum),
+            QCLASS(50Rnd_556x45_Ball_Tracer_Drum),
+            QCLASS(50Rnd_556x45_EPR_Drum)
+        };
+    };
 };

@@ -7,6 +7,7 @@ class CfgMagazines {
     class hlc_10Rnd_9x19_B_P239;
     class hlc_12Rnd_357SIG_B_P226;
     class hlc_8Rnd_357SIG_B_P239;
+    class hlc_50rnd_556x45_M;
 
     #include "magazines\300Blackout.hpp"
     #include "magazines\357.hpp"
