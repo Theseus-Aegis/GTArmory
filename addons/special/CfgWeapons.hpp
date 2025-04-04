@@ -20,6 +20,7 @@ class CfgWeapons {
     class U_C_E_LooterJacket_01_F;
     class U_C_Uniform_Scientist_02_formal_F;
     class U_I_C_Soldier_Bandit_2_F;
+    class U_I_E_Uniform_01_tanktop_F;
     class Uniform_Base;
     class UniformItem;
 
@@ -277,6 +278,21 @@ class CfgWeapons {
             uniformModel = "-";
             uniformClass = QCLASS(Custom_Woods_Uniform_V);
             containerClass = "Supply50";
+            mass = 40;
+        };
+    };
+
+    // Zoltan
+    class CLASS(Custom_Sarkozy_Uniform): U_I_E_Uniform_01_tanktop_F {
+        author = "GilleeDoo";
+        displayName = "Combat Fatigues (Tank Top) 'ZS' Edition";
+        hiddenSelections[] = {"camo"};
+        hiddenselectionsTextures[] = {QPATHTOF(data\custom_sarkozy_uniform_co.paa)};
+        scope = 2;
+        class ItemInfo: UniformItem {
+            uniformModel = "-";
+            uniformClass = QCLASS(Custom_Sarkozy_Uniform_V);
+            containerClass = "Supply40";
             mass = 40;
         };
     };

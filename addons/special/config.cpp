@@ -8,6 +8,7 @@ class CfgPatches {
             QCLASS(Custom_Laird_Uniform_V),
             QCLASS(Custom_Mathews_Uniform_V),
             QCLASS(Custom_McQuade_Backpack),
+            QCLASS(Custom_Sarkozy_Uniform_V),
             QCLASS(Custom_Vee_Uniform_V),
             QCLASS(Custom_Woods_Uniform_V)
         };
@@ -28,6 +29,7 @@ class CfgPatches {
             QCLASS(Custom_McQuade_SCARH_EGLM),
             QCLASS(Custom_Pierce_Handgun),
             QCLASS(Custom_Rambo_HK417),
+            QCLASS(Custom_Sarkozy_Uniform),
             QCLASS(Custom_Vee_HBAR),
             QCLASS(Custom_Vee_Uniform),
             QCLASS(Custom_Woods_Uniform),

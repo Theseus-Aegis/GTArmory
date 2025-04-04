@@ -5,6 +5,7 @@ class CfgVehicles {
     class C_E_LooterJacket_01_F;
     class C_Uniform_Scientist_02_formal_F;
     class I_C_Soldier_Bandit_2_F;
+    class I_E_Uniform_01_tanktop_F;
     class Item_Base_F;
 
     // Jay Uniform
@@ -117,6 +118,28 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {
             "\a3\characters_f_exp\blufor\data\u_b_ctrg_soldier_arid_f_co.paa",
             QPATHTOF(data\custom_woods_uniform_co.paa)
+        };
+    };
+
+    // Zoltan
+    class CLASS(Custom_Sarkozy_Uniform_Item): Item_Base_F {
+        author = "GilleeDoo";
+        displayName = "Combat Fatigues (Tank Top) 'ZS' Edition";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(tacgt_Custom_Sarkozy_Uniform,1);
+        };
+    };
+    class CLASS(Custom_Sarkozy_Uniform_V): I_E_Uniform_01_tanktop_F {
+        author = "GilleeDoo";
+        scope = 1;
+        uniformClass = QCLASS(Custom_Sarkozy_Uniform);
+        hiddenSelectionsTextures[]= {
+            QPATHTOF(data\custom_sarkozy_uniform_co.paa),
+            QPATHTOF(data\custom_sarkozy_pants_co.paa),
+            QPATHTOF(data\custom_sarkozy_gloves_co.paa)
         };
     };
 };
