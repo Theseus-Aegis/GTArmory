@@ -6,6 +6,7 @@ class CLASS(10Rnd_556x45_Ball_Stanag_RF): 10Rnd_556x45_AP_Stanag_RF {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(10Rnd_556x45_Ball_Tracer_Stanag_RF): CLASS(10Rnd_556x45_Ball_Stanag_RF) {
     displayName = "5.56mm 10Rnd Stanag [T] (Ball)";
@@ -33,6 +34,7 @@ class CLASS(10Rnd_556x45_Ball_Stanag_Tan_RF): 10Rnd_556x45_AP_Stanag_Tan_RF {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(10Rnd_556x45_Ball_Tracer_Stanag_Tan_RF): CLASS(10Rnd_556x45_Ball_Stanag_Tan_RF) {
     displayName = "5.56mm 10Rnd Stanag Tan [T] (Ball)";
@@ -60,6 +62,7 @@ class CLASS(10Rnd_556x45_Ball_Stanag_khk_RF): 10Rnd_556x45_AP_Stanag_khk_RF {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(10Rnd_556x45_Ball_Tracer_Stanag_khk_RF): CLASS(10Rnd_556x45_Ball_Stanag_khk_RF) {
     displayName = "5.56mm 10Rnd Stanag Green [T] (Ball)";
@@ -88,6 +91,7 @@ class CLASS(20Rnd_556x45_Ball_Stanag_RF): 20Rnd_556x45_AP_Stanag_RF {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(20Rnd_556x45_Ball_Tracer_Stanag_RF): CLASS(20Rnd_556x45_Ball_Stanag_RF) {
     displayName = "5.56mm 20Rnd Stanag [T] (Ball)";
@@ -115,6 +119,7 @@ class CLASS(20Rnd_556x45_Ball_Stanag_Tan_RF): 20Rnd_556x45_AP_Stanag_Tan_RF {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(20Rnd_556x45_Ball_Tracer_Stanag_Tan_RF): CLASS(20Rnd_556x45_Ball_Stanag_Tan_RF) {
     displayName = "5.56mm 20Rnd Stanag Tan [T] (Ball)";
@@ -142,6 +147,7 @@ class CLASS(20Rnd_556x45_Ball_Stanag_khk_RF): 20Rnd_556x45_AP_Stanag_khk_RF {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(20Rnd_556x45_Ball_Tracer_Stanag_khk_RF): CLASS(20Rnd_556x45_Ball_Stanag_khk_RF) {
     displayName = "5.56mm 20Rnd Stanag Green [T] (Ball)";
@@ -170,6 +176,7 @@ class CLASS(30Rnd_556x45_Ball_Stanag_RF): 30Rnd_556x45_AP_Stanag_RF {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_Stanag_RF): CLASS(30Rnd_556x45_Ball_Stanag_RF) {
     displayName = "5.56mm 30Rnd Stanag [T] (Ball)";
@@ -197,6 +204,7 @@ class CLASS(30Rnd_556x45_Ball_Stanag_Tan_RF): 30Rnd_556x45_AP_Stanag_Tan_RF {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_Stanag_Tan_RF): CLASS(30Rnd_556x45_Ball_Stanag_Tan_RF) {
     displayName = "5.56mm 30Rnd Stanag Tan [T] (Ball)";
@@ -224,6 +232,7 @@ class CLASS(30Rnd_556x45_Ball_Stanag_khk_RF): 30Rnd_556x45_AP_Stanag_khk_RF {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_Stanag_khk_RF): CLASS(30Rnd_556x45_Ball_Stanag_khk_RF) {
     displayName = "5.56mm 30Rnd Stanag Green [T] (Ball)";

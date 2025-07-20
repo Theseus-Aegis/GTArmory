@@ -7,6 +7,7 @@ class CLASS(30Rnd_556x45_Ball_EMAG): 30Rnd_556x45_Stanag {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 10;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_EMAG): CLASS(30Rnd_556x45_Ball_EMAG) {
@@ -90,6 +91,7 @@ class CLASS(30Rnd_556x45_Ball_AK): CUP_30Rnd_556x45_AK {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 10;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_AK): CLASS(30Rnd_556x45_Ball_AK) {
@@ -119,7 +121,7 @@ class CLASS(30Rnd_556x45_Ball_G36): CUP_30Rnd_TE1_Green_Tracer_556x45_G36 {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
-    tracersEvery = 0; // Required due to inheriting a tracer mag.
+    tracersEvery = 4; // Required due to inheriting a tracer mag.
     mass = 10;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_G36): CLASS(30Rnd_556x45_Ball_G36) {
@@ -149,6 +151,7 @@ class CLASS(25Rnd_556x45_Ball_FAMAS): CUP_25Rnd_556x45_Famas {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 9;
 };
 class CLASS(25Rnd_556x45_Ball_Tracer_FAMAS): CLASS(25Rnd_556x45_Ball_FAMAS) {
@@ -178,6 +181,7 @@ class CLASS(30Rnd_556x45_Ball_AUG): CUP_30Rnd_556x45_AUG {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 10;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_AUG): CLASS(30Rnd_556x45_Ball_AUG) {

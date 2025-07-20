@@ -5,6 +5,7 @@ class CLASS(13Rnd_9x19_Browning_Ball): CUP_13Rnd_9x19_Browning_HP {
     descriptionShort = "9x19mm Ball Reload Tracer";
     displayName = "9mm 13Rnd Browning (Ball)";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
 };
 
 // 9x19 CZ75
@@ -14,6 +15,7 @@ class CLASS(18Rnd_9x19_CZ75_Ball): CUP_18Rnd_9x19_Phantom {
     descriptionShort = "9x19mm Ball Reload Tracer";
     displayName = "9mm 18Rnd CZ75 (Ball)";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
 };
 
 // 9x19 Glock
@@ -23,6 +25,7 @@ class CLASS(17Rnd_9x19_Glock_Ball): CUP_17Rnd_9x19_glock17 {
     descriptionShort = "9x19mm Ball Reload Tracer";
     displayName = "9mm 17Rnd Glock (Ball)";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
 };
 
 // 9x19 M17
@@ -32,6 +35,7 @@ class CLASS(17Rnd_9x19_M17_Ball): CUP_17Rnd_9x19_M17_Black {
     descriptionShort = "9x19mm Ball Reload Tracer";
     displayName = "9mm 17Rnd M17 (Ball)";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
 };
 
 // 9x19 M9
@@ -41,6 +45,7 @@ class CLASS(15Rnd_9x19_M9_Ball): CUP_15Rnd_9x19_M9 {
     descriptionShort = "9x19mm Ball Reload Tracer";
     displayName = "9mm 15Rnd M9 (Ball)";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
 };
 
 // 9x19mm MP5
@@ -51,6 +56,7 @@ class CLASS(30Rnd_9x19_Ball_MP5): CUP_30Rnd_9x19_MP5 {
     displayNameShort = "Ball";
     descriptionShort = "9x19mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 9;
 };
 class CLASS(30Rnd_9x19_Ball_Tracer_MP5): CLASS(30Rnd_9x19_Ball_MP5) {
@@ -80,6 +86,7 @@ class CLASS(30Rnd_9x19_Ball_Vityaz): CUP_30Rnd_9x19_Vityaz {
     displayNameShort = "Ball";
     descriptionShort = "9x19mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 9;
 };
 class CLASS(30Rnd_9x19_Ball_Tracer_Vityaz): CLASS(30Rnd_9x19_Ball_Vityaz) {
@@ -109,6 +116,7 @@ class CLASS(64Rnd_9x19_Ball_Bizon): CUP_64Rnd_9x19_Bizon_M {
     displayNameShort = "Ball";
     descriptionShort = "9x19mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 20;
 };
 class CLASS(64Rnd_9x19_Ball_Tracer_Bizon): CLASS(64Rnd_9x19_Ball_Bizon) {

@@ -5,6 +5,7 @@ class CLASS(15Rnd_45ACP_FNX45_Ball): 11Rnd_45ACP_Mag {
     descriptionShort = ".45ACP Ball Reload Tracer";
     displayName = ".45ACP 15Rnd FNX-45 (Ball)";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
 };
 
 // .45ACP C-1911
@@ -14,6 +15,7 @@ class CLASS(8Rnd_45ACP_C1911_Ball): 9Rnd_45ACP_Mag {
     descriptionShort = ".45ACP Ball Reload Tracer";
     displayName = ".45ACP 8Rnd C-1911 (Ball)";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
 };
 
 // .45ACP SMG
@@ -24,6 +26,7 @@ class CLASS(25Rnd_45ACP_Ball): 30Rnd_45ACP_Mag_SMG_01 {
     displayNameShort = "Ball";
     descriptionShort = ".45ACP Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 9;
 };
 class CLASS(25Rnd_45ACP_Ball_Tracer): CLASS(25Rnd_45ACP_Ball) {

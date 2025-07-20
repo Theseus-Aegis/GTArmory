@@ -23,6 +23,7 @@ class CLASS(20Rnd_762x51_Ball_FAL): CUP_20Rnd_762x51_FNFAL_M {
     displayNameShort = "Ball";
     descriptionShort = "7.62x51mm Ball Reload Tracer";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
     mass = 11;
 };
 class CLASS(20Rnd_762x51_Ball_Tracer_FAL): CLASS(20Rnd_762x51_Ball_FAL) {
@@ -52,6 +53,7 @@ class CLASS(20Rnd_762x51_Ball_HK417): CUP_20Rnd_762x51_HK417 {
     displayNameShort = "Ball";
     descriptionShort = "7.62x51mm Ball Reload Tracer";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
     mass = 11;
 };
 class CLASS(20Rnd_762x51_Ball_Tracer_HK417): CLASS(20Rnd_762x51_Ball_HK417) {
@@ -81,6 +83,7 @@ class CLASS(20Rnd_762x51_Ball_M110): CUP_20Rnd_762x51_B_M110 {
     displayNameShort = "Ball";
     descriptionShort = "7.62x51mm Ball Reload Tracer";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
     mass = 11;
 };
 class CLASS(20Rnd_762x51_Ball_Tracer_M110): CLASS(20Rnd_762x51_Ball_M110) {
@@ -110,6 +113,7 @@ class CLASS(20Rnd_762x51_Ball_SCAR): CUP_20Rnd_762x51_B_SCAR_bkl {
     displayNameShort = "Ball";
     descriptionShort = "7.62x51mm Ball Reload Tracer";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
     mass = 11;
 };
 class CLASS(20Rnd_762x51_Ball_Tracer_SCAR): CLASS(20Rnd_762x51_Ball_SCAR) {
