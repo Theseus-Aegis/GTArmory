@@ -1,10 +1,6 @@
 class CfgFaces {
-    class Default {
-        class Custom;
-    };
-
+    class Default;
     class Man_A3: Default {
-        class Default;
         class Sturrock;
 
         class CLASS(TyroneMF_Face): Sturrock {
