@@ -6,6 +6,7 @@ class CLASS(30Rnd_9x39_Ball): CUP_30Rnd_9x39_SP5_VIKHR_M {
     displayNameShort = "Ball";
     descriptionShort = "9x39mm Ball Reload Tracer Subsonic";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 10;
 };
 class CLASS(30Rnd_9x39_Ball_Tracer): CLASS(30Rnd_9x39_Ball) {

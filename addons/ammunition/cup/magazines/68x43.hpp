@@ -6,6 +6,7 @@ class CLASS(30Rnd_68x43_Ball_ACR): CUP_30Rnd_680x43_Stanag {
     displayNameShort = "Ball";
     descriptionShort = "6.8x43mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 10;
 };
 class CLASS(30Rnd_68x43_Ball_Tracer_ACR): CLASS(30Rnd_68x43_Ball_ACR) {

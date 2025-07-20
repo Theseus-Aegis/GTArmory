@@ -29,6 +29,7 @@ class CLASS(10Rnd_762x54r_Ball): 10Rnd_762x54_Mag {
     displayNameShort = "Ball";
     descriptionShort = "7.62x54r Ball Reload Tracer";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
     mass = 8;
 };
 class CLASS(10Rnd_762x54r_Ball_Tracer): CLASS(10Rnd_762x54r_Ball) {

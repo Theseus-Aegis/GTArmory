@@ -6,6 +6,7 @@ class CLASS(30Rnd_65x39_Ball_MX_Sand): 30Rnd_65x39_caseless_mag {
     displayNameShort = "Ball";
     descriptionShort = "6.5x39mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(30Rnd_65x39_Ball_Tracer_MX_Sand): CLASS(30Rnd_65x39_Ball_MX_Sand) {
     displayName = "6.5mm 30Rnd MX Sand [T] (Ball)";
@@ -120,6 +121,7 @@ class CLASS(30Rnd_65x39_Ball_MSBS): 30Rnd_65x39_caseless_msbs_mag {
     displayNameShort = "Ball";
     descriptionShort = "6.5x39mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(30Rnd_65x39_Ball_Tracer_MSBS): CLASS(30Rnd_65x39_Ball_MSBS) {
     displayName = "6.5mm 30Rnd MSBS [T] (Ball)";
@@ -148,6 +150,7 @@ class CLASS(30Rnd_65x39_Ball_Katiba): 30Rnd_65x39_caseless_green {
     displayNameShort = "Ball";
     descriptionShort = "6.5x39mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(30Rnd_65x39_Ball_Tracer_Katiba): CLASS(30Rnd_65x39_Ball_Katiba) {
     displayName = "6.5mm 30Rnd Katiba [T] (Ball)";
@@ -198,6 +201,7 @@ class CLASS(20Rnd_65x39_Ball): 20Rnd_650x39_Cased_Mag_F {
     displayNameShort = "Ball";
     descriptionShort = "6.5x39mm Ball Reload Tracer";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
 };
 class CLASS(20Rnd_65x39_Ball_Tracer): CLASS(20Rnd_65x39_Ball) {
     displayName = "6.5mm 20Rnd [T] (Ball)";
