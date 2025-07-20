@@ -6,6 +6,7 @@ class CLASS(30Rnd_762x39_Ball_Plastic_Black): 30Rnd_762x39_AK12_Mag_F {
     displayNameShort = "Ball";
     descriptionShort = "7.62x39mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 11;
 };
 class CLASS(30Rnd_762x39_Ball_Tracer_Plastic_Black): CLASS(30Rnd_762x39_Ball_Plastic_Black) {
@@ -54,6 +55,7 @@ class CLASS(30Rnd_762x39_Ball_Metal): 30Rnd_762x39_Mag_F {
     displayNameShort = "Ball";
     descriptionShort = "7.62x39mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 11;
 };
 class CLASS(30Rnd_762x39_Ball_Tracer_Metal): CLASS(30Rnd_762x39_Ball_Metal) {

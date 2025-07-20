@@ -29,6 +29,7 @@ class CLASS(30Rnd_545x39_Ball_Fort): CUP_30Rnd_545x39_Fort224_M {
     displayNameShort = "Ball";
     descriptionShort = "5.45x39mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 10;
 };
 class CLASS(30Rnd_545x39_Ball_Tracer_Fort): CLASS(30Rnd_545x39_Ball_Fort) {

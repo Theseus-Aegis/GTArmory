@@ -4,6 +4,7 @@ class CLASS(17Rnd_9x19mm_Walther_Ball): 16Rnd_9x21_Mag {
     descriptionShort = "9x19mm Ball Reload Tracer";
     displayName = "9mm 17Rnd Walther (Ball)";
     lastRoundsTracer = 2;
+    tracersEvery = 4;
 };
 
 // 9x19mm
@@ -14,6 +15,7 @@ class CLASS(30Rnd_9x19_Ball): 30Rnd_9x21_Mag {
     displayNameShort = "Ball";
     descriptionShort = "9x19mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 9;
 };
 class CLASS(30Rnd_9x19_Ball_Tracer): CLASS(30Rnd_9x19_Ball) {

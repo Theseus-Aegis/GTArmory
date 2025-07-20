@@ -5,6 +5,7 @@ class CLASS(30Rnd_300AAC_Ball): hlc_29rnd_300BLK_STANAG {
     displayNameShort = "Ball";
     descriptionShort = ".300AAC Ball Reload Tracer Subsonic";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 10;
 };
 class CLASS(30Rnd_300AAC_Ball_Tracer): CLASS(30Rnd_300AAC_Ball) {
