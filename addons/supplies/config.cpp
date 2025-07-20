@@ -28,7 +28,8 @@ class CfgPatches {
             "tacgt_theseus",
             "tacs_vests",
             "ace_medical_treatment",
-            "CUP_Weapons_LoadOrder"
+            "CUP_Weapons_LoadOrder",
+            "iedd_equipment"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
