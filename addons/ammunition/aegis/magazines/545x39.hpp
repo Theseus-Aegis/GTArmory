@@ -45,7 +45,7 @@
 
 
 //5.45x39 RPK mags using Aegis RPK-12 mags
-class CLASS(60Rnd_545x39_Ball): Aegis_60Rnd_545x39_Mag_F {
+class CLASS(60Rnd_545x39_Ball_Aegis): Aegis_60Rnd_545x39_Mag_F {
     ammo = QCLASS(545x39_Ball);
     displayName = "5.45mm 60Rnd (TE4) Ball";
     displayNameShort = "Ball TE4";
@@ -53,20 +53,20 @@ class CLASS(60Rnd_545x39_Ball): Aegis_60Rnd_545x39_Mag_F {
     tracerEvery = 4;
     mass = 22;
 };
-class CLASS(60Rnd_545x39_EPR): CLASS(60Rnd_545x39_Ball) {
+class CLASS(60Rnd_545x39_EPR_Aegis): CLASS(60Rnd_545x39_Ball_Aegis) {
     ammo = QCLASS(545x39_EPR);
     displayName = "5.45mm 60Rnd (TE4) EPR";
     displayNameShort = "EPR TE4";
     descriptionShort = "5.45x39mm EPR Tracer every 4";
 };
-class CLASS(60Rnd_545x39_Ball_Tracer): CLASS(60Rnd_545x39_Ball) {
+class CLASS(60Rnd_545x39_Ball_Tracer_Aegis): CLASS(60Rnd_545x39_Ball_Aegis) {
     displayName = "5.45mm 60Rnd (T) Ball";
     displayNameShort = "Ball Tracer";
     descriptionShort = "5.45x39mm Ball Tracer";
     tracerEvery = 1;
 };
 
-class CLASS(45Rnd_545x39_Ball): Aegis_45Rnd_545x39_Mag_F {
+class CLASS(45Rnd_545x39_Ball_Aegis): Aegis_45Rnd_545x39_Mag_F {
     ammo = QCLASS(545x39_Ball);
     displayName = "5.45mm 45Rnd (TE4) Ball";
     displayNameShort = "Ball TE4";
@@ -74,13 +74,13 @@ class CLASS(45Rnd_545x39_Ball): Aegis_45Rnd_545x39_Mag_F {
     tracerEvery = 4;
     mass = 22;
 };
-class CLASS(45Rnd_545x39_EPR): CLASS(45Rnd_545x39_Ball) {
+class CLASS(45Rnd_545x39_EPR_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
     ammo = QCLASS(545x39_EPR);
     displayName = "5.45mm 45Rnd (TE4) EPR";
     displayNameShort = "EPR TE4";
     descriptionShort = "5.45x39mm EPR Tracer every 4";
 };
-class CLASS(45Rnd_545x39_Ball_Tracer): CLASS(45Rnd_545x39_Ball) {
+class CLASS(45Rnd_545x39_Ball_Tracer_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
     displayName = "5.45mm 45Rnd (T) Ball";
     displayNameShort = "EPR TE4";
     descriptionShort = "5.45x39mm EPR Tracer every 4";

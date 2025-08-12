@@ -17,12 +17,12 @@ class CfgMagazineWells {
             QCLASS(30Rnd_545x39_Ball_Tracer_Plum),
             QCLASS(30Rnd_545x39_EPR_Plum),
             QCLASS(30Rnd_545x39_AP_Plum),
-            QCLASS(45Rnd_545x39_Ball),
-            QCLASS(45Rnd_545x39_EPR),
-            QCLASS(45Rnd_545x39_Ball_Tracer),
-            QCLASS(60Rnd_545x39_Ball),
-            QCLASS(60Rnd_545x39_EPR),
-            QCLASS(60Rnd_545x39_Ball_Tracer),
+            QCLASS(45Rnd_545x39_Ball_Aegis),
+            QCLASS(45Rnd_545x39_EPR_Aegis),
+            QCLASS(45Rnd_545x39_Ball_Tracer_Aegis),
+            QCLASS(60Rnd_545x39_Ball_Aegis),
+            QCLASS(60Rnd_545x39_EPR_Aegis),
+            QCLASS(60Rnd_545x39_Ball_Tracer_Aegis),
         };
     };
     class CBA_762x51_SCAR {
