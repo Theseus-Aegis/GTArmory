@@ -50,7 +50,7 @@ class CLASS(60Rnd_545x39_Ball_Aegis): Aegis_60Rnd_545x39_Mag_F {
     displayName = "5.45mm 60Rnd (TE4) Ball";
     displayNameShort = "Ball TE4";
     descriptionShort = "5.45x39mm Ball Tracer Every 4";
-    tracerEvery = 4;
+    tracersEvery = 4;
     mass = 20;
 };
 class CLASS(60Rnd_545x39_EPR_Aegis): CLASS(60Rnd_545x39_Ball_Aegis) {
@@ -63,7 +63,7 @@ class CLASS(60Rnd_545x39_Ball_Tracer_Aegis): CLASS(60Rnd_545x39_Ball_Aegis) {
     displayName = "5.45mm 60Rnd (T) Ball";
     displayNameShort = "Ball Tracer";
     descriptionShort = "5.45x39mm Ball Tracer";
-    tracerEvery = 1;
+    tracersEvery = 1;
 };
 
 class CLASS(45Rnd_545x39_Ball_Aegis): Aegis_45Rnd_545x39_Mag_F {
@@ -71,7 +71,7 @@ class CLASS(45Rnd_545x39_Ball_Aegis): Aegis_45Rnd_545x39_Mag_F {
     displayName = "5.45mm 45Rnd (TE4) Ball";
     displayNameShort = "Ball TE4";
     descriptionShort = "5.45x39mm Ball Tracer Every 4";
-    tracerEvery = 4;
+    tracersEvery = 4;
     mass = 16;
 };
 class CLASS(45Rnd_545x39_EPR_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
@@ -82,8 +82,9 @@ class CLASS(45Rnd_545x39_EPR_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
 };
 class CLASS(45Rnd_545x39_Ball_Tracer_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
     displayName = "5.45mm 45Rnd (T) Ball";
-    displayNameShort = "EPR TE4";
+    displayNameShort = "Ball TE1";
     descriptionShort = "5.45x39mm EPR Tracer every 4";
+    tracersEvery = 1;
 };
 
 
