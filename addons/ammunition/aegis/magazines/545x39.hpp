@@ -51,7 +51,7 @@ class CLASS(60Rnd_545x39_Ball_Aegis): Aegis_60Rnd_545x39_Mag_F {
     displayNameShort = "Ball TE4";
     descriptionShort = "5.45x39mm Ball Tracer Every 4";
     tracerEvery = 4;
-    mass = 22;
+    mass = 20;
 };
 class CLASS(60Rnd_545x39_EPR_Aegis): CLASS(60Rnd_545x39_Ball_Aegis) {
     ammo = QCLASS(545x39_EPR);
@@ -72,7 +72,7 @@ class CLASS(45Rnd_545x39_Ball_Aegis): Aegis_45Rnd_545x39_Mag_F {
     displayNameShort = "Ball TE4";
     descriptionShort = "5.45x39mm Ball Tracer Every 4";
     tracerEvery = 4;
-    mass = 22;
+    mass = 16;
 };
 class CLASS(45Rnd_545x39_EPR_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
     ammo = QCLASS(545x39_EPR);
