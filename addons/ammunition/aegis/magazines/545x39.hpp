@@ -87,11 +87,6 @@ class CLASS(45Rnd_545x39_Ball_Tracer_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
     tracersEvery = 1;
 };
 
-
-
-
-
-
 // 5.45x39mm (Using Aegis AK-12 mags)
 class CLASS(30Rnd_545x39_EPR);
 class CLASS(30Rnd_545x39_AP): CLASS(30Rnd_545x39_EPR) {
