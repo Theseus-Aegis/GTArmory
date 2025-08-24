@@ -20,6 +20,13 @@ class CLASS(150Rnd_762x54r_EPR_Belt): CLASS(150Rnd_762x54r_Ball_Belt) {
     displayNameShort = "EPR TE4";
     descriptionShort = "7.62x54r EPR Tracer Every 4";
 };
+class CLASS(150Rnd_762x54r_AP_Belt): CLASS(150Rnd_762x54r_Ball_Belt) {
+    ammo = QCLASS(762x54r_AP);
+    displayName = "7.62mm 150Rnd Belt [TE4] (AP)";
+    displayNameShort = "AP TE4";
+    descriptionShort = "7.62x54r AP Tracer Every 4";
+};
+
 
 // 7.62x54r SVD/VS-121 Magazines
 class CLASS(10Rnd_762x54r_Ball): 10Rnd_762x54_Mag {

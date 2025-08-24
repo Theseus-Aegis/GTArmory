@@ -20,6 +20,13 @@ class CLASS(200Rnd_556x45_EPR_Belt): CLASS(200Rnd_556x45_Ball_Belt) {
     displayNameShort = "EPR TE4";
     descriptionShort = "5.56x45mm EPR Tracer Every 4";
 };
+class CLASS(200Rnd_556x45_AP_Belt): CLASS(200Rnd_556x45_Ball_Belt) {
+    ammo = QCLASS(556x45_AP);
+    displayName = "5.56mm 200Rnd Belt [TE4] (AP)";
+    displayNameShort = "AP TE4";
+    descriptionShort = "5.56x45mm AP Tracer Every 4";
+};
+
 
 // 5.56x45mm Drum 150
 class CLASS(150Rnd_556x45_Ball_Drum): 150Rnd_556x45_Drum_Mag_F {
@@ -43,3 +50,10 @@ class CLASS(150Rnd_556x45_EPR_Drum): CLASS(150Rnd_556x45_Ball_Drum) {
     displayNameShort = "EPR TE4";
     descriptionShort = "5.56x45mm EPR Tracer Every 4";
 };
+class CLASS(150Rnd_556x45_AP_Drum): CLASS(150Rnd_556x45_Ball_Drum) {
+    ammo = QCLASS(556x45_AP);
+    displayName = "5.56mm 150Rnd Drum [TE4] (AP)";
+    displayNameShort = "AP TE4";
+    descriptionShort = "5.56x45mm AP Tracer Every 4";
+};
+

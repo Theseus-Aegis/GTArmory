@@ -59,6 +59,13 @@ class CLASS(60Rnd_545x39_EPR_Aegis): CLASS(60Rnd_545x39_Ball_Aegis) {
     displayNameShort = "EPR TE4";
     descriptionShort = "5.45x39mm EPR Tracer every 4";
 };
+class CLASS(60Rnd_545x39_AP_Aegis): CLASS(60Rnd_545x39_Ball_Aegis) {
+    ammo = QCLASS(545x39_AP);
+    displayName = "5.45mm 60Rnd (TE4) AP";
+    displayNameShort = "AP TE4";
+    descriptionShort = "5.45x39mm AP Tracer every 4";
+};
+
 class CLASS(60Rnd_545x39_Ball_Tracer_Aegis): CLASS(60Rnd_545x39_Ball_Aegis) {
     displayName = "5.45mm 60Rnd (T) Ball";
     displayNameShort = "Ball Tracer";
@@ -79,6 +86,12 @@ class CLASS(45Rnd_545x39_EPR_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
     displayName = "5.45mm 45Rnd (TE4) EPR";
     displayNameShort = "EPR TE4";
     descriptionShort = "5.45x39mm EPR Tracer every 4";
+};
+class CLASS(45Rnd_545x39_AP_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
+    ammo = QCLASS(545x39_AP);
+    displayName = "5.45mm 45Rnd (TE4) AP";
+    displayNameShort = "AP TE4";
+    descriptionShort = "5.45x39mm AP Tracer every 4";
 };
 class CLASS(45Rnd_545x39_Ball_Tracer_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
     displayName = "5.45mm 45Rnd (T) Ball";

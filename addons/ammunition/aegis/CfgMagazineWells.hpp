@@ -19,9 +19,11 @@ class CfgMagazineWells {
             QCLASS(30Rnd_545x39_AP_Plum),
             QCLASS(45Rnd_545x39_Ball_Aegis),
             QCLASS(45Rnd_545x39_EPR_Aegis),
+	    QCLASS(45Rnd_545x39_AP_Aegis),
             QCLASS(45Rnd_545x39_Ball_Tracer_Aegis),
             QCLASS(60Rnd_545x39_Ball_Aegis),
             QCLASS(60Rnd_545x39_EPR_Aegis),
+	    QCLASS(60Rnd_545x39_AP_Aegis),
             QCLASS(60Rnd_545x39_Ball_Tracer_Aegis),
         };
     };
