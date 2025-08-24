@@ -45,3 +45,9 @@ extends = "default"
 workshop = [
     "3302425224" # JCA MP5A5
 ]
+
+[jca_ump45]
+extends = "default"
+workshop = [
+    "3397288027" # JCA UMP45
+]
