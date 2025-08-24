@@ -4,31 +4,6 @@ class CfgVehicles {
     class Item_U_BG_Guerilla2_3;
     class Item_Base_F;
 
-    // Server's Up YeeYees
-    class CLASS(Uniform_PMC_Casual_YeeYees_V_Item): Item_Base_F {
-        displayName = "PMC Casual (YeeYees)";
-        scope = 2;
-        scopeCurator = 2;
-        vehicleClass = "ItemsUniforms";
-        class TransportItems {
-            MACRO_ADDITEM(CLASS(Uniform_PMC_Casual_YeeYees),1);
-        };
-    };
-
-    class CLASS(Uniform_PMC_Casual_YeeYees_V): C_Uniform_ArtTShirt_01_v1_F {
-        scope = 1;
-        author = "GilleeDoo, Mike";
-        uniformClass = QCLASS(Uniform_PMC_Casual_YeeYees);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_yeeyees_co.paa)};
-    };
-
-    class CLASS(Uniform_PMC_Casual_Arcadian_V): C_Uniform_ArtTShirt_01_v1_F {
-        scope = 1;
-        author = "GilleeDoo, Mike";
-        uniformClass = QCLASS(Uniform_PMC_Casual_Arcadian);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\pmc_casual_arcadian_co.paa)};
-    };
-
     // ACRE2
     class CLASS(Uniform_PMC_Casual_ACRE2_V_Item): Item_Base_F {
         displayName = "PMC Casual (ACRE2)";
