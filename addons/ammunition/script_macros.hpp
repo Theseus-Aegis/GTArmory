@@ -9,46 +9,6 @@
     tracerScale = 0.5; \
     tracerstartTime = 0.05
 
-#define MACRO_AK12_MAGAZINE_TAN \
-    hiddenSelections[] = {"Camo1"}; \
-    hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\ak12_mag_tan_co.paa"}; \
-    model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30Rnd_AK12.p3d"; \
-    modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30Rnd_AK12.p3d"; \
-    modelSpecialIsProxy = 1; \
-    picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_ak74_ca.paa"
-
-#define MACRO_AK12_MAGAZINE_BLACK \
-    hiddenSelections[] = {"Camo1"}; \
-    hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\ak12_mag_co.paa"}; \
-    model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30Rnd_AK12.p3d"; \
-    modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30Rnd_AK12.p3d"; \
-    modelSpecialIsProxy = 1; \
-    picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_ak74_ca.paa"
-
-#define MACRO_556_MAGAZINE_PMAG_Black \
-    hiddenSelections[] = {"Camo1"}; \
-    hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\cup_pmag_black_co.paa"}; \
-    model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30rnd_pmag.p3d"; \
-    modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30rnd_pmag.p3d"; \
-    modelSpecialIsProxy = 1; \
-    picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_30rnd_pmag_black_ca.paa"
-
-#define MACRO_556_MAGAZINE_PMAG_Tan \
-    hiddenSelections[] = {"Camo1"}; \
-    hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\cup_pmag_coyote_co.paa"}; \
-    picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_30rnd_pmag_coyote_ca.paa"
-
-#define MACRO_556_MAGAZINE_EMAG_Black \
-    hiddenSelections[] = {"Camo1"}; \
-    hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\emag_co.paa"}; \
-    model = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines\CUP_mag_30Rnd_EMAG.p3d"; \
-    modelSpecial = "\CUP\Weapons\CUP_Weapons_Ammunition\magazines_proxy\CUP_mag_30Rnd_EMAG.p3d"; \
-    modelSpecialIsProxy = 1
-
-#define MACRO_556_MAGAZINE_EMAG_Tan \
-    hiddenSelections[] = {"Camo1"}; \
-    hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Ammunition\magazines\data\emag_coyote_co.paa"}
-
 #define MACRO_65_MAGAZINE_MX_Black \
     hiddenSelections[] = {"camo"}; \
     hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_Base_Black_co.paa"}; \

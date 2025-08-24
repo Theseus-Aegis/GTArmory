@@ -1,35 +1,24 @@
-name: Arma
+name: arma
 
 on:
   push:
-    branches:
-    - master
+    branches: [main]
   pull_request:
+    branches: [main]
 
 jobs:
-  validate:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout the source code
-      uses: actions/checkout@v4
-    - name: Validate Config
-      run: python3 tools/config_style_checker.py
-    - name: Check for BOM
-      uses: arma-actions/bom-check@master
-
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-    - name: Checkout the source code
-      uses: actions/checkout@v4
-    - name: Setup HEMTT
-      uses: arma-actions/hemtt@v1
-    - name: Run HEMTT build
-      run: hemtt build
-    - name: Rename build folder
-      run: mv .hemttout/build .hemttout/@gt_armory
-    - uses: actions/upload-artifact@v4
-      with:
-        name: GTArmory_${{ github.sha }}-nobin
-        path: .hemttout/@*
-        include-hidden-files: true # Because .hemttout is a hidden directory
+      - uses: actions/checkout@v4
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1
+
+      - name: Build Mod
+        run: hemtt release
+
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: synixe_armoury.zip
+          path: releases/synixe_armoury-latest.zip

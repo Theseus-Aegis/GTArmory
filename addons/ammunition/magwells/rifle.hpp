@@ -12,8 +12,6 @@ class HunterShotgun_01_12GA {
 
 class CBA_12g_8rnds {
     ADDON[] = {
-        QCLASS(8Rnd_P_000),
-        QCLASS(8Rnd_S_AP20),
         QCLASS(8Rnd_Smoke_M1014)
     };
 };

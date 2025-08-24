@@ -1,61 +1,24 @@
 class CfgMarkers {
-    // Team Specific
-    class CLASS(Ares1) {
+    class CLASS(VRP) {
         scope = 2;
-        name = "Ares 1";
-        icon = QPATHTOF(data\ares1.paa);
+        name = "VRP";
+        icon = QPATHTOF(data\vrp.paa);
         color[] = {1, 1, 1, 1};
         shadow = 1;
         side = 1;
         size = 32;
         showEditorMarkerColor = 1;
-        markerClass = "Theseus";
-    };
-
-    class CLASS(Ares2): CLASS(Ares1) {
-        name = "Ares 2";
-        icon = QPATHTOF(data\ares2.paa);
-    };
-
-    class CLASS(Ares3): CLASS(Ares2) {
-        name = "Ares 3";
-        icon = QPATHTOF(data\ares3.paa);
-    };
-
-    class CLASS(Ares4): CLASS(Ares3) {
-        name = "Ares 4";
-        icon = QPATHTOF(data\ares4.paa);
-    };
-
-    class CLASS(AresActual): CLASS(Ares4) {
-        name = "Ares Actual";
-        icon = QPATHTOF(data\actual.paa);
-    };
-
-    class CLASS(Helios): CLASS(AresActual) {
-        name = "Helios";
-        icon = QPATHTOF(data\helios.paa);
-    };
-
-    class CLASS(Nemesis): CLASS(Helios) {
-        name = "Nemesis";
-        icon = QPATHTOF(data\nemesis.paa);
-    };
-
-    // Planning Specific
-    class CLASS(VRP): CLASS(Ares1) {
-        name = "VRP";
-        icon = QPATHTOF(data\vrp.paa);
+        markerClass = "Synixe";
     };
     class CLASS(WP): CLASS(VRP) {
         name = "Waypoint";
         icon = QPATHTOF(data\waypoint.paa);
     };
-    class CLASS(RP): CLASS(WP) {
+    class CLASS(RP): CLASS(VRP) {
         name = "Rally Point";
         icon = QPATHTOF(data\rallypoint.paa);
     };
-    class CLASS(LZ): CLASS(RP) {
+    class CLASS(LZ): CLASS(VRP) {
         name = "Landing Zone";
         icon = QPATHTOF(data\landingzone.paa);
     };

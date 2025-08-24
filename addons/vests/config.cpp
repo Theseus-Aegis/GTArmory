@@ -9,7 +9,7 @@ class CfgPatches {
             QCLASS(EODHeavyVest_Gry)
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacgt_main", "tacgt_theseus"};
+        requiredAddons[] = {"tacgt_main"};
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};

@@ -1,7 +1,6 @@
 // 5.45x39mm (Using the nice looking AK-12 Mags)
 class CLASS(30Rnd_545x39_Ball): 30Rnd_545x39_Mag_F {
     MACRO_SCOPE;
-    MACRO_AK12_MAGAZINE_TAN;
     ammo = QCLASS(545x39_Ball);
     displayName = "5.45mm 30Rnd Tan (Ball)";
     displayNameShort = "Ball";
@@ -31,19 +30,15 @@ class CLASS(30Rnd_545x39_AP): CLASS(30Rnd_545x39_EPR) {
 
 // 5.45x39mm Black
 class CLASS(30Rnd_545x39_Ball_Black): CLASS(30Rnd_545x39_Ball) {
-    MACRO_AK12_MAGAZINE_BLACK;
     displayName = "5.45mm 30Rnd Black (Ball)";
 };
 class CLASS(30Rnd_545x39_Ball_Tracer_Black): CLASS(30Rnd_545x39_Ball_Tracer) {
-    MACRO_AK12_MAGAZINE_BLACK;
     displayName = "5.45mm 30Rnd Black [T] (Ball)";
 };
 
 class CLASS(30Rnd_545x39_EPR_Black): CLASS(30Rnd_545x39_EPR) {
-    MACRO_AK12_MAGAZINE_BLACK;
     displayName = "5.45mm 30Rnd Black (EPR)";
 };
 class CLASS(30Rnd_545x39_AP_Black): CLASS(30Rnd_545x39_AP) {
-    MACRO_AK12_MAGAZINE_BLACK;
     displayName = "5.45mm 30Rnd Black (AP)";
 };

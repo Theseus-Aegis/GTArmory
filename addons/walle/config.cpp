@@ -13,8 +13,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "tacgt_ammunition",
-            "tacgt_theseus"
+            "tacgt_ammunition"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);

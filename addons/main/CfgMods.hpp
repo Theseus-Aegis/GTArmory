@@ -2,16 +2,16 @@ class CfgMods {
     class Mod_Base;
     class PREFIX: Mod_Base {
         author = CSTRING(Author);
-        dir = "@gt_armory";
+        dir = "@synixe_armoury";
         name = CSTRING(Name);
-        picture = QPATHTOF(ui\tacgt_logo_64.paa);
-        logo = QPATHTOF(ui\tacgt_logo_64.paa);
-        logoOver = QPATHTOF(ui\tacgt_logo_128.paa);
-        logoSmall = QPATHTOF(ui\tacgt_logo_128.paa);
+        picture = QPATHTOF(ui\synixe_armoury_ca.paa);
+        logo = QPATHTOF(ui\synixe_armoury_ca.paa);
+        logoOver = QPATHTOF(ui\synixe_armoury_ca.paa);
+        logoSmall = QPATHTOF(ui\synixe_armoury_ca.paa);
         hidePicture = "true";
         hideName = "true";
         actionName = "GitHub";
-        action = "https://github.com/Theseus-Aegis/GTArmory";
-        description = "Issue Tracker: https://github.com/Theseus-Aegis/GTArmory/issues";
+        action = "https://github.com/SynixeContractors/Armoury";
+        description = "Issue Tracker: https://github.com/SynixeContractors/Armoury/issues";
     };
 };

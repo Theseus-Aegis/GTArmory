@@ -1,5 +1,4 @@
 class CfgWeapons {
-
     // Any missing Magazine Wells are added here.
     class pdw2000_base_F;
     class hgun_PDW2000_F: pdw2000_base_F {

@@ -2,13 +2,13 @@
 <Project name="TACGT">
     <Package name="Main">
         <Key ID="STR_TACGT_Main_Author">
-            <English>Theseus Incorporated</English>
+            <English>Synixe Contractors</English>
         </Key>
         <Key ID="STR_TACGT_Main_Name">
-            <English>GT Armory</English>
+            <English>Synixe Armoury</English>
         </Key>
         <Key ID="STR_TACGT_Main_URL">
-            <English>https://github.com/Theseus-Aegis/GTArmory</English>
+            <English>https://github.com/SynixeContractors/Armoury</English>
         </Key>
     </Package>
 </Project>

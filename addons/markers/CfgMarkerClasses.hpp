@@ -1,5 +1,5 @@
 class CfgMarkerClasses {
-    class Theseus {
-        displayName = "Theseus";
+    class Synixe {
+        displayName = "Synixe";
     };
 };

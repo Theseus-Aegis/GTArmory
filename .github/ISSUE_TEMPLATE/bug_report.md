@@ -8,7 +8,6 @@ assignees: ''
 ---
 
 **Arma 3 Version:** `x.yy`
-**Theseus Modpack Version:** `x.y.z`
 
 **Description:**
 A clear and concise description of what the bug is.

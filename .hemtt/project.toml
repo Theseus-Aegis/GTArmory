@@ -1,27 +1,25 @@
-name = "GT Armory"
+name = "Synixe Armoury"
 prefix = "tacgt"
 mainprefix = "x"
-author = "Theseus Incorporated"
+author = "Synixe Contractors & Theseus Incorporated"
 
 [files]
 include = [
     "mod.cpp",
     "README.md",
-    "tacgt_logo_128.paa",
-    "tacgt_logo_64.paa"
+    "synixe_armoury_ca.paa"
 ]
 
 [version]
 git_hash = 0
 
 [hemtt.release]
-folder = "gt_armory"
+folder = "synixe_armoury"
 
 [hemtt.launch.default]
 workshop = [
     "450814997", # CBA
     "463939057", # ACE3
-    "646999497", # Theseus Services
 ]
 
 [hemtt.launch.zen]
