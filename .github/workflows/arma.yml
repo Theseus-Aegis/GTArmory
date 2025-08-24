@@ -21,4 +21,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: synixe_armoury.zip
-          path: releases/synixe_armoury-latest.zip
+          path: releases/tacgt-latest.zip
