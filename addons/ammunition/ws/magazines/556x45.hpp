@@ -6,6 +6,7 @@ class CLASS(35Rnd_556x45_Ball_R4): 35Rnd_556x45_Velko_reload_tracer_yellow_lxWS 
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(35Rnd_556x45_Ball_Tracer_R4): CLASS(35Rnd_556x45_Ball_R4) {
     displayName = "5.56mm 35Rnd R4 [T] (Ball)";
@@ -33,6 +34,7 @@ class CLASS(50Rnd_556x45_Ball_R4): 50Rnd_556x45_Velko_lxWS {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(50Rnd_556x45_Ball_Tracer_R4): CLASS(50Rnd_556x45_Ball_R4) {
     displayName = "5.56mm 50Rnd R4 [T] (Ball)";
@@ -55,6 +57,7 @@ class CLASS(30Rnd_556x45_Ball_Camo_Stanag): 30Rnd_556x45_Stanag_Tracer_Yellow_ca
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_Camo_Stanag): CLASS(30Rnd_556x45_Ball_Camo_Stanag) {
     displayName = "5.56mm 30Rnd Stanag Camo [T] (Ball)";
@@ -83,6 +86,7 @@ class CLASS(75Rnd_556x45_Ball_Surefire): 75Rnd_556x45_Stanag_lxWS {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
 };
 class CLASS(75Rnd_556x45_Tracer_Surefire): CLASS(75Rnd_556x45_Ball_Surefire) {
     displayName = "5.56mm 75Rnd Surefire [T] (Ball)";

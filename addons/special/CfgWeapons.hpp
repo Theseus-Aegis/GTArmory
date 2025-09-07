@@ -6,9 +6,9 @@ class CfgWeapons {
     class CUP_H_OpsCore_Tan_SF;
     class H_HelmetB_TI_arid_F;
     class H_PilotHelmetHeli_B;
+    class H_CrewHelmetHeli_B;
     class HeadgearItem;
     class hgun_Glock19_RF;
-    class hlc_Pistol_M11A1;
     class hlc_pistol_Mk25TR;
     class hlc_rifle_auga2lsw_b;
     class hlc_rifle_auga3_bl;
@@ -21,7 +21,6 @@ class CfgWeapons {
     class U_C_Uniform_Scientist_02_formal_F;
     class U_I_C_Soldier_Bandit_2_F;
     class U_I_E_Uniform_01_tanktop_F;
-    class Uniform_Base;
     class UniformItem;
 
     // Bruno
@@ -150,6 +149,14 @@ class CfgWeapons {
             QPATHTOF(data\custom_langston_helmet_1_co.paa),
             QPATHTOF(data\custom_langston_helmet_2_co.paa)
         };
+        scope = 2;
+    };
+
+    // Dave Pilot
+    class CLASS(Custom_Langston_Helmet2): H_CrewHelmetHeli_B {
+        author = "GilleeDoo";
+        displayName = "Heli Pilot Helmet Black 'Langston' Edition";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\custom_langston_helmet2_co.paa)};
         scope = 2;
     };
 

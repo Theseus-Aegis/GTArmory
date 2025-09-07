@@ -6,6 +6,7 @@ class CLASS(30Rnd_556x45_Ball_SG): hlc_30Rnd_556x45_EPR_sg550 {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 10;
     picture = "\x\tacgt\addons\ammunition\niarms\data\sig_mag_ca.paa";
 };
@@ -36,6 +37,7 @@ class CLASS(42Rnd_556x45_Ball_AUG): hlc_40Rnd_556x45_B_AUG {
     displayNameShort = "Ball";
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 15;
 };
 class CLASS(42Rnd_556x45_Ball_Tracer_AUG): CLASS(42Rnd_556x45_Ball_AUG) {

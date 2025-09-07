@@ -7,6 +7,7 @@ class CLASS(30Rnd_545x39_Ball): 30Rnd_545x39_Mag_F {
     displayNameShort = "Ball";
     descriptionShort = "5.45x39mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 10;
 };
 class CLASS(30Rnd_545x39_Ball_Tracer): CLASS(30Rnd_545x39_Ball) {

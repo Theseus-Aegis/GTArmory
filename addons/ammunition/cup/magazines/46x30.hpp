@@ -6,6 +6,7 @@ class CLASS(40Rnd_46x30_Ball): CUP_40Rnd_46x30_MP7 {
     displayNameShort = "Ball";
     descriptionShort = "4.6x30mm Ball Reload Tracer";
     lastRoundsTracer = 4;
+    tracersEvery = 4;
     mass = 8;
 };
 class CLASS(40Rnd_46x30_Ball_Tracer): CLASS(40Rnd_46x30_Ball) {
