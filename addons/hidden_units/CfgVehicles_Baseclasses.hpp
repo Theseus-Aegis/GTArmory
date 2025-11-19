@@ -3,7 +3,6 @@
 // Units
 class B_CTRG_Soldier_F;
 class B_CTRG_Soldier_3_F;
-class B_soldier_UAV_F;
 
 // Vehicles
 class LSV_01_light_base_F;

@@ -2,12 +2,7 @@ class CfgVehicles {
     class ModuleFlareRed_F;
     class ModuleFlareGreen_F;
     class ModuleFlareWhite_F;
-    class Logic;
-    class Module_F: Logic {
-        class ModuleDescription {
-            class AnyPlayer;
-        };
-    };
+    class Module_F;
 
     class ModuleFlare_F: Module_F {
         class Arguments {
