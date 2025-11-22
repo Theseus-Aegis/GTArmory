@@ -203,7 +203,7 @@ class CLASS(SA80_GL_Base): CLASS(SA80_Base) {
         discreteDistanceInitIndex = 1;
         magazineReloadSwitchPhase = 0.4;
         reloadAction = "GestureReloadSPARUGL";
-        reloadMagazineSound[] = {QPATHTOF(sounds\sa80\l85a3_ugl_reload.wss), "db-2", 1, 10};
+        reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\UGL\Reload_UGL.wss", "db-2", 1, 10};
     };
 
     class WeaponSlotsInfo: WeaponSlotsInfo {
