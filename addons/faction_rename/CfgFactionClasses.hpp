@@ -43,7 +43,7 @@ class CfgFactionClasses {
         displayName = "[CUP] Bundeswehr";
     };
     class CUP_I_TK_GUE {
-        displayName = "[CUP] Takistani Locals]";
+        displayName = "[CUP] Takistani Locals";
     };
     class CUP_I_UN {
         displayName = "[CUP] United Nations";
