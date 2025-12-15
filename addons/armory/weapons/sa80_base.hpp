@@ -31,7 +31,7 @@ class CLASS(SA80_Base): Rifle_Base_F {
     initSpeed = 930;
     magazines[] = {QCLASS(30Rnd_65x39_Ball_MX_Black)};
     magazineReloadSwitchPhase = 0.34;
-    magazineWell[] = {"CBA_65x39_MX"};
+    magazineWell[] = {"CBA_65x39_MX", "CBA_65x39_MX_XL"};
     maxZeroing = 700;
     model = QPATHTOF(data\sa80\SA80_F.p3d);
     recoil = QCLASS(65_Long_BP);
