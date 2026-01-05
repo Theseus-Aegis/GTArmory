@@ -25,6 +25,7 @@ class CUP_arifle_HK417_Base;
 class CUP_arifle_M16_Base;
 class CUP_arifle_M4_Base;
 class CUP_arifle_M4A1_BUIS_Base;
+class CUP_arifle_M4A1_BUIS_NoUnder_Base;
 class CUP_arifle_Mk17_Base;
 class CUP_arifle_OTS14_GROZA_762_base;
 class CUP_arifle_SCAR_L_Base;
