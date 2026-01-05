@@ -227,10 +227,10 @@ class CUP_arifle_M4A1: CUP_arifle_M4_Base {
 class CUP_arifle_M4A3_black: CUP_arifle_M4A1_BUIS_Base {
     recoil = QCLASS(556_Medium_FG);
 };
-class CUP_arifle_M4A1_MOE_black: CUP_arifle_M4A1_BUIS_Base {
+class CUP_arifle_M4A1_MOE_black: CUP_arifle_M4A1_BUIS_NoUnder_Base {
     recoil = QCLASS(556_Medium_FG);
 };
-class CUP_arifle_M4A1_standard_black: CUP_arifle_M4A1_BUIS_Base {
+class CUP_arifle_M4A1_standard_black: CUP_arifle_M4A1_BUIS_NoUnder_Base {
     recoil = QCLASS(556_Medium_FG);
 };
 class CUP_arifle_M4A1_SOMMOD_black: CUP_arifle_M4A1_BUIS_Base {
@@ -245,10 +245,10 @@ class CUP_arifle_M4A1_BUIS_GL: CUP_arifle_M4A1_BUIS_Base {
 class CUP_arifle_M4A1_GL_carryhandle: CUP_arifle_M4A1 {
     recoil = QCLASS(556_Medium_FG);
 };
-class CUP_arifle_M4A1_MOE_short_black: CUP_arifle_M4A1_BUIS_Base {
+class CUP_arifle_M4A1_MOE_short_black: CUP_arifle_M4A1_BUIS_NoUnder_Base {
     recoil = QCLASS(556_Short_FG);
 };
-class CUP_arifle_M4A1_standard_short_black: CUP_arifle_M4A1_BUIS_Base {
+class CUP_arifle_M4A1_standard_short_black: CUP_arifle_M4A1_BUIS_NoUnder_Base {
     recoil = QCLASS(556_Short_FG);
 };
 
