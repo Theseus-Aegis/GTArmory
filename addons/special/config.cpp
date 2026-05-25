@@ -10,7 +10,13 @@ class CfgPatches {
             QCLASS(Custom_McQuade_Backpack),
             QCLASS(Custom_Sarkozy_Uniform_V),
             QCLASS(Custom_Vee_Uniform_V),
-            QCLASS(Custom_Woods_Uniform_V)
+            QCLASS(Custom_Woods_Uniform_V),
+            QCLASS(Custom_Fifright_Uniform_Item),
+            QCLASS(Custom_Laird_Uniform_Item),
+            QCLASS(Custom_Mathews_Uniform_Item),
+            QCLASS(Custom_Vee_Uniform_Item),
+            QCLASS(Custom_Woods_Uniform_Item),
+            QCLASS(Custom_Sarkozy_Uniform_Item)
         };
         weapons[] = {
             QCLASS(Custom_Almeida_HK416),

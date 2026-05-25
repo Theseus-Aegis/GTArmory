@@ -8,7 +8,7 @@ class CfgSoundShaders {
         };
         volume = "1.5*(1-interior)";
         samples[] = {
-            {"hlc_wp_p226\snd\p226_close", 1}
+            {"hlc_wp_p226\snd\p226_close.wss", 1}
         };
     };
 };
