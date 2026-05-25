@@ -37,17 +37,17 @@ class CLASS(MP7_Suppressor_Black): ItemCore {
         };
 
         class MuzzleCoef {
-			artilleryDispersionCoef = "1.0f";
-			dispersionCoef = "0.8f";
-			fireLightCoef = "0.1f";
-			maxRangeCoef = "1.0f";
-			maxRangeProbabCoef = "1.0f";
-			midRangeCoef = "1.0f";
-			midRangeProbabCoef = "1.0f";
-			minRangeCoef = "1.0f";
-			minRangeProbabCoef = "1.0f";
-			recoilCoef = "1.0f";
-			recoilProneCoef = "1.0f";
+            artilleryDispersionCoef = "1.0f";
+            dispersionCoef = "0.8f";
+            fireLightCoef = "0.1f";
+            maxRangeCoef = "1.0f";
+            maxRangeProbabCoef = "1.0f";
+            midRangeCoef = "1.0f";
+            midRangeProbabCoef = "1.0f";
+            minRangeCoef = "1.0f";
+            minRangeProbabCoef = "1.0f";
+            recoilCoef = "1.0f";
+            recoilProneCoef = "1.0f";
         };
     };
 };
