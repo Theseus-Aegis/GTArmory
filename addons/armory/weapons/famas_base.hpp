@@ -63,7 +63,7 @@ class CLASS(Famas_Base): Rifle_Base_F {
         "fullauto_medium"
     };
     muzzles[] = {"this", QCLASS(Famas_RifleGrenade)};
-    recoil = "recoil_trg20";
+    recoil = QCLASS(556_Long_BP);
     reloadAction = "GestureReloadFAMAS";
     reloadMagazineSound[] = {QPATHTOF(data\famas\FAMAS_reload.ogg), 1, 1, 35};
     scope = 0;

@@ -54,6 +54,7 @@ class CLASS(Famas_G2_Grip): CLASS(Famas_Base) {
     };
     model = QPATHTOF(data\famas\Atlas_arifle_g2_hg.p3d);
     picture = QPATHTOF(ui\icon_famas_g2_grip_ca.paa);
+    recoil = QCLASS(556_Long_FG);
     scope = 2;
     scopeCurator = 2;
 };
@@ -88,6 +89,7 @@ class CLASS(Famas_G2_GL): CLASS(Famas_GL_Base) {
     model = QPATHTOF(data\famas\Atlas_arifle_G2_M203.p3d);
     muzzles[] = {"this", QCLASS(Famas_M203)};
     picture = QPATHTOF(ui\icon_famas_g2_gl_ca.paa);
+    recoil = QCLASS(556_Long_FG);
     scope = 2;
     scopeCurator = 2;
     class WeaponSlotsInfo: WeaponSlotsInfo {
