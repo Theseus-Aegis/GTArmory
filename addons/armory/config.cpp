@@ -5,6 +5,9 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {
+            QCLASS(Famas_G2),
+            QCLASS(Famas_G2_Grip),
+            QCLASS(Famas_G2_GL),
             QCLASS(KSG_Olive),
             QCLASS(KSG_Black),
             QCLASS(MP7_Black),
@@ -39,10 +42,13 @@ class CfgPatches {
 class asdg_FrontSideRail;
 class asdg_MuzzleSlot_65;
 class asdg_MuzzleSlot_46;
+class asdg_MuzzleSlot_556;
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
+class asdg_OpticRail1913_long;
 class asdg_UnderSlot;
 class Mode_FullAuto;
+class Mode_Burst;
 class Mode_SemiAuto;
 
 #include "CfgGesturesMale.hpp"
