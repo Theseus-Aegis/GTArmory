@@ -9,6 +9,7 @@ class CfgWeapons {
     };
     class UGL_F;
 
+    #include "weapons\famas.hpp"
     #include "weapons\ksg.hpp"
     #include "weapons\sa80.hpp"
     #include "weapons\mp7.hpp"

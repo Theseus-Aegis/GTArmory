@@ -132,7 +132,7 @@ class CLASS(MP7_Base): Rifle_Short_Base_F {
         midRangeProbab = 0.7;
         minRange = 2;
         minRangeProbab = 0.3;
-        reloadTime = 0.0631;
+        reloadTime = 0.06315789;
         sounds[] = {"StandardSound", "SilencedSound"};
         class BaseSoundModeType;
         class StandardSound: BaseSoundModeType {
@@ -160,7 +160,7 @@ class CLASS(MP7_Base): Rifle_Short_Base_F {
         midRangeProbab = 0.7;
         minRange = 0;
         minRangeProbab = 0.1;
-        reloadTime = 0.0631;
+        reloadTime = 0.06315789;
         sounds[] = {"StandardSound", "SilencedSound"};
         class BaseSoundModeType;
         class StandardSound: BaseSoundModeType {
