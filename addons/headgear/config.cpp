@@ -11,7 +11,8 @@ class CfgPatches {
             QCLASS(Cap_DEF_NYMets),
             QCLASS(Cap_DEF_ASU),
             QCLASS(Cap_Medic),
-            QCLASS(PASGT_ASU)
+            QCLASS(PASGT_ASU),
+            QCLASS(Cap_GT)
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
