@@ -1,4 +1,6 @@
 class CLASS(Famas_Base): Rifle_Base_F {
+    ACE_BarrelLength = 488;
+    ACE_BarrelTwist = 228.6;
     aimTransitionSpeed = 1.1;
     author = "Aegis Team, Mike";
     bullet10[] = {"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_02.wss", 0.562341, 1, 15};
@@ -122,15 +124,8 @@ class CLASS(Famas_Base): Rifle_Base_F {
             iconPosition[] = {0.5, 0.35};
             iconScale = 0.2;
             linkProxy = "\a3\data_f\proxies\weapon_slots\TOP";
-
         };
-        class PointerSlot: asdg_FrontSideRail {
-            displayName = "Pointer Slot";
-            iconPicture = "\a3\weapons_f\Data\ui\attachment_side";
-            iconPosition[] = {0.2, 0.45};
-            iconScale = 0.25;
-            linkProxy = "\a3\data_f\proxies\weapon_slots\SIDE";
-        };
+        class PointerSlot {};
         mass = 90;
     };
 
