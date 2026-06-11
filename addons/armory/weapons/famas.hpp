@@ -93,6 +93,7 @@ class CLASS(Famas_G2_GL): CLASS(Famas_GL_Base) {
     scope = 2;
     scopeCurator = 2;
     class WeaponSlotsInfo: WeaponSlotsInfo {
+        class PointerSlot {};
         mass = 110;
     };
 };
