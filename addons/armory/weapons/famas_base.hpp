@@ -125,7 +125,13 @@ class CLASS(Famas_Base): Rifle_Base_F {
             iconScale = 0.2;
             linkProxy = "\a3\data_f\proxies\weapon_slots\TOP";
         };
-        class PointerSlot {};
+        class PointerSlot: asdg_FrontSideRail {
+            linkProxy = "\a3\data_f\proxies\weapon_slots\SIDE";
+            displayName = "Pointer Slot";
+            iconPicture = "\a3\weapons_f\Data\ui\attachment_side";
+            iconPosition[] = {0.2, 0.45};
+            iconScale = 0.25;
+        };
         mass = 90;
     };
 
