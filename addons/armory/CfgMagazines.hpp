@@ -1,4 +1,6 @@
 class CfgMagazines {
+    #include "weapons\grenades.hpp"
+
     class CA_Magazine;
     class CLASS(40Rnd_46x30_MP7_Ball): CA_Magazine {
         ammo = QCLASS(46x30_Ball);

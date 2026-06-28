@@ -51,6 +51,7 @@ class Mode_FullAuto;
 class Mode_Burst;
 class Mode_SemiAuto;
 
+#include "CfgAmmo.hpp"
 #include "CfgGesturesMale.hpp"
 #include "CfgInGameUI.hpp"
 #include "CfgMagazines.hpp"
