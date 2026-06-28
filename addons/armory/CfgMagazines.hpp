@@ -19,7 +19,7 @@ class CfgMagazines {
     };
 
     class CLASS(40Rnd_46x30_MP7_Ball_Tracer): CLASS(40Rnd_46x30_MP7_Ball) {
-        displayName = "4.6mm 40Rnd [T] (Ball)";
+        displayName = "4.6mm 40Rnd MP7 [T] (Ball)";
         displayNameShort = "Ball Tracer";
         descriptionShort = "4.6x30mm Ball Tracer";
         tracersEvery = 1;
