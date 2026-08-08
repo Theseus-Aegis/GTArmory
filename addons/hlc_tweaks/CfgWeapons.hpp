@@ -6,8 +6,22 @@ class CfgWeapons {
     class hlc_rifle_honeybase;
     class hlc_aug_base;
     class hlc_rifle_auga2carb;
+    class hlc_wp_mod653;
 
     #include "hidden_attachments.hpp"
+
+
+    class hlc_wp_mod723: hlc_wp_mod653 {
+        class LinkedItems {
+            delete LinkedItemsMuzzle;
+        };
+    };
+
+    class hlc_wp_mod733: hlc_wp_mod653 {
+        class LinkedItems {
+            delete LinkedItemsMuzzle;
+        };
+    };
 
     // Some cause pop-up errors.
     class hlc_rifle_aug: hlc_aug_base {
