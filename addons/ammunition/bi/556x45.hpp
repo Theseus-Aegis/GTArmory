@@ -1,3 +1,33 @@
+// 5.56x45mm STANAG (Vanilla)
+class CLASS(30Rnd_556x45_Ball_Stanag): 30Rnd_556x45_Stanag {
+    MACRO_SCOPE;
+    ammo = QCLASS(556x45_Ball);
+    displayName = "5.56mm 30Rnd Stanag Metal (Ball)";
+    displayNameShort = "Ball";
+    descriptionShort = "5.56x45mm Ball Reload Tracer";
+    lastRoundsTracer = 4;
+    mass = 10;
+    tracersEvery = 4;
+};
+class CLASS(30Rnd_556x45_Ball_Tracer_Stanag): CLASS(30Rnd_556x45_Ball_Stanag) {
+    displayName = "5.56mm 30Rnd Stanag Metal [T] (Ball)";
+    displayNameShort = "Ball Tracer";
+    descriptionShort = "5.56mm Ball Tracer";
+    tracersEvery = 1;
+};
+class CLASS(30Rnd_556x45_EPR_Stanag): CLASS(30Rnd_556x45_Ball_Stanag) {
+    ammo = QCLASS(556x45_EPR);
+    displayName = "5.56mm 30Rnd Stanag Metal (EPR)";
+    displayNameShort = "EPR";
+    descriptionShort = "5.56x45mm EPR Reload Tracer";
+};
+class CLASS(30Rnd_556x45_AP_Stanag): CLASS(30Rnd_556x45_Ball_Stanag) {
+    ammo = QCLASS(556x45_AP);
+    displayName = "5.56mm 30Rnd Stanag Metal (AP)";
+    displayNameShort = "AP";
+    descriptionShort = "5.56x45mm AP Reload Tracer";
+};
+
 // 5.56x45mm Belt
 class CLASS(200Rnd_556x45_Ball_Belt): 200Rnd_556x45_Box_F {
     MACRO_SCOPE;

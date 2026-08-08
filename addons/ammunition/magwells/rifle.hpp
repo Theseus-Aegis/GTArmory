@@ -96,6 +96,15 @@ class CBA_580x42_TYPE95_XL {
     };
 };
 
+class CBA_556x45_STANAG {
+    ADDON[] = {
+        QCLASS(30Rnd_556x45_Ball_Stanag),
+        QCLASS(30Rnd_556x45_Ball_Tracer_Stanag),
+        QCLASS(30Rnd_556x45_EPR_Stanag),
+        QCLASS(30Rnd_556x45_AP_Stanag)
+    };
+};
+
 class CBA_556x45_STANAG_2D_XL {
     ADDON[] = {
         QCLASS(150Rnd_556x45_Ball_Drum),

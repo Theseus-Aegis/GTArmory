@@ -9,6 +9,7 @@ class CfgMagazines {
     class 30Rnd_45ACP_Mag_SMG_01;
     class 50Rnd_570x28_SMG_03;
     class 30Rnd_580x42_Mag_F;
+    class 30Rnd_556x45_Stanag;
     class 100Rnd_580x42_Mag_F;
     class 150Rnd_556x45_Drum_Mag_F;
     class 200Rnd_556x45_Box_F;
